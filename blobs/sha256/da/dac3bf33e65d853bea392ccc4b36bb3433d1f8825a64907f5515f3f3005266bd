@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:snh="https://w3id.org/soranoha/ns/tei" snh:vocab-version="1">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ja">墨並びに硯の物理学的研究</title>
+        <title type="reading" xml:lang="ja-Hira">すみならびにすずりのぶつりがくてきけんきゅう</title>
+        <author><persName xml:lang="ja"><surname>中谷</surname><forename>宇吉郎</forename><idno type="aozora-person-id">001569</idno></persName><persName xml:lang="ja-Hira"><surname>なかや</surname><forename>うきちろう</forename></persName><persName xml:lang="ja-Latn"><surname>Nakaya</surname><forename>Ukichiro</forename></persName></author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://w3id.org/soranoha/">Soranoha</publisher>
+        <idno type="soranoha-work-identifier">059220_001569</idno>
+        <idno type="aozora-work-id">059220</idno>
+        <idno type="aozora-card-url">https://www.aozora.gr.jp/cards/001569/card59220.html</idno>
+        <date when="2022-08-27">2022-08-27</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">The underlying work is in the public domain; Soranoha asserts no rights over it.</licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Soranoha's encoding of this work and the artifacts derived from it are dedicated to the public domain under CC0-1.0. Attribution is requested, not required. Full rights statement: <ptr target="https://w3id.org/soranoha/rights"/></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>寺田寅彦　わが師の追想</title><publisher>講談社学術文庫、講談社</publisher><date>2014（平成26）年11月10日</date><note type="input-edition">2014（平成26）年11月10日第1刷</note><note type="proof-edition">2014（平成26）年11月10日第1刷</note></bibl>
+        <bibl type="first-publication">「畫説」東京美術研究所、1938（昭和13）年1月</bibl>
+        <bibl><idno type="source-content-hash">sha256:0f5233228fb41face3d76d63b5a3f899e7daa6a2a38cba710a518f6b4c56920e</idno></bibl>
+        <bibl><idno type="primary-text-hash">sha256:c72f1980ab0166f4e0d6ef0410eb500b095db866dfe1671b6c3c5409613ccfd6</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css"/>
+      <classDecl><taxonomy xml:id="ndc"><bibl>日本十進分類法 (Nippon Decimal Classification), as recorded by <title>青空文庫</title> in its 分類番号 field.</bibl></taxonomy><taxonomy xml:id="aozora-orthography"><bibl><title>青空文庫</title> 文字遣い種別: the orthographic style Aozora Bunko records for the transcription.</bibl></taxonomy></classDecl>
+      <refsDecl xml:id="source-spans"><p>A note of type source-span has an xml:id of the form source-START-END, giving the extent in UTF-8 bytes of the decoded primary text identified in sourceDesc. <ptr target="https://w3id.org/soranoha/ns/tei"/></p></refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ja">日本語</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#aozora-orthography">新字新仮名</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-490-909">前文に於て墨流しの現象の物理学的研究を紹介した。その研究では墨を磨る時の水の成分のことは詳しく調べてあったが、用いた硯は普通市販の一定の硯に限られていた。それで寺田先生は次に、色々の墨を色々の硯で磨った時に、墨汁の膠質的性質が如何に変わるかという問題にとりかかられたのである。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-909-1828">墨汁の色々の性質特に墨色などが、墨の良否によるばかりでなく、硯の種類によっても著しく左右されるということは、画家及び書家の間では常識となっている。古来名硯と称せられるものの色々の特性については、伝説的な説明が沢山ついているが、それらの主張は主として古代の支那文献から伝わったものである。例えば良い硯で墨を磨ると、ちょうど熱した銅の上で蝋を磨るような手触りであるというような説明がある。従来の大抵の記載はこの種の主観的なものが多いのであるが、この実験で墨と硯との間の摩擦係数、墨のおり方、粒子の大きさなどを調べて見ると、墨汁の物理的性質は硯によってもまた著しく異なるということが、客観的に実証されたのであった。</seg></p>
+      <div type="layout" source="#source-1828-1919" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-1849-1915"><seg source="#source-1849-1867">墨を磨る装置</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-1919-2446">墨と硯との関係を定量的に決めるには、第一に磨り方を一定にする必要がある。一定の墨を甲乙二つの硯で磨って得た墨汁を比較する時、磨り方が異なっていたら何もいうことは出来ない。それで、墨の底面が一定の圧力で、垂直に硯の面に圧しつけられながら、決まった距離を決まった週期で、反覆的に動くような装置を作る必要がある。第一図はその目的の為に作られた装置である。</seg></p>
+        <p><figure source="#source-2446-2547"><graphic url="fig59220_01.png" width="578px" height="244px"/><note type="caption-reference"><seg source="#source-2455-2464">第一図</seg></note></figure></p>
+        <p><seg type="caption" source="#source-2549-2603"><seg source="#source-2549-2558">第一図</seg></seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-2607-2814">図中Ｖが硯で、Ｓが墨である。Ｈは墨をはさむ筒で、それがＫなる外側の鞘の中を垂直に上下するようになっている。Ｗは重量である。ＫとＨとの間の</seg><ruby type="furigana" rend="right" source="#source-2814-2829"><rb>辷</rb><rt>すべ</rt></ruby><seg source="#source-2829-3073">りをよくして置くと、墨の硯に対する圧力はＷで決まる。Ｍがモーターで、プレーＰとクランクＣとを用いると、墨を一定速度で一定距離磨らすことが出来る。この実験ではＷは1.36</seg><ruby type="furigana" rend="right" source="#source-3073-3097"><rb>瓩</rb><rt>キログラム</rt></ruby><seg source="#source-3097-3199">のものを用い、往復運動は一分間に百回の割合で、硯上を墨が動く距離を五</seg><ruby type="furigana" rend="right" source="#source-3199-3220"><rb>糎</rb><rt>センチ</rt></ruby><seg source="#source-3220-3819">とした。この装置では硯の海だけに水を入れて置いて、時々墨がその中から水をとって来て磨るというわけには行かない。それで硯の縁まで一杯に蒸溜水を入れて、水の中で磨ることとした。墨色などをやかましく論ずる時には、この磨り方ではよくないという議論も出るかもしれないが、今の実験ではその点には触れないこととする。実際に人間の手で墨を磨るのと全く同じ機構を、機械的にやらすにはなかなか面倒な装置が要るのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-3819-3999">この実験では、以上の装置で三十分間磨らせて、その墨汁の色々の物理的性質を調べることとした。三十分で墨は硯の上を総計三百</seg><ruby type="furigana" rend="right" source="#source-3999-4023"><rb>米</rb><rt>メートル</rt></ruby><seg source="#source-4023-4054">動いたこととなる。</seg></p>
+      </div>
+      <div type="layout" source="#source-4054-4175" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-4075-4171"><seg source="#source-4075-4108">使用した墨と硯との種類</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-4175-4765">墨も硯も特殊のものは用いず、普通に手に入るものについて調べた。墨は四種類で、その大きさ、密度などは第一表に示す如くである。墨の組成は同じ種類のものでも、一本一本について少し異なることは考えられるし、また一本の墨についても端の方と真ん中とでは違うので、磨って行くうちに性質が異なって来ることも考えて置く必要がある。しかしこの実験の精度の範囲内では、その点まで心配しなくても良いことが分かった。</seg></p>
+        <p><figure source="#source-4765-4866"><graphic url="fig59220_02.png" width="585px" height="252px"/><figDesc>「第一表」のキャプション付きの表</figDesc></figure></p>
+        <p><seg type="caption" source="#source-4868-4922"><seg source="#source-4868-4877">第一表</seg></seg></p>
+        <p><figure source="#source-4926-5027"><graphic url="fig59220_03.png" width="692px" height="206px"/><figDesc>「第二表」のキャプション付きの表</figDesc></figure></p>
+        <p><seg type="caption" source="#source-5029-5083"><seg source="#source-5029-5038">第二表</seg></seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-5087-5776">次に硯は第二表に示すような四種類のものを用いた。この中真鍮及び鉄の硯は、理研の工場でこの研究の為に作ったものである。硯の形及び大きさは第二表に示した如くである。表中ａｂｃ…等は第二図にあるように、硯の各部分の長さである。Ｖは硯の縁まで一杯に水を入れた時の容積を示す。金属製の硯は従来ほとんど使用されていないので、何か欠点があるのだろうという見込みで、わざわざ作って調べて見たのであるが、やはり色々な点で石の硯より劣っていた。その結果は後に述べる通りである。</seg></p>
+        <p><figure source="#source-5776-5877"><graphic url="fig59220_04.png" width="366px" height="320px"/><note type="caption-reference"><seg source="#source-5785-5794">第二図</seg></note></figure></p>
+        <p><seg type="caption" source="#source-5879-5933"><seg source="#source-5879-5888">第二図</seg></seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-5937-6469">次に硯の乾かし方が問題になる。特に摩擦係数の測定の際にはその影響が大きいので、硯がほんの少し湿っていても測定結果がまちまちになるのであった。それで硯を一度使用する毎に、まず水道の水で十分洗い、次に蒸溜水で洗って、それを大きい硝子器に入れ、その内部を低度の真空にして、その中で乾かした。こういう風にすると、塵の心配もなく、測定結果も一定の値が得られた。</seg></p>
+      </div>
+      <div type="layout" source="#source-6469-6572" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-6490-6568"><seg source="#source-6490-6514">墨のおり方の測定</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-6572-7876">以上の装置で墨を三十分間磨って、その時水の中へ溶け出た墨の実質の目方をＱとする。Ｑは墨の目方を予め測っておいて、磨り減ってからまた測り、その差を見れば分かるはずであるが、実際には磨っている間に水を吸収するので、後の目方を測るには注意が要る。それでＱを測るのに二つの方法を用いた。第一は、墨を空気中に放置した状態で前の目方を測っておく。次に磨り減らした後に、墨汁をよく拭いとって天秤の皿に載せて放置し、時々目方を測る。するとだんだん乾燥して行くので、目方が少しずつ軽くなる。それを曲線に描いて、その終局の値を推定すれば、磨り減った後の墨の空中での乾燥状態の目方が分かる。それで前の目方との差をとればＱが分かるのである。第二の方法は、墨を磨る前も後も、いつでも目方を測る前には、真空中で二、三時間乾燥させてそれから測定するのである。この二つの方法を試して見たら、大体一致した結果が得られたので、これらの方法で磨り減った量をかなり精密に測定することが出来ることが分かった。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-7876-8519">このようなことをくだくだしく説明するのは、不必要と思われるかもしれないが、実際のところ磨り減った墨の量を測定するという簡単なことでも、実際にはなかなか厄介なのである。墨の目方は相当あり、磨り減った量はごく少ないので、前後の目方の差から磨り減った量を測るには、色々な注意が要るのである。ちょうど甕の目方を測っておいて、それに水を一滴入れてまた目方を測り、前後の値の差から水滴の量を測定するというような場合と似ているからである。</seg></p>
+      </div>
+      <div type="layout" source="#source-8519-8658" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-8540-8654"><seg source="#source-8540-8582">墨と硯との間の摩擦係数の測定</seg></head>
+        </div>
+      </div>
+      <div>
+        <p><figure source="#source-8658-8759"><graphic url="fig59220_05.png" width="325px" height="272px"/><note type="caption-reference"><seg source="#source-8667-8676">第三図</seg></note></figure></p>
+        <p><seg type="caption" source="#source-8761-8815"><seg source="#source-8761-8770">第三図</seg></seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-8819-9041">摩擦係数は静止の状態から動き始める時の値、即ち静摩擦係数を測った。同時に硝子と硯との間の摩擦係数も測定して両者を比較した。墨と硯との間の摩擦係数を</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-9041-9126"><seg source="#source-9059-9061">μ</seg><hi rend="subscript" source="#source-9061-9099"><seg source="#source-9061-9062">s</seg></hi></hi><seg source="#source-9126-9162">とし、硝子と硯との場合を</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-9162-9247"><seg source="#source-9180-9182">μ</seg><hi rend="subscript" source="#source-9182-9220"><seg source="#source-9182-9183">g</seg></hi></hi><seg source="#source-9247-9259">とした。</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-9259-9344"><seg source="#source-9277-9279">μ</seg><hi rend="subscript" source="#source-9279-9317"><seg source="#source-9279-9280">s</seg></hi></hi><seg source="#source-9344-9457">の測定には第三図のような装置を作り、墨片Ｐが滑り落ち始める時の角θを測って、</seg><hi rend="yokogumi horizontal" snh:layout-kind="yokogumi" snh:layout-params="direction=horizontal" source="#source-9457-9550"><seg source="#source-9475-9477">μ</seg><hi rend="subscript" source="#source-9477-9515"><seg source="#source-9477-9478">s</seg></hi><seg source="#source-9515-9523">＝tanθ</seg></hi><seg source="#source-9550-9562">によって</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-9562-9647"><seg source="#source-9580-9582">μ</seg><hi rend="subscript" source="#source-9582-9620"><seg source="#source-9582-9583">s</seg></hi></hi><seg source="#source-9647-9715">を求めた。Ｐは墨 No.1から切り取った四角の片で、</seg><hi rend="yokogumi horizontal" snh:layout-kind="yokogumi" snh:layout-params="direction=horizontal" source="#source-9715-9773"><seg source="#source-9733-9746">1.7×1.2×1.1</seg></hi><seg source="#source-9773-9779">立方</seg><ruby type="furigana" rend="right" source="#source-9779-9800"><rb>糎</rb><rt>センチ</rt></ruby><seg source="#source-9800-9827">の大きさで、目方3.4</seg><ruby type="furigana" rend="right" source="#source-9827-9845"><rb>瓦</rb><rt>グラム</rt></ruby><seg source="#source-9845-9869">のものを用いた。</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-9869-9954"><seg source="#source-9887-9889">μ</seg><hi rend="subscript" source="#source-9889-9927"><seg source="#source-9889-9890">s</seg></hi></hi><seg source="#source-9954-10098">の測定には硯上の墨の位置を色々かえ、二十回の観測の平均を採った。この測定の直後、墨片を硝子の円板</seg><hi rend="font-size small(1)" snh:layout-kind="font-size" snh:layout-params="size-type=small;level=1" source="#source-10098-10257"><seg source="#source-10131-10143">（直径1.4</seg><ruby type="furigana" rend="right" source="#source-10143-10161"><rb>糎</rb><rt>センチ</rt></ruby><seg source="#source-10161-10173">、厚さ0.6</seg><ruby type="furigana" rend="right" source="#source-10173-10191"><rb>糎</rb><rt>センチ</rt></ruby><seg source="#source-10191-10203">、重量3.1</seg><ruby type="furigana" rend="right" source="#source-10203-10221"><rb>瓦</rb><rt>グラム</rt></ruby><seg source="#source-10221-10224">）</seg></hi><seg source="#source-10257-10323">にかえて、前と同様にして硝子と硯との摩擦係数</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-10323-10408"><seg source="#source-10341-10343">μ</seg><hi rend="subscript" source="#source-10343-10381"><seg source="#source-10343-10344">g</seg></hi></hi><seg source="#source-10408-10428">を測定した。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-10428-10732">普通に摩擦係数というと、堅い固体の表面間のものしか研究がして無いので、墨と硯のように一方が磨り減る場合には、問題がずっと難しくなる。それで硝子の場合も測定しておいて、それと比較しようというのである。</seg></p>
+      </div>
+      <div type="layout" source="#source-10732-10841" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-10753-10837"><seg source="#source-10753-10780">墨粒子の直径の測定</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-10841-11102">墨粒子の大きさの測定には、上述の装置で三十分間磨って得た墨汁は濃すぎるので、測定に適するように薄めて用いた。普通三百倍ないし三千倍に薄めてちょうどよかった。即ち墨汁の濃度を</seg><hi rend="yokogumi horizontal" snh:layout-kind="yokogumi" snh:layout-params="direction=horizontal" source="#source-11102-11198"><seg source="#source-11120-11127">1.6×10</seg><hi rend="superscript" source="#source-11127-11171"><seg source="#source-11127-11131">－5</seg></hi></hi><seg source="#source-11198-11207">ないし</seg><hi rend="yokogumi horizontal" snh:layout-kind="yokogumi" snh:layout-params="direction=horizontal" source="#source-11207-11303"><seg source="#source-11225-11232">3.5×10</seg><hi rend="superscript" source="#source-11232-11276"><seg source="#source-11232-11236">－6</seg></hi></hi><ruby type="furigana" rend="right" source="#source-11303-11321"><rb>瓦</rb><rt>グラム</rt></ruby><seg source="#source-11321-11327">立方</seg><ruby type="furigana" rend="right" source="#source-11327-11348"><rb>糎</rb><rt>センチ</rt></ruby><seg source="#source-11348-11465">くらいにして、前文の説明のようにツァイスの格外顕微鏡で粒子の数を算えた。墨汁の</seg><hi rend="yokogumi horizontal" snh:layout-kind="yokogumi" snh:layout-params="direction=horizontal" source="#source-11465-11556"><seg source="#source-11483-11485">10</seg><hi rend="superscript" source="#source-11485-11529"><seg source="#source-11485-11489">－9</seg></hi></hi><seg source="#source-11556-11562">立方</seg><ruby type="furigana" rend="right" source="#source-11562-11583"><rb>糎</rb><rt>センチ</rt></ruby><seg source="#source-11583-11840">をとって、その中にある粒子数を数えたのであるが、算えた数は150くらいの場合から2300にも達した場合があった。この数から墨の密度を1.4として前文と同様にして粒子の直径を算出した。</seg></p>
+      </div>
+      <div type="layout" source="#source-11840-11955" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-11861-11951"><seg source="#source-11861-11891">磨墨による硯面の変化</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-11955-12906">一定の墨を一定の硯で、第一図の装置を用いて、一定の条件の下で磨っても、墨のおりる量Ｑはその都度異なる。即ち磨墨の為に硯の面も幾分磨り減って滑らかになることが分かった。この関係を調べる為に、硯の面を細かい砂紙で大体一定の条件の下で磨いて、各系の実験の始めに於て、硯の面を同じような粗さにしておく。そして第一図の装置で三十分間磨ってその際墨のおりた量Ｑと、その墨汁の粒子直径Ｄとを測定する。それから硯を洗って、真空内で乾かして、摩擦係数を測る。次に硯の面をそのままにしてまた三十分磨って見る。すると今度はＱが少し小さくなることが分かった。そういうことを二十回ばかり繰り返して一系の実験を済ませる。次には硯の面をまた砂紙でこすって新しくし</seg><ruby type="furigana" rend="right" source="#source-12906-12921"><rb>旧</rb><rt>もと</rt></ruby><seg source="#source-12921-13046">くらいの粗さにして、別の墨で全く同様な実験を繰り返すという具合にして実験を進めた。</seg></p>
+        <p><figure source="#source-13046-13147"><graphic url="fig59220_06.png" width="614px" height="444px"/><note type="caption-reference"><seg source="#source-13055-13064">第四図</seg></note></figure></p>
+        <p><seg type="caption" source="#source-13149-13203"><seg source="#source-13149-13158">第四図</seg></seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-13207-14310">紫雲石の硯について四種類の墨を調べた結果は、第四図に示す如くである。即ちＱの値は大体対数曲線的に減じて行くが、最後になるとほとんど一定の値になる。硯を手入れせずに長く使っている場合ならば、この最後のＱの値がその墨のおり具合の遅速を示すものとなる。この結果で見ると、おり方は墨によって著しく異なり、墨 No.2が一番速くおり、No.4はその三分の一以下しかおりないことが分かる。簡単に云えば No.4が一番堅い墨ということになる。これは第一表に示すように、比較的旧い墨であるが、年代が経つと堅くなるのか否かはこの一例では決定出来ない。色々の材料があれば、その点を確かめることが出来るはずである。曲線の初めの部分即ち急に減少する部分は大体同じ形であるが、No.4の場合だけは著しく急に減少している。即ち堅い墨で磨ると硯の面の磨り減り方が速いことがよく見られる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-14310-14384">この曲線をごく大ざっぱに見て対数曲線とすると、</seg></p>
+      </div>
+      <div type="layout" source="#source-14384-14550" style="padding-inline-start: 12em">
+        <p><hi rend="yokogumi horizontal" snh:layout-kind="yokogumi" snh:layout-params="direction=horizontal" source="#source-14408-14548"><seg source="#source-14426-14435">Ｑ＝Ｑ</seg><hi rend="subscript" source="#source-14435-14473"><seg source="#source-14435-14436">0</seg></hi><seg source="#source-14473-14475">θ</seg><hi rend="superscript" source="#source-14475-14521"><seg source="#source-14475-14480">－kn</seg></hi></hi></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-14550-14743">という式で表せる。ここでｎは磨った回数をあらわし、ｋが硯の面の磨り減り方を示す係数となる。ｋが大きいと速く磨り減るのである。</seg></p>
+      </div>
+      <div type="layout" source="#source-14743-14840" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-14764-14836"><seg source="#source-14764-14785">各種の硯の比較</seg></head>
+        </div>
+      </div>
+      <div>
+        <p><figure source="#source-14840-14941"><graphic url="fig59220_07.png" width="610px" height="455px"/><note type="caption-reference"><seg source="#source-14849-14858">第五図</seg></note></figure></p>
+        <p><seg type="caption" source="#source-14943-14997"><seg source="#source-14943-14952">第五図</seg></seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-15001-15666">各種の硯を用いて一定の墨を磨り、前と同様の実験を行うと、硯の性能の比較が出来る。第五図は墨 No.1をそれぞれ紫雲石、雨端石及び真鍮の硯で磨った場合の結果を示すものである。鉄の硯も真鍮の場合とほとんど同じ値を示すもので、混雑を省く為に図では鉄の場合を略してあるが、真鍮とほとんど同じ曲線になると思って差し支えない。第五図の結果で著しいことは、雨端石の硯は、非常に速く磨り減るということである。即ちこの硯では面が粗い間は相当よく墨がおりるが、その面は</seg><ruby type="furigana" rend="right" source="#source-15666-15678"><rb>直</rb><rt>じ</rt></ruby><seg source="#source-15678-16186">きに平滑になってしまって、暫く使っていると紫雲石の場合の十分の一も墨がおりなくなってしまうのである。真鍮や鉄の硯も雨端石と全く同様であった。即ち硯のおり方を問題とすると、紫雲石が優れて良く、雨端石や金属の硯は非常に悪いということになる。もっとも後述の如く、Ｑが小さい場合にはＤも小さいので、細かい粒子の墨汁が欲しい時には問題は別になる。</seg></p>
+      </div>
+      <div type="layout" source="#source-16186-16313" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-16207-16309"><seg source="#source-16207-16243">磨墨による摩擦係数の変化</seg></head>
+        </div>
+      </div>
+      <div>
+        <p><figure source="#source-16313-16414"><graphic url="fig59220_08.png" width="706px" height="463px"/><note type="caption-reference"><seg source="#source-16322-16331">第六図</seg></note></figure></p>
+        <p><seg type="caption" source="#source-16416-16470"><seg source="#source-16416-16425">第六図</seg></seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-16474-16510">墨と硯との間の摩擦係数</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-16510-16595"><seg source="#source-16528-16530">μ</seg><hi rend="subscript" source="#source-16530-16568"><seg source="#source-16530-16531">s</seg></hi></hi><seg source="#source-16595-16853">もＱと同様に磨っているうちに減少する。その様子は第六図に実線で示す如くで、初めはかなり急激に減少するが、後にはほぼ一定の値に落ち付く。ここで注意すべきことは、紫雲石の硯では</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-16853-16938"><seg source="#source-16871-16873">μ</seg><hi rend="subscript" source="#source-16873-16911"><seg source="#source-16873-16874">s</seg></hi></hi><seg source="#source-16938-17308">が0.37くらいに落ち付くのに、真鍮ではどんどん減少してしまうことである。即ち真鍮の場合には、表面がすぐ磨いた状態になってしまうが、紫雲石の場合は、なかなかそのような状態にはならない。従って墨のおり方もいつまでも速いのである。端渓などの場合には、表面に</seg><ruby type="furigana" rend="right" source="#source-17308-17332"><rb>所謂</rb><rt>いわゆる</rt></ruby><ruby type="furigana" rend="right" source="#source-17332-17356"><rb>鋒鋩</rb><rt>ほうぼう</rt></ruby><seg source="#source-17356-17631">と呼ばれる堅い微小石粉が露出していて、それが墨のおり具合を容易にしていると云われているのであるが、鋒鋩の研究なども、このように物理的に行ったならば、もっと確かなことが分かるであろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-17631-17772">同時に硝子と硯との摩擦係数を測った結果も、第六図に描きこんである。この場合は、紫雲石では初め</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-17772-17857"><seg source="#source-17790-17792">μ</seg><hi rend="subscript" source="#source-17792-17830"><seg source="#source-17792-17793">g</seg></hi></hi><seg source="#source-17857-18331">が増して行き、ある値以上のｎになると一定の値となる。真鍮ではそのような傾向は認められず、徐々に減少するばかりである。摩擦係数がこのように妙な変化をすることは、ちょっと類例の少ない現象で、寺田先生は色々の考察の結果、次のような説明を下された。石の硯と墨との場合、表面が粗いと、突出部が墨の膠に機械的の力を及ぼして、その</seg><ruby type="furigana" rend="right" source="#source-18331-18367"><rb>附著力</rb><rt>ふちゃくりょく</rt></ruby><seg source="#source-18367-18376">が一見</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-18376-18461"><seg source="#source-18394-18396">μ</seg><hi rend="subscript" source="#source-18396-18434"><seg source="#source-18396-18397">s</seg></hi></hi><seg source="#source-18461-18545">を大ならしめている、それが磨墨につれて突出部が少なくなり</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-18545-18630"><seg source="#source-18563-18565">μ</seg><hi rend="subscript" source="#source-18565-18603"><seg source="#source-18565-18566">s</seg></hi></hi><seg source="#source-18630-18777">の固有の値になる。硝子と石の硯との間では、表面に吸着している水か有機物の薄膜かが、硝子を密着させて</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-18777-18862"><seg source="#source-18795-18797">μ</seg><hi rend="subscript" source="#source-18797-18835"><seg source="#source-18797-18798">g</seg></hi></hi><seg source="#source-18862-18985">を大ならしめているので、表面が粗い間はその影響が少ないから、少し磨いた状態で却って</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-18985-19070"><seg source="#source-19003-19005">μ</seg><hi rend="subscript" source="#source-19005-19043"><seg source="#source-19005-19006">g</seg></hi></hi><seg source="#source-19070-19461">が大きい。金属の面ではそのような現象は起きなくて、石の場合に特別な現象であるというのである。端渓が手触りが冷たいとか、濡れたような感じであるとかいうようなことも、熱伝導の問題と簡単に片づけず、表面膜の性質まで調べたら、色々面白いことが分かるだろうと思われる。</seg></p>
+      </div>
+      <div type="layout" source="#source-19461-19606" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-19482-19602"><seg source="#source-19482-19527">墨のおり方と粒子の直径との関係</seg></head>
+        </div>
+      </div>
+      <div>
+        <p><figure source="#source-19606-19707"><graphic url="fig59220_09.png" width="639px" height="443px"/><note type="caption-reference"><seg source="#source-19615-19624">第七図</seg></note></figure></p>
+        <p><seg type="caption" source="#source-19709-19763"><seg source="#source-19709-19718">第七図</seg></seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-19767-20522">磨墨につれて墨のおりる量Ｑが減少することは、上述の通りであるが、その際粒子の直径Ｄも段々小さくなることが、実験的に確かめられた。即ちＤとｎとの曲線を作って見ると、第四図または第五図と似た形になった。このことはＱとＤとの間に簡単な関係があって、墨の速くおりる時は、粒子が大きいということになる。ＱとＤとの関係を図示すると第七図のようになる。ここで面白いことは、紫雲石と雨端石とが同一直線上に載り、真鍮と鉄とが別の直線上にあるということである。即ち石の硯と金属とでは、墨の粒子の大きさが断然違うのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-20522-20563">この関係を直線と見ると、</seg></p>
+      </div>
+      <div type="layout" source="#source-20563-20683" style="padding-inline-start: 6em">
+        <p><hi rend="yokogumi horizontal" snh:layout-kind="yokogumi" snh:layout-params="direction=horizontal" source="#source-20584-20681"><seg source="#source-20602-20611">Ｄ＝Ｄ</seg><hi rend="subscript" source="#source-20611-20649"><seg source="#source-20611-20612">0</seg></hi><seg source="#source-20649-20654">＋aQ</seg></hi></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-20683-20785">なる式で現すことが出来る。この直線はＯなる原点を通っていないので、</seg><hi rend="yokogumi horizontal" snh:layout-kind="yokogumi" snh:layout-params="direction=horizontal" source="#source-20785-20839"><seg source="#source-20803-20812">Ｑ＝０</seg></hi><seg source="#source-20839-20863">の時も粒子直径は</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-20863-20949"><seg source="#source-20881-20884">Ｄ</seg><hi rend="subscript" source="#source-20884-20922"><seg source="#source-20884-20885">0</seg></hi></hi><seg source="#source-20949-20991">なる値を持つことになる。この</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-20991-21077"><seg source="#source-21009-21012">Ｄ</seg><hi rend="subscript" source="#source-21012-21050"><seg source="#source-21012-21013">0</seg></hi></hi><seg source="#source-21077-21176">が墨の粒子の最小の値を示すもので、石の硯の場合は十万分の一ないし三</seg><ruby type="furigana" rend="right" source="#source-21176-21194"><rb>粍</rb><rt>ミリ</rt></ruby><seg source="#source-21194-21230">、金属の場合は十万分の八</seg><ruby type="furigana" rend="right" source="#source-21230-21248"><rb>粍</rb><rt>ミリ</rt></ruby><seg source="#source-21248-21272">ないし一万分の一</seg><ruby type="furigana" rend="right" source="#source-21272-21290"><rb>粍</rb><rt>ミリ</rt></ruby><seg source="#source-21290-21559">である。金属の硯で磨った時に、墨の粒子がこのように大きくなるのは、色々の考察の結果、金属から多価のイオンがごく少量出て来て、それが膠質の凝集を起こす為だろうという説明がしてある。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-21559-21693">石の硯に就いて見ると、用いられた硯二種墨三種の色々な組み合わせが、皆同一直線上にある。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-21693-22144">前述第五図に於て雨端石と真鍮とが共に墨のおり方が悪いという結果になっていたが、今度の第七図で見ると、雨端石の方は粒子が小さくなるのでおりる量が減るのであるということが分かる。真鍮の方はこれに反して、墨のおりる量は少なくして、しかも粒子は大きいのである。その点雨端石と真鍮とは著しく異なるのである。</seg></p>
+      </div>
+      <div type="layout" source="#source-22144-22283" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-22165-22279"><seg source="#source-22165-22207">墨のおり方と摩擦係数との関係</seg></head>
+        </div>
+      </div>
+      <div>
+        <p><figure source="#source-22283-22384"><graphic url="fig59220_10.png" width="416px" height="572px"/><note type="caption-reference"><seg source="#source-22292-22301">第八図</seg></note></figure></p>
+        <p><seg type="caption" source="#source-22386-22440"><seg source="#source-22386-22395">第八図</seg></seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-22444-22480">墨のおり方Ｑと摩擦係数</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-22480-22565"><seg source="#source-22498-22500">μ</seg><hi rend="subscript" source="#source-22500-22538"><seg source="#source-22500-22501">s</seg></hi></hi><seg source="#source-22565-22751">との関係は、第八図に示すようになる。図中の曲線から紫雲石の硯と金属の硯とが著しい性質の差を示すことが見られる。金属の場合には</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-22751-22836"><seg source="#source-22769-22771">μ</seg><hi rend="subscript" source="#source-22771-22809"><seg source="#source-22771-22772">s</seg></hi></hi><seg source="#source-22836-22988">が0.15くらい以下になるとＱがほとんど零になり、それ以上ではＱとμとの間には直線的関係が成立する。即ち、</seg></p>
+      </div>
+      <div type="layout" source="#source-22988-23156" style="padding-inline-start: 2em">
+        <p><hi rend="yokogumi horizontal" snh:layout-kind="yokogumi" snh:layout-params="direction=horizontal" source="#source-23009-23154"><seg source="#source-23027-23041">Ｑ＝Ａ（μ</seg><hi rend="subscript" source="#source-23041-23079"><seg source="#source-23041-23042">s</seg></hi><seg source="#source-23079-23084">－μ</seg><hi rend="subscript" source="#source-23084-23124"><seg source="#source-23084-23086">s0</seg></hi><seg source="#source-23124-23127">）</seg></hi></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-23156-23207">なる簡単な関係が成立する。ここで</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-23207-23294"><seg source="#source-23225-23227">μ</seg><hi rend="subscript" source="#source-23227-23267"><seg source="#source-23227-23229">s0</seg></hi></hi><seg source="#source-23294-23491">はＱがほとんど零になる時の摩擦係数で、即ち金属面が十分に磨かれた状態になった時の値である。その値は真鍮の方が鉄の場合よりも大きい。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-23491-23518">紫雲石の場合は、</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-23518-23603"><seg source="#source-23536-23538">μ</seg><hi rend="subscript" source="#source-23538-23576"><seg source="#source-23538-23539">s</seg></hi></hi><seg source="#source-23603-23838">は第六図に見られるように、磨墨によっては0.37以下には減少しない。硯の面がそれより少し粗くなると、Ｑは初めは金属の硯よりも徐々に増すが、面が十分粗くなると、即ち</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-23838-23923"><seg source="#source-23856-23858">μ</seg><hi rend="subscript" source="#source-23858-23896"><seg source="#source-23858-23859">s</seg></hi></hi><seg source="#source-23923-23991">がある値以上大きくなると、Ｑが急に増大する。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-23991-24754">以上の結果から見て、金属の硯の方が石よりも悪いということが明瞭に分かる。従来金属の硯というものがほとんど用いられなかったのももっともである。即ち石の硯では磨墨によって面が完全に平滑になることがなく、何時までも一定の粗度を保つことが、摩擦係数の実験から分かる。このことが墨のおり方を速くするのである。金属の硯はこれに反し、磨墨によって直ぐに面が平滑になり、墨のおり方が非常に悪くなる。それも墨汁の粒子が小さくなる為におり方が少なくなるのならば、その点で使用目的があるが、この場合は粒子もまた大きいのである。</seg></p>
+      </div>
+      <div type="layout" source="#source-24754-24863" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-24775-24859"><seg source="#source-24775-24802">水中の電解質の影響</seg></head>
+        </div>
+      </div>
+      <div>
+        <p><figure source="#source-24863-24964"><graphic url="fig59220_11.png" width="402px" height="392px"/><note type="caption-reference"><seg source="#source-24872-24881">第九図</seg></note></figure></p>
+        <p><seg type="caption" source="#source-24966-25020"><seg source="#source-24966-24975">第九図</seg></seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-25024-25819">電解質を含む水で墨を磨った時の墨のおり方Ｑと粒子直径Ｄとを調べる為に、色々の濃度の苛性加里液及び塩酸水溶液で墨を磨りその時のＱとＤとを測って、蒸溜水の場合と比較して見た。その結果は、酸の時はＱもＤも蒸溜水の時より大きく、アルカリの時は逆に小さいということが分かった。酸もアルカリも膠を軟らかくする性質があるから、もしその為とすると、両方共Ｑは蒸溜水の時より大きくなる必要がある。ところが実際はアルカリの場合は蒸溜水よりもＱが小さいのである。それで次のようなことが考えられる。墨の粒子は負に帯電していることは分かっているので、酸の</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-25819-25909"><seg source="#source-25837-25840">Ｈ</seg><hi rend="superscript" source="#source-25840-25882"><seg source="#source-25840-25843">＋</seg></hi></hi><seg source="#source-25909-26032">イオンがこれを中和する為、粒子が凝集を起こし易く、その為Ｄが大きくなる。アルカリは</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-26032-26121"><seg source="#source-26050-26052">OH</seg><hi rend="superscript" source="#source-26052-26094"><seg source="#source-26052-26055">－</seg></hi></hi><seg source="#source-26121-26896">イオンがある為に凝集を妨げて、粒子は小さいと考えられるのである。それでＱとＤとの関係を図にして見たところが、第九図のような結果を得た。これと第七図とを比較して見ると、Ｑ―Ｄの関係は、酸アルカリの如何を問わず、蒸溜水と同じ直線上に載るのである。換言すれば酸の点○は硯の面の粗な方に相当し、アルカリの点●は硯の面が平滑な方と一致しているのである。故に酸の場合墨が速くおりるのは、墨からとけ出す粒子が大きい為であり、アルカリの場合はその逆になるということが分かったのである。この現象は膠質学の方面からも重要な問題である。</seg></p>
+      </div>
+      <div type="layout" source="#source-26896-27011" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-26917-27007"><seg source="#source-26917-26947">以上の実験結果の吟味</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-27011-27098">以上の実験で墨のおりた量Ｑとして測ったものは、硯の面上五</seg><ruby type="furigana" rend="right" source="#source-27098-27119"><rb>糎</rb><rt>センチ</rt></ruby><seg source="#source-27119-27239">の距離を墨が往復三千回した時の量である。墨のとけ方が終始一定と仮定すると、墨が一</seg><ruby type="furigana" rend="right" source="#source-27239-27260"><rb>糎</rb><rt>センチ</rt></ruby><seg source="#source-27260-27293">動いた間にとけ出た量は</seg><hi rend="yokogumi horizontal" snh:layout-kind="yokogumi" snh:layout-params="direction=horizontal" source="#source-27293-27428"><hi rend="fraction" snh:layout-kind="fraction" source="#source-27311-27353"><seg source="#source-27311-27320">Ｑ／３</seg></hi><seg source="#source-27353-27357">×10</seg><hi rend="superscript" source="#source-27357-27401"><seg source="#source-27357-27361">－4</seg></hi></hi><ruby type="furigana" rend="right" source="#source-27428-27446"><rb>瓦</rb><rt>グラム</rt></ruby><seg source="#source-27446-27512">となる。墨の磨り口をＳとすると、墨が硯上を一</seg><ruby type="furigana" rend="right" source="#source-27512-27533"><rb>糎</rb><rt>センチ</rt></ruby><seg source="#source-27533-27557">動いた時に一平方</seg><ruby type="furigana" rend="right" source="#source-27557-27578"><rb>糎</rb><rt>センチ</rt></ruby><seg source="#source-27578-27610">からとけ出る量ｑは、</seg></p>
+      </div>
+      <div type="layout" source="#source-27610-27778" style="padding-inline-start: 11em">
+        <p><hi rend="yokogumi horizontal" snh:layout-kind="yokogumi" snh:layout-params="direction=horizontal" source="#source-27634-27776"><seg source="#source-27652-27658">ｑ＝</seg><hi rend="fraction" snh:layout-kind="fraction" source="#source-27658-27698"><seg source="#source-27658-27666">Ｑ／3S</seg></hi><seg source="#source-27698-27702">×10</seg><hi rend="superscript" source="#source-27702-27746"><seg source="#source-27702-27706">－4</seg></hi><seg source="#source-27746-27749">瓦</seg></hi></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-27778-27859">となる。墨の密度をｓとするとこの時とけ出た墨の体積は</seg><hi rend="yokogumi horizontal" snh:layout-kind="yokogumi" snh:layout-params="direction=horizontal" source="#source-27859-27913"><seg source="#source-27877-27886">ｑ／ｓ</seg></hi><seg source="#source-27913-27931">である。この</seg><hi rend="yokogumi horizontal" snh:layout-kind="yokogumi" snh:layout-params="direction=horizontal" source="#source-27931-27985"><seg source="#source-27949-27958">ｑ／ｓ</seg></hi><seg source="#source-27985-28015">の値がちょうど墨が一</seg><ruby type="furigana" rend="right" source="#source-28015-28036"><rb>糎</rb><rt>センチ</rt></ruby><seg source="#source-28036-28102">動いた時に磨り減る層の厚さｈになる。今Ｑを一</seg><ruby type="furigana" rend="right" source="#source-28102-28123"><rb>瓦</rb><rt>グラム</rt></ruby><seg source="#source-28123-28141">、Ｓを二平方</seg><ruby type="furigana" rend="right" source="#source-28141-28162"><rb>糎</rb><rt>センチ</rt></ruby><hi rend="font-size small(1)" snh:layout-kind="font-size" snh:layout-params="size-type=small;level=1" source="#source-28162-28234"><seg source="#source-28162-28177">（第一表）</seg></hi><seg source="#source-28234-28288">、ｓを1.4とすると、計算によるｈの値は</seg><hi rend="yokogumi horizontal" snh:layout-kind="yokogumi" snh:layout-params="direction=horizontal" source="#source-28288-28384"><seg source="#source-28306-28313">120×10</seg><hi rend="superscript" source="#source-28313-28357"><seg source="#source-28313-28317">－7</seg></hi></hi><ruby type="furigana" rend="right" source="#source-28384-28402"><rb>糎</rb><rt>センチ</rt></ruby><seg source="#source-28402-28459">と出て来る。ところが第七図に於てＱが一</seg><ruby type="furigana" rend="right" source="#source-28459-28480"><rb>瓦</rb><rt>グラム</rt></ruby><seg source="#source-28480-28498">の時のＤは約</seg><hi rend="yokogumi horizontal" snh:layout-kind="yokogumi" snh:layout-params="direction=horizontal" source="#source-28498-28594"><seg source="#source-28516-28523">100×10</seg><hi rend="superscript" source="#source-28523-28567"><seg source="#source-28523-28527">－7</seg></hi></hi><ruby type="furigana" rend="right" source="#source-28594-28612"><rb>糎</rb><rt>センチ</rt></ruby><seg source="#source-28612-28672">で、大体ｈと似た値である。即ち墨が硯上一</seg><ruby type="furigana" rend="right" source="#source-28672-28693"><rb>糎</rb><rt>センチ</rt></ruby><seg source="#source-28693-28708">動くと、約</seg><hi rend="yokogumi horizontal" snh:layout-kind="yokogumi" snh:layout-params="direction=horizontal" source="#source-28708-28804"><seg source="#source-28726-28733">100×10</seg><hi rend="superscript" source="#source-28733-28777"><seg source="#source-28733-28737">－7</seg></hi></hi><ruby type="furigana" rend="right" source="#source-28804-28822"><rb>糎</rb><rt>センチ</rt></ruby><hi rend="font-size small(1)" snh:layout-kind="font-size" snh:layout-params="size-type=small;level=1" source="#source-28822-28927"><seg source="#source-28855-28873">（一万分の一</seg><ruby type="furigana" rend="right" source="#source-28873-28891"><rb>粍</rb><rt>ミリ</rt></ruby><seg source="#source-28891-28894">）</seg></hi><seg source="#source-28927-29094">だけ削りとられ、その時墨はその削りとられた厚さと同程度の直径の粒子となってとけ出るということが分かるのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-29094-29271">墨が磨り減る厚さと同程度の大きさの粒子になることから考えて、これは墨の磨り口の表面に、顕微鏡でも見えぬくらいの細かい</seg><ruby type="furigana" rend="right" source="#source-29271-29286"><rb>罅</rb><rt>ひび</rt></ruby><seg source="#source-29286-29775">が沢山出来る為であろうという考察がされてある。硯の面には細かい不規則な小突起が沢山あって、所謂鋒鋩をなしている。それが墨の磨り口面に不規則に配分された力を及ぼすので、表面に罅が沢山入る。この罅が墨の内部へ入り込む深さは、力の配分の不均整度により、換言すれば硯の面の粗さによる。これらの罅は墨の動くにつれて段々沢山出来て来て、一</seg><ruby type="furigana" rend="right" source="#source-29775-29796"><rb>糎</rb><rt>センチ</rt></ruby><seg source="#source-29796-30062">くらい動くうちに、罅の深さと同程度の間隔になるくらい、磨り口の表面に罅が一杯出来る。この状態に於て墨の表層は、罅の深さｈと同程度の直径の粒子に崩壊して水中にとけ出るのであろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-30062-30444">寺田先生は前に粉体の物理的性質の研究をされたことがあって、粉体の層に罅が入る時には、罅の深さと同じくらいの間隔で、沢山の割れ目が入ることが分かっている。それで墨の場合にも同様な現象が、超顕微鏡的規模で起きているのであろうという解釈を下されたのである。</seg></p>
+      </div>
+      <div type="layout" source="#source-30444-30801" style="padding-inline-start: 1em">
+        <p><seg source="#source-30479-30487">附記</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-30487-30649">最後の論文墨汁のカタホレシスに関する研究は未完成であり、また今の場合直接の興味も少ないので省くことにした。</seg><seg type="layout" source="#source-30649-30765" rend="chitsuki align(right) offset-from-end(0)" snh:layout-kind="chitsuki" snh:layout-params="align=right;offset-from-end=0"><hi rend="font-size small(1)" snh:layout-kind="font-size" snh:layout-params="size-type=small;level=1" source="#source-30667-30763"><seg source="#source-30667-30694">（昭和十三年一月）</seg></hi></seg></p>
+      </div>
+    </body>
+    <back>
+      <div type="source">
+        <note type="source-attribution" source="#source-30809-31136"><seg type="source-line">底本：「寺田寅彦　わが師の追想」講談社学術文庫、講談社</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">2014（平成26）年11月10日第1刷発行</seg><lb/><seg type="source-line">底本の親本：「寺田寅彦の追想」甲文社</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1947（昭和22）年4月30日初版発行</seg><lb/><seg type="source-line">初出：「畫説」東京美術研究所</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1938（昭和13）年1月</seg></note>
+        <note type="transcriber-note" source="#source-31136-31944"><seg type="source-line">※初出時の表題は「墨と硯との關係の物理的研究」です。</seg><lb/><seg type="source-line">※「第一表」「第二表」の図は、底本をもとに入力者が作成しました。それ以外の図版は底本の親本からとり、入力者が文字を活字に置き換えました。また、第八図は底本通り縦軸に「→μs［＃「s」は下付き小文字］」を追加しました。</seg><lb/><seg type="source-line">※〔　〕内の編集者によるとおもわれる注記は省略しました。</seg><lb/><seg type="source-line">入力：砂場清隆</seg><lb/><seg type="source-line">校正：津村田悟</seg><lb/><seg type="source-line">2022年8月27日作成</seg><lb/><seg type="source-line">青空文庫作成ファイル：</seg><lb/><seg type="source-line">このファイルは、インターネットの図書館、青空文庫（https://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。</seg></note>
+        <note type="source-span" xml:id="source-10098-10257" n="54"/>
+        <note type="source-span" xml:id="source-10131-10143" n="54"/>
+        <note type="source-span" xml:id="source-10143-10161" n="54"/>
+        <note type="source-span" xml:id="source-10161-10173" n="54"/>
+        <note type="source-span" xml:id="source-10173-10191" n="54"/>
+        <note type="source-span" xml:id="source-10191-10203" n="54"/>
+        <note type="source-span" xml:id="source-10203-10221" n="54"/>
+        <note type="source-span" xml:id="source-10221-10224" n="54"/>
+        <note type="source-span" xml:id="source-10257-10323" n="54"/>
+        <note type="source-span" xml:id="source-10323-10408" n="54"/>
+        <note type="source-span" xml:id="source-10341-10343" n="54"/>
+        <note type="source-span" xml:id="source-10343-10344" n="54"/>
+        <note type="source-span" xml:id="source-10343-10381" n="54"/>
+        <note type="source-span" xml:id="source-10408-10428" n="54"/>
+        <note type="source-span" xml:id="source-10428-10732" n="55"/>
+        <note type="source-span" xml:id="source-10732-10841" n="57"/>
+        <note type="source-span" xml:id="source-10753-10780" n="57"/>
+        <note type="source-span" xml:id="source-10753-10837" n="57"/>
+        <note type="source-span" xml:id="source-10841-11102" n="59"/>
+        <note type="source-span" xml:id="source-11102-11198" n="59"/>
+        <note type="source-span" xml:id="source-11120-11127" n="59"/>
+        <note type="source-span" xml:id="source-11127-11131" n="59"/>
+        <note type="source-span" xml:id="source-11127-11171" n="59"/>
+        <note type="source-span" xml:id="source-11198-11207" n="59"/>
+        <note type="source-span" xml:id="source-11207-11303" n="59"/>
+        <note type="source-span" xml:id="source-11225-11232" n="59"/>
+        <note type="source-span" xml:id="source-11232-11236" n="59"/>
+        <note type="source-span" xml:id="source-11232-11276" n="59"/>
+        <note type="source-span" xml:id="source-11303-11321" n="59"/>
+        <note type="source-span" xml:id="source-11321-11327" n="59"/>
+        <note type="source-span" xml:id="source-11327-11348" n="59"/>
+        <note type="source-span" xml:id="source-11348-11465" n="59"/>
+        <note type="source-span" xml:id="source-11465-11556" n="59"/>
+        <note type="source-span" xml:id="source-11483-11485" n="59"/>
+        <note type="source-span" xml:id="source-11485-11489" n="59"/>
+        <note type="source-span" xml:id="source-11485-11529" n="59"/>
+        <note type="source-span" xml:id="source-11556-11562" n="59"/>
+        <note type="source-span" xml:id="source-11562-11583" n="59"/>
+        <note type="source-span" xml:id="source-11583-11840" n="59"/>
+        <note type="source-span" xml:id="source-11840-11955" n="61"/>
+        <note type="source-span" xml:id="source-11861-11891" n="61"/>
+        <note type="source-span" xml:id="source-11861-11951" n="61"/>
+        <note type="source-span" xml:id="source-11955-12906" n="63"/>
+        <note type="source-span" xml:id="source-12906-12921" n="63"/>
+        <note type="source-span" xml:id="source-12921-13046" n="63"/>
+        <note type="source-span" xml:id="source-13046-13147" n="64"/>
+        <note type="source-span" xml:id="source-13055-13064" n="64"/>
+        <note type="source-span" xml:id="source-13147-13149" n="64"/>
+        <note type="source-span" xml:id="source-13149-13158" n="65"/>
+        <note type="source-span" xml:id="source-13149-13203" n="65"/>
+        <note type="source-span" xml:id="source-13203-13207" n="65"/>
+        <note type="source-span" xml:id="source-13207-14310" n="67"/>
+        <note type="source-span" xml:id="source-14310-14384" n="68"/>
+        <note type="source-span" xml:id="source-14384-14550" n="69"/>
+        <note type="source-span" xml:id="source-14408-14548" n="69"/>
+        <note type="source-span" xml:id="source-14426-14435" n="69"/>
+        <note type="source-span" xml:id="source-14435-14436" n="69"/>
+        <note type="source-span" xml:id="source-14435-14473" n="69"/>
+        <note type="source-span" xml:id="source-14473-14475" n="69"/>
+        <note type="source-span" xml:id="source-14475-14480" n="69"/>
+        <note type="source-span" xml:id="source-14475-14521" n="69"/>
+        <note type="source-span" xml:id="source-14548-14550" n="69"/>
+        <note type="source-span" xml:id="source-14550-14743" n="70"/>
+        <note type="source-span" xml:id="source-14743-14840" n="72"/>
+        <note type="source-span" xml:id="source-14764-14785" n="72"/>
+        <note type="source-span" xml:id="source-14764-14836" n="72"/>
+        <note type="source-span" xml:id="source-14840-14941" n="74"/>
+        <note type="source-span" xml:id="source-14849-14858" n="74"/>
+        <note type="source-span" xml:id="source-14941-14943" n="74"/>
+        <note type="source-span" xml:id="source-14943-14952" n="75"/>
+        <note type="source-span" xml:id="source-14943-14997" n="75"/>
+        <note type="source-span" xml:id="source-14997-15001" n="75"/>
+        <note type="source-span" xml:id="source-15001-15666" n="77"/>
+        <note type="source-span" xml:id="source-15666-15678" n="77"/>
+        <note type="source-span" xml:id="source-15678-16186" n="77"/>
+        <note type="source-span" xml:id="source-16186-16313" n="79"/>
+        <note type="source-span" xml:id="source-16207-16243" n="79"/>
+        <note type="source-span" xml:id="source-16207-16309" n="79"/>
+        <note type="source-span" xml:id="source-16313-16414" n="81"/>
+        <note type="source-span" xml:id="source-16322-16331" n="81"/>
+        <note type="source-span" xml:id="source-16414-16416" n="81"/>
+        <note type="source-span" xml:id="source-16416-16425" n="82"/>
+        <note type="source-span" xml:id="source-16416-16470" n="82"/>
+        <note type="source-span" xml:id="source-16470-16474" n="82"/>
+        <note type="source-span" xml:id="source-16474-16510" n="84"/>
+        <note type="source-span" xml:id="source-16510-16595" n="84"/>
+        <note type="source-span" xml:id="source-16528-16530" n="84"/>
+        <note type="source-span" xml:id="source-16530-16531" n="84"/>
+        <note type="source-span" xml:id="source-16530-16568" n="84"/>
+        <note type="source-span" xml:id="source-16595-16853" n="84"/>
+        <note type="source-span" xml:id="source-16853-16938" n="84"/>
+        <note type="source-span" xml:id="source-16871-16873" n="84"/>
+        <note type="source-span" xml:id="source-16873-16874" n="84"/>
+        <note type="source-span" xml:id="source-16873-16911" n="84"/>
+        <note type="source-span" xml:id="source-16938-17308" n="84"/>
+        <note type="source-span" xml:id="source-17308-17332" n="84"/>
+        <note type="source-span" xml:id="source-17332-17356" n="84"/>
+        <note type="source-span" xml:id="source-17356-17631" n="84"/>
+        <note type="source-span" xml:id="source-17631-17772" n="85"/>
+        <note type="source-span" xml:id="source-17772-17857" n="85"/>
+        <note type="source-span" xml:id="source-17790-17792" n="85"/>
+        <note type="source-span" xml:id="source-17792-17793" n="85"/>
+        <note type="source-span" xml:id="source-17792-17830" n="85"/>
+        <note type="source-span" xml:id="source-17857-18331" n="85"/>
+        <note type="source-span" xml:id="source-1828-1919" n="20"/>
+        <note type="source-span" xml:id="source-18331-18367" n="85"/>
+        <note type="source-span" xml:id="source-18367-18376" n="85"/>
+        <note type="source-span" xml:id="source-18376-18461" n="85"/>
+        <note type="source-span" xml:id="source-18394-18396" n="85"/>
+        <note type="source-span" xml:id="source-18396-18397" n="85"/>
+        <note type="source-span" xml:id="source-18396-18434" n="85"/>
+        <note type="source-span" xml:id="source-18461-18545" n="85"/>
+        <note type="source-span" xml:id="source-1849-1867" n="20"/>
+        <note type="source-span" xml:id="source-1849-1915" n="20"/>
+        <note type="source-span" xml:id="source-18545-18630" n="85"/>
+        <note type="source-span" xml:id="source-18563-18565" n="85"/>
+        <note type="source-span" xml:id="source-18565-18566" n="85"/>
+        <note type="source-span" xml:id="source-18565-18603" n="85"/>
+        <note type="source-span" xml:id="source-18630-18777" n="85"/>
+        <note type="source-span" xml:id="source-18777-18862" n="85"/>
+        <note type="source-span" xml:id="source-18795-18797" n="85"/>
+        <note type="source-span" xml:id="source-18797-18798" n="85"/>
+        <note type="source-span" xml:id="source-18797-18835" n="85"/>
+        <note type="source-span" xml:id="source-18862-18985" n="85"/>
+        <note type="source-span" xml:id="source-18985-19070" n="85"/>
+        <note type="source-span" xml:id="source-19003-19005" n="85"/>
+        <note type="source-span" xml:id="source-19005-19006" n="85"/>
+        <note type="source-span" xml:id="source-19005-19043" n="85"/>
+        <note type="source-span" xml:id="source-19070-19461" n="85"/>
+        <note type="source-span" xml:id="source-1919-2446" n="22"/>
+        <note type="source-span" xml:id="source-19461-19606" n="87"/>
+        <note type="source-span" xml:id="source-19482-19527" n="87"/>
+        <note type="source-span" xml:id="source-19482-19602" n="87"/>
+        <note type="source-span" xml:id="source-19606-19707" n="89"/>
+        <note type="source-span" xml:id="source-19615-19624" n="89"/>
+        <note type="source-span" xml:id="source-19707-19709" n="89"/>
+        <note type="source-span" xml:id="source-19709-19718" n="90"/>
+        <note type="source-span" xml:id="source-19709-19763" n="90"/>
+        <note type="source-span" xml:id="source-19763-19767" n="90"/>
+        <note type="source-span" xml:id="source-19767-20522" n="92"/>
+        <note type="source-span" xml:id="source-20522-20563" n="93"/>
+        <note type="source-span" xml:id="source-20563-20683" n="94"/>
+        <note type="source-span" xml:id="source-20584-20681" n="94"/>
+        <note type="source-span" xml:id="source-20602-20611" n="94"/>
+        <note type="source-span" xml:id="source-20611-20612" n="94"/>
+        <note type="source-span" xml:id="source-20611-20649" n="94"/>
+        <note type="source-span" xml:id="source-20649-20654" n="94"/>
+        <note type="source-span" xml:id="source-20681-20683" n="94"/>
+        <note type="source-span" xml:id="source-20683-20785" n="95"/>
+        <note type="source-span" xml:id="source-20785-20839" n="95"/>
+        <note type="source-span" xml:id="source-20803-20812" n="95"/>
+        <note type="source-span" xml:id="source-20839-20863" n="95"/>
+        <note type="source-span" xml:id="source-20863-20949" n="95"/>
+        <note type="source-span" xml:id="source-20881-20884" n="95"/>
+        <note type="source-span" xml:id="source-20884-20885" n="95"/>
+        <note type="source-span" xml:id="source-20884-20922" n="95"/>
+        <note type="source-span" xml:id="source-20949-20991" n="95"/>
+        <note type="source-span" xml:id="source-20991-21077" n="95"/>
+        <note type="source-span" xml:id="source-21009-21012" n="95"/>
+        <note type="source-span" xml:id="source-21012-21013" n="95"/>
+        <note type="source-span" xml:id="source-21012-21050" n="95"/>
+        <note type="source-span" xml:id="source-21077-21176" n="95"/>
+        <note type="source-span" xml:id="source-21176-21194" n="95"/>
+        <note type="source-span" xml:id="source-21194-21230" n="95"/>
+        <note type="source-span" xml:id="source-21230-21248" n="95"/>
+        <note type="source-span" xml:id="source-21248-21272" n="95"/>
+        <note type="source-span" xml:id="source-21272-21290" n="95"/>
+        <note type="source-span" xml:id="source-21290-21559" n="95"/>
+        <note type="source-span" xml:id="source-21559-21693" n="96"/>
+        <note type="source-span" xml:id="source-21693-22144" n="97"/>
+        <note type="source-span" xml:id="source-22144-22283" n="99"/>
+        <note type="source-span" xml:id="source-22165-22207" n="99"/>
+        <note type="source-span" xml:id="source-22165-22279" n="99"/>
+        <note type="source-span" xml:id="source-22283-22384" n="101"/>
+        <note type="source-span" xml:id="source-22292-22301" n="101"/>
+        <note type="source-span" xml:id="source-22384-22386" n="101"/>
+        <note type="source-span" xml:id="source-22386-22395" n="102"/>
+        <note type="source-span" xml:id="source-22386-22440" n="102"/>
+        <note type="source-span" xml:id="source-22440-22444" n="102"/>
+        <note type="source-span" xml:id="source-22444-22480" n="104"/>
+        <note type="source-span" xml:id="source-22480-22565" n="104"/>
+        <note type="source-span" xml:id="source-22498-22500" n="104"/>
+        <note type="source-span" xml:id="source-22500-22501" n="104"/>
+        <note type="source-span" xml:id="source-22500-22538" n="104"/>
+        <note type="source-span" xml:id="source-22565-22751" n="104"/>
+        <note type="source-span" xml:id="source-22751-22836" n="104"/>
+        <note type="source-span" xml:id="source-22769-22771" n="104"/>
+        <note type="source-span" xml:id="source-22771-22772" n="104"/>
+        <note type="source-span" xml:id="source-22771-22809" n="104"/>
+        <note type="source-span" xml:id="source-22836-22988" n="104"/>
+        <note type="source-span" xml:id="source-22988-23156" n="105"/>
+        <note type="source-span" xml:id="source-23009-23154" n="105"/>
+        <note type="source-span" xml:id="source-23027-23041" n="105"/>
+        <note type="source-span" xml:id="source-23041-23042" n="105"/>
+        <note type="source-span" xml:id="source-23041-23079" n="105"/>
+        <note type="source-span" xml:id="source-23079-23084" n="105"/>
+        <note type="source-span" xml:id="source-23084-23086" n="105"/>
+        <note type="source-span" xml:id="source-23084-23124" n="105"/>
+        <note type="source-span" xml:id="source-23124-23127" n="105"/>
+        <note type="source-span" xml:id="source-23154-23156" n="105"/>
+        <note type="source-span" xml:id="source-23156-23207" n="106"/>
+        <note type="source-span" xml:id="source-23207-23294" n="106"/>
+        <note type="source-span" xml:id="source-23225-23227" n="106"/>
+        <note type="source-span" xml:id="source-23227-23229" n="106"/>
+        <note type="source-span" xml:id="source-23227-23267" n="106"/>
+        <note type="source-span" xml:id="source-23294-23491" n="106"/>
+        <note type="source-span" xml:id="source-23491-23518" n="107"/>
+        <note type="source-span" xml:id="source-23518-23603" n="107"/>
+        <note type="source-span" xml:id="source-23536-23538" n="107"/>
+        <note type="source-span" xml:id="source-23538-23539" n="107"/>
+        <note type="source-span" xml:id="source-23538-23576" n="107"/>
+        <note type="source-span" xml:id="source-23603-23838" n="107"/>
+        <note type="source-span" xml:id="source-23838-23923" n="107"/>
+        <note type="source-span" xml:id="source-23856-23858" n="107"/>
+        <note type="source-span" xml:id="source-23858-23859" n="107"/>
+        <note type="source-span" xml:id="source-23858-23896" n="107"/>
+        <note type="source-span" xml:id="source-23923-23991" n="107"/>
+        <note type="source-span" xml:id="source-23991-24754" n="108"/>
+        <note type="source-span" xml:id="source-2446-2547" n="23"/>
+        <note type="source-span" xml:id="source-2455-2464" n="23"/>
+        <note type="source-span" xml:id="source-24754-24863" n="110"/>
+        <note type="source-span" xml:id="source-24775-24802" n="110"/>
+        <note type="source-span" xml:id="source-24775-24859" n="110"/>
+        <note type="source-span" xml:id="source-24863-24964" n="112"/>
+        <note type="source-span" xml:id="source-24872-24881" n="112"/>
+        <note type="source-span" xml:id="source-24964-24966" n="112"/>
+        <note type="source-span" xml:id="source-24966-24975" n="113"/>
+        <note type="source-span" xml:id="source-24966-25020" n="113"/>
+        <note type="source-span" xml:id="source-25020-25024" n="113"/>
+        <note type="source-span" xml:id="source-25024-25819" n="115"/>
+        <note type="source-span" xml:id="source-2547-2549" n="23"/>
+        <note type="source-span" xml:id="source-2549-2558" n="24"/>
+        <note type="source-span" xml:id="source-2549-2603" n="24"/>
+        <note type="source-span" xml:id="source-25819-25909" n="115"/>
+        <note type="source-span" xml:id="source-25837-25840" n="115"/>
+        <note type="source-span" xml:id="source-25840-25843" n="115"/>
+        <note type="source-span" xml:id="source-25840-25882" n="115"/>
+        <note type="source-span" xml:id="source-25909-26032" n="115"/>
+        <note type="source-span" xml:id="source-2603-2607" n="24"/>
+        <note type="source-span" xml:id="source-26032-26121" n="115"/>
+        <note type="source-span" xml:id="source-26050-26052" n="115"/>
+        <note type="source-span" xml:id="source-26052-26055" n="115"/>
+        <note type="source-span" xml:id="source-26052-26094" n="115"/>
+        <note type="source-span" xml:id="source-2607-2814" n="26"/>
+        <note type="source-span" xml:id="source-26121-26896" n="115"/>
+        <note type="source-span" xml:id="source-26896-27011" n="117"/>
+        <note type="source-span" xml:id="source-26917-26947" n="117"/>
+        <note type="source-span" xml:id="source-26917-27007" n="117"/>
+        <note type="source-span" xml:id="source-27011-27098" n="119"/>
+        <note type="source-span" xml:id="source-27098-27119" n="119"/>
+        <note type="source-span" xml:id="source-27119-27239" n="119"/>
+        <note type="source-span" xml:id="source-27239-27260" n="119"/>
+        <note type="source-span" xml:id="source-27260-27293" n="119"/>
+        <note type="source-span" xml:id="source-27293-27428" n="119"/>
+        <note type="source-span" xml:id="source-27311-27320" n="119"/>
+        <note type="source-span" xml:id="source-27311-27353" n="119"/>
+        <note type="source-span" xml:id="source-27353-27357" n="119"/>
+        <note type="source-span" xml:id="source-27357-27361" n="119"/>
+        <note type="source-span" xml:id="source-27357-27401" n="119"/>
+        <note type="source-span" xml:id="source-27428-27446" n="119"/>
+        <note type="source-span" xml:id="source-27446-27512" n="119"/>
+        <note type="source-span" xml:id="source-27512-27533" n="119"/>
+        <note type="source-span" xml:id="source-27533-27557" n="119"/>
+        <note type="source-span" xml:id="source-27557-27578" n="119"/>
+        <note type="source-span" xml:id="source-27578-27610" n="119"/>
+        <note type="source-span" xml:id="source-27610-27778" n="120"/>
+        <note type="source-span" xml:id="source-27634-27776" n="120"/>
+        <note type="source-span" xml:id="source-27652-27658" n="120"/>
+        <note type="source-span" xml:id="source-27658-27666" n="120"/>
+        <note type="source-span" xml:id="source-27658-27698" n="120"/>
+        <note type="source-span" xml:id="source-27698-27702" n="120"/>
+        <note type="source-span" xml:id="source-27702-27706" n="120"/>
+        <note type="source-span" xml:id="source-27702-27746" n="120"/>
+        <note type="source-span" xml:id="source-27746-27749" n="120"/>
+        <note type="source-span" xml:id="source-27776-27778" n="120"/>
+        <note type="source-span" xml:id="source-27778-27859" n="121"/>
+        <note type="source-span" xml:id="source-27859-27913" n="121"/>
+        <note type="source-span" xml:id="source-27877-27886" n="121"/>
+        <note type="source-span" xml:id="source-27913-27931" n="121"/>
+        <note type="source-span" xml:id="source-27931-27985" n="121"/>
+        <note type="source-span" xml:id="source-27949-27958" n="121"/>
+        <note type="source-span" xml:id="source-27985-28015" n="121"/>
+        <note type="source-span" xml:id="source-28015-28036" n="121"/>
+        <note type="source-span" xml:id="source-28036-28102" n="121"/>
+        <note type="source-span" xml:id="source-28102-28123" n="121"/>
+        <note type="source-span" xml:id="source-28123-28141" n="121"/>
+        <note type="source-span" xml:id="source-2814-2829" n="26"/>
+        <note type="source-span" xml:id="source-28141-28162" n="121"/>
+        <note type="source-span" xml:id="source-28162-28177" n="121"/>
+        <note type="source-span" xml:id="source-28162-28234" n="121"/>
+        <note type="source-span" xml:id="source-28234-28288" n="121"/>
+        <note type="source-span" xml:id="source-28288-28384" n="121"/>
+        <note type="source-span" xml:id="source-2829-3073" n="26"/>
+        <note type="source-span" xml:id="source-28306-28313" n="121"/>
+        <note type="source-span" xml:id="source-28313-28317" n="121"/>
+        <note type="source-span" xml:id="source-28313-28357" n="121"/>
+        <note type="source-span" xml:id="source-28384-28402" n="121"/>
+        <note type="source-span" xml:id="source-28402-28459" n="121"/>
+        <note type="source-span" xml:id="source-28459-28480" n="121"/>
+        <note type="source-span" xml:id="source-28480-28498" n="121"/>
+        <note type="source-span" xml:id="source-28498-28594" n="121"/>
+        <note type="source-span" xml:id="source-28516-28523" n="121"/>
+        <note type="source-span" xml:id="source-28523-28527" n="121"/>
+        <note type="source-span" xml:id="source-28523-28567" n="121"/>
+        <note type="source-span" xml:id="source-28594-28612" n="121"/>
+        <note type="source-span" xml:id="source-28612-28672" n="121"/>
+        <note type="source-span" xml:id="source-28672-28693" n="121"/>
+        <note type="source-span" xml:id="source-28693-28708" n="121"/>
+        <note type="source-span" xml:id="source-28708-28804" n="121"/>
+        <note type="source-span" xml:id="source-28726-28733" n="121"/>
+        <note type="source-span" xml:id="source-28733-28737" n="121"/>
+        <note type="source-span" xml:id="source-28733-28777" n="121"/>
+        <note type="source-span" xml:id="source-28804-28822" n="121"/>
+        <note type="source-span" xml:id="source-28822-28927" n="121"/>
+        <note type="source-span" xml:id="source-28855-28873" n="121"/>
+        <note type="source-span" xml:id="source-28873-28891" n="121"/>
+        <note type="source-span" xml:id="source-28891-28894" n="121"/>
+        <note type="source-span" xml:id="source-28927-29094" n="121"/>
+        <note type="source-span" xml:id="source-29094-29271" n="122"/>
+        <note type="source-span" xml:id="source-29271-29286" n="122"/>
+        <note type="source-span" xml:id="source-29286-29775" n="122"/>
+        <note type="source-span" xml:id="source-29775-29796" n="122"/>
+        <note type="source-span" xml:id="source-29796-30062" n="122"/>
+        <note type="source-span" xml:id="source-30062-30444" n="123"/>
+        <note type="source-span" xml:id="source-30444-30801" n="125"/>
+        <note type="source-span" xml:id="source-30479-30479" n="126"/>
+        <note type="source-span" xml:id="source-30479-30487" n="126"/>
+        <note type="source-span" xml:id="source-30487-30649" n="127"/>
+        <note type="source-span" xml:id="source-30649-30765" n="127"/>
+        <note type="source-span" xml:id="source-30667-30694" n="127"/>
+        <note type="source-span" xml:id="source-30667-30763" n="127"/>
+        <note type="source-span" xml:id="source-3073-3097" n="26"/>
+        <note type="source-span" xml:id="source-30763-30765" n="127"/>
+        <note type="source-span" xml:id="source-30809-31136" n="132"/>
+        <note type="source-span" xml:id="source-3097-3199" n="26"/>
+        <note type="source-span" xml:id="source-31136-31944" n="138"/>
+        <note type="source-span" xml:id="source-3199-3220" n="26"/>
+        <note type="source-span" xml:id="source-3220-3819" n="26"/>
+        <note type="source-span" xml:id="source-3819-3999" n="27"/>
+        <note type="source-span" xml:id="source-3999-4023" n="27"/>
+        <note type="source-span" xml:id="source-4023-4054" n="27"/>
+        <note type="source-span" xml:id="source-4054-4175" n="29"/>
+        <note type="source-span" xml:id="source-4075-4108" n="29"/>
+        <note type="source-span" xml:id="source-4075-4171" n="29"/>
+        <note type="source-span" xml:id="source-4175-4765" n="31"/>
+        <note type="source-span" xml:id="source-4765-4866" n="32"/>
+        <note type="source-span" xml:id="source-4866-4868" n="32"/>
+        <note type="source-span" xml:id="source-4868-4877" n="33"/>
+        <note type="source-span" xml:id="source-4868-4922" n="33"/>
+        <note type="source-span" xml:id="source-490-909" n="17"/>
+        <note type="source-span" xml:id="source-4922-4926" n="33"/>
+        <note type="source-span" xml:id="source-4926-5027" n="35"/>
+        <note type="source-span" xml:id="source-5027-5029" n="35"/>
+        <note type="source-span" xml:id="source-5029-5038" n="36"/>
+        <note type="source-span" xml:id="source-5029-5083" n="36"/>
+        <note type="source-span" xml:id="source-5083-5087" n="36"/>
+        <note type="source-span" xml:id="source-5087-5776" n="38"/>
+        <note type="source-span" xml:id="source-5776-5877" n="39"/>
+        <note type="source-span" xml:id="source-5785-5794" n="39"/>
+        <note type="source-span" xml:id="source-5877-5879" n="39"/>
+        <note type="source-span" xml:id="source-5879-5888" n="40"/>
+        <note type="source-span" xml:id="source-5879-5933" n="40"/>
+        <note type="source-span" xml:id="source-5933-5937" n="40"/>
+        <note type="source-span" xml:id="source-5937-6469" n="42"/>
+        <note type="source-span" xml:id="source-6469-6572" n="44"/>
+        <note type="source-span" xml:id="source-6490-6514" n="44"/>
+        <note type="source-span" xml:id="source-6490-6568" n="44"/>
+        <note type="source-span" xml:id="source-6572-7876" n="46"/>
+        <note type="source-span" xml:id="source-7876-8519" n="47"/>
+        <note type="source-span" xml:id="source-8519-8658" n="49"/>
+        <note type="source-span" xml:id="source-8540-8582" n="49"/>
+        <note type="source-span" xml:id="source-8540-8654" n="49"/>
+        <note type="source-span" xml:id="source-8658-8759" n="51"/>
+        <note type="source-span" xml:id="source-8667-8676" n="51"/>
+        <note type="source-span" xml:id="source-8759-8761" n="51"/>
+        <note type="source-span" xml:id="source-8761-8770" n="52"/>
+        <note type="source-span" xml:id="source-8761-8815" n="52"/>
+        <note type="source-span" xml:id="source-8815-8819" n="52"/>
+        <note type="source-span" xml:id="source-8819-9041" n="54"/>
+        <note type="source-span" xml:id="source-9041-9126" n="54"/>
+        <note type="source-span" xml:id="source-9059-9061" n="54"/>
+        <note type="source-span" xml:id="source-9061-9062" n="54"/>
+        <note type="source-span" xml:id="source-9061-9099" n="54"/>
+        <note type="source-span" xml:id="source-909-1828" n="18"/>
+        <note type="source-span" xml:id="source-9126-9162" n="54"/>
+        <note type="source-span" xml:id="source-9162-9247" n="54"/>
+        <note type="source-span" xml:id="source-9180-9182" n="54"/>
+        <note type="source-span" xml:id="source-9182-9183" n="54"/>
+        <note type="source-span" xml:id="source-9182-9220" n="54"/>
+        <note type="source-span" xml:id="source-9247-9259" n="54"/>
+        <note type="source-span" xml:id="source-9259-9344" n="54"/>
+        <note type="source-span" xml:id="source-9277-9279" n="54"/>
+        <note type="source-span" xml:id="source-9279-9280" n="54"/>
+        <note type="source-span" xml:id="source-9279-9317" n="54"/>
+        <note type="source-span" xml:id="source-9344-9457" n="54"/>
+        <note type="source-span" xml:id="source-9457-9550" n="54"/>
+        <note type="source-span" xml:id="source-9475-9477" n="54"/>
+        <note type="source-span" xml:id="source-9477-9478" n="54"/>
+        <note type="source-span" xml:id="source-9477-9515" n="54"/>
+        <note type="source-span" xml:id="source-9515-9523" n="54"/>
+        <note type="source-span" xml:id="source-9550-9562" n="54"/>
+        <note type="source-span" xml:id="source-9562-9647" n="54"/>
+        <note type="source-span" xml:id="source-9580-9582" n="54"/>
+        <note type="source-span" xml:id="source-9582-9583" n="54"/>
+        <note type="source-span" xml:id="source-9582-9620" n="54"/>
+        <note type="source-span" xml:id="source-9647-9715" n="54"/>
+        <note type="source-span" xml:id="source-9715-9773" n="54"/>
+        <note type="source-span" xml:id="source-9733-9746" n="54"/>
+        <note type="source-span" xml:id="source-9773-9779" n="54"/>
+        <note type="source-span" xml:id="source-9779-9800" n="54"/>
+        <note type="source-span" xml:id="source-9800-9827" n="54"/>
+        <note type="source-span" xml:id="source-9827-9845" n="54"/>
+        <note type="source-span" xml:id="source-9845-9869" n="54"/>
+        <note type="source-span" xml:id="source-9869-9954" n="54"/>
+        <note type="source-span" xml:id="source-9887-9889" n="54"/>
+        <note type="source-span" xml:id="source-9889-9890" n="54"/>
+        <note type="source-span" xml:id="source-9889-9927" n="54"/>
+        <note type="source-span" xml:id="source-9954-10098" n="54"/>
+      </div>
+      <note type="parser-completion" n="true">The n attribute is true when no parser diagnostic of error severity was raised for this source. What the converter could not interpret is recorded in the interpretation-problem and parser-diagnostic notes.</note>
+      <note type="source-decoding">windows-31j</note>
+    </back>
+  </text>
+</TEI>

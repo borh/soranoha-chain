@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:snh="https://w3id.org/soranoha/ns/tei" snh:vocab-version="1">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ja">我が円朝研究</title>
+        <title type="reading" xml:lang="ja-Hira">わがえんちょうけんきゅう</title>
+        <title type="sub" xml:lang="ja">「怪談牡丹灯籠」「江島屋騒動」「怪談乳房榎」「文七元結」「真景累ヶ淵」について</title>
+        <title type="sub-reading" xml:lang="ja-Hira">「かいだんぼたんどうろう」「えじまやそうどう」「かいだんちぶさえのき」「ぶんしちもっとい」「しんけいかさねがふち」について</title>
+        <author><persName xml:lang="ja"><surname>正岡</surname><forename>容</forename><idno type="aozora-person-id">001313</idno></persName><persName xml:lang="ja-Hira"><surname>まさおか</surname><forename>いるる</forename></persName><persName xml:lang="ja-Latn"><surname>Masaoka</surname><forename>Iruru</forename></persName></author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://w3id.org/soranoha/">Soranoha</publisher>
+        <idno type="soranoha-work-identifier">047781_001313</idno>
+        <idno type="aozora-work-id">047781</idno>
+        <idno type="aozora-card-url">https://www.aozora.gr.jp/cards/001313/card47781.html</idno>
+        <date when="2014-09-21">2014-09-21</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">The underlying work is in the public domain; Soranoha asserts no rights over it.</licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Soranoha's encoding of this work and the artifacts derived from it are dedicated to the public domain under CC0-1.0. Attribution is requested, not required. Full rights statement: <ptr target="https://w3id.org/soranoha/rights"/></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>小説　圓朝</title><publisher>河出文庫、河出書房新社</publisher><date>2005（平成17）年7月20日</date><note type="input-edition">2005（平成17）年7月20日初版</note><note type="proof-edition">2005（平成17）年7月20日初版</note></bibl>
+        <bibl><idno type="source-content-hash">sha256:aac85f0f97d1f440fc22f608f5b60fd7ea684a87fc760bfcf92569cfed6f42a4</idno></bibl>
+        <bibl><idno type="primary-text-hash">sha256:9516eebb5a7da68dcf91c41caf6995376f727914b2ef6945953c5c17363e2670</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css"/>
+      <classDecl><taxonomy xml:id="ndc"><bibl>日本十進分類法 (Nippon Decimal Classification), as recorded by <title>青空文庫</title> in its 分類番号 field.</bibl></taxonomy><taxonomy xml:id="aozora-orthography"><bibl><title>青空文庫</title> 文字遣い種別: the orthographic style Aozora Bunko records for the transcription.</bibl></taxonomy></classDecl>
+      <refsDecl xml:id="source-spans"><p>A note of type source-span has an xml:id of the form source-START-END, giving the extent in UTF-8 bytes of the decoded primary text identified in sourceDesc. <ptr target="https://w3id.org/soranoha/ns/tei"/></p></refsDecl>
+      <charDecl>
+        <char xml:id="gaiji-4-2-80-65">
+          <mapping type="unicode">玵</mapping>
+          <localProp name="rawMarker" value="王＋甘"/>
+        </char>
+        <char xml:id="gaiji-3-1-84-22">
+          <mapping type="unicode">弴</mapping>
+          <localProp name="rawMarker" value="弓＋享"/>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ja">日本語</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#ndc">779</classCode>
+        <classCode scheme="#aozora-orthography">新字新仮名</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p style="text-indent: 1em" rend="first-line-indent(1)">三遊亭圓朝初期の作品たる「<ruby type="furigana" rend="right" source="#source-797-854"><rb>怪談牡丹燈籠</rb><rt>かいだんぼたんどうろう</rt></ruby>」「<ruby type="furigana" rend="right" source="#source-860-926"><rb>鏡ヶ池操松影</rb><rt>かがみがいけみさおのまつかげ</rt></ruby>（江島屋騒動）」「<ruby type="furigana" rend="right" source="#source-953-1004"><rb>真景累ヶ淵</rb><rt>しんけいかさねがふち</rt></ruby>」並びに代表作「<ruby type="furigana" rend="right" source="#source-1028-1079"><rb>怪談乳房榎</rb><rt>かいだんちぶさえのき</rt></ruby>」「<ruby type="furigana" rend="right" source="#source-1085-1127"><rb>文七元結</rb><rt>ぶんしちもっとい</rt></ruby>」の諸篇を検討してみよう。いわゆる欧化時代の<ruby type="furigana" rend="right" source="#source-1193-1220"><rb>横顔</rb><rt>プロヒイル</rt></ruby>たる西洋人情噺の諸作については引き続いて世に問う『圓朝』後半生篇の附録に語ろう。「<ruby type="furigana" rend="right" source="#source-1343-1409"><rb>後開榛名梅ヶ香</rb><rt>おくれざきはるなのうめがか</rt></ruby><seg source="#source-1409-1412">（</seg><ruby type="furigana" rend="right" source="#source-1412-1454"><rb>安中草三郎</rb><rt>あんなかそうざ</rt></ruby>）」や「<ruby type="furigana" rend="right" source="#source-1466-1526"><rb>粟田口霑笛竹</rb><rt>あわたぐちしめすふえたけ</rt></ruby>」や「<ruby type="furigana" rend="right" source="#source-1535-1598"><rb>塩原多助一代記</rb><rt>しおばらたすけいちだいき</rt></ruby>」もまた<ruby type="furigana" rend="right" source="#source-1610-1625"><rb>逸</rb><rt>はず</rt></ruby><seg source="#source-1625-1717">すべからざる代表作品であるがこれらの検討もまた他日を期そう。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-1717-1791">まず速記そのものについていいたい、冒頭に私は。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-1791-1866">ひと口に速記というもの、大方から演者の話風を偲ぶ</seg><hi rend="bouten 傍点 right" source="#source-1866-1902"><seg source="#source-1866-1872">よし</seg></hi><seg source="#source-1902-2193">なしとされている。たしかにこれにも一理あってまことに速記は円盤と同じくかつて一度でもその人の話術に接したものにはいろいろの連想を走らせながら親しむこともでき、従って話風の如何なりしかをおもい返す</seg><hi rend="bouten 傍点 right" source="#source-2193-2235"><seg source="#source-2193-2202">よすが</seg></hi><seg source="#source-2235-2384">ともなるのであるが、そうでない限り、話術のリズムや呼吸、緩急などは、絶対分らないといってよかろう。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)">その代りその人の高座を知っているものに昔の速記はなかなかに愉しく、微笑ましかった。かりに「<hi rend="bouten 傍点 right" source="#source-2522-2558"><seg source="#source-2522-2528">なか</seg></hi>申しておりまして」というような口調の落語家ありとすれば、その通り速記もまた「<hi rend="bouten 傍点 right" source="#source-2672-2708"><seg source="#source-2672-2678">なか</seg></hi>申して」いたし、「客人何々を御存じか」などと風流志道軒の昔を今に<ruby type="furigana" rend="right" source="#source-2804-2828"><rb>大風</rb><rt>おおふう</rt></ruby>な口の利き方の講釈師ありせば、これまた、速記も同じような大口利いていたからである。往年、私の愛読した『檜山実記――相馬大作』など「百猫伝」で知られた桃川<ruby type="furigana" rend="right" source="#source-3056-3083"><rb>如燕</rb><rt>じょえん</rt></ruby>の速記だったとおぼえているが、開口一番、如燕自ら今日の講釈師の不勉強不熱心をさんざんにこき下ろして、さて本題に入っている。すでにここが今日のいやに整頓されてしまっている速記とちがっておもしろいが、さらに第何席目かの喋りだしにおいては「ここ二、三日、宿酔の気味で休みまして」と正直に断っている。何もそんなこといちいち断らずとも読者には分らないのであるが、それをハッキリと断り、速記者もまた克明にその通りを写して紹介しているところがいよいよおもしろい。好もしくもある。然るに――さらにさらに終席ちかくに至ると突然<ruby type="furigana" rend="right" source="#source-3845-3875"><rb>貞玉</rb><rt>ていぎょく</rt></ruby><seg source="#source-3875-3902">（？）とかいう人（</seg><hi rend="bouten 傍点 right" source="#source-3902-3938"><seg source="#source-3902-3908">のち</seg></hi><seg source="#source-3938-3941">の</seg><ruby type="furigana" rend="right" source="#source-3941-3995"><rb>錦城齋典山</rb><rt>きんじょうさいてんざん</rt></ruby><seg source="#source-3995-4090">だろうか、乞御示教）が突然代講していて、なんとこういっている。</seg></p>
+      <p>「如燕先生は大酒が祟って没りました。で拠ん所なく今日からは私が……」云々。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)">読んでいて私、ふっと瞼の熱くなってきたことを何としよう。もはやここまでくると『檜山実記』の是非善悪より、この速記をめぐって、ある人生の一断面のまざまざと見せられていることに何より私は<hi rend="bouten 傍点 right" source="#source-4479-4521"><seg source="#source-4479-4488">こころ</seg></hi><seg source="#source-4521-5000">打たれずにはいられなかった。元よりこうした場合は異例ではあるが、話風の活写には間然たるところありとしても、多かれ少なかれ何か昔の速記にはこうしたありのままの浮世はなれた風情がある。また演者の生活や好みの一断片がチラと不用意に覗かれる、夏の夕風にひるがえった青簾の中の浴衣姿の佳人のごとく。そこを何より買いたいのである。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)">こうした速記のとぼけたよさ――それのなくなりだしたのはいつからだろう。「講談雑誌」第一号から第十号までを私は愛蔵しているが、まだまだ大正四年ころのこれらの速記はいま読むと故馬生（六代目・先代志ん生）、故小せん（初代）、故小勝（五代目）、先々代つばめ（二代目）、現左楽（五代目）など、その高座を識るものにはたしかにその人と肯かれる話癖が浮彫りになっていて微笑ましい。ただし、何年何月何日誰某宅にて速記などと断り書きのしてあるのは真っ赤な偽りであると、日頃、今村信雄君から教えられ、とんだ罪の深い真似をしたものだねと、うっかり笑ってしまったけれど、よくよく考えてみればそうまでしてまで真実感をかもしだそうとした当時の速記者たちの努力は買ってやるべきだろうとおもうが如何。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-6004-6123">いつからだろう、それが今日のような出鱈目至極のものとなり果ててしまったのは。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-6123-6285">私の記憶にして誤りなくんば癸亥大震災後、ようやくに文学というもの企業化し、全くのジャーナリズム王国築かれて</seg><ruby type="furigana" rend="right" source="#source-6285-6306"><rb>操觚</rb><rt>そうこ</rt></ruby><seg source="#source-6306-6387">世界へ君臨するようになって以来のこととおもう。そのころ</seg><ruby type="furigana" rend="right" source="#source-6387-6408"><rb>発兌</rb><rt>はつだ</rt></ruby><seg source="#source-6408-6483">の娯楽雑誌関係者は故石橋思案、森暁紅諸家のごとく、</seg><ruby type="furigana" rend="right" source="#source-6483-6510"><rb>常盤木</rb><rt>ときわぎ</rt></ruby><seg source="#source-6510-7131">倶楽部落語研究会の青竹めぐらした柵の中から生れきた通人粋子に非ずして、大半はこうした世界の教養を持たない地方出身の人々だったから、落語家講談師の一人一人のデリケイトな話風に立ち至ってまで知るよしがない。また相手として呼びかくる読者の大半、これまた地方大衆人に過ぎなかったから、いかに如実に演者の口吻を写しだしているか。そうした速記者の腐心など採り上げて買ってくれるよしもなかった。むしろ彼らはそうした風趣をば無用の</seg><ruby type="furigana" rend="right" source="#source-7131-7167"><rb>夾雑物</rb><rt>きょうざつぶつ</rt></ruby><seg source="#source-7167-7436">と非し、ひたすら、物語本位、筋本位の安価低俗の構成を要求したのだろう。明治開化以来の愛読に価する講談落語の本格速記の伝統は、このときにして崩壊しつくしたりというも全く過言でない。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)">現に私は記憶している、昭和八、九年のころ現三笑亭可楽君（八代目）は某々紙上において自らの落語速記を、他の誰のであったか、全く別箇の落語と半分ずつ接ぎ合わせたまやかし物を自演として発表され、大腐りに腐っていたことを。芸術の冒涜もまた、ここに至れば極まれりというべしである。落語家社会においてかりに前半に「天災」を語り、後半たちまち「廿四孝」に映ることありとせば「掴み込み」と蔑称し、そは田舎廻りのドサ真打の仕草と嘲り嗤われてやまざるところのもの。往年の可楽君の<ruby type="furigana" rend="right" source="#source-8126-8150"><rb>悒鬱</rb><rt>ゆううつ</rt></ruby>、今に至るも察してあまりあるものである。あるいは全くその演者の演ぜざる物語にいい加減の名前を附し、発表されることも少なくなかった。例えば現文楽（八代目）が「和洋語」を演じ、現小さん（四代目）が「五人廻し」を演じている速記のごときである。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-8506-8557">ここ数年来、講談社の諸雑誌など、</seg><ruby type="furigana" rend="right" source="#source-8557-8572"><rb>頓</rb><rt>とみ</rt></ruby><seg source="#source-8572-9270">に講談落語の速記を尊重しだし、親しく自宅へ速記者を派遣せしめ、また演者自らの執筆のかかるものを選びて掲載するなどの傾向を生じてきたのは喜びに堪えない。到底、往年の無用の用ある風雅味などは見るべくもないが、まだしもこれは実際の口演だけに取柄ありとしよう。ジャーナリズムはようやくにして話術の面白味の何たるかを悟り、これが尊重に目醒めてきたのか――然りとすればかつて片っ端から都下の井戸井戸を埋めさせた東京市の、近時、しきりに掘り返させているのにも似ているといえよう。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-9270-9758">閑話休題――そういう風に速記というもの昔日のものといえども、高座人の話術の活殺はついに知らしむべくもなかったけれども、さすがに往昔の講談落語の速記の中からは演者の描写力や構成力や会話技巧のよしあしなど充分以上に汲み取ることができる。そうして一般話術家は元より、私たち作家にとってもそこに学ぶに足るもの多々ありといい切れる。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-9758-9815">ことに圓朝の速記においては、そのころ</seg><ruby type="furigana" rend="right" source="#source-9815-9904"><rb><seg source="#source-9815-9821">若林</seg><g ref="#gaiji-4-2-80-65" source="#source-9821-9868">玵</g><seg source="#source-9868-9871">蔵</seg></rb><rt>わかばやしかんぞう</rt></ruby><seg source="#source-9904-9997">子を始めとして当時の速記界の第一流人が挺身、これに当っている。</seg><ruby type="furigana" rend="right" source="#source-9997-10024"><rb>聞説</rb><rt>きくならく</rt></ruby><seg source="#source-10024-10033">、若林</seg><g ref="#gaiji-4-2-80-65" source="#source-10033-10080">玵</g><seg source="#source-10080-10125">蔵子某席における圓朝が人情噺を</seg><ruby type="furigana" rend="right" source="#source-10125-10140"><rb>私</rb><rt>ひそ</rt></ruby><seg source="#source-10140-10158">かに速記し、</seg><hi rend="bouten 傍点 right" source="#source-10158-10194"><seg source="#source-10158-10164">のち</seg></hi><seg source="#source-10194-10320">これを本人に示したとき、声の写真とはこれかと瞠目せしめたのが、実に本邦講談落語速記の</seg><ruby type="furigana" rend="right" source="#source-10320-10341"><rb>嚆矢</rb><rt>こうし</rt></ruby><seg source="#source-10341-10699">ではあるとされている。即ちそれほどの速記術草創時代だったから、圓朝の一声一咳は全篇ことごとく情熱かけて馬鹿正直にまで写しだされているのである。で、それらの速記をたよりとして圓朝つくるところの諸作品を、以下あなた方とともに検討していこう。</seg></p>
+      <p style="text-indent: 4em" rend="first-line-indent(4)">「怪談牡丹燈籠」</p>
+      <p>「牡丹燈籠」は拙作『圓朝』の中でも記しておいたとおり、最も人口に<ruby type="furigana" rend="right" source="#source-10839-10863"><rb>膾炙</rb><rt>かいしゃ</rt></ruby>された代表作である上に、「累ヶ淵」「皿山畸談」とともに今日のこっているものの最古の作品にかかっている。で、最初にこれを採り上げることとした。もっともこの速記本の<ruby type="furigana" rend="right" source="#source-11103-11127"><rb>上梓</rb><rt>じょうし</rt></ruby><seg source="#source-11127-11178">されたは明治十七年、作者四十六歳の</seg><ruby type="furigana" rend="right" source="#source-11178-11196"><rb>砌</rb><rt>みぎり</rt></ruby><seg source="#source-11196-11214">であるから、</seg><hi rend="bouten 傍点 right" source="#source-11214-11274"><seg source="#source-11214-11232">すこんからん</seg></hi><seg source="#source-11274-11427">と派手に画面の大見得を切った芝居噺のころの構成とはよほど異なっていることだろう。もちろん、後年のほうが</seg><ruby type="furigana" rend="right" source="#source-11427-11442"><rb>燻</rb><rt>いぶ</rt></ruby><seg source="#source-11442-11879">し銀のような渋さに磨きがかかり、恐らく一段も二段もよくなっているだろうにはちがいない（今日この速記を読んでいくと僅かに一ヶ所、後半の伴蔵が源次郎に啖呵を切るくだりで芝居噺をおもわせる口吻が感じられるが、その場合はむしろのこっているだけ作品としてはありがたくない場合であること、後述しよう）。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)">さてこの「牡丹燈籠」には春のやおぼろ（坪内逍遙博士）が絶讃の序文を寄せている。全篇の人物、活けるがごとく写しだされているのは圓朝の話術が迫真だからで「皮相を写して死したるが如き文」している手合は圓朝の前に<ruby type="furigana" rend="right" source="#source-12188-12206"><rb>愧死</rb><rt>きし</rt></ruby><seg source="#source-12206-12269">せよとまで激賞しているのである。この序文の</seg><ruby type="furigana" rend="right" source="#source-12269-12290"><rb>通褒</rb><rt>つうほ</rt></ruby>でないことはあなた方もこの鑑賞をすすめていくとともに、容易に肯いて貰えるだろうが、それにしても春のやおぼろが『書生気質』一篇に洛陽の紙価を高らしめたは翌明治十八年であるが、年譜に拠ると『春風情話（ランマムープの新婦）』『該撒奇談』『リエンジー』『春窓綺話（レデー・オブ・ザ・レーキ）』『自由太刀余波鋭鋒』などすでに上梓しているし、文学士の称号もまたその二年前、授けられている。おもうにそのころ二十七歳のおぼろは<ruby type="furigana" rend="right" source="#source-12905-12923"><rb>漸</rb><rt>ようや</rt></ruby><seg source="#source-12923-12953">く新進作家として名声</seg><ruby type="furigana" rend="right" source="#source-12953-12980"><rb>嘖々</rb><rt>さくさく</rt></ruby><seg source="#source-12980-13039">たるものありだしたときだったのだろう。</seg></p>
+      <p>「牡丹燈籠」のモデルについてはこれまた『圓朝』の中で述べつくしたから繰り返さないが、何より構成法として効果的だとおもわされるのは、平左衛門、孝助の因果物語をＡとし、お露新三郎の恋と怪奇をＢとし、ＡＢ二つのこの物語を隔晩に演じ、それぞれクライマックスのところまで持っていっては、お<ruby type="furigana" rend="right" source="#source-13456-13471"><rb>後</rb><rt>あと</rt></ruby><seg source="#source-13471-13636">明晩と鮮やかな小手投げをくわしている手際である。こうした二つの物語をテレコに運んでいく手法は南北にも黙阿弥にも</seg><ruby type="furigana" rend="right" source="#source-13636-13657"><rb>屡</rb><rt>しばしば</rt></ruby><seg source="#source-13657-14637">見られる江戸歌舞伎の常套的作劇法であるが、それを話術の上へ、こうまで鮮やかに移し植えたは圓朝独自の働きとしていいだろう。ＡＢをテレコに運ぶ構成の効果は明らかに演劇よりも人情噺の上においてのほうが甚大で、舞台においてはただ幕ごとにガラリガラリと目先が変っていくおもしろさだけであるが、高座の場合は昨夜のつづまりやいかにとＡの物語に釣られてきたお客が、翌晩はおもいもかけないまた別のＢのおもしろい物語に酔わされ、このＢの結末もまたいかにと二倍に吸引されてきてしまうわけになる。同時にはじめてＢの物語に魅かれてきたお客が翌晩Ａの物語を聞かされてまた感嘆してしまった場合も同様。従ってこれはまさしく当時として極めて有効な八方睨みの客寄せ法といってかなりだろう。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-14637-15039">発端はすなわちそのＡ――若き日の飯島が本郷の刀屋の前で、酒癖の浪人黒川孝蔵を無礼討にするこれがプロローグのように点出されている。そしてこの間何年相経ち申し候ということになり、次にはお露新三郎のくだりとなるのである。萩原新三郎を、飯島の娘お露の柳島の寮へさそっていくお</seg><ruby type="furigana" rend="right" source="#source-15039-15060"><rb>幇間</rb><rt>たいこ</rt></ruby>医者山本志丈を、「大概のお医者なれば<ruby type="furigana" rend="right" source="#source-15114-15138"><rb>一寸</rb><rt>ちょっと</rt></ruby><seg source="#source-15138-15261">紙入れの中にも、お丸薬や散薬でも這入っていますが、この志丈の紙入の中には手品の種や</seg><ruby type="furigana" rend="right" source="#source-15261-15291"><rb>百眼</rb><rt>ひゃくまなこ</rt></ruby>などが」云々と紹介しているのは、いかにもその人柄が一目瞭然とされておもしろい。しかもそのすぐ直前、この人は<ruby type="furigana" rend="right" source="#source-15450-15471"><rb>古方</rb><rt>こほう</rt></ruby><seg source="#source-15471-15626">家ではあるが諸人助けのために匙をとらないなど、落語家圓朝にしてはじめていい得る天晴れなギャグとおもう。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)">次いで寮へ上がり込んだところでは、志丈をしてここへくる前立ち寄った臥龍梅における新三郎の句を「煙草には<ruby type="furigana" rend="right" source="#source-15782-15803"><rb>燧火</rb><rt>すりび</rt></ruby>のむまし梅の中」、志丈自身のを「梅ほめて紛らかしけり門違い」と披露せしめている。いずれも圓朝自らの作句とおもうが、いかにもそれぞれの人らしい感じのでている上にさして月並でない。嫌味なく思いのままをうたっているところ、さすがとおもう。余談であるがこの志丈、今は亡き尾上松助が当り役で、これも今は亡き増田龍雨翁に、すなわち句がある。</p>
+      <div type="layout" source="#source-16297-16415" style="padding-inline-start: 2em">
+        <p><seg source="#source-16332-16379">西瓜食えば松助の志丈などおもう</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">それにしてもここで互いに憎からず、おもいあったお露と新三郎を、次の次の章においては志丈、「もし万一の事があって、事の顕われた日には大変、坊主首を斬られなければならん」と事情あくまで推察しているくせに「二月三月四月」と萩原の許へ立ち廻らない。こうしたところにいよいよ志丈という男の大悪人ではないが、おざなりな自分本位の人間たることがよく表わされている。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">そのひとつ前の章――即ち孝助が主人飯島平左衛門に前半生を物語り、初めて先年無礼討にした酒癖の浪人黒川孝蔵の忰であったか、よし、ではいつかはこの不憫の奴に討たれてやろうと決意させるくだりにおいては「まず一番先に四谷の金物商へ参りましたが、一年程居りまして駈け出しました、それから新橋の鍛冶屋へ参り、三月程過ぎて駈け出し、また仲通りの絵草紙屋へ参りましたが、十日で駈け出しました」云々と孝助にこし方を語らせている。すでに拙作『圓朝』の「初一念」の章を読まれた方々はこのくだりを読まれてたちまち思い半ばに過ぐるものあるだろう、こうした孝助の転々さは圓朝自身の少年時の姿を毫末も変らず、吐露し、ただ圓朝の初一念は落語家にあり、孝助の初一念は武家奉公にあり、僅かにそこだけがちがっているばかりだからである、でも共に見ン事その初一念貫きとおした点では両者同一に賞められてよかろう。そこで平左衛門がどうして<hi rend="bouten 傍点 right" source="#source-18138-18180"><seg source="#source-18138-18147">さまで</seg></hi><seg source="#source-18180-18345">武家奉公がしたいと訊ねる、ハイ剣術を習って親の仇が、してその親とは……とこう問い問われてきてはじめて黒川孝蔵の</seg><ruby type="furigana" rend="right" source="#source-18345-18375"><rb>遺児</rb><rt>わすれがたみ</rt></ruby><seg source="#source-18375-18482">たることが分る段取りにはなるのである。少し話が前後してしまったけれど。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-18482-18686">一方想いに耐え兼ねた新三郎は船を仕立てて柳島の寮ちかく漕ぎ寄せさせる、そして首尾好くお露にめぐりあい、語らっているとお露の父平左衛門に</seg><ruby type="furigana" rend="right" source="#source-18686-18707"><rb>発見</rb><rt>みつけ</rt></ruby><seg source="#source-18707-18767">られ、あわや一刀両断の処置にあわんとして</seg><ruby type="furigana" rend="right" source="#source-18767-18788"><rb>南柯</rb><rt>なんか</rt></ruby><seg source="#source-18788-18836">の夢さめる、何事もなく身は船中に</seg><ruby type="furigana" rend="right" source="#source-18836-18860"><rb>転寝</rb><rt>うたたね</rt></ruby>していたのであるが、「飯島の娘と夢のうちにて取り交わした」香箱の蓋はまさしく手にのこっている。ここらの怪奇も生々としていて、冴えている。さらにその香箱が「秋野に虫の模様」であるのはいよいよ凄味があってよいではないか。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-19186-19762">それからまたひと月経った六月の末、志丈は久々で新三郎を訪ねてきてお露様がお前に焦れ死んだとつたえる、しかもあくまでオッチョコチョイにできている志丈、喋るだけ喋ると寺も何もいわないでアタフタかえっていってしまう。寺を教えないでかえるためにあとの怪異が自然に進行し、発展する。その発展のためには志丈のこうした性格がまたあくまで自然に役立っている。こうしたところも、春のやおぼろではないが</seg><hi rend="bouten 傍点 right" source="#source-19762-19810"><seg source="#source-19762-19774">かいなで</seg></hi>の作家には真似られぬ圓朝の冴えが見られるとおもう。ところで牡丹燈籠提げて駒下駄の音物凄きお露お米の怪異は、その晩のうちにおこなわれるのである。二人の姿をみつけた新三郎がアッとおどろく前に、乳母のお米のほうが「貴方様はお亡くなり遊ばしたという事でしたに」と目を瞠っている。で、お前様こそお嬢様のお亡くなりのあと看病疲れで亡くなったと、聞きましたにと新三郎がいぶかると、いよいよお米は呆れたのち、「うちにはお国という悪い妾がいるものですから邪魔を入れて志丈に死んだといわせ」たのだろうとこういう。ここにおいて新三郎同様その晩のお客もまた、ではやっぱりこの二人の死んだというはお国の詐略だったかと易々と信じさせられてはしまうのである。というのが、お国とは平左衛門がお露の母の死後つい引き入れた悪婆で元々この女と合わないため乳母と二人、寂しく柳島の寮で暮らしているお露ではあることを初晩以来、お客といえども知らされているから。こうした段取りもやはり憎いほど圓朝は心得たものだとおもう。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">かく物語の発展していくうちも平左衛門と孝助のＡ、お露新三郎のＢと、相変らず物語はＡＢ、ＡＢと隔晩に交互して運ばれていっているのであることもちろんで、今後はいちいち断らないからその積りで読んでいって頂きたい。すなわち一方、飯島の家においてはそうしたお国なればこそ、隣家次男坊宮部源次郎とわりなき仲となっていて、釣に事寄せ平左衛門を殺そうとさえ企てているため、私かに聞き知った孝助が躍起となって主の大難を未然に防ごうとしている。そうした最中に飯島の知人相川新五兵衛が訪ねてくる。新五兵衛は娘のおとくが孝助に恋患いしているので、飯島まで孝助を貰いにやってきたのであるが、この新五兵衛のいかにもそそっかしい好々爺ぶりも春のやの賞讃しているとおりじつによく描かれている。否、ことによると「牡丹燈籠」全篇を通じて相川老人が一番ありありと描けているかもしれない。「娘の病気もいろいろと心配も致しましたが、何分にも<ruby type="furigana" rend="right" source="#source-22326-22350"><rb>捗々</rb><rt>はかばか</rt></ruby><seg source="#source-22350-22443">しく参りませんで、それに就いて誠にどうも……アア熱い、お国さま</seg><ruby type="furigana" rend="right" source="#source-22443-22467"><rb>先達</rb><rt>せんだっ</rt></ruby>ては誠に御馳走様に相成りましてありがとう。まだお礼もろくろく申し上げませんで、へえ、アア熱い、誠に熱い、どうも熱い」といった風にである。一読、赤銅いろの禿げ頭した背の低い小肥りした憎気のない老武士が髣髴としてくるではないか。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">萩原宅では、夜ごとお露お米がおとずれてくる。隣家の伴蔵が覗いてみれば「骨と皮ばかりの痩せた女で、髪は島田に結って<ruby type="furigana" rend="right" source="#source-22976-22991"><rb>鬢</rb><rt>びん</rt></ruby>の毛が顔に下り、真っ青な顔で、裾がなくって腰から上ばかり」なのである。仰天して近隣の<ruby type="furigana" rend="right" source="#source-23117-23141"><rb>売卜</rb><rt>ばいぼく</rt></ruby>の名人白翁堂勇齋のところへ駈け込むのだが、そのとき圓朝はこの勇齋をして「尤も支那の小説にそういう事があるけれども」といわしめている点も不敵なほど、「芸」の迫真の何たるかの奥秘を悟りつくしているものといわなければならない、お露の名が圓朝を贔屓にした北川町の<ruby type="furigana" rend="right" source="#source-23522-23546"><rb>玄米</rb><rt>くろごめ</rt></ruby>問屋近江屋の嫁の実名であり、その家に起こった因縁噺が怪異のヒントとなっているとしても、萩原新三郎の名のほうは『牡丹燈記』の邦訳たる浅井了意が『伽婢子』の中の萩原新之丞が転身たること明らかである。見す見すそこに材を得ていながらハッキリ「支那の小説」云々とそれを匂わせることによってかえって、その原話とは別な真実感を漂わすなど、作家としてもよほどの苦労人といわねばなるまい。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">勇齋に死相ありと脅された新三郎は新幡随院の良石和尚にあい、金無垢の観世音と両宝陀羅尼経とを貰う。そのときに和尚が「この経は妙月長者という人が、貧乏人に金を施して悪い病の流行る時に救ってやりたいと思ったが、宝がないから仏の力をもって金を貸してくれろといった所が、釈迦がそれは誠に心懸の尊い事じゃといって貸したのが、すなわちこのお経じゃ」と陀羅尼経の所縁を説き明かしていることもへんにありがたそうな実感がでていて結構である。この種の技巧の例は今後もいろいろの作品をつうじて<ruby type="furigana" rend="right" source="#source-24808-24832"><rb>屡々</rb><rt>しばしば</rt></ruby><seg source="#source-24832-25024">でてくるが、ことに圓朝はこうした教養というか用意というか、その点が秀れている。ありがたい観音様に守られ、経文に守られ、軒々へもお</seg><ruby type="furigana" rend="right" source="#source-25024-25039"><rb>札</rb><rt>ふだ</rt></ruby>を貼りめぐらしてしまったため、その晩、お露の霊は新三郎のところへ入ることができない。恋しさに耐え兼ねて、よよと闇中に泣きくずれる。すなわちそこがその一席の切り場であって「もしや裏口から這入れないものでもありますまい、入らっしゃいと手を取って裏口へ廻ったが矢張這入られません」と速記はここで次章へと移っているのであるが、かつて先代林家正蔵（七代目）は圓朝門下の大才圓喬のこのくだりのあまりにも水際立っていた点を極力私にたたえて聞かせ、当時の圓喬の演出は「矢張り這入れません」とのみポツンと切ってしまわず、怨めしそうにお露が軒端を見上げてまたもや泣いじゃくるのをお米がなだめてもういっぺん横手ヘツーッと……。この「ツーッと」を右手で形をしながら、「ツー」くらいまでいいかけて、</p>
+        <p>「……いやあまりお長くなりますから」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-26105-26303">と小声で世話に砕けて下りていくといった風だった由である。たしかにこの演出のほうが心憎いほど我々に水尾曳いてのこる余韻がある。或いは</seg><hi rend="bouten 傍点 right" source="#source-26303-26339"><seg source="#source-26303-26309">のち</seg></hi><seg source="#source-26339-26455">には圓朝自身この演出を工夫し、それを弟子たる圓喬がつたえたものかもしれない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">妾のお国は孝助の存在を憎むのあまり、源次郎の邸の若党で「鼻歌でデロレンなどを唄っている<ruby type="furigana" rend="right" source="#source-26587-26614"><rb>愚者</rb><rt>おろかもの</rt></ruby>」相助をおだてて危害を加えさせようとするのであるが、この相助の用語がおよそ特異でいかにも愚鈍に感じられるからおもしろい。曰く「<ruby type="furigana" rend="right" source="#source-26803-26818"><rb>憎</rb><rt>にく</rt></ruby><hi rend="bouten 白丸傍点 right" source="#source-26818-26860"><seg source="#source-26818-26824">こい</seg></hi><seg source="#source-26860-26926">奴でございます、（中略）何時私が御主人の頭を</seg><ruby type="furigana" rend="right" source="#source-26926-26941"><rb>打</rb><rt>にや</rt></ruby><seg source="#source-26941-26980">しました（中略）これははや</seg><ruby type="furigana" rend="right" source="#source-26980-27001"><rb>金子</rb><rt>けんす</rt></ruby>まで」などというのであるが、<hi rend="bouten 傍点 right" source="#source-27043-27091"><seg source="#source-27043-27055">にっこい</seg></hi><seg source="#source-27091-27100">とか、</seg><hi rend="bouten 傍点 right" source="#source-27100-27154"><seg source="#source-27100-27115">ごじいます</seg></hi><seg source="#source-27154-27163">とか、</seg><hi rend="bouten 傍点 right" source="#source-27163-27205"><seg source="#source-27163-27172">にやす</seg></hi><seg source="#source-27205-27214">とか、</seg><hi rend="bouten 傍点 right" source="#source-27214-27256"><seg source="#source-27214-27223">けんす</seg></hi><seg source="#source-27256-27537">とか、聞くだに鈍な感じが深い。圓朝門下には俊才も少なくなかったが、同時にぽん太とかコマルとかへん朝とか愚かを以て鳴る名物男も存在していた。あるいはこれらの誰かがモデルだったかもしれない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-27537-27648">お国の策動はいよいよ烈しくて今度は自分の屋敷の若党源助をおだてて、孝助を</seg><ruby type="furigana" rend="right" source="#source-27648-27663"><rb>陥</rb><rt>おと</rt></ruby>し入れようとする。この源助の性格もまたよく描かれている。なぜならおだてられて源助、いろいろ孝助を打擲するくせに、何もかも承知している平左衛門がワザと後刻孝助を手討にするというと、「孝助お詫びを願え」、また少し経つと「お詫びを願わないか」しきりにこういって孝助をさとしているからである。なんと正直一途の性格であることが、ハッキリと分るだろう。この源助などは今後さして活躍もせず、いわば仕出し同様の存在なのであるが、それにもチャンとこうした性格を与えている。かつての私の話術の師たる、現三遊亭圓馬（三代目）は大師匠の手記を見ると、全く登場しない女中の年齢までかいてあるのに瞠目したと語っていたが、この源助の場合など考えるとき、たしかにそうしたこともあり得たろうとおもわないわけにはゆかない。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-28694-28736">かくて第二次のお国の計画も</seg><ruby type="furigana" rend="right" source="#source-28736-28757"><rb>画餅</rb><rt>がへい</rt></ruby>に帰したが、平左衛門大難の日は刻々と迫ってくる。しかもその前夜、平左衛門は、姦夫源次郎の姿に身をやつして、ワザと孝助の槍先にかかってしまうのである。はじめにいったとおりしょせんが自分は孝助の親を斬って棄てた仇の身の、我から討たれてやるつもりだったのである。主家のため憎い源次郎を討たむとして主人を手負いにしてしまった孝助の驚き、仇同士と聞き知っての愁嘆、まことに人生の一大悲劇であるが、こうしたところは残念ながら速記ではほんとうの「味」は分らない。<hi rend="bouten 傍点 right" source="#source-29429-29471"><seg source="#source-29429-29438">てんで</seg></hi>さし迫った演者の呼吸が感じられてこないからである。ただ孝助は今宵こそ源次郎を突き殺して自分も切腹してしまおうとおもっているから「泰平の御代とは申しながら、狼藉ものでも入る」といけないとて槍を研ぎはじめる。それを平左衛門は「憎い奴を突き殺す時は錆槍で突いたほうが、先の奴が痛いから」いい心持だと止め、それもそうだと孝助は止めてしまう。あに図らんやその「先の奴が痛い」錆槍で現在主人の横腹をブスとえぐってしまったのである。結果として孝助の心の苦悶は倍加されてくるし、しかもいま何もかも相分ってしまってみると昼間主人のいった「先の奴が痛い」こそおよそ、深刻悲痛である。錆槍ひとつがじつに二重三重いろいろさまざまに心理的な働きをしているといわねばならない。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-30445-30691">慟哭する孝助を叱って手負いの主人は養子先の相川家へ逃がしてやる、そのとき他日、お国源次郎を我が仇として討ち果たしてくれと遺言する。心ならずも孝助は立ち退いていって</seg><ruby type="furigana" rend="right" source="#source-30691-30721"><rb>粗忽者</rb><rt>そこつもの</rt></ruby>の養父相川新五兵衛に逐一を物語る。ここでも依然粗忽者の性格は言葉のはしばしに遺憾なく、表わされているが、人違いして飯島を突いたと聞いて「なぜ源次郎と声を掛けて突かないのだ」というところは岡本綺堂先生の『寄席と芝居と』に拠ると「息もつけぬ程に面白い」よしである。</p>
+        <p>「文字に書けば唯一句であるが、その一句のうちに、一方には一大事<ruby type="furigana" rend="right" source="#source-31206-31236"><rb>出来</rb><rt>しゅったい</rt></ruby><seg source="#source-31236-31800">に驚き一方には孝助の不注意を責め、また一方には孝助を愛しているという、三様の意味がはっきりと表れて、新五兵衛という老武士の風貌を躍如たらしめる所など、その息の巧さ、今も私の耳に残っている。團十郎もうまい、菊五郎も巧い。而も俳優はその人らしい扮装をして、その場らしい舞台に立って演じるのであるが、圓朝は単に扇一本を以て、その情景をこれほどに活動させるのであるから、実に話術の妙を</seg><ruby type="furigana" rend="right" source="#source-31800-31815"><rb>竭</rb><rt>つく</rt></ruby>したものといってよい。名人は畏るべきである」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-31883-32125">と記されてあるをもって知れよう。それにしても前述の愁嘆場と同じくこうした呼吸をもって表現するところは速記では全く味わい知るべくもない。この上もなく遺憾である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">その代り仇討発足とのくだりでこれまた新五兵衛の孝助への烈しい愛情のあらわれであるが「私が細い金を選って、襦袢の中へ縫い込んで置く積りだから、肌身離さず身に<ruby type="furigana" rend="right" source="#source-32359-32371"><rb>著</rb><rt>つ</rt></ruby>けて置きなさい」などは速記においても惜しみなく圓朝の会話の巧さをつたえているといえよう。その晩のおとく孝助の<ruby type="furigana" rend="right" source="#source-32533-32560"><rb>新枕</rb><rt>にいまくら</rt></ruby>を「玉椿八千代までと思い思った夫婦中、初めての語らい、誠にお目出たいお話でございます」云々とまことにいやらしくなく、簡潔の中に一味清純な艶かしさをたたえていて凡手でない。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">かかるひまに萩原新三郎は一夜良石和尚から借りてきた金無垢の仏像を何者にか盗み去られて変死していた、愕いた勇齋が一応伴蔵に疑いをかけ、天眼鏡で伴蔵を見ようとするのはいかにも易者らしくて愉快である。昨夏、歌舞伎座で六代目が上演した半七捕物帳の「河豚太鼓」は宇野信夫君の脚色であるが、さすがに宇野君も六代目の易者をして河豚にやられて悶死する一刹那、「死ぬか活きるか、占ってやれ」と自ら苦しみながら筮竹を握って自分自身の運命を占うの可笑し味があった。手練の作家の技巧というもの、ついに究極においては一致するものといえよう。この顛末を勇齋が良石上人へ報せにゆくと、「側に悪い奴が附いていて、また萩原も免れられない悪因縁で」とつとに上人見破っているばかりでなく、盗まれた仏像も「来年八月には<ruby type="furigana" rend="right" source="#source-33837-33858"><rb>屹度</rb><rt>きっと</rt></ruby>出る」などと喝破しているところ、いかにも神秘的な存在で<ruby type="furigana" rend="right" source="#source-33939-33960"><rb>羅曼</rb><rt>ロマン</rt></ruby><seg source="#source-33960-33986">的な興味が深い。</seg></p>
+        <p>「伴蔵は悪事の露顕を恐れ、女房おみねと栗橋へ引越し、幽霊から貰った百両」で荒物屋を始める。これがトントン拍子に当る。いう目がでるので奢りに長じて伴蔵は、だんだん茶屋酒に親しむようになる。はしなくも土地の料理屋で、女中となっていた飯島の妾お国とわりない仲となる。どうしてお国はこんなところでこんな茶屋奉公なんかしているのだろう。話はこうだ。あの晩、手負いの平左衛門は孝助を逃がしてやったのち、姦夫姦婦のところへ斬り込んでいった、そして源次郎に手は負わせたものの、トド彼らのため、滅多斬りに斬殺されてしまった。で、有金をさらって逃げた二人は、ひとたびお国の郷里越後へ走ったが実家絶えてなく、<ruby type="furigana" rend="right" source="#source-34865-34892"><rb>拠所</rb><rt>よんどころ</rt></ruby><seg source="#source-34892-35377">なく栗橋まで引き返してきたとき、飯島に突かれた傷が痛みだし源次郎はドッと寝込んでしまった。ついにその日に困ってお国は茶屋奉公に。かくて伴蔵と結ばれたというわけなのである。でも、結ばれたのは単にお国と伴蔵ばかりでない、十七席を重ねてきたＡＢ二つの因縁因果物語もまたこの二人の結ばれによってはじめて一心同体と結ばれたのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-35377-35428">その結果、伴蔵の女房おみねは夫の</seg><ruby type="furigana" rend="right" source="#source-35428-35455"><rb>不身持</rb><rt>ふみもち</rt></ruby>を怒って、果ては嫉妬半分お前が「萩原様を殺して海音如来のお像を盗み取って、清水の花壇の中へ埋めて置いたじゃないか」と声高に罵るようになる。ここにおいて我々はお像を盗み取ったばかりでなく彼、伴蔵、日頃、厄介になっている新三郎を殺害したことを初めて知って事の意外に驚くのである。同時に今にしてお露お米にお札を貼がしてと頼まれたとき、お前様方を中へ入れて萩原様にもしものことあると私たち夫婦は食べていかれなくなるからと、幽霊に居直ってどこからどう持ちださせたものやら大枚百両持ってこさせ、ではと先立ってお札貼がしにでかけていったとき圓朝自らおみねをして「大層<hi rend="bouten 傍点 right" source="#source-36283-36337"><seg source="#source-36283-36298">長かったね</seg></hi>、どうしたえ」と訊ねさせ、また伴蔵をして「覗いてみると、蚊帳が吊ってあって何だか分らないから裏手のほうへ廻るうちに」といわしめている用意に思い当るのである。「大層長かった」間に荒療治はなし遂げられたにちがいない。仕方がないので伴蔵は大風雨の晩、<ruby type="furigana" rend="right" source="#source-36703-36724"><rb>幸手</rb><rt>さって</rt></ruby>堤へ呼び出してとうとうおみねをバッサリ殺ってしまう。と初七日の晩から女中へおみねの死霊が憑いて、「伴蔵さん、貝殻骨から乳の下へ掛けてズブズブと突きとおされた時の痛かったこと」などといいだす。困っているとき江戸から滞留の名医ありと聞いて呼び迎えると、いずくんぞしらん山本志丈。志丈だけに名医がとんだ只今のお笑い草である。しかも志丈の登場はいまはＡＢ二つの完全に合流してしまっている、この物語にいよいよ拍車を掛けるのである。志丈は伴蔵の旧悪を知って強請り、<ruby type="furigana" rend="right" source="#source-37402-37423"><rb>某</rb><rt>なにがし</rt></ruby><seg source="#source-37423-37606">かの金銀を捲き上げたのち、伴蔵に連れられてお国と相見る。愕いたお国は志丈に旧悪を喋られてしまってはとあることないこと伴蔵に</seg><ruby type="furigana" rend="right" source="#source-37606-37627"><rb>讒訴</rb><rt>ざんそ</rt></ruby><seg source="#source-37627-37780">する。しかし珍しくここでは伴蔵が志丈のいうことのほうを聞いてかえってしまうため、その晩病癒えた源次郎が</seg><ruby type="furigana" rend="right" source="#source-37780-37816"><rb>押取刀</rb><rt>おっとりがたな</rt></ruby>で因縁を付けに乗り込んできて後手を食うのはおもしろい。そこで翌日今度は自宅へ押し掛けてくるが、あべこべに飯島殺しの一件を伴蔵に暴かれ、お見それ申しましたとすごすご涙金で引き下がっていく。いよいよおもしろい。ただこのときの伴蔵が傍らの志丈もあとで賞めるよう「悪いという悪い事は二、三の水出し、<ruby type="furigana" rend="right" source="#source-38251-38263"><rb>遣</rb><rt>や</rt></ruby><seg source="#source-38263-38272">らずの</seg><ruby type="furigana" rend="right" source="#source-38272-38293"><rb>最中</rb><rt>もなか</rt></ruby><seg source="#source-38293-38296">、</seg><ruby type="furigana" rend="right" source="#source-38296-38317"><rb>野天</rb><rt>のてん</rt></ruby><seg source="#source-38317-38350">丁半の鼻ッ張り、ヤアの</seg><ruby type="furigana" rend="right" source="#source-38350-38368"><rb>賭場</rb><rt>とば</rt></ruby>まで逐ってきたのだ」などという台詞はさすがに垢抜けのしたものであるが少うし悪党振りがよ過ぎはしないかしら。いつの間に彼こんな大悪党になってしまったのだろうと少しく私にはいぶかしまれる。しょせんが幽霊に金をせびったほどの奴だとしてもその幽霊を案内していくときには恐しさに、梯子から落っこちて慄えた伴蔵である。お<ruby type="furigana" rend="right" source="#source-38830-38848"><rb>主</rb><rt>しゅう</rt></ruby><seg source="#source-38848-39154">の萩原を殺したとはいえ、これはまた半病人の軟弱そのものの代物である。もちろん、そんなひ弱い男でも萩原とおみねと人二人殺してずんと本度胸が坐ったといえばそれ迄であるが、いくら剣術の空っ下手な（情人たるお国が</seg><ruby type="furigana" rend="right" source="#source-39154-39169"><rb>首</rb><rt>はじ</rt></ruby><seg source="#source-39169-39202">めのほうでしきりにそう</seg><ruby type="furigana" rend="right" source="#source-39202-39217"><rb>慨</rb><rt>なげ</rt></ruby><seg source="#source-39217-39316">いている！）源次郎でもともかくも相手は二本差、あくまでここは少うし</seg><hi rend="bouten 傍点 right" source="#source-39316-39364"><seg source="#source-39316-39328">おっかな</seg></hi><seg source="#source-39364-39439">びっくりになりながら相手の旧悪を暴くので、源次郎、</seg><hi rend="bouten 傍点 right" source="#source-39439-39523"><seg source="#source-39439-39469">旧悪の前に一言もなく</seg></hi>涙金で引き下がる、そのあとでにわかに元気付いて志丈にいまの「二三の水出し」云々を並べ立てる喧嘩過ぎての棒ちぎりのほうが、ずうーっと伴蔵らしくはないだろうか。伴蔵という男、到底この程度の悪党以上にはおもえないのであるが、さてどんなものだろう。ただおもう、私は、この厄払いじみた台詞こそ、じつに書き下ろし当時芝居噺の当時の残り香なのではなかろうか、と。なるほど、芝居噺のことにしたら多少伴蔵の性格を犠牲にしてもここのところ、こう啖呵を切らしたほうがたしかに舞台効果はあるだろう。すなわち冒頭、今日速記にのこっている当初の芝居噺らしき匂いはむしろその「悪い面のほうである」と特記した所以である。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-40407-40479">もうこれから後はトントン拍子に、天、孝子孝助に</seg><ruby type="furigana" rend="right" source="#source-40479-40494"><rb>与</rb><rt>くみ</rt></ruby><seg source="#source-40494-40670">して仇討本懐一途にとスピードをかけさせている。もっともこの辺まできてまだモタモタ筋を運んでいるようでは仕方がないが。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-40670-40954">伴蔵志丈はやがて江戸へ。よくある型で伴蔵、志丈もまた己の悪事を知る一人とてまた斬殺してしまうが、とたんに手が廻って伴蔵もまた御用弁になる。どう考えてもこの男、早乗三次以上の悪党ではない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">そのころひとたび江戸へかえってきた孝助が勇齋宅を訪れて仇の行方を占って貰い、併せて年月尋ねる母の行方をも占って貰うと「たしかにいますでに会っている」といわれ、どうしても分らない。折柄、そこへ訪れてきた婦人が母であること分り、さらにその母によってお国の行方また分るのは、いよいよ筋が引き締まってきていい。ただこの母の再縁先の腹違いの娘がなんとお国であることは、あまりにも因縁がくどく不自然でありがたくない。黙阿弥などにもこの種の因縁はザラにあるけれど、江戸風物詩的雰囲気や厄払いの美文でそれがどうやらかき消されている。従って圓朝もまた高座でこれを聴くときは人物風景が浮彫りとされるため、この不自然さがさまでは耳に障らないかもしれず、とするとこれは圓朝にも私たちにも速記なるがための不幸といえようが、最後の生母の手引きでの仇討場面でも宮部邸の「憎ッこい」の相助がまたまた雲助となってあらわれてくるのなどいよいよ同様の感が深い。但しこのとき鉄砲を携えた相助のくだりの<ruby type="furigana" rend="right" source="#source-42247-42271"><rb>挿話</rb><rt>ひきごと</rt></ruby>で昔は旅人脅しに鉄砲と見せかけて夜半は「<ruby type="furigana" rend="right" source="#source-42331-42352"><rb>芋茎</rb><rt>ずいき</rt></ruby>へ火縄を巻き付ける」ものあったと圓朝自身で、こうした事実談を説いているのはおもしろい。生母にめぐりあった直後、きょうの勇齋のことを孝助が新五兵衛に報告すると相変らず話半分しか聞かないでいちいち「そこは巧い」とか「そこのところは拙い」とか「いや、また巧くなった」とかいってしまうのも、じつにこの老人らしくて巧い。繰り返していうが「牡丹燈籠」全巻を通じて最も活き活きと描かれてるのはこの相川新五兵衛ではあるとおもう。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">同時にこの物語を不朽の名作たらしめたは、やはり全篇をつうじてお露お米にカランコロンと下駄履かせた奇抜な構想にあり、紛れもなくあれが素晴らしく一般にアッピイルしたのではあるとおもう。よしや「牡丹燈記」の『お伽婢子』の『浮牡丹全伝』の換骨奪胎であるとしても、どの原作の幽霊も下駄音高くかよってきていはしない。完全に、そこだけは圓朝の独創である。そうしてすべてそのよさに尽きてしまっているとあながちいい切っても過言ではあるまい。しかも私は幽暗の雰囲気を場内一杯に漂わしたといわれるお露お米牡丹燈籠提げて……の最高潮場面の速記を、ほとんどこの文中引用しなかった。しばしば繰り返すごとくそうした場面こそ、全然、速記では駄目だからである。同時に速記というもの、雰囲気によって演者が力量を示したところ以外の、むしろ高座では軽々と我々が聞き逃がしてしまうであろうような描写会話を克明に正直に後世へ遺し伝えている点においてのみ、いかばかりか尊重されていいものだということを、今度はじめてつくづくと感じさせられたからである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">で、お露お米の怪異場面に関しては再び綺堂先生の『寄席と芝居と』の一節を<ruby type="furigana" rend="right" source="#source-44441-44462"><rb>抄</rb><rt>ぬきがき</rt></ruby><seg source="#source-44462-44535">させて頂いてよろしくあなた方に想像して頂こう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-44535-44666">恰もその夜は初秋の雨が昼間から降りつづいて怪談を聴くには全くお眺え向きの宵であった。</seg></p>
+        <p>「お前、怪談を聴きに行くのかえ」と、母は赫すように言った。</p>
+        <p>「なに、牡丹燈籠なんか怖くありませんよ」速記の活版本で多寡をくくっていた私は、平気で威張って出て行った。ところが、いけない。圓朝がいよいよ高座にあらわれて、燭台の前でその怪談を話し始めると、私はだんだんに一種の妖気を感じてきた。満場の聴衆はみな息を<ruby type="furigana" rend="right" source="#source-45127-45139"><rb>嚥</rb><rt>の</rt></ruby><seg source="#source-45139-46044">んで聴きすましている。伴蔵とその女房の対話が進行するに随って、私の頸のあたりは何だか冷たくなってきた。周囲に大勢の聴衆がぎっしりと詰めかけているにも拘らず、私はこの話の舞台となっている根津のあたりの暗い小さな古家のなかに坐って、自分ひとりで怪談を聴かされているように思われて、ときどきに左右に見返った。今日と違って、その頃の寄席はランプの灯が暗い。高座の蝋燭の火も薄暗い。外には雨の音が聞こえる。それ等のことも怪談気分を作るべく恰好の条件となっていたには相違ないが、いずれにしても私がこの怪談におびやかされたのは事実で、席の刎ねたのは十時頃、雨はまだ降りしきっている。私は暗い夜道を逃げるように帰った。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-46044-46290">この時に、私は圓朝の話術の妙ということをつくづく覚った。速記本で読まされては、それほどに凄くも怖しくも感じられない怪談が、高座に持ち出されて圓朝の口に上ると、人を</seg><ruby type="furigana" rend="right" source="#source-46290-46305"><rb>悸</rb><rt>おび</rt></ruby><seg source="#source-46305-46885">えさせるような凄味を帯びてくるのは、じつに偉いものだと感服した。時は欧化主義の全盛時代でいわゆる文明開化の風が盛んに吹き捲っている。学校に通う生徒などは、もちろん怪談のたぐいを信じないように教育されている。その時代にこの怪談を売物にして、東京中の人気をほとんど独占していたのは、怖い物見たさ聴きたさが人間の本能であるとはいえ、確かに圓朝の技倆に因るものであると、今でも私は信じている。</seg></p>
+        <p style="text-indent: 4em" rend="first-line-indent(4)">「鏡ヶ池操松影」（江島屋騒動）</p>
+        <p>「牡丹燈籠に次いで有名な怪談であります」と『圓朝全集』の編者鈴木行三氏は解説で述べておられる。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">私はこの作が「牡丹燈籠」や「菊模様皿山奇談」に次ぐ初期の作であるため、ここに<ruby type="furigana" rend="right" source="#source-47210-47231"><rb>論</rb><rt>あげつら</rt></ruby>うことにしたのであるが、いま久々に読み返してみて花嫁入水前後のくだり、江島屋の番頭金兵衛が呪いの老婆にめぐりあうくだり、この二席のほかは圓朝物としてはおよそ不傑作であり、大愚作であることを熟知した。しかもこの二席ある故にかりにも「牡丹燈籠に次いで」云々といわるるものあることをもまた思い知った。<ruby type="furigana" rend="right" source="#source-47672-47687"><rb>宜</rb><rt>ひべ</rt></ruby><note type="sic" source="#source-47687-47726">ルビの「ひべ」はママ</note><seg source="#source-47726-47923">なる哉、近年の圓右（二代目）にしても、下って先代圓歌（初代）にしても決してこの二席以外のところは喋らなかったことによっても分ろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-47923-47932">まず</seg><ruby type="furigana" rend="right" source="#source-47932-47947"><rb>傑</rb><rt>すぐ</rt></ruby>れたる二席についてのみ、最初に語ろう。下総国大貫村にお里という美しい娘があり、それを名主の息子が見染めて嫁に迎えることとなる。名主は仕度金五十両を与えるのでお里は母と江戸へ上って芝日蔭町の江島屋という古着屋で（婚礼の日が迫っているので仕立てていては到底間に合わなかった）「赤地に松竹梅の縫のある振袖、白の掛帯から、平常のちょくちょく着まで」四十二両という買物をしてかえる。ところがこの婚礼衣裳が糊で貼り付けた<hi rend="bouten 傍点 right" source="#source-48559-48607"><seg source="#source-48559-48571">まやかし</seg></hi>ものだったので、馬へ乗って先方へ輿入れの途中、大雨に濡れた。ために満座の中で「帯際から下がずたずたに切れ」た。「<ruby type="furigana" rend="right" source="#source-48775-48796"><rb>湯巻</rb><rt>ゆもじ</rt></ruby><seg source="#source-48796-48895">を新しく買うのを忘れたとみえ、十四、五の折、一度か二度締めた縮緬の</seg><ruby type="furigana" rend="right" source="#source-48895-48919"><rb>土器</rb><rt>かわらけ</rt></ruby>色になった短い湯巻が顕われ」た。面目玉を潰した名主は五十両の仕度金をやったにお前たちは五両か十両のものを買ってきたのだろうとカンカンになってお里母子を村内から追放する。カッと取り<ruby type="furigana" rend="right" source="#source-49186-49207"><rb>逆上</rb><rt>のぼせ</rt></ruby><seg source="#source-49207-49269">たお里は大利根へ身を投げて死んでしまう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-49269-49304">これがその一席――。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-49304-49421">その年の冬、江島屋の番頭金兵衛が下総へ商用できて吹雪に道を失い、泊りを求めた</seg><ruby type="furigana" rend="right" source="#source-49421-49436"><rb>茅</rb><rt>あば</rt></ruby>ら家で夜半あやしき煙りが立つから破れ障子から奥の間を覗いて見ると、瘠せ衰えた老婆が「片膝を立てまして、骨と皮ばかりな手を捲り上げて、縫模様の着物をピリピリと引き裂いて囲炉裏の中へくべ、竹の火箸で灰の中へ何か文字のようなものを書いては、力を入れてウウンと突」く。さらにまた「縫模様をピリピリと破いてポカリッと火の中へ入れて、<ruby type="furigana" rend="right" source="#source-49919-49937"><rb>呼吸</rb><rt>いき</rt></ruby><seg source="#source-49937-50222">遣い荒く、ああと言って柱のほうへ往くと、柱に何か貼り付けてあって、釘が打ってある、それを石でコツーンと力に任せて打ちひょろひょろと転げてはまた起ち上って打つ事は幾度か知れません、打ち付けて、</seg><ruby type="furigana" rend="right" source="#source-50222-50240"><rb>終</rb><rt>しまい</rt></ruby>に石を投げ附けて、ひょろひょろと元の処へ戻ってきて、また火の中へ何かくべて居るその様子は実に身の毛もよ立つ程怖い」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-50413-50905">いう迄もないこれがお里の母の成れの果てで、江島屋があのようなものを売ったばかりに、可愛い娘を殺してしまった。おのれ、江島屋め、人に怨みがあるものかないものかと、怨みの嫁入り衣裳を火中に、かくはいのちを賭けて呪っているのである。選りに選ってそのようなところへ泊り合わせた金兵衛は真っ青になって、その娘さんの回向料にと持ち合わせの</seg><ruby type="furigana" rend="right" source="#source-50905-50926"><rb>金子</rb><rt>きんす</rt></ruby>を与えると、夜明けを待ち兼ねてそこそこに逃げだしてしまう。「<ruby type="furigana" rend="right" source="#source-51016-51040"><rb>這々</rb><rt>ほうほう</rt></ruby>の体で江戸へ立ち帰り、芝日蔭町の主家江島屋治右衛門方へ帰って参りますと、店先へ簾を垂れ、忌中と記してありますから、心の中にお出でたなと怖々ながら内へ這入り、様子を聞くと家内が急病で亡くなり、お通夜の晩に見世の小僧が穴蔵へ落ちて即死」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">再び金兵衛ゾクゾクと慄えて「ああこの家も長いことはあるまい」と長嘆息する。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-51506-51541">これがその二席――。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-51541-51556">まことに</seg><ruby type="furigana" rend="right" source="#source-51556-51577"><rb>戦慄</rb><rt>スリル</rt></ruby><seg source="#source-51577-51630">のほども新鮮そのものの怪談である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">糊貼りの婚礼衣裳が大雨に濡れて剥がれる発端も斬新なら、その衣裳を火中する老婆の姿もまことに無気味、さらに飛ぶようにかえってきた主家の表に忌中簾の下りている物凄さ――とまことに三拍子揃った構想の妙に、ただただ私は感嘆せずにはいられない。主家の忌中簾を見る一節など「新しすぎて凄い売家」とある「武玉川」の一句をおもいださずにはいられない。それには部分部分の描写会話もなかなかに秀でていて、老婆のくだりは前述したごとくであるが、お里の嫁入り馬の<ruby type="furigana" rend="right" source="#source-52290-52305"><rb>扮</rb><rt>こし</rt></ruby>らえにしても、「<ruby type="furigana" rend="right" source="#source-52329-52344"><rb>馬</rb><rt>うま</rt></ruby><seg source="#source-52344-52395">へ乗って行くんだが、名主なら布団七</seg><ruby type="furigana" rend="right" source="#source-52395-52413"><rb>枚</rb><rt>めえ</rt></ruby><seg source="#source-52413-52470">も重ねる所だが、マア三枚にして置いて、</seg><ruby type="furigana" rend="right" source="#source-52470-52485"><rb>赤</rb><rt>あけ</rt></ruby><seg source="#source-52485-52578">えのと、青えのと、それから萌黄のと、三枚布団で、化粧鞍を掛け、</seg><ruby type="furigana" rend="right" source="#source-52578-52602"><rb>嫁子</rb><rt>よめっこ</rt></ruby><seg source="#source-52602-52617">さんを上へ</seg><ruby type="furigana" rend="right" source="#source-52617-52638"><rb>結附</rb><rt>いいつ</rt></ruby>けて行くんだよ」と村内の世話焼をしていわしめている。いかにも田舎田舎した婚礼馬の盛装が目に見えるようではないか。しかも「<ruby type="furigana" rend="right" source="#source-52818-52839"><rb>柔和</rb><rt>おとな</rt></ruby><seg source="#source-52839-52869">しい馬を村中探したが</seg><ruby type="furigana" rend="right" source="#source-52869-52881"><rb>無</rb><rt>ね</rt></ruby>えから」と、探すに事を欠いて「<ruby type="furigana" rend="right" source="#source-52926-52944"><rb>漸</rb><rt>ようや</rt></ruby>っと小松川から盲目馬を一匹牽いてきやした」というのである。歓びたちまち凶と変じて、数時間後には大利根の藻屑となる薄幸の花嫁の運命を象徴すべく、盲目馬とは何たる憎い配合だろう。私の圓朝に脱帽せずにいられなくなるのは主としてこうしたところにあるのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">またひとつ、家では老婆をして金兵衛に「何も御馳走は有りませんが<ruby type="furigana" rend="right" source="#source-53417-53444"><rb>唐土餅</rb><rt>からもち</rt></ruby><seg source="#source-53444-53453">と座頭</seg><ruby type="furigana" rend="right" source="#source-53453-53477"><rb>不知</rb><rt>しらず</rt></ruby>という餅がありますから」と愛想をいわせている。いずれ『日本の菓子』の著者山崎斌君にでも質してみよう、寡聞にして私はこの二つの菓子の名を全く初耳なのであるが、唐土餅とか、ことに座頭不知などいかにも野中の一軒家でだされる餅菓子らしいではないか。こうした小道具の妙もまた、私の推賞して止まないところの圓朝のよさがある。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-53947-54010">が、これからあとの江島屋一家の運命は例の</seg><ruby type="furigana" rend="right" source="#source-54010-54034"><rb>傀儡</rb><rt>かいらい</rt></ruby>的な因縁また因縁で甚だ妙でない。「牡丹燈籠」や「累ヶ淵」（前半）の因縁は因縁なりにまずまず自然さがあるけれど、「江島屋」の場合は因縁のための因縁といったようなところがあって少しも実感なくおもしろくない。すべてお里母子の死霊の祟りの糸によって江島屋治右衛門は女狂いをはじめる、善良な夫婦養子は追い出され、しかも夫は紙屑買いに、妻は吉原松葉屋の小松という花魁とまでなり果ててしまう、これへ絡むにお里の義理ある兄倉岡元仲が江島屋養子安次郎の父や、小松の母の殺害事件があり、トド浅草石浜の鏡ヶ池で仇元仲を仕止めるという終末なのであるが、倉岡元仲という悪人の性格にも人間味なく<ruby type="furigana" rend="right" source="#source-54883-54907"><rb>所謂</rb><rt>いわゆる</rt></ruby>ひとところの新派大悲劇的悪人という奴で少しも同感が強いられない。相棒の伴野林蔵も「英国孝子伝」の井生森又作という役どころであるが、又作ほど活々と描けていない。それには冒頭、小僧時代の安次郎が元仲に六十両捲き上げられたとき、それを救ってやるのは江島屋番頭金兵衛である。そのころまだ安次郎は横山町の島伝という糶呉服屋に勤めていたのであるが、その主人至っての強慾で詫びに連れていってくれた金兵衛がどう陳じても盗られた六十両を返せといって肯じない。乗りかかった船で侠気の金兵衛が主家の払いの金六十両を島伝に与え、無理から安次郎を江島屋へ連れ戻ってきて奉公人としてやるのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-55761-56286">もちろんこのような男ゆえ金兵衛には末始終なんの祟りもなく末安楽となるのではあるが、それにしてもいくら金兵衛が善人でも主人治右衛門がそうでなかったら、そのとき六十金を支払って易々と安次郎をかかえはしまい。また主人が嫌がるのを説き付けるだけの勢力ある金兵衛なら、この血も涙もある男の、到底糊貼り衣裳なんかは売りはしまい。立派な暖簾の手前にかけてもそんな</seg><hi rend="bouten 傍点 right" source="#source-56286-56334"><seg source="#source-56286-56298">まやかし</seg></hi><seg source="#source-56334-56696">を売ることなど、させなかったはずである。これは圓朝にも似合わない不用意であり、失敗とおもう。むしろ強慾島伝のほうを古着屋にしてそこから悲劇を発生せしめ、死霊をして祟りに祟らせてやりたかった（だのに島伝は始めだけで全然終末まで顔をださない）。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">また一家の祟りに端を発して養子夫婦が逐いだされたり、殺人があったり、仇討ちがあったりという風に所謂お家騒動に仕立てられているが、かりに島伝へ祟るとしてももっとその一家の一人一人へ祟っていく凄惨さを中心に掘り下げていったなら、よほどおもしろくはなりはしなかっただろうか。つまり私は作者自らも謂っているところの「江島屋<hi rend="bouten 白丸傍点 right" source="#source-57170-57212"><seg source="#source-57170-57176">騒動</seg></hi>」でなく、あくまで「江島屋<hi rend="bouten 白丸傍点 right" source="#source-57251-57293"><seg source="#source-57251-57257">怪談</seg></hi>」でありたかった。つまり圓朝のアッシャ家の没落といきたかったのだ。全篇のほとんど大半をそういう怪奇と戦慄で仕立てていって、尚かつとどのつまりを善因善果の解決にまで持っていって持っていけないことはゆめなかったろうと信じている。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-57631-58000">何れにしてもこれは圓朝稀に見る不傑作であると同時に、しかもよく今日まで名声を克ち得ているのは、あえて再びいうが花嫁入水、老婆呪詛のあまりにも卓抜であり過ぎたためである。全くこの二席の空高く浮く昼月の美しさに比べ見て、なんと他のことごとくの闇汁の</seg><hi rend="bouten 傍点 right" source="#source-58000-58042"><seg source="#source-58000-58009">ゴッタ</seg></hi><seg source="#source-58042-58048">煮の</seg><ruby type="furigana" rend="right" source="#source-58048-58063"><rb>鵺</rb><rt>ぬえ</rt></ruby><seg source="#source-58063-58182">料理の、ただいたずらに持って廻り、捏ねっ返して、下らなくでき過ぎていることよ。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-58182-58478">でもその持って廻っている十何席の間にも幾度かその場はその場としてなりの技巧の妙、会話の味、描写の冴えを見せているところ十指にあまるくらいであることはいう迄もない、いちいちの引例は略させて貰うが。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">おしまいに気のついたこと特に二つ書く。元仲と林蔵の会話にじつに屡々「君」「僕」がつかわれている。「牡丹燈籠」の新三郎、萩原間にもまた「君」「僕」がある。ほんとうに江戸の日の医者とか（元仲も志丈も医者あるいは医者くずれである）通人とかそうした人たちの用語にはこの「君」「僕」の用語があったのだろうか。それとも、時、文明開化の真っ只中、私たちが意識して自作の中で古風のいい方を時にやや現代風に変えるときがあるように、圓朝もまた心得ていてこの文明開化語を起用したのだろうか。大方の示教を得たい。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">もうひとつ倉岡元仲の父を倉岡元庵と名乗らせていることであるが、『圓朝全集』第十三巻の鈴木行三（古鶴）氏が『圓朝遺聞』を見よ、「妻子の事」の章に、</p>
+        <p>「圓朝は（中略）不図した事から御徒町の倉岡元庵というお同朋の娘お里との間に一子を挙ぐるような間柄になった」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-59597-59620">云々とある。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">このお里との間へできた「一子」が、<hi rend="bouten 傍点 right" source="#source-59674-59710"><seg source="#source-59674-59680">のち</seg></hi><ruby type="furigana" rend="right" source="#source-59710-59734"><rb>陋巷</rb><rt>ろうこう</rt></ruby>に窮死した朝太郎で、私の『慈母観音』という小説にはその若き日の姿が採り上げられている。お里は圓朝と別れて失意落魄の境涯に入り、その母を求めて朝太郎の悲劇は展開されてくるのであるが、そういえば大利根へ入水する悲しき明眸またお里である。さらに倉岡元庵の忰元仲をしておよそ世にあるまじき鬼畜としているところなど、かくて私の作家的貪慾さはむしろこの物語の背後のほうへいよいよ旺盛な空想を走らせないわけにはゆかない。</p>
+        <p style="text-indent: 4em" rend="first-line-indent(4)">「怪談乳房榎」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">明治二十一年出版とされている「怪談乳房榎」のほんとうの製作年代は<ruby type="furigana" rend="right" source="#source-60487-60511"><rb>詳</rb><rt>つまびらか</rt></ruby><seg source="#source-60511-60600">にされていないが、前二作より遅れていることは明らかだろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-60600-60609">まず</seg><hi rend="bouten 傍点 right" source="#source-60609-60651"><seg source="#source-60609-60618">まくら</seg></hi><seg source="#source-60651-60704">に主人公菱川重信の画風を以てして、</seg></p>
+        <p>「土佐狩野はいうに及ばず、応挙、光琳の風をよく呑み込んで、ちょっと浮世絵のほうでは又平から師宣、宮川長春などという所を見破って、其へ<ruby type="furigana" rend="right" source="#source-60902-60929"><rb>一蝶</rb><rt>いっちょう</rt></ruby>の艶のある所をよく味わって」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-60973-61006">と、国芳門下に彩管を</seg><ruby type="furigana" rend="right" source="#source-61006-61027"><rb>弄</rb><rt>もてあそ</rt></ruby>んだありし日が立派にここでこう物をいっているのである。圓朝は骨董にもよく目が利いたと圓朝の名跡を預かっていられる藤浦富太郎氏はかつて私に語られたことあったが、改めていまここで引用はしないが「菊模様皿山奇談」のまくらにおいてもいかにも美しそうなふくよかな艶ある陶器について一席弁じている。そうした教養の展開がまたいかに本文の事件に真実性をクッキリと色添えてはいることよ。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-61581-61650">この菱川重信の妻おきせの美貌に懸想し、望みを</seg><ruby type="furigana" rend="right" source="#source-61650-61665"><rb>協</rb><rt>かな</rt></ruby><seg source="#source-61665-61920">えてくれねば重信の一子を殺害するとていい寄った浪人磯貝浪江は思いを遂げてのち正直の下僕正介を脅かして手引きをさせ、ついに落合の蛍狩の夜重信をも暗殺してしまった。然るのち、</seg><ruby type="furigana" rend="right" source="#source-61920-61950"><rb>遺子</rb><rt>わすれがたみ</rt></ruby><seg source="#source-61950-62279">の真与太郎をも殺害せんとするので前非を悔いた正介はこの子を連れて出奔し、のち乳房榎の前において五歳の真与太郎が立派に親の仇を討ち果す。これより先おきせは乳房の中に雀が巣喰うとて懊悩狂乱、悶死してしまうという物語である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-62279-62698">ではその磯貝浪江の姦悪は、いついかなる機会から最初に働きかけられているか。高田砂利場南蔵院の天井、襖へ嘱されて重信、絵を描きにいくことになるが、葛飾に住む重信の高田の果てまで日々かよっていくことは到底できない、正介伴うて南蔵院へ長逗留する、すなわちその留守をつけ込むのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">これに先立ち小石川原町の酒屋万屋新兵衛に伴われ高田村の百姓茂左衛門は絵の依頼にやってくるのであるが、その茂左衛門、重信をつかまえて、「先生様（中略）桜が一面に咲いて居る所へ虎が威勢よく飛んで居る所を、彩色でこう立派に描いて下せえな」というのが大へん可笑しい。桜に虎などはいかにも田舎者らしく<hi rend="bouten 傍点 right" source="#source-63136-63172"><seg source="#source-63136-63142">わけ</seg></hi><seg source="#source-63172-63319">が分らなくて、ギャグとしてもまた斬新である。しかもこのギャグで茂左衛門の人柄をよろしく見せておき、</seg><hi rend="bouten 傍点 right" source="#source-63319-63355"><seg source="#source-63319-63325">のち</seg></hi>に寺でこの男がつきっ切りでへんな画題ばかり註文するゆえ、彩色は後廻しにてまず天井の墨絵の龍から描く、それが素晴らしい怪談を生むに至るとこういう段取りになるのだから、効果は一石三鳥といっていい。毎時ながら圓朝の用意のほどに降参してしまわないわけにはゆかない。このお客へ重信が「只今何か……冷麦を然う申し付けたと申すから、まあよい……では、一寸泡盛でも……」というのも冷麦、泡盛といかにも夏らしい<ruby type="furigana" rend="right" source="#source-63943-63970"><rb>対照</rb><rt>とりあわせ</rt></ruby>でいい。かつて神田伯龍は「吉原百人斬」の吉原<ruby type="furigana" rend="right" source="#source-64036-64060"><rb>田甫</rb><rt>たんぼ</rt></ruby><seg source="#source-64060-64273">、宝生栄之丞住居において栄之丞をして、盛夏、訪れてきた幇間阿波太夫に青桃と冷やし焼酎を与えしめた。これまた、真夏の食べものとしては絶妙と、私は</seg><ruby type="furigana" rend="right" source="#source-64273-64291"><rb>頗</rb><rt>すこぶ</rt></ruby><seg source="#source-64291-64599">る感嘆これを久しゅうしたことがあったが、すべてこうしたほんのちょっとした小道具のひとつひとつの用意にかえってクッキリと全体の詩情がかもしだされること少なくないことを、我々はようくおぼえておかねばならない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-64599-64833">おきせにいい寄る磯貝浪江の術策はまず虚病をつかって玄関へ打ち倒れるのであるが、それを葛飾住居の烈しい蚊のためまさかにその辺へ寝かしもおけず、奥へ蚊帳吊って</seg><ruby type="furigana" rend="right" source="#source-64833-64848"><rb>憩</rb><rt>やす</rt></ruby>ませる、これがずるずるその晩泊り込んでしまう手だてとはなるのである。かつて私も葛飾住居の経験があるけれど本所に蚊がなくなれば大晦日――あの辺り今日といえども四月から十一月まで蚊帳の縁は離れない。宇野信夫君の『巷談宵宮雨』では深川はずれの<ruby type="furigana" rend="right" source="#source-65202-65226"><rb>虎鰒</rb><rt>とらふぐ</rt></ruby><seg source="#source-65226-65640">の多十住居で、蚊の烈しさに六代目の破戒坊主が手足をことごとく浴衣で覆ってしまう好演技を示した、つまりそれほどの蚊なのであるから、それを浪江とおきせの人生の一大変化へ応用せしめた腕前はまことに自然で賞めてよかろう。それからおきせにいい寄るくだりでも始めはおきせを斬るという、が、</seg><ruby type="furigana" rend="right" source="#source-65640-65658"><rb>愕</rb><rt>おどろ</rt></ruby>かない、そこで、では面目ないから手前が切腹するという、やはりどうぞ御勝手にと愕かない、最後に、ではこの真与太郎殿を殺すといわれ、初めておきせは顔面蒼白してしまう。さてそこまで持ってきておいて、「皆様に御相談でござりますが、可愛い我が子を刺し殺そうとされました心持はどんなでござりましょうか、女というものは男と違いまして、気の優しいもので、こういう時にはいう事を聞きましょうか、それとも聞きませんものでしょうか、おきせの返事は明日申し上げましょう」云々。これでおきせの罪に至るの経路もまともに聞きまこと同情に値するものであることがよくよく聴衆に肯かれるし、心から圓朝またこの弱いおんなへ温かい涙をふりそそいでやっているではないか。しかもそうしておいて、「おきせの返事は明日」とヒョイと肩を透かしてスーッと高座を下りていってしまったのである。しばし寄席、ドーッと感嘆と興奮の<hi rend="bouten 傍点 right" source="#source-66813-66861"><seg source="#source-66813-66825">どよめき</seg></hi><seg source="#source-66861-66989">が湧き起って、鳴りも止まなかったろう光景が察するに難しくない。絶技である、まことに。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">いよいよ悪計を胸に高田南蔵院を訪れる磯貝浪江には、「天地金の平骨の扇へ何か画が書いてある」ものを圓朝使わせている。この扇ひとつでも何かその人らしい<ruby type="furigana" rend="right" source="#source-67211-67235"><rb>色悪</rb><rt>いろあく</rt></ruby>らしい姿が浮かび上がってくるから妙である。さらに「先生は下戸でいらっしゃるから、金玉糖を詰めて腐らん様に致して」持ってきた浪江である。金玉糖で季節を、またそれを好む重信の人となりを、併せて重信をしていよいよ磯貝を信用しないではおかないような口吻を――またしてもまた圓朝は一石三鳥の実をものの見事に挙げている。ことに「詰めて腐らん様に」とは何たる誠意ある言葉だろう。重信ならでも容易に信頼したくなるではないか、これは。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-67861-68044">だからこそ浪江にいわれ、すぐに正介をいっしょにそこまでだしてもやるのである。すると牛込馬場下の小料理屋へ連れてきて浪江は</seg><hi rend="bouten 傍点 right" source="#source-68044-68092"><seg source="#source-68044-68056">ふんだん</seg></hi><seg source="#source-68092-68314">に正介に飲ませる。揚句に人のいい正介へ言葉巧みに伯父甥になろうと持ちかけ、有無をいわさずその誓約をさせてしまう。余談に入るが、そのころの牛込馬場下は</seg><hi rend="bouten 傍点 right" source="#source-68314-68350"><seg source="#source-68314-68320">のて</seg></hi>の片田舎としてはかなり繁華な一部落であったらしい。かの堀部安兵衛武庸も八丁堀の浪宅から高田馬場へ駈け付けの途次、この馬場下の何とやらいう酒屋で兜酒を極めたとて震災前までその桝がのこっていたし、もちろん、これは大眉唾としても、少なくともこの安兵衛の講釈が創作された時代の馬場下に兜酒極められる家が存在していたのであることだけはハッキリといえよう。夏目漱石の『硝子戸の中』によれば漱石の幼年時代、貧弱極まるものではあったらしいが、この馬場下には講釈場のあったことすら描かれている。もって、知られよ。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-69093-69303">浪江、伯父甥の誓約をさせると、早速に重信殺しの手助けをせよと切りだす。そうして聞き入れなければ一刀両断だと猛り立つ。いのちには換えられず、</seg><hi rend="bouten 傍点 right" source="#source-69303-69351"><seg source="#source-69303-69315">いやいや</seg></hi>正介承諾するが、さてこのあと南蔵院へ戻り、黄昏、落合の蛍見物へ連れだすまでしじゅう正介が口の中で念仏を唱えたり、いうことがしどろもどろになったりするところ、いかにも正介というものの性情あらわれていていい。例えば蛍見物にいっていて重信から酒を飲めとすすめられ「貴方<hi rend="bouten 傍点 right" source="#source-69744-69780"><seg source="#source-69744-69750">もう</seg></hi>たくさん上れ、もう上り仕舞だから」といったり、九年の間「やれこれいって下すった事を考えると、私い涙が<ruby type="furigana" rend="right" source="#source-69930-69945"><rb>零</rb><rt>こぼ</rt></ruby>れてなんねえ」といったり、またしても「南無阿弥陀仏南無阿弥陀仏南無阿弥陀仏」といいだしたりする類いに、である。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-70112-70451">トド重信は殺される。かねての手筈通り、正介は南蔵院まで駈け戻って、いま先生が狼藉者と斬り合っているとこう伝える。と意外にも寺僧たちは一笑にふしてしまって、つとに先生はかえって本堂においでですという。ギョッとした正介がこわごわ</seg><ruby type="furigana" rend="right" source="#source-70451-70472"><rb>所化</rb><rt>しょけ</rt></ruby>の後から従いていき、本堂を覗いてみると、紛れもなく重信はいま落款を書きおわり、「筆を傍へ置き、印をうんと力を入れて押した様子」しかも「正介、何を覗く」とこう叱るのである。思わずアッと正介が倒れると、とたんにかんかん点いていた蝋燭の灯がサーッと消え、この物音に驚いて寺僧たちが駈けつけたとき、はや重信の姿はそこにない。</p>
+        <p>「昨日まで書き残して出来ずにおった雌龍の右の手が見事に書き上がって、然も落款まで据わって、まだまだ生々と致して印の朱肉も乾かず龍の画も隈取の墨が手につくように濡れて居りますのは、正しく今書いたのに違いありません」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">――なんとこのスリルは鮮やかではないか。しかも殺されたばかりの重信がのこりの絵を仕上げにかえってきているところいかにも芸道の士の幽魂らしく、さらにその落款の「朱肉も乾かず」というへんな生々とした実感さ。私はここを圓朝全怪談中の圧巻だとさえおもうのである（ことにこの場面は速記で読んでもぞくぞくと迫ってくる肌寒さがある）。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">さて私は「乳房榎」もここまで――いやことに馬場下の小料理屋から、蛍狩の殺し、そうしてこの怪奇までが最高潮であり、芸術的香気もまたすこぶる高いと確信している。もちろんこの後、仇討までの何席かも決して「江島屋」のごとき作意はなく、ことに再び正介が浪江から真与太郎を十二社の滝壺へ投げ込んでこいと脅かされて泣っ面で邸を飛び出し、山の手へかかるとだんだんはつ秋の日が暮れかかる。折柄、賑やかな新宿の騒ぎ唄をよそに<ruby type="furigana" rend="right" source="#source-72362-72383"><rb>頑是</rb><rt>がんぜ</rt></ruby><seg source="#source-72383-72616">ない子を抱きしめてこの正直一途の爺やがホロリホロリと涙しながら角筈さして、進まぬ足を引き摺っていく辺りは、無韻の詩である。断腸の絵であるともまたいえよう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">しかも十二社の滝で重信の霊から叱られるくだりは、これまた「牡丹燈籠」のカランコロンのくだりと同じで速記では全然怪奇のほどが分らない。むしろ空々しささえ感じられて今日圓朝あらば正介の夢枕に立たせるとか何とかもう少し現実的な手法を採らせたろうとさえおもわれるほどであるが、しかしこれは前掲「牡丹燈籠」の場合の綺堂先生の随筆を考えるとき、あるいは随分このままで圓朝の舌をとおして聴かされるときは物凄かったものかとおもい直される。なら、にわかにいま軽々とその良否を論ずべきではなかろう。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-73338-74130">重信の霊に叱られ、真与太郎様育てて先生の仇をと前非後悔、健気にも決意した正介がその晩泊った新宿の宿で、夜半乳を求めて泣く真与太郎に、正介当惑していると、泊りあわせのお神さんが乳を恵んでくれる。おかげで真与太郎はすぐ安々と眠ってしまうが、翌朝、重信に南蔵院へ絵を描きにきてと頼みにきた原町の酒屋万屋新兵衛と宿の廊下でパッタリ出会い、いろいろ話し合ってみるといずくんぞしらん昨夜乳を恵んでくれたはこの新兵衛のお神さんであったとは――。ここらの偶然さは少しも不自然でなく、むしろ重信の霊に叱られた直後のこの奇遇だけに、真与太郎のため</seg><hi rend="bouten 傍点 right" source="#source-74130-74166"><seg source="#source-74130-74136">はや</seg></hi><seg source="#source-74166-74249">この亡魂の加護あるかと、慄然とさえさせられるのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">話は前後するが磯貝浪江が重信の家へ入夫しようとするくだりで、何にもしらないで浪江にたのまれ、おきせに再縁をすすめにくる地紙売の竹六が、磯貝様はどうだと訊くと「まさかあのお人を」とおきせが否定するのでオヤこの分なら脈があるなと心でおもう言葉も巧い。ほんのこれだけの会話の中にじつにいろいろさまざまの複雑な意味を持たせている圓朝に、よほど私たちは学ばなければならないとおもう。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-74812-75081">一方故郷の武州赤塚村へ立ち戻った正介は、細々と真与太郎育てているのであるが、最後に真与太郎五歳にして磯貝浪江を討つに至る段取りも心理的にいささかの無理がなく、およそ自然である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">七月十二日迎え火を焚きながらすっかり聞き分けのない田舎っ子になってしまっている真与太郎へ、「お前も今年は五つだから、少しは物心もつく時分だが」とまことの父は自分でなく、菱川重信という立派なお人で、どうかそのお父さまの仇磯貝浪江を討って下されと涙ながらに正介が説いて聞かせている。「ええか、今にその浪江という奴に<ruby type="furigana" rend="right" source="#source-75549-75573"><rb>出会</rb><rt>でっくわ</rt></ruby><seg source="#source-75573-75597">したら、この刀で</seg><ruby type="furigana" rend="right" source="#source-75597-75624"><rb>横腹</rb><rt>よこっぱら</rt></ruby>抉って父さまの仇ァ討たんければなんねえ、ええか、（中略）こんなに錆びているだが、このほうが一生懸命ならこれだって怨は返せる、己、助太刀するから親の敵を、ええか、南無阿弥陀仏南無阿弥陀仏」という風にである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">間髪を容れず、そこへ当の浪江が入ってくる（赤塚在に二人がいると聞き、すでにおきせは狂死した後だし、いっそ今のうち二人を討ち果たして一切の禍根を除こうと決心してやってきたからである）。そうして抜く手も見せず斬り付けてくると「葺下しの茅葺屋根ゆえ<ruby type="furigana" rend="right" source="#source-76298-76322"><rb>内法</rb><rt>うちのり</rt></ruby>が低いから、切先を鴨居へ一寸ばかり切り込んでがちり」。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">正介は「坊ちゃまそら敵だッ」と仏壇の<ruby type="furigana" rend="right" source="#source-76462-76486"><rb>陶器</rb><rt>せともの</rt></ruby>の香炉を打ち付ける、灰が浪江の両眼に入る、ここぞと正介は「樫の木の心張棒で滅多打ちに腰の<ruby type="furigana" rend="right" source="#source-76618-76636"><rb>番</rb><rt>つがい</rt></ruby>」を三つ四つ喰わした。「不思議やこの時まだ五歳の真与太郎でございますが、さながら後で誰かが手を持ち添えてくれますように、例の錆刀を持ちまして」浪江の横腹をひと抉り抉ったのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">いまのいままで迎い火焚きながら物語っていたというところだけに、五つの真与太郎にしても錆刀で相手に斬り付けていくことが何だか自然におもわれるではないか。いわんや「後で誰かが手を持ち添えて」くれるようであるというにおいてや。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-77240-77309">田舎家で天井が低く、浪江の刀が鴨居へ。そこへ</seg><hi rend="bouten 白丸傍点 right" source="#source-77309-77351"><seg source="#source-77309-77315">仏壇</seg></hi><seg source="#source-77351-77683">の香炉をぶつけたというのもいかにも亡魂の指図らしく、そのあと樫の木の心張棒という、万事万端無理のない小道具や段取りがいかにこのひとつ間違ったらあり得べからざるとおもわせるような奇蹟をほんとうのものとしているかよ、である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">極めて点の辛い立場から私は重信殺し前後のみを「怪談乳房榎」中の採るべき箇所といったけれど、最後に至るまでの各章も決して「江島屋」のような破綻は<ruby type="furigana" rend="right" source="#source-77899-77914"><rb>毫</rb><rt>ごう</rt></ruby>も示していないのであるばかりでなく、「怪談乳房榎」は圓朝全作中での、かなり高く買われていいものということをすら述べて置こう。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">最後にこの「怪談乳房榎」の挿絵、圓朝とは國芳門下の同門である落合芳幾が描いている。真与太郎に添乳しているおきせの寝姿の艶かしさなど、夏の夜の美女の魅惑を描いてよほどの作品ではないのだろうか。やはり同門の月岡芳年も屡々圓朝物の挿絵を描いているが、このような情艶場面はついに芳年は芳幾に及んでいない。それについて最近読み返した永井荷風先生の『江戸芸術論』にたまたま左の章を発見したから、引いてみよう。</p>
+        <p>「明治二十五年芳年は多数の門人を残して<ruby type="furigana" rend="right" source="#source-78758-78770"><rb>能</rb><rt>よ</rt></ruby>くその終りを全うせしが、その同門なる芳幾は依然として浮世絵在来の人物画を描きしの故か名声ようやく地に墜ち遂に錦絵を廃して陋巷に窮死せり（明治三十七年七十三歳を以て没す）。然れども今日吾人の見る処芳幾は決して芳年に劣るものならず。若し芳年を團十郎に比せんか芳幾はまさに五世菊五郎なるべし（下略）」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-79213-79252">まことに私も同感である。</seg><ruby type="furigana" rend="right" source="#source-79252-79279"><rb>謹而</rb><rt>つつしんで</rt></ruby><seg source="#source-79279-79331">、落合芳幾画伯の冥福を祈りたい。</seg></p>
+        <p style="text-indent: 4em" rend="first-line-indent(4)">「文七元結」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">つい先ごろも六代目が上演して好評だった「文七元結」は圓朝の作ではなく、圓朝以前にもあった<hi rend="bouten 傍点 right" source="#source-79504-79552"><seg source="#source-79504-79516">かりそめ</seg></hi>の噺を、これだけのものにしたのであると『圓朝全集』の編者は解説している。盲目の小せん（初代）が「白銅」をはじめこうした例は落語界には少なくない故、そう見ることが至当だろう。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">圓右、圓馬、先代圓生（五代目）、現志ん生（五代目）、現馬楽（五代目）とこれだけの人たちの「文七元結」がいま私の耳にのこっているが、その巧拙良否の<ruby type="furigana" rend="right" source="#source-80031-80052"><rb>論</rb><rt>あげつら</rt></ruby>いはここでは書くまい。相変らず圓朝、左官の長兵衛の手腕を紹介するには「二人前の仕事を致し、早くって手際がよくって、<ruby type="furigana" rend="right" source="#source-80223-80247"><rb>塵際</rb><rt>ちりぎわ</rt></ruby>などもすっきりして、落雁肌にむらのないように塗る左官は少ないもので、戸前口をこの人が塗れば、必ず火の這入るような事はないというので、何んな職人が蔵を拵えましても、戸前口だけは長兵衛さんに頼むというほど腕は良い」と<ruby type="furigana" rend="right" source="#source-80565-80589"><rb>蘊蓄</rb><rt>うんちく</rt></ruby><seg source="#source-80589-80898">を傾けている。左官のテクニックなんか知るよしもない私たちまでこういう風に聞かされると何だかこの長兵衛という人を頼んでみたくなるようなものを覚えてくるではないか。圓朝といえども全智全能ではないから何から何まで</seg><ruby type="furigana" rend="right" source="#source-80898-80916"><rb>弁</rb><rt>わきま</rt></ruby><seg source="#source-80916-81179">えているわけではなく、その都度しらべてかかる場合も少なくなかったのだろうが、何にしてもこの凝りようが、毎々いうごとくどんなにそこに噺の真実味というものを倍加させていることか。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-81179-81287">然るにそれほどの腕を持ちながら怠けもので勝負事好きの長兵衛は、きょうも</seg><hi rend="bouten 傍点 right" source="#source-81287-81347"><seg source="#source-81287-81305">すってんてん</seg></hi>に取られて「十一になる女の子の袢纏を借りて着」てかえってくると、家では家で、年ごろの娘お久がどこへいったか、行方しれずとなって騒いでいるところだった。顔を見るなり女房のお兼が「深川の一の鳥居まで」探しにいったと夫に訴えるのであるが、本所の達磨横丁（いまの本所表町）に住む長兵衛の女房として「深川の一の鳥居まで」というのは、何だか大へんに遠くまで探しにいった感じがよくでている。けだし「深川の一の鳥居」という言葉の中には、たしかにある距離的な哀感すら伴っているとおもうもの、私ひとりだろうか。しかもそれを聞いてから長兵衛が「ええ、おい、お久をどうかして」とか「居ねえって……え、おい」とかにわかにオロオロ我が子の上を追い求めだすところ、まことに根は善人なる長兵衛という人の性格を浮彫りにしているとおもう。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-82402-82459">家出したお久は長兵衛の出入先、吉原の</seg><ruby type="furigana" rend="right" source="#source-82459-82486"><rb>佐野槌</rb><rt>さのづち</rt></ruby>（速記本では角海老になっている、圓馬は佐野槌で演っていた、圓朝自身も高座では佐野槌で演っていたとある。但し、先日の六代目のは角海老で、念のため五代目菊五郎伝を見たらこれも角海老となっているのは当時の脚色者榎戸賢二、速記本に拠ったものなのであろうか――）へいっている。しかも呼びにこられて長兵衛がいってみると、お久は父親の借金を見兼ね、この年の瀬の越せるよう自分の身体を売りにきたのだと分る。お内儀はその孝心に免じて百両長兵衛に貸し与え、二年間店へださない故、その間に身請においで、その「代り二年経って身請にこないとお気の毒だが店へだすよ」とこう念を押される。ところで圓朝はこの<hi rend="bouten 傍点 right" source="#source-83350-83398"><seg source="#source-83350-83362">やりとり</seg></hi><seg source="#source-83398-83679">の前にお久の嘆きの言葉をいわせているが、圓馬も先代圓生もハッキリとこの後でいわせていた（圓右のはどうだったろうか、惜しやもうおぼえていない）。ハッキリこればかりは後のほうがいいとおもう。</seg></p>
+        <p>「手荒い事でもして、お<ruby type="furigana" rend="right" source="#source-83712-83727"><rb>母</rb><rt>かあ</rt></ruby>が血の道を起すか癪でも起したりすると、私がいれば」いいけれど、もう私が家にいないのだから、<ruby type="furigana" rend="right" source="#source-83862-83883"><rb>阿父</rb><rt>おとっ</rt></ruby><seg source="#source-83883-83916">さん、後生だからお前、</seg><ruby type="furigana" rend="right" source="#source-83916-83940"><rb>阿母</rb><rt>おっかあ</rt></ruby>と仲好くして――といういじらしい訴えなのである。速記では「お前お母と<ruby type="furigana" rend="right" source="#source-84042-84060"><rb>交情</rb><rt>なか</rt></ruby>好く何卒辛抱して稼いでおくんなさいよ、よ」と言葉をそっくりおしまいまでいってしまっているが、圓馬は「もう私がいないのだから」辺りから少しずつ言葉が曇りだしてきて、「後生だから……お前」と慄え、「阿母と仲好く……」とまでくるともうあとはそれっきり<hi rend="bouten 傍点 right" source="#source-84426-84462"><seg source="#source-84426-84432">ひそ</seg></hi>と泣きくずれてしまったので、随分ジーンと私たちまでが目頭を熱くさせられてしまったものである。尤も圓朝の速記のはよーく見ると「稼いでおくんなさいよ、よ」とおしまいの「よ」を殊更にダブらせている。そこに圓朝独自の言葉の魔術が発揚され、よひと言で圓馬の場合と全く同様の心理を描きつくしていたのかもしれない。さるにても圓馬のこの表現、「芸」の極意たる序、破、急の世にも完全なる見本みたいなものでこの手法を小説の会話の上へ採り入れることにその後私はどんなに多年苦しんだことだったろう。現に今日も私より<ruby type="furigana" rend="right" source="#source-85197-85212"><rb>稚</rb><rt>わか</rt></ruby><seg source="#source-85212-85587">い芸能人に芸道上の注意を与える場合、必ずやそれはこの序、破、急の欠陥以外にはないから妙である。そのたび必ず私はこの圓馬のお久の例を話しては心理推移の秘密を悟って貰おうとするものなのであるが、とすると同時にこの序、破、急をおぼえることは、日本画において</seg><ruby type="furigana" rend="right" source="#source-85587-85602"><rb>首</rb><rt>はじ</rt></ruby><seg source="#source-85602-85608">めに</seg><ruby type="furigana" rend="right" source="#source-85608-85635"><rb>四君子</rb><rt>しくんし</rt></ruby><seg source="#source-85635-85668">さえよくおぼえ込んだら</seg><hi rend="bouten 傍点 right" source="#source-85668-85704"><seg source="#source-85668-85674">のち</seg></hi><seg source="#source-85704-85776">のあらゆる絵画にはその手法が織り込まれているから</seg><ruby type="furigana" rend="right" source="#source-85776-85797"><rb>容易</rb><rt>たやす</rt></ruby><seg source="#source-85797-86156">いというのと同じで、笑う序、破、急、怒る序、破、急、くさる序、破、急等々あらゆる人生を再現する場合の序、破、急ことごとく会得できて、まずまず芸道第一課は卒業できるのじゃないだろうか。少なくとも私自身はそうと信じて信じて止まないものである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">次に長兵衛が佐野槌から借りる百両――その百両という金額に対して、その当時の左官風情に百両はちと大業では……という疑いあるお方ありはしないか。もし、あったとしたら、それは先年私の雑誌「博浪抄」へ寄せた「<ruby type="furigana" rend="right" source="#source-86459-86480"><rb>家人</rb><rt>けにん</rt></ruby>その他」の中の左の一章を読んでいただきたい。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">拙作「花の富籤」を発表したとき、職人風情で何十両の貸借は大業すぎると、ある批評家さんにやっつけられた。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-86708-86764">大業は百も承知、二百も合点である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">あえて岡本綺堂先生の「世話狂言の嘘」に<ruby type="furigana" rend="right" source="#source-86824-86836"><rb>俟</rb><rt>ま</rt></ruby><seg source="#source-86836-86911">つ迄もなかろう、江戸時代にはお歴々の士分といえども</seg><hi rend="bouten 白丸傍点 right" source="#source-86911-86965"><seg source="#source-86911-86923">十両以上</seg></hi><seg source="#source-86965-87244">の大金は決して肌にしてはいなかった。常に十両金さえ所持していれば、ひとたび君公の命下ったとき我が家へ戻らずして彼らは、蝦夷松前の果てまでもそのまま行かれた。即ち十両盗めば首の笠台の飛んだ</seg><ruby type="furigana" rend="right" source="#source-87244-87265"><rb>所以</rb><rt>ゆえん</rt></ruby>、「どうして九両三分二朱」の名洒落ある所以である。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-87342-87467">が、その綺堂先生も言われている（名人錦城齋典山もまた同様のことをいったそうだ）。</seg></p>
+        <p>「あれといい、これといい、今宵に迫る<hi rend="bouten 白丸傍点 right" source="#source-87521-87569"><seg source="#source-87521-87530">二百両</seg></hi><seg source="#source-87569-87581">、こりゃ</seg><ruby type="furigana" rend="right" source="#source-87581-87599"><rb>如何</rb><rt>どう</rt></ruby>したらよかろうぞえ」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-87631-87897">と、きて、はじめて、人生は芝居になる。絵になる。詩になる。すなわち現実の真でなく、芸術の上の真として、大方の胸へ囁き、ひびくものがある。いくらそれが決定的事実であるとしても、</seg></p>
+        <p>「今宵に迫る<hi rend="bouten 白丸傍点 right" source="#source-87915-87981"><seg source="#source-87915-87933">十三両と三分</seg></hi>」</p>
+        <p><seg source="#source-87986-88014">ではね、と……。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">百両の金貰って長兵衛、佐野槌あとに吾妻橋へ。ここで身投げを助けるのであるが、この身投げが「身投げじゃねえか」と訊かれたとき「なに宜しゅうございます」という。くどく事情を訊ねられると、決心した上のことゆえ「お構いなく往らしって下さいまし」という。ほんとうに長兵衛との長いやりとりの間「なに宜しゅうございます」と「往らして下さいまし」とは何べんこの男の口から繰り返されることだろう。すでに死というものを覚悟し切ってしまっている姿と、みすぼらしい長兵衛の様子を見てこの人に何すがれるものかという軽蔑の心持とがまざまざそこから感じとられて、巧緻である。また長兵衛自身にしても場合が場合、助けたいのは山々であるが、さりとて他ならぬ金、遣わないですめばそれに越したことはないので、</p>
+        <p>「己もなくっちゃならねえ金だが、これをお前に……だが、何うか死なねえようにしてくんな、え、おう」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">とこういいもするのである。このいい方もまたなかなか心理的でいいとおもう。最近谷崎潤一郎氏は「きのうきょう」の中で里見<ruby type="furigana" rend="right" source="#source-89344-89406"><rb><g ref="#gaiji-3-1-84-22" source="#source-89347-89394">弴</g></rb><rt>とん</rt></ruby>氏の会話の妙をたたえて、「小説界の圓朝」といわれているが圓朝の巧さはまことこうしたところに尽きているとおもう。では「死なないように致しますから、お構いなく往らしって下さいまし」といい、安心して長兵衛が行こうとすると「また飛び込もうとする」、それを留めて戒め、また行こうとすると、また飛び込もうとする、この二度迄の繰り返しあって、是が非でも長兵衛、金を恵まねばならなくなってしまうのである、相変らずの用意周到の段取りとおもう。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">ここからここに百両持ってはいるが――と可愛い娘を売った謂れを涙まじりでひとくさり聞かすので、相手は「何う致しまして左様な金子は要りません」。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-90259-90304">ところがそういわれると長兵衛</seg><hi rend="bouten 傍点 right" source="#source-90304-90478"><seg source="#source-90304-90379">ほんとに金をやりたくなくなりそうになるので心を鬼に</seg></hi>、「人の親切を無にするのけえ」といいながら放りつけて往く。それ故にこそ長兵衛先方の名も聞かず、所も聞かず、相手もまたその通りなのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">打ち付けられた男のほうは「財布の中へ<ruby type="furigana" rend="right" source="#source-90741-90759"><rb>礫</rb><rt>つぶて</rt></ruby><seg source="#source-90759-90843">か何か入れて置いて、人の頭へ叩きつけて、ざまあ見やがれ、</seg><ruby type="furigana" rend="right" source="#source-90843-90864"><rb>彼様</rb><rt>あんな</rt></ruby><seg source="#source-90864-90870">汚い</seg><ruby type="furigana" rend="right" source="#source-90870-90885"><rb>形</rb><rt>なり</rt></ruby><seg source="#source-90885-90888">を</seg><ruby type="furigana" rend="right" source="#source-90888-90900"><rb>為</rb><rt>し</rt></ruby>」た奴がなんで百両持っているものかと「撫でて見ると訝しげな手障りだから」開けてみると<ruby type="furigana" rend="right" source="#source-91026-91041"><rb>正</rb><rt>まさ</rt></ruby><seg source="#source-91041-91290">しく百両。にわかにハッと影も形もなくなってしまっている後姿を両手合わせて拝むのである。圓馬はここでいっぺん懐中した財布をまた落としちゃ大変だと気がつくこころであわてて</seg><ruby type="furigana" rend="right" source="#source-91290-91323"><rb>内懐中</rb><rt>うちぶところ</rt></ruby><seg source="#source-91323-91418">へ、初めて両手で拝んでいる。この演出もまた心理的で秀れている。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-91418-91442">――場面変って</seg><ruby type="furigana" rend="right" source="#source-91442-91466"><rb>白銀</rb><rt>しろがね</rt></ruby>町三丁目のその男の主人の家。ここでまだかえらない男の上を案じている主人に番頭が「使いに出すと永いのが<ruby type="furigana" rend="right" source="#source-91616-91631"><rb>彼</rb><rt>あれ</rt></ruby>の癖で」と讒訴を上げているのは、前に吾妻橋で男が長兵衛に自分は身寄りのない上に御主人が「あまり私を贔屓になすって下さいますもんですから、番頭さんが嫉んで忌な事を致しますから、相談も出来ませんが」と訴えているだけに自然でいい。なればこそ、この主人こんな若僧に大枚のお払い金など取りにさえやるのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">そこへ長兵衛に貰った百両持って男はかえってくる。ところが盗られたとおもった金はお得意先で碁のお相手をはじめ碁盤の下へ置き忘れてきたので、つとにそのお金、先方様からは届けられていたのだった。おどろいて逐一、男は吾妻橋での事情を打ち明け、しかも助けてくれたその人は、娘を佐野槌へ売った金ゆえ「これをお前に遣るが、娘は女郎にならなけりゃならない、悪い病を受けて死ぬかも知れないから、明暮凶事のないように、平常信心する不動様へでも何でも、お線香を上げてくれと、男泣きに泣きながら頼みましたが、旦那さまへ、何うか店の傍へ不動様をひとつお拵えなすって」とオロオロ頼みだすのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">翌日、主人の命を受けて番頭はどこかへでていったが、やがてかえってきて何やら報告すると今度は主人が文七を供に、観音様へ参詣するが、吾妻橋へ掛かりました時に「ああ昨夜ここンとこで飛び込もうとしたかと思うとぞっとするね」と男にいわしめているのは<hi rend="bouten 傍点 right" source="#source-93297-93357"><seg source="#source-93297-93315">さすがである</seg></hi><seg source="#source-93357-93923">。いわずとしれた主人が吾妻橋を渡るのは本所達磨横丁の長兵衛宅へ。昨夜の礼に行こうとするのである。その直前に観音様へ参詣したは、愛するその奉公人の危難を免かれた御礼詣りだろう。どこ迄もこの旦那、よい人であることが、こうした動作ひとつで如実に分ってくるところ、繰り返すようだが凡手でない（どうして旦那に長兵衛の住所が分ったか、それはもう少しあとまで読者よ聞かないでいて貰いたい）。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-93923-93962">長兵衛宅を訪ねあてると、</seg><ruby type="furigana" rend="right" source="#source-93962-93980"><rb>家内</rb><rt>なか</rt></ruby><seg source="#source-93980-93998">では昨夜から</seg><ruby type="furigana" rend="right" source="#source-93998-94022"><rb>終夜</rb><rt>よっぴて</rt></ruby>の大喧嘩である。無理もない、町ところもしらず名もしらぬ男に娘を売った大枚百両恵んでしまったというのだからお神さんの信用しないのも。「ふん、見兼ねて助ける風かえ、足を掬って放り込むほうだろう」とお神さん、さながらいま志ん生の得意とする裏長屋の神さんらしい調子で応酬してくる、<hi rend="bouten 傍点 right" source="#source-94430-94478"><seg source="#source-94430-94442">てっきり</seg></hi>またどこかで丁半を争ってしまったものとひたすら泣いて口惜しがってはいるのである。そこへ「長兵衛さんとおっしゃる棟梁さんのお宅はこちらで」と旦那が訪れると「ええ何に棟梁でも何んでもねえんで」とうちの中で長兵衛自身術もなく棟梁を否定し、そのあと「へへへ、縮屋さんかえ」という呼吸――いかにも<hi rend="bouten 傍点 right" source="#source-94907-94967"><seg source="#source-94907-94925">こうありそう</seg></hi><seg source="#source-94967-94987">ではないか。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">旦那きたり、昨夜の男きたり、晴天白日の身となった長兵衛の喜び、いや察するにあまりがある。このとき旦那の「私どもも随分<ruby type="furigana" rend="right" source="#source-95164-95197"><rb>大火災</rb><rt>おおやけど</rt></ruby><seg source="#source-95197-95350">でもございますと、五十両百両と布施を出した事もありますが、一軒一分か二朱にしきゃァ当りませんで、それは</seg><ruby type="furigana" rend="right" source="#source-95350-95377"><rb>名聞</rb><rt>みょうもん</rt></ruby>」あなたのようなお方は「実に尊い神様のようなお方だ」と激賞したのち、<ruby type="furigana" rend="right" source="#source-95479-95500"><rb>金子</rb><rt>きんす</rt></ruby>を返すと、そこは長兵衛江戸っ子の、いったんやったお金はいらないという。旦那のほうでもそれは困るから取ってくれという、あくまで長兵衛はいらないという、そのうち「だがね、どうも……だからよ、貰って置くから<ruby type="furigana" rend="right" source="#source-95800-95812"><rb>宜</rb><rt>い</rt></ruby>いじゃねえか……」というところを見ると、ひどい<ruby type="furigana" rend="right" source="#source-95881-95893"><rb>扮</rb><rt>な</rt></ruby><seg source="#source-95893-96100">りのため最前屏風のかげへ隠れてしまっていたお神さんがハラハラして長兵衛の袂をしきりに引っ張っているのだろう、こんな僅かの会話の中で、それが</seg><hi rend="bouten 傍点 right" source="#source-96100-96142"><seg source="#source-96100-96109">見える</seg></hi><seg source="#source-96142-96147">。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-96147-96300">旦那はこの者は身寄りのない者ゆえ、あなたのような潔白のお人の子にしてやってくれ、そうして自分とも親類</seg><ruby type="furigana" rend="right" source="#source-96300-96321"><rb>交</rb><rt>づきあ</rt></ruby>いをしてくれといいだす。そこへ「親子兄弟固めの<ruby type="furigana" rend="right" source="#source-96390-96414"><rb>献酬</rb><rt>さかずき</rt></ruby>」のお肴が届く、四つ手駕籠で。いつかこの旦那によって佐野槌から引かされてきたお久が「昨日に変る今日の出で立ち、立派になって駕籠」から下り立ったのである（読者よ、旦那に長兵衛の住居の分ったのはけさお久身請に番頭が佐野槌までひと走りしてきたからである）。やがてお久はその男と夫婦になり、麹町六丁目へ暖簾を分けて貰い、文七元結の店を開く。いう迄もないことだが、文七文七というのはこの若者の名前なのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">それにしても一番終りの場面の、お久かえりぬと聞いて嬉しさのあまり、母親お兼が「オヤお久、帰ったかえといいながら<ruby type="furigana" rend="right" source="#source-97181-97193"><rb>起</rb><rt>た</rt></ruby>つと、間が悪いからクルリと廻って屏風の裡へ隠れました」というこの演出も見事である。「間が悪い」の上へひどい扮りをしていますからなどとひと言も断っていないところに注目して貰いたい。そうして涙の中にドーッと笑わせたすぐそのあと「さてこれから文七とお久を夫婦に致し、主人が暖簾を分けて、麹町六丁目へ文七元結の店を開いたというお芽出たいお話でございます」と少しも<hi rend="bouten 白丸傍点 right" source="#source-97724-97790"><seg source="#source-97724-97742">持って廻らず</seg></hi><seg source="#source-97790-97891">、トントンと運びめでたくたちまちおしまいにしてしまっている手際よ。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><ruby type="furigana" rend="right" source="#source-97894-97912"><rb>希</rb><rt>ねがわ</rt></ruby>くは何とかして私、「文七元結」の圓朝以前のものが知りたい。我が圓朝の、原作のどこへどう細工を施したか、それを知ることによっていっそう圓朝という人の特別の技量の、いよいよ私たちの前に明らかにされるだろうから。</p>
+        <p style="text-indent: 4em" rend="first-line-indent(4)">「真景累ヶ淵」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-98266-98919">安政六年圓朝二十一歳の作品。しかも素噺転向後の第一声としても絶対高評だったとあれば、一番圓朝にとってもおもいで深き作品だったろうとおもう。事実、宗悦殺しにはじまって甚蔵殺しまで、ことごとくこれ息をも吐かせぬおもしろさである。芸術的な匂いもまた、かなりに高い。但し、その後の花車という角力のでてくる辺りからは全くの筋のための筋で、およそつまらない。なぜそのようにつまらなくなってしまったのか、ということについては最後において述べよう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-98919-98970">まず毎度ながら圓朝の教養は、この</seg><hi rend="bouten 傍点 right" source="#source-98970-99012"><seg source="#source-98970-98979">まくら</seg></hi><seg source="#source-99012-99078">においては断見の論という一種の唯物論を見事に</seg><ruby type="furigana" rend="right" source="#source-99078-99096"><rb>覆</rb><rt>くつが</rt></ruby><seg source="#source-99096-99384">えした釈迦の話から神経病の存在、ひいては幽霊の存在肯定説を簡単に披瀝している。前掲綺堂先生の随筆にも見らるる通り何しろ世を挙げての欧化時代、その真っ只中で怪談噺で一世に覇を唱えた彼圓朝である。</seg><hi rend="bouten 傍点 right" source="#source-99384-99426"><seg source="#source-99384-99393">まくら</seg></hi><seg source="#source-99426-99720">においてこのくらいの用意あったは当然のことだろう。またこのくらいの用意あってかからなかったらいくら名人上手といえども最高潮場面に達する以前に心なき文明開化のお客たちの笑殺するところとなってしまって</seg><hi rend="bouten 傍点 right" source="#source-99720-99762"><seg source="#source-99720-99729">てんで</seg></hi>相手になんかされなかっただろう。錦城齋典山は人も知る金襖、世話物の名人であるが、その典山にして晩年は「怪談<ruby type="furigana" rend="right" source="#source-99921-99969"><rb>小夜衣草紙</rb><rt>さよごろもぞうし</rt></ruby>」を読むたびに、左のごときことあったと増田龍雨翁は「木枕語」なる随筆中で憤慨されている。引用してみよう。</p>
+        <p>「典山はこのごろ何の感違いをしているのか、怪談をよむ前に、怪談の語るべきものでない、そんなことのあるべき筈がない、『開明の今日は、ちと馬鹿馬鹿しいお話で』と、怪談をめちゃめちゃに踏みにじってから、怪談にかかるのだから矛盾もまた甚しい。第一凄味もなにも出ない」云々。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-100525-100699">あの典山にして大正から昭和初頭へ。モダン文化のネオン燦然たる前には百年変らざる伝統の世話講談を繰り返している自分に</seg><ruby type="furigana" rend="right" source="#source-100699-100720"><rb>忸怩</rb><rt>じくじ</rt></ruby><seg source="#source-100720-101328">たるものをおぼえ、思わずこうしたことを呟いてしまったのだろう。けだしモガモボ時代の昭和初年も、鹿鳴館花やかなりし明治開化期も、いずれは同じ米英化一色の時代である。その時に当って我が圓朝は敢然と開化人を膝下に集めて時下薬籠中の怪談のスリルを十二分に説きつくし、典山のほうはこの醜態を曝露している。今日、神田伯龍あたりが意味なく時代に迎合してせっかくのお家芸をば放棄している、思えば無理からぬ次第といえよう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-101328-101415">――さて小石川服部坂の旗本深見新左衛門、盲人宗悦に借りた</seg><ruby type="furigana" rend="right" source="#source-101415-101442"><rb>烏金</rb><rt>からすがね</rt></ruby><seg source="#source-101442-101535">が返金できずつい斬り棄ててしまう。この宗悦の娘で富本の師匠たる</seg><ruby type="furigana" rend="right" source="#source-101535-101562"><rb>豊志賀</rb><rt>とよしが</rt></ruby>が、新左衛門の遺子で十八も年下の新吉と同棲する。こうした因果同士の結合がすなわち、「累ヶ淵」の発端である。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-101723-101729">雪</seg><ruby type="furigana" rend="right" source="#source-101729-101747"><rb>催</rb><rt>もや</rt></ruby>いの十二月二十日、宗悦は新左衛門宅へ催促に行くと、「おい誰か取次がありますぜ、奥方、取次がありますよ」と新左衛門自らいい、「どうれ」とやがて奥様がでてくる。まず以て貧寒の旗本屋敷がアリアリと目に見えてくる。つづいて上へ上がった宗悦が「何か足に引掛」ったというと、奥方が「なにね畳がズタズタになってるから」ますます寒々とした邸内の有様が髣髴としてくる。しかもその最中に殿様は酒浸りになっている。そして宗悦にも飲ましてやりたいとて、「エエナニ何か一寸、<hi rend="bouten 白丸傍点 right" source="#source-102419-102485"><seg source="#source-102419-102437">少しは有ろう</seg></hi>」と奥方にこう呼びかける。「少しは」はこの場合、特に寒い。それには<ruby type="furigana" rend="right" source="#source-102584-102602"><rb>強</rb><rt>したた</rt></ruby>かに酔っていながらも新左衛門、相手の督促にきたことは百も承知のそれが気になって気になってたまらないものだから「宗悦よくきた、さァひとつ」「まァ宗悦よくきたな」とふた言目にはこういっている。いかにもこうした場合にこうした人のこうしかいえない言葉でいて、さてイザ書こうとするとき、なかなか書けないところの言葉である。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">宗悦が返金を切りだす、もう少し待てと殿様が断る、そのときひと膝乗り出した宗悦が「私はこういう不自由な身体で根津から小日向まで、杖を引っ張って<hi rend="bouten 白丸傍点 right" source="#source-103285-103363"><seg source="#source-103285-103309">山坂を越してくる</seg></hi>のでげすから」根津から小石川小日向へまでを「山坂」云々はいかにもそのころの<ruby type="furigana" rend="right" source="#source-103474-103498"><rb>辺陬</rb><rt>へんすう</rt></ruby>の感じがあらわれていて、時代風景的におもしろい。我が愛蔵の明治二十年代の東京地図にして現今の小石川区林町あたり、林村と記されている。当時は「山坂」が当然だろう。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-103740-103866">とうとう宗悦は新左衛門の一刀にかかって殺されてしまう。新左衛門は家来に命じて屍骸を</seg><ruby type="furigana" rend="right" source="#source-103866-103887"><rb>葛籠</rb><rt>つづら</rt></ruby>へ。棄てにやる。もうおもてはしんしんと雪ふっている。葛籠は「根津七軒町の喜連川様のお屋敷の手前に、秋葉の原があって、その原の側」の自身番の前へ棄てられる。翌朝これを慾張りの上方者夫婦が自分の落とし物だといって引き取ってくる。それを同じ長屋に<ruby type="furigana" rend="right" source="#source-104247-104265"><rb>燻</rb><rt>くすぶ</rt></ruby>っている悪が二人、夜に入るを待って盗みだす。盗んできた二人は暗中、手触りで葛籠の中をかき廻すのだが、まず油ッ紙へ触ると「模様物や友禅の染物が入ってるから雨が掛かってもいい様に」してあるのだと喜び、冷たくなっている宗悦の顔へ触ると、これは宿下がりの御殿女中の荷物で「御殿の狂言の衣裳の上に坊主の<ruby type="furigana" rend="right" source="#source-104703-104721"><rb>髢</rb><rt>かつら</rt></ruby>が載ってるんだ」とまた喜ぶ。ところがさらにキュッと手で押さえ付けるとグニャッと斬り口へ触ったから、ワーッと戸を蹴返して二人は表へ逃げだしてしまう。騒ぎに目をさました長屋の人たちが一人一人、戸のはずれている真っ暗がりの家の中へ入っていって籠の中へ手を突っ込んでは「フワッ、お長屋の衆」と悲鳴を上げる。また次のが入っては「フワッ、お長屋の」を繰り返す。何といってもここは故人圓右の独擅場で、無気味な中にもこみ上げてくる何ともいえないその可笑しさ。そうそうそういえばおもいだす雪ふるその朝、葛籠の棄ててある自身番の前ちかく、しきりに歯を磨いている若者が通りかかった友だちから近所の根津のことだろう、「大分お前このごろ繰り込んでもてるてえじゃねえか」とからかわれ、「ナ何、……そ、それほどじゃねえや」と<ruby type="furigana" rend="right" source="#source-105762-105777"><rb>脂</rb><rt>やに</rt></ruby>下がりながらまた楊枝をモグモグさせてしまう塩梅、無類だった（圓朝全集のにはこの仕出し登場していない。圓右独自の演出だろうか）。それにはその時分、この「フワッお長屋の衆」という悲鳴を聞くたんび、私はありし日の江戸下町の生活をおもってひと長屋睦み合っている納まる御代の楽し<ruby type="furigana" rend="right" source="#source-106179-106194"><rb>艸</rb><rt>ぐさ</rt></ruby>をいかばかり羨ましくおもい返したことだったろう。そののち私は大阪島の内、または新屋敷あたりの街裏を通るたんび再びこの「宗悦」や「権三と助十」などのお長屋風景をおもいだして、僅かに形骸だけはのこっていた少年時の旧東京の下町住居への仄かなる郷愁をおぼえていたら、思いは同じ谷崎潤一郎氏もチャンとこのほど「初昔」の一節で叙べていられる。</p>
+        <p>「震災後の東京の下町にはあの両側に長屋の並んだ路次というものが殆ど見当らなくなったが、大阪にはいまだにあれがある。繁華な心斎橋筋を東か西へ這入ったあたりの、わりに静かな街通りを行くと、家並が一軒欠けていて、その<ruby type="furigana" rend="right" source="#source-107006-107030"><rb>庇間</rb><rt>ひあわい</rt></ruby>のような所にそういう路次の入口があり、時にはその入口にちょっとした潜り門のようなものが附いていて、奥の長屋に住んでいる人々の表札が並べて掲げてあることもある。またその潜り門の上に二階が附いていて、そこに人が住んでいるらしく、あたかも楼門のようになっているのもある。そういう路次は通り抜けが出来るのもあるが、大概は行き止りになっているのが多く、その袋小路の中は、熱閑の巷にこんな一郭がと思えるようにひっそりとしていて、電車や自動車の響も案外聞こえてこず、いかにも閑静なのである。子供の時分に東京にあった路次には、隠居、妾、お店の番頭、鳶の頭、大工の棟梁、といったような住人が多く、格子のうちに御神燈が下っていたり、土間の障子を開けた所がすぐに茶の間で、神棚、長火鉢、茶箪笥といった小道具よろしく、夫婦者が研き込んだ銅の銅壺でお燗をしながら小鍋立をしていたりしたのを見た記憶があるが（下略）」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-108214-108375">もうこれによって私のいわんとするお長屋の何たるかも改めてくだくだと説明には及ぶまい。ついでにあなた方は、</seg></p>
+      </div>
+      <div type="layout" source="#source-108375-108496" style="padding-inline-start: 2em">
+        <p><seg source="#source-108410-108460">焼海苔や米に奢りし裏長屋　　龍雨</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-108498-109152">という句の意をおもいだして下されば、もうそれでいいのである。今や時局下の東京へもトントントンカラリの隣組は設置されたが、隣が青森県人で向こうが佐賀県人、まん中に茨城県人がという合壁の寄合長屋ではまだまだこの東京というところの辛うじて喘ぎのこっている伝統都市美の保存、もしくはすでに絶え果てた佳き風習風俗の再興を企てよう精神文化的な心組みまでには至るべくもない。大東亜共栄圏確立、五十年百年の後には再び圓右が宗悦の一節に聴いたような和気</seg><ruby type="furigana" rend="right" source="#source-109152-109179"><rb>藹々</rb><rt>あいあい</rt></ruby>たる洗練東京の「隣組」が新粧されていようことをせめても私は死後に望んで止まないのみである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-109316-109490">――やがて深見新左衛門邸へは一年目の十二月二十日がめぐってくる。いやが上にも荒涼たる邸の中の、そこには奥方がひどい</seg><hi rend="bouten 傍点 right" source="#source-109490-109538"><seg source="#source-109490-109502">さしこみ</seg></hi>で苦しんでいる。呼び入れた汚い按摩が揉みだすと、奥方の痛みはいよいよ烈しくなる。で新左衛門が自分のを揉ませてみると、なるほど、痛い。思わず痛いと殿様が呼ぶと「どうして貴方、まだ手の先で揉むのでございますから痛いといってもたかが知れておりますが、貴方のお脇差でこの左の肩から乳の処までこう斬り下げられました時の苦しみは」按摩がこういう。ハテナと見やると「恨めしそうに見えぬ眼を斑に開いて、こう乗り出した」盲人宗悦のすがたである。「己れ参ったか」、すぐ新左衛門は斬り付ける。ワッと相手は打ち倒れた。でも――気が付いてみると血まみれて倒れているは、なんの現在の奥方だった。ところでいま引用した「どうして貴方」以下は圓朝速記本に拠るものであるが、圓右の場合はもっと芝居めかして「まだ貴方、これほどの痛みじゃござりません、ちょうど去年の今月今夜、肩先かけて、乳の下まで」こういっていた。あるいは圓朝自身も芝居噺のときはこういう風に演っていたかもしれない。そのとき「エ」と殿様が振り返ると、こうダラリと両手を下げ、スーッと灰いろに尾を曳いてすくんでいる宗悦のすがた、圓右の姿はなくてそこにションボリ青ざめた宗悦の霊のみが物凄い半眼を見ひらいていた。生涯、忘れられないだろう。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">ところで圓朝は深見家の改易を座光寺源三郎が女太夫おこよを妻として召捕られたかの「旗本五人男」事件に関連させ、そのことによって巧みにこの新左衛門を惨死せしめている。即ち源三郎お咎めののち新左衛門は座光寺邸の宅番を仰せつかっていると、例の売卜者梶井主膳が「同類を集めて駕籠を釣らせ、抜身の槍で押し寄せて、おこよ、源三郎を連れていこう」とするため、抜き合わせて斬死してしまうとこういうのである。それにしても圓朝は「旗本五人男」という講釈の上に、かなりの関心を持っていたものと見ていい。なぜならかの「月に諷う荻江一節」、荻江露友を扱った物語の挿話でも同じく「五人男」中の此村大吉を登場させこの大吉の姿をモデルに中村仲蔵が例の五段目の定九郎をおもいついた一齣を挟んでいるからである。今日、圓馬、下って文治にのこる一席物の人情噺「仲蔵」は、これを独立させたものである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-112272-112635">その結果深見の家は改易となり、それに先立ち兄新五郎はつとに出奔しているがまだ幼かった弟新吉のほうは門番勘蔵に育てられ、年ごろになっても勘蔵を真実の伯父とおもって暮らしている。勘蔵は下谷大門町に烟草屋を、新吉は始め貸本屋へ奉公していたが、のち</seg><ruby type="furigana" rend="right" source="#source-112635-112668"><rb>掴煙草</rb><rt>つかみたばこ</rt></ruby><seg source="#source-112668-112767">を風呂敷に包みほうぼう売り歩いている。かくて根津七軒町の富本の師匠</seg><ruby type="furigana" rend="right" source="#source-112767-112797"><rb>豊志賀</rb><rt>とよしが</rt></ruby>と相知るのである（これが宗悦の娘であることはすでに述べた）。三十九でまだ男を知らなかった豊志賀が、僅か二十一のそれも仇同士の新吉と悪縁を結び、同棲する。はじめのうちは何事もなかったが、そのうち稽古にきているお久という愛くるしい娘と新吉の上を疑ってクヨクヨしだしたのが始まりで、「眼の下ヘポツリと<ruby type="furigana" rend="right" source="#source-113238-113253"><rb>訝</rb><rt>おか</rt></ruby><seg source="#source-113253-113454">しな腫物が出来て、その腫物が段々腫れ上がってくると、紫色に少し赤味がかって、爛れて膿がジクジク出ます、眼は一方は腫れ塞がって、その顔の</seg><ruby type="furigana" rend="right" source="#source-113454-113469"><rb>醜</rb><rt>いや</rt></ruby>な事というものは何ともいいようが無い」。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">それが「よる夜中でも、いい塩梅に寝付いたから疲れを休めようと思って、ごろりと寝ようとすると」揺り起しては豊志賀、「私が<ruby type="furigana" rend="right" source="#source-113711-113723"><rb>斯</rb><rt>こ</rt></ruby>んな顔で」とか「お前は私が死ぬとねえ」とか怨みつらみのありったけを並べ立てる。「不人情のようだがとてもここには居られない、大門町へ行って伯父と相談をして、いっその事下総羽生村に知っている者があるから、そこへ行ってしまおうか」とある夜、表へでる。パッタリ会ったのが、豊志賀が悶えの種のお久である。ところでこのときの新吉の言葉が巧い。「お久さん何処へ」と訊き、「日野屋へ買物に」とすぐお久が答えているのにもかかわらず、また少し経つと「お久さん何処へ」。また少し話が途切れると「お久さん何処へ」。とうとう不忍の蓮見鮨の二階へ二人上がり込み、差し向かいに坐ってまでもまだ「お久さん何処へ」を繰り返していることである。もうこれだけいっただけで説明にも及ぶまいとおもうが念のために蛇足を添えるならつまり<hi rend="bouten 傍点 right" source="#source-114758-114806"><seg source="#source-114758-114770">ぞっこん</seg></hi>と惚れ込んでいるこの自分の心をうっかり話の途切れに相手に悟られてしまってはならない、そうしたその思惑がつい何べんも何べんも「お久さん何処へ」と下らなく同じことばかり訊ねてしまってはいるのである。もうくどいほど繰り返している圓朝のこうした巧さ。でもやっぱりまたしても採り上げないわけにはゆかない巧さなのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">ところがこのお久も継母に虐められてばかりいる身の、とどいっしょに羽生村まで連れて逃げてくれという話になる。そのときお久「豊志賀さんが<ruby type="furigana" rend="right" source="#source-115471-115501"><rb>野倒死</rb><rt>のたれじに</rt></ruby>をしてもお前さん私を連れて行きますか」と念を押すので「本当に連れていきます」、キッパリ答えると「ええ、お前さんという方は」たちまちこれが恐しい豊志賀の形相となって、大写しに。ワッと新吉はお久を突き倒して逃げ出し、大門町の勘蔵のところまで息せき切って駈け込んでくるのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">と、どうだろう、この伯父のところへ大病人の豊志賀がやってきている、しかも豊志賀はいつもとちがい「お前とは年も違う」から「お前はお前で年頃の女房を持てば、私は妹だと思って月々たくさんは出来ないが、元の様に二両や三両ずつはすける積り」その代り看病だけはしてくれ、またもしものことあらば死水だけは取ってくれと次々に大へん分った話ばかりするのである。こうしおらしくでられると新吉はもちろん、つい私たちまでがホロリこの薄幸な中年女の上に同情の涙をそそがないわけにはゆかなくなってくる。でもこれが圓朝という大魔術師のとんだ幻術であるということ、もうすぐあなた方は心付かれるだろう。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">間もなく豊志賀は町駕籠でかえることになる。このときいっしょにかえる新吉が「蝋燭が無けりゃ三ツばかりつないで」というのだが、三つつないだ短い蝋燭の灯の、おもっただけでもトボンと青黄色くうすら寂しい限りではあることよ。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">ところが駕籠を担ぎだすとたん、七軒町から駈け付けてくる長屋の者あって、無惨な豊志賀の死を告げる。愕いて駕籠のタレをめくると、中に豊志賀の姿はもうない。煙に捲かれたような顔をしてかえっていく駕籠屋のあと、今更のようにぞっとした新吉と勘蔵とが迎えの者と七軒町へかえっていくと、遺書がある。曰く「この後女房を持てば七人まではきっと取り殺すからそう思え」。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-117621-117923">伯父のところへやってきたときの豊志賀があまりにも殊勝らしいことばかりいっているだけ、いっときはあとのこの手紙の、身の毛もよだつもの、おぼえさせられるではないか。すなわち圓朝の幻術といった所以である。</seg></p>
+        <p>「累ヶ淵」はまだまだ長い。冒頭述べたごとくここから新吉お久を連れて羽生村へ。だがやはり豊志賀の幻影に禍されて、お久を鬼怒川堤で殺してしまう顛末から、次第に新吉、身も心もうらぶれ果てて半やくざ同様となり、破戸漢土手の甚蔵を殺害するまで、決して詰まらない作品とはいえない。描写、会話、運びの巧さにおいても優に十箇所以上を採り上げて示すことができる。しかも「乳房榎」の場合と同じく「累ヶ淵」もまた最も鑑賞すべきは、江戸<ruby type="furigana" rend="right" source="#source-118541-118568"><rb>歳晩</rb><rt>さいばん</rt></ruby><seg source="#source-118568-118720">風景の如実なる宗悦殺しに端を発し、凄艶豊志賀の狂い死にまでにあるとこれまた、点を辛くして高唱したい。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-118720-118861">挿話（？）として新吉の兄新五郎、同じく因果同士の豊志賀の妹お園とめぐりあい、うっかりお園のい</seg><hi rend="bouten 傍点 right" source="#source-118861-118897"><seg source="#source-118861-118867">のち</seg></hi><seg source="#source-118897-118936">を終らせてしまうくだりや、</seg><hi rend="bouten 傍点 right" source="#source-118936-118972"><seg source="#source-118936-118942">のち</seg></hi>悪事を働き獄門台上にある新五郎の首が新吉の夢枕にあらわれるくだりなど、ここも因果ひといろで塗り潰されていながらしかし決して不自然ではなく運ばれている。もし『圓朝全集』第一巻「真景累ヶ淵」を通読されること以外に親しくその辺の口演に接したいといわれる方あらば、現、蝶花楼馬楽が引き抜き道具立の正本芝居噺によって味わわれたいといっておこう。馬楽は圓朝直門の、今は亡き三遊亭一朝老人から、手をとって教えられているのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-119595-120812">最後に結末ちかき力士花車登場以後の、大圓朝らしからぬ冗長至極の物語の構成に関しては、あえて私はこういいたい。あまりにも連夜の評判また評判が、自動他動いろいろの点から是が非でももうひと晩もうひとつ晩と意味なく飴のごとくに物語を延びさせてしまったものではなかろうか。現に故伊藤痴遊氏のごとき荒木又右衛門をして伊賀の上野に三十六番斬を演ぜしめたは、当の又右衛門ならずして神田一山なりとされている。つまり一山、まず一人だけ斬ってお後明晩としたところ、翌晩、倍のお客がきた、でまた一人斬ってまた明晩、また一人また明晩、また一人また明晩、ついに三十六人目にようやくめざす河合又五郎を斬って棄てめでたく仇討本懐を遂げるとともにようやく日延べつづきの興行の千秋楽を迎えるに至ったというのである。でも一山の場合は毎晩一人ずつ斬る、その一人ずつの斬り方がことごとくちがっていたため、いっそう大好評だったといわれるから素晴らしい。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-120812-121744">その点怪談のまくらにおいて見事後代の典山に勝った圓朝は、無理から噺を引き延ばす技巧においては同時代（だろうとおもう）の一山に敗れたりといわねばなるまい。さりながら冒頭にもすでに述べたが大正末年から大東亜戦争寸前まであまりにも企業化してしまった我が文学界においても、屡々すでに結末に近付いている大衆小説を、あるいは好評なるがため、あるいはまた次なる連載の新作家の原稿まだこらざるため、無理矢理回数を延ばさしむる怪風習の行われること少なくなかった。しかもその都度容易に執筆者のこれを肯い、必ずやその結果は支離滅裂の極みなる作品のみ産出されいたることをおもえば、ひとり我が圓朝のみを責むるははなはだ当っていないかもしれない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-121744-121806">三遊亭圓朝無舌居士、妄評多罪、乞諒焉。</seg></p>
+      </div>
+      <div type="layout" source="#source-121806-121845" style="padding-inline-end: 1em; text-align: right">
+        <p><seg source="#source-121836-121845">――終</seg></p>
+      </div>
+    </body>
+    <back>
+      <div type="source">
+        <note type="source-attribution" source="#source-121853-122063"><seg type="source-line">底本：「小説　圓朝」河出文庫、河出書房新社</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">2005（平成17）年7月20日初版発行</seg><lb/><seg type="source-line">底本の親本：「小説　圓朝」三杏書院</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1943（昭和18）年4月刊</seg></note>
+        <note type="transcriber-note" source="#source-122063-122520"><seg type="source-line">※底本は、物を数える際や地名などに用いる「ヶ」（区点番号5-86）を、大振りにつくっています。</seg><lb/><seg type="source-line">入力：門田裕志</seg><lb/><seg type="source-line">校正：仙酔ゑびす</seg><lb/><seg type="source-line">2009年1月7日作成</seg><lb/><seg type="source-line">青空文庫作成ファイル：</seg><lb/><seg type="source-line">このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。</seg></note>
+        <note type="source-span" xml:id="source-10024-10033" n="31"/>
+        <note type="source-span" xml:id="source-10033-10080" n="31"/>
+        <note type="source-span" xml:id="source-100525-100699" n="176"/>
+        <note type="source-span" xml:id="source-100699-100720" n="176"/>
+        <note type="source-span" xml:id="source-100720-101328" n="176"/>
+        <note type="source-span" xml:id="source-10080-10125" n="31"/>
+        <note type="source-span" xml:id="source-10125-10140" n="31"/>
+        <note type="source-span" xml:id="source-101328-101415" n="177"/>
+        <note type="source-span" xml:id="source-10140-10158" n="31"/>
+        <note type="source-span" xml:id="source-101415-101442" n="177"/>
+        <note type="source-span" xml:id="source-101442-101535" n="177"/>
+        <note type="source-span" xml:id="source-101535-101562" n="177"/>
+        <note type="source-span" xml:id="source-10158-10164" n="31"/>
+        <note type="source-span" xml:id="source-10158-10194" n="31"/>
+        <note type="source-span" xml:id="source-101723-101729" n="178"/>
+        <note type="source-span" xml:id="source-101729-101747" n="178"/>
+        <note type="source-span" xml:id="source-10194-10320" n="31"/>
+        <note type="source-span" xml:id="source-102419-102437" n="178"/>
+        <note type="source-span" xml:id="source-102419-102485" n="178"/>
+        <note type="source-span" xml:id="source-102584-102602" n="178"/>
+        <note type="source-span" xml:id="source-1028-1079" n="19"/>
+        <note type="source-span" xml:id="source-10320-10341" n="31"/>
+        <note type="source-span" xml:id="source-103285-103309" n="179"/>
+        <note type="source-span" xml:id="source-103285-103363" n="179"/>
+        <note type="source-span" xml:id="source-10341-10699" n="31"/>
+        <note type="source-span" xml:id="source-103474-103498" n="179"/>
+        <note type="source-span" xml:id="source-103740-103866" n="180"/>
+        <note type="source-span" xml:id="source-103866-103887" n="180"/>
+        <note type="source-span" xml:id="source-104247-104265" n="180"/>
+        <note type="source-span" xml:id="source-104703-104721" n="180"/>
+        <note type="source-span" xml:id="source-105762-105777" n="180"/>
+        <note type="source-span" xml:id="source-106179-106194" n="180"/>
+        <note type="source-span" xml:id="source-107006-107030" n="181"/>
+        <note type="source-span" xml:id="source-108214-108375" n="182"/>
+        <note type="source-span" xml:id="source-108375-108496" n="183"/>
+        <note type="source-span" xml:id="source-10839-10863" n="37"/>
+        <note type="source-span" xml:id="source-108410-108410" n="184"/>
+        <note type="source-span" xml:id="source-108410-108460" n="184"/>
+        <note type="source-span" xml:id="source-108498-109152" n="186"/>
+        <note type="source-span" xml:id="source-1085-1127" n="19"/>
+        <note type="source-span" xml:id="source-109152-109179" n="186"/>
+        <note type="source-span" xml:id="source-109316-109490" n="187"/>
+        <note type="source-span" xml:id="source-109490-109502" n="187"/>
+        <note type="source-span" xml:id="source-109490-109538" n="187"/>
+        <note type="source-span" xml:id="source-11103-11127" n="37"/>
+        <note type="source-span" xml:id="source-11127-11178" n="37"/>
+        <note type="source-span" xml:id="source-11178-11196" n="37"/>
+        <note type="source-span" xml:id="source-11196-11214" n="37"/>
+        <note type="source-span" xml:id="source-11214-11232" n="37"/>
+        <note type="source-span" xml:id="source-11214-11274" n="37"/>
+        <note type="source-span" xml:id="source-112272-112635" n="189"/>
+        <note type="source-span" xml:id="source-112635-112668" n="189"/>
+        <note type="source-span" xml:id="source-112668-112767" n="189"/>
+        <note type="source-span" xml:id="source-11274-11427" n="37"/>
+        <note type="source-span" xml:id="source-112767-112797" n="189"/>
+        <note type="source-span" xml:id="source-113238-113253" n="189"/>
+        <note type="source-span" xml:id="source-113253-113454" n="189"/>
+        <note type="source-span" xml:id="source-113454-113469" n="189"/>
+        <note type="source-span" xml:id="source-113711-113723" n="190"/>
+        <note type="source-span" xml:id="source-11427-11442" n="37"/>
+        <note type="source-span" xml:id="source-11442-11879" n="37"/>
+        <note type="source-span" xml:id="source-114758-114770" n="190"/>
+        <note type="source-span" xml:id="source-114758-114806" n="190"/>
+        <note type="source-span" xml:id="source-115471-115501" n="191"/>
+        <note type="source-span" xml:id="source-117621-117923" n="195"/>
+        <note type="source-span" xml:id="source-118541-118568" n="196"/>
+        <note type="source-span" xml:id="source-118568-118720" n="196"/>
+        <note type="source-span" xml:id="source-118720-118861" n="197"/>
+        <note type="source-span" xml:id="source-118861-118867" n="197"/>
+        <note type="source-span" xml:id="source-118861-118897" n="197"/>
+        <note type="source-span" xml:id="source-118897-118936" n="197"/>
+        <note type="source-span" xml:id="source-118936-118942" n="197"/>
+        <note type="source-span" xml:id="source-118936-118972" n="197"/>
+        <note type="source-span" xml:id="source-1193-1220" n="19"/>
+        <note type="source-span" xml:id="source-119595-120812" n="198"/>
+        <note type="source-span" xml:id="source-120812-121744" n="199"/>
+        <note type="source-span" xml:id="source-121744-121806" n="200"/>
+        <note type="source-span" xml:id="source-121806-121845" n="201"/>
+        <note type="source-span" xml:id="source-121836-121845" n="201"/>
+        <note type="source-span" xml:id="source-121853-122063" n="205"/>
+        <note type="source-span" xml:id="source-12188-12206" n="38"/>
+        <note type="source-span" xml:id="source-12206-12269" n="38"/>
+        <note type="source-span" xml:id="source-122063-122520" n="209"/>
+        <note type="source-span" xml:id="source-12269-12290" n="38"/>
+        <note type="source-span" xml:id="source-12905-12923" n="38"/>
+        <note type="source-span" xml:id="source-12923-12953" n="38"/>
+        <note type="source-span" xml:id="source-12953-12980" n="38"/>
+        <note type="source-span" xml:id="source-12980-13039" n="38"/>
+        <note type="source-span" xml:id="source-1343-1409" n="19"/>
+        <note type="source-span" xml:id="source-13456-13471" n="39"/>
+        <note type="source-span" xml:id="source-13471-13636" n="39"/>
+        <note type="source-span" xml:id="source-13636-13657" n="39"/>
+        <note type="source-span" xml:id="source-13657-14637" n="39"/>
+        <note type="source-span" xml:id="source-1409-1412" n="19"/>
+        <note type="source-span" xml:id="source-1412-1454" n="19"/>
+        <note type="source-span" xml:id="source-14637-15039" n="40"/>
+        <note type="source-span" xml:id="source-1466-1526" n="19"/>
+        <note type="source-span" xml:id="source-15039-15060" n="40"/>
+        <note type="source-span" xml:id="source-15114-15138" n="40"/>
+        <note type="source-span" xml:id="source-15138-15261" n="40"/>
+        <note type="source-span" xml:id="source-15261-15291" n="40"/>
+        <note type="source-span" xml:id="source-1535-1598" n="19"/>
+        <note type="source-span" xml:id="source-15450-15471" n="40"/>
+        <note type="source-span" xml:id="source-15471-15626" n="40"/>
+        <note type="source-span" xml:id="source-15782-15803" n="41"/>
+        <note type="source-span" xml:id="source-1610-1625" n="19"/>
+        <note type="source-span" xml:id="source-1625-1717" n="19"/>
+        <note type="source-span" xml:id="source-16297-16415" n="42"/>
+        <note type="source-span" xml:id="source-16332-16332" n="43"/>
+        <note type="source-span" xml:id="source-16332-16379" n="43"/>
+        <note type="source-span" xml:id="source-1717-1791" n="20"/>
+        <note type="source-span" xml:id="source-1791-1866" n="21"/>
+        <note type="source-span" xml:id="source-18138-18147" n="46"/>
+        <note type="source-span" xml:id="source-18138-18180" n="46"/>
+        <note type="source-span" xml:id="source-18180-18345" n="46"/>
+        <note type="source-span" xml:id="source-18345-18375" n="46"/>
+        <note type="source-span" xml:id="source-18375-18482" n="46"/>
+        <note type="source-span" xml:id="source-18482-18686" n="47"/>
+        <note type="source-span" xml:id="source-1866-1872" n="21"/>
+        <note type="source-span" xml:id="source-1866-1902" n="21"/>
+        <note type="source-span" xml:id="source-18686-18707" n="47"/>
+        <note type="source-span" xml:id="source-18707-18767" n="47"/>
+        <note type="source-span" xml:id="source-18767-18788" n="47"/>
+        <note type="source-span" xml:id="source-18788-18836" n="47"/>
+        <note type="source-span" xml:id="source-18836-18860" n="47"/>
+        <note type="source-span" xml:id="source-1902-2193" n="21"/>
+        <note type="source-span" xml:id="source-19186-19762" n="48"/>
+        <note type="source-span" xml:id="source-19762-19774" n="48"/>
+        <note type="source-span" xml:id="source-19762-19810" n="48"/>
+        <note type="source-span" xml:id="source-2193-2202" n="21"/>
+        <note type="source-span" xml:id="source-2193-2235" n="21"/>
+        <note type="source-span" xml:id="source-22326-22350" n="49"/>
+        <note type="source-span" xml:id="source-2235-2384" n="21"/>
+        <note type="source-span" xml:id="source-22350-22443" n="49"/>
+        <note type="source-span" xml:id="source-22443-22467" n="49"/>
+        <note type="source-span" xml:id="source-22976-22991" n="50"/>
+        <note type="source-span" xml:id="source-23117-23141" n="50"/>
+        <note type="source-span" xml:id="source-23522-23546" n="50"/>
+        <note type="source-span" xml:id="source-24808-24832" n="51"/>
+        <note type="source-span" xml:id="source-24832-25024" n="51"/>
+        <note type="source-span" xml:id="source-25024-25039" n="51"/>
+        <note type="source-span" xml:id="source-2522-2528" n="22"/>
+        <note type="source-span" xml:id="source-2522-2558" n="22"/>
+        <note type="source-span" xml:id="source-26105-26303" n="53"/>
+        <note type="source-span" xml:id="source-26303-26309" n="53"/>
+        <note type="source-span" xml:id="source-26303-26339" n="53"/>
+        <note type="source-span" xml:id="source-26339-26455" n="53"/>
+        <note type="source-span" xml:id="source-26587-26614" n="54"/>
+        <note type="source-span" xml:id="source-2672-2678" n="22"/>
+        <note type="source-span" xml:id="source-2672-2708" n="22"/>
+        <note type="source-span" xml:id="source-26803-26818" n="54"/>
+        <note type="source-span" xml:id="source-26818-26824" n="54"/>
+        <note type="source-span" xml:id="source-26818-26860" n="54"/>
+        <note type="source-span" xml:id="source-26860-26926" n="54"/>
+        <note type="source-span" xml:id="source-26926-26941" n="54"/>
+        <note type="source-span" xml:id="source-26941-26980" n="54"/>
+        <note type="source-span" xml:id="source-26980-27001" n="54"/>
+        <note type="source-span" xml:id="source-27043-27055" n="54"/>
+        <note type="source-span" xml:id="source-27043-27091" n="54"/>
+        <note type="source-span" xml:id="source-27091-27100" n="54"/>
+        <note type="source-span" xml:id="source-27100-27115" n="54"/>
+        <note type="source-span" xml:id="source-27100-27154" n="54"/>
+        <note type="source-span" xml:id="source-27154-27163" n="54"/>
+        <note type="source-span" xml:id="source-27163-27172" n="54"/>
+        <note type="source-span" xml:id="source-27163-27205" n="54"/>
+        <note type="source-span" xml:id="source-27205-27214" n="54"/>
+        <note type="source-span" xml:id="source-27214-27223" n="54"/>
+        <note type="source-span" xml:id="source-27214-27256" n="54"/>
+        <note type="source-span" xml:id="source-27256-27537" n="54"/>
+        <note type="source-span" xml:id="source-27537-27648" n="55"/>
+        <note type="source-span" xml:id="source-27648-27663" n="55"/>
+        <note type="source-span" xml:id="source-2804-2828" n="22"/>
+        <note type="source-span" xml:id="source-28694-28736" n="56"/>
+        <note type="source-span" xml:id="source-28736-28757" n="56"/>
+        <note type="source-span" xml:id="source-29429-29438" n="56"/>
+        <note type="source-span" xml:id="source-29429-29471" n="56"/>
+        <note type="source-span" xml:id="source-30445-30691" n="57"/>
+        <note type="source-span" xml:id="source-3056-3083" n="22"/>
+        <note type="source-span" xml:id="source-30691-30721" n="57"/>
+        <note type="source-span" xml:id="source-31206-31236" n="58"/>
+        <note type="source-span" xml:id="source-31236-31800" n="58"/>
+        <note type="source-span" xml:id="source-31800-31815" n="58"/>
+        <note type="source-span" xml:id="source-31883-32125" n="59"/>
+        <note type="source-span" xml:id="source-32359-32371" n="60"/>
+        <note type="source-span" xml:id="source-32533-32560" n="60"/>
+        <note type="source-span" xml:id="source-33837-33858" n="61"/>
+        <note type="source-span" xml:id="source-33939-33960" n="61"/>
+        <note type="source-span" xml:id="source-33960-33986" n="61"/>
+        <note type="source-span" xml:id="source-34865-34892" n="62"/>
+        <note type="source-span" xml:id="source-34892-35377" n="62"/>
+        <note type="source-span" xml:id="source-35377-35428" n="63"/>
+        <note type="source-span" xml:id="source-35428-35455" n="63"/>
+        <note type="source-span" xml:id="source-36283-36298" n="63"/>
+        <note type="source-span" xml:id="source-36283-36337" n="63"/>
+        <note type="source-span" xml:id="source-36703-36724" n="63"/>
+        <note type="source-span" xml:id="source-37402-37423" n="63"/>
+        <note type="source-span" xml:id="source-37423-37606" n="63"/>
+        <note type="source-span" xml:id="source-37606-37627" n="63"/>
+        <note type="source-span" xml:id="source-37627-37780" n="63"/>
+        <note type="source-span" xml:id="source-37780-37816" n="63"/>
+        <note type="source-span" xml:id="source-38251-38263" n="63"/>
+        <note type="source-span" xml:id="source-38263-38272" n="63"/>
+        <note type="source-span" xml:id="source-38272-38293" n="63"/>
+        <note type="source-span" xml:id="source-38293-38296" n="63"/>
+        <note type="source-span" xml:id="source-38296-38317" n="63"/>
+        <note type="source-span" xml:id="source-38317-38350" n="63"/>
+        <note type="source-span" xml:id="source-38350-38368" n="63"/>
+        <note type="source-span" xml:id="source-3845-3875" n="22"/>
+        <note type="source-span" xml:id="source-3875-3902" n="22"/>
+        <note type="source-span" xml:id="source-38830-38848" n="63"/>
+        <note type="source-span" xml:id="source-38848-39154" n="63"/>
+        <note type="source-span" xml:id="source-3902-3908" n="22"/>
+        <note type="source-span" xml:id="source-3902-3938" n="22"/>
+        <note type="source-span" xml:id="source-39154-39169" n="63"/>
+        <note type="source-span" xml:id="source-39169-39202" n="63"/>
+        <note type="source-span" xml:id="source-39202-39217" n="63"/>
+        <note type="source-span" xml:id="source-39217-39316" n="63"/>
+        <note type="source-span" xml:id="source-39316-39328" n="63"/>
+        <note type="source-span" xml:id="source-39316-39364" n="63"/>
+        <note type="source-span" xml:id="source-39364-39439" n="63"/>
+        <note type="source-span" xml:id="source-3938-3941" n="22"/>
+        <note type="source-span" xml:id="source-3941-3995" n="22"/>
+        <note type="source-span" xml:id="source-39439-39469" n="63"/>
+        <note type="source-span" xml:id="source-39439-39523" n="63"/>
+        <note type="source-span" xml:id="source-3995-4090" n="22"/>
+        <note type="source-span" xml:id="source-40407-40479" n="64"/>
+        <note type="source-span" xml:id="source-40479-40494" n="64"/>
+        <note type="source-span" xml:id="source-40494-40670" n="64"/>
+        <note type="source-span" xml:id="source-40670-40954" n="65"/>
+        <note type="source-span" xml:id="source-42247-42271" n="66"/>
+        <note type="source-span" xml:id="source-42331-42352" n="66"/>
+        <note type="source-span" xml:id="source-44441-44462" n="68"/>
+        <note type="source-span" xml:id="source-44462-44535" n="68"/>
+        <note type="source-span" xml:id="source-44535-44666" n="70"/>
+        <note type="source-span" xml:id="source-4479-4488" n="24"/>
+        <note type="source-span" xml:id="source-4479-4521" n="24"/>
+        <note type="source-span" xml:id="source-45127-45139" n="72"/>
+        <note type="source-span" xml:id="source-45139-46044" n="72"/>
+        <note type="source-span" xml:id="source-4521-5000" n="24"/>
+        <note type="source-span" xml:id="source-46044-46290" n="73"/>
+        <note type="source-span" xml:id="source-46290-46305" n="73"/>
+        <note type="source-span" xml:id="source-46305-46885" n="73"/>
+        <note type="source-span" xml:id="source-47210-47231" n="80"/>
+        <note type="source-span" xml:id="source-47672-47687" n="80"/>
+        <note type="source-span" xml:id="source-47687-47726" n="80"/>
+        <note type="source-span" xml:id="source-47726-47923" n="80"/>
+        <note type="source-span" xml:id="source-47923-47932" n="81"/>
+        <note type="source-span" xml:id="source-47932-47947" n="81"/>
+        <note type="source-span" xml:id="source-48559-48571" n="81"/>
+        <note type="source-span" xml:id="source-48559-48607" n="81"/>
+        <note type="source-span" xml:id="source-48775-48796" n="81"/>
+        <note type="source-span" xml:id="source-48796-48895" n="81"/>
+        <note type="source-span" xml:id="source-48895-48919" n="81"/>
+        <note type="source-span" xml:id="source-49186-49207" n="81"/>
+        <note type="source-span" xml:id="source-49207-49269" n="81"/>
+        <note type="source-span" xml:id="source-49269-49304" n="82"/>
+        <note type="source-span" xml:id="source-49304-49421" n="83"/>
+        <note type="source-span" xml:id="source-49421-49436" n="83"/>
+        <note type="source-span" xml:id="source-49919-49937" n="83"/>
+        <note type="source-span" xml:id="source-49937-50222" n="83"/>
+        <note type="source-span" xml:id="source-50222-50240" n="83"/>
+        <note type="source-span" xml:id="source-50413-50905" n="84"/>
+        <note type="source-span" xml:id="source-50905-50926" n="84"/>
+        <note type="source-span" xml:id="source-51016-51040" n="84"/>
+        <note type="source-span" xml:id="source-51506-51541" n="86"/>
+        <note type="source-span" xml:id="source-51541-51556" n="87"/>
+        <note type="source-span" xml:id="source-51556-51577" n="87"/>
+        <note type="source-span" xml:id="source-51577-51630" n="87"/>
+        <note type="source-span" xml:id="source-52290-52305" n="88"/>
+        <note type="source-span" xml:id="source-52329-52344" n="88"/>
+        <note type="source-span" xml:id="source-52344-52395" n="88"/>
+        <note type="source-span" xml:id="source-52395-52413" n="88"/>
+        <note type="source-span" xml:id="source-52413-52470" n="88"/>
+        <note type="source-span" xml:id="source-52470-52485" n="88"/>
+        <note type="source-span" xml:id="source-52485-52578" n="88"/>
+        <note type="source-span" xml:id="source-52578-52602" n="88"/>
+        <note type="source-span" xml:id="source-52602-52617" n="88"/>
+        <note type="source-span" xml:id="source-52617-52638" n="88"/>
+        <note type="source-span" xml:id="source-52818-52839" n="88"/>
+        <note type="source-span" xml:id="source-52839-52869" n="88"/>
+        <note type="source-span" xml:id="source-52869-52881" n="88"/>
+        <note type="source-span" xml:id="source-52926-52944" n="88"/>
+        <note type="source-span" xml:id="source-53417-53444" n="89"/>
+        <note type="source-span" xml:id="source-53444-53453" n="89"/>
+        <note type="source-span" xml:id="source-53453-53477" n="89"/>
+        <note type="source-span" xml:id="source-53947-54010" n="90"/>
+        <note type="source-span" xml:id="source-54010-54034" n="90"/>
+        <note type="source-span" xml:id="source-54883-54907" n="90"/>
+        <note type="source-span" xml:id="source-55761-56286" n="91"/>
+        <note type="source-span" xml:id="source-56286-56298" n="91"/>
+        <note type="source-span" xml:id="source-56286-56334" n="91"/>
+        <note type="source-span" xml:id="source-56334-56696" n="91"/>
+        <note type="source-span" xml:id="source-57170-57176" n="92"/>
+        <note type="source-span" xml:id="source-57170-57212" n="92"/>
+        <note type="source-span" xml:id="source-57251-57257" n="92"/>
+        <note type="source-span" xml:id="source-57251-57293" n="92"/>
+        <note type="source-span" xml:id="source-57631-58000" n="93"/>
+        <note type="source-span" xml:id="source-58000-58009" n="93"/>
+        <note type="source-span" xml:id="source-58000-58042" n="93"/>
+        <note type="source-span" xml:id="source-58042-58048" n="93"/>
+        <note type="source-span" xml:id="source-58048-58063" n="93"/>
+        <note type="source-span" xml:id="source-58063-58182" n="93"/>
+        <note type="source-span" xml:id="source-58182-58478" n="94"/>
+        <note type="source-span" xml:id="source-59597-59620" n="98"/>
+        <note type="source-span" xml:id="source-59674-59680" n="99"/>
+        <note type="source-span" xml:id="source-59674-59710" n="99"/>
+        <note type="source-span" xml:id="source-59710-59734" n="99"/>
+        <note type="source-span" xml:id="source-6004-6123" n="26"/>
+        <note type="source-span" xml:id="source-60487-60511" n="105"/>
+        <note type="source-span" xml:id="source-60511-60600" n="105"/>
+        <note type="source-span" xml:id="source-60600-60609" n="106"/>
+        <note type="source-span" xml:id="source-60609-60618" n="106"/>
+        <note type="source-span" xml:id="source-60609-60651" n="106"/>
+        <note type="source-span" xml:id="source-60651-60704" n="106"/>
+        <note type="source-span" xml:id="source-60902-60929" n="107"/>
+        <note type="source-span" xml:id="source-60973-61006" n="108"/>
+        <note type="source-span" xml:id="source-61006-61027" n="108"/>
+        <note type="source-span" xml:id="source-6123-6285" n="27"/>
+        <note type="source-span" xml:id="source-61581-61650" n="109"/>
+        <note type="source-span" xml:id="source-61650-61665" n="109"/>
+        <note type="source-span" xml:id="source-61665-61920" n="109"/>
+        <note type="source-span" xml:id="source-61920-61950" n="109"/>
+        <note type="source-span" xml:id="source-61950-62279" n="109"/>
+        <note type="source-span" xml:id="source-62279-62698" n="110"/>
+        <note type="source-span" xml:id="source-6285-6306" n="27"/>
+        <note type="source-span" xml:id="source-6306-6387" n="27"/>
+        <note type="source-span" xml:id="source-63136-63142" n="111"/>
+        <note type="source-span" xml:id="source-63136-63172" n="111"/>
+        <note type="source-span" xml:id="source-63172-63319" n="111"/>
+        <note type="source-span" xml:id="source-63319-63325" n="111"/>
+        <note type="source-span" xml:id="source-63319-63355" n="111"/>
+        <note type="source-span" xml:id="source-6387-6408" n="27"/>
+        <note type="source-span" xml:id="source-63943-63970" n="111"/>
+        <note type="source-span" xml:id="source-64036-64060" n="111"/>
+        <note type="source-span" xml:id="source-64060-64273" n="111"/>
+        <note type="source-span" xml:id="source-6408-6483" n="27"/>
+        <note type="source-span" xml:id="source-64273-64291" n="111"/>
+        <note type="source-span" xml:id="source-64291-64599" n="111"/>
+        <note type="source-span" xml:id="source-64599-64833" n="112"/>
+        <note type="source-span" xml:id="source-6483-6510" n="27"/>
+        <note type="source-span" xml:id="source-64833-64848" n="112"/>
+        <note type="source-span" xml:id="source-6510-7131" n="27"/>
+        <note type="source-span" xml:id="source-65202-65226" n="112"/>
+        <note type="source-span" xml:id="source-65226-65640" n="112"/>
+        <note type="source-span" xml:id="source-65640-65658" n="112"/>
+        <note type="source-span" xml:id="source-66813-66825" n="112"/>
+        <note type="source-span" xml:id="source-66813-66861" n="112"/>
+        <note type="source-span" xml:id="source-66861-66989" n="112"/>
+        <note type="source-span" xml:id="source-67211-67235" n="113"/>
+        <note type="source-span" xml:id="source-67861-68044" n="114"/>
+        <note type="source-span" xml:id="source-68044-68056" n="114"/>
+        <note type="source-span" xml:id="source-68044-68092" n="114"/>
+        <note type="source-span" xml:id="source-68092-68314" n="114"/>
+        <note type="source-span" xml:id="source-68314-68320" n="114"/>
+        <note type="source-span" xml:id="source-68314-68350" n="114"/>
+        <note type="source-span" xml:id="source-69093-69303" n="115"/>
+        <note type="source-span" xml:id="source-69303-69315" n="115"/>
+        <note type="source-span" xml:id="source-69303-69351" n="115"/>
+        <note type="source-span" xml:id="source-69744-69750" n="115"/>
+        <note type="source-span" xml:id="source-69744-69780" n="115"/>
+        <note type="source-span" xml:id="source-69930-69945" n="115"/>
+        <note type="source-span" xml:id="source-70112-70451" n="116"/>
+        <note type="source-span" xml:id="source-70451-70472" n="116"/>
+        <note type="source-span" xml:id="source-7131-7167" n="27"/>
+        <note type="source-span" xml:id="source-7167-7436" n="27"/>
+        <note type="source-span" xml:id="source-72362-72383" n="119"/>
+        <note type="source-span" xml:id="source-72383-72616" n="119"/>
+        <note type="source-span" xml:id="source-73338-74130" n="121"/>
+        <note type="source-span" xml:id="source-74130-74136" n="121"/>
+        <note type="source-span" xml:id="source-74130-74166" n="121"/>
+        <note type="source-span" xml:id="source-74166-74249" n="121"/>
+        <note type="source-span" xml:id="source-74812-75081" n="123"/>
+        <note type="source-span" xml:id="source-75549-75573" n="124"/>
+        <note type="source-span" xml:id="source-75573-75597" n="124"/>
+        <note type="source-span" xml:id="source-75597-75624" n="124"/>
+        <note type="source-span" xml:id="source-76298-76322" n="125"/>
+        <note type="source-span" xml:id="source-76462-76486" n="126"/>
+        <note type="source-span" xml:id="source-76618-76636" n="126"/>
+        <note type="source-span" xml:id="source-77240-77309" n="128"/>
+        <note type="source-span" xml:id="source-77309-77315" n="128"/>
+        <note type="source-span" xml:id="source-77309-77351" n="128"/>
+        <note type="source-span" xml:id="source-77351-77683" n="128"/>
+        <note type="source-span" xml:id="source-77899-77914" n="129"/>
+        <note type="source-span" xml:id="source-78758-78770" n="131"/>
+        <note type="source-span" xml:id="source-79213-79252" n="132"/>
+        <note type="source-span" xml:id="source-79252-79279" n="132"/>
+        <note type="source-span" xml:id="source-79279-79331" n="132"/>
+        <note type="source-span" xml:id="source-79504-79516" n="138"/>
+        <note type="source-span" xml:id="source-79504-79552" n="138"/>
+        <note type="source-span" xml:id="source-797-854" n="19"/>
+        <note type="source-span" xml:id="source-80031-80052" n="139"/>
+        <note type="source-span" xml:id="source-80223-80247" n="139"/>
+        <note type="source-span" xml:id="source-80565-80589" n="139"/>
+        <note type="source-span" xml:id="source-80589-80898" n="139"/>
+        <note type="source-span" xml:id="source-80898-80916" n="139"/>
+        <note type="source-span" xml:id="source-80916-81179" n="139"/>
+        <note type="source-span" xml:id="source-81179-81287" n="140"/>
+        <note type="source-span" xml:id="source-8126-8150" n="28"/>
+        <note type="source-span" xml:id="source-81287-81305" n="140"/>
+        <note type="source-span" xml:id="source-81287-81347" n="140"/>
+        <note type="source-span" xml:id="source-82402-82459" n="141"/>
+        <note type="source-span" xml:id="source-82459-82486" n="141"/>
+        <note type="source-span" xml:id="source-83350-83362" n="141"/>
+        <note type="source-span" xml:id="source-83350-83398" n="141"/>
+        <note type="source-span" xml:id="source-83398-83679" n="141"/>
+        <note type="source-span" xml:id="source-83712-83727" n="142"/>
+        <note type="source-span" xml:id="source-83862-83883" n="142"/>
+        <note type="source-span" xml:id="source-83883-83916" n="142"/>
+        <note type="source-span" xml:id="source-83916-83940" n="142"/>
+        <note type="source-span" xml:id="source-84042-84060" n="142"/>
+        <note type="source-span" xml:id="source-84426-84432" n="142"/>
+        <note type="source-span" xml:id="source-84426-84462" n="142"/>
+        <note type="source-span" xml:id="source-8506-8557" n="29"/>
+        <note type="source-span" xml:id="source-85197-85212" n="142"/>
+        <note type="source-span" xml:id="source-85212-85587" n="142"/>
+        <note type="source-span" xml:id="source-8557-8572" n="29"/>
+        <note type="source-span" xml:id="source-85587-85602" n="142"/>
+        <note type="source-span" xml:id="source-85602-85608" n="142"/>
+        <note type="source-span" xml:id="source-85608-85635" n="142"/>
+        <note type="source-span" xml:id="source-85635-85668" n="142"/>
+        <note type="source-span" xml:id="source-85668-85674" n="142"/>
+        <note type="source-span" xml:id="source-85668-85704" n="142"/>
+        <note type="source-span" xml:id="source-85704-85776" n="142"/>
+        <note type="source-span" xml:id="source-8572-9270" n="29"/>
+        <note type="source-span" xml:id="source-85776-85797" n="142"/>
+        <note type="source-span" xml:id="source-85797-86156" n="142"/>
+        <note type="source-span" xml:id="source-860-926" n="19"/>
+        <note type="source-span" xml:id="source-86459-86480" n="143"/>
+        <note type="source-span" xml:id="source-86708-86764" n="146"/>
+        <note type="source-span" xml:id="source-86824-86836" n="147"/>
+        <note type="source-span" xml:id="source-86836-86911" n="147"/>
+        <note type="source-span" xml:id="source-86911-86923" n="147"/>
+        <note type="source-span" xml:id="source-86911-86965" n="147"/>
+        <note type="source-span" xml:id="source-86965-87244" n="147"/>
+        <note type="source-span" xml:id="source-87244-87265" n="147"/>
+        <note type="source-span" xml:id="source-87342-87467" n="148"/>
+        <note type="source-span" xml:id="source-87521-87530" n="149"/>
+        <note type="source-span" xml:id="source-87521-87569" n="149"/>
+        <note type="source-span" xml:id="source-87569-87581" n="149"/>
+        <note type="source-span" xml:id="source-87581-87599" n="149"/>
+        <note type="source-span" xml:id="source-87631-87897" n="150"/>
+        <note type="source-span" xml:id="source-87915-87933" n="151"/>
+        <note type="source-span" xml:id="source-87915-87981" n="151"/>
+        <note type="source-span" xml:id="source-87986-88014" n="152"/>
+        <note type="source-span" xml:id="source-89344-89406" n="156"/>
+        <note type="source-span" xml:id="source-89347-89394" n="156"/>
+        <note type="source-span" xml:id="source-90259-90304" n="158"/>
+        <note type="source-span" xml:id="source-90304-90379" n="158"/>
+        <note type="source-span" xml:id="source-90304-90478" n="158"/>
+        <note type="source-span" xml:id="source-90741-90759" n="159"/>
+        <note type="source-span" xml:id="source-90759-90843" n="159"/>
+        <note type="source-span" xml:id="source-90843-90864" n="159"/>
+        <note type="source-span" xml:id="source-90864-90870" n="159"/>
+        <note type="source-span" xml:id="source-90870-90885" n="159"/>
+        <note type="source-span" xml:id="source-90885-90888" n="159"/>
+        <note type="source-span" xml:id="source-90888-90900" n="159"/>
+        <note type="source-span" xml:id="source-91026-91041" n="159"/>
+        <note type="source-span" xml:id="source-91041-91290" n="159"/>
+        <note type="source-span" xml:id="source-91290-91323" n="159"/>
+        <note type="source-span" xml:id="source-91323-91418" n="159"/>
+        <note type="source-span" xml:id="source-91418-91442" n="160"/>
+        <note type="source-span" xml:id="source-91442-91466" n="160"/>
+        <note type="source-span" xml:id="source-91616-91631" n="160"/>
+        <note type="source-span" xml:id="source-9270-9758" n="30"/>
+        <note type="source-span" xml:id="source-93297-93315" n="162"/>
+        <note type="source-span" xml:id="source-93297-93357" n="162"/>
+        <note type="source-span" xml:id="source-93357-93923" n="162"/>
+        <note type="source-span" xml:id="source-93923-93962" n="163"/>
+        <note type="source-span" xml:id="source-93962-93980" n="163"/>
+        <note type="source-span" xml:id="source-93980-93998" n="163"/>
+        <note type="source-span" xml:id="source-93998-94022" n="163"/>
+        <note type="source-span" xml:id="source-94430-94442" n="163"/>
+        <note type="source-span" xml:id="source-94430-94478" n="163"/>
+        <note type="source-span" xml:id="source-94907-94925" n="163"/>
+        <note type="source-span" xml:id="source-94907-94967" n="163"/>
+        <note type="source-span" xml:id="source-94967-94987" n="163"/>
+        <note type="source-span" xml:id="source-95164-95197" n="164"/>
+        <note type="source-span" xml:id="source-95197-95350" n="164"/>
+        <note type="source-span" xml:id="source-953-1004" n="19"/>
+        <note type="source-span" xml:id="source-95350-95377" n="164"/>
+        <note type="source-span" xml:id="source-95479-95500" n="164"/>
+        <note type="source-span" xml:id="source-95800-95812" n="164"/>
+        <note type="source-span" xml:id="source-95881-95893" n="164"/>
+        <note type="source-span" xml:id="source-95893-96100" n="164"/>
+        <note type="source-span" xml:id="source-96100-96109" n="164"/>
+        <note type="source-span" xml:id="source-96100-96142" n="164"/>
+        <note type="source-span" xml:id="source-96142-96147" n="164"/>
+        <note type="source-span" xml:id="source-96147-96300" n="165"/>
+        <note type="source-span" xml:id="source-96300-96321" n="165"/>
+        <note type="source-span" xml:id="source-96390-96414" n="165"/>
+        <note type="source-span" xml:id="source-97181-97193" n="166"/>
+        <note type="source-span" xml:id="source-9758-9815" n="31"/>
+        <note type="source-span" xml:id="source-97724-97742" n="166"/>
+        <note type="source-span" xml:id="source-97724-97790" n="166"/>
+        <note type="source-span" xml:id="source-97790-97891" n="166"/>
+        <note type="source-span" xml:id="source-97891-97894" n="167"/>
+        <note type="source-span" xml:id="source-97894-97912" n="167"/>
+        <note type="source-span" xml:id="source-9815-9821" n="31"/>
+        <note type="source-span" xml:id="source-9815-9904" n="31"/>
+        <note type="source-span" xml:id="source-9821-9868" n="31"/>
+        <note type="source-span" xml:id="source-98266-98919" n="173"/>
+        <note type="source-span" xml:id="source-9868-9871" n="31"/>
+        <note type="source-span" xml:id="source-98919-98970" n="174"/>
+        <note type="source-span" xml:id="source-98970-98979" n="174"/>
+        <note type="source-span" xml:id="source-98970-99012" n="174"/>
+        <note type="source-span" xml:id="source-99012-99078" n="174"/>
+        <note type="source-span" xml:id="source-9904-9997" n="31"/>
+        <note type="source-span" xml:id="source-99078-99096" n="174"/>
+        <note type="source-span" xml:id="source-99096-99384" n="174"/>
+        <note type="source-span" xml:id="source-99384-99393" n="174"/>
+        <note type="source-span" xml:id="source-99384-99426" n="174"/>
+        <note type="source-span" xml:id="source-99426-99720" n="174"/>
+        <note type="source-span" xml:id="source-99720-99729" n="174"/>
+        <note type="source-span" xml:id="source-99720-99762" n="174"/>
+        <note type="source-span" xml:id="source-99921-99969" n="174"/>
+        <note type="source-span" xml:id="source-9997-10024" n="31"/>
+      </div>
+      <note type="parser-completion" n="true">The n attribute is true when no parser diagnostic of error severity was raised for this source. What the converter could not interpret is recorded in the interpretation-problem and parser-diagnostic notes.</note>
+      <note type="source-decoding">windows-31j</note>
+      <note type="source-span" xml:id="parser-source-0">{
+  "coordinate_system": "decoded_utf8",
+  "end": 2558,
+  "end_line": 22,
+  "line": 22,
+  "start": 2528
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-0">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-1">{
+  "coordinate_system": "decoded_utf8",
+  "end": 2708,
+  "end_line": 22,
+  "line": 22,
+  "start": 2678
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-1">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-2">{
+  "coordinate_system": "decoded_utf8",
+  "end": 10194,
+  "end_line": 31,
+  "line": 31,
+  "start": 10164
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-2">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-3">{
+  "coordinate_system": "decoded_utf8",
+  "end": 26339,
+  "end_line": 53,
+  "line": 53,
+  "start": 26309
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-3">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-4">{
+  "coordinate_system": "decoded_utf8",
+  "end": 27256,
+  "end_line": 54,
+  "line": 54,
+  "start": 27223
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-4">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-5">{
+  "coordinate_system": "decoded_utf8",
+  "end": 48607,
+  "end_line": 81,
+  "line": 81,
+  "start": 48571
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-5">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-6">{
+  "coordinate_system": "decoded_utf8",
+  "end": 56334,
+  "end_line": 91,
+  "line": 91,
+  "start": 56298
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-6">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-7">{
+  "coordinate_system": "decoded_utf8",
+  "end": 57212,
+  "end_line": 92,
+  "line": 92,
+  "start": 57176
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-7">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-8">{
+  "coordinate_system": "decoded_utf8",
+  "end": 57293,
+  "end_line": 92,
+  "line": 92,
+  "start": 57257
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-8">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-9">{
+  "coordinate_system": "decoded_utf8",
+  "end": 59710,
+  "end_line": 99,
+  "line": 99,
+  "start": 59680
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-9">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-10">{
+  "coordinate_system": "decoded_utf8",
+  "end": 60651,
+  "end_line": 106,
+  "line": 106,
+  "start": 60618
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-10">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-11">{
+  "coordinate_system": "decoded_utf8",
+  "end": 63172,
+  "end_line": 111,
+  "line": 111,
+  "start": 63142
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-11">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-12">{
+  "coordinate_system": "decoded_utf8",
+  "end": 63355,
+  "end_line": 111,
+  "line": 111,
+  "start": 63325
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-12">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-13">{
+  "coordinate_system": "decoded_utf8",
+  "end": 68350,
+  "end_line": 114,
+  "line": 114,
+  "start": 68320
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-13">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-14">{
+  "coordinate_system": "decoded_utf8",
+  "end": 69780,
+  "end_line": 115,
+  "line": 115,
+  "start": 69750
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-14">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-15">{
+  "coordinate_system": "decoded_utf8",
+  "end": 74166,
+  "end_line": 121,
+  "line": 121,
+  "start": 74136
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-15">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-16">{
+  "coordinate_system": "decoded_utf8",
+  "end": 77351,
+  "end_line": 128,
+  "line": 128,
+  "start": 77315
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-16">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-17">{
+  "coordinate_system": "decoded_utf8",
+  "end": 84462,
+  "end_line": 142,
+  "line": 142,
+  "start": 84432
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-17">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-18">{
+  "coordinate_system": "decoded_utf8",
+  "end": 85704,
+  "end_line": 142,
+  "line": 142,
+  "start": 85674
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-18">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-19">{
+  "coordinate_system": "decoded_utf8",
+  "end": 96142,
+  "end_line": 164,
+  "line": 164,
+  "start": 96109
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-19">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-20">{
+  "coordinate_system": "decoded_utf8",
+  "end": 99012,
+  "end_line": 174,
+  "line": 174,
+  "start": 98979
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-20">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-21">{
+  "coordinate_system": "decoded_utf8",
+  "end": 99426,
+  "end_line": 174,
+  "line": 174,
+  "start": 99393
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-21">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-22">{
+  "coordinate_system": "decoded_utf8",
+  "end": 99762,
+  "end_line": 174,
+  "line": 174,
+  "start": 99729
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-22">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-23">{
+  "coordinate_system": "decoded_utf8",
+  "end": 118897,
+  "end_line": 197,
+  "line": 197,
+  "start": 118867
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-23">bouten_target_ambiguous</note>
+      <note type="source-span" xml:id="parser-source-24">{
+  "coordinate_system": "decoded_utf8",
+  "end": 118972,
+  "end_line": 197,
+  "line": 197,
+  "start": 118942
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="bouten-target-ambiguous" source="#parser-source-24">bouten_target_ambiguous</note>
+    </back>
+  </text>
+</TEI>

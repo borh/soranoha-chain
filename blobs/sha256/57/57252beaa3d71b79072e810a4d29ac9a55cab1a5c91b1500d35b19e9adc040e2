@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:snh="https://w3id.org/soranoha/ns/tei" snh:vocab-version="1">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ja">政治学入門</title>
+        <title type="reading" xml:lang="ja-Hira">せいじがくにゅうもん</title>
+        <author><persName xml:lang="ja"><surname>矢部</surname><forename>貞治</forename><idno type="aozora-person-id">001969</idno></persName><persName xml:lang="ja-Hira"><surname>やべ</surname><forename>ていじ</forename></persName><persName xml:lang="ja-Latn"><surname>Yabe</surname><forename>Teiji</forename></persName></author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://w3id.org/soranoha/">Soranoha</publisher>
+        <idno type="soranoha-work-identifier">058883_001969</idno>
+        <idno type="aozora-work-id">058883</idno>
+        <idno type="aozora-card-url">https://www.aozora.gr.jp/cards/001969/card58883.html</idno>
+        <date when="2018-01-01">2018-01-01</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">The underlying work is in the public domain; Soranoha asserts no rights over it.</licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Soranoha's encoding of this work and the artifacts derived from it are dedicated to the public domain under CC0-1.0. Attribution is requested, not required. Full rights statement: <ptr target="https://w3id.org/soranoha/rights"/></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>政治学入門</title><publisher>講談社学術文庫、講談社</publisher><date>1977（昭和52）年10月10日</date><note type="input-edition">1993（平成5）年12月20日第21刷</note><note type="proof-edition">1993（平成5）年12月20日第21刷</note></bibl>
+        <bibl type="first-publication">「政治学入門」アテネ新書、弘文堂、1951（昭和26）年5月</bibl>
+        <bibl><idno type="source-content-hash">sha256:4debee6ed9094aaaac28c63c724a547d2103c52e50113d101b49246af426228a</idno></bibl>
+        <bibl><idno type="primary-text-hash">sha256:4f47ee7d3547a363d977ace3665583ffce06f6f57b16a546704427425113393e</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css"/>
+      <classDecl><taxonomy xml:id="ndc"><bibl>日本十進分類法 (Nippon Decimal Classification), as recorded by <title>青空文庫</title> in its 分類番号 field.</bibl></taxonomy><taxonomy xml:id="aozora-orthography"><bibl><title>青空文庫</title> 文字遣い種別: the orthographic style Aozora Bunko records for the transcription.</bibl></taxonomy></classDecl>
+      <refsDecl xml:id="source-spans"><p>A note of type source-span has an xml:id of the form source-START-END, giving the extent in UTF-8 bytes of the decoded primary text identified in sourceDesc. <ptr target="https://w3id.org/soranoha/ns/tei"/></p></refsDecl>
+      <charDecl>
+        <char xml:id="gaiji-1-2-22">
+          <mapping type="unicode">〻</mapping>
+          <localProp name="rawMarker" value="二の字点"/>
+        </char>
+        <char xml:id="gaiji-3-1-92-88">
+          <mapping type="unicode">醞</mapping>
+          <localProp name="rawMarker" value="酉＋慍のつくり"/>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ja">日本語</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#ndc">311</classCode>
+        <classCode scheme="#aozora-orthography">新字新仮名</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="layout" source="#source-599-680" style="padding-inline-start: 3em">
+        <div>
+          <head n="1" source="#source-620-674"><seg source="#source-620-632">はしがき</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">入門書が要求されているということで、本書ができたのであるが、しかし「政治学入門」とはそもそもどう理解されたらよいものであろうか。それは政治学の方法論を説き、政治学の諸文献を解説したようなものなのであろうか。それとも対立しているいろいろの学説を並べ、著者の主張はなるべく出さないように書いたもののことであろうか。それともまた政治学の全領域を簡単に平易に圧縮したもののことであろうか。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-1255-1438">これらのいろいろの解釈が可能であると思われるが、著者は本書ではそれを、政治現象の基本的な諸問題に一通りの究明を試み、より</seg><ruby type="furigana" rend="right" source="#source-1438-1453"><rb>詳</rb><rt>くわ</rt></ruby><seg source="#source-1453-1471">しい研究への</seg><ruby type="furigana" rend="right" source="#source-1471-1489"><rb>示唆</rb><rt>しさ</rt></ruby>を与えるものと解釈した。その結果既に著者が『政治学』<hi rend="font-size small(1)" snh:layout-kind="font-size" snh:layout-params="size-type=small;level=1" source="#source-1567-1645"><seg source="#source-1567-1585">（勁草書房）</seg></hi><seg source="#source-1645-1747">で取扱っている基本的な部分を、多少順序を変えたり、加除したり、わかり</seg><ruby type="furigana" rend="right" source="#source-1747-1762"><rb>易</rb><rt>やす</rt></ruby><seg source="#source-1762-1938">くして、繰返すような形にならざるを得なかったのである。より詳細な論述や文献については、右の書物について見て頂きたい。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-1938-2251">いずれにしても入門書の最大の使命は、その学問への興味をそそることであろう。従って本書が政治学への興味を、一般の人々に抱かせることに失敗していたら、入門書としての価値はない。著者の恐れるのはそのことである。</seg></p>
+      </div>
+      <div type="layout" source="#source-2251-2337" style="padding-inline-start: 3em">
+        <p><seg source="#source-2272-2293">一九五一年一月</seg><seg type="layout" source="#source-2293-2337" rend="chitsuki align(right) offset-from-end(3)" snh:layout-kind="chitsuki" snh:layout-params="align=right;offset-from-end=3"><seg source="#source-2323-2337">矢部貞治</seg></seg></p>
+      </div>
+      <div>
+        <p><pb rend="kaicho" source="#source-2337-2352"/></p>
+      </div>
+      <div type="layout" source="#source-2356-2423" style="padding-inline-start: 3em">
+        <div>
+          <head n="1" source="#source-2377-2419"><seg source="#source-2377-2383">序言</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-2423-2756">すべて学問を論ずる場合には、認識の対象と方法を規定する方法論というものについて述べなければならないが、実際に学問をする場合正しい方法論は、その現象の実体を研究する道程の中から生れてくるもので、現象の実体も知らずに方法論に</seg><ruby type="furigana" rend="right" source="#source-2756-2780"><rb>拘泥</rb><rt>こうでい</rt></ruby><seg source="#source-2780-2822">するのは、研究者が往々にして</seg><ruby type="furigana" rend="right" source="#source-2822-2840"><rb>陥</rb><rt>おちい</rt></ruby><seg source="#source-2840-2843">る</seg><ruby type="furigana" rend="right" source="#source-2843-2867"><rb>邪道</rb><rt>じゃどう</rt></ruby><seg source="#source-2867-3376">である。正しい方法論を求めることは、いつも念頭においていなければならぬが、しかしまず現象そのものの実体と取組むことが、とりわけ初めてその学問に志す者の正道である。だから本書では、方法論については取り立てて述べない。論述を進めてゆく間に、おのずからそれに触れるところがある。ここではただ政治学に接する場合の心構えについて、一言しておきたい。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-3376-3583">政治学は、いうまでもなく文化科学の一つであって、自然科学ではない。自然科学の基礎になっている自然法則というものは、概して永久不変性と普遍</seg><ruby type="furigana" rend="right" source="#source-3583-3616"><rb>妥当性</rb><rt>だとうせい</rt></ruby><seg source="#source-3616-3883">を持つ正確な法則で、自然科学は、真に科学の名に値する厳密な科学ということができるが、文化科学の基礎にある文化法則は、それとは著しく性質を異にしている。文化現象は人間の精神、意思、</seg><ruby type="furigana" rend="right" source="#source-3883-3904"><rb>叡知</rb><rt>えいち</rt></ruby><seg source="#source-3904-4263">、主体性、創造性、感情、習慣、性格、欲望など複雑な要素を含んで成立するものであって、従って文化法則というものは、正確な法則というより、むしろせいぜい類型とか傾向とかいうべきもので、文化科学は自然科学のような厳密な科学ということはできない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-4263-4398">自然科学での法則や定理は、一般に普遍妥当性を持つから、推理と計算の能力さえあれば、実験を</seg><ruby type="furigana" rend="right" source="#source-4398-4413"><rb>介</rb><rt>かい</rt></ruby><seg source="#source-4413-5096">して無限に展開することもできるが、文化科学の問題は、一般に時と所と人との複雑な現実条件の中での具体的妥当性の問題であって、普遍的抽象的な公式が、そのままいつでもどこでも通用するなどというものではない。そこで文化科学の理解は、推理や計算の能力だけでは足らず、人格的な体験や、悟りや、実感や、会得が必要なのである。それにはどうしても、一定の年齢の成長と人生体験が不可欠なので、文化科学ではその意味で、学問と修養とが密接に結びついていることを忘れてはならない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-5096-5339">文化科学の一つとしての政治学には、既にそのような困難が伴っているが、とりわけ政治上の理論には、各人の思想の差や、階級的、党派的、宗教的その他の先入的な偏見が伴い</seg><ruby type="furigana" rend="right" source="#source-5339-5354"><rb>易</rb><rt>やす</rt></ruby>いので、一層困難を加える。「政治は論争だ」といわれるくらいだから、その思想や偏見によって事実そのものが曲げられたり、事実そのものは同じように認識しても、それについての解釈が、好き<ruby type="furigana" rend="right" source="#source-5621-5636"><rb>嫌</rb><rt>きら</rt></ruby><seg source="#source-5636-5747">いや、偏見や、希望的な観測や、更には権力者の圧迫に対する恐怖などによって、</seg><ruby type="furigana" rend="right" source="#source-5747-5765"><rb>彩</rb><rt>いろど</rt></ruby><seg source="#source-5765-5791">られるのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-5791-5923">それと結びついて政治学に伴う困難は、政治で語られる言葉が、多少とも現実と合わなかったり</seg><ruby type="furigana" rend="right" source="#source-5923-5944"><rb>欺瞞</rb><rt>ぎまん</rt></ruby><seg source="#source-5944-5947">を</seg><ruby type="furigana" rend="right" source="#source-5947-5962"><rb>含</rb><rt>ふく</rt></ruby><seg source="#source-5962-6112">んでいることである。政治では右にいうような党派的階級的な偏見や、好き嫌いや、先入観や、又権力に対する</seg><ruby type="furigana" rend="right" source="#source-6112-6136"><rb>遠慮</rb><rt>えんりょ</rt></ruby><seg source="#source-6136-6577">や、権力者自身の利益などから、意識的または無意識的に同じ言葉がまるで異なった意味で用いられたり、自分の方に有利なように事実を曲げたりかくしたりして計画的な欺瞞が語られたり、現実とは反対な、または実現の可能性もないような神話やユトーピアが、美しいことばで語られたりするのである。宣伝やスローガンや</seg><ruby type="furigana" rend="right" source="#source-6577-6601"><rb>煽動</rb><rt>せんどう</rt></ruby><seg source="#source-6601-6631">では、この傾向が特に</seg><ruby type="furigana" rend="right" source="#source-6631-6652"><rb>露骨</rb><rt>ろこつ</rt></ruby><seg source="#source-6652-6666">になる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-6666-6738">政治では、言葉の上で表面はどんなに理想主義的な</seg><ruby type="furigana" rend="right" source="#source-6738-6762"><rb>崇高</rb><rt>すうこう</rt></ruby><seg source="#source-6762-6948">なことが語られても、その裏面に入って見れば、階級的、党派的、個人的な偏見や、野心や、希望や、感情の表現にすぎないことが多い。</seg><ruby type="furigana" rend="right" source="#source-6948-6972"><rb>何人</rb><rt>なんぴと</rt></ruby><seg source="#source-6972-7200">も反対できないような一般原則をいっているときでも、その中に実は支配権や指導権の争いがかくされていることが少なくない。学術的な体裁をそなえた著書論文でも、</seg><ruby type="furigana" rend="right" source="#source-7200-7224"><rb>往々</rb><rt>おうおう</rt></ruby><seg source="#source-7224-7571">にしてそうしたものがあるのである。その意味で語られた言葉を額面通りに受取ることは、政治の場合は幼稚でかつ危険なのである。そこで多少ともそのような言葉の陰にある真実を見分けるには、前にいう年齢の成長や人生体験や修養が必要なのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-7571-7910">政治上の議論には、右に述べるような困難な事情があることを忘れてならぬが、ただそれにもかかわらず、あくまで普遍的な真理はあるのであって、いかに困難でも、できる限り偏見や好悪の感情を捨て、美しい言葉やイデオロギーの陰にある実体を</seg><ruby type="furigana" rend="right" source="#source-7910-7931"><rb>把握</rb><rt>はあく</rt></ruby><seg source="#source-7931-8252">し、客観的な真実の認識に努力するのが学問である。それを否定するなら学問はそもそも成り立たず、人は真理の追求をやめて精神の破産に陥るほかない。その意味でマルクス主義のように、初めから真理を階級的だと決めてかかる態度は</seg><ruby type="furigana" rend="right" source="#source-8252-8276"><rb>排斥</rb><rt>はいせき</rt></ruby><seg source="#source-8276-8764">しなければならぬ。真理は階級的だと主張する者も、その実は暗に階級的真理がすなわち普遍的真理なのだという論理に立っているのである。でなければその主張をもって他人を説得しようとすることは、そもそも無意味なことになるからである。階級や党派を超えて、人間共通の立場があり、普遍的な真理があるということが、やはり学問の前提なのである。</seg></p>
+        <p><pb source="#source-8764-8785"/></p>
+      </div>
+      <div type="layout" source="#source-8789-8906" style="padding-inline-start: 3em">
+        <div>
+          <head n="1" source="#source-8810-8900"><seg source="#source-8810-8840">一　政治の意味と本質</seg></head>
+        </div>
+      </div>
+      <div type="layout" source="#source-8906-9003" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-8927-8999"><seg source="#source-8927-8948">１　政治の定義</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-9003-9311">政治とは、一番広く形式的に定義すれば、国家活動の全体だといってよいが、もう少し正確にいえば、国家の意思を決定し実現することに直接に関係のある行動のことである。国家の意思は主として法律と政策の形で現れる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-9311-9371">ところがこのような政治の中には、通常は</seg><ruby type="furigana" rend="right" source="#source-9371-9386"><rb>狭</rb><rt>せま</rt></ruby><seg source="#source-9386-9419">い意味の政治と行政とが</seg><ruby type="furigana" rend="right" source="#source-9419-9434"><rb>含</rb><rt>ふく</rt></ruby><seg source="#source-9434-9536">まれている。この場合には、国家意思の最高の創造決定と、その国家意思の</seg><ruby type="furigana" rend="right" source="#source-9536-9560"><rb>遂行</rb><rt>すいこう</rt></ruby><seg source="#source-9560-9937">についての最高の指導をするのが政治で、その政治によって決定された国家意思を、その政治の指導の下で実現し遂行してゆくのが行政である。行政は専門的な技術としては中立性を伴うが、それはすなわちどんな政治に対しても、忠実公平に奉仕すべき地位にあるからである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-9937-10405">しかしもう少し政治の実質を見てそれを定義するなら、政治とは国家内の対立と分化を公権力を背景にして統合し、法的に組織化された統一的な国家の意思と秩序を創造し、それによって国家の目的を実現することだといわねばならぬ。なぜなら政治が国家の意思を創造決定し、その実現に最高の指導を与えるには、国家の中で対立し、分化し、</seg><ruby type="furigana" rend="right" source="#source-10405-10429"><rb>相剋</rb><rt>そうこく</rt></ruby><seg source="#source-10429-10435">し、</seg><ruby type="furigana" rend="right" source="#source-10435-10459"><rb>抗争</rb><rt>こうそう</rt></ruby><seg source="#source-10459-10594">しているいろいろの意思や、利害や、勢力を統合しなければならないからである。しかもその統合が</seg><ruby type="furigana" rend="right" source="#source-10594-10615"><rb>公</rb><rt>おおやけ</rt></ruby><seg source="#source-10615-10692">の権力を背景にしているところに、政治の特色がある。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-10692-10836">権力というのは、単なる暴力のことではなく、法的に組織化された支配力のことで、通常は社会心理的な</seg><ruby type="furigana" rend="right" source="#source-10836-10872"><rb>拘束力</rb><rt>こうそくりょく</rt></ruby><seg source="#source-10872-11117">として現れるのであるが、しかしそれで効果がないときは、直接に物理的な強制力として発動する。近代社会ではこのような法的に組織化された公の権力は、国家が独占している。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-11117-11688">また政治によって実現されるべき国家目的には、少なくとも治安と秩序の維持、国民の生存の維持、国家の安全と独立性の保持が含まれねばならぬが、それ以上に例えば理想社会の実現だとか、世界にほこる文化国家の建設とか、世界支配の達成などという目的をいうのは、それぞれの国家の理想または野望の表現であって、それがなくては政治が成り立たないというような、政治の不可欠な本質的要素とはいえない。</seg></p>
+      </div>
+      <div type="layout" source="#source-11688-11785" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-11709-11781"><seg source="#source-11709-11730">２　政治の本質</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-11785-11938">国家の意思と秩序を創造決定し、それによって国家の目的を実現するため、国家の中のいろいろの対立、分化、</seg><ruby type="furigana" rend="right" source="#source-11938-11962"><rb>相剋</rb><rt>そうこく</rt></ruby><seg source="#source-11962-12117">、抗争を、国家が独占している公権力を背景にして、強制的に統合し一体化することが、正に政治の本質である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">対立や分化を統合してある目的を実現するというだけなら、いやしくも人間の二人以上の集団でどこでも見られる現象ではあるが、国家権力を背景としてそれを行うというところに、政治の本質があるので、そこで政治の最も固有な姿は、この公権力の獲得と保持をめぐる闘争に現れる。「政治は権力闘争だ」といわれる<ruby type="furigana" rend="right" source="#source-12552-12573"><rb>所以</rb><rt>ゆえん</rt></ruby><seg source="#source-12573-12717">もそこにある。しかしなぜ権力の獲得と保持のために闘争するのかといえば、人民を支配する権力を自分が</seg><ruby type="furigana" rend="right" source="#source-12717-12744"><rb>掌握</rb><rt>しょうあく</rt></ruby><seg source="#source-12744-13046">せんがためであって、すなわち自分が対立と分化を統合し、国家の意思と秩序を創造し実現しようとするからである。政治はあくまで権力そのものでも権力闘争そのものでもなく、それらは単に政治の手段にほかならない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-13046-13247">政治の本質は、このように対立と分化を権力的に統合組織化して、一体的な国家の意思と秩序を創造し実現するにあるから、なんらの対立も分化も</seg><ruby type="furigana" rend="right" source="#source-13247-13271"><rb>相剋</rb><rt>そうこく</rt></ruby>も抗争もなく、初めから一体的な意思や有機的な秩序が成り立っているような完全な共同体には、政治はそもそも不必要であるのみならず不可能である。そういう社会には権力で統一する余地も必要もないからである。だからもし「神ながら<ruby type="furigana" rend="right" source="#source-13595-13616"><rb>言挙</rb><rt>ことあ</rt></ruby>げせず」とか、「民自然にして治まる」とかいうような社会があったら、そういう所に政治権力が働く心要もなければ可能性もない。</p>
+        <p>「政治は政治なきを期す」という言葉があるのは、政治権力を用いないでも、おのずから一体的な意思と秩序が成り立つようになるのが、政治の理想だという意味であろうが、しかし人間の現実の社会にはそのような完全な共同体は実在せず、必ずやなんらかの対立、分化、<ruby type="furigana" rend="right" source="#source-14167-14191"><rb>矛盾</rb><rt>むじゅん</rt></ruby><seg source="#source-14191-14484">、抗争というものが存在するので、それらを統合して、一体的な共同生活の意思と秩序を生み出すために、どうしても政治を欠くことができない。すなわち政治には必ず対立抗争の要素が前提になっているのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">しかしまた他方では、ただ対立と分化だけしかないというところにも政治はない。対立と抗争だけで統一や組織化という要素のないところは、無政府状態であってすなわち「無政治」ということである。政治は対立、分化、相剋、抗争を前提とはしているが、それだけでは政治はないのであって、それらを統合して一体的な意思と秩序を作ることが政治なのである。カール・シュミットは政治の本質を、「人間を味方と敵に分ける」ことだとし、闘争こそが政治の本質だというが、これは上に説くような意味で<ruby type="furigana" rend="right" source="#source-15174-15198"><rb>偏面</rb><rt>へんめん</rt></ruby><seg source="#source-15198-15224">的な見方である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">闘争や戦争そのものは政治ではなく、かえって政治の否定ですらある。戦争そのものが政治なら「外交」は存在する余地はない。政治の政治たる本質は、対立や闘争を<ruby type="furigana" rend="right" source="#source-15452-15467"><rb>含</rb><rt>ふく</rt></ruby>みながらも、あくまで一体的な意思と秩序を形成するところにある。武力行使の可能性を予想しながらも、なるべく平和な交渉によって何らかの合意に達しようとするのが「外交」であり、そのような意思または秩序を形成するための戦争であって、初めてクラウゼヴィッツのいうように「戦争は別の手段をもってする政治の継続」だといえる。「国際政治」という概念が成り立ったのも、特に第一次大戦後に国際連盟などによって、国際間になんらかの秩序または組織を形成しようとする努力と結合してのことであった。</p>
+      </div>
+      <div type="layout" source="#source-16176-16303" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-16197-16299"><seg source="#source-16197-16212">３　政治の</seg><ruby type="furigana" rend="right" source="#source-16212-16236"><rb>媒介</rb><rt>ばいかい</rt></ruby><seg source="#source-16236-16242">作用</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-16303-16776">政治はそれ自身の中になんらかの実体を持つのではなく、むしろ対立や分化を統合し組織化するという媒介作用である。政治は権力そのものでもなく、形成された秩序そのものでもない。政治そのものは見ることも、食べることも、触ることもできるものではない。権力を背景にして統合し、組織化し、秩序を形成する行為の過程をいうのである。</seg></p>
+        <p>「政治は政治なきを期す」などといわれるのは、政治が実体ではなく媒介作用だからである。もしなんらか内容のある実体であったら、「政治なきを期す」などとはいえない。事実既にもいったように、もし政治の媒介がなくても社会生活が自然的に円滑に行われるなら、政治など必要はないはずである。しかし人間の現実社会には「自然にして治まる」というような理想境はないから、そこで国家権力を背景に統合し組織化するという政治の媒介作用が必要になるので、政治はその意味で国家生活の「かなめ」である。人間の経済活動も文化活動も、自然のままにばらばらに営まれているだけでは現実の「国力」にはならないが、政治の媒介によってそれらが国家生活の中に統合組織化されることによって、初めて現実の国力となるのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-17783-18176">ところで政治がこのような媒介の機能を果すには、一方で主体的な意思または目的を持ちながら、しかも他方では物事の固有法則に合致するということが必要である。主体的な意思または目的の側面をパトスといい、事物の固有法則の側面をロゴスと称するなら、政治はパトスとロゴスとの</seg><ruby type="furigana" rend="right" source="#source-18176-18200"><rb>綜合</rb><rt>そうごう</rt></ruby><seg source="#source-18200-18622">によって行われる。なんらかの主体的な意思または目的なしに政治を行うなどということは、およそ無意味であるが、しかしいくら目的と意欲のみあっても、人間、自然、社会、世界の本性と、客観的な情勢とを正しく認識して、それに合致するのでなければ、その目的や意思を有効に実現することはできない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-18622-19300">政治が統合、統制、組織化という媒介作用を営むについて、忘れてはならない限界がある。政治は強制権力的にこれらの作用を行うことであるから、その及ぶ範囲は人間生活の外面に現れた社会的な側面に限られ、人間の人格や精神の内奥に及ぶことはできないということである。例えば政治は外に現れる言論や出版や集会や結社を統制することはできるけれども、人の精神や思想そのものは統制できない。外に現れる宗教の儀式は統制できても、信仰を統制することはできぬ。経済上の取引や経営に</seg><ruby type="furigana" rend="right" source="#source-19300-19327"><rb>干渉</rb><rt>かんしょう</rt></ruby><seg source="#source-19327-19713">することはできても、経済活動の創意そのものを政治が直接に生むことはできない。政治は要するに人間の魂、精神、創造力を、自ら生み出したり統制したりすることはできず、せいぜいそれらの外的な環境と条件を整備し、統制し、媒介できるにとどまる。ここに政治の限界がある。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-19713-20142">政治が経済や文化を統制することが善いか悪いか、どの程度まで統制すべきかというような点は、時と所と人によって異なるが、いずれにしても統制には右のような限界があり、経済や文化の固有法則を理解した上での統制でないと、統制や組織化によって経済や文化が破壊されることになる。事物の固有法則をよく</seg><ruby type="furigana" rend="right" source="#source-20142-20163"><rb>把握</rb><rt>はあく</rt></ruby><seg source="#source-20163-20304">し、その価値を最大限に発揮させながら、しかもそれを国家目的に適合させるということが、正に政治の</seg><ruby type="furigana" rend="right" source="#source-20304-20328"><rb>要諦</rb><rt>ようてい</rt></ruby><seg source="#source-20328-20350">なのである。</seg></p>
+      </div>
+      <div type="layout" source="#source-20350-20447" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-20371-20443"><seg source="#source-20371-20392">４　政治と政策</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><ruby type="furigana" rend="right" source="#source-20450-20474"><rb>媒介</rb><rt>ばいかい</rt></ruby><seg source="#source-20474-21040">作用としての政治について上に述べたことは、政治を政策の角度から見る場合にも、根本的にいえることである。政治を自分が主体となって行うという立場に立つと、そこに政策が成り立つ。政治は政策を立ててこれを実現することなのである。英語では政治（ポリティックス）と政策（ポリシー）とは用い分けられているが、ドイツ語やフランス語ではポリティークというのは、そのまま政治でもあり政策でもある。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-21040-21558">政策は、主体的な意思または目的を、現実の諸条件の中で実現しようとするところに成り立つ。すなわち一方には意思、目的、理想を前提とし、他方では現実の情勢、時と所と人との具体的な諸条件を前提として、そのような現実をそのような目的へ向かって接近せしめるのが政策である。すなわちそれは理想と現実との橋渡しであり、先に述べたパトスとロゴスとの結合である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-21558-21705">その意味で政治は、理想だけでも現実だけでもなく、理想と現実とを結びつけることなのである。どんなに</seg><ruby type="furigana" rend="right" source="#source-21705-21729"><rb>崇高</rb><rt>すうこう</rt></ruby>な理想や美しい理念を説いて見ても、それが現実から遊離した実現の可能性のないものなら、それは空想または夢想であって、政治の問題にはなり得ない。後に述べるように政治の手段として「神話」や「ユトーピア」が重大な役割を演ずるけれども、それは初めから実現の不可能なその内容が問題なのではなく、神話やユトーピアが人間の感情を<ruby type="furigana" rend="right" source="#source-22197-22218"><rb>刺戟</rb><rt>しげき</rt></ruby><seg source="#source-22218-22245">して、現実の行動に</seg><ruby type="furigana" rend="right" source="#source-22245-22257"><rb>駆</rb><rt>か</rt></ruby><seg source="#source-22257-22508">り立てる力がたいせつなので、政治にとって問題となるのはあくまでその現実の力なのである。実現の不可能な最高善ばかりを固執していると、実現の可能な次善すらも不可能にする。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-22508-22604">政治は空想ではなくあくまで現実の上に立たねばならぬ。人間社会の</seg><ruby type="furigana" rend="right" source="#source-22604-22622"><rb>醜</rb><rt>みにく</rt></ruby><seg source="#source-22622-22631">さも、</seg><ruby type="furigana" rend="right" source="#source-22631-22646"><rb>賤</rb><rt>いや</rt></ruby><seg source="#source-22646-23155">しさも、人間の弱さも、悪さも、不完全さも、野心も、感情も、本能も、世界の現実情勢も、国民生活の実情も計算に入れてかからねばならぬ。ただそのような現実を認識するというだけでは政治ではないので、あくまでその現実を理想へ向かって引上げるところに政治の本質がある。人間の現実と客観的な諸条件の上に立って、目的と理想を実現することが政治なのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">つまり政策としての政治は、「可能性」の問題である。先に述べた権力の及ぶ限界のほかに、政治にはこの可能性という限界もあることを忘れてはならぬ。政治の価値は、絶対的な真、善、美というような窮極価値や固有価値ではなくして、実現の可能な具体的な目的を立て、その実現のために人々を協同させるという実行価値または作業価値である。「政治では、正しいことを欲するというだけでは足らず、何を欲することが正しいかを知らねばならぬ」といわれるのは、その意味である。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">そこでこのように人間の現実の性情や、客観的な情勢や条件の中で、ある理想と目的を達成するため、「術としての政治」とか「現実政略」とかいうものが重要性を持つ。いろいろの策略とか術策とか謀略とか、時には<ruby type="furigana" rend="right" source="#source-24120-24141"><rb>欺瞞</rb><rt>ぎまん</rt></ruby><seg source="#source-24141-24144">や</seg><ruby type="furigana" rend="right" source="#source-24144-24165"><rb>威嚇</rb><rt>いかく</rt></ruby><seg source="#source-24165-24408">や暴力やテロすらも行われるのである。この場合目的のために手段を選ばぬということは、一般に悪いことだとされているが、同時に手段のために目的を忘れるのも、政治としては</seg><ruby type="furigana" rend="right" source="#source-24408-24423"><rb>愚</rb><rt>おろ</rt></ruby><seg source="#source-24423-24519">かである。政治では、何が基本目的で何がそのための政策的手段かの、</seg><ruby type="furigana" rend="right" source="#source-24519-24543"><rb>本末</rb><rt>ほんまつ</rt></ruby><seg source="#source-24543-24561">がはっきりと</seg><ruby type="furigana" rend="right" source="#source-24561-24582"><rb>把握</rb><rt>はあく</rt></ruby><seg source="#source-24582-24906">されることがたいせつである。政策的な手段は決して真空の中の不動のドグマではなく、現実の情勢と条件の変化に応じて変化せざるを得ない。堅持せられねばならぬのはその基本目的である。客観情勢がどんなに変化しても、一つの政策を</seg><ruby type="furigana" rend="right" source="#source-24906-24927"><rb>頑固</rb><rt>がんこ</rt></ruby><seg source="#source-24927-24930">に</seg><ruby type="furigana" rend="right" source="#source-24930-24954"><rb>固執</rb><rt>こしゅう</rt></ruby><seg source="#source-24954-25038">していると、基本目的が失われる危険がある。そうなると正に</seg><ruby type="furigana" rend="right" source="#source-25038-25080"><rb>本末転倒</rb><rt>ほんまつてんとう</rt></ruby><seg source="#source-25080-25094">である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-25094-25704">以上のことは、政治そのものの本質としていえるのみならず、実は政治学の本質についてもいえることであるし、同時にそれがまた政治家の立場でもある。単なる美しい理想論も単なる現実の認識も、政治の理論にはならない。政治学は宗教学や倫理学でも、社会学や心理学でもない。政治学はあくまでも、現実の基礎の上に立ってしかも目的理想の実現を考えねばならぬ。それがまた政治ないし政策の基礎でもあり、政治的人間の立場でもある。</seg></p>
+      </div>
+      <div type="layout" source="#source-25704-25801" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-25725-25797"><seg source="#source-25725-25746">５　政治と宗教</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">上に述べたことと関連して、特に注意しておかねばならぬことは、政治と宗教を混同してはならぬということである。「<ruby type="furigana" rend="right" source="#source-25966-25996"><rb>祈祷書</rb><rt>きとうしょ</rt></ruby><seg source="#source-25996-26014">のみでは国家</seg><ruby type="furigana" rend="right" source="#source-26014-26038"><rb>統治</rb><rt>とうち</rt></ruby>はできない」というのは、永い中世紀の間宗教の中に<ruby type="furigana" rend="right" source="#source-26110-26125"><rb>埋</rb><rt>うず</rt></ruby><seg source="#source-26125-26452">もれていた政治を、その固有の基礎の上によみがえらせ、もって近代政治学の祖と称せられるマキアヴェリの言である。マキアヴェリも宗教を政治の手段として用いることはたいせつだと認めているが、政治と宗教を混同することは、根本的に</seg><ruby type="furigana" rend="right" source="#source-26452-26470"><rb>誤</rb><rt>あやま</rt></ruby><seg source="#source-26470-26526">りだということを説いているのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-26526-26616">たしかにこの二つのものは次元を異にする。宗教は絶対の神仏に</seg><ruby type="furigana" rend="right" source="#source-26616-26634"><rb>帰依</rb><rt>きえ</rt></ruby><seg source="#source-26634-26700">し、完全に自己を否定することによって、救いと</seg><ruby type="furigana" rend="right" source="#source-26700-26745"><rb>安心立命</rb><rt>あんじんりゅうめい</rt></ruby>を得ようとする。それは神秘な神の力によって「<ruby type="furigana" rend="right" source="#source-26811-26832"><rb>奇蹟</rb><rt>きせき</rt></ruby>」が行われることを信じ、ひたすらに神仏に祈念することを重視する。あさましい「この世」に、いかに侵略や<ruby type="furigana" rend="right" source="#source-26982-27006"><rb>搾取</rb><rt>さくしゅ</rt></ruby><seg source="#source-27006-27009">や</seg><ruby type="furigana" rend="right" source="#source-27009-27036"><rb>残虐</rb><rt>ざんぎゃく</rt></ruby><seg source="#source-27036-27075">や不正が行われても、天国と</seg><ruby type="furigana" rend="right" source="#source-27075-27099"><rb>極楽</rb><rt>ごくらく</rt></ruby>が「あの世」にあると信ずるのである。しかし政治はそういうものではない。政治の任務は「この世」の正義と秩序と安全にこそあるので、<ruby type="furigana" rend="right" source="#source-27288-27309"><rb>奇蹟</rb><rt>きせき</rt></ruby>を当てにして政治の計画を立てたり、「あの世」の天国を信じて現世の侵略や搾取に無抵抗でいるというわけにはゆかない。そういうことなら政治の存在価値はない。宗教はまた権力や武力を超越した世界に属する。しかし権力や武力を否定した世界には、政治は存在の余地がない。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">たとえば「如何なる意味の戦争も絶対に否定する」とか、「たとえ国亡ぶとも平和を」とかいう議論は、右に説くような宗教の立場なら<ruby type="furigana" rend="right" source="#source-27878-27905"><rb>諒解</rb><rt>りょうかい</rt></ruby>できるが、しかし政治の立場では認めることはできない。不法な侵略が行われるなら、これと戦うことは国家の当然の権利でありかつ義務である。「いかなる戦争も絶対に否定する」というなら、侵略を防ぐための戦争も否定するということである。それは現実においては侵略を是認しそれに奉仕することにほかならない。国が亡びてもよいというなら、政治など存在の意味はない。国家の安全と独立の保持は、政治の第一任務なのである。「あの世」のことは別とし、現世では侵略に奉仕したり、国が亡びてもよいというごとき「平和」はあり得ぬ。</p>
+        <p>「人もし<ruby type="furigana" rend="right" source="#source-28663-28681"><rb>汝</rb><rt>なんじ</rt></ruby><seg source="#source-28681-28690">の右の</seg><ruby type="furigana" rend="right" source="#source-28690-28705"><rb>頬</rb><rt>ほお</rt></ruby><seg source="#source-28705-28708">を</seg><ruby type="furigana" rend="right" source="#source-28708-28720"><rb>打</rb><rt>う</rt></ruby>たば左の頬をも出せ」という宗教の教えは、絶対の暴力否定を説く崇高な教えであるが、それをそのまま政治の原理として、「他国がもし汝の国の北の半分を侵略したら南の半分も出せ」などということはできない。「善人すら<ruby type="furigana" rend="right" source="#source-29026-29053"><rb>成仏</rb><rt>じょうぶつ</rt></ruby>すいわんや悪人をや」という高僧の言は、宗教の立場においてはまことに尊いが、それをすぐ政治や法律の原理に取入れて、善人よりも悪人をたいせつにせよというわけにはゆかない。政治と宗教は次元を別にするものであり、政治家は宗教家ではなく、政党は信者の宗団ではない。このことはある程度まで政治と道徳との関係についてもいえる。</p>
+      </div>
+      <div type="layout" source="#source-29525-29628" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-29546-29624"><seg source="#source-29546-29570">６　政治の公共性</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-29628-30125">政治を宗教または道徳と混同してならぬことは、別の角度からもいえる。すなわち政治は、国家権力をもって社会内の対立抗争を統合し、法秩序を創造保持し、国家の生存と独立について国家目的を実現することで、常に国家の公的な意思と利益を前提とする公共性を持つものであるから、宗教や道徳が個人的な精神の問題に関する限り、領域を異にするのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-30125-30347">もとより公的な意思や利益といっても、現実においては私的または部分的な意思や利益が統合されて成り立つので、国家意思というのも、現実においては支配権を</seg><ruby type="furigana" rend="right" source="#source-30347-30362"><rb>握</rb><rt>にぎ</rt></ruby><seg source="#source-30362-31142">った階級や政党の意思なのである。しかし国家の意思として認められるのは、生のままの階級や政党の私的または部分的な意思ではないのであって、法秩序と政治組織の中で一定の手続をもって正当化されたときに、初めてそれが国家の意思と認められるのである。この法的な手続を経て初めて、部分的な私的な意思や利益が、公共の意思や利益としての合法性を獲得するので、そしてその手続の過程の中で、多くの対立する部分的な意思や利益が、多少とも弁証法的に統合されるのである。後に説くような社会集団の政治闘争は、正にこのような公的な合法性と権威を、自分が</seg><ruby type="furigana" rend="right" source="#source-31142-31169"><rb>掌握</rb><rt>しょうあく</rt></ruby><seg source="#source-31169-31213">しようとする闘争なのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-31213-31456">階級主義の立場に立つ者は、あるものは階級的な意思と利益だけで、公共の意思とか利益とかいうものはないというが、それは自分が権力を掌握しない間のことで、自分が権力を</seg><ruby type="furigana" rend="right" source="#source-31456-31471"><rb>握</rb><rt>にぎ</rt></ruby>ったときは、その支配を必ず公共の意思または利益の名において合法化するのである。公共の意思や利益という理念を頭から否定したら、自分が権力を握っても、その支配権を全国民に対して合法化する方法はない。階級の意思が支配的権威となるのは、公共の意思の存在を否定することによってではなく、むしろ自分の階級の意思が公共の意思に合するのだということを、法的な手続で基礎づけ、いわば「<ruby type="furigana" rend="right" source="#source-32020-32038"><rb>錦</rb><rt>にしき</rt></ruby>のみ旗」を自分が取ることによってなのである。政治には常に公的な権威、共同意思、公共利益という理念が前提されている。それを否定することは政治を否定することである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-32280-32913">そういう意味で政治の価値は、個人の道徳価値や宗教価値とも異なるのである。この場合にも国家の一員でない個人はなく、個人と無関係に国家というものが存在するわけでもないから、政治価値と個人の道徳価値との間に、深い関連のあることは否定できないが、しかし政治は既にいうように、社会内の対立抗争を権力的に統合して国家の意思と秩序を樹立し、国民の生存と独立と安全を保障することであるから、そのような政治の価値を、先に述べたような個人の</seg><ruby type="furigana" rend="right" source="#source-32913-32958"><rb>安心立命</rb><rt>あんじんりゅうめい</rt></ruby><seg source="#source-32958-33290">と魂の救いに関する宗教の価値や、正義と善への人間の自由意思の志向である道徳の価値と、すぐに同一視することはできないのである。政治ではただ善と正義への志向というだけでは問題にならず、国民にもたらす結果に責任があるのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">例えば「<ruby type="furigana" rend="right" source="#source-33305-33329"><rb>清貧</rb><rt>せいひん</rt></ruby><seg source="#source-33329-33332">に</seg><ruby type="furigana" rend="right" source="#source-33332-33347"><rb>甘</rb><rt>あま</rt></ruby>んずる」ということが道徳上の善であっても、必ずしもそれがすぐ政治上の道義だとはいえない。国民生活をできるだけ豊かにすることが善い政治であろう。<ruby type="furigana" rend="right" source="#source-33560-33641"><rb>修身斉家治国平天下</rb><rt>しゅうしんせいかちこくへいてんか</rt></ruby><seg source="#source-33641-34086">という東洋政治哲学の教えは、修身斉家の徳があって初めて治国平天下の徳を持ち得るという意味で、政治家の修養を説く点では極めて正しいが、しかし修身斉家という個人の徳が、そのままに治国平天下という政治の徳だということはできない。個人としては善い人でも、それだからすぐ優れた政治家になれるとは限らない。</seg></p>
+      </div>
+      <div type="layout" source="#source-34086-34183" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-34107-34179"><seg source="#source-34107-34128">７　政治と国家</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-34183-35073">政治の本質が、対立分化を統合して一定の目的のために協同せしめることにあるとすれば、そのような社会的統制や規律の作用は、必ずしも国家にだけ固有のものではなく、どんな人間集団にも見られることではないかという疑問が生れる。事実そのような反省から政治は国家と結合しているものではないという学説がある。権力は効用に伴い、効用はあらゆる機能に伴うから、すべての社会的機能に権力が伴うという機能主義の政治論や、同じような見地で、国家が教会とか組合とか大学とかの団体に対して優位に立つということを否定し、機能はそれぞれ異なっても価値に上下はないという多元的国家論などが、そのような学説の代表的なものである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-35073-35304">このような所論には、たしかに一面の真理があることは否定できないけれども、根本ではこの考え方は、社会現象の機能の面だけを抽象的に取り上げて、その機能を営む</seg><ruby type="furigana" rend="right" source="#source-35304-35325"><rb>源</rb><rt>みなもと</rt></ruby><seg source="#source-35325-35697">であるところの実体を忘れた考え方にすぎない。人間の生活をいろいろの部門に分析して、その一部門だけを見ても、生命統一体としての人間はわからぬと同じように、社会の中にいろいろの部分社会があっていろいろの機能を営んでいても、その基礎に、それらの部分社会を</seg><ruby type="furigana" rend="right" source="#source-35697-35721"><rb>包括</rb><rt>ほうかつ</rt></ruby><seg source="#source-35721-35940">して全体の秩序を保っている共同社会が存在することを忘れてはならない。この共同社会が国家なのであって、政治はこの国家という実体が、一切の部分社会をも</seg><ruby type="furigana" rend="right" source="#source-35940-35955"><rb>含</rb><rt>ふく</rt></ruby><seg source="#source-35955-36512">めて、社会的な対立分化を権力的に統合し、全体としての秩序と調整を保つ機能なのである。国家は後に述べるように、最高一般的な統制権力を持つ人間の地域的団体であって、ほかのどんな部分社会とも異なっている。いろいろの部分社会にも、対立や抗争を統合組織化して共同の目的を実現するという作用はあるが、最高一般的な国家権力をめぐってなされる政治と、同列において理解することはできない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">例えば政治を、「幾つかの者の一団において、その者の一部分または全部がこれらの者の能力を適宜に利用して、ある目的を実現する事である」と定義するなら<hi rend="font-size small(1)" snh:layout-kind="font-size" snh:layout-params="size-type=small;level=1" source="#source-36731-36809"><seg source="#source-36731-36749">（戸沢鉄彦）</seg></hi><seg source="#source-36809-37106">、夫婦の間にも、友人の間にも、集団強盗の間にも、政治があるということになろう。人間関係の調整と協同という側面だけは、たしかに政治と似たところがないではないが、それだからといって今度はその一側面だけを</seg><ruby type="furigana" rend="right" source="#source-37106-37118"><rb>抽</rb><rt>ひ</rt></ruby><seg source="#source-37118-37178">き出して、それが政治だというのは、思考の</seg><ruby type="furigana" rend="right" source="#source-37178-37199"><rb>遊戯</rb><rt>ゆうぎ</rt></ruby><seg source="#source-37199-37372">にすぎない。そのような実体を離れた抽象的な法則を論じてみたところで、ほんとうの政治の理解にどれほどの役に立とうか。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">やはり政治は、国家生活と結合したものとして理解しなければならぬ。グラボウスキーがいうように、「すべての政治は国家をめぐって存在し、国家から発し、そして不断に国家に帰着する」といわねばならぬ。部分社会や人間集団の関係は、ただこの国家意思の決定と<ruby type="furigana" rend="right" source="#source-37738-37759"><rb>行使</rb><rt>こうし</rt></ruby><seg source="#source-37759-38019">に直接に関連してくる場合にだけ、政治の問題となるのである。ところで政治がこのように国家と離れては考えられないとすると、国家とは何かということに、一応触れておかねばならない。</seg></p>
+        <p><pb source="#source-38019-38040"/></p>
+      </div>
+      <div type="layout" source="#source-38044-38125" style="padding-inline-start: 3em">
+        <div>
+          <head n="1" source="#source-38065-38119"><seg source="#source-38065-38077">二　国家</seg></head>
+        </div>
+      </div>
+      <div type="layout" source="#source-38125-38222" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-38146-38218"><seg source="#source-38146-38167">１　国家の定義</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">国家という語は、ケルゼンのいうごとく、「最も<ruby type="furigana" rend="right" source="#source-38291-38315"><rb>空虚</rb><rt>くうきょ</rt></ruby>な言葉が最も便利な言葉」ということの、代表的な一例である。国家についての説明は、雑然として定説がないのである。みなが国家ということばをいうが、その意味する内容は千差万別なのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-38587-38761">例えばヘーゲルにいわせれば、国家は最高の道徳で、倫理的精神の現実体であるが、エンゲルスにいわせれば、国家は階級的な</seg><ruby type="furigana" rend="right" source="#source-38761-38785"><rb>抑圧</rb><rt>よくあつ</rt></ruby><seg source="#source-38785-38788">と</seg><ruby type="furigana" rend="right" source="#source-38788-38812"><rb>搾取</rb><rt>さくしゅ</rt></ruby><seg source="#source-38812-39136">の手段にすぎない。トライチケによれば、国家は何よりも自己主張の権力体だが、ケルゼンによれば、国家は法秩序のほかの何物でもない。アリストテレスは国家を、幸福で名誉ある完全で自足的な生活体だというが、ベンサムやミルなどの</seg><ruby type="furigana" rend="right" source="#source-39136-39157"><rb>功利</rb><rt>こうり</rt></ruby>主義者は、国家を個人の権利と財産の番をするための「必要な悪」だという。グムプロヴィッツによれば、国家は社会的な分業の組織体であるが、シュペングラーによれば、国家は静止している歴史であり、歴史は動いている国家である。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">その他数多くの人が国家について説いているところも、種々雑多であって、「国家論」は政治学の中でも一番<ruby type="furigana" rend="right" source="#source-39630-39657"><rb>厖大</rb><rt>ぼうだい</rt></ruby>な部門を占めるし、あるいは政治学と別に「国家学」という学問として取扱うこともできる。しかしいまここで問題になっているのは、国家の「定義」または「概念」であって、「概念」は「本質」とは区別しなければならない。概念というのは、ある現象を他の現象から区別するため、その現象の不可欠でかつ<ruby type="furigana" rend="right" source="#source-40077-40104"><rb>充分</rb><rt>じゅうぶん</rt></ruby><seg source="#source-40104-40322">な特徴をとらえ、それに価値判断のない無色の定義を与えたものであるが、本質というのは、その現象に含まれている意味についての価値判断をいうのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-40322-41144">このように考えると、上に掲げたような国家の説明は、実は国家の本質をいっていることがわかるのである。国家の本質論としてこれらの説のどれが正しいかは、しばらく別問題として、要するに国家の定義は、これらの本質論とは別個に考えられねばならぬ。そして国家の定義についてもまた、いろいろの言い方があるが、だいたいのところ人民、領土、及び最高一般の統制組織の三要素を、国家の不可欠でかつ充分の標識とするのが普通である。すなわち政治学でいう国家とは、最高で一般的な統制組織を持つ人間の地域的団体のことである。国家の統制組織は主として法と権力で維持される。法は社会</seg><ruby type="furigana" rend="right" source="#source-41144-41168"><rb>規範</rb><rt>きはん</rt></ruby><seg source="#source-41168-41213">の体系として、多少とも固定性と</seg><ruby type="furigana" rend="right" source="#source-41213-41246"><rb>劃一性</rb><rt>かくいつせい</rt></ruby><seg source="#source-41246-41306">を伴うが、権力は政治目的に従って弾力性と</seg><ruby type="furigana" rend="right" source="#source-41306-41339"><rb>即応性</rb><rt>そくおうせい</rt></ruby><seg source="#source-41339-41434">を伴う。この両者があいまって国家の統制組織が成り立つのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-41434-41521">法を維持し適用するのは主として司法であるが、権力を直接に</seg><ruby type="furigana" rend="right" source="#source-41521-41542"><rb>行使</rb><rt>こうし</rt></ruby>するのは警察である。国家の一体的な秩序と治安を確保して、「法の支配」を維持するに足るだけの司法と警察は、いやしくも国家として不可欠の要素であるが、国家の独立と安全を対外的に防衛するための軍隊が、国家の不可欠の要素であるかどうかは多少の問題がある。前にも述べたように、国家の独立と安全を保持することは、国家の最小限の目的に<ruby type="furigana" rend="right" source="#source-42022-42037"><rb>含</rb><rt>ふく</rt></ruby><seg source="#source-42037-42442">まれているから、外敵の侵略に対する自衛手段としての軍隊を全然持たない国家は、少なくとも在来の国家概念からいえば、不完全な国家だといわねばならぬ。しかしながら一方では戦争が原子戦争の姿をとり、他方では有効な世界的集団安全保障の機構が成立するというような時代になれば、軍隊の</seg><ruby type="furigana" rend="right" source="#source-42442-42460"><rb>有無</rb><rt>うむ</rt></ruby><seg source="#source-42460-42552">は国家としての不可欠の条件とみられないようになるかも知れぬ。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-42552-43084">なお最高一般的な統制組織または権力というのを、主権といってもよいが、この主権という概念は、本来は法学的概念であって、君主主権と国民主権をめぐる闘争概念として用いられたこともあり、また社会的現実からみれば、絶対無制限の主権というごときものが実在するわけでもなく、いろいろと観念の混乱を導くところがあるので、政治学では主権という語は適当でない場合が多い。</seg></p>
+      </div>
+      <div type="layout" source="#source-43084-43217" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-43105-43213"><seg source="#source-43105-43144">２　国家と他の団体との差別</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-43217-43318">国家が、教会とか学校とか組合とかいうような部分社会と異なるのは、</seg></p>
+      </div>
+      <div type="layout" source="#source-43318-44223" style="padding-inline-start: 1em">
+        <p><seg source="#source-43353-43541">（一）国家は強制的な団体で、人間は生れながら必然に国家に属し、自由に加入脱退できないのに対し、他の団体はそれが任意的である。</seg></p>
+        <p><seg source="#source-43541-43684">（二）他の団体には同時に二つ以上に加入できるが、同時に二つ以上の国家には属することができない。</seg></p>
+        <p><seg source="#source-43684-43881">（三）国家は一定の領土と結合しているが、他の団体は領土とか地域とかの要素と結合せずに存在できるし、また数国家にわたって存在できる。</seg></p>
+        <p><seg source="#source-43881-43994">（四）他の団体の目的は特殊のものに限定されるが、国家の目的は全般的である。</seg></p>
+        <p><seg source="#source-43994-44083">（五）他の団体は一時的な存在だが、国家は永久的存在である。</seg></p>
+        <p><seg source="#source-44083-44187">（六）他の団体は法と権力による強制をなし得ないが、国家はそれをなす。</seg></p>
+      </div>
+      <div>
+        <p><seg source="#source-44225-44425">などという点にあると一般に認められている。しかし先に挙げた多元的国家論などは、そのような差別を認めない。すなわちこの立場に立つ者は、</seg></p>
+      </div>
+      <div type="layout" source="#source-44425-45594" style="padding-inline-start: 1em">
+        <p><seg source="#source-44460-44621">（一）の点につき、国家でも国籍の離脱や帰化が可能であり、生れながら必然に加入する点は家族なども同じである。</seg></p>
+        <p><seg source="#source-44621-44929">（二）の点では、別種の団体ならなるほど同時に二つ以上に属することができても、しかし同時に二つ以上の教会や組合には属することができない点は、何ら国家と異ならないし、他方では国家でも二重国籍ということもある。</seg></p>
+        <p><seg source="#source-44929-45000">（三）の点でも、地域と結合している団体がある。</seg></p>
+        <p><seg source="#source-45000-45191">（四）については、正に国家が全般的な目的を持つということが誤りなので、国家も社会的な統制規律という特定の一機能を持つにすぎぬ。</seg></p>
+        <p><seg source="#source-45191-45334">（五）についても、生命の短い国家もあるし、カトリック教会のごときはほとんど永久的な存在である。</seg></p>
+        <p><seg source="#source-45334-45558">（六）については、形は異なっても強制や制裁はどの団体にもある。そして個人の立場からいえば、国家の制裁よりも他の団体の制裁の方が苦痛である場合もある。</seg></p>
+      </div>
+      <div>
+        <p><seg source="#source-45596-45730">というように論じて、国家と他の団体との本質的な差別は、ただその機能だけだというのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-45730-45958">これらの論点を部分的にみれば、なるほどそういうこともいえないこともないが、しかし多くは特殊の例外的な場合を取り上げて、それをことさらに一般化したという</seg><ruby type="furigana" rend="right" source="#source-45958-46000"><rb>牽強附会</rb><rt>けんきょうふかい</rt></ruby><seg source="#source-46000-46009">の感を</seg><ruby type="furigana" rend="right" source="#source-46009-46027"><rb>免</rb><rt>まぬが</rt></ruby><seg source="#source-46027-46509">れない。かりに国家が統制とか規律とかいう特定の機能に限られるということを認めるとしても、その機能そのものに根本的な特色がある。すなわちそれは、必要あれば物理的強制権力をもって、領土内の一切の団体を服従せしめるところの、最高で一般的な規律統制の機能なのである。このような機能は、国家以外のどんな部分社会も持ってはおらない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-46509-46719">いわんや国家は単なる政府ではない。単なる政府なら、多元的国家論者のいうような点も、ある程度認めることができるが、国家はあらゆる機能や職業を</seg><ruby type="furigana" rend="right" source="#source-46719-46743"><rb>包括</rb><rt>ほうかつ</rt></ruby>し、一切の部分社会の基盤に存在する共同社会であって、これを特殊の部分社会と同列におくことは、決して正しいといえない。だから多元的国家論者として認められているギールケ、メートランド、ポールボンクール、デュルケム、フィギス、ラスキなどの所説を検討してみると、結局はやはり国家が「諸団体の団体」であることを、認めねばならぬことを示している。</p>
+      </div>
+      <div type="layout" source="#source-47248-47345" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-47269-47341"><seg source="#source-47269-47290">３　国家の起源</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-47345-47695">国家がどのようにして発生したものかは、要するにすべての物のはじめと同じく、正確にはわからない。いろいろの仮説はあるが、要するに仮説であって、しかも多くは自分の国家論を基礎づける一つの手段として、あとから意識的に作られた仮説である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">例えば国家の起源を神の意思に求めたり、契約に求めたりする説は、近代初期に至るまでの一番有力な説であったが、要するにそれは神学的国家論や社会契約説を説くための仮説にほかならぬ。すなわち例えば帝王神権説で帝王の権威を神から与えられたものとしたり、祭政一致という神話で政治に神聖な権威をつけようとしたり、あるいは聖オーガスチンのように「神の国」と「地上の国」を分け、地上の国は人間の原罪に対する神罰の表現だとしたりするために、国家の起源を神に求め、またはこのような神学的国家論に反対して、反抗や革命を基礎づけるために、国家の起源を人間の契約に求めたりしたのである。かりに神が国家を創造したとしても、なぜ神が国家を欲し、どのようにして創造したのかということは、科学的に説明できないし、また契約で国家を作ったとしても、果してほんとうに契約があったのか、なぜ契約を結んだのか、またなぜ後代の人間がそれに<ruby type="furigana" rend="right" source="#source-48883-48907"><rb>拘束</rb><rt>こうそく</rt></ruby><seg source="#source-48907-49008">されねばならないのかということを、歴史的に実証することはできない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-49008-49035">そこでこのような</seg><ruby type="furigana" rend="right" source="#source-49035-49056"><rb>架空</rb><rt>かくう</rt></ruby><seg source="#source-49056-49692">な独断的な国家起源論では満足できないので、経験科学の立場から古代の神話を分析したり、古代法や古代詩を解釈したり、原始社会を研究したりして、もっと実証的に国家の起源を説こうとする学説が生れた。グムプロヴィッツやオッペンハイマーなどのように、国家の起源を原始種族の闘争による征服に求める説や、エンゲルスのように、原始社会で団体結婚から一夫一婦制へ、母権社会から父権社会へ、共産制から私有財産制へ、移行することに伴って生じた経済的</seg><ruby type="furigana" rend="right" source="#source-49692-49719"><rb>搾取</rb><rt>さくしゅ</rt></ruby><seg source="#source-49719-50018">関係に、国家の起源を求めたりする説は、そのような学説の好例である。しかし一見いかにも実証科学的に説かれてはいるが、これらもやはり階級国家論を基礎づける手段として、あとから作られた仮説だといってよい。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-50018-50513">それでは国家の起源をどのように考えたらよいであろうか。思うに人間はそもそも共同生活なしには生存できないもので、共同生活はまたなんらかの統制秩序がなくてはできない。だから共同生活の統制秩序は、人間が存在したと同時にあったものと考えねばならぬ。ところで前にいうように、共同生活の統制秩序ということこそ国家の本質なのであるから、国家の</seg><ruby type="furigana" rend="right" source="#source-50513-50534"><rb>萌芽</rb><rt>ほうが</rt></ruby><seg source="#source-50534-50564">そのものは、どんなに</seg><ruby type="furigana" rend="right" source="#source-50564-50585"><rb>素朴</rb><rt>そぼく</rt></ruby><seg source="#source-50585-50677">な形であっても、人間とともに発生したものだと考えざるを得ぬ。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-50677-51340">原始社会がもし想像されるように、分化や対立のほとんど存在しない共同体で、トーテムとかタブーとかいう原始宗教的な規律で、その共同生活の秩序が保たれていたものとすれば、前に政治の本質について述べたように、そこには政治とか権力とかの要素は小さいものであったろうし、従って国家という形態も明らかな姿では存在しなかったであろう。しかしながらそれにもかかわらず、いやしくも少しでも対立や分化や抗争があり、秩序をみだすものがあったかぎりでは、どんな素朴な</seg><ruby type="furigana" rend="right" source="#source-51340-51361"><rb>萌芽</rb><rt>ほうが</rt></ruby><seg source="#source-51361-51780">であったにせよ、既に共同生活の統制組織があったであろうことは否定できない。とりわけ原始種族と種族とがいつでも闘争しなければならない状態では、かりに種族そのものの内部には対立や抗争は少なくても、外敵に対する闘争態勢を整える必要から、どうしても指揮命令と服従の組織が生れざるを得ぬ。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-51780-51807">そこに既に国家の</seg><ruby type="furigana" rend="right" source="#source-51807-51828"><rb>萌芽</rb><rt>ほうが</rt></ruby><seg source="#source-51828-52017">がある。それがだんだんに発展して明確な国家の形態をそなえるようになるまでには、定住とか、征服とか、階級の発生とか、財産や身分の</seg><ruby type="furigana" rend="right" source="#source-52017-52041"><rb>世襲</rb><rt>せしゅう</rt></ruby><seg source="#source-52041-52428">制とか、搾取関係の成立とか、法と権力と刑罰の確立とかの要因が、大きな役割を持ったであろう。しかし根本では既に国家の萌芽はあるのであって、その後の発展は一つの連続的発展にほかならず、征服とか、搾取関係とか、財産や身分の世襲制とか、階級の発生とかの、個々の要因や</seg><ruby type="furigana" rend="right" source="#source-52428-52449"><rb>契機</rb><rt>けいき</rt></ruby><seg source="#source-52449-52851">をとらえて、それが発生する以前には全然国家はなく、それ以後だけに国家があるというようにいうことはできない。そのようにいうのは、実は無政府主義を基礎づけようとする理論なのである。原始社会の統制形態についても、支配者が母であったとする説、種族の父であったという説、あるいは</seg><ruby type="furigana" rend="right" source="#source-52851-52875"><rb>僧侶</rb><rt>そうりょ</rt></ruby><seg source="#source-52875-52878">や</seg><ruby type="furigana" rend="right" source="#source-52878-52911"><rb>呪術師</rb><rt>じゅじゅつし</rt></ruby><seg source="#source-52911-53158">であったという説などいろいろあるが、それらの仮説がどうであれ、要するに国家の起源は、これを人間の共同生活そのものの、内的な必要に求めるのが正しいといわねばならぬ。</seg></p>
+      </div>
+      <div type="layout" source="#source-53158-53273" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-53179-53269"><seg source="#source-53179-53209">４　国家を否定する説</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-53273-53501">右のような国家の起源論は、実は前にいうような意味で、国家の本質をどう見るかという問題に関連しているのである。国家成立の要因を征服にあるとしたり、階級的</seg><ruby type="furigana" rend="right" source="#source-53501-53528"><rb>搾取</rb><rt>さくしゅ</rt></ruby><seg source="#source-53528-54238">にあるとするのは、国家の本質を階級的な抑圧または搾取の手段だというためであり、従ってまたそのような要因がなくなれば、国家も死滅するのだということになる。国家の起源を征服に求めるオッペンハイマーや、階級的搾取関係の発生に求めるマルクス＝エンゲルスの立場は、正にそれを示している。これに対して国家成立の要因を、人間の共同生活の内的必要にあるとみる立場では、国家の性格はいろいろに変化するとしても、人間の共同生活が存在する限り、国家そのものが消滅することは認められないのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-54238-54994">国家が必然に消滅するという学説は、実はその底に国家は悪であるから消滅すべきだという考えがひそんでいる。そのように国家を否定する思想を無政府主義と称するが、この思想は古くからある根強い思想である。しかし一口に無政府主義といっても、その内容は雑多である。近代になって大成された無政府主義思想を大別しても、ゴドウィンやプルードンやトルストイなどの個人主義的な無政府主義、シュティルナーの利己主義的な無政府主義、バクーニンやクロポトキンに代表される共産主義的な無政府主義などがある。マルクス＝エンゲルス主義も、</seg><ruby type="furigana" rend="right" source="#source-54994-55024"><rb>窮極</rb><rt>きゅうきょく</rt></ruby><seg source="#source-55024-55314">の目標としては共産的無政府社会を考えている。これらの理論構成はそれぞれに異なっているけれども、一切の権力支配を否定し、個人の極度の自由が自然の中で調和される状態を理想とする点で、共通している。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-55314-55473">無政府主義が、妨げられることのない個人の最大限の自由を主張し、現実の国家に多かれ少なかれ伴うところの権力</seg><ruby type="furigana" rend="right" source="#source-55473-55500"><rb>濫用</rb><rt>らんよう</rt></ruby><seg source="#source-55500-55503">の</seg><ruby type="furigana" rend="right" source="#source-55503-55527"><rb>幣害</rb><rt>へいがい</rt></ruby><seg source="#source-55527-55566">や、法と刑罰による人間性の</seg><ruby type="furigana" rend="right" source="#source-55566-55593"><rb>歪曲</rb><rt>わいきょく</rt></ruby><seg source="#source-55593-55611">や、階級的な</seg><ruby type="furigana" rend="right" source="#source-55611-55635"><rb>搾取</rb><rt>さくしゅ</rt></ruby><seg source="#source-55635-55638">や</seg><ruby type="furigana" rend="right" source="#source-55638-55662"><rb>抑圧</rb><rt>よくあつ</rt></ruby><seg source="#source-55662-55707">の危険を排撃する点には、大きな</seg><ruby type="furigana" rend="right" source="#source-55707-55731"><rb>魅力</rb><rt>みりょく</rt></ruby><seg source="#source-55731-56025">があって、それ故にこのような思想がいつの時代にも人の心をとらえるのであるが、しかし国家の統制秩序なしに人間の共同生活が、平和と調和を保つことができるという考え方には、人間性についての根本的な誤りが</seg><ruby type="furigana" rend="right" source="#source-56025-56040"><rb>含</rb><rt>ふく</rt></ruby><seg source="#source-56040-56087">まれていることを否定できない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-56087-57034">一般に無政府主義の考え方は、国家というものが人間そのものと無関係に成立したもので、その国家がその権力的な強制によって、人間の自然的な善性を傷つけ、ゆがめ、悪くしているのだという学説の上に立っている。それはまるで国家が天からでも降って来たもののように考えて、国家を作り出したのはほかならぬ人間自身であるということを、従って国家権力を善用するも悪用するも、一に人間そのものにほかならぬということを無視している。無政府主義者は一般に人間の本性が、完全に平和で、善いもので、美しいものだと前提しているが、人間の自然の本性をそのように美化することは正しいとはいえない。パスカルのいうように、人間は野獣ではないが、しかも決して天使ではない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">無政府状態でも、人間は本来一面では社会的な連帯性と協同性を持っているから、必ずしもすぐに「万人の万人に対する闘争」の状態には、ならないかも知れない。しかし個人主義的な無政府主義者が考えるように、国家権力さえなければ平和と幸福の楽土が実現されるなどとは、とても考えられない。国家秩序がなくなれば、強者の暴力的な強制がすぐに取って代るものと思わねばならぬ。利己主義的な無政府主義は、人間を本質的に利己主義者だとしながら、しかも無政府を唱えるのであるが、それはすなわち強者の利己的な<ruby type="furigana" rend="right" source="#source-57751-57790"><rb>唯我独尊</rb><rt>ゆいがどくそん</rt></ruby><seg source="#source-57790-57939">の対立状態をよいとすることになろう。こういう考え方は、人間の文化性の完全な無視だといわざるを得ぬ。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-57939-58023">共産主義的な無政府主義者が、人間の理想社会には階級的な</seg><ruby type="furigana" rend="right" source="#source-58023-58047"><rb>搾取</rb><rt>さくしゅ</rt></ruby><seg source="#source-58047-58050">や</seg><ruby type="furigana" rend="right" source="#source-58050-58074"><rb>抑圧</rb><rt>よくあつ</rt></ruby><seg source="#source-58074-58374">があってはならないと考え、その意味で共産主義を説く心持は理解できるが、しかし強力な統一的計画なくしては考えられない共産主義の経済が、なんらの権力的統制もない所で可能だなどと考えるのは、収拾すべからざる</seg><ruby type="furigana" rend="right" source="#source-58374-58398"><rb>矛盾</rb><rt>むじゅん</rt></ruby><seg source="#source-58398-58667">である。とりわけマルクス＝レーニン主義の国家死滅論は、極めて計画的に作り上げられた革命戦略論であるだけに、理論的な謀略と非科学的なユートピアを基礎とした矛盾と逆説をはらんでいる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-58667-59681">要するに社会や経済の諸制度を、人間の悪と不幸の唯一の原因とし、それを人間の自然の善と幸福に対立させて考えるのは、根本的な矛盾であって、むしろ人間の自然の欲求がこれらの制度を生み出したのだということを忘れ、または故意に無視するものにほかならない。人間はたしかに環境に支配される側面を持つから、環境が改善されることによって、人間が改善される部分も多いことは否定できないが、しかしその環境そのものがまた、人間によって作られることを忘れることはできない。だから国家を否定し、私有財産制度を廃止し、階級をなくしさえすれば、人間は自然の善性にかえり、あるいはそこに新しい人間性が生れるという共産的無政府主義の主張には、容易に承服できないのである。人間の悪と不幸を悲しみ、国家や社会制度の</seg><ruby type="furigana" rend="right" source="#source-59681-59705"><rb>弊悪</rb><rt>へいあく</rt></ruby><seg source="#source-59705-60244">を憎むことは正しいけれども、それだからといって人間を自然のままに放置すれば、万事善くなるということにはならない。人間の自然の性情の中には、精神的及び肉体的な能力の不平等も、私有や支配の欲求も含まれている。それらを統制して社会正義の下に調和させることは、無政府主義によって国家を否定することによってではなく、反対にまさに正しい国家秩序を作ることによってである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-60244-60616">共産的無政府主義も必ずしも秩序や組織を否定するのではなく、ただ権力秩序でなしに完全に自由で自発的な結合または組織を考えるのであるが、しかし完全に自由自発的な組織などは現実にはあり得ない。それがいやしくも組織の名に値するものであるなら、必ず多少とも</seg><ruby type="furigana" rend="right" source="#source-60616-60640"><rb>拘束</rb><rt>こうそく</rt></ruby><seg source="#source-60640-60727">と強制の要素が伴うのである。だとすれば、それを現実の政略や</seg><ruby type="furigana" rend="right" source="#source-60727-60751"><rb>煽動</rb><rt>せんどう</rt></ruby><seg source="#source-60751-61062">の目的で何と呼ぼうとも、実はそれ自身が、新しい国家的統制組織のほかの何物でもあり得ないのである。国家や社会制度の改善を説くのは正しいけれども、人間の共同生活に国家そのものが不要となるとは、到底考えられない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">既に二千年の昔アリストテレスが論破しているように、人間は「政治的な生物」であり、「社会に住むことを得ないもの、または自己に満足する故に社会に住む必要のないものは、必ずや野獣かしからずんば神である。かかる者は国家の成員ではない」のである。まことに国家的な統制秩序なしに、自由平和社会を実現し、共産的な経済を営み得るような社会がもしあったら、そのような社会の構成員は、恐らくは血と肉のある人間ではあるまい。血肉を持つ地上の人間が存在する限り、共同生活を欠くことはできず、共同生活がある限り国家がなくなることはないであろう。個々の国家は、あるいは変化しあるいは消滅するであろうが、しかし国家そのものが人間に不要となることは考えられない。かりに将来世界が一つになるような場合を想像してみても、それは個々の国家が国家でなくなり、その代りに世界国家が成立するということにほかならない。</p>
+      </div>
+      <div type="layout" source="#source-62227-62324" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-62248-62320"><seg source="#source-62248-62269">５　国家の本質</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-62324-62566">国家は上に説くように、人間の共同生活の統制組織として欠くことのできない存在であるが、国家にどれほどの価値を認めるかということは、時と所と人によって一様でない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-62566-63267">一方で各国家と世界との正しい関係、他方で国家と個人の正しい関係ということは、人類にとっての世界史的な課題であって、人類の歴史も、国家や政治の思想も、この二つの問題をめぐって展開されているといってよい。国際秩序を重んずる立場では、国家の価値と権威は多少とも制約され、国家を重視する立場では、国際平和や国際法の秩序は多少とも軽視される。また個人を重視するものは、国家を利益社会的に考えるが、国家の団結を重んじ一体性を高めようとする考え方では、国家は共同体的にみられる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-63267-63573">そこで昔から、国家を否定する立場は別とし、大別して常に二つの国家観が対立している。一つは、国家の権威と価値を強調する立場で、あるいは国家を最高の道徳とし、あるいはこれを熱愛の対象とし、人格を没してこれに</seg><ruby type="furigana" rend="right" source="#source-63573-63594"><rb>帰一</rb><rt>きいつ</rt></ruby>すべき共同体と考えるものであり、もう一つは個人の価値を強調する立場で、国家は単に個人の権利と自由を保障するための功利的な道具で、国家の存立は個人の意思に依存するとみるものである。これらの国家観を検討するのが「国家論」の中心になるのであるが、いずれにしても、国家の権威と価値を高揚する立場が極端に行き過ぎると、ついに個人の自由や、法の価値や、国際平和を無視して、神秘的絶体的な極端な国家主義、専制的な国家主義、権力国家観、軍国主義、帝国主義、独裁的な全体主義などに至る危険を伴うし、逆に国家を軽視する立場が極端に行き過ぎると、ついに人間の社会的生存性を忘れ、共同生活の統制秩序を無視して、無政府主義に陥る危険を伴うということを、注意する必要がある。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-64565-64859">けだし人間は共同体の中に生れ、共同体の中で成長するのであって、抽象的な孤立した自然人というような者はない。しかし同時に忘れてならないのは、このような共同体は、その個々の成員から成り、個々の成員に</seg><ruby type="furigana" rend="right" source="#source-64859-64874"><rb>担</rb><rt>にな</rt></ruby><seg source="#source-64874-65290">われて存在するのであって、それ自体で超越的に独立している共同体というようなものもないということである。このような団体と成員との関係は、後に説くようにそれぞれの社会関係で異なるけれども、団体と個人とがいつも相互に結合し、同時に考えられねばならぬものであることを忘れてはならない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-65290-65446">その意味で国家は、人間の団体性と個人性、連帯性と闘争性、保守性と進歩性、権威と自由などの二元的な性情の</seg><ruby type="furigana" rend="right" source="#source-65446-65479"><rb>綜合体</rb><rt>そうごうたい</rt></ruby><seg source="#source-65479-65608">である。国家の本質は、単に功利的な個人の道具でも、必要悪というようなものでも、階級的な</seg><ruby type="furigana" rend="right" source="#source-65608-65632"><rb>搾取</rb><rt>さくしゅ</rt></ruby><seg source="#source-65632-65635">や</seg><ruby type="furigana" rend="right" source="#source-65635-65659"><rb>抑圧</rb><rt>よくあつ</rt></ruby><seg source="#source-65659-65737">の手段でもない。それは無数の物質的欲求や職能的分化を</seg><ruby type="furigana" rend="right" source="#source-65737-65761"><rb>包括</rb><rt>ほうかつ</rt></ruby><seg source="#source-65761-66231">しながら、しかもそれらを超えたものであり、公民としての人間の生活共同体とみられるべきものである。しかし同時にそれは、神秘的超越的な絶対的存在なのではなく、国家を構成しこれを担っているのは個々の人間であり、国家の意思も目的も、そのような個人個人の意思と人格を通じて、初めて成立するものであることを忘れてはならない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-66231-66375">このような一体的な共同体の前提を忘れて、ただ分化や対立のみを重視していると、やがて無政府主義に</seg><ruby type="furigana" rend="right" source="#source-66375-66393"><rb>陥</rb><rt>おちい</rt></ruby>るが、逆に個人の価値を忘れて、絶対的な団体主義を説いていると、やがて「国民なき国家」というような専制主義、全体主義、権力国家主義に<ruby type="furigana" rend="right" source="#source-66588-66600"><rb>堕</rb><rt>だ</rt></ruby><seg source="#source-66600-66683">する。いずれも国家の本質についての誤った考え方である。</seg></p>
+        <p><pb source="#source-66683-66704"/></p>
+      </div>
+      <div type="layout" source="#source-66708-66813" style="padding-inline-start: 3em">
+        <div>
+          <head n="1" source="#source-66729-66807"><seg source="#source-66729-66753">三　政治と人間性</seg></head>
+        </div>
+      </div>
+      <div type="layout" source="#source-66813-66934" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-66834-66930"><seg source="#source-66834-66867">１　政治における人間性</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">前に無政府主義を批判した際、人間性ということが問題になったが、政治における人間性を余りに合理的、知性的なものとして美化することは、必ずしも現実と合わない。近代思想の合理主義または主知主義が、一般に人間を「合理的な動物」として前提したのに対し、グレアム・ウォーラスが「政治における人間性」を書いて、その誤りを指摘してから、社会学や心理学、とりわけ群集心理学の発達に伴い、政治行動の非合理的な側面が指摘されるに至ったのは、極めて正しいといわねばならぬ。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-67611-68085">人間が知性と理性を持つことはいうまでもないが、しかし人間が常に合理的論理的にのみ行動しているなどと考えるのは大きな誤りで、同時に感情や欲望や本能や因習によって極めて強く動かされていることを、見誤ってはならない。環境は変化するし、権威のある観念や言葉も変化するが、しかしよく検討してみれば、神話や、タブーや、迷信や、</seg><ruby type="furigana" rend="right" source="#source-68085-68112"><rb>呪術</rb><rt>じゅじゅつ</rt></ruby><seg source="#source-68112-68439">や、ことばの魔術は、原始社会と同じように依然として政治を支配している。例えば、現代で権威と名分のある言葉は、平和とか、民主とか、自由とか、進歩とか、革命とかいうことだが、それではこれらの言葉で事実何が意味されているかを</seg><ruby type="furigana" rend="right" source="#source-68439-68460"><rb>赤裸</rb><rt>せきら</rt></ruby><seg source="#source-68460-68561">に透見すると、実は迷信と神話と呪術と大差のないことが多いのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">人間そのものには本来、完全な善人も完全な悪人もあるわけではないが、政治の世界では「善か悪か」「右か左か」というような、極度の誇張と簡略化が行われる。民主政は完全無欠で、君主政には何一つ長所もないというような議論が、疑いもなしに受け<ruby type="furigana" rend="right" source="#source-68909-68921"><rb>容</rb><rt>い</rt></ruby><seg source="#source-68921-69038">れられるし、労働者とか人民とかいえば純真で善良だが、資本家とか官僚とかはすべて</seg><ruby type="furigana" rend="right" source="#source-69038-69062"><rb>傲慢</rb><rt>ごうまん</rt></ruby><seg source="#source-69062-69065">で</seg><ruby type="furigana" rend="right" source="#source-69065-69089"><rb>邪悪</rb><rt>じゃあく</rt></ruby><seg source="#source-69089-69185">だというような言い方が、平気で通用する。多くの人間は自己に関する</seg><ruby type="furigana" rend="right" source="#source-69185-69206"><rb>赤裸</rb><rt>せきら</rt></ruby><seg source="#source-69206-69404">の真実を知ることを欲しないし、知ってもそこから突きつめた推理はやらない。非合理な事実をそのままにしておいて、かえってそれを合理化する</seg><ruby type="furigana" rend="right" source="#source-69404-69425"><rb>理窟</rb><rt>りくつ</rt></ruby><seg source="#source-69425-69512">を考え出すこともある。感情的に好もしくないことには目と耳を</seg><ruby type="furigana" rend="right" source="#source-69512-69527"><rb>蔽</rb><rt>おお</rt></ruby><seg source="#source-69527-69628">い、運を天に任せて頼りにもならぬことに期待することが多いのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-69628-69811">このような非合理性は、とりわけ群衆において極度に達する。群衆は共同の意思を形成して実行し得るような組織性を持たない単なる</seg><ruby type="furigana" rend="right" source="#source-69811-69832"><rb>烏合</rb><rt>うごう</rt></ruby><seg source="#source-69832-69835">の</seg><ruby type="furigana" rend="right" source="#source-69835-69853"><rb>衆</rb><rt>しゅう</rt></ruby><seg source="#source-69853-70272">であるが、しかしなんらか共通の感情に支配されているものである。一度この群衆の中に入れば、知性や個性は圧倒されてしまう。群衆は容易に暗示によって左右され、敏感で、単純で、軽信的で、衝動的で、気まぐれで、無責任な性格を持ち、時にはたやすく不寛容、残忍、兇悪な暴徒（モッブ）にもなる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-70272-70422">政治はつまりこのような人間を相手にして、このような人間が行っている現象なのである。現実政治の術は、</seg><ruby type="furigana" rend="right" source="#source-70422-70446"><rb>崇高</rb><rt>すうこう</rt></ruby>な理念や合理的な知性ではなく、むしろこのような人間の非合理性を目的的に利用することだといってもよい。政治の「理」というのは、形式論理的に筋が通っているということではなく、このような人間の非合理性を<ruby type="furigana" rend="right" source="#source-70740-70755"><rb>含</rb><rt>ふく</rt></ruby>めた上での「道理」でなければならぬ。政治は数学ではない。もし政治に数学があるとすれば、それはマンローのいうごとく「二と二で必ずしも四とならず、二十二になる」ような数学である。彼のいうごとく「あまりに論理的すぎる」ということは、現実の政治にとっては一つの欠点でさえある。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-71159-71366">しかしこのような人間の非合理性を利用して、政治目的を達することそれ自身は、ある意味で合理的である。後に述べるような政治手段とりわけ暴動、</seg><ruby type="furigana" rend="right" source="#source-71366-71387"><rb>一揆</rb><rt>いっき</rt></ruby><seg source="#source-71387-71522">、集団示威、宣伝などは、多くは右にみるような群集心理の利用である。大衆の非合理性は野心家や</seg><ruby type="furigana" rend="right" source="#source-71522-71552"><rb>煽動家</rb><rt>せんどうか</rt></ruby><seg source="#source-71552-71600">の乗ずるところともなるが、しかし</seg><ruby type="furigana" rend="right" source="#source-71600-71630"><rb>経世家</rb><rt>けいせいか</rt></ruby><seg source="#source-71630-71721">も大政治家もそれを前提した上で、政治の術を考えねばならぬ。</seg></p>
+      </div>
+      <div type="layout" source="#source-71721-71824" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-71742-71820"><seg source="#source-71742-71766">２　指導者と大衆</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-71824-72054">そこで政治では必ず少数の指導者と多数の大衆とが分化する。これは政治現象における不変の法則の一つである。この指導者がすなわち政治家といわれるものである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-72054-72177">大衆は自分で目的的、論理的に行動できるものではない。大衆は一般に受動的、消極的、</seg><ruby type="furigana" rend="right" source="#source-72177-72198"><rb>怠惰</rb><rt>たいだ</rt></ruby><seg source="#source-72198-72204">的、</seg><ruby type="furigana" rend="right" source="#source-72204-72225"><rb>惰性</rb><rt>だせい</rt></ruby><seg source="#source-72225-72474">的な性質を持つもので、通常は生計をはかることで精力を費やし、一定の財産を持って安定した生活ができれば、だいたいはそれで満足している。政治問題を検討したり実践したりする</seg><ruby type="furigana" rend="right" source="#source-72474-72495"><rb>余裕</rb><rt>よゆう</rt></ruby><seg source="#source-72495-72669">も関心も少ないし、支配や行政に必要な特別の能力も訓練も持たない。そこに必然に要求されるのが指導者である。大衆は余程の</seg><ruby type="furigana" rend="right" source="#source-72669-72690"><rb>刺戟</rb><rt>しげき</rt></ruby><seg source="#source-72690-72717">か危険でもない限り</seg><ruby type="furigana" rend="right" source="#source-72717-72729"><rb>起</rb><rt>た</rt></ruby><seg source="#source-72729-72801">ち上がることはないが、かりに起ち上がって暴動なり</seg><ruby type="furigana" rend="right" source="#source-72801-72822"><rb>一揆</rb><rt>いっき</rt></ruby><seg source="#source-72822-72984">なりの行動を起す場合でも、その背後には必ず指導者がいる。大衆は強く賢明な指導者に率いられるときは恐るべき力を</seg><ruby type="furigana" rend="right" source="#source-72984-72999"><rb>揮</rb><rt>ふる</rt></ruby><seg source="#source-72999-73055">うが、指導者のない大衆は無力である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-73055-73415">民主政では理念としては、人民の主権や民意の絶対性ということが前提されてはいるが、現実の政治過程では、国民の自己支配とか自治ということを、文字通りに実現することは、技術的にも組織的にもほとんど不可能である。選挙で代表者を選ぶ場合でも、大衆が</seg><ruby type="furigana" rend="right" source="#source-73415-73439"><rb>選択</rb><rt>せんたく</rt></ruby><seg source="#source-73439-73484">の自由を完全に持つということは</seg><ruby type="furigana" rend="right" source="#source-73484-73499"><rb>稀</rb><rt>まれ</rt></ruby>で、一定の組織と手続で制約され、多くはその意思に沿わぬ者を「選ばされる」のである。民主主義の理念が何であれ、その現実では「組織」に伴う固有法則があって、必ず指導する少数者と指導される大衆が分化する。組織の運営には特別の能力を必要とし、そこに分業化、専門化、官僚化が不可避となるのである。これは国家のような巨大な組織はもちろんだが、小さな政治クラブでも、社会民主主義を唱える政党でも、労働組合でも、多かれ少なかれ同じように働いている法則である。ミヘルスが「<ruby type="furigana" rend="right" source="#source-74180-74210"><rb>寡頭政</rb><rt>かとうせい</rt></ruby>の鉄則」といい、マックス・ウェーバーが「少数者原理」というのが、正にこのことである。ルッソーは指導者や代表者を否定しているが、それでもなお「多数者が統治し少数者が統治せられるのは自然秩序に反する」と認めざるを得なかったのも、この法則のためである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-74581-75651">このようにして生じた指導者は、だんだんに社会的なグループとして固まる傾向を持つ。一度指導者になれば、組織の財政、宣伝、規律を管理し、改選のときにも通常は再選の慣習権が生れる。指導者に選ばれた者は、初めは善良な意図を持っていても、だんだんに権力に伴う法則に感化される。権力意識は虚栄心と自大心を生み、支配者意識を身につけて、再び元の大衆層に帰ることを欲しなくなるのである。このようにして指導者意識を持ち、一つの社会的グループとして結合された指導者が、無組織の大衆を支配するのである。組織がなければいかに多数でも、実質は一人一人にすぎないからである。一人の君主の支配とか、人民大衆の支配とかいうものは、文字通りには実在せず、君主や人民の名において現実に支配しているのは、必ずなんらかの組織を持った少数者なのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-75651-76266">支配者意識を身につけた指導者は、やがて自分を国家や、党や、組合そのものと同一視するようになり、そのような組織の権威を光背として、交替もせず過誤もない権威を持つもののごとく、自他ともに認めるようになる。そうなるとそれは支配階級として、社会的勢力を表現し、統制し、指導し、そこから支配的な政治的公式、イデオロギー、伝統を作り出す。この社会的勢力が変遷するに伴って支配階級の質も変化するが、しかし支配階級そのものが</seg><ruby type="furigana" rend="right" source="#source-76266-76278"><rb>失</rb><rt>な</rt></ruby><seg source="#source-76278-76305">くなるのではない。</seg><ruby type="furigana" rend="right" source="#source-76305-76320"><rb>旧</rb><rt>ふる</rt></ruby><seg source="#source-76320-76469">い指導者は没落しても、新しい指導者がそれに代るだけのことで、大衆そのものが指導者になるのではない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">革命は、後に述べるように支配階級の更新を伴うが、そのあとも決して大衆が勝利するのではなく、新しい支配階級が取って代るのである。ジョルジュ・ソレルはサンディカリスト革命のために論じたのであったが、革命のあとに階級のない社会主義の社会が実現されるなどという、いわゆる「科学的社会主義」の公式は断じて信じていない。彼は革命後には新しい選良が支配することを疑わないのである。ミヘルスも同じことを、「社会主義者は勝利することがあっても、社会主義が勝利することはあり得ない」と言っている。階級のない社会など不可能だという意味である。ファッシズムやナチズムと同じく共産主義も、前衛や、選良や、指導者の支配階級理論を力説している。それが革命のあとには階級のない無政府の社会になるなどというのは、人間性を無視した神話にすぎない。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-77539-78704">このように指導者と大衆との分化は、政治での不変法則の一つであるが、これは必ずしもこの両者が完全に対立の関係にあるとか、全然無関係な別個の存在だとかいう意味ではない。むしろこの両者は互いに他によって存在している不可離の関係にあって、相互に感化し合う相関関係にある。指導者が大衆の無知、怠惰性、受動性、非合理性を利用して、自分の野心をとげるという点では、両者の利害は対立するが、しかし大衆が行動性を持ち得るのは指導者によってであって、指導者は大衆の要望にも合するのである。指導者は大衆の所産であり表現ですらある。その意味では両者の利害は一致する場合も多い。国家社会そのものの安危は、指導者にも大衆にも共通の利害があるのが通常だし、指導者がその地位を有効に保持しようと思えば、ある程度まで大衆の満足と支持を得るような政策を行わねばならぬ。これらは概して大衆にとっても利益である。</seg></p>
+      </div>
+      <div type="layout" source="#source-78704-78789" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-78725-78785"><seg source="#source-78725-78740">３　政治家</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-78789-79136">政治における指導者が政治家であるが、政治家は右に説くような非合理性を多分に持った大衆を指導し、対立抗争を権力的に統合組織化して、一定の目的を実現する者であるから、聖者や、道徳家や、学者や、専門家とは異なった性格を持たねばならぬ。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-79136-79430">では一般に政治家はどのような資質を持つべきであろうかという問題になると、人生観や歴史観によって人々の見るところは雑多であるが、この点では政治史の中から支配と権力の法則を探って、政治支配者の資質を</seg><ruby type="furigana" rend="right" source="#source-79430-79475"><rb>大胆率直</rb><rt>だいたんそっちょく</rt></ruby><seg source="#source-79475-80017">に説いたものとして、今でもマキアヴェリが古典的な価値を持っている。彼の時代は十五、六世紀のことで、その時代に彼が論じたことを、そのまま現代の政治家に妥当させるわけにはゆかぬところもあるが、しかし政治の形態や社会の構造や技術などに変化はあっても、政治における人間性は本質的には大して変化していないとすれば、発現の姿は異なっても、資質の根本では共通のものがあろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">政治家の資質としてマキアヴェリが一番重視しているのは、「強さ」と「<ruby type="furigana" rend="right" source="#source-80119-80134"><rb>狡</rb><rt>ずる</rt></ruby>さ」である。強さのことを彼は「ヴィルチュ」というが、これは権力意思、野心、勇気、精力などを含めた強さのことであり、<ruby type="furigana" rend="right" source="#source-80305-80320"><rb>狡</rb><rt>ずる</rt></ruby><seg source="#source-80320-80377">さというのは、術策や、機略や、知恵や、</seg><ruby type="furigana" rend="right" source="#source-80377-80401"><rb>聰明</rb><rt>そうめい</rt></ruby><seg source="#source-80401-80407">さを</seg><ruby type="furigana" rend="right" source="#source-80407-80422"><rb>含</rb><rt>ふく</rt></ruby><seg source="#source-80422-80545">めている。彼はこの強さと狡さが結合することがたいせつだというので、それをライオンと</seg><ruby type="furigana" rend="right" source="#source-80545-80563"><rb>狐</rb><rt>きつね</rt></ruby>にたとえ、「ライオンには<ruby type="furigana" rend="right" source="#source-80599-80614"><rb>罠</rb><rt>わな</rt></ruby><seg source="#source-80614-80647">の危険があるし、狐には</seg><ruby type="furigana" rend="right" source="#source-80647-80668"><rb>狼</rb><rt>おおかみ</rt></ruby><seg source="#source-80668-80749">の危険がある。罠を発見するには狐でなければならず、狼を</seg><ruby type="furigana" rend="right" source="#source-80749-80773"><rb>追払</rb><rt>おっぱら</rt></ruby>うにはライオンでなければならぬ」というのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">マキアヴェリの重視する政治家の基本的な資格は、このような強さと狡さに帰するのであるが、政治家として成功するのには、「運」がたいせつなことを説いている。しかし彼はこの「運」を<ruby type="furigana" rend="right" source="#source-81108-81120"><rb>活</rb><rt>い</rt></ruby>かすのは結局は右にいうヴィルチュの力なので、すなわち決断力、大胆、勇気、不屈の意思力を持っていれば、「運」を敏活に<ruby type="furigana" rend="right" source="#source-81291-81306"><rb>掴</rb><rt>つか</rt></ruby>んで時勢と環境に順応できるのだという。彼は「運」を<ruby type="furigana" rend="right" source="#source-81381-81408"><rb>奔流</rb><rt>ほんりゅう</rt></ruby><seg source="#source-81408-81459">にたとえている。ひとたび奔流が荒れ</seg><ruby type="furigana" rend="right" source="#source-81459-81474"><rb>狂</rb><rt>くる</rt></ruby><seg source="#source-81474-81498">うときは、平野に</seg><ruby type="furigana" rend="right" source="#source-81498-81522"><rb>氾濫</rb><rt>はんらん</rt></ruby><seg source="#source-81522-81606">し、木々や家々を倒し、大地をも強引に押し流す。万人が恐れ</seg><ruby type="furigana" rend="right" source="#source-81606-81618"><rb>忌</rb><rt>い</rt></ruby><seg source="#source-81618-81729">むとも、いかに抗すべきやを知らない。しかしながら河川が平穏のときに、堤防や</seg><ruby type="furigana" rend="right" source="#source-81729-81744"><rb>堰</rb><rt>せき</rt></ruby><seg source="#source-81744-81786">を築き運河を掘っておくなら、</seg><ruby type="furigana" rend="right" source="#source-81786-81810"><rb>洪水</rb><rt>こうずい</rt></ruby><seg source="#source-81810-81852">となってもその暴威と破壊から</seg><ruby type="furigana" rend="right" source="#source-81852-81870"><rb>免</rb><rt>まぬか</rt></ruby>れることができる。「運」もそれに同じく、かねてからヴィルチュを養っておけば、「運」を<ruby type="furigana" rend="right" source="#source-81996-82008"><rb>活</rb><rt>い</rt></ruby>かすことができるのであって、それをしないで「運」に任せる者は必ず亡ぶというのである。</p>
+        <p>「運」を<ruby type="furigana" rend="right" source="#source-82148-82163"><rb>掴</rb><rt>つか</rt></ruby>むのにはこのように「強さ」がたいせつだが、政治家が人民に見せる外見については、正に「<ruby type="furigana" rend="right" source="#source-82289-82304"><rb>狡</rb><rt>ずる</rt></ruby>さ」がたいせつである。マキアヴェリはこの点について実に詳細で慎重である。細かくそれを述べることはできないが、要するに彼は寛大、仁義、信義、柔和、謙譲、節制、敬神、<ruby type="furigana" rend="right" source="#source-82547-82568"><rb>真摯</rb><rt>しんし</rt></ruby><seg source="#source-82568-83083">、親切、重厚などという美質は、それらを外見上持っているようにみられることは、それらの反対の性質を持っているとみられるよりは有利であるが、しかし事実においてそれらの美徳を持つことは必要でないのみならず、かえって有害だという。すなわち場合により必要があれば、これらの美徳と反対に行動し、悪徳をもなし得ることが、政治家にはたいせつだというのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-83083-83116">彼によれば、人民から</seg><ruby type="furigana" rend="right" source="#source-83116-83131"><rb>忌</rb><rt>いま</rt></ruby><seg source="#source-83131-83152">わしく思われ、</seg><ruby type="furigana" rend="right" source="#source-83152-83173"><rb>軽侮</rb><rt>けいぶ</rt></ruby><seg source="#source-83173-83743">され、不平不満を持たれることが、政治家として最も避けねばならぬことである。人民にきらわれないことが最良の城壁である。しかし人民から愛されるがよいか恐れられるがよいかというなら、一般には愛されるよりも恐れられる方が有利で安全である。しかしきらわれることだけは避けねばならぬ。きらわれないでしかも恐れられることが肝心なのである。彼はまた政治家はその周囲に優秀な人物を持たねばならぬが、</seg><ruby type="furigana" rend="right" source="#source-83743-83761"><rb>諂</rb><rt>へつら</rt></ruby><seg source="#source-83761-84156">い家はさけねばならぬという。政治家は若干の思慮ある人物を選んで、真実を忠告する自由を認めるがよいが、しかし彼自身が賢明でなければ決して良い忠言は得られぬ。良い忠言は政治家自身の賢明から生れるので、決して良い忠言によって政治家が賢明になるのではないともいっている。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-84156-84450">政治家の資質については、いろいろの人が種々に論じているが、美しいことばや理想論としてでなく、現実政治家の基本的な性格を率直にいっている限りでは、表現は異なっていても、大部分はマキアヴェリの所説に</seg><ruby type="furigana" rend="right" source="#source-84450-84465"><rb>含</rb><rt>ふく</rt></ruby><seg source="#source-84465-84759">められる。例えば健康、鉄石心、名誉心、自信、自己貫徹、優越心などがいわれるが、これらはマキアヴェリのヴィルチュをいろいろにいっただけであるし、説得力、弁説の才能、知能などがいわれるのも、前にいった</seg><ruby type="furigana" rend="right" source="#source-84759-84780"><rb>狡智</rb><rt>こうち</rt></ruby><seg source="#source-84780-84792">、機略、</seg><ruby type="furigana" rend="right" source="#source-84792-84816"><rb>聰明</rb><rt>そうめい</rt></ruby><seg source="#source-84816-84852">の資質に含めてよかろう。</seg><ruby type="furigana" rend="right" source="#source-84852-84873"><rb>輿論</rb><rt>よろん</rt></ruby><seg source="#source-84873-84885">の機敏な</seg><ruby type="furigana" rend="right" source="#source-84885-84906"><rb>把握</rb><rt>はあく</rt></ruby>とか、大衆心理の敏速な直感とか、チャンスの活用とか、カメレオンのごとき変通性とかいうのも、結局「運」に乗じ、時勢と環境に順応する力のことである。正義、博愛、識見、博学、正直、善良、無私、徳望、人気、威厳など無数の美徳が強調されるのは、多くは真実そうであることよりも、そういう印象を与えることがたいせつだという場合が多い。<ruby type="furigana" rend="right" source="#source-85386-85410"><rb>風采</rb><rt>ふうさい</rt></ruby><seg source="#source-85410-85566">や音声が意味を持つのは、正に内実の問題ではなく外見の印象のためである。この場合でも風采や音声は、必ずしも</seg><ruby type="furigana" rend="right" source="#source-85566-85596"><rb>審美的</rb><rt>しんびてき</rt></ruby><seg source="#source-85596-85838">な意味で美であることは重要ではなく、人に深く強い印象を与えることの方がたいせつであろう。政治家というものには、何か悪魔的（デモーニッシュ）な要素が含まれている。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-85838-86288">以上に指摘された政治家の資格の中でも、古い専制時代の支配者と、現代民主政の指導者とでは、重点が異なるもののあることはいうまでもない。現代の政治家の資質として重要なのは、少なくとも一つは、大規模な生産組織や、大衆運動や、労働組合に対する指導力を持つことで、広い意味での経営者的な組織力をそなえることが</seg><ruby type="furigana" rend="right" source="#source-86288-86309"><rb>必須</rb><rt>ひっす</rt></ruby><seg source="#source-86309-86357">である。また二つには、大衆心理の</seg><ruby type="furigana" rend="right" source="#source-86357-86390"><rb>把握力</rb><rt>はあくりょく</rt></ruby><seg source="#source-86390-86735">、すなわち大衆に対し説得力を持つようなスローガンやイデオロギーの形成力と表現力と宣伝力、大衆と巧みに接触する平民的親和力を持つことが、これは特に現代の民主政治家に不可欠の要件である。また三つには、国際生活の緊密化に伴って、政治家も</seg><ruby type="furigana" rend="right" source="#source-86735-86750"><rb>狭</rb><rt>せま</rt></ruby><seg source="#source-86750-86771">い一国の限界を</seg><ruby type="furigana" rend="right" source="#source-86771-86783"><rb>超</rb><rt>こ</rt></ruby><seg source="#source-86783-87049">えて、大地域的または国際的な行動力と組織力を得ることが、たいせつな資質となりつつある。政治家に必要な根本性格は以前と大差はないとしても、その現れ方は著しく異なっているのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">なお政治家の中にもいろいろの型がある。「経世家」または「大政治家」（ステーツマン）と、「政治屋」（ポリティシャン）とを分けることは一般に行われているが、「改革者」と「ボス」と「指導者」という風に分ける者もあるし、その他にも「<ruby type="furigana" rend="right" source="#source-87388-87418"><rb>煽動家</rb><rt>せんどうか</rt></ruby>」、「革命家」、「デマゴーグ」などの型を挙げる者もある。これらの型を研究することは、政治家の性格を知る上に有益であるが、しかしこれらの差異を過大に評価することは必ずしも正しくない。いわゆる「経世家」にも、多かれ少なかれ政治屋やボスや煽動家の要素があるし、政治屋だのボスだのと<ruby type="furigana" rend="right" source="#source-87829-87853"><rb>軽蔑</rb><rt>けいべつ</rt></ruby><seg source="#source-87853-88165">されている者でも、独特の方法で大衆を組織化し指導しているし、それがまた社会的利益に合うことも少なくないのである。これらの型の差異は、必ずしも道徳的な善悪の差ではなく、多くは手腕や才能の差であり、マキアヴェリの</seg><ruby type="furigana" rend="right" source="#source-88165-88186"><rb>狡智</rb><rt>こうち</rt></ruby><seg source="#source-88186-88207">、策略、知恵、</seg><ruby type="furigana" rend="right" source="#source-88207-88231"><rb>聰明</rb><rt>そうめい</rt></ruby><seg source="#source-88231-88364">の問題であることが多いのである。それは政治の本質からして、むしろ当然のことなのである。</seg></p>
+      </div>
+      <div type="layout" source="#source-88364-88503" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-88385-88499"><seg source="#source-88385-88427">４　政治における人間性の向上</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-88503-88647">以上は主として政治における人間性の現実をみたのである。その非合理性や、指導者と大衆との分化や、</seg><ruby type="furigana" rend="right" source="#source-88647-88677"><rb>寡頭政</rb><rt>かとうせい</rt></ruby><seg source="#source-88677-88716">の鉄則や、政治家に多少とも</seg><ruby type="furigana" rend="right" source="#source-88716-88731"><rb>含</rb><rt>ふく</rt></ruby><seg source="#source-88731-88767">まれる悪魔的性格などを、</seg><ruby type="furigana" rend="right" source="#source-88767-88785"><rb>偽</rb><rt>いつわ</rt></ruby><seg source="#source-88785-88890">ることなしに認識することは、科学としての政治学の要請であるのみならず、</seg><ruby type="furigana" rend="right" source="#source-88890-88911"><rb>架空</rb><rt>かくう</rt></ruby><seg source="#source-88911-88914">な</seg><ruby type="furigana" rend="right" source="#source-88914-88935"><rb>欺瞞</rb><rt>ぎまん</rt></ruby><seg source="#source-88935-89148">や希望的観測の上に政策を立てないためにも不可欠である。現実の政治は、決して単に美しい理想や理念や論理や良心のみで行われているのではなく、多分に</seg><ruby type="furigana" rend="right" source="#source-89148-89175"><rb>醜悪</rb><rt>しゅうあく</rt></ruby><seg source="#source-89175-89181">で、</seg><ruby type="furigana" rend="right" source="#source-89181-89205"><rb>低劣</rb><rt>ていれつ</rt></ruby><seg source="#source-89205-89211">で、</seg><ruby type="furigana" rend="right" source="#source-89211-89235"><rb>悪辣</rb><rt>あくらつ</rt></ruby><seg source="#source-89235-89279">な側面を含んでいるのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-89279-89704">しかしながら、先にも説いたように、政治はただ現実を認識するだけで事足りるのではなく、その現実を理想に向かって引上げるところにその本質があるし、同時にそれが政治学の任務でもあるのである。いかにして政治における人間性を向上せしめるかということが、むしろ政治学の根本的な課題なのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-89704-89806">人間性の非合理的な側面のみを誇張して考える者は、結局人間性に対する</seg><ruby type="furigana" rend="right" source="#source-89806-89827"><rb>侮蔑</rb><rt>ぶべつ</rt></ruby>者で、人間性の侮蔑者はまた必ず独裁専制主義者である。現代の独裁政は、実は上にみたような人間の非合理性、指導者と大衆の分化を前提とした、支配階級や選良や前衛の理論で基礎づけられる。ムッソリーニはかつて、大衆は自由を欲せず、ただ「パンとサーカス」を欲すると公言し、ヒットラーは、大衆のことを「自然の一片」にすぎないといっている。レーニンも、大衆は少数精鋭の指導者に<ruby type="furigana" rend="right" source="#source-90367-90394"><rb>隷従</rb><rt>れいじゅう</rt></ruby><seg source="#source-90394-90504">すべきものと説いている。大衆は彼らにとっては単なる権力の道具にすぎない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-90504-90567">しかし人間は生れながら、主体性、理想性、</seg><ruby type="furigana" rend="right" source="#source-90567-90588"><rb>叡知</rb><rt>えいち</rt></ruby><seg source="#source-90588-90639">、良心、責任感を持っている。それは</seg><ruby type="furigana" rend="right" source="#source-90639-90669"><rb>唯物史</rb><rt>ゆうぶつし</rt></ruby><seg source="#source-90669-90951">観などでいうように、外部の経済環境と歴史の必然で宿命的に決定されているというようなものではない。指導者と大衆との分化は、不変的な社会法則の一つであるとしても、この両者の関係は必ずしも対立、</seg><ruby type="furigana" rend="right" source="#source-90951-90975"><rb>背反</rb><rt>はいはん</rt></ruby><seg source="#source-90975-91260">の関係ではなく、むしろ不可離の相関関係であり互いに他によって存在する交感関係である。それは指導者は指導者、大衆は大衆というような機械的な関係ではなく、人と人との生きた人格関係で、同情、共感、</seg><ruby type="furigana" rend="right" source="#source-91260-91284"><rb>悦服</rb><rt>えっぷく</rt></ruby><seg source="#source-91284-91574">、信頼によって成り立つ関係なのであって、独善的な命令や権力的強制で生れる関係ではない。すなわちそれは少なくとも指導者に呼応し感応するだけの、大衆の自発性と能動性がなくては成立できないのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">人間をただ非合理的、本能的な存在とのみみることは許されず、大衆を永久に「パンとサーカス」に甘んずるもの、何らの自発性も能動性もない「自然の一片」にすぎないものとみることはできない。人間には限りなき向上性があり、従ってまた大衆も向上性を持っている。大衆の向上によって指導者も向上し、そこにまた政治の向上と合理化がある。独裁政や専制政は大衆の無知と<ruby type="furigana" rend="right" source="#source-92093-92114"><rb>愚昧</rb><rt>ぐまい</rt></ruby>を土台にして成り立つが、民主主義は正にこのような人間の向上性を前提とし、大衆の向上と政治の合理化を信ずるところに成り立つ。ケルゼンは民主主義の純粋理念は、「指導者の否定」だといっているが、むしろ万人が指導者と同じ水準にまで向上しようとする念願の表明だというべきである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-92518-92620">事実スイス、イギリス、アメリカなどの民主国では、大衆も、指導者も、</seg><ruby type="furigana" rend="right" source="#source-92620-92641"><rb>輿論</rb><rt>よろん</rt></ruby><seg source="#source-92641-92818">も、政治も、相当に向上しかつ合理化されており、封建国家や専制国家の支配者と臣民との関係と同日の比ではない。大衆は永久に</seg><ruby type="furigana" rend="right" source="#source-92818-92839"><rb>愚昧</rb><rt>ぐまい</rt></ruby>であり、政治家は永久に悪魔的であり、政治は本質的に非合理性を持つということはできないのである。そのような意味で、指導者も大衆も含めて、「政治的人間」の理念を立てることができるし、また立てねばならない。それはなんらかの意味で政治に<ruby type="furigana" rend="right" source="#source-93181-93199"><rb>携</rb><rt>たずさ</rt></ruby><seg source="#source-93199-93217">わる人間の、</seg><ruby type="furigana" rend="right" source="#source-93217-93229"><rb>在</rb><rt>あ</rt></ruby><seg source="#source-93229-93269">るべき立場の究明である。</seg></p>
+      </div>
+      <div type="layout" source="#source-93269-93384" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-93290-93380"><seg source="#source-93290-93320">５　政治的人間の理念</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-93384-93630">政治や政策は、既に説いたように、現実の基礎に立ちながら、しかも理想の実現をはかることである。それがまた正に政治的人間の立場である。政治的人間は、その意味で何よりも</seg><ruby type="furigana" rend="right" source="#source-93630-93654"><rb>実践</rb><rt>じっせん</rt></ruby><seg source="#source-93654-93846">人であり建設人でなければならず、そのためには人格の統一と修養が不可欠である。いまここで実践の哲学や、人格統一の修養を論ずることは</seg><ruby type="furigana" rend="right" source="#source-93846-93861"><rb>省</rb><rt>はぶ</rt></ruby><seg source="#source-93861-94139">かねばならぬが、要するに大いなるパトスと、大いなるロゴスとの合一こそ、大いなる実践の前提であり、価値ある人格の統一もまたそのことにほかならず、それに向かっての修養こそ学問にほかならぬ。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-94139-94786">政治的人間は、人格の統一された建設的人間であって、建設的人間は、偏面的ではなく全面的に統一された人格でなければならぬ。およそ高踏、冷笑、傍観、逃避、批判のための批判、相互否定というような態度は、建設的人間とは無縁であり、また単なる観念的、機械的、平面的、固定的な考え方でも、実践や建設はできない。実践人ないし建設人としての政治的人間は、ハムレットでもドン・キホーテでもなく、また単なるソフィストでも単なるロマンティストでもない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-94786-94870">ソフィストは、真理と価値を否定する。しかし真理と価値が</seg><ruby type="furigana" rend="right" source="#source-94870-94900"><rb>窮極</rb><rt>きゅうきょく</rt></ruby><seg source="#source-94900-95526">において絶対だと信じ、そこまで到達しようとするのが、人間の永遠の目標なのである。このような真理と価値が存在することと、そこへ到達する可能性とを、頭から否定するなら、人間は真理や価値を追求するのをやめて、精神の破産に陥るほかはない。それが正に懐疑主義、虚無主義、デカダニズム、ディレッタンティズム、堕落した相対主義、破壊のための批判主義であり、ハムレット主義であって、それらがソフィストのゆきつかざるを得ぬ立場である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-95526-95667">これに反しロマンティストは、絶対的な真理や価値をすぐとらえることができると考え、それを自分が</seg><ruby type="furigana" rend="right" source="#source-95667-95682"><rb>掴</rb><rt>つか</rt></ruby><seg source="#source-95682-95814">んでいると主張する。しかしながら最高絶対の真理や価値は、地上の人間にとっては、ただ無限の</seg><ruby type="furigana" rend="right" source="#source-95814-95835"><rb>彼岸</rb><rt>ひがん</rt></ruby><seg source="#source-95835-96195">でのみ認識せられ得るもので、この世の中で簡単にとらえ得るようなものではないのである。もしこのような絶対的な真理と価値を認識しているという人間があったら、その人間は自分が神であるといっているか、でなければ限りなく深遠であるところの真理や価値を</seg><ruby type="furigana" rend="right" source="#source-96195-96219"><rb>冒涜</rb><rt>ぼうとく</rt></ruby><seg source="#source-96219-96365">していることにほかならぬ。それが正に喜劇的なドン・キホーテ、独善的なロマンティストの立場である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-96365-96563">人間は決して神ではないが、しかしまた野獣でもない。人間は不完全であるが、しかしまた限りない向上性を持っている。人間をただ不完全で、</seg><ruby type="furigana" rend="right" source="#source-96563-96584"><rb>侮蔑</rb><rt>ぶべつ</rt></ruby><seg source="#source-96584-97126">すべき、性悪の存在とのみみることも、人間をただ尊敬と信頼に値する性善の存在として美化するのも、ともに誤りである。一方はあまりに悲観的、宿命的な人間観であり、他方はあまりに楽観的、理想的な人間観である。人間がもし野獣のようなものなら、真理や価値を問題にする余地はないが、しかしもし人間が神のように完全なものなら、そもそも政治だの、法律だの、権力などは不要である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">既にアリストテレスが、国家を要しないものがあるとすれば、それは必ずや野獣か神だと論破している。ルッソーが意味深くいうように、「すべての正義は神からくる。神のみがその源である。しかしながらもしわれらが、このような高い所からその正義を受取り得るものなら、われらに政府の必要も法律の必要もないであろう。疑いもなく理性のみから発する普遍的な正義はある。ただこのような正義がわれら人間の間に認められるためには、それは相互的でなければならない」のである。まことに普遍的な正義と真理の存在することと、それに向かって人間が不断に向上することを、否定することはできないが、現実の人間、とりわけ政治的人間が住んでいる世界は、もっと低く、もっと不完全な、もっと相対的な世界であることを忘れてはならぬ。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-98148-98355">現実の人間が不完全でありながら、しかも真理と価値の追求をやめることができないのは、人間の担っている悲劇的なディレンマである。しかも人間は</seg><ruby type="furigana" rend="right" source="#source-98355-98382"><rb>相携</rb><rt>あいたずさ</rt></ruby><seg source="#source-98382-98415">えてこの悲劇的な道を、</seg><ruby type="furigana" rend="right" source="#source-98415-98457"><rb>欣求精進</rb><rt>ごんぐしょうじん</rt></ruby><seg source="#source-98457-98562">しなければならない。人間は次善に満足しながら、しかも常に最高善の追求を</seg><ruby type="furigana" rend="right" source="#source-98562-98583"><rb>放棄</rb><rt>ほうき</rt></ruby><seg source="#source-98583-99091">することを得ないのである。それは神でもないが野獣でもない人間、不完全ではあるがしかも無限の向上性を持つ人間が、超越的な神と物理的な自然との間にあって、人間の理想と現実を認識し、相携え相率いて、このような現実をこのような理想に向上せしめようとすることを意味する。それが政治のおかれている地位であり、すなわちまた政治的人間の立場なのである。</seg></p>
+      </div>
+      <div type="layout" source="#source-99091-99262" style="padding-inline-start: 3em">
+        <div>
+          <head n="1" source="#source-99112-99256"><seg source="#source-99112-99169">四　政治闘争の要因及び手段と統合の態様</seg></head>
+        </div>
+      </div>
+      <div type="layout" source="#source-99262-99383" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-99283-99379"><seg source="#source-99283-99316">１　政治的対立の諸要因</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-99383-99434">政治は社会内の雑多の対立、分化、</seg><ruby type="furigana" rend="right" source="#source-99434-99458"><rb>相剋</rb><rt>そうこく</rt></ruby><seg source="#source-99458-99622">、抗争を、権力を背景にして統合し組織化することであるが、それではその政治的対立の要因はどんなものであろうか。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-99622-99676">それは要するに極めて複雑な諸要因を</seg><ruby type="furigana" rend="right" source="#source-99676-99691"><rb>含</rb><rt>ふく</rt></ruby><seg source="#source-99691-100057">むので、個人的な対立もあれば、地域的な相剋もあり、思想や宗教の対立もあれば、経済上職業上の抗争もある。組合や階級の対立抗争という形をとることもあれば、政党や派閥の抗争として現れることもある。人種や民族の闘争もまた極めて重要な要因である。これらの</seg><ruby type="furigana" rend="right" source="#source-100057-100111"><rb><seg source="#source-100057-100060">各</seg><g ref="#gaiji-1-2-22" source="#source-100060-100093">〻</g></rb><rt>おのおの</rt></ruby><seg source="#source-100111-100405">の要因をとってみても、それ自身が極めて複雑で、たとえば個人的な対立といっても、能力や財産の不平等からくることもあれば、思想や性格の差からくることもあり、野心や利害の相剋から生れることもあり、個人が</seg><ruby type="furigana" rend="right" source="#source-100405-100420"><rb>連</rb><rt>つら</rt></ruby><seg source="#source-100420-100444">なっている家族や</seg><ruby type="furigana" rend="right" source="#source-100444-100468"><rb>門閥</rb><rt>もんばつ</rt></ruby><seg source="#source-100468-100662">の関係から生ずることもある。従ってこれらの政治的対立を簡単に類型化したり、ある要因だけを絶対視して考えることは正しいといえない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-100662-100863">例えば階級的な対立の要因のみを絶対視する説がある。ブルジョアとプロレタリアの絶対的宿命的な闘争を説くマルクス＝レーニン主義はその最も</seg><ruby type="furigana" rend="right" source="#source-100863-100887"><rb>尖鋭</rb><rt>せんえい</rt></ruby><seg source="#source-100887-100905">なものだが、</seg><ruby type="furigana" rend="right" source="#source-100905-100929"><rb>僧侶</rb><rt>そうりょ</rt></ruby><seg source="#source-100929-100956">や貴族などの中世的</seg><ruby type="furigana" rend="right" source="#source-100956-100983"><rb>等族</rb><rt>とうぞく</rt></ruby><seg source="#source-100983-101235">の支配を主張するシュペングラーのごときも、その一例である。古代や中世の政治闘争は、すべてが宗教闘争の姿で行われたこともあるし、人類の歴史を動かす第一義の要因を種族闘争に</seg><ruby type="furigana" rend="right" source="#source-101235-101256"><rb>見出</rb><rt>みいだ</rt></ruby><seg source="#source-101256-101417">すものは、グムプロヴィッツやラッツェンホーファーなどから、ゴビノーやヒットラーに至るまで決して少なくない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-101417-102399">これらの要因が政治闘争において有する重要さは決して無視できないが、しかしこれらの一つや二つの要因だけが絶対的で、他はこれに従属するというようにいうことは、必ずしも正しくない。社会内の対立、分化、相剋、抗争の要因はもっともっと複雑で多元的である。これを余り早急に公式論化してしもうことは、科学的とはいえない。ただしかし現代において政治闘争の舞台に上ってくる場合、階級と民族が一番重要性を持つということは、これもまた否定できない。そしてそれらの要因を組織化して政治闘争の主体となるものが政党である。個人的、門閥的、思想的、宗教的、地域的、経済的などの諸要因は、多くはそのままの形ではなく、階級、民族、政党の中に統合され組織化されて働くことになるのである。</seg></p>
+      </div>
+      <div type="layout" source="#source-102399-102496" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-102420-102492"><seg source="#source-102420-102441">２　階級と民族</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-102496-102841">階級発生の第一の原因は、団体生活のための統制や管理の職分の分化にあると考えられる。しかし更に種族闘争の結果、征服者と被征服者の関係が加わり、また財産とりわけ生産手段の所有の不平等が結合するに至って、階級の関係が権力的支配と経済的</seg><ruby type="furigana" rend="right" source="#source-102841-102868"><rb>搾取</rb><rt>さくしゅ</rt></ruby><seg source="#source-102868-102939">の性格を、明らかに伴うに至ったものとみられる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-102939-103679">政治を動かす要因として、階級の意識が極めて重要であることは否定できないが、しかし階級の対立は、本質的には共通の生活秩序または生産関係があって、その中での機能の分化とみられるべきもので、対立する側面とともに、共通の基盤の上で互いに相手の階級によって存立しているという、相互依存の側面もあることを忘れてはならぬ。すなわち階級が絶対的に対立し分裂すれば、その共通の基盤であるところの生活秩序または生産関係が崩壊することになるから、階級は対立はしても、絶対的に分裂してしもうことはできないのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-103679-103766">従って階級の対立は、マルクス＝レーニン主義のいうように、</seg><ruby type="furigana" rend="right" source="#source-103766-103790"><rb>架橋</rb><rt>かきょう</rt></ruby><seg source="#source-103790-104114">の余地のない絶対的宿命的な対立ではない。現代においてブルジョア階級とプロレタリア階級との対立は否定できないが、しかしその他にプチ・ブルジョアや、インテリや、中小農民や、中小企業家や、教員や、公務員や、事務員などという</seg><ruby type="furigana" rend="right" source="#source-104114-104138"><rb>広汎</rb><rt>こうはん</rt></ruby><seg source="#source-104138-104683">な中間層がある。これらを無理にブルジョア階級とかプロレタリア階級とかに、公式論的に片付けてしもうことはできず、むしろこれらは、対立をはらみながら、両者の間に協調と橋渡しの作用も行っている。マルクス＝レーニン主義の公式論でいうように、これらの中間階級は必ずしも没落せず、また労働者階級も必ずしもますます貧困化せず、かえって生活程度の向上を示しているのが事実である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-104683-104941">階級は必ずしも経済的原因だけで成立したとはいえず、共同生活における統制組織の必要と、社会的分業の発達による、職分の分化ということも重要な要因としているから、かりに経済的な</seg><ruby type="furigana" rend="right" source="#source-104941-104965"><rb>搾取</rb><rt>さくしゅ</rt></ruby>関係が廃止されても、必ずしもすぐに階級そのものが消滅するとは思われない。ブルジョア階級が没落しても、必ずしもプロレタリア階級が支配するのではなく、プロレタリア階級の名において別の指導者階級が、支配するにすぎないと考えられる。バーナムは、ブルジョアでもプロレタリアでもなく、技術者、経営者、官吏、組合指導者、政党指導者、軍隊指導者などという、広い意味での「経営者」階級が、現代の支配階級となりつつあると論じている。階級の内容は変化しても、政治を動かす要因としての階級が、消滅することは恐らくないであろう。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-105720-106119">ところでこのような階級の基盤をなしている共通の生活秩序ないし生産関係の、最も基本的なものが現代では民族なのである。民族の土台そのものは、原始社会の部族の発展したもので、一貫して存在していたわけであるが、古代の都市国家でも、ローマのような世界国家でも、中世の封建的な</seg><ruby type="furigana" rend="right" source="#source-106119-106143"><rb>等族</rb><rt>とうぞく</rt></ruby><seg source="#source-106143-106194">国家でも、民族意識が現実の力を持つ</seg><ruby type="furigana" rend="right" source="#source-106194-106215"><rb>契機</rb><rt>けいき</rt></ruby><seg source="#source-106215-106424">はなかったので、中世の神聖ローマ帝国や封建的身分社会が崩壊したあとで、初めて近代人の共同体の土台としての民族が自覚されるに至ったのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-106424-106715">民族は永い間、種族または人種と混同されていた。共通の血を持つという意識が、特に原始社会で極めて根強い本能的な力を有したことは否定できないが、しかし原始時代からの種族闘争で、種族の移動や、婦女の</seg><ruby type="furigana" rend="right" source="#source-106715-106742"><rb>掠奪</rb><rt>りゃくだつ</rt></ruby><seg source="#source-106742-106748">や、</seg><ruby type="furigana" rend="right" source="#source-106748-106769"><rb>奴隷</rb><rt>どれい</rt></ruby><seg source="#source-106769-106835">の売買や、氏族外結婚制などにより、血の混交は</seg><ruby type="furigana" rend="right" source="#source-106835-106859"><rb>広汎</rb><rt>こうはん</rt></ruby><seg source="#source-106859-107314">に行われていたのであって、そもそも人種を区別する科学的標準というものは、今でもまだ確立されていないのである。血の共通性ということは、多くは客観的な事実としてではなく、実はそう思っているだけの主観的な信念にほかならない。そしてそのような信念または意識は、現代では種族よりも民族の意識の中に包括されている。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">民族を構成する要素として人種、言語、宗教などが重視され、さらに国土、歴史、伝統、文化、習俗などが挙げられるが、これらがそれぞれに重要であることは否定できぬけれども、しかしこれらのどの一つの要素だけでも、民族を規定することはできない。人種が標準にならぬことは上述のごとくだし、言語でも宗教でも、異民族が同じ言語や宗教を持ち、同じ民族が異なった言語や宗教を持つ実例は少なくない。今日では宗教の自由を認めない限りは民族内の平和も保てない。また民族は「魂のふるさと」は共通にするとしても、必ずしも現実の国土を共にするとは限らず、同じ国土の上に異民族が同居することもあるし、国土を持たない民族すらあり得る。伝統とか文化とか習俗とかの要素も、それ自身が不明確な性格のものだし、民族を規定する客観的な基準とするわけにはゆかない。要するにこれらの諸要素はそれぞれ極めて重要ではあるが、どの要素だけでも民族とはならず、結局民族とは、これらの諸要素を土台として成立する、各成員に共通の運命共同の意識、すなわち他の民族からの区別の意識と、共同の生活体をなそうとする意欲とによって存在する、精神的な運命共同体だというほかない。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">民族の決定的な要素は、このような集団の意識であり意欲であるから、民族は永久に固定するものではなく、変化し発展するものである。その意味で国家に組織化された「国民」とは別物だし、各民族の構成要素や意識の強弱も様々である。異民族の不断の接触と融合の中から、別の新しい民族が生成することも不可能ではない。独立の国家を持とうとする欲求は、民族に内在する最も根深い本能であり、独立国家を持たない少数民族でも、少なくとも民族の自律への欲求は、ほとんど奪うことのできないものであると同時に、たとえ国家は亡びても民族は亡びない。民族は抑圧に対抗するとき最も<ruby type="furigana" rend="right" source="#source-109632-109659"><rb>強靭</rb><rt>きょうじん</rt></ruby><seg source="#source-109659-109755">であり、民族的英雄や民族の伝説は、多くは民族の繁栄よりも、相共に</seg><ruby type="furigana" rend="right" source="#source-109755-109767"><rb>嘗</rb><rt>な</rt></ruby><seg source="#source-109767-109785">めた苦しみと</seg><ruby type="furigana" rend="right" source="#source-109785-109803"><rb>闘</rb><rt>たたか</rt></ruby><seg source="#source-109803-109976">いの記念である。民族意識は、主として経済上の利害に立つ階級意識とはちがって、むしろ信仰に近い人間の魂の欲求である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-109976-110252">民族がその運命共同を意識し、その個性を自覚すると、その独自の生命を強化し、その独自の文化を発揚しようとして、まず独立の統一国家を持つことを欲求するが、それが実現されると進んで対外的に</seg><ruby type="furigana" rend="right" source="#source-110252-110279"><rb>膨脹</rb><rt>ぼうちょう</rt></ruby>することを欲求する。このような欲求が「民族主義」といわれるものである。民族が独立国家を持つ欲求は、それがすべての他の民族の同じような欲求を認めて、相互に尊重し合う平和的な国際協調主義となるなら、これを非難することはできないが、民族の野性的な生命力と膨脹の欲求が、知性と自覚によって正しく指導抑制されないときは、結局においては、個人、社会団体、少数民族の自由を無視し、国民を権力の道具と観じ、民族の名において権力者への盲従を<ruby type="furigana" rend="right" source="#source-110912-110924"><rb>強</rb><rt>し</rt></ruby><seg source="#source-110924-110954">い、そのような盲従と</seg><ruby type="furigana" rend="right" source="#source-110954-110975"><rb>犠牲</rb><rt>ぎせい</rt></ruby><seg source="#source-110975-111251">と同化を神聖な義務だとするようになるし、外に向かっては、他民族の独立を尊重せず、自国の文化の優越を誇り、他民族を征服してその文化の光に浴せしめることが、自己民族の神聖な使命だとし、世界</seg><ruby type="furigana" rend="right" source="#source-111251-111275"><rb>制覇</rb><rt>せいは</rt></ruby><seg source="#source-111275-111410">を高唱するようになるのである。それが正に民族主義が、軍国主義や、帝国主義や絶対的国家主義に</seg><ruby type="furigana" rend="right" source="#source-111410-111434"><rb>逸脱</rb><rt>いつだつ</rt></ruby><seg source="#source-111434-111457">した姿である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-111457-111984">いずれにしても、政治を動かす要因としての、民族意識の絶大な重要性を認めねばならぬ。それは同じ民族の中では、統一の力として大きな意味を持つし、異民族の混在しているところでは、分裂と抗争の大きな要素となる。さらに国際政治の領域では、民族とりわけ独立国家をなしている民族こそ、一番基本的な政治主体である。民族の要素を無視しては、現代の政治は理解できない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-111984-112107">それでは民族と階級との関係はどうであろうか。この二つのものは、まことに現代政治の</seg><ruby type="furigana" rend="right" source="#source-112107-112131"><rb>交錯</rb><rt>こうさく</rt></ruby><seg source="#source-112131-112568">し背反する二大要因である。国内では主として階級が分裂的要因で、民族が統一的要因であるが、国際関係では一般に民族は対立と分裂の要因で、階級の対立が国際的に組織化され、資本家や労働者のそれぞれの国際組織が力を持つようになると、かえって階級の方が統一的で、民族の方が対立的な要因となる場合もある。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-112568-113941">しかしながら少なくとも歴史の現段階では、何といっても民族が基本的で、階級は民族の基盤の上での分化にすぎないことを、否定することができない。前にいうごとく階級の分化そのものが、共通の生活秩序や生産関係の中で、相互に他の階級に依存し、相互にバランスを保つことによって、存立しているのであって、この共通の生活秩序ないし生産関係の土台は、少なくとも現段階では、世界や人類ではなくて国家ないし民族である。その意味で労働者階級も資本家階級も、絶対的に分裂することはできぬし、階級は民族から完全に抜け出ることはできない。労働者が資本家になったり、資本家が労働者になったりすることはできるが、日本人がスラブ人やゲルマン人になることはできない。民族の中にも階級があるというのは事実だが、しかし階級の中にも民族的対立があることも事実である。民族という概念が抽象的だというなら、資本家一般とか労働者一般とかいう概念は、それ以上に抽象的だし、資本家階級そのものの中にも、労働者階級そのものの中にも、無数の対立があることを忘れてはならぬ。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-113941-114349">民族も階級もともに否定できない社会的事実で、そのどちらにより大きな価値を認めるかは人々の考えで異なるが、しかしそのいずれの意識がより強いかということは事実によって判定しなければならぬ。そして事実において階級意識よりも民族意識の方が圧倒的に強大なことは、過去の大戦争などで</seg><ruby type="furigana" rend="right" source="#source-114349-114373"><rb>如実</rb><rt>にょじつ</rt></ruby><seg source="#source-114373-115187">に示されている。民族存亡の危機に直面すれば、階級意識は容易に後退する。階級の名においての闘争よりは、民族の名においての闘争の方が、はるかに人間の魂を奮い立たせる。本来は階級至上主義を説くマルクス主義が、レーニン＝スターリン主義で民族意識を重視するように修正されねばならなかったのは、そのことを示している。もちろん共産主義で民族がいわれるのは、ただ民族意識を利用するだけのことで、決して民族そのものの独自の価値を認めてのことではないが、しかしその意図が何であろうと、民族意識を否定しようとしても否定できないところに、大きな意味があるのである。</seg></p>
+      </div>
+      <div type="layout" source="#source-115187-115266" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-115208-115262"><seg source="#source-115208-115220">３　政党</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-115266-116246">階級や民族は、意識的に組織されたものというより、自然に発生したもので、階級そのものや民族そのものが、一つの組織体として政治闘争の主体となるというよりも、階級や民族の意識が重要な要因なのである。その意識を土台にして組合が組織されたり、国家が組織されるわけであるが、組合も国家もそもそも権力闘争を目的として組織されたものということはできない。初めから権力の獲得を目的として、一定の綱領と政策によって意識的に組織されたものは政党である。階級と民族がお互いに背反するところがあるのに対し、政党はそれ自身が別に階級や民族と背反するわけではない。政党はむしろ階級と民族との双方を基盤として組織されるのである。日常の政治闘争の舞台では、政党こそが主要な役者である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-116246-116378">政党というのは、通常は近代の議会政ないし民主政を前提としているもので、普通は徒党とか、</seg><ruby type="furigana" rend="right" source="#source-116378-116402"><rb>朋党</rb><rt>ほうとう</rt></ruby><seg source="#source-116402-116411">とか、</seg><ruby type="furigana" rend="right" source="#source-116411-116432"><rb>派閥</rb><rt>はばつ</rt></ruby><seg source="#source-116432-116849">などと区別される。政党が公党として公共利益を目的とし、あくまで選挙や議会を通じて合法的に政権を獲得しようとするもので、その組織も性格も民主的、大衆的で、言論、集会、結社などの自由を前提にし、当然に他の政党の存在を予想するものであるに対し、徒党や派閥は、極めて部分的な目的を持ち、</seg><ruby type="furigana" rend="right" source="#source-116849-116873"><rb>詐術</rb><rt>さじゅつ</rt></ruby><seg source="#source-116873-117046">や陰謀や暴力を主な手段とし、組織も性格も独裁的、非大衆的、不寛容的な私党だというのが、一般に認められる区別である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">これらの点はだいたいにおいてその通りであるが、現実の政党については必ずしも当らない。それは政党がややもすれば徒党に堕するのだともいえるが、しかし政党も本来その語源の示すごとく「部分」であるから、その組織も目的も主張も、やはり部分的であることを免れない。ただ政党は、民主政を前提として国民多数の支持を得て政権を<ruby type="furigana" rend="right" source="#source-117511-117526"><rb>握</rb><rt>にぎ</rt></ruby><seg source="#source-117526-118008">ることを目的とするから、どんなに部分的な利益を考えていても、必ずそれが国民の公共利益に合致するのだということを、国民に納得させねばならないのである。その意味では、絶対的に階級的または部分的な政党というものは、実はほんとうの政党ではない。民主政で政党という以上は、必ず同時に国民的政党という性格を持たねばならないのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">例えば労働者だけの利益とか、農民だけの利益とか、特殊の地方利益とか、宗教団体の特殊利益とか、少数民族の立場とかいうものだけを固執して、公共利益を無視し、従って国民多数の支持を得て政権を握ることを考えないものは、固有の意味の政党ではなく、むしろ「分派」とか、「フラクション」とか、「政派」とかいうべきものである。その点では、単なる<ruby type="furigana" rend="right" source="#source-118503-118527"><rb>啓蒙</rb><rt>けいもう</rt></ruby>や宣伝のみで政治に感化を及ぼすことを考え、初めから政権の獲得ということを考えない政治クラブや、結社や、その他のいわゆる「圧力団体」といわれるものと、その役割において大差はない。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-118793-119699">このように、ただ部分的な立場だけを固執し、永久の少数党として全体への統合を考えないものは、固有の意味の政党といえないが、他面いわゆる一国一党の独裁党も、ほんとうの意味の政党ではない。政党は部分的利益を全体的な公共利益にまで統合することを本質とするが、独裁党は初めから自分を全体だとして虚構する。従って独裁党は自分以外の政党をいっさい認めず、言論や集会や結社の自由を認めず、自由な国民の支持を求めて政権を握るのではなく、何かの方法で握った権力を独占して、それで国民を支配するのである。それは民主政を前提するのではなく、初めから民主政を否定しているのである。独裁党は本質的には、クーデターや暴力革命で政権を</seg><ruby type="furigana" rend="right" source="#source-119699-119723"><rb>奪取</rb><rt>だっしゅ</rt></ruby><seg source="#source-119723-120035">することを目的とする。しかしそのような条件がそなわらないときは、一時的な戦術として、民主政の寛容性を利用し、議会や選挙を利用して勢力の拡大をはかることがある。その場合には一見他の民主的な政党と異ならないように</seg><ruby type="furigana" rend="right" source="#source-120035-120056"><rb>偽装</rb><rt>ぎそう</rt></ruby><seg source="#source-120056-120140">するが、一度政権を握ったら、右にいうような独裁党の本質を</seg><ruby type="furigana" rend="right" source="#source-120140-120161"><rb>露骨</rb><rt>ろこつ</rt></ruby><seg source="#source-120161-120164">に</seg><ruby type="furigana" rend="right" source="#source-120164-120185"><rb>発揮</rb><rt>はっき</rt></ruby><seg source="#source-120185-120208">するのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-120208-120364">民主政の理念が何であれ、現代では現実にはそれは政党政治の形をとらざるを得ぬ。政党は国民大衆を組織化し、</seg><ruby type="furigana" rend="right" source="#source-120364-120385"><rb>輿論</rb><rt>よろん</rt></ruby><seg source="#source-120385-120409">を指導し、大衆を</seg><ruby type="furigana" rend="right" source="#source-120409-120433"><rb>啓発</rb><rt>けいはつ</rt></ruby><seg source="#source-120433-120547">し、政府を批判し、政策を準備し、選挙に候補者を立て、選挙運動を組織し、もって</seg><ruby type="furigana" rend="right" source="#source-120547-120571"><rb>漠然</rb><rt>ばくぜん</rt></ruby><seg source="#source-120571-120906">と前提されているにすぎない国民意思というものを、具体的に現実の形にするのに欠くことのできない機能を行う。それによって社会内のあらゆる対立分化している部分的な意思や利益が、公共の意思や利益にまで統合され組織化されるのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-120906-121431">政党が結成される要素としては、保守主義と進歩主義というような人間の心理、特定の政治家を中心とする人的な結合関係、資本主義と社会主義、自由経済と統制経済というような社会思想や経済理論、あるいは君主制や軍備や官僚や教会や教育などについての政治思想、または農業と商工業、地主と農民、資本家と労働者などの階級や職業の利害関係など、雑多なものがある。これらが</seg><ruby type="furigana" rend="right" source="#source-121431-121455"><rb>錯綜</rb><rt>さくそう</rt></ruby><seg source="#source-121455-121649">し複合しながら、政党結成の要因として作用しているのであって、既に指摘した政治的対立の諸要因が、その中に組織化されているのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-121649-122243">政党が単に社会的な対立分化をそのままに反映するだけなら、小党分立が当然である。しかし政党の本質は政権の獲得にある。民主政を前提として政権を獲得するには、小党分立は非能率であり、不合理であって、やはり二大政党の方が合理的である。そしてその二大政党は、現代では資本家、地主的な土台に立つ保守政党と、労働組合や農民組合などを基礎とする革新政党との対立に向かう傾向を持っている。その中間に先にみたような</seg><ruby type="furigana" rend="right" source="#source-122243-122267"><rb>広汎</rb><rt>こうはん</rt></ruby><seg source="#source-122267-122628">な中間層があって、それが独自の中間政党を持つこともあるが、そうでない場合は、この中間層が保守勢力に付くか、革新勢力に付くかは、保守政党と革新政党との性格や政策にかかっている。共産党は本質において民主的政党ではなく、上に述べた独裁党である。</seg></p>
+      </div>
+      <div type="layout" source="#source-122628-122743" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-122649-122739"><seg source="#source-122649-122679">４　政治闘争の諸手段</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-122743-122800">政治闘争の手段は無数だが、直接行動と</seg><ruby type="furigana" rend="right" source="#source-122800-122824"><rb>啓蒙</rb><rt>けいもう</rt></ruby><seg source="#source-122824-122889">説得との二つの方法に大別することができる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-122889-122919">直接行動の中には、</seg><ruby type="furigana" rend="right" source="#source-122919-122946"><rb>脅迫</rb><rt>きょうはく</rt></ruby><seg source="#source-122946-122949">、</seg><ruby type="furigana" rend="right" source="#source-122949-122970"><rb>威嚇</rb><rt>いかく</rt></ruby><seg source="#source-122970-122982">、暗殺、</seg><ruby type="furigana" rend="right" source="#source-122982-123003"><rb>一揆</rb><rt>いっき</rt></ruby><seg source="#source-123003-123045">、暴動、クーデターなどから、</seg><ruby type="furigana" rend="right" source="#source-123045-123078"><rb>総罷業</rb><rt>そうひぎょう</rt></ruby><seg source="#source-123078-123411">、サボタージュ、集団示威に至るまで、いろいろの手段があり、これらが極限までゆくと、内乱、革命、戦争ということになる。これに対し啓蒙説得の手段は、演説、声明、文書、ラジオ、書籍、雑誌、新聞などを通じて、討論、批判をもってする</seg><ruby type="furigana" rend="right" source="#source-123411-123432"><rb>輿論</rb><rt>よろん</rt></ruby><seg source="#source-123432-123725">指導や言論戦が主要であるが、必ずしも言論を用いず、ビラ、ポスター、プラカード、漫画、写真、映画、演劇などによる宣伝も重要である。この種の手段は、結局は選挙や議会での投票の獲得が主たる目的である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-123725-124433">このような直接行動と言論宣伝との両種の手段は、互いに併用されることが多く、直接行動にも言論宣伝が伴い、言論宣伝戦にも直接行動が伴うことがある。直接行動は最も有効な宣伝手段ですらある。専制政や独裁政の下では、言論や宣伝は自由でないから、主として直接行動にならざるを得ぬ。しかし直接行動は一般に暴力と流血を伴うから、政治闘争を合理化するため言論や宣伝の手段が採用されるようになったともいえる。そこに民主政の長所があるといってもよい。しかし民主政になっても、直接行動は必ずしも</seg><ruby type="furigana" rend="right" source="#source-124433-124454"><rb>皆無</rb><rt>かいむ</rt></ruby><seg source="#source-124454-124700">とならず、現代ではゼネストや集団デモが有力な政治闘争の手段になりつつある。そしてこれらが一見大衆の自発的運動のようにみえるときにも、必ず背後にこれを発案し、組織し、</seg><ruby type="furigana" rend="right" source="#source-124700-124724"><rb>煽動</rb><rt>せんどう</rt></ruby><seg source="#source-124724-125014">し、指導する者が存在することはいうまでもない。ゼネストやデモのみでなく、政治闘争の諸手段では、既に説いたような政治における人間、とりわけ大衆や群集心理の、非合理性が極度に利用せられるのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-125014-125227">とりわけ現代の政治手段として重要な輿論の形成、宣伝、神話などは、大衆心理の非合理性を利用した典型的なものである。ブライスも指摘している通り、</seg><ruby type="furigana" rend="right" source="#source-125227-125248"><rb>輿論</rb><rt>よろん</rt></ruby><seg source="#source-125248-125689">は三重の構造を持っているので、必ず一人または少数の発案者から発し、これを意識的に支持するより多くの人々があり、大部分の人はただそれに盲従することによって形成される。輿論は自然に生れるのではなく、作られるのである。そしていろいろの意見が輿論として社会的な圧力を持つに至るのは、意見の内容そのものの</seg><ruby type="furigana" rend="right" source="#source-125689-125713"><rb>優劣</rb><rt>ゆうれつ</rt></ruby><seg source="#source-125713-125811">よりも、言論・報道・宣伝の諸手段を利用する能力によることが多い。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-125811-125991">そのような輿論の形成のための主要な手段が、すなわち宣伝である。宣伝は要するに、自分の目的に有利なように、人々を印象づけ</seg><ruby type="furigana" rend="right" source="#source-125991-126015"><rb>誘導</rb><rt>ゆうどう</rt></ruby><seg source="#source-126015-126054">することで、必ずしも全部が</seg><ruby type="furigana" rend="right" source="#source-126054-126078"><rb>嘘言</rb><rt>きょげん</rt></ruby><seg source="#source-126078-126345">であることを意味しないが、しかし群集心理の非合理性や大衆の感情につけ込み、複雑な物事を一方的に極度に簡単化し、自分の方の利点と長所を力説し、相手の不利と弱点を強調するため、誇張や</seg><ruby type="furigana" rend="right" source="#source-126345-126372"><rb>歪曲</rb><rt>わいきょく</rt></ruby><seg source="#source-126372-126398">が伴うのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">人間の無知や非合理性や感情を、極度に利用したものが「神話」である。神話は科学的な真理である必要はない。神話は端的に大衆の激情に訴えて、直ちに行動と闘争に<ruby type="furigana" rend="right" source="#source-126629-126641"><rb>駆</rb><rt>か</rt></ruby><seg source="#source-126641-126881">り立てる力があればよいので、それが客観的な真理に合うとか、実現の可能性があるとかいうことは問題ではない。神話は計画的な大量の嘘言ですらある。要するにそれは人心を</seg><ruby type="furigana" rend="right" source="#source-126881-126902"><rb>魅惑</rb><rt>みわく</rt></ruby><seg source="#source-126902-126905">し</seg><ruby type="furigana" rend="right" source="#source-126905-126929"><rb>憤激</rb><rt>ふんげき</rt></ruby><seg source="#source-126929-127033">せしめるような、美しい言葉や強いスローガンをもって語られるのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-127033-127141">政治運動は、決して冷静な科学や知性のみでは推進できない。神話を高唱し、</seg><ruby type="furigana" rend="right" source="#source-127141-127159"><rb>駆使</rb><rt>くし</rt></ruby><seg source="#source-127159-127312">し、その心理的効果を利用するには、冷徹な知性と打算がなければならぬけれども、知性や打算だけでは、大衆を</seg><ruby type="furigana" rend="right" source="#source-127312-127336"><rb>魅了</rb><rt>みりょう</rt></ruby><seg source="#source-127336-127477">して行動に駆り立てることはできない。ここに神話の政治手段としての役割がある。神話のない運動は、</seg><ruby type="furigana" rend="right" source="#source-127477-127501"><rb>澎湃</rb><rt>ほうはい</rt></ruby><seg source="#source-127501-127859">たる活力を持つことができない。史上の革命や戦争には、必ずなんらかの神話が伴っているし、ファッシストやナチスの運動にも、共産主義の運動にも、神話が大きな役割を演じている。神話は直接行動にも不可欠だが、言論戦や宣伝戦にとっても不可欠である。</seg></p>
+      </div>
+      <div type="layout" source="#source-127859-127992" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-127880-127988"><seg source="#source-127880-127904">５　政治的統合の</seg><ruby type="furigana" rend="right" source="#source-127904-127928"><rb>態様</rb><rt>たいよう</rt></ruby></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-127992-128019">政治的に統合し、</seg><ruby type="furigana" rend="right" source="#source-128019-128043"><rb>媒介</rb><rt>ばいかい</rt></ruby><seg source="#source-128043-128376">し、組織化する手段や態様にも、また種々雑多の形態がある。政治は闘争を通じて統合してゆくことにほかならないから、上に述べた政治闘争の諸方法は、それがまた実質的に統合の手段ともなる。まだ対等の社会群として闘争する場合と、権力を</seg><ruby type="furigana" rend="right" source="#source-128376-128391"><rb>握</rb><rt>にぎ</rt></ruby><seg source="#source-128391-128483">った立場で統合する場合とでは、その現れ方が異なるだけである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">例えば「政治は力なり」ともいい、また「政治は妥協なり」ともいうが、前者は直接行動の面を見ており、後者は啓発説得の面に着目したものだといえる。「支配」と「指導」とを分けるのも同じような意味である。政治形態の中に専制政や独裁政と、民主政や議会政とを分けるのも、一方は直接行動手段の、他方は言論説得手段の、組織化された形態だといえないことはない。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">しかし政治形態として成立する場合は、生のままの闘争手段を合理化し制度化したものであるから、そこにはいろいろの象徴だとか、法的な擬制だとか、権威だとかが結合するから、統合の態様はもっと複雑である。マックス・ウェーバーは、政治的権威の態様を、「伝統的」権威、「<ruby type="furigana" rend="right" source="#source-129385-129409"><rb>天稟</rb><rt>てんびん</rt></ruby>的」権威、「合理的」権威に分け、またスメントは、政治的統合の態様を、「実体的」統合、「人格的」統合、「機能的」統合に分けている。この二人の所説は全く同じではないが、しかしほぼ似たことをいっている。すなわち伝統的権威または実体的統合というのは、国体とか伝統とか、国民性とか、さらには国旗や国歌のごとき象徴によるものであり、天稟的権威または人格的統合というのは、民族的な英雄とか、優れた経世家とか、<ruby type="furigana" rend="right" source="#source-130000-130021"><rb>畏敬</rb><rt>いけい</rt></ruby><seg source="#source-130021-130338">される君主とか、信頼される指導者などによるものであり、機能的統合または合理的権威というのは、道理のある議論とか、一般に認められた制度とか、合法的に成立した法律とか機構などから生ずる、権威または統合のことである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-130338-130440">公権力を握った立場での政治的統合手段は宣示命令手段、禁圧対抗手段、</seg><ruby type="furigana" rend="right" source="#source-130440-130467"><rb>折衝</rb><rt>せっしょう</rt></ruby><seg source="#source-130467-130482">協力手段、</seg><ruby type="furigana" rend="right" source="#source-130482-130509"><rb>収攬</rb><rt>しゅうらん</rt></ruby><seg source="#source-130509-130578">手段、教化宣伝手段という風に分けることもできる</seg><hi rend="font-size small(1)" snh:layout-kind="font-size" snh:layout-params="size-type=small;level=1" source="#source-130578-130662"><seg source="#source-130578-130599">（大石兵太郎）</seg></hi><seg source="#source-130662-130806">。宣示命令手段というのは、法律や命令や規則や告示などによって社会的規範を示し、心理的な拘束または</seg><ruby type="furigana" rend="right" source="#source-130806-130827"><rb>威嚇</rb><rt>いかく</rt></ruby><seg source="#source-130827-131193">をもってすることであり、禁圧対抗手段というのは、武力や警察力や裁判や行刑などによる直接の強制であり、折衝協力手段というのは、交渉や話し合いや妥協によることであり、収攬手段というのは、利益や恩恵を施し、金銭や恩賞や栄誉や地位を与えて、人心を収攬し</seg><ruby type="furigana" rend="right" source="#source-131193-131220"><rb>懐柔</rb><rt>かいじゅう</rt></ruby><seg source="#source-131220-131340">することであり、教化宣伝手段というのは、宗教や道徳に訴えたり、文芸を利用したり、</seg><ruby type="furigana" rend="right" source="#source-131340-131361"><rb>輿論</rb><rt>よろん</rt></ruby><seg source="#source-131361-131510">を形成または統制したり、宣伝をしたり、教育を通じたりして誘導、教化、勧奨、指導を与えることである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-131510-132201">このように政治的統合のための手段・態様・組織にはいろいろのものがあるけれども、政治の本質が対立分化を統合して、一定の目的を実現するにある点は変らない。政治力というのは、前に述べたような政治家の資質をもって、右に説くようないろいろの統合手段を用い、対立や抗争を統合組織化し、政治目的を実現する力のことにほかならぬ。しかしどのような政治統合の形態や原理が、最も有効であるかということは、それぞれの社会的基礎と時代と人によることで、抽象的に論ずることはできない。</seg></p>
+      </div>
+      <div type="layout" source="#source-132201-132318" style="padding-inline-start: 3em">
+        <div>
+          <head n="1" source="#source-132222-132312"><seg source="#source-132222-132252">五　政治の社会的基礎</seg></head>
+        </div>
+      </div>
+      <div type="layout" source="#source-132318-132445" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-132339-132441"><seg source="#source-132339-132375">１　政治原理と社会的基礎</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-132445-132697">すべて政治上の原理や制度は、常にその基盤が現実の条件にあるから、現実条件の変化とともに政治の立場もまた変化する部分がある。正義とか理想とかの観念そのものは、永久不変で</seg><ruby type="furigana" rend="right" source="#source-132697-132733"><rb>普遍妥当</rb><rt>ふへんだとう</rt></ruby><seg source="#source-132733-132877">であっても、その正義や理想の具体的内容や、政策や、制度には、いつでもどこでも妥当するというものは</seg><ruby type="furigana" rend="right" source="#source-132877-132892"><rb>稀</rb><rt>まれ</rt></ruby><seg source="#source-132892-133354">である。政治の最小限の任務は、社会内の対立や分化を統合して、一体的な団体の意思と秩序を作り出すことであるが、このような目的に最もよく適合する政治原理というものは、普遍的、抽象的、絶対的にどこでもいつでも妥当するものではなく、時と所との関係で、具体的、相対的に考えねばならぬ。その意味で政治原理は、とりわけその</seg><ruby type="furigana" rend="right" source="#source-133354-133366"><rb>拠</rb><rt>よ</rt></ruby><seg source="#source-133366-133437">って立つ社会的基礎を抜きにしては理解できない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">しかしいうまでもなく、ほんとうに具体的な社会関係を、学問の上でいちいち取り上げて論ずることはできないから、社会関係の定型について考察するほかはない。実際の社会はもっともっと複雑であることを忘れてはならぬが、そのような意味で社会の定型を見るには、テンニースが立てた「共同体」（ゲマインシャフト）と、「利益社会」（ゲゼルシャフト）の定型が役に立つ。しかしこの二つだけでは、政治原理の究明に不充分なので、この二つの中間にもう一つの型を考える必要がある。それをかりに「協成社会」と名づけておく。このような三つの社会型につき、それぞれ最もよく適合する政治原理を考えると、次のようにいえるであろう。</p>
+      </div>
+      <div type="layout" source="#source-134321-134482" style="padding-inline-start: 1em">
+        <div>
+          <head n="3" source="#source-134342-134480"><seg source="#source-134342-134396">（イ）共同体――表現と本能的全員一致</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">共同体というのは、その成員が対立や分化を自覚しないで、全体の中に没入し、おのずから一体性が成り立っているような社会のことで、このような社会では、団体の意思は「本能的全員一致」の形で、<ruby type="furigana" rend="right" source="#source-134758-134782"><rb>相剋</rb><rt>そうこく</rt></ruby><seg source="#source-134782-134785">や</seg><ruby type="furigana" rend="right" source="#source-134785-134806"><rb>摩擦</rb><rt>まさつ</rt></ruby>なしに自然に成立する。原始的な社会では、団体の意思を決めるのに、「神意の啓示」とか、「歓声」とか、「武器を打合う音」とかによったことが伝えられているが、これらは根本で「本能的全員一致」の表現だとみることができる。このような社会では、成員はテンニースのいう「本質意思」で結ばれ、生れながら全体の中に没入しているから、どの成員の行為も外部に対しては、団体そのものの行為として認められる。すなわちすべての成員が団体の意思を「表現」しているのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-135471-135816">共同体の中にも血縁共同体、地縁共同体、精神共同体などがあるが、それらには必ず中心になる人格がある。血縁共同体での父、地縁共同体での領主、精神共同体での教師または師匠などがそれである。このような中心人格は絶対的な権威をもって成員に</seg><ruby type="furigana" rend="right" source="#source-135816-135831"><rb>臨</rb><rt>のぞ</rt></ruby><seg source="#source-135831-136020">むのであるが、しかしそれが共同体である限りは、この中心人格は団体の全成員と人格的に結ばれていて、成員は魂をもってこの中心人格に</seg><ruby type="furigana" rend="right" source="#source-136020-136041"><rb>帰一</rb><rt>きいつ</rt></ruby>するような関係にある。それは強制とか権力とかによる服従とはまるで異なるから、専制者とか独裁者という概念はあてはまらない。むしろこのような社会は、それこそ「自然にして治まる」という姿を呈し、権力や法律よりも宗教的道義的な規律で、秩序が保たれているわけである。その意味で政治そのものが、このような社会には存在しないといってもよく、民主政とか専制政とかの概念は、ここではあてはまらないのである。</p>
+      </div>
+      <div type="layout" source="#source-136625-136792" style="padding-inline-start: 1em">
+        <div>
+          <head n="3" source="#source-136646-136790"><seg source="#source-136646-136703">（ロ）利益社会――代理と計算的全員一致</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">これに反し、テンニースのいう「<ruby type="furigana" rend="right" source="#source-136840-136876"><rb>選択意思</rb><rt>せんたくいし</rt></ruby>」で成り立っている利益社会は、私的な個人が一定の目的または利益のために「作り上げた」社会で、成員はその生活と利益の限られた一部だけでこれに参加しているから、その団体意思は、全成員の意思を平均または総計した上で作らねばならない。すなわちそれは「計算的全員一致」で、同じ全員一致といっても、共同体での「本能的全員一致」とは両極的に異なる。「本能的全員一致」では、反対意思はないし、かりにあっても全員一致への本能的欲求によって圧倒されるのだが、「計算的全員一致」では、一人一人の意思を計算し、一人でも反対があれば、団対意思は成立しないのである。このような利益社会で通常「多数決」が認められても、その前提に必ず自然法説でいう全員の「原始契約」というものがある。すなわち「多数決」でやるということ自身が、あらかじめ「計算的全員一致」で認められねばならない。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-137997-138291">このような社会では、存在しているものは根本では個人個人だけで、成員は生活と利益の一部だけでそれに参加しており、いつでも自由に社会関係を解消しまたは脱退してもよいから、この団体の意思を外に向かって</seg><ruby type="furigana" rend="right" source="#source-138291-138306"><rb>担</rb><rt>にな</rt></ruby>う者も、一定の目的と利益の限界の中で、成員のために事務を管理し取引を行い、営利をはかるところの、「代理」の原理の上に立っている。成員の行為のため全員が宿命的に責任を負う「表現」という原理は、ここでは問題にならない。だからこの総計的「代理人」は、「命令委託」や「指令」に服し、権限を超えた行為は無効で、それによって成員に損害を与えれば賠償の義務があり、いつでも「<ruby type="furigana" rend="right" source="#source-138846-138867"><rb>罷免</rb><rt>ひめん</rt></ruby>」（リコール）されることができる。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-138920-139139">このような社会には、成員がどうしても共同生活をしなければならぬという本質的な結合関係はないから、いわば潜在的に無政府の社会である。例えば一体的な</seg><ruby type="furigana" rend="right" source="#source-139139-139166"><rb>紐帯</rb><rt>じゅうたい</rt></ruby><seg source="#source-139166-139927">というものはなくて、個人的、階級的、宗教的、民族的な分化と対立だけがあるような社会は、このような社会関係に立っているといってよい。そこでこのような社会でそのような分化と対立を統制し、統一秩序を保つのに、どうしても権力行使を前面に出さねばならぬという場合には、そこに専制政という形態が必然となる。社会の成員が無知で素朴で、分化や対立を意識しないようなところでも、治者と被治者との関係が征服から生れたり、階級的な基礎の上で成立している場合には、やはり共同体的な結合関係はないので、専制政の形をとらざるを得ない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-139927-140508">すなわち専制政というのは、その成員が一体性も共同責任も自覚しない潜在的無政府状態に対して必要なもので、これを人格的な魂の結合関係でできている共同体の原理と混同するのは、根本的に誤りである。共同体で成員が全体に結びつくのは、権力での強制や抑圧によるのではなく、むしろそれによって成員の人格が完成されるような精神的結合なのである。こういうところに権力的な専制が存在する余地はないのである。</seg></p>
+      </div>
+      <div type="layout" source="#source-140508-140651" style="padding-inline-start: 1em">
+        <div>
+          <head n="3" source="#source-140529-140649"><seg source="#source-140529-140574">（ハ）協成社会――代表と多数決</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">右に説くような完全な共同体でも、純粋な利益社会でもなく、むしろこの二つの社会関係の中間にある社会型を「協成社会」というなら、これはすなわち利益社会とはちがって、一体的な共同生活の前提があり、成員はそれを離れることはできないのだが、しかしまた共同体のように単に全体の中に没入しているというのではなく、各成員は分化も対立も意識し、自分の自我と生活を持っているような社会のことである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">このような社会で、いろいろの意思の対立と分化を統合する原理として妥当するのが「多数決」であり、その団体の意思を<ruby type="furigana" rend="right" source="#source-141391-141406"><rb>担</rb><rt>にな</rt></ruby>う原理が「代表」である。これらの意味は、一方では共同体の「本能的全員一致」と「表現」の原理に対立し、他方では利益社会の「計算的全員一致」と「代理」の原理に対立する。すなわち「多数決」と「代表」の原理は、完全な共同体のように、対立や分化がなくて自然に一体性が成り立つところの原理でもないが、さればとてまた利益社会のような、一体的な共同生活の必然はなくて、ただ個人個人の意思の平均または総計で作り出されるような社会の原理でもない。それはむしろ個別や分化や対立はありながら、しかも一体的な共同生活が不可欠な前提である社会で、その分化や対立を立体的に公の一体にまで統合する原理なのである。ここでは一体的な意思と秩序の必要なことが初めから前提されているのだが、その内容は、成員の意思と人格の参与を通じて、統合的に決定されるのである。このような「多数決」と「代表」の原理を中心にして成立する政治形態が、正に「民主政」なのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-142632-143569">このような社会的基礎では、分化や対立があっても、それは共同体的な土台の上での分化や対立である。それを忘れてただ分化と対立の側面だけを重視し、一体的な共同生活の側面を無視すると、それが無政府主義に堕することであり、反対に、社会の中に現に存在している分化や対立を無視し、勝手に団体の意思を専断的に決めて、それを権力で成員に押しつけるなら、それがすなわち専制主義に陥ることにほかならない。無政府主義も専制主義も、このような社会では永く存在することはできぬ。ここでは民主主義こそ最も妥当な原理である。一般に近代国家は、このような協成社会的な基礎の上に立っており、そこに近代国家の政治形態として民主政が妥当する理由もあるのである。</seg></p>
+      </div>
+      <div type="layout" source="#source-143569-143684" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-143590-143680"><seg source="#source-143590-143620">２　政治制度の相対性</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-143684-143831">政治の原理や制度は、社会的基礎を離れて抽象的に論じ得ないこと、右に説くごとくであるが、さらに心に</seg><ruby type="furigana" rend="right" source="#source-143831-143846"><rb>留</rb><rt>とど</rt></ruby><seg source="#source-143846-144004">めておかねばならぬのは、どんな政治制度でも絶対万能で完全無欠なものなどは、存在し得ないということである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-144004-144091">既に述べたように、政治の中には複雑で背反する人間の性情が</seg><ruby type="furigana" rend="right" source="#source-144091-144106"><rb>含</rb><rt>ふく</rt></ruby>まれている。政治が、パスカルのいう「天使でもなく野獣でもない」人間の現象であり、ゲーテのいうように、「天よりは最も美しい星を求め、地よりは最も大なる快楽を求める」ところの人間性の反映である以上、それは当然のことである。ただ欲望と本能だけで行動する人間も少ないであろうが、ただ理性と良心のみで行動する人間もないであろう。従ってこのような人間の多数が集って営んでいる政治が、一つや二つの純粋理念で成立するということはあり得ず、政治はむしろ理想と現実、進歩と保守、連帯と闘争、個人性と社会性、遠心力と求心力、パトスとロゴスというような、あらゆる二元的な要素の結合にほかならない。この故に政治の「理」は、一つや二つの純粋理念で、形式論理的に筋が通っているということにあるのではなく、相反する人間の性情を調和させ、人間の感情も、本能も、弱さも、不完全さも含めた上での「道理」でなければならないのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-145296-145371">政治制度は、まさにこのように複雑で不完全で矛盾に</seg><ruby type="furigana" rend="right" source="#source-145371-145383"><rb>充</rb><rt>み</rt></ruby><seg source="#source-145383-145803">ちた人間の性情の表現なのである。初めはどんなに美しい理念から発したものでも、ひとたび現実の制度になると、雑多の非合理的な要素が結びつく。理想や理念がそのままに制度化されるなどということはないのである。だから現実の制度に完全無欠で万能というものはあり得ない。政治制度は、性急、独断、</seg><ruby type="furigana" rend="right" source="#source-145803-145824"><rb>偏頗</rb><rt>へんぱ</rt></ruby><seg source="#source-145824-145964">な態度で評価されてはならぬので、広い立場で比較的にみないと、小児病的な誤りを犯すことになる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">かつてアレキサンドリアのギリシア文献の図書館を焼いたモハメットは、「もしこの図書館の書物がコーランと同じことを書いたものなら無用だし、そうでないなら有害だ」といった。フランス革命のときアベ・シエスがこの論法をまねて、「もし上院が下院に同意するなら無用だし、反対するなら有害だ」といって、一院制を主張した。こういうのが正に小児病的な誤りを犯しているものである。モハメットの論理は、コーランが宇宙の真理を包括しつくして、絶対に誤るところがないという前提でのみ認められることだし、アベ・シエスの論法は、下院が絶対に過ちを犯すことなく、また下院以外に絶対に正しいものはないという前提が成り立たない限り、是認することはできない。人間の制度にそのような絶対的なものはあり得ない。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">政治制度は常に相対的な長短を含むのであって、完全な制度と不完全な制度、良い制度と悪い制度という風に、一概に判定し得るものでは決してない。だから昔からいろいろの政体について、その長所と短所を論じた者は多いが、君主政や貴族政には一つも長所がなく、民主政には一つも欠点がないなどといった者は少ない。人間の弱さや不完全さに基づく欠点は、どんな制度にも必ず伴うから、完全か不完全か、善か悪かというのではなく、常にむしろ「より善いか」「より悪いか」というように、相対的に評量されねばならない。要するに政治制度に絶対万能で完全無欠で、永久に不変だというものはないのである。</p>
+      </div>
+      <div type="layout" source="#source-147812-147909" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-147833-147905"><seg source="#source-147833-147854">３　進化と革命</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-147909-148142">すべての政治秩序は、その社会的基礎を離れては存在しないし、完全無欠というものもないから、それはまた永久に固定するものではなく、不断に変化するものである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-148142-148217">ところでこのような変化の態様に、合法的、平和的、</seg><ruby type="furigana" rend="right" source="#source-148217-148241"><rb>漸進</rb><rt>ぜんしん</rt></ruby><seg source="#source-148241-149026">的なものと、非合法的、暴力的、激発的なものとがあって、一般に前の方を進化、改革、改良などといい、後者を革命という。同質的な社会的基礎があって、人間の基本的な欲望が過度に抑圧されず、平和的な変革の機構が確立されており、支配階級が賢明で適応性を持ち、支配階級への門戸が適当に開放されているような社会では、進化や改良が順調にみられるけれども、それと反対に社会に鋭い対立と矛盾があり、人間の本能や欲望が絶望的に抑圧され、専制的な制度が固定し、支配階級が適応性を欠き、その地位が閉鎖的で独占的であるような社会には、革命が必然となる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-149026-149446">革命という語は、広い意味では雑多に用いられるが、正確には、現存秩序の急激で基本的な変革のことである。フランス革命やロシア革命がその典型的なもので、それは支配階級の更新とともに、政治的公式や支配的なイデオロギーの変革と結合する。従ってそれは単なる破壊や暴動とちがうし、単なる政権の</seg><ruby type="furigana" rend="right" source="#source-149446-149470"><rb>更迭</rb><rt>こうてつ</rt></ruby><seg source="#source-149470-149524">やクーデターとも異なる。単なる国王の</seg><ruby type="furigana" rend="right" source="#source-149524-149548"><rb>放逐</rb><rt>ほうちく</rt></ruby>だけをもって「人的革命」とか「<ruby type="furigana" rend="right" source="#source-149593-149617"><rb>易姓</rb><rt>えきせい</rt></ruby>革命」とかいうが、それだけでは真の革命ではない。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-149691-150111">革命は現存秩序の根本的変革であるから、現行法秩序は初めから破壊すべき対象とされ、従って革命は現行法からみれば本質的に非合法である。革命に反抗する勢力が微弱な場合には、必ずしも暴力行使を伴わない場合も考えられるが、しかし革命の本質は暴力革命にある。革命は社会内の矛盾や不満や不安が</seg><ruby type="furigana" rend="right" source="#source-150111-150135"><rb>鬱積</rb><rt>うっせき</rt></ruby><seg source="#source-150135-150171">した結果、一定の導化線で</seg><ruby type="furigana" rend="right" source="#source-150171-150195"><rb>勃発</rb><rt>ぼっぱつ</rt></ruby><seg source="#source-150195-150270">するから、実際は相当に永い間にだんだんとその原因が</seg><ruby type="furigana" rend="right" source="#source-150270-150353"><rb><g ref="#gaiji-3-1-92-88" source="#source-150270-150329">醞</g><seg source="#source-150329-150332">醸</seg></rb><rt>うんじょう</rt></ruby><seg source="#source-150353-150533">されるのではあるが、しかし革命そのものは激発的で、激しい破壊行為と神話や暴力が伴い、テロと流血をもって一挙に根本的変革を</seg><ruby type="furigana" rend="right" source="#source-150533-150545"><rb>遂</rb><rt>と</rt></ruby><seg source="#source-150545-150571">げるものである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">旧秩序の破壊にも、破壊の後の新しい秩序の建設にも、必ず新しい指導者階級が組織されねばならぬ。革命がどんな神話やスローガンで行われたとしても、革命後に階級のない平等の社会が実現されるなどということは考えられない。革命は多く「平等」をスローガンにするが、その実は特権階級の特権を、自分らが奪取しようとするのである。ブルジョア階級が封建的特権を攻撃し、労働者階級がブルジョアの特権を非難するのも同じことである。新しく特権を獲得するのは、常に大衆ではなく少数の指導階級である。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-151278-151356">現存秩序での特権階級やそれに満足している者は革命を</seg><ruby type="furigana" rend="right" source="#source-151356-151380"><rb>排撃</rb><rt>はいげき</rt></ruby><seg source="#source-151380-151434">するし、不満な者や被抑圧階級はそれを</seg><ruby type="furigana" rend="right" source="#source-151434-151455"><rb>讃美</rb><rt>さんび</rt></ruby><seg source="#source-151455-151755">するのが常である。革命は人間の社会に必然不可避だという説もある。しかし社会的変革は必然で不可避であっても、革命が必然不可避だとはいえない。前に述べたように一定の社会条件があるところでは、もっと平和的で</seg><ruby type="furigana" rend="right" source="#source-151755-151776"><rb>犠牲</rb><rt>ぎせい</rt></ruby><seg source="#source-151776-152023">の少ない進化または改良の方法が可能である。そしてできれば革命よりもこの方が望ましい。そこに政治の合理化の課題があり、そこにまた民主政の本質的な意義があるのである。</seg></p>
+      </div>
+      <div type="layout" source="#source-152023-152156" style="padding-inline-start: 5em">
+        <div>
+          <head n="2" source="#source-152044-152152"><seg source="#source-152044-152083">４　政治的変革の法則と要因</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">歴史的発展の法則を探究していろいろの説が述べられている。例えばメインは「身分から契約へ」という発展法則を説き、テンニースは「共同体から利益社会へ」という法則を説く。エンゲルスは、野蛮時代、未開時代、文明時代という発展段階を説いたモルガンの説を土台にして、集団結婚から一夫一婦へ、共産制から私有化へ、母権社会から父権社会への発展を説いているし、アリストテレスが一人の支配から少数の支配へ、少数の支配から多数の支配への発展を説いているのも、この種の仮説の一つといえるであろう。これらはほんの一例にすぎぬ。更にそのような歴史的発展や政治的変革を<ruby type="furigana" rend="right" source="#source-152966-152984"><rb>促</rb><rt>うなが</rt></ruby><seg source="#source-152984-153166">す要因についても、それを一義的に種族闘争に求めたり、あるいは階級闘争に求めたりする説のあることは、前に述べた通りである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-153166-153619">ところでこれらの発展法則論や変革要因論には、それぞれ一面の真実が含まれていることを否定できないが、しかし人間社会の発展の法則や政治的変革の要因を、一元的に規定してしもうことは、余りにも単純で抽象的な誤りを犯す危険があることを、よほど警戒する必要がある。現実の発展はもっともっと複雑で、多元的な諸要因の</seg><ruby type="furigana" rend="right" source="#source-153619-153643"><rb>錯雑</rb><rt>さくざつ</rt></ruby><seg source="#source-153643-153901">した相互関係に立っていることを忘れてはならない。それは既に説いたように人間そのものが、宿命的に外部の条件や歴史の必然だけで決定されているものでなく、主体性と創造性と理想性と</seg><ruby type="furigana" rend="right" source="#source-153901-153922"><rb>叡知</rb><rt>えいち</rt></ruby><seg source="#source-153922-153943">を持ち、環境に</seg><ruby type="furigana" rend="right" source="#source-153943-153961"><rb>育</rb><rt>はぐく</rt></ruby><seg source="#source-153961-154224">まれながら自ら環境を作り、歴史を伝承しつつしかも自ら歴史を創造するものであることからくる、当然の結果なのである。それを無理に一元的な法則にしてみても、事実に合わないのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">マキアヴェリが、運命に対する人間の主体的努力の意義を説いたことは、既に指摘したが、ルッソーが、「<ruby type="furigana" rend="right" source="#source-154371-154386"><rb>凡</rb><rt>すべ</rt></ruby>ての権威は神からくるということは認めてもよい。しかしそれなら一切の病気もまた神からくるのだ。神が源だからとて、病気のとき医者を呼んではいけないというのか」と言った言葉は、人間生活がすべて神の<ruby type="furigana" rend="right" source="#source-154671-154692"><rb>摂理</rb><rt>せつり</rt></ruby><seg source="#source-154692-155076">で宿命的に決定されていると説く者に対する痛烈な皮肉であるが、これはそのまま唯物史観その他の一元的決定論に対しても妥当する。すべてが予定された宿命的法則で決定されており、その中では人間の主体性も理想性も創造性も働く余地はないというなら、社会制度や人間生活での</seg><ruby type="furigana" rend="right" source="#source-155076-155088"><rb>善</rb><rt>よ</rt></ruby><seg source="#source-155088-155223">いものも悪いものも一切を含めて、宿命的な法則の現れとみるべきで、それなら社会改革を要請する</seg><ruby type="furigana" rend="right" source="#source-155223-155244"><rb>契機</rb><rt>けいき</rt></ruby><seg source="#source-155244-155297">など、どこからも生れる余地はない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)">例えば「身分から契約へ」、「共同体から利益社会へ」という傾向はたしかにあるが、しかし一元的にそのように発展するというよりも、これらの異なった関係が多かれ少なかれ同時に存在しているのである。一人の支配から少数の支配を経て多数の支配へというのも、公式やイデオロギーの変化をいうなら、たしかにそういえないではないが、しかし社会の現実では、名目が何であれ常に少数が支配している。生産力の発展や経済的矛盾だけを一元的にいうだけでは、例えば武器や戦争方法の変化、宗教の<ruby type="furigana" rend="right" source="#source-155984-156008"><rb>勃興</rb><rt>ぼっこう</rt></ruby><seg source="#source-156008-156097">、科学技術上の新発明などによる変革は、充分に説明できない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-156097-156322">学問はもとより仮説を立てることなしには考えられないから、これらが一応の仮説としてはそれぞれに意義がある。しかし仮説は不断に現実の事実によって修正され</seg><ruby type="furigana" rend="right" source="#source-156322-156343"><rb>補完</rb><rt>ほかん</rt></ruby><seg source="#source-156343-156778">されねばならぬ。単なる一つの仮説を絶対的に公式化し、それを動かすことのできぬ公式論の体系として築き上げ、これを盲目的に信奉して、現実がその公式に合わないと、かえって現実の方がまちがっているのだなどということになると、それは狂信であって学問ではない。学問の基礎は常に生きた現実であり、成心なく</seg><ruby type="furigana" rend="right" source="#source-156778-156820"><rb>虚心坦懐</rb><rt>きょしんたんかい</rt></ruby><seg source="#source-156820-157293">にその生きた現実と取組むことこそ、学問的態度なのである。歴史的発展や政治的変革の要因が一元的ではなく、多元的な諸要因の複雑な相互関係だというのは、一元的に割り切った公式を示すことはできないが、しかしそれが実は主体性を持った人間の現象に伴う当然の結果だとすれば、それを素直に認めることの方が学問的だといわねばならぬ。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-157293-157335">その意味で、それが階級的な</seg><ruby type="furigana" rend="right" source="#source-157335-157359"><rb>搾取</rb><rt>さくしゅ</rt></ruby><seg source="#source-157359-157482">や抑圧からくるものであれ、大衆の欲望の禁圧からくるものであれ、要するに社会的不満が</seg><ruby type="furigana" rend="right" source="#source-157482-157506"><rb>鬱積</rb><rt>うっせき</rt></ruby><seg source="#source-157506-157665">し、または諸種の要因で社会的変化が進行しているのに、支配階級や政治の機構やイデオロギーがそれに適応できず、</seg><ruby type="furigana" rend="right" source="#source-157665-157686"><rb>硬化</rb><rt>こうか</rt></ruby><seg source="#source-157686-157689">と</seg><ruby type="furigana" rend="right" source="#source-157689-157713"><rb>停滞</rb><rt>ていたい</rt></ruby><seg source="#source-157713-157716">に</seg><ruby type="furigana" rend="right" source="#source-157716-157734"><rb>陥</rb><rt>おちい</rt></ruby><seg source="#source-157734-157968">るとき、そこに政治的変革が必然となるというべきであろう。その場合にそれが平和的な改革の方法で行われるか、それとも革命でなければならぬかは、主として支配階級の</seg><ruby type="furigana" rend="right" source="#source-157968-157992"><rb>聡明</rb><rt>そうめい</rt></ruby><seg source="#source-157992-158021">さと順応性による。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)"><seg source="#source-158021-158684">そのような支配階級の質を論じて、政治変革の要因を検討しているものとして、マキアヴェリや、パレトや、バーナムなどの所説は、マルクス＝レーニン主義の革命論とともに、極めて興味のあるものであるが、しかし政治的変革の要因を研究する最も慎重で実りの多い方法は、性急に法則を求めるよりも、何よりも永い人類の歴史の中に展開された、国家の変遷と政治の歴史を、忠実に検討してみることである。古代ギリシアのポリスの生活から、ローマの帝政に至り、中世の封建国家や</seg><ruby type="furigana" rend="right" source="#source-158684-158708"><rb>等族</rb><rt>とうぞく</rt></ruby><seg source="#source-158708-159203">国家を経て近代国家が成立し、更にその近代国家が、専制国家から立憲国家の段階を経て大衆的民主国家となり、さらに現代国家に発展した過程の中に、政治的変革の要因は豊かに示されている。多くの政治思想も政治形態も、このような発展の中で、その時代とその社会的基礎を背景として考察することによって、初めてよくその正しい意味を理解できるのである。</seg></p>
+      </div>
+    </body>
+    <back>
+      <div type="source">
+        <note type="source-attribution" source="#source-159211-159585"><seg type="source-line">底本：「政治学入門」講談社学術文庫、講談社</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1977（昭和52）年10月10日第1刷発行</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1993（平成5）年12月20日第21刷発行</seg><lb/><seg type="source-line">底本の親本：「政治学入門」アテネ新書、弘文堂</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1951（昭和26）年5月</seg><lb/><seg type="source-line">初出：「政治学入門」アテネ新書、弘文堂</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1951（昭和26）年5月</seg></note>
+        <note type="transcriber-note" source="#source-159585-160020"><seg type="source-line">※「ユトーピア」と「ユートピア」、「聰明」と「聡明」の混在は、底本通りです。</seg><lb/><seg type="source-line">入力：フクポー</seg><lb/><seg type="source-line">校正：富田晶子</seg><lb/><seg type="source-line">2018年1月1日作成</seg><lb/><seg type="source-line">青空文庫作成ファイル：</seg><lb/><seg type="source-line">このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。</seg></note>
+        <note type="source-span" xml:id="source-100057-100060" n="226"/>
+        <note type="source-span" xml:id="source-100057-100111" n="226"/>
+        <note type="source-span" xml:id="source-100060-100093" n="226"/>
+        <note type="source-span" xml:id="source-100111-100405" n="226"/>
+        <note type="source-span" xml:id="source-100405-100420" n="226"/>
+        <note type="source-span" xml:id="source-100420-100444" n="226"/>
+        <note type="source-span" xml:id="source-100444-100468" n="226"/>
+        <note type="source-span" xml:id="source-100468-100662" n="226"/>
+        <note type="source-span" xml:id="source-100662-100863" n="227"/>
+        <note type="source-span" xml:id="source-100863-100887" n="227"/>
+        <note type="source-span" xml:id="source-100887-100905" n="227"/>
+        <note type="source-span" xml:id="source-100905-100929" n="227"/>
+        <note type="source-span" xml:id="source-100929-100956" n="227"/>
+        <note type="source-span" xml:id="source-100956-100983" n="227"/>
+        <note type="source-span" xml:id="source-100983-101235" n="227"/>
+        <note type="source-span" xml:id="source-101235-101256" n="227"/>
+        <note type="source-span" xml:id="source-101256-101417" n="227"/>
+        <note type="source-span" xml:id="source-101417-102399" n="228"/>
+        <note type="source-span" xml:id="source-102399-102496" n="230"/>
+        <note type="source-span" xml:id="source-102420-102441" n="230"/>
+        <note type="source-span" xml:id="source-102420-102492" n="230"/>
+        <note type="source-span" xml:id="source-102496-102841" n="232"/>
+        <note type="source-span" xml:id="source-102841-102868" n="232"/>
+        <note type="source-span" xml:id="source-102868-102939" n="232"/>
+        <note type="source-span" xml:id="source-102939-103679" n="233"/>
+        <note type="source-span" xml:id="source-103679-103766" n="234"/>
+        <note type="source-span" xml:id="source-103766-103790" n="234"/>
+        <note type="source-span" xml:id="source-103790-104114" n="234"/>
+        <note type="source-span" xml:id="source-10405-10429" n="46"/>
+        <note type="source-span" xml:id="source-104114-104138" n="234"/>
+        <note type="source-span" xml:id="source-104138-104683" n="234"/>
+        <note type="source-span" xml:id="source-10429-10435" n="46"/>
+        <note type="source-span" xml:id="source-10435-10459" n="46"/>
+        <note type="source-span" xml:id="source-10459-10594" n="46"/>
+        <note type="source-span" xml:id="source-104683-104941" n="235"/>
+        <note type="source-span" xml:id="source-104941-104965" n="235"/>
+        <note type="source-span" xml:id="source-105720-106119" n="236"/>
+        <note type="source-span" xml:id="source-10594-10615" n="46"/>
+        <note type="source-span" xml:id="source-106119-106143" n="236"/>
+        <note type="source-span" xml:id="source-106143-106194" n="236"/>
+        <note type="source-span" xml:id="source-10615-10692" n="46"/>
+        <note type="source-span" xml:id="source-106194-106215" n="236"/>
+        <note type="source-span" xml:id="source-106215-106424" n="236"/>
+        <note type="source-span" xml:id="source-106424-106715" n="237"/>
+        <note type="source-span" xml:id="source-106715-106742" n="237"/>
+        <note type="source-span" xml:id="source-106742-106748" n="237"/>
+        <note type="source-span" xml:id="source-106748-106769" n="237"/>
+        <note type="source-span" xml:id="source-106769-106835" n="237"/>
+        <note type="source-span" xml:id="source-106835-106859" n="237"/>
+        <note type="source-span" xml:id="source-106859-107314" n="237"/>
+        <note type="source-span" xml:id="source-10692-10836" n="47"/>
+        <note type="source-span" xml:id="source-10836-10872" n="47"/>
+        <note type="source-span" xml:id="source-10872-11117" n="47"/>
+        <note type="source-span" xml:id="source-109632-109659" n="239"/>
+        <note type="source-span" xml:id="source-109659-109755" n="239"/>
+        <note type="source-span" xml:id="source-109755-109767" n="239"/>
+        <note type="source-span" xml:id="source-109767-109785" n="239"/>
+        <note type="source-span" xml:id="source-109785-109803" n="239"/>
+        <note type="source-span" xml:id="source-109803-109976" n="239"/>
+        <note type="source-span" xml:id="source-109976-110252" n="240"/>
+        <note type="source-span" xml:id="source-110252-110279" n="240"/>
+        <note type="source-span" xml:id="source-110912-110924" n="240"/>
+        <note type="source-span" xml:id="source-110924-110954" n="240"/>
+        <note type="source-span" xml:id="source-110954-110975" n="240"/>
+        <note type="source-span" xml:id="source-110975-111251" n="240"/>
+        <note type="source-span" xml:id="source-11117-11688" n="48"/>
+        <note type="source-span" xml:id="source-111251-111275" n="240"/>
+        <note type="source-span" xml:id="source-111275-111410" n="240"/>
+        <note type="source-span" xml:id="source-111410-111434" n="240"/>
+        <note type="source-span" xml:id="source-111434-111457" n="240"/>
+        <note type="source-span" xml:id="source-111457-111984" n="241"/>
+        <note type="source-span" xml:id="source-111984-112107" n="242"/>
+        <note type="source-span" xml:id="source-112107-112131" n="242"/>
+        <note type="source-span" xml:id="source-112131-112568" n="242"/>
+        <note type="source-span" xml:id="source-112568-113941" n="243"/>
+        <note type="source-span" xml:id="source-113941-114349" n="244"/>
+        <note type="source-span" xml:id="source-114349-114373" n="244"/>
+        <note type="source-span" xml:id="source-114373-115187" n="244"/>
+        <note type="source-span" xml:id="source-115187-115266" n="246"/>
+        <note type="source-span" xml:id="source-115208-115220" n="246"/>
+        <note type="source-span" xml:id="source-115208-115262" n="246"/>
+        <note type="source-span" xml:id="source-115266-116246" n="248"/>
+        <note type="source-span" xml:id="source-116246-116378" n="249"/>
+        <note type="source-span" xml:id="source-116378-116402" n="249"/>
+        <note type="source-span" xml:id="source-116402-116411" n="249"/>
+        <note type="source-span" xml:id="source-116411-116432" n="249"/>
+        <note type="source-span" xml:id="source-116432-116849" n="249"/>
+        <note type="source-span" xml:id="source-116849-116873" n="249"/>
+        <note type="source-span" xml:id="source-116873-117046" n="249"/>
+        <note type="source-span" xml:id="source-11688-11785" n="50"/>
+        <note type="source-span" xml:id="source-11709-11730" n="50"/>
+        <note type="source-span" xml:id="source-11709-11781" n="50"/>
+        <note type="source-span" xml:id="source-117511-117526" n="250"/>
+        <note type="source-span" xml:id="source-117526-118008" n="250"/>
+        <note type="source-span" xml:id="source-11785-11938" n="52"/>
+        <note type="source-span" xml:id="source-118503-118527" n="251"/>
+        <note type="source-span" xml:id="source-118793-119699" n="252"/>
+        <note type="source-span" xml:id="source-11938-11962" n="52"/>
+        <note type="source-span" xml:id="source-11962-12117" n="52"/>
+        <note type="source-span" xml:id="source-119699-119723" n="252"/>
+        <note type="source-span" xml:id="source-119723-120035" n="252"/>
+        <note type="source-span" xml:id="source-120035-120056" n="252"/>
+        <note type="source-span" xml:id="source-120056-120140" n="252"/>
+        <note type="source-span" xml:id="source-120140-120161" n="252"/>
+        <note type="source-span" xml:id="source-120161-120164" n="252"/>
+        <note type="source-span" xml:id="source-120164-120185" n="252"/>
+        <note type="source-span" xml:id="source-120185-120208" n="252"/>
+        <note type="source-span" xml:id="source-120208-120364" n="253"/>
+        <note type="source-span" xml:id="source-120364-120385" n="253"/>
+        <note type="source-span" xml:id="source-120385-120409" n="253"/>
+        <note type="source-span" xml:id="source-120409-120433" n="253"/>
+        <note type="source-span" xml:id="source-120433-120547" n="253"/>
+        <note type="source-span" xml:id="source-120547-120571" n="253"/>
+        <note type="source-span" xml:id="source-120571-120906" n="253"/>
+        <note type="source-span" xml:id="source-120906-121431" n="254"/>
+        <note type="source-span" xml:id="source-121431-121455" n="254"/>
+        <note type="source-span" xml:id="source-121455-121649" n="254"/>
+        <note type="source-span" xml:id="source-121649-122243" n="255"/>
+        <note type="source-span" xml:id="source-122243-122267" n="255"/>
+        <note type="source-span" xml:id="source-122267-122628" n="255"/>
+        <note type="source-span" xml:id="source-122628-122743" n="257"/>
+        <note type="source-span" xml:id="source-122649-122679" n="257"/>
+        <note type="source-span" xml:id="source-122649-122739" n="257"/>
+        <note type="source-span" xml:id="source-122743-122800" n="259"/>
+        <note type="source-span" xml:id="source-122800-122824" n="259"/>
+        <note type="source-span" xml:id="source-122824-122889" n="259"/>
+        <note type="source-span" xml:id="source-122889-122919" n="260"/>
+        <note type="source-span" xml:id="source-122919-122946" n="260"/>
+        <note type="source-span" xml:id="source-122946-122949" n="260"/>
+        <note type="source-span" xml:id="source-122949-122970" n="260"/>
+        <note type="source-span" xml:id="source-122970-122982" n="260"/>
+        <note type="source-span" xml:id="source-122982-123003" n="260"/>
+        <note type="source-span" xml:id="source-123003-123045" n="260"/>
+        <note type="source-span" xml:id="source-123045-123078" n="260"/>
+        <note type="source-span" xml:id="source-123078-123411" n="260"/>
+        <note type="source-span" xml:id="source-123411-123432" n="260"/>
+        <note type="source-span" xml:id="source-123432-123725" n="260"/>
+        <note type="source-span" xml:id="source-123725-124433" n="261"/>
+        <note type="source-span" xml:id="source-124433-124454" n="261"/>
+        <note type="source-span" xml:id="source-124454-124700" n="261"/>
+        <note type="source-span" xml:id="source-124700-124724" n="261"/>
+        <note type="source-span" xml:id="source-124724-125014" n="261"/>
+        <note type="source-span" xml:id="source-125014-125227" n="262"/>
+        <note type="source-span" xml:id="source-125227-125248" n="262"/>
+        <note type="source-span" xml:id="source-125248-125689" n="262"/>
+        <note type="source-span" xml:id="source-1255-1438" n="22"/>
+        <note type="source-span" xml:id="source-12552-12573" n="53"/>
+        <note type="source-span" xml:id="source-125689-125713" n="262"/>
+        <note type="source-span" xml:id="source-125713-125811" n="262"/>
+        <note type="source-span" xml:id="source-12573-12717" n="53"/>
+        <note type="source-span" xml:id="source-125811-125991" n="263"/>
+        <note type="source-span" xml:id="source-125991-126015" n="263"/>
+        <note type="source-span" xml:id="source-126015-126054" n="263"/>
+        <note type="source-span" xml:id="source-126054-126078" n="263"/>
+        <note type="source-span" xml:id="source-126078-126345" n="263"/>
+        <note type="source-span" xml:id="source-126345-126372" n="263"/>
+        <note type="source-span" xml:id="source-126372-126398" n="263"/>
+        <note type="source-span" xml:id="source-126629-126641" n="264"/>
+        <note type="source-span" xml:id="source-126641-126881" n="264"/>
+        <note type="source-span" xml:id="source-126881-126902" n="264"/>
+        <note type="source-span" xml:id="source-126902-126905" n="264"/>
+        <note type="source-span" xml:id="source-126905-126929" n="264"/>
+        <note type="source-span" xml:id="source-126929-127033" n="264"/>
+        <note type="source-span" xml:id="source-127033-127141" n="265"/>
+        <note type="source-span" xml:id="source-127141-127159" n="265"/>
+        <note type="source-span" xml:id="source-127159-127312" n="265"/>
+        <note type="source-span" xml:id="source-12717-12744" n="53"/>
+        <note type="source-span" xml:id="source-127312-127336" n="265"/>
+        <note type="source-span" xml:id="source-127336-127477" n="265"/>
+        <note type="source-span" xml:id="source-12744-13046" n="53"/>
+        <note type="source-span" xml:id="source-127477-127501" n="265"/>
+        <note type="source-span" xml:id="source-127501-127859" n="265"/>
+        <note type="source-span" xml:id="source-127859-127992" n="267"/>
+        <note type="source-span" xml:id="source-127880-127904" n="267"/>
+        <note type="source-span" xml:id="source-127880-127988" n="267"/>
+        <note type="source-span" xml:id="source-127904-127928" n="267"/>
+        <note type="source-span" xml:id="source-127992-128019" n="269"/>
+        <note type="source-span" xml:id="source-128019-128043" n="269"/>
+        <note type="source-span" xml:id="source-128043-128376" n="269"/>
+        <note type="source-span" xml:id="source-128376-128391" n="269"/>
+        <note type="source-span" xml:id="source-128391-128483" n="269"/>
+        <note type="source-span" xml:id="source-129385-129409" n="271"/>
+        <note type="source-span" xml:id="source-130000-130021" n="271"/>
+        <note type="source-span" xml:id="source-130021-130338" n="271"/>
+        <note type="source-span" xml:id="source-130338-130440" n="272"/>
+        <note type="source-span" xml:id="source-130440-130467" n="272"/>
+        <note type="source-span" xml:id="source-13046-13247" n="54"/>
+        <note type="source-span" xml:id="source-130467-130482" n="272"/>
+        <note type="source-span" xml:id="source-130482-130509" n="272"/>
+        <note type="source-span" xml:id="source-130509-130578" n="272"/>
+        <note type="source-span" xml:id="source-130578-130599" n="272"/>
+        <note type="source-span" xml:id="source-130578-130662" n="272"/>
+        <note type="source-span" xml:id="source-130662-130806" n="272"/>
+        <note type="source-span" xml:id="source-130806-130827" n="272"/>
+        <note type="source-span" xml:id="source-130827-131193" n="272"/>
+        <note type="source-span" xml:id="source-131193-131220" n="272"/>
+        <note type="source-span" xml:id="source-131220-131340" n="272"/>
+        <note type="source-span" xml:id="source-131340-131361" n="272"/>
+        <note type="source-span" xml:id="source-131361-131510" n="272"/>
+        <note type="source-span" xml:id="source-131510-132201" n="273"/>
+        <note type="source-span" xml:id="source-132201-132318" n="275"/>
+        <note type="source-span" xml:id="source-132222-132252" n="275"/>
+        <note type="source-span" xml:id="source-132222-132312" n="275"/>
+        <note type="source-span" xml:id="source-132314-132318" n="276"/>
+        <note type="source-span" xml:id="source-132318-132445" n="278"/>
+        <note type="source-span" xml:id="source-132339-132375" n="278"/>
+        <note type="source-span" xml:id="source-132339-132441" n="278"/>
+        <note type="source-span" xml:id="source-132445-132697" n="280"/>
+        <note type="source-span" xml:id="source-13247-13271" n="54"/>
+        <note type="source-span" xml:id="source-132697-132733" n="280"/>
+        <note type="source-span" xml:id="source-132733-132877" n="280"/>
+        <note type="source-span" xml:id="source-132877-132892" n="280"/>
+        <note type="source-span" xml:id="source-132892-133354" n="280"/>
+        <note type="source-span" xml:id="source-133354-133366" n="280"/>
+        <note type="source-span" xml:id="source-133366-133437" n="280"/>
+        <note type="source-span" xml:id="source-134321-134482" n="282"/>
+        <note type="source-span" xml:id="source-134342-134396" n="282"/>
+        <note type="source-span" xml:id="source-134342-134480" n="282"/>
+        <note type="source-span" xml:id="source-134758-134782" n="283"/>
+        <note type="source-span" xml:id="source-134782-134785" n="283"/>
+        <note type="source-span" xml:id="source-134785-134806" n="283"/>
+        <note type="source-span" xml:id="source-135471-135816" n="284"/>
+        <note type="source-span" xml:id="source-135816-135831" n="284"/>
+        <note type="source-span" xml:id="source-135831-136020" n="284"/>
+        <note type="source-span" xml:id="source-13595-13616" n="54"/>
+        <note type="source-span" xml:id="source-136020-136041" n="284"/>
+        <note type="source-span" xml:id="source-136625-136792" n="285"/>
+        <note type="source-span" xml:id="source-136646-136703" n="285"/>
+        <note type="source-span" xml:id="source-136646-136790" n="285"/>
+        <note type="source-span" xml:id="source-136840-136876" n="286"/>
+        <note type="source-span" xml:id="source-137997-138291" n="287"/>
+        <note type="source-span" xml:id="source-138291-138306" n="287"/>
+        <note type="source-span" xml:id="source-138846-138867" n="287"/>
+        <note type="source-span" xml:id="source-138920-139139" n="288"/>
+        <note type="source-span" xml:id="source-139139-139166" n="288"/>
+        <note type="source-span" xml:id="source-139166-139927" n="288"/>
+        <note type="source-span" xml:id="source-139927-140508" n="289"/>
+        <note type="source-span" xml:id="source-140508-140651" n="290"/>
+        <note type="source-span" xml:id="source-140529-140574" n="290"/>
+        <note type="source-span" xml:id="source-140529-140649" n="290"/>
+        <note type="source-span" xml:id="source-141391-141406" n="292"/>
+        <note type="source-span" xml:id="source-14167-14191" n="55"/>
+        <note type="source-span" xml:id="source-14191-14484" n="55"/>
+        <note type="source-span" xml:id="source-142632-143569" n="293"/>
+        <note type="source-span" xml:id="source-143569-143684" n="295"/>
+        <note type="source-span" xml:id="source-143590-143620" n="295"/>
+        <note type="source-span" xml:id="source-143590-143680" n="295"/>
+        <note type="source-span" xml:id="source-143684-143831" n="297"/>
+        <note type="source-span" xml:id="source-1438-1453" n="22"/>
+        <note type="source-span" xml:id="source-143831-143846" n="297"/>
+        <note type="source-span" xml:id="source-143846-144004" n="297"/>
+        <note type="source-span" xml:id="source-144004-144091" n="298"/>
+        <note type="source-span" xml:id="source-144091-144106" n="298"/>
+        <note type="source-span" xml:id="source-145296-145371" n="299"/>
+        <note type="source-span" xml:id="source-1453-1471" n="22"/>
+        <note type="source-span" xml:id="source-145371-145383" n="299"/>
+        <note type="source-span" xml:id="source-145383-145803" n="299"/>
+        <note type="source-span" xml:id="source-145803-145824" n="299"/>
+        <note type="source-span" xml:id="source-145824-145964" n="299"/>
+        <note type="source-span" xml:id="source-1471-1489" n="22"/>
+        <note type="source-span" xml:id="source-147812-147909" n="303"/>
+        <note type="source-span" xml:id="source-147833-147854" n="303"/>
+        <note type="source-span" xml:id="source-147833-147905" n="303"/>
+        <note type="source-span" xml:id="source-147909-148142" n="305"/>
+        <note type="source-span" xml:id="source-148142-148217" n="306"/>
+        <note type="source-span" xml:id="source-148217-148241" n="306"/>
+        <note type="source-span" xml:id="source-148241-149026" n="306"/>
+        <note type="source-span" xml:id="source-149026-149446" n="307"/>
+        <note type="source-span" xml:id="source-149446-149470" n="307"/>
+        <note type="source-span" xml:id="source-149470-149524" n="307"/>
+        <note type="source-span" xml:id="source-149524-149548" n="307"/>
+        <note type="source-span" xml:id="source-149593-149617" n="307"/>
+        <note type="source-span" xml:id="source-149691-150111" n="308"/>
+        <note type="source-span" xml:id="source-150111-150135" n="308"/>
+        <note type="source-span" xml:id="source-150135-150171" n="308"/>
+        <note type="source-span" xml:id="source-150171-150195" n="308"/>
+        <note type="source-span" xml:id="source-150195-150270" n="308"/>
+        <note type="source-span" xml:id="source-150270-150329" n="308"/>
+        <note type="source-span" xml:id="source-150270-150353" n="308"/>
+        <note type="source-span" xml:id="source-150329-150332" n="308"/>
+        <note type="source-span" xml:id="source-150353-150533" n="308"/>
+        <note type="source-span" xml:id="source-150533-150545" n="308"/>
+        <note type="source-span" xml:id="source-150545-150571" n="308"/>
+        <note type="source-span" xml:id="source-151278-151356" n="310"/>
+        <note type="source-span" xml:id="source-151356-151380" n="310"/>
+        <note type="source-span" xml:id="source-151380-151434" n="310"/>
+        <note type="source-span" xml:id="source-151434-151455" n="310"/>
+        <note type="source-span" xml:id="source-151455-151755" n="310"/>
+        <note type="source-span" xml:id="source-15174-15198" n="56"/>
+        <note type="source-span" xml:id="source-151755-151776" n="310"/>
+        <note type="source-span" xml:id="source-151776-152023" n="310"/>
+        <note type="source-span" xml:id="source-15198-15224" n="56"/>
+        <note type="source-span" xml:id="source-152023-152156" n="312"/>
+        <note type="source-span" xml:id="source-152044-152083" n="312"/>
+        <note type="source-span" xml:id="source-152044-152152" n="312"/>
+        <note type="source-span" xml:id="source-152966-152984" n="314"/>
+        <note type="source-span" xml:id="source-152984-153166" n="314"/>
+        <note type="source-span" xml:id="source-153166-153619" n="315"/>
+        <note type="source-span" xml:id="source-153619-153643" n="315"/>
+        <note type="source-span" xml:id="source-153643-153901" n="315"/>
+        <note type="source-span" xml:id="source-153901-153922" n="315"/>
+        <note type="source-span" xml:id="source-153922-153943" n="315"/>
+        <note type="source-span" xml:id="source-153943-153961" n="315"/>
+        <note type="source-span" xml:id="source-153961-154224" n="315"/>
+        <note type="source-span" xml:id="source-154371-154386" n="316"/>
+        <note type="source-span" xml:id="source-15452-15467" n="57"/>
+        <note type="source-span" xml:id="source-154671-154692" n="316"/>
+        <note type="source-span" xml:id="source-154692-155076" n="316"/>
+        <note type="source-span" xml:id="source-155076-155088" n="316"/>
+        <note type="source-span" xml:id="source-155088-155223" n="316"/>
+        <note type="source-span" xml:id="source-155223-155244" n="316"/>
+        <note type="source-span" xml:id="source-155244-155297" n="316"/>
+        <note type="source-span" xml:id="source-155984-156008" n="317"/>
+        <note type="source-span" xml:id="source-156008-156097" n="317"/>
+        <note type="source-span" xml:id="source-156097-156322" n="318"/>
+        <note type="source-span" xml:id="source-156322-156343" n="318"/>
+        <note type="source-span" xml:id="source-156343-156778" n="318"/>
+        <note type="source-span" xml:id="source-1567-1585" n="22"/>
+        <note type="source-span" xml:id="source-1567-1645" n="22"/>
+        <note type="source-span" xml:id="source-156778-156820" n="318"/>
+        <note type="source-span" xml:id="source-156820-157293" n="318"/>
+        <note type="source-span" xml:id="source-157293-157335" n="319"/>
+        <note type="source-span" xml:id="source-157335-157359" n="319"/>
+        <note type="source-span" xml:id="source-157359-157482" n="319"/>
+        <note type="source-span" xml:id="source-157482-157506" n="319"/>
+        <note type="source-span" xml:id="source-157506-157665" n="319"/>
+        <note type="source-span" xml:id="source-157665-157686" n="319"/>
+        <note type="source-span" xml:id="source-157686-157689" n="319"/>
+        <note type="source-span" xml:id="source-157689-157713" n="319"/>
+        <note type="source-span" xml:id="source-157713-157716" n="319"/>
+        <note type="source-span" xml:id="source-157716-157734" n="319"/>
+        <note type="source-span" xml:id="source-157734-157968" n="319"/>
+        <note type="source-span" xml:id="source-157968-157992" n="319"/>
+        <note type="source-span" xml:id="source-157992-158021" n="319"/>
+        <note type="source-span" xml:id="source-158021-158684" n="320"/>
+        <note type="source-span" xml:id="source-158684-158708" n="320"/>
+        <note type="source-span" xml:id="source-158708-159203" n="320"/>
+        <note type="source-span" xml:id="source-159211-159585" n="324"/>
+        <note type="source-span" xml:id="source-159585-160020" n="331"/>
+        <note type="source-span" xml:id="source-16176-16303" n="59"/>
+        <note type="source-span" xml:id="source-16197-16212" n="59"/>
+        <note type="source-span" xml:id="source-16197-16299" n="59"/>
+        <note type="source-span" xml:id="source-16212-16236" n="59"/>
+        <note type="source-span" xml:id="source-16236-16242" n="59"/>
+        <note type="source-span" xml:id="source-16303-16776" n="61"/>
+        <note type="source-span" xml:id="source-1645-1747" n="22"/>
+        <note type="source-span" xml:id="source-1747-1762" n="22"/>
+        <note type="source-span" xml:id="source-1762-1938" n="22"/>
+        <note type="source-span" xml:id="source-17783-18176" n="63"/>
+        <note type="source-span" xml:id="source-18176-18200" n="63"/>
+        <note type="source-span" xml:id="source-18200-18622" n="63"/>
+        <note type="source-span" xml:id="source-18622-19300" n="64"/>
+        <note type="source-span" xml:id="source-19300-19327" n="64"/>
+        <note type="source-span" xml:id="source-19327-19713" n="64"/>
+        <note type="source-span" xml:id="source-1938-2251" n="23"/>
+        <note type="source-span" xml:id="source-19713-20142" n="65"/>
+        <note type="source-span" xml:id="source-20142-20163" n="65"/>
+        <note type="source-span" xml:id="source-20163-20304" n="65"/>
+        <note type="source-span" xml:id="source-20304-20328" n="65"/>
+        <note type="source-span" xml:id="source-20328-20350" n="65"/>
+        <note type="source-span" xml:id="source-20350-20447" n="67"/>
+        <note type="source-span" xml:id="source-20371-20392" n="67"/>
+        <note type="source-span" xml:id="source-20371-20443" n="67"/>
+        <note type="source-span" xml:id="source-20447-20450" n="69"/>
+        <note type="source-span" xml:id="source-20450-20474" n="69"/>
+        <note type="source-span" xml:id="source-20474-21040" n="69"/>
+        <note type="source-span" xml:id="source-21040-21558" n="70"/>
+        <note type="source-span" xml:id="source-21558-21705" n="71"/>
+        <note type="source-span" xml:id="source-21705-21729" n="71"/>
+        <note type="source-span" xml:id="source-22197-22218" n="71"/>
+        <note type="source-span" xml:id="source-22218-22245" n="71"/>
+        <note type="source-span" xml:id="source-22245-22257" n="71"/>
+        <note type="source-span" xml:id="source-22257-22508" n="71"/>
+        <note type="source-span" xml:id="source-22508-22604" n="72"/>
+        <note type="source-span" xml:id="source-2251-2337" n="25"/>
+        <note type="source-span" xml:id="source-22604-22622" n="72"/>
+        <note type="source-span" xml:id="source-22622-22631" n="72"/>
+        <note type="source-span" xml:id="source-22631-22646" n="72"/>
+        <note type="source-span" xml:id="source-22646-23155" n="72"/>
+        <note type="source-span" xml:id="source-2272-2293" n="25"/>
+        <note type="source-span" xml:id="source-2293-2337" n="25"/>
+        <note type="source-span" xml:id="source-2323-2337" n="25"/>
+        <note type="source-span" xml:id="source-2337-2352" n="26"/>
+        <note type="source-span" xml:id="source-2352-2356" n="26"/>
+        <note type="source-span" xml:id="source-2356-2423" n="28"/>
+        <note type="source-span" xml:id="source-2377-2383" n="28"/>
+        <note type="source-span" xml:id="source-2377-2419" n="28"/>
+        <note type="source-span" xml:id="source-24120-24141" n="74"/>
+        <note type="source-span" xml:id="source-24141-24144" n="74"/>
+        <note type="source-span" xml:id="source-24144-24165" n="74"/>
+        <note type="source-span" xml:id="source-24165-24408" n="74"/>
+        <note type="source-span" xml:id="source-2423-2756" n="30"/>
+        <note type="source-span" xml:id="source-24408-24423" n="74"/>
+        <note type="source-span" xml:id="source-24423-24519" n="74"/>
+        <note type="source-span" xml:id="source-24519-24543" n="74"/>
+        <note type="source-span" xml:id="source-24543-24561" n="74"/>
+        <note type="source-span" xml:id="source-24561-24582" n="74"/>
+        <note type="source-span" xml:id="source-24582-24906" n="74"/>
+        <note type="source-span" xml:id="source-24906-24927" n="74"/>
+        <note type="source-span" xml:id="source-24927-24930" n="74"/>
+        <note type="source-span" xml:id="source-24930-24954" n="74"/>
+        <note type="source-span" xml:id="source-24954-25038" n="74"/>
+        <note type="source-span" xml:id="source-25038-25080" n="74"/>
+        <note type="source-span" xml:id="source-25080-25094" n="74"/>
+        <note type="source-span" xml:id="source-25094-25704" n="75"/>
+        <note type="source-span" xml:id="source-25704-25801" n="77"/>
+        <note type="source-span" xml:id="source-25725-25746" n="77"/>
+        <note type="source-span" xml:id="source-25725-25797" n="77"/>
+        <note type="source-span" xml:id="source-25966-25996" n="79"/>
+        <note type="source-span" xml:id="source-25996-26014" n="79"/>
+        <note type="source-span" xml:id="source-26014-26038" n="79"/>
+        <note type="source-span" xml:id="source-26110-26125" n="79"/>
+        <note type="source-span" xml:id="source-26125-26452" n="79"/>
+        <note type="source-span" xml:id="source-26452-26470" n="79"/>
+        <note type="source-span" xml:id="source-26470-26526" n="79"/>
+        <note type="source-span" xml:id="source-26526-26616" n="80"/>
+        <note type="source-span" xml:id="source-26616-26634" n="80"/>
+        <note type="source-span" xml:id="source-26634-26700" n="80"/>
+        <note type="source-span" xml:id="source-26700-26745" n="80"/>
+        <note type="source-span" xml:id="source-26811-26832" n="80"/>
+        <note type="source-span" xml:id="source-26982-27006" n="80"/>
+        <note type="source-span" xml:id="source-27006-27009" n="80"/>
+        <note type="source-span" xml:id="source-27009-27036" n="80"/>
+        <note type="source-span" xml:id="source-27036-27075" n="80"/>
+        <note type="source-span" xml:id="source-27075-27099" n="80"/>
+        <note type="source-span" xml:id="source-27288-27309" n="80"/>
+        <note type="source-span" xml:id="source-2756-2780" n="30"/>
+        <note type="source-span" xml:id="source-2780-2822" n="30"/>
+        <note type="source-span" xml:id="source-27878-27905" n="81"/>
+        <note type="source-span" xml:id="source-2822-2840" n="30"/>
+        <note type="source-span" xml:id="source-2840-2843" n="30"/>
+        <note type="source-span" xml:id="source-2843-2867" n="30"/>
+        <note type="source-span" xml:id="source-28663-28681" n="82"/>
+        <note type="source-span" xml:id="source-2867-3376" n="30"/>
+        <note type="source-span" xml:id="source-28681-28690" n="82"/>
+        <note type="source-span" xml:id="source-28690-28705" n="82"/>
+        <note type="source-span" xml:id="source-28705-28708" n="82"/>
+        <note type="source-span" xml:id="source-28708-28720" n="82"/>
+        <note type="source-span" xml:id="source-29026-29053" n="82"/>
+        <note type="source-span" xml:id="source-29525-29628" n="84"/>
+        <note type="source-span" xml:id="source-29546-29570" n="84"/>
+        <note type="source-span" xml:id="source-29546-29624" n="84"/>
+        <note type="source-span" xml:id="source-29628-30125" n="86"/>
+        <note type="source-span" xml:id="source-30125-30347" n="87"/>
+        <note type="source-span" xml:id="source-30347-30362" n="87"/>
+        <note type="source-span" xml:id="source-30362-31142" n="87"/>
+        <note type="source-span" xml:id="source-31142-31169" n="87"/>
+        <note type="source-span" xml:id="source-31169-31213" n="87"/>
+        <note type="source-span" xml:id="source-31213-31456" n="88"/>
+        <note type="source-span" xml:id="source-31456-31471" n="88"/>
+        <note type="source-span" xml:id="source-32020-32038" n="88"/>
+        <note type="source-span" xml:id="source-32280-32913" n="89"/>
+        <note type="source-span" xml:id="source-32913-32958" n="89"/>
+        <note type="source-span" xml:id="source-32958-33290" n="89"/>
+        <note type="source-span" xml:id="source-33305-33329" n="90"/>
+        <note type="source-span" xml:id="source-33329-33332" n="90"/>
+        <note type="source-span" xml:id="source-33332-33347" n="90"/>
+        <note type="source-span" xml:id="source-33560-33641" n="90"/>
+        <note type="source-span" xml:id="source-33641-34086" n="90"/>
+        <note type="source-span" xml:id="source-3376-3583" n="31"/>
+        <note type="source-span" xml:id="source-34086-34183" n="92"/>
+        <note type="source-span" xml:id="source-34107-34128" n="92"/>
+        <note type="source-span" xml:id="source-34107-34179" n="92"/>
+        <note type="source-span" xml:id="source-34183-35073" n="94"/>
+        <note type="source-span" xml:id="source-35073-35304" n="95"/>
+        <note type="source-span" xml:id="source-35304-35325" n="95"/>
+        <note type="source-span" xml:id="source-35325-35697" n="95"/>
+        <note type="source-span" xml:id="source-35697-35721" n="95"/>
+        <note type="source-span" xml:id="source-35721-35940" n="95"/>
+        <note type="source-span" xml:id="source-3583-3616" n="31"/>
+        <note type="source-span" xml:id="source-35940-35955" n="95"/>
+        <note type="source-span" xml:id="source-35955-36512" n="95"/>
+        <note type="source-span" xml:id="source-3616-3883" n="31"/>
+        <note type="source-span" xml:id="source-36731-36749" n="96"/>
+        <note type="source-span" xml:id="source-36731-36809" n="96"/>
+        <note type="source-span" xml:id="source-36809-37106" n="96"/>
+        <note type="source-span" xml:id="source-37106-37118" n="96"/>
+        <note type="source-span" xml:id="source-37118-37178" n="96"/>
+        <note type="source-span" xml:id="source-37178-37199" n="96"/>
+        <note type="source-span" xml:id="source-37199-37372" n="96"/>
+        <note type="source-span" xml:id="source-37738-37759" n="97"/>
+        <note type="source-span" xml:id="source-37759-38019" n="97"/>
+        <note type="source-span" xml:id="source-38019-38040" n="98"/>
+        <note type="source-span" xml:id="source-38040-38044" n="98"/>
+        <note type="source-span" xml:id="source-38044-38125" n="100"/>
+        <note type="source-span" xml:id="source-38065-38077" n="100"/>
+        <note type="source-span" xml:id="source-38065-38119" n="100"/>
+        <note type="source-span" xml:id="source-38121-38125" n="101"/>
+        <note type="source-span" xml:id="source-38125-38222" n="103"/>
+        <note type="source-span" xml:id="source-38146-38167" n="103"/>
+        <note type="source-span" xml:id="source-38146-38218" n="103"/>
+        <note type="source-span" xml:id="source-38291-38315" n="105"/>
+        <note type="source-span" xml:id="source-38587-38761" n="106"/>
+        <note type="source-span" xml:id="source-38761-38785" n="106"/>
+        <note type="source-span" xml:id="source-38785-38788" n="106"/>
+        <note type="source-span" xml:id="source-38788-38812" n="106"/>
+        <note type="source-span" xml:id="source-38812-39136" n="106"/>
+        <note type="source-span" xml:id="source-3883-3904" n="31"/>
+        <note type="source-span" xml:id="source-3904-4263" n="31"/>
+        <note type="source-span" xml:id="source-39136-39157" n="106"/>
+        <note type="source-span" xml:id="source-39630-39657" n="107"/>
+        <note type="source-span" xml:id="source-40077-40104" n="107"/>
+        <note type="source-span" xml:id="source-40104-40322" n="107"/>
+        <note type="source-span" xml:id="source-40322-41144" n="108"/>
+        <note type="source-span" xml:id="source-41144-41168" n="108"/>
+        <note type="source-span" xml:id="source-41168-41213" n="108"/>
+        <note type="source-span" xml:id="source-41213-41246" n="108"/>
+        <note type="source-span" xml:id="source-41246-41306" n="108"/>
+        <note type="source-span" xml:id="source-41306-41339" n="108"/>
+        <note type="source-span" xml:id="source-41339-41434" n="108"/>
+        <note type="source-span" xml:id="source-41434-41521" n="109"/>
+        <note type="source-span" xml:id="source-41521-41542" n="109"/>
+        <note type="source-span" xml:id="source-42022-42037" n="109"/>
+        <note type="source-span" xml:id="source-42037-42442" n="109"/>
+        <note type="source-span" xml:id="source-42442-42460" n="109"/>
+        <note type="source-span" xml:id="source-42460-42552" n="109"/>
+        <note type="source-span" xml:id="source-42552-43084" n="110"/>
+        <note type="source-span" xml:id="source-4263-4398" n="32"/>
+        <note type="source-span" xml:id="source-43084-43217" n="112"/>
+        <note type="source-span" xml:id="source-43105-43144" n="112"/>
+        <note type="source-span" xml:id="source-43105-43213" n="112"/>
+        <note type="source-span" xml:id="source-43217-43318" n="114"/>
+        <note type="source-span" xml:id="source-43318-44223" n="115"/>
+        <note type="source-span" xml:id="source-43353-43353" n="116"/>
+        <note type="source-span" xml:id="source-43353-43541" n="116"/>
+        <note type="source-span" xml:id="source-43541-43684" n="117"/>
+        <note type="source-span" xml:id="source-43684-43881" n="118"/>
+        <note type="source-span" xml:id="source-43881-43994" n="119"/>
+        <note type="source-span" xml:id="source-4398-4413" n="32"/>
+        <note type="source-span" xml:id="source-43994-44083" n="120"/>
+        <note type="source-span" xml:id="source-44083-44187" n="121"/>
+        <note type="source-span" xml:id="source-4413-5096" n="32"/>
+        <note type="source-span" xml:id="source-44225-44425" n="123"/>
+        <note type="source-span" xml:id="source-44425-45594" n="124"/>
+        <note type="source-span" xml:id="source-44460-44460" n="125"/>
+        <note type="source-span" xml:id="source-44460-44621" n="125"/>
+        <note type="source-span" xml:id="source-44621-44929" n="126"/>
+        <note type="source-span" xml:id="source-44929-45000" n="127"/>
+        <note type="source-span" xml:id="source-45000-45191" n="128"/>
+        <note type="source-span" xml:id="source-45191-45334" n="129"/>
+        <note type="source-span" xml:id="source-45334-45558" n="130"/>
+        <note type="source-span" xml:id="source-45596-45730" n="132"/>
+        <note type="source-span" xml:id="source-45730-45958" n="133"/>
+        <note type="source-span" xml:id="source-45958-46000" n="133"/>
+        <note type="source-span" xml:id="source-46000-46009" n="133"/>
+        <note type="source-span" xml:id="source-46009-46027" n="133"/>
+        <note type="source-span" xml:id="source-46027-46509" n="133"/>
+        <note type="source-span" xml:id="source-46509-46719" n="134"/>
+        <note type="source-span" xml:id="source-46719-46743" n="134"/>
+        <note type="source-span" xml:id="source-47248-47345" n="136"/>
+        <note type="source-span" xml:id="source-47269-47290" n="136"/>
+        <note type="source-span" xml:id="source-47269-47341" n="136"/>
+        <note type="source-span" xml:id="source-47345-47695" n="138"/>
+        <note type="source-span" xml:id="source-48883-48907" n="139"/>
+        <note type="source-span" xml:id="source-48907-49008" n="139"/>
+        <note type="source-span" xml:id="source-49008-49035" n="140"/>
+        <note type="source-span" xml:id="source-49035-49056" n="140"/>
+        <note type="source-span" xml:id="source-49056-49692" n="140"/>
+        <note type="source-span" xml:id="source-49692-49719" n="140"/>
+        <note type="source-span" xml:id="source-49719-50018" n="140"/>
+        <note type="source-span" xml:id="source-50018-50513" n="141"/>
+        <note type="source-span" xml:id="source-50513-50534" n="141"/>
+        <note type="source-span" xml:id="source-50534-50564" n="141"/>
+        <note type="source-span" xml:id="source-50564-50585" n="141"/>
+        <note type="source-span" xml:id="source-50585-50677" n="141"/>
+        <note type="source-span" xml:id="source-50677-51340" n="142"/>
+        <note type="source-span" xml:id="source-5096-5339" n="33"/>
+        <note type="source-span" xml:id="source-51340-51361" n="142"/>
+        <note type="source-span" xml:id="source-51361-51780" n="142"/>
+        <note type="source-span" xml:id="source-51780-51807" n="143"/>
+        <note type="source-span" xml:id="source-51807-51828" n="143"/>
+        <note type="source-span" xml:id="source-51828-52017" n="143"/>
+        <note type="source-span" xml:id="source-52017-52041" n="143"/>
+        <note type="source-span" xml:id="source-52041-52428" n="143"/>
+        <note type="source-span" xml:id="source-52428-52449" n="143"/>
+        <note type="source-span" xml:id="source-52449-52851" n="143"/>
+        <note type="source-span" xml:id="source-52851-52875" n="143"/>
+        <note type="source-span" xml:id="source-52875-52878" n="143"/>
+        <note type="source-span" xml:id="source-52878-52911" n="143"/>
+        <note type="source-span" xml:id="source-52911-53158" n="143"/>
+        <note type="source-span" xml:id="source-53158-53273" n="145"/>
+        <note type="source-span" xml:id="source-53179-53209" n="145"/>
+        <note type="source-span" xml:id="source-53179-53269" n="145"/>
+        <note type="source-span" xml:id="source-53273-53501" n="147"/>
+        <note type="source-span" xml:id="source-5339-5354" n="33"/>
+        <note type="source-span" xml:id="source-53501-53528" n="147"/>
+        <note type="source-span" xml:id="source-53528-54238" n="147"/>
+        <note type="source-span" xml:id="source-54238-54994" n="148"/>
+        <note type="source-span" xml:id="source-54994-55024" n="148"/>
+        <note type="source-span" xml:id="source-55024-55314" n="148"/>
+        <note type="source-span" xml:id="source-55314-55473" n="149"/>
+        <note type="source-span" xml:id="source-55473-55500" n="149"/>
+        <note type="source-span" xml:id="source-55500-55503" n="149"/>
+        <note type="source-span" xml:id="source-55503-55527" n="149"/>
+        <note type="source-span" xml:id="source-55527-55566" n="149"/>
+        <note type="source-span" xml:id="source-55566-55593" n="149"/>
+        <note type="source-span" xml:id="source-55593-55611" n="149"/>
+        <note type="source-span" xml:id="source-55611-55635" n="149"/>
+        <note type="source-span" xml:id="source-55635-55638" n="149"/>
+        <note type="source-span" xml:id="source-55638-55662" n="149"/>
+        <note type="source-span" xml:id="source-55662-55707" n="149"/>
+        <note type="source-span" xml:id="source-55707-55731" n="149"/>
+        <note type="source-span" xml:id="source-55731-56025" n="149"/>
+        <note type="source-span" xml:id="source-56025-56040" n="149"/>
+        <note type="source-span" xml:id="source-56040-56087" n="149"/>
+        <note type="source-span" xml:id="source-56087-57034" n="150"/>
+        <note type="source-span" xml:id="source-5621-5636" n="33"/>
+        <note type="source-span" xml:id="source-5636-5747" n="33"/>
+        <note type="source-span" xml:id="source-5747-5765" n="33"/>
+        <note type="source-span" xml:id="source-5765-5791" n="33"/>
+        <note type="source-span" xml:id="source-57751-57790" n="151"/>
+        <note type="source-span" xml:id="source-57790-57939" n="151"/>
+        <note type="source-span" xml:id="source-5791-5923" n="34"/>
+        <note type="source-span" xml:id="source-57939-58023" n="152"/>
+        <note type="source-span" xml:id="source-58023-58047" n="152"/>
+        <note type="source-span" xml:id="source-58047-58050" n="152"/>
+        <note type="source-span" xml:id="source-58050-58074" n="152"/>
+        <note type="source-span" xml:id="source-58074-58374" n="152"/>
+        <note type="source-span" xml:id="source-58374-58398" n="152"/>
+        <note type="source-span" xml:id="source-58398-58667" n="152"/>
+        <note type="source-span" xml:id="source-58667-59681" n="153"/>
+        <note type="source-span" xml:id="source-5923-5944" n="34"/>
+        <note type="source-span" xml:id="source-5944-5947" n="34"/>
+        <note type="source-span" xml:id="source-5947-5962" n="34"/>
+        <note type="source-span" xml:id="source-5962-6112" n="34"/>
+        <note type="source-span" xml:id="source-59681-59705" n="153"/>
+        <note type="source-span" xml:id="source-59705-60244" n="153"/>
+        <note type="source-span" xml:id="source-599-680" n="18"/>
+        <note type="source-span" xml:id="source-60244-60616" n="154"/>
+        <note type="source-span" xml:id="source-60616-60640" n="154"/>
+        <note type="source-span" xml:id="source-60640-60727" n="154"/>
+        <note type="source-span" xml:id="source-60727-60751" n="154"/>
+        <note type="source-span" xml:id="source-60751-61062" n="154"/>
+        <note type="source-span" xml:id="source-6112-6136" n="34"/>
+        <note type="source-span" xml:id="source-6136-6577" n="34"/>
+        <note type="source-span" xml:id="source-620-632" n="18"/>
+        <note type="source-span" xml:id="source-620-674" n="18"/>
+        <note type="source-span" xml:id="source-62227-62324" n="157"/>
+        <note type="source-span" xml:id="source-62248-62269" n="157"/>
+        <note type="source-span" xml:id="source-62248-62320" n="157"/>
+        <note type="source-span" xml:id="source-62324-62566" n="159"/>
+        <note type="source-span" xml:id="source-62566-63267" n="160"/>
+        <note type="source-span" xml:id="source-63267-63573" n="161"/>
+        <note type="source-span" xml:id="source-63573-63594" n="161"/>
+        <note type="source-span" xml:id="source-64565-64859" n="162"/>
+        <note type="source-span" xml:id="source-64859-64874" n="162"/>
+        <note type="source-span" xml:id="source-64874-65290" n="162"/>
+        <note type="source-span" xml:id="source-65290-65446" n="163"/>
+        <note type="source-span" xml:id="source-65446-65479" n="163"/>
+        <note type="source-span" xml:id="source-65479-65608" n="163"/>
+        <note type="source-span" xml:id="source-65608-65632" n="163"/>
+        <note type="source-span" xml:id="source-65632-65635" n="163"/>
+        <note type="source-span" xml:id="source-65635-65659" n="163"/>
+        <note type="source-span" xml:id="source-65659-65737" n="163"/>
+        <note type="source-span" xml:id="source-65737-65761" n="163"/>
+        <note type="source-span" xml:id="source-65761-66231" n="163"/>
+        <note type="source-span" xml:id="source-6577-6601" n="34"/>
+        <note type="source-span" xml:id="source-6601-6631" n="34"/>
+        <note type="source-span" xml:id="source-66231-66375" n="164"/>
+        <note type="source-span" xml:id="source-6631-6652" n="34"/>
+        <note type="source-span" xml:id="source-66375-66393" n="164"/>
+        <note type="source-span" xml:id="source-6652-6666" n="34"/>
+        <note type="source-span" xml:id="source-66588-66600" n="164"/>
+        <note type="source-span" xml:id="source-66600-66683" n="164"/>
+        <note type="source-span" xml:id="source-6666-6738" n="35"/>
+        <note type="source-span" xml:id="source-66683-66704" n="165"/>
+        <note type="source-span" xml:id="source-66704-66708" n="165"/>
+        <note type="source-span" xml:id="source-66708-66813" n="167"/>
+        <note type="source-span" xml:id="source-66729-66753" n="167"/>
+        <note type="source-span" xml:id="source-66729-66807" n="167"/>
+        <note type="source-span" xml:id="source-66809-66813" n="168"/>
+        <note type="source-span" xml:id="source-66813-66934" n="170"/>
+        <note type="source-span" xml:id="source-66834-66867" n="170"/>
+        <note type="source-span" xml:id="source-66834-66930" n="170"/>
+        <note type="source-span" xml:id="source-6738-6762" n="35"/>
+        <note type="source-span" xml:id="source-676-680" n="19"/>
+        <note type="source-span" xml:id="source-67611-68085" n="173"/>
+        <note type="source-span" xml:id="source-6762-6948" n="35"/>
+        <note type="source-span" xml:id="source-68085-68112" n="173"/>
+        <note type="source-span" xml:id="source-68112-68439" n="173"/>
+        <note type="source-span" xml:id="source-68439-68460" n="173"/>
+        <note type="source-span" xml:id="source-68460-68561" n="173"/>
+        <note type="source-span" xml:id="source-68909-68921" n="174"/>
+        <note type="source-span" xml:id="source-68921-69038" n="174"/>
+        <note type="source-span" xml:id="source-69038-69062" n="174"/>
+        <note type="source-span" xml:id="source-69062-69065" n="174"/>
+        <note type="source-span" xml:id="source-69065-69089" n="174"/>
+        <note type="source-span" xml:id="source-69089-69185" n="174"/>
+        <note type="source-span" xml:id="source-69185-69206" n="174"/>
+        <note type="source-span" xml:id="source-69206-69404" n="174"/>
+        <note type="source-span" xml:id="source-69404-69425" n="174"/>
+        <note type="source-span" xml:id="source-69425-69512" n="174"/>
+        <note type="source-span" xml:id="source-6948-6972" n="35"/>
+        <note type="source-span" xml:id="source-69512-69527" n="174"/>
+        <note type="source-span" xml:id="source-69527-69628" n="174"/>
+        <note type="source-span" xml:id="source-69628-69811" n="175"/>
+        <note type="source-span" xml:id="source-6972-7200" n="35"/>
+        <note type="source-span" xml:id="source-69811-69832" n="175"/>
+        <note type="source-span" xml:id="source-69832-69835" n="175"/>
+        <note type="source-span" xml:id="source-69835-69853" n="175"/>
+        <note type="source-span" xml:id="source-69853-70272" n="175"/>
+        <note type="source-span" xml:id="source-70272-70422" n="176"/>
+        <note type="source-span" xml:id="source-70422-70446" n="176"/>
+        <note type="source-span" xml:id="source-70740-70755" n="176"/>
+        <note type="source-span" xml:id="source-71159-71366" n="177"/>
+        <note type="source-span" xml:id="source-71366-71387" n="177"/>
+        <note type="source-span" xml:id="source-71387-71522" n="177"/>
+        <note type="source-span" xml:id="source-71522-71552" n="177"/>
+        <note type="source-span" xml:id="source-71552-71600" n="177"/>
+        <note type="source-span" xml:id="source-71600-71630" n="177"/>
+        <note type="source-span" xml:id="source-71630-71721" n="177"/>
+        <note type="source-span" xml:id="source-71721-71824" n="179"/>
+        <note type="source-span" xml:id="source-71742-71766" n="179"/>
+        <note type="source-span" xml:id="source-71742-71820" n="179"/>
+        <note type="source-span" xml:id="source-71824-72054" n="181"/>
+        <note type="source-span" xml:id="source-7200-7224" n="35"/>
+        <note type="source-span" xml:id="source-72054-72177" n="182"/>
+        <note type="source-span" xml:id="source-72177-72198" n="182"/>
+        <note type="source-span" xml:id="source-72198-72204" n="182"/>
+        <note type="source-span" xml:id="source-72204-72225" n="182"/>
+        <note type="source-span" xml:id="source-72225-72474" n="182"/>
+        <note type="source-span" xml:id="source-7224-7571" n="35"/>
+        <note type="source-span" xml:id="source-72474-72495" n="182"/>
+        <note type="source-span" xml:id="source-72495-72669" n="182"/>
+        <note type="source-span" xml:id="source-72669-72690" n="182"/>
+        <note type="source-span" xml:id="source-72690-72717" n="182"/>
+        <note type="source-span" xml:id="source-72717-72729" n="182"/>
+        <note type="source-span" xml:id="source-72729-72801" n="182"/>
+        <note type="source-span" xml:id="source-72801-72822" n="182"/>
+        <note type="source-span" xml:id="source-72822-72984" n="182"/>
+        <note type="source-span" xml:id="source-72984-72999" n="182"/>
+        <note type="source-span" xml:id="source-72999-73055" n="182"/>
+        <note type="source-span" xml:id="source-73055-73415" n="183"/>
+        <note type="source-span" xml:id="source-73415-73439" n="183"/>
+        <note type="source-span" xml:id="source-73439-73484" n="183"/>
+        <note type="source-span" xml:id="source-73484-73499" n="183"/>
+        <note type="source-span" xml:id="source-74180-74210" n="183"/>
+        <note type="source-span" xml:id="source-74581-75651" n="184"/>
+        <note type="source-span" xml:id="source-75651-76266" n="185"/>
+        <note type="source-span" xml:id="source-7571-7910" n="36"/>
+        <note type="source-span" xml:id="source-76266-76278" n="185"/>
+        <note type="source-span" xml:id="source-76278-76305" n="185"/>
+        <note type="source-span" xml:id="source-76305-76320" n="185"/>
+        <note type="source-span" xml:id="source-76320-76469" n="185"/>
+        <note type="source-span" xml:id="source-77539-78704" n="187"/>
+        <note type="source-span" xml:id="source-78704-78789" n="189"/>
+        <note type="source-span" xml:id="source-78725-78740" n="189"/>
+        <note type="source-span" xml:id="source-78725-78785" n="189"/>
+        <note type="source-span" xml:id="source-78789-79136" n="191"/>
+        <note type="source-span" xml:id="source-7910-7931" n="36"/>
+        <note type="source-span" xml:id="source-79136-79430" n="192"/>
+        <note type="source-span" xml:id="source-7931-8252" n="36"/>
+        <note type="source-span" xml:id="source-79430-79475" n="192"/>
+        <note type="source-span" xml:id="source-79475-80017" n="192"/>
+        <note type="source-span" xml:id="source-80119-80134" n="193"/>
+        <note type="source-span" xml:id="source-80305-80320" n="193"/>
+        <note type="source-span" xml:id="source-80320-80377" n="193"/>
+        <note type="source-span" xml:id="source-80377-80401" n="193"/>
+        <note type="source-span" xml:id="source-80401-80407" n="193"/>
+        <note type="source-span" xml:id="source-80407-80422" n="193"/>
+        <note type="source-span" xml:id="source-80422-80545" n="193"/>
+        <note type="source-span" xml:id="source-80545-80563" n="193"/>
+        <note type="source-span" xml:id="source-80599-80614" n="193"/>
+        <note type="source-span" xml:id="source-80614-80647" n="193"/>
+        <note type="source-span" xml:id="source-80647-80668" n="193"/>
+        <note type="source-span" xml:id="source-80668-80749" n="193"/>
+        <note type="source-span" xml:id="source-80749-80773" n="193"/>
+        <note type="source-span" xml:id="source-81108-81120" n="194"/>
+        <note type="source-span" xml:id="source-81291-81306" n="194"/>
+        <note type="source-span" xml:id="source-81381-81408" n="194"/>
+        <note type="source-span" xml:id="source-81408-81459" n="194"/>
+        <note type="source-span" xml:id="source-81459-81474" n="194"/>
+        <note type="source-span" xml:id="source-81474-81498" n="194"/>
+        <note type="source-span" xml:id="source-81498-81522" n="194"/>
+        <note type="source-span" xml:id="source-81522-81606" n="194"/>
+        <note type="source-span" xml:id="source-81606-81618" n="194"/>
+        <note type="source-span" xml:id="source-81618-81729" n="194"/>
+        <note type="source-span" xml:id="source-81729-81744" n="194"/>
+        <note type="source-span" xml:id="source-81744-81786" n="194"/>
+        <note type="source-span" xml:id="source-81786-81810" n="194"/>
+        <note type="source-span" xml:id="source-81810-81852" n="194"/>
+        <note type="source-span" xml:id="source-81852-81870" n="194"/>
+        <note type="source-span" xml:id="source-81996-82008" n="194"/>
+        <note type="source-span" xml:id="source-82148-82163" n="195"/>
+        <note type="source-span" xml:id="source-82289-82304" n="195"/>
+        <note type="source-span" xml:id="source-8252-8276" n="36"/>
+        <note type="source-span" xml:id="source-82547-82568" n="195"/>
+        <note type="source-span" xml:id="source-82568-83083" n="195"/>
+        <note type="source-span" xml:id="source-8276-8764" n="36"/>
+        <note type="source-span" xml:id="source-83083-83116" n="196"/>
+        <note type="source-span" xml:id="source-83116-83131" n="196"/>
+        <note type="source-span" xml:id="source-83131-83152" n="196"/>
+        <note type="source-span" xml:id="source-83152-83173" n="196"/>
+        <note type="source-span" xml:id="source-83173-83743" n="196"/>
+        <note type="source-span" xml:id="source-83743-83761" n="196"/>
+        <note type="source-span" xml:id="source-83761-84156" n="196"/>
+        <note type="source-span" xml:id="source-84156-84450" n="197"/>
+        <note type="source-span" xml:id="source-84450-84465" n="197"/>
+        <note type="source-span" xml:id="source-84465-84759" n="197"/>
+        <note type="source-span" xml:id="source-84759-84780" n="197"/>
+        <note type="source-span" xml:id="source-84780-84792" n="197"/>
+        <note type="source-span" xml:id="source-84792-84816" n="197"/>
+        <note type="source-span" xml:id="source-84816-84852" n="197"/>
+        <note type="source-span" xml:id="source-84852-84873" n="197"/>
+        <note type="source-span" xml:id="source-84873-84885" n="197"/>
+        <note type="source-span" xml:id="source-84885-84906" n="197"/>
+        <note type="source-span" xml:id="source-85386-85410" n="197"/>
+        <note type="source-span" xml:id="source-85410-85566" n="197"/>
+        <note type="source-span" xml:id="source-85566-85596" n="197"/>
+        <note type="source-span" xml:id="source-85596-85838" n="197"/>
+        <note type="source-span" xml:id="source-85838-86288" n="198"/>
+        <note type="source-span" xml:id="source-86288-86309" n="198"/>
+        <note type="source-span" xml:id="source-86309-86357" n="198"/>
+        <note type="source-span" xml:id="source-86357-86390" n="198"/>
+        <note type="source-span" xml:id="source-86390-86735" n="198"/>
+        <note type="source-span" xml:id="source-86735-86750" n="198"/>
+        <note type="source-span" xml:id="source-86750-86771" n="198"/>
+        <note type="source-span" xml:id="source-86771-86783" n="198"/>
+        <note type="source-span" xml:id="source-86783-87049" n="198"/>
+        <note type="source-span" xml:id="source-87388-87418" n="199"/>
+        <note type="source-span" xml:id="source-8764-8785" n="37"/>
+        <note type="source-span" xml:id="source-87829-87853" n="199"/>
+        <note type="source-span" xml:id="source-8785-8789" n="37"/>
+        <note type="source-span" xml:id="source-87853-88165" n="199"/>
+        <note type="source-span" xml:id="source-8789-8906" n="39"/>
+        <note type="source-span" xml:id="source-8810-8840" n="39"/>
+        <note type="source-span" xml:id="source-8810-8900" n="39"/>
+        <note type="source-span" xml:id="source-88165-88186" n="199"/>
+        <note type="source-span" xml:id="source-88186-88207" n="199"/>
+        <note type="source-span" xml:id="source-88207-88231" n="199"/>
+        <note type="source-span" xml:id="source-88231-88364" n="199"/>
+        <note type="source-span" xml:id="source-88364-88503" n="201"/>
+        <note type="source-span" xml:id="source-88385-88427" n="201"/>
+        <note type="source-span" xml:id="source-88385-88499" n="201"/>
+        <note type="source-span" xml:id="source-88503-88647" n="203"/>
+        <note type="source-span" xml:id="source-88647-88677" n="203"/>
+        <note type="source-span" xml:id="source-88677-88716" n="203"/>
+        <note type="source-span" xml:id="source-88716-88731" n="203"/>
+        <note type="source-span" xml:id="source-88731-88767" n="203"/>
+        <note type="source-span" xml:id="source-88767-88785" n="203"/>
+        <note type="source-span" xml:id="source-88785-88890" n="203"/>
+        <note type="source-span" xml:id="source-88890-88911" n="203"/>
+        <note type="source-span" xml:id="source-88911-88914" n="203"/>
+        <note type="source-span" xml:id="source-88914-88935" n="203"/>
+        <note type="source-span" xml:id="source-88935-89148" n="203"/>
+        <note type="source-span" xml:id="source-8902-8906" n="40"/>
+        <note type="source-span" xml:id="source-8906-9003" n="42"/>
+        <note type="source-span" xml:id="source-89148-89175" n="203"/>
+        <note type="source-span" xml:id="source-89175-89181" n="203"/>
+        <note type="source-span" xml:id="source-89181-89205" n="203"/>
+        <note type="source-span" xml:id="source-89205-89211" n="203"/>
+        <note type="source-span" xml:id="source-89211-89235" n="203"/>
+        <note type="source-span" xml:id="source-89235-89279" n="203"/>
+        <note type="source-span" xml:id="source-8927-8948" n="42"/>
+        <note type="source-span" xml:id="source-8927-8999" n="42"/>
+        <note type="source-span" xml:id="source-89279-89704" n="204"/>
+        <note type="source-span" xml:id="source-89704-89806" n="205"/>
+        <note type="source-span" xml:id="source-89806-89827" n="205"/>
+        <note type="source-span" xml:id="source-9003-9311" n="44"/>
+        <note type="source-span" xml:id="source-90367-90394" n="205"/>
+        <note type="source-span" xml:id="source-90394-90504" n="205"/>
+        <note type="source-span" xml:id="source-90504-90567" n="206"/>
+        <note type="source-span" xml:id="source-90567-90588" n="206"/>
+        <note type="source-span" xml:id="source-90588-90639" n="206"/>
+        <note type="source-span" xml:id="source-90639-90669" n="206"/>
+        <note type="source-span" xml:id="source-90669-90951" n="206"/>
+        <note type="source-span" xml:id="source-90951-90975" n="206"/>
+        <note type="source-span" xml:id="source-90975-91260" n="206"/>
+        <note type="source-span" xml:id="source-91260-91284" n="206"/>
+        <note type="source-span" xml:id="source-91284-91574" n="206"/>
+        <note type="source-span" xml:id="source-92093-92114" n="207"/>
+        <note type="source-span" xml:id="source-92518-92620" n="208"/>
+        <note type="source-span" xml:id="source-92620-92641" n="208"/>
+        <note type="source-span" xml:id="source-92641-92818" n="208"/>
+        <note type="source-span" xml:id="source-92818-92839" n="208"/>
+        <note type="source-span" xml:id="source-9311-9371" n="45"/>
+        <note type="source-span" xml:id="source-93181-93199" n="208"/>
+        <note type="source-span" xml:id="source-93199-93217" n="208"/>
+        <note type="source-span" xml:id="source-93217-93229" n="208"/>
+        <note type="source-span" xml:id="source-93229-93269" n="208"/>
+        <note type="source-span" xml:id="source-93269-93384" n="210"/>
+        <note type="source-span" xml:id="source-93290-93320" n="210"/>
+        <note type="source-span" xml:id="source-93290-93380" n="210"/>
+        <note type="source-span" xml:id="source-93384-93630" n="212"/>
+        <note type="source-span" xml:id="source-93630-93654" n="212"/>
+        <note type="source-span" xml:id="source-93654-93846" n="212"/>
+        <note type="source-span" xml:id="source-9371-9386" n="45"/>
+        <note type="source-span" xml:id="source-93846-93861" n="212"/>
+        <note type="source-span" xml:id="source-9386-9419" n="45"/>
+        <note type="source-span" xml:id="source-93861-94139" n="212"/>
+        <note type="source-span" xml:id="source-94139-94786" n="213"/>
+        <note type="source-span" xml:id="source-9419-9434" n="45"/>
+        <note type="source-span" xml:id="source-9434-9536" n="45"/>
+        <note type="source-span" xml:id="source-94786-94870" n="214"/>
+        <note type="source-span" xml:id="source-94870-94900" n="214"/>
+        <note type="source-span" xml:id="source-94900-95526" n="214"/>
+        <note type="source-span" xml:id="source-9536-9560" n="45"/>
+        <note type="source-span" xml:id="source-95526-95667" n="215"/>
+        <note type="source-span" xml:id="source-9560-9937" n="45"/>
+        <note type="source-span" xml:id="source-95667-95682" n="215"/>
+        <note type="source-span" xml:id="source-95682-95814" n="215"/>
+        <note type="source-span" xml:id="source-95814-95835" n="215"/>
+        <note type="source-span" xml:id="source-95835-96195" n="215"/>
+        <note type="source-span" xml:id="source-96195-96219" n="215"/>
+        <note type="source-span" xml:id="source-96219-96365" n="215"/>
+        <note type="source-span" xml:id="source-96365-96563" n="216"/>
+        <note type="source-span" xml:id="source-96563-96584" n="216"/>
+        <note type="source-span" xml:id="source-96584-97126" n="216"/>
+        <note type="source-span" xml:id="source-98148-98355" n="218"/>
+        <note type="source-span" xml:id="source-98355-98382" n="218"/>
+        <note type="source-span" xml:id="source-98382-98415" n="218"/>
+        <note type="source-span" xml:id="source-98415-98457" n="218"/>
+        <note type="source-span" xml:id="source-98457-98562" n="218"/>
+        <note type="source-span" xml:id="source-98562-98583" n="218"/>
+        <note type="source-span" xml:id="source-98583-99091" n="218"/>
+        <note type="source-span" xml:id="source-99091-99262" n="220"/>
+        <note type="source-span" xml:id="source-99112-99169" n="220"/>
+        <note type="source-span" xml:id="source-99112-99256" n="220"/>
+        <note type="source-span" xml:id="source-99258-99262" n="221"/>
+        <note type="source-span" xml:id="source-99262-99383" n="223"/>
+        <note type="source-span" xml:id="source-99283-99316" n="223"/>
+        <note type="source-span" xml:id="source-99283-99379" n="223"/>
+        <note type="source-span" xml:id="source-9937-10405" n="46"/>
+        <note type="source-span" xml:id="source-99383-99434" n="225"/>
+        <note type="source-span" xml:id="source-99434-99458" n="225"/>
+        <note type="source-span" xml:id="source-99458-99622" n="225"/>
+        <note type="source-span" xml:id="source-99622-99676" n="226"/>
+        <note type="source-span" xml:id="source-99676-99691" n="226"/>
+        <note type="source-span" xml:id="source-99691-100057" n="226"/>
+      </div>
+      <note type="parser-completion" n="true">The n attribute is true when no parser diagnostic of error severity was raised for this source. What the converter could not interpret is recorded in the interpretation-problem and parser-diagnostic notes.</note>
+      <note type="source-decoding">windows-31j</note>
+    </back>
+  </text>
+</TEI>
