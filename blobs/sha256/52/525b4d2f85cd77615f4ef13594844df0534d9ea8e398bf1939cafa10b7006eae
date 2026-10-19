@@ -1,0 +1,1604 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:snh="https://w3id.org/soranoha/ns/tei" xmlns="http://www.tei-c.org/ns/1.0" snh:vocab-version="3">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ja">形容詞の論</title>
+        <title type="reading" xml:lang="ja-Hira">けいようしのろん</title>
+        <title type="sub" xml:lang="ja">――語尾「し」の発生――</title>
+        <title type="sub-reading" xml:lang="ja-Hira">――ごび「し」のはっせい――</title>
+        <author><persName xml:lang="ja"><surname>折口</surname><forename>信夫</forename><idno type="aozora-person-id">000933</idno></persName><persName xml:lang="ja-Hira"><surname>おりくち</surname><forename>しのぶ</forename></persName><persName xml:lang="ja-Latn"><surname>Orikuchi</surname><forename>Shinobu</forename></persName></author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://w3id.org/soranoha/">Soranoha</publisher>
+        <idno type="soranoha-work-identifier">047180_000933</idno>
+        <idno type="aozora-work-id">047180</idno>
+        <idno type="aozora-card-url">https://www.aozora.gr.jp/cards/000933/card47180.html</idno>
+        <date when="2014-09-21">2014-09-21</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">The underlying work is in the public domain; Soranoha asserts no rights over it.</licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Soranoha's encoding of this work and the artifacts derived from it are dedicated to the public domain under CC0-1.0. Attribution is requested, not required. Full rights statement: <ptr target="https://w3id.org/soranoha/rights"/></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>折口信夫全集　12</title><publisher>中央公論社</publisher><date>1996（平成8）年3月25日</date><note type="input-edition">1996（平成8）年3月25日初版</note><note type="proof-edition">1996（平成8）年3月25日初版</note></bibl>
+        <bibl type="first-publication">「東洋語学乃研究」1932（昭和7）年12月</bibl>
+        <bibl><idno type="source-content-hash">sha256:aad521b4973f8240df800c3d6a406dc7e719f86ef4c36d0a6f960e70335575f5</idno></bibl>
+        <bibl><idno type="primary-text-hash">sha256:c061ab3f365224132d57aaca4cfd4fb206a8e91788bc163c96f064e458ec0fe7</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css"/>
+      <classDecl><taxonomy xml:id="ndc"><bibl>分類番号 as recorded by <title>青空文庫</title>, read as a class of 日本十進分類法 新訂9版. Category labels are from <title>NDC9 Linked Data</title> (日本図書館協会, CC BY); a category's IRI is <ref target="http://jla.or.jp/data/ndc9">http://jla.or.jp/data/ndc9</ref> followed by # and its n.</bibl><category xml:id="ndc815" n="815"><catDesc xml:lang="ja">文法．語法</catDesc><catDesc xml:lang="en">Grammar</catDesc></category></taxonomy><taxonomy xml:id="aozora-orthography"><bibl><title>青空文庫</title> 文字遣い種別: the orthographic style Aozora Bunko records for the transcription.</bibl></taxonomy></classDecl>
+      <refsDecl xml:id="source-spans"><p>A note of type source-span has an xml:id of the form source-START-END, giving the extent in UTF-8 bytes of the decoded primary text identified in sourceDesc, after the emendations declared in editorialDecl/correction are applied; each emendation replaces its sic text by its corr text at its own extent. <ptr target="https://w3id.org/soranoha/ns/tei"/></p></refsDecl>
+      <charDecl>
+        <char xml:id="gaiji-3-1-90-25">
+          <mapping type="unicode">罇</mapping>
+          <localProp name="rawMarker" value="缶＋墫のつくり"/>
+          <localProp name="sourceReference" value="第3水準1-90-25"/>
+          <snh:gaiji-reference original="第3水準1-90-25" cell="25" plane="1" kind="jis-code" row="90"/>
+        </char>
+        <char xml:id="gaiji-3-1-86-47">
+          <mapping type="unicode">氐</mapping>
+          <localProp name="rawMarker" value="低のつくり"/>
+          <localProp name="sourceReference" value="第3水準1-86-47"/>
+          <snh:gaiji-reference original="第3水準1-86-47" cell="47" plane="1" kind="jis-code" row="86"/>
+        </char>
+        <char xml:id="gaiji-3-1-84-92">
+          <mapping type="unicode">擎</mapping>
+          <localProp name="rawMarker" value="敬／手"/>
+          <localProp name="sourceReference" value="第3水準1-84-92"/>
+          <snh:gaiji-reference original="第3水準1-84-92" cell="92" plane="1" kind="jis-code" row="84"/>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ja">日本語</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#ndc">815</classCode>
+        <catRef scheme="#ndc" target="#ndc815"/>
+        <classCode scheme="#aozora-orthography">新字旧仮名</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p source="#source-814-1839"><seg source="#source-814-1839">文法上に於ける文章論は、非常に輝かしい為事の様に見られてゐる。其が、美しい関聯を持つて居る点に於いて、恰、文法の哲学とでも言ふ様に、意味深く見られてゐるやうだ。私は常に思ふ。文章論は言語心理学の領分に入れるべきもので、文法から解放せられなければならない。文法は結局、形式論に初つて形式論に終る事を、覚悟してかゝらなければならないのである。総ての学問のうちに、最実証的でなければならぬ筈の文法にして、而も精神分析に似た傾きを持ち、その過程に於いて理論的の遊戯に堕するものが殖えて来たのも、この文章論の態度が総てに及ぶからだと言ふのである。此処にかうした平生の考への一端を漏すのは、外ではない。単語の組織の研究が、結局は文章の体制に就いての根本的な理会を与へるものだ、と思ふからである。</seg></p>
+      <p source="#source-1839-2105">形容詞の発生を追及して行く事は、同時に、日本文章組織の或一面の成立を暗示する事になるだらうと考へるのだ。国語に於ける所謂、形容詞の生命を扼するものは、その語尾なる「し」である。</p>
+      <div type="layout" source="#source-2105-2366" style="padding-inline-start: 2em">
+        <p source="#source-2140-2172"><seg source="#source-2140-2172">かなし妹　　めぐし子</seg></p>
+        <p source="#source-2172-2213"><seg source="#source-2172-2181">くはし</seg><ruby type="furigana" rend="right" source="#source-2181-2193"><rb>女</rb><rt>メ</rt></ruby><seg source="#source-2193-2213">　　うまし国</seg></p>
+        <p source="#source-2213-2260"><seg source="#source-2213-2222">かたし</seg><ruby type="furigana" rend="right" source="#source-2222-2234"><rb>磐</rb><rt>ハ</rt></ruby><seg source="#source-2234-2260">　　まぐはし児ろ</seg></p>
+        <p source="#source-2260-2292"><seg source="#source-2260-2266">とほ</seg><choice source="#source-2266-2275"><orig>／″＼</orig><reg>〲</reg></choice><seg source="#source-2275-2292">し高志の国</seg></p>
+        <p source="#source-2292-2330"><seg source="#source-2292-2330">うらぐはし山（？浦妙山）</seg></p>
+      </div>
+      <div>
+        <p source="#source-2368-4194">かうした熟語の形は、後世までも影響を残して居つて、日常語のうちにも、擬古的表現を用ゐるものには、時々現れて来る。けれども、大体から言へば、我々の持つて居る後期王朝の用語例を基礎として、若干その前後の時代のものを包含した文法に対しては、やはり時代を別に劃した方が適切である。端的に言へば、私は最近まで、この「し」を以て<hi rend="bouten 傍点 right" source="#source-2842-2902" corresp="#source-2860-2902"><seg source="#source-2842-2860">語根の一部分</seg></hi>と見てゐた。即、今述べた文法時代の、更に今一つ前の時代に、語根体言として用ゐられ、又真実に感ぜられて居つたものが次第に、かうした「し」の部分だけを、その屈折と見做す理会が嵩じて来て、一種の用言観念を生じて来たもの、と言ふ考へを、久しく固守してゐた。唯、わが古文献は、先に述べた文法時代のうち、第三期の材料は非常に多く残つてゐるに繋らず、第二期既に尠く、第一期に至つては、恰、化石の散列から有形を想像するより外に方法がない程、材料が残つてゐない。さうした間から我々は、まづ語根の末尾に「し」或は「ｓ」に似た音を共有した多くの例を見いださなければならない。処が、我々の探求する事の出来るものは、単に形容詞の語尾か或は語根の屈折したものかの判断にすら、迷はなければならない例があるに過ぎない。其で、私はこの側の主張をさし控へると共に、どうしてさう言ふ考へ方をせねばならなかつたか、と言ふ径路を示す事が、もつと新しい考へを形容詞の語尾の研究に与へる事になりさうに思ふ。</p>
+        <p source="#source-4194-5516">私は動詞・形容詞に通じて、語尾発生の規則らしいものゝあるを考へてゐた。其は、語根の尾音が子音であつて、その屈折が母音を包含する様になる。譬へば、動詞に於いては、「う」列音を派生する事に依つて、まづ終止形が出来る。さうして、更に自由な屈折が、所謂総ての活段を意識せしめるまでにくり返されたものと見てゐた。さうして此は、尠くとも動詞に於いては真理である。今におき、この考へを私は変へる必要を認めてゐない。だが、其と共に私は、形容詞の成立にも、同じ原因のあるもの、と考へたのであつた。だが、その為には、幾歩を譲るとしても、形容詞語尾「し」を意識する為には、或種の事情を共通した「ｓ」音で終る語根のあつたその理由を知らなければならない。其と共に、動詞の場合に稀に「ｉ」音で屈折するのがあるにしても、多くは「ｕ」音であるに拘らず、形容詞に於いては「ｉ」音である訣と、「ｉ」音がどうして附着して来たかの説明がいる訣である。処が我々には、まだ理会せられない所の或法則的に用ゐられる「し」がある。</p>
+      </div>
+      <div type="layout" source="#source-5516-5791" style="padding-inline-start: 2em">
+        <p source="#source-5551-5589"><seg source="#source-5551-5589">イ、とこしへ　　かたしへ</seg></p>
+        <p style="text-indent: 2em" rend="first-line-indent(2)" source="#source-5589-5609"><seg source="#source-5589-5609">いにしへ</seg></p>
+        <p source="#source-5609-5656"><seg source="#source-5609-5656">ロ、いまし（く）　けたし（く）</seg></p>
+        <p style="text-indent: 2em" rend="first-line-indent(2)" source="#source-5656-5682"><seg source="#source-5656-5682">しまし（く）</seg></p>
+        <p source="#source-5682-5732"><seg source="#source-5682-5732">ハ、やすみしゝ　　いよしたゝしゝ</seg></p>
+        <p style="text-indent: 2em" rend="first-line-indent(2)" source="#source-5732-5755"><seg source="#source-5732-5755">あそばしゝ</seg></p>
+      </div>
+      <div>
+        <p source="#source-5793-7469">此等の「し」に就いて、或ものは所謂接尾語、或は緊張辞、と言ふ風に説明して行けるであらう。併しながら其は、文法的の分類でなくて、修辞的の区劃である。このうち（ロ）の例は、我々の持つてゐる形容詞語尾の感覚に近いものであつて、活用完成の径路には、必経てゐる姿であるに違ひない。（イ）は、文法的語感の持ち方に依つて違ふ所もあらうが、大体に於いて、領格「つ」を以て代入出来さうに、現代の感じでは思はれる。即、<hi rend="bosen 傍線 right" source="#source-6390-6438" corresp="#source-6402-6438"><seg source="#source-6390-6402">いにしへ</seg></hi><seg source="#source-6438-6441">の</seg><hi rend="bosen 傍線 right" source="#source-6441-6471" corresp="#source-6444-6471"><seg source="#source-6441-6444">し</seg></hi><seg source="#source-6471-6594">は、単純に過去の助動詞と採るべきではなからうと思ふが、其を拒む理由もまだ立たない。</seg><hi rend="bosen 傍線 right" source="#source-6594-6642" corresp="#source-6606-6642"><seg source="#source-6594-6606">かたしへ</seg></hi><seg source="#source-6642-6663">の方になると、</seg><hi rend="bosen 傍線 right" source="#source-6663-6705" corresp="#source-6672-6705"><seg source="#source-6663-6672">かたし</seg></hi><seg source="#source-6705-6795">だけでほゞ熟語であり、体言の感覚が持たれて居つた痕跡はある。</seg><hi rend="bosen 傍線 right" source="#source-6795-6843" corresp="#source-6807-6843"><seg source="#source-6795-6807">とこしへ</seg></hi><seg source="#source-6843-6855">などは、</seg><hi rend="bosen 傍線 right" source="#source-6855-6903" corresp="#source-6867-6903"><seg source="#source-6855-6867">とこつへ</seg></hi><seg source="#source-6903-6942">と言ふ形を仮想して見ると、</seg><hi rend="bosen 傍線 right" source="#source-6942-6990" corresp="#source-6954-6990"><seg source="#source-6942-6954">とことは</seg></hi><seg source="#source-6990-7077">なる詞の形が訣りさうである。ともかくもこの一群に於いては、</seg><hi rend="bosen 傍線 right" source="#source-7077-7107" corresp="#source-7080-7107"><seg source="#source-7077-7080">の</seg></hi><seg source="#source-7107-7110">・</seg><hi rend="bosen 傍線 right" source="#source-7110-7140" corresp="#source-7113-7140"><seg source="#source-7110-7113">が</seg></hi><seg source="#source-7140-7143">・</seg><hi rend="bosen 傍線 right" source="#source-7143-7173" corresp="#source-7146-7173"><seg source="#source-7143-7146">つ</seg></hi><seg source="#source-7173-7469">に近づいてゐる事は明らかである。（ハ）の例に於いては、総て単語に着くと言ふよりも、句に続くと言うた感じを持たせるが、結局はその詞自身が長く、その上に、詞に屈折の多い為に、さう感ぜられるだけである。</seg></p>
+      </div>
+      <div type="layout" source="#source-7469-7645" style="padding-inline-start: 2em">
+        <p source="#source-7504-7536"><seg source="#source-7504-7536">いよしたゝしゝ……弓</seg></p>
+        <p source="#source-7536-7571"><seg source="#source-7536-7571">やすみしゝ……おほきみ</seg></p>
+        <p source="#source-7571-7609"><seg source="#source-7571-7609">あそばしゝ……しゝ（？）</seg></p>
+      </div>
+      <div>
+        <p source="#source-7647-7796"><seg source="#source-7647-7796">つまりは、音脚の制限を受けた律文の中にあればこそ、熟語としての感覚が乏しいのに過ぎない。たとへば、</seg></p>
+      </div>
+      <div type="layout" source="#source-7796-7983" style="padding-inline-start: 2em">
+        <p source="#source-7831-7947"><seg source="#source-7831-7947">なぐはし（名細）　よしぬのやまは、……くもゐにぞ、とほくありける（万葉巻一）</seg></p>
+      </div>
+      <div>
+        <p source="#source-7985-8932"><seg source="#source-7985-8126">を例にとつて見る。かう言ふ場合、枕詞の格として、我々は常に、其連続について問題としてはゐない。</seg><hi rend="bosen 傍線 right" source="#source-8126-8174" corresp="#source-8138-8174"><seg source="#source-8126-8138">なぐはし</seg></hi><seg source="#source-8174-8177">と</seg><hi rend="bosen 傍線 right" source="#source-8177-8219" corresp="#source-8186-8219"><seg source="#source-8177-8186">よしぬ</seg></hi>との間には不即不離の関係があるのだと言ふ位に考へてゐる。此は即、文法に気分観を容れるからの間違ひである。おなじ詞でも、古用語例を延長したもの、たとへば、「<ruby type="furigana" rend="right" source="#source-8450-8477"><rb>名細之</rb><rt>ナグハシ</rt></ruby>　さみねの島の」（巻二）と言つた例になると、<hi rend="bouten 傍点 right" source="#source-8543-8579" corresp="#source-8549-8579"><seg source="#source-8543-8549">よし</seg></hi><seg source="#source-8579-8735">野と謂つた様に適確に名細しと言ふのでなく、唯漠然と名の感じがよいと言ふ位に転じてゐる。つまり単なる地名の</seg><hi rend="bouten 傍点 right" source="#source-8735-8771" corresp="#source-8741-8771"><seg source="#source-8735-8741">ほめ</seg></hi>詞なのである。此と「<ruby type="furigana" rend="right" source="#source-8801-8831"><rb>名細寸</rb><rt>ナグハシキ</rt></ruby>　いなみの海のおきつ浪」（巻三）と言ふのと、どれ程の差違があらう。</p>
+        <p source="#source-8932-9672">この三つを並べて見ると、古格と古格を辛うじて守つてゐるものと、新しい感覚に従うて文法を整頓したものとの間に、自然に通じるものが見られる。最進んだ枕詞論者は、語句の固定によつて、枕詞としての感覚が出されてゐるものと言ふであらう。だが、真実、「なぐはし　よしぬ」と「なぐはしき　いなみのうみ」との間に時代的発想の新旧が見られるだけではないか。唯、前者では<hi rend="bouten 傍点 right" source="#source-9457-9499" corresp="#source-9466-9499"><seg source="#source-9457-9466">よしぬ</seg></hi>との関係の深さは見えるが、後者は「の海」まで、<hi rend="bosen 傍線 right" source="#source-9568-9622" corresp="#source-9583-9622"><seg source="#source-9568-9583">なぐはしき</seg></hi><seg source="#source-9622-9672">の効果の及んでゐることは確かだ。</seg></p>
+        <p source="#source-9672-10094">枕詞と言はれ、又さう扱はれてゐないものゝ中でも、特別なものを除けば、実は分類の不正確なものに過ぎなかつた。だから、前にあげた「やすみしゝ」が枕詞であつて、自余の物がさうでないなど言ふのは、唯の習慣の問題に過ぎない。更に此癖は、熟語かどうかと言ふ感じをさへも、鈍らしてゐるのである。</p>
+        <p source="#source-10094-10978">今一度方面をかへて（ハ）の例について物を言ふなら、「やすみしゝ」などの上の「し」は敬語の助動詞に属すべきものだ。こゝにも問題があるので、「……<hi rend="bouten 傍点 right" source="#source-10307-10343" corresp="#source-10313-10343"><seg source="#source-10307-10313">さす</seg></hi>」・「……<hi rend="bouten 傍点 right" source="#source-10358-10394" corresp="#source-10364-10394"><seg source="#source-10358-10364">しす</seg></hi>」など概括して古代風に感じられる敬語法では、上が唯<hi rend="bouten 傍点 right" source="#source-10469-10505" corresp="#source-10475-10505"><seg source="#source-10469-10475">する</seg></hi>と言ふ動詞で名詞についたもの、下が敬語的屈折を作るものと言ふ風に理会せられる。昨非今是まことに面目ないが、単に朝令暮改と笑殺されてもさし支へない。私は、今敢へて上の「し」を敬相、下の「し」を、尚多くの隈を含めながら、<hi rend="bouten 傍点 right" source="#source-10829-10943" corresp="#source-10874-10943"><seg source="#source-10829-10874">熟語を構成する一つの形式的要素</seg></hi><seg source="#source-10943-10978">と見ようと考へてゐる。</seg></p>
+        <p source="#source-10978-12885"><seg source="#source-10978-11008">枕詞と言うても、いろ</seg><choice source="#source-11008-11014"><orig>／＼</orig><reg>〱</reg></choice>あるが大体に、枕詞と感じるだけの約束がないでもない。ある一つの約束は、一つの固定した格を作つて、外の語と紛れぬ様になつてゐることだ。こゝには其について、一々述べないが、この場合の問題の「を」なども其だ。「けごろもを……<hi rend="bouten 傍点 right" source="#source-11341-11377" corresp="#source-11347-11377"><seg source="#source-11341-11347">はる</seg></hi>冬」「みはかしを……つるぎ……」「みこゝろを……よしぬ」<hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-11461-11506" corresp="#source-11470-11506"><seg source="#source-11461-11470">（イ）</seg></hi>の如き、近代の人の文法的調節によつて感じる所の、御心よ……み佩刀よ……褻衣よ……など言ふ形は、確かに万葉時代にも其通り考へてゐた時期はあつたらしく、其と共に、既に此「を」を以て目的格の助辞と見るに傾いたらしい例は、ぼつ<choice source="#source-11833-11839"><orig>／＼</orig><reg>〱</reg></choice>ある。「わぎもこを……いざみの山（はやみ浜……）」「いもがてを……とろしの池」「たちばなを……もりべのさと」<hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-12001-12046" corresp="#source-12010-12046"><seg source="#source-12001-12010">（ロ）</seg></hi><seg source="#source-12046-12166">などは、弁疏の余地は、多少あるとは言へ、意識が移つてゐると見るのが、本道らしい。</seg><hi rend="text-combine-upright" snh:layout-kind="tcy" source="#source-12166-12211" corresp="#source-12175-12211"><seg source="#source-12166-12175">（イ）</seg></hi>と同じ傾向で、其成立した時代の、更に古くとも新しくない「うまざけを……みわ」が「うまざけの……みわ」、――殊にこの例では、<hi rend="bosen 傍線 right" source="#source-12394-12442" corresp="#source-12406-12442"><seg source="#source-12394-12406">うまざけ</seg></hi><seg source="#source-12442-12445">・</seg><hi rend="bosen 傍線 right" source="#source-12445-12499" corresp="#source-12460-12499"><seg source="#source-12445-12460">うまざけを</seg></hi><seg source="#source-12499-12502">・</seg><hi rend="bosen 傍線 right" source="#source-12502-12556" corresp="#source-12517-12556"><seg source="#source-12502-12517">うまざけの</seg></hi>と言ふ三階段を併せ持つてゐる。――と言ふ形があり、「はるびを……かすが」に対して、日本紀では、「はるびの……かすが」の形が存してゐる。「をとめらを……袖ふる山」は、又同じく万葉に「をとめらが……袖ふる山」となつてゐる。</p>
+        <p source="#source-12885-14063">かうして見ると、枕詞の格と言ふべきものは、固定を保つてゐるものではなかつた。「を」が所謂後世式の感動の<hi rend="bouten 傍点 right" source="#source-13038-13080" corresp="#source-13047-13080"><seg source="#source-13038-13047">てには</seg></hi>らしい職分は、畢竟やはり後人の感覚で、熟語化する為の辞と言はないまでも、其以外の方面に導く為の語ではなかつた訣である。其が、新しい意識を派生して、目的格の様な形に考へ、其に該当する叙述語らしいもので、枕詞の職能を完成させようとする様にもなつた。が、此は、「を」と言ふ<hi rend="bouten 傍点 right" source="#source-13479-13521" corresp="#source-13488-13521"><seg source="#source-13479-13488">てには</seg></hi>全体に行き亘つた要求で、感動から目的に出て行かうとするのが、万葉に見える用語例の過渡期である。一方考へれば、この「を」は、だから、感動の<hi rend="bouten 傍点 right" source="#source-13725-13767" corresp="#source-13734-13767"><seg source="#source-13725-13734">てには</seg></hi><seg source="#source-13767-13782">でもない。</seg><hi rend="bouten 傍点 right" source="#source-13782-13890" corresp="#source-13824-13890"><seg source="#source-13782-13824">唯ある固定を保つことによつて</seg></hi>、其に続行して来る部分の、修飾語の様な形をとらう、としてゐることが知れる。即、「の」と代用せられてゐる所以である。</p>
+        <p source="#source-14063-14272"><seg source="#source-14063-14272">だから、体言的であればあるだけ、又句を跨げると言ふ修辞上の簡単なる制約によつて、熟語を作る筈の二語の間の性能は、隔離せられるものではない。</seg></p>
+        <p source="#source-14272-14649"><seg source="#source-14272-14649">処が、かうした語の形にわりこんで来る言語情調が、之を説明して、囃し詞式の意識を持たせる。此は単に根拠のない併し、又同時に新しい文法を形づくるところの気分であつて、蔑にすることは出来ないが、この場合大きな惑ひを惹き起すことがあるから注意をせねばならぬ。</seg></p>
+        <p source="#source-14649-15368">又かうした説明からは、この「を」が、当然あつてもなくても、文法組織に動揺がない様に思はれて来る。もつと端的に言へば、「うまざけ……みわ」と言つてすんでゐた。其に声楽的の要素がわり込んで来たものと言ふことが出来る。此は、勿論忽に出来ないことなので、此まで、文法家が、其引用の大部分に律文及びその系統の文を引いてゐ乍ら、此文法を規定してゐる大勢力を無視してゐたことは、反省すべき所だ。実際において感動とも、囃し詞ともいふべき地位にあるもので、これを今すこし言ひかへて見る必要がある。</p>
+      </div>
+      <div type="layout" source="#source-15368-15515" style="padding-inline-start: 2em">
+        <p source="#source-15403-15441"><seg source="#source-15403-15441">あなにやし　　よしゑやし</seg></p>
+        <p source="#source-15441-15479"><seg source="#source-15441-15479">あをによし　　やほによし</seg></p>
+      </div>
+      <div>
+        <p source="#source-15517-15873">などを省ると、これを我々の頭で、単純化して見ると、「あなに」「よしゑ」「あをに」「やほに」である。この場合などは、此古典的な語の性質上、其から其用例の習慣から、声楽上の約束を考慮に置かぬ訣にはいかない。さうして、之を分解して還元すると、</p>
+      </div>
+      <div type="layout" source="#source-15873-15996" style="padding-inline-start: 2em">
+        <p source="#source-15908-15934"><seg source="#source-15908-15934">あなに　　よしゑ</seg></p>
+        <p source="#source-15934-15960"><seg source="#source-15934-15960">あをに　　やほに</seg></p>
+      </div>
+      <div>
+        <p source="#source-15998-17074">である。第一行と第二行とでは、大分部類の違ふ様だが、形式問題からは一つに言へる。仮りに「やし」・「よし」を囃し詞のやうに見ることも出来る。而もこの「やし」「よし」の間に長い歴史があり、其だけに又、用語例の上に展開と、誤解を包んだまゝの変化があるのは勿論だ。「あなにやし」「よしゑやし」では、時代に開きはあるが、用語例は古風を伝承してゐるものと見られる。「あをによし」も大体、「やほによし」の用語例からさのみ分化してゐるとも見られないが、其でも尚、「玉藻よし」「麻裳（？）よし」「ありねよし（？）」などの<hi rend="bouten 傍点 right" source="#source-16751-16787" corresp="#source-16757-16787"><seg source="#source-16751-16757">よし</seg></hi>と共通に、意義が新しい理会によつて、移らうとする部分の見える事は確かだ。我々は先輩以来「よし」や「やし」の性能を少し局限して考へ慣らされてゐる。だがまづ、かう言ふ例を考慮に入れる必要がある。</p>
+      </div>
+      <div type="layout" source="#source-17074-17266" style="padding-inline-start: 2em">
+        <p source="#source-17109-17186"><seg source="#source-17109-17127">おふをよし　</seg><hi rend="bosen 傍線 right" source="#source-17127-17163" corresp="#source-17133-17163"><seg source="#source-17127-17133">しび</seg></hi><seg source="#source-17163-17186">つくあま（記）</seg></p>
+        <p source="#source-17186-17230"><seg source="#source-17186-17230">たれやし　　ひとも……（紀）</seg></p>
+      </div>
+      <div>
+        <p source="#source-17268-17642"><ruby type="furigana" rend="right" source="#source-17268-17289"><rb>大魚</rb><rt>オフヲ</rt></ruby><seg source="#source-17289-17370">（？）なる鮪或は、誰なる人（即誰人）と言ふ風に今の語に</seg><ruby type="furigana" rend="right" source="#source-17370-17385"><rb>飜</rb><rt>ウツ</rt></ruby>して言ふことが出来る。もつと簡単に、大魚鮪・誰人と言うて、尚よいところだ。同時に、「よし」「やし」がなくとも、意味の通じるものである。即、熟語過程を示す語に過ぎないのだ。</p>
+        <p source="#source-17642-18184">扨一例「よしゑやし」をとつて考へて見る。之を「よしゑ」と言つても、声音の上で関係の深い形に直して「よしや」と言つても、大体において、形式と内容上に違ひがない。或は「よし」と言つても同じことゝ謂はれる。さうして此等は、一々挙げるまでもなく、例証の豊富な語である。結局語その物ばかりに就いて言へば、語根<hi rend="bosen 傍線 right" source="#source-18089-18125" corresp="#source-18095-18125"><seg source="#source-18089-18095">よし</seg></hi><seg source="#source-18125-18184">と言ふ形に復して、用ゐられる訣なのだ。</seg></p>
+      </div>
+      <div type="layout" source="#source-18184-18364" style="padding-inline-start: 2em">
+        <p source="#source-18219-18272"><seg source="#source-18219-18272">はしけやし　　（はしけよし〈紀〉）</seg></p>
+        <p source="#source-18272-18328"><seg source="#source-18272-18328">はしきやし　　（はしきよし〈万葉〉）</seg></p>
+      </div>
+      <div>
+        <p source="#source-18366-19748">かう言ふ例になると、大体において、「け」と言ふ音の過程を含んだ方が古くて、「き」と言ふ音に直つてゐる方が新しい意識を持つてゐるものと考へられる。此とても、古い語形と新しく調節せられたものとが並用せられる例である。つまり、「はしけ」或は「はしき」と謂つた連体感覚を含んだ語に、「やし」「よし」がついたので、語根に其がついた時代から見ると、稍新しいと見ねばならぬ。此とても、枕詞の一つとして考へられてゐるものだが、其かゝる所は、妹・君などから延長して、家・国・里などにもかゝり、更に幾句かを隔てゝもかゝる様になつた。其上、鍾愛・未練・執着の心持ちをこめて言ふ時の一種の独立語の様な用途をさへ開いて来た。併し乍ら其は、内容の上の問題で、形式から言ふと元来、「はしき……妹・君・家」など言ふ接続ぐあひのはつきり訣つてゐたものであつた。たとへば、「はしき妹」「はしき<hi rend="bosen 傍線 right" source="#source-19500-19530" corresp="#source-19503-19530"><seg source="#source-19500-19503">其</seg></hi>君」とでも、言へるところである。尤、「其」と言ふ語は、便宜上挿入したゞけで、決して、「し」などに「<ruby type="furigana" rend="right" source="#source-19677-19692"><rb>其</rb><rt>ソノ</rt></ruby>」の義があるとは考へてはゐないのだ。</p>
+        <p source="#source-19748-20104"><seg source="#source-19748-20104">かうして考へて来ると、我々の所謂連体形なるものは、存外文法的に有機的なものでなかつたに違ひない。単綴語における、接近した二つの語とおなじ関係に似たものがあつたらしいのである。にも繋らず、かうした明らかな、屈折以上の連結のあるものがある。</seg></p>
+        <p source="#source-20104-21107">「石見のや……高角山」「みなとのや……芦が中なる」「淡海のや……鏡の山」に於いても、同様なことが言へる。此「や」は声楽上の気分には、内容があつても、論理的の意義はない。又更に、「伊加奈留夜人にいませか（仏足石歌）」「<ruby type="furigana" rend="right" source="#source-20428-20461"><rb>如何有哉</rb><rt>イカナルヤ</rt></ruby>人の子ゆゑぞ（万葉巻十三）」「天なるや弟たなばた」の場合も、疑ひもなく、「や」は文法上の職能を示して居ない。所謂感動の「や」或は「棄て<hi rend="bosen 傍線 right" source="#source-20662-20692" corresp="#source-20665-20692"><seg source="#source-20662-20665">や</seg></hi>」と称せられてゐるものは、一種の囃し詞と見られる理由もある程、詞の意味を持つてゐない様に思はれる。殊に、俳諧の切れ字として見る時は、明らかに、此辞によつて、意義が中断せられ、そこに一種の情調を湛へるものと思はれるのだが、此も唯、習慣の推移から来てゐるに過ぎないことが知れる。</p>
+        <p style="text-indent: 8em" rend="first-line-indent(8)" source="#source-21107-21142"><seg source="#source-21107-21142">第一類</seg></p>
+      </div>
+      <div type="layout" source="#source-21142-21770" style="padding-inline-start: 2em">
+        <p source="#source-21177-21359"><seg source="#source-21177-21180">○</seg><hi rend="bosen 傍線 right" source="#source-21180-21222" corresp="#source-21189-21222"><seg source="#source-21180-21189">たかし</seg></hi><seg source="#source-21222-21234">るや……</seg><hi rend="bosen 二重傍線 right" source="#source-21234-21270" corresp="#source-21237-21270"><seg source="#source-21234-21237">天</seg></hi><seg source="#source-21270-21288">のみかげ　　</seg><hi rend="bosen 傍線 right" source="#source-21288-21330" corresp="#source-21297-21330"><seg source="#source-21288-21297">あめし</seg></hi><seg source="#source-21330-21359">るや……日のみかげ</seg></p>
+        <p source="#source-21359-21514"><seg source="#source-21359-21383">○あまとぶや……</seg><hi rend="bosen 二重傍線 right" source="#source-21383-21443" corresp="#source-21398-21443"><ruby type="furigana" rend="right" source="#source-21383-21398"><rb>軽</rb><rt>カル</rt></ruby></hi><ruby type="furigana" rend="right" source="#source-21443-21461"><rb>路</rb><rt>ノミチ</rt></ruby><seg source="#source-21461-21467">……</seg><ruby type="furigana" rend="right" source="#source-21467-21500"><rb>領巾片敷</rb><rt>ヒレカタシ</rt></ruby><seg source="#source-21500-21514">き……鳥</seg></p>
+        <p source="#source-21514-21630"><seg source="#source-21514-21538">○あまてるや……</seg><hi rend="bosen 二重傍線 right" source="#source-21538-21592" corresp="#source-21550-21592"><ruby type="furigana" rend="right" source="#source-21538-21550"><rb>日</rb><rt>ヒ</rt></ruby></hi><seg source="#source-21592-21630">のけに（あまてる……月）</seg></p>
+        <p source="#source-21630-21734"><seg source="#source-21630-21654">○おしてるや……</seg><hi rend="bosen 二重傍線 right" source="#source-21654-21696" corresp="#source-21660-21696"><seg source="#source-21654-21660">なに</seg></hi><seg source="#source-21696-21734">は（おしてる……なには）</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 8em" rend="first-line-indent(8)" source="#source-21772-21807"><seg source="#source-21772-21807">第二類</seg></p>
+      </div>
+      <div type="layout" source="#source-21807-22090" style="padding-inline-start: 2em">
+        <p source="#source-21842-21892"><seg source="#source-21842-21857">○をとめの</seg><ruby type="furigana" rend="right" source="#source-21857-21869"><rb>寝</rb><rt>ナ</rt></ruby><seg source="#source-21869-21892">（鳴）すや板戸</seg></p>
+        <p source="#source-21892-21939"><seg source="#source-21892-21910">○ゆふづくひ</seg><ruby type="furigana" rend="right" source="#source-21910-21931"><rb>指也</rb><rt>サスヤ</rt></ruby><seg source="#source-21931-21939">河辺</seg></p>
+        <p source="#source-21939-21995"><seg source="#source-21939-21957">○さをしかの</seg><ruby type="furigana" rend="right" source="#source-21957-21981"><rb>布須也</rb><rt>フスヤ</rt></ruby><seg source="#source-21981-21995">くさむら</seg></p>
+        <p source="#source-21995-22052"><seg source="#source-21995-22013">○さぬやまに</seg><ruby type="furigana" rend="right" source="#source-22013-22052"><rb>宇都也斧音</rb><rt>ウツヤヲノト</rt></ruby></p>
+      </div>
+      <div>
+        <p style="text-indent: 8em" rend="first-line-indent(8)" source="#source-22092-22127"><seg source="#source-22092-22127">第三類</seg></p>
+      </div>
+      <div type="layout" source="#source-22127-22415" style="padding-inline-start: 2em">
+        <p source="#source-22162-22281"><seg source="#source-22162-22281">○かしこきや（恐也み墓仕ふる。……可之古伎夜みことかゞふり。……惶八神の渡り）</seg></p>
+        <p source="#source-22281-22379"><seg source="#source-22281-22379">○うれたきや（宇礼多伎也しこほとゝぎす。……慨哉しこほとゝぎす）</seg></p>
+      </div>
+      <div>
+        <p source="#source-22417-23169">大体この様に三部類に亘つた「や」の用法について、今一応、おなじことをくり返して見たいと思ふ。第一類は、万葉当時既に枕詞としての意識は持たれてゐたに違ひないが、尚単なる用言の連体形の様な感じがある。其について、「や」を附加することによつて、様式上の連体状態を中断し、而も内容において、連体性能に何の変化もなからしめてゐる。と同時に、音律感覚の推移から来る不足感を十分補はしめてゐる。さうしてかう言ふ自然の方法が、新しい連体職能を構成すると共に、枕詞として独立した格の感じを成立せしめようとしてゐるのだ。</p>
+        <p source="#source-23169-23345">第二類になると、句が修飾部の様になつてゐるので、「や」の職能は、更に発達し、文法的機能が漲つて来た様子が見えるのだ。</p>
+        <p source="#source-23345-23476"><seg source="#source-23345-23476">ところが第三類には、右に言つた用語例の外に、特殊なものゝ加つて来てゐることが見られる。</seg></p>
+      </div>
+      <div type="layout" source="#source-23476-24352" style="padding-inline-start: 4em; text-indent: -2em">
+        <p source="#source-23541-23690"><seg source="#source-23541-23562">Ａ○やすみしゝ</seg><ruby type="furigana" rend="right" source="#source-23562-23577"><rb>我</rb><rt>ワゴ</rt></ruby><seg source="#source-23577-23595">おほきみの　</seg><ruby type="furigana" rend="right" source="#source-23595-23622"><rb>恐也</rb><rt>カシコキヤ</rt></ruby><seg source="#source-23622-23690">みはかつかふる山科の鏡の山に……（万葉巻二）</seg></p>
+        <p style="text-indent: -1em" rend="first-line-indent(1)" source="#source-23690-23815"><seg source="#source-23690-23747">○可之故伎也天のみかどをかけつれば、</seg><ruby type="furigana" rend="right" source="#source-23747-23759"><rb>哭</rb><rt>ネ</rt></ruby><seg source="#source-23759-23815">のみし泣かゆ。朝宵にして（同巻二十）</seg></p>
+        <p style="text-indent: -1em" rend="first-line-indent(1)" source="#source-23815-23937"><seg source="#source-23815-23937">○可之古伎夜みことかゞふり、明日ゆりや、かえがいむたねを　いむなしにして（同）</seg></p>
+        <p source="#source-23937-24140"><seg source="#source-23937-24066">Ｂ○……海路に出でゝ、惶八神の渡りは、吹く風ものどには吹かず、立つ浪もおほには立たず、</seg><ruby type="furigana" rend="right" source="#source-24066-24081"><rb>頻</rb><rt>シキ</rt></ruby><seg source="#source-24081-24093">波の立ち</seg><ruby type="furigana" rend="right" source="#source-24093-24105"><rb>障</rb><rt>サ</rt></ruby><seg source="#source-24105-24140">ふ道を……（同巻十三）</seg></p>
+        <p style="text-indent: -1em" rend="first-line-indent(1)" source="#source-24140-24352"><seg source="#source-24140-24263">○……海路に出でゝ、吹く風も母穂には吹かず、立つ浪ものどには立たず恐耶神の渡りの</seg><ruby type="furigana" rend="right" source="#source-24263-24278"><rb>頻</rb><rt>シキ</rt></ruby><seg source="#source-24278-24352">浪のよする浜べに、高山をへだてに置きて……（同）</seg></p>
+      </div>
+      <div type="layout" source="#source-24352-24557" style="padding-inline-start: 4em; text-indent: -4em">
+        <p source="#source-24420-24557"><seg source="#source-24420-24492">又、Ａ○うれたきやしこほとゝぎす。今こそは、声の</seg><ruby type="furigana" rend="right" source="#source-24492-24516"><rb>干蟹</rb><rt>ヒルカニ</rt></ruby><seg source="#source-24516-24557">、来鳴きとよまめ（同巻十）</seg></p>
+      </div>
+      <div type="layout" source="#source-24557-24846" style="padding-inline-start: 4em; text-indent: -2em">
+        <p source="#source-24622-24810"><seg source="#source-24622-24655">Ｂ○……こゝだくも我が</seg><ruby type="furigana" rend="right" source="#source-24655-24667"><rb>守</rb><rt>モ</rt></ruby><seg source="#source-24667-24733">るものを。うれたきやしこほとゝぎす……追へど</seg><choice source="#source-24733-24739"><orig>／＼</orig><reg>〱</reg></choice><seg source="#source-24739-24810">尚し来鳴きて、徒らに土に散らせば……（同巻八）</seg></p>
+      </div>
+      <div>
+        <p source="#source-24848-25585">尠くとも、Ａに属するものは、明らかに「かしこき……」・「うれたき……」と言ふ風に、熟語の形を採つてゐるものと見られる。其に対して、Ｂのものは、さうした単語を修飾するといふよりも、その効果が、他にも及んでゐる様に見える。即、「かしこきかも」・「うれたきかも」に近づかうとしてゐるのである。此事から更に飜つて見ると、「はしきやし」に関する数多の用例が、元は、熟語を作るものに過ぎなかつたのが、次第に、間隔を置いて対象語にかゝる様になり、更に文章全体に効果の及ぶやうになつた訣が見られるのである。</p>
+      </div>
+      <div type="layout" source="#source-25585-26363" style="padding-inline-start: 4em; text-indent: -2em">
+        <p source="#source-25650-25775"><seg source="#source-25650-25775">ａ　伴之伎（？）与之　かくのみからに、慕ひ来し妹が心の、すべもすべなさ（万葉巻五）</seg></p>
+        <p source="#source-25775-25891"><seg source="#source-25775-25891">ｂ　波之寸八師　然る恋にもありしかも。君におくれて恋しき、思へば（同巻十二）</seg></p>
+        <p source="#source-25891-26049"><seg source="#source-25891-26049">ｃ　……里見れば、家もあれたり。波之異耶之　かくありけるか。みもろつくかせ山の際に咲く花の……（同巻六）</seg></p>
+        <p source="#source-26049-26327"><seg source="#source-26049-26067">ｄ　早敷哉　</seg><ruby type="furigana" rend="right" source="#source-26067-26079"><rb>誰</rb><rt>タ</rt></ruby><seg source="#source-26079-26082">が</seg><ruby type="furigana" rend="right" source="#source-26082-26094"><rb>障</rb><rt>サ</rt></ruby><seg source="#source-26094-26166">ふれかも、たまぼこの　道見忘れて、君が来まさぬ（</seg><seg type="warichu" rend="two-line" source="#source-26166-26322"><hi rend="bosen 傍線 right" source="#source-26196-26250" corresp="#source-26211-26250"><seg source="#source-26196-26211">はしきかも</seg></hi><seg source="#source-26250-26286">とも訓むべきかも知れぬ。</seg></seg><seg source="#source-26322-26327">）</seg></p>
+      </div>
+      <div type="layout" source="#source-26365-26415" style="padding-inline-end: 1em; text-align: right">
+        <p source="#source-26395-26415"><seg source="#source-26395-26415">（同巻十一）</seg></p>
+      </div>
+      <div type="layout" source="#source-26415-26635" style="padding-inline-start: 4em; text-indent: -2em">
+        <p source="#source-26480-26599"><seg source="#source-26480-26599">ｅ　級子（寸？）八師　吹かぬ風ゆゑ、たまくしげ　ひらきてさねし我ぞ悔しき（同）</seg></p>
+      </div>
+      <div>
+        <p source="#source-26637-27206"><seg source="#source-26637-27069">此等の例は、すべて、連体に似た形を示して居ないばかりでなく、句を隔てゝも修飾してゐるとは言ひにくい様だ。ａはまだしも、妹が心にかゝつてゐると言へば言へるが、其とて、全体に対しての叙述だと言ふ方が適切だ。ｂｄに於いては、殊にさうした様子がよく見える。ｃｅになると、完全に離れきつて了うて、唯</seg><hi rend="bosen 傍線 right" source="#source-27069-27123" corresp="#source-27084-27123"><seg source="#source-27069-27084">はしきやし</seg></hi><seg source="#source-27123-27206">と言ふ語の習慣が、気分として用ゐられてゐる風に見える。</seg></p>
+        <p source="#source-27206-28639">結局かう言ふことの起るのは、言語に対する人間の合理性によるのである。古い文法が固定し、次第に正確な理会を失うて来る。而も其形式を襲うて行くことは止めない。さうすると、唯、確かなものは、人々が受ける時代的情調である。これを分解しながら、新しい文法意識を組み立てゝ行く。さうすると、第一義とは非常に離れたものになる筈である。殊に、文学作品の上の用語として使はれた場合は、言語選択機能が働くだけに、一層甚しい。はしけやし（はしけよし・はしきやし・はしきよし）の場合などは、最遅くまで、其俤を留めた一例で、一方多くの「やし」は、殆決定的に、「よし」に変化して、単なる地名を想起せしめる、所謂枕詞の格の助辞の様な形に、統一せられて来てゐたのに、此だけは尚、ある理由の下に残つてゐて、古い気分を保留し乍ら用ゐられてゐた。我々はこゝに熟語を作る語の語尾が、其接すべき語から自由になつて、而も其文章なり句なりに、勢力を及し、表現性能を拡げて来る径路を明らかに認めることが出来たのだ。其が同時に、用言式に言へば、連体性のものを、終止形風に独立せしめることになつたのである。</p>
+        <p style="text-indent: 8em" rend="first-line-indent(8)" source="#source-28639-28668"><seg source="#source-28639-28668">○</seg></p>
+        <p source="#source-28668-29333">「はしきやし」は、かうした一類の中、最特殊な用語例を示したものであるが、尚先にあげた、「あなにやし」「よしゑやし」を見ると、似た処を見出す。「よしゑやし」の「よしゑ」は、「よし」と「ゑ」とが分割出来るものに相違ない。形容詞・動詞の語尾につく所謂感動の語尾の「ゑ」である。今日の理会を以てすれば、「よ」と音韵の上で通じるものと見ることが出来る。だから、或は「よしゑやし」の場合、同じ価値を持つ「ゑ」と「や」とが、重畳せられたものではあるまいか。</p>
+      </div>
+      <div type="layout" source="#source-29333-29547" style="padding-inline-start: 2em">
+        <p source="#source-29368-29511"><seg source="#source-29368-29383">世の中は、</seg><ruby type="furigana" rend="right" source="#source-29383-29431"><rb>古飛斯宜志恵夜</rb><rt>コヒシケシヱヤ</rt></ruby><seg source="#source-29431-29511">。かくしあらば、梅の花にもならましものを（万葉巻五）</seg></p>
+      </div>
+      <div>
+        <p source="#source-29549-30280">この第二句を「恋しけ　しゑや」「恋ひ繁しゑ　や」「恋しけし　ゑや」何れにとる事も出来る。だが、何れにしても、<hi rend="bouten 傍点 right" source="#source-29711-29741" corresp="#source-29714-29741"><seg source="#source-29711-29714">ゑ</seg></hi><seg source="#source-29741-29744">・</seg><hi rend="bouten 傍点 right" source="#source-29744-29774" corresp="#source-29747-29774"><seg source="#source-29744-29747">や</seg></hi>の結合状態は、暗示せられてゐる。而も、更に見られるのは、文法の固定作用から、「しゑや」と言ふ一つの形式の生れて来ることも、見当がつく。万葉に残つてゐる「しゑや」は、此一例を除くと、殆、形容詞を承けた痕は見えない。独立した感動詞・副詞の様な形をとつてゐる。だが、もつと古く形容詞に結合する習慣が固定して、更に遊離して作つた成句と見られる。</p>
+        <p source="#source-30280-31611">「あなにやし」も分解すれば、「あなに」が出来るが、此は、「あやに」（語原は別だが）に通じる「あなに」である。この「に」に特殊な意義があるのか、今日では考へられない。唯、「あな」も「あなに」も、語尾の有無の相違だけと見られるので、「あな、えをとこよ」の義に説ける。此「に」は副詞語尾であると共に、古くは、語根「あな」を名詞化するもので、更に其に用言的機能をすら与へてゐたのだ。「桜の花のにほひはも。あなに」などを見れば、「ゑ」と価値は変らない。此「あなに」に更に「ゑ」のついて、「あなにゑ」の形が出来、その間に或は、<hi rend="bosen 傍線 right" source="#source-31051-31099" corresp="#source-31063-31099"><seg source="#source-31051-31063">あなにや</seg></hi><seg source="#source-31099-31102">（</seg><seg type="warichu" rend="two-line" source="#source-31102-31225"><seg source="#source-31132-31189">神武紀、「妍哉」此云鞅奈珥（恵ナシ）夜</seg></seg>）となつたらしいものもあり、「や」がついて、「あなにゑや」にもなつた。一方亦<hi rend="bosen 傍線 right" source="#source-31339-31387" corresp="#source-31351-31387"><seg source="#source-31339-31351">あなにゑ</seg></hi>（あなにや）に「し」のついた形から音韻変化で、「あなにやし」が現れたのだ。かうした「ゑや」の過程を踏んで、「し」を呼んだ形が、「よしゑやし」である。</p>
+        <p source="#source-31611-32159">「あなにやし」「よしゑやし」の類は、語の歴史としては、比較的に古いまゝに固定して、後まで残つたものであらうが、用法から見ると、新しいものに似た所がある。だが其は、全く変つて居て、まだ文法上の拘束を受けない、語根時代の俤を示してゐるもの、と見ねばならぬ一群の語句に接して行くものだつたのが、段々其自身の内容が限定せられて来た為、他の語に続く形まできまつた訣であらう。</p>
+        <p source="#source-32159-32446">「やし」「よし」が完成した語尾の様に見えるのも、かうして見ると、単なる無機的の修飾語の一部に過ぎないことになる。さうして其上に、「し」が緊密に「や」「よ」に接してゐるものでないことが知れる。</p>
+        <p style="text-indent: 8em" rend="first-line-indent(8)" source="#source-32446-32475"><seg source="#source-32446-32475">○</seg></p>
+      </div>
+      <div type="layout" source="#source-32475-32827" style="padding-inline-start: 2em">
+        <p source="#source-32510-32572"><seg source="#source-32510-32572">○射ゆしゝをつなぐ河辺の若草の（斉明紀）</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-32572-32637"><seg source="#source-32572-32637">………………認河辺の和草の（万葉巻十六）</seg></p>
+        <p source="#source-32637-32711"><seg source="#source-32637-32667">○はるがすみ春日の里</seg><ruby type="furigana" rend="right" source="#source-32667-32682"><rb>爾</rb><rt>ニ</rt></ruby><seg source="#source-32682-32711">殖子水葱（同巻三）</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-32711-32791"><seg source="#source-32711-32741">上つ毛野いかほの沼</seg><ruby type="furigana" rend="right" source="#source-32741-32756"><rb>爾</rb><rt>ニ</rt></ruby><seg source="#source-32756-32791">宇恵古奈宜（同巻十四）</seg></p>
+      </div>
+      <div>
+        <p source="#source-32829-34025">今日我々の持つ時間観念を含まずに、此に似た熟語を作つた場合は、沢山ある。必しも「射られたるしゝ」「栽ゑたる水葱」と言ふまでもない。殊に、前者の如きは、古代歌謡の上の一つの成句として、<ruby type="furigana" rend="right" source="#source-33102-33123"><rb>屡</rb><rt>しばしば</rt></ruby>流用せられたものと見ることが出来る。だが、後の例になると、殖槻・植竹の類の成語はあつても、其とは別に稍、今人の文法観念にそぐはぬ処がある。或は、地理に関した特殊の「に」の用法からして、「なる」と言ふ風に感じる人もあらうが、此はさう言ふ場合ではない。即、「春日の里に栽うる……」「いかほの沼に栽うる……」と言へば、多少の妥当性は欠けてゐても、我々には訣る。其とおなじ用法なのだ。更に言へば、時間観念を挿入すれば、もつと適切に感じられるところだ。さうした方法をとらないところに、<ruby type="furigana" rend="right" source="#source-33834-33855"><rb>偶</rb><rt>たまたま</rt></ruby><seg source="#source-33855-34025">、この語に限つて古い文法様式を保存してゐる痕が見えるのだ。謂はゞ、律文としての偶然な制約が、重つて来た為である。</seg></p>
+      </div>
+      <div type="layout" source="#source-34025-34230" style="padding-inline-start: 2em">
+        <p source="#source-34060-34194"><seg source="#source-34060-34075">……山県に</seg><ruby type="furigana" rend="right" source="#source-34075-34099"><rb>麻岐斯</rb><rt>マキシ</rt></ruby><seg source="#source-34099-34117">あだね搗き　</seg><ruby type="furigana" rend="right" source="#source-34117-34129"><rb>染</rb><rt>ソ</rt></ruby><seg source="#source-34129-34144">め木が汁に</seg><ruby type="furigana" rend="right" source="#source-34144-34156"><rb>染</rb><rt>シ</rt></ruby><seg source="#source-34156-34194">め衣を……（古事記上巻）</seg></p>
+      </div>
+      <div>
+        <p source="#source-34232-35254">などの場合にも、偶々さうした表現法が残つて見える。即「染め木が汁に<ruby type="furigana" rend="right" source="#source-34331-34343"><rb>染</rb><rt>シ</rt></ruby>むる（或は染めたる）衣を」と解けば、気分的に納得するのだ。奈良朝頃の文献の中で、かうした形を発見するのは、多く序歌の場合である。つまり、気分的に解説すれば、ある契機となる語を中心として、二つの観念の転換が緊密に行はれてゐる。其為に文章又は句としては、不自然な処が生じるのだと言ふことになる。だが、さうした技巧も、元は技巧としてはじまつたのではない。唯古い表現法に準じてゐたのだ。さう言ふ点に、後代の文法意識が働くと、前句と後句との間に、緩衝的な語を挿入することを考へて来る。謂はゞ「ところの」と言ふ程の意識を含めるのである。二つの句の間にと言ふよりも、前句を後句から隔離し、半独立の姿を保たしめるのである。</p>
+      </div>
+      <div type="layout" source="#source-35254-35686" style="padding-inline-start: 2em">
+        <p source="#source-35289-35471"><seg source="#source-35289-35328">……あだねつき染め木が汁に</seg><ruby type="furigana" rend="right" source="#source-35328-35340"><rb>染</rb><rt>シ</rt></ruby><seg source="#source-35340-35361">め　衣を……（</seg><seg type="warichu" rend="two-line" source="#source-35361-35466"><seg source="#source-35391-35430">シムルトコロノ衣シメタル衣</seg></seg><seg source="#source-35466-35471">）</seg></p>
+        <p source="#source-35471-35650"><seg source="#source-35471-35528">上つ毛野いかほの沼に栽ゑ　小水葱……（</seg><seg type="warichu" rend="two-line" source="#source-35528-35645"><seg source="#source-35558-35609">ウヽルトコロノ小水葱ウヱタル小水葱</seg></seg><seg source="#source-35645-35650">）</seg></p>
+      </div>
+      <div>
+        <p source="#source-35688-35891"><seg source="#source-35688-35891">右の例における接続点は、前代の文法及び、其形式を襲ふものでは問題にならないが、やはり次第に、整頓せられて来る。仮りに序歌を以て説くと、</seg></p>
+      </div>
+      <div type="layout" source="#source-35891-36147" style="padding-inline-start: 2em">
+        <p source="#source-35926-36111"><seg source="#source-35926-35962">ますら雄のさつ矢たばさみ</seg><ruby type="furigana" rend="right" source="#source-35962-36004"><rb>立ち向ひ</rb><rt>イ・むかひたち</rt></ruby><ruby type="furigana" rend="right" source="#source-36004-36034"><rb>射る</rb><rt>イ・いるや</rt></ruby><ruby type="furigana" rend="right" source="#source-36034-36058"><rb>円方</rb><rt>まとかた</rt></ruby><seg source="#source-36058-36111">は見るにさやけし（万葉巻一、六一）</seg></p>
+      </div>
+      <div>
+        <p source="#source-36149-37255">「伊勢風土記逸文」では、序歌の契機点に「や」を挿んで、緩衝してゐる。かう言ふ風に、言ひ改められるのは、理由のあることで、「に」「の」「も」「なす」など言ふ辞を挿むのは、序歌としては、第二義に属するものと言ふことが出来る。序歌の場合は、上の句を譬喩化（或は類音化）して、意義を転換させるのだが、其と共にさうした挿入辞によつて、<hi rend="bouten 傍点 right" source="#source-36635-36683" corresp="#source-36647-36683"><seg source="#source-36635-36647">つき放し</seg></hi><seg source="#source-36683-36803">てゐる。ところが、前の場合は、挿入した辞によつて、前句を固定させると共に、後句と</seg><hi rend="bouten 傍点 right" source="#source-36803-36857" corresp="#source-36818-36857"><seg source="#source-36803-36818">接続させる</seg></hi>様になつた。即、「あなにやし」「よしゑやし」「はしけやし」「やすみしゝ」「いよしたゝしゝ」などの、比較的短い語を繋ぐ用途の、意識せられてゐた「し」が、割り込んで来る事になつたものと見られる。かうして見ると、我々は古文献に見える「し」について、考へ直す必要が生じる。</p>
+        <p source="#source-37255-38073">奈良朝の古典で、而も其前代の言語伝承を筆録した部分の含まれてゐる多くの詞章に現れて来る、此類の「し」についてゞある。今泉忠義君は、既に「助動詞<hi rend="bosen 傍線 right" source="#source-37468-37498" corresp="#source-37471-37498"><seg source="#source-37468-37471">き</seg></hi><seg source="#source-37498-37510">の活用形</seg><hi rend="bosen 傍線 right" source="#source-37510-37540" corresp="#source-37513-37540"><seg source="#source-37510-37513">し</seg></hi>の考へ」（昭和五年十月号国学院雑誌）と言ふ論文で、過去の「し」の用例の記・紀の歌謡に現れた分を整理して、其成立を考へようとして居る。さうして其が、代名詞「<ruby type="furigana" rend="right" source="#source-37771-37783"><rb>其</rb><rt>シ</rt></ruby>」であらうと言ふ仮定に達してゐる。可なり暗示に富んだ優れた考へである。私としては、其同じ用例を反覆して、過去の助動詞は勿論、出来るならば、形容詞の語尾の暗示を惹き出して行かねばならぬのである。</p>
+      </div>
+      <div type="layout" source="#source-38073-38254" style="padding-inline-start: 2em">
+        <p source="#source-38108-38218"><seg source="#source-38108-38114">みつ</seg><choice source="#source-38114-38120"><orig>／＼</orig><reg>〱</reg></choice><seg source="#source-38120-38218">し　久米の子らが垣もとに栽ゑ　し　はじかみ　口ひゞく……（記紀）</seg></p>
+      </div>
+      <div>
+        <p source="#source-38256-38417">この例に、「うゑこなぎ」の歌をつき合せて見ると、「垣もとに栽ゑはじかみ」と言うてもよい処だつた事が知れる。</p>
+      </div>
+      <div type="layout" source="#source-38417-38646" style="padding-inline-start: 2em">
+        <p source="#source-38452-38610"><seg source="#source-38452-38584">ありぎぬの　三重の子がさゝがせる　みづたまうきに　浮き　し　脂　落ちなづさひ　みなこをろ</seg><choice source="#source-38584-38590"><orig>／＼</orig><reg>〱</reg></choice><seg source="#source-38590-38610">に……（記）</seg></p>
+      </div>
+      <div>
+        <p source="#source-38648-39175"><seg source="#source-38648-38663">の場合も、</seg><ruby type="furigana" rend="right" source="#source-38663-38696"><rb>瑞玉盞</rb><rt>ミヅタマウキ</rt></ruby><seg source="#source-38696-38723">の同音聯想として、</seg><hi rend="bouten 傍点 right" source="#source-38723-38759" corresp="#source-38729-38759"><seg source="#source-38723-38729">浮き</seg></hi>が出て、浮き脂と続くところを、「し」を挿入してゐる。此歌の此部分は尠くとも、神代巻のおのころ島の段と、おなじ伝承の記憶から出来た文句に相違ない。浮きし脂と言ひ、こをろ<choice source="#source-39008-39014"><orig>／＼</orig><reg>〱</reg></choice><seg source="#source-39014-39175">と言ふ点、新しい発想でないことを示してゐる。即瑞玉盞に浮き脂……とも言へる所だ。又、前に引いた一つの例の、</seg></p>
+      </div>
+      <div type="layout" source="#source-39175-39730" style="padding-inline-start: 2em">
+        <p source="#source-39210-39323"><seg source="#source-39210-39228">○山県にまき</seg><hi rend="bouten 傍点 right" source="#source-39228-39258" corresp="#source-39231-39258"><seg source="#source-39228-39231">し</seg></hi><seg source="#source-39258-39323">あだね搗き、染め木が汁に染め衣を……（記）</seg></p>
+        <p source="#source-39323-39694"><seg source="#source-39323-39338">○やすみし</seg><hi rend="bouten 傍点 right" source="#source-39338-39368" corresp="#source-39341-39368"><seg source="#source-39338-39341">ゝ</seg></hi><seg source="#source-39368-39398">　わが大君のあそばし</seg><hi rend="bouten 傍点 right" source="#source-39398-39428" corresp="#source-39401-39428"><seg source="#source-39398-39401">ゝ</seg></hi><seg source="#source-39428-39497">　しゝの（病み猪の）うだき畏み、わが逃げのぼり</seg><hi rend="bouten 傍点 right" source="#source-39497-39527" corresp="#source-39500-39527"><seg source="#source-39497-39500">し</seg></hi><seg source="#source-39527-39533">あり</seg><ruby type="furigana" rend="right" source="#source-39533-39545"><rb>丘</rb><rt>ヲ</rt></ruby><seg source="#source-39545-39557">のうへの</seg><hi rend="bosen 傍線 right" source="#source-39557-39611" corresp="#source-39572-39611"><seg source="#source-39557-39572">榛の木の枝</seg></hi><seg source="#source-39611-39638">（榛が枝あせを）。</seg><hi rend="bouten 傍点 right" source="#source-39638-39680" corresp="#source-39647-39680"><seg source="#source-39638-39647">あせを</seg></hi><seg source="#source-39680-39694">（記紀）</seg></p>
+      </div>
+      <div>
+        <p source="#source-39732-40487">前者はやはり、「山県にまきあだね」と一つことゝ説くことが出来る。後の例になると、記・紀共に「し」としてゐる。此になると、今日知れない特別の事情の明らかにならぬ限りは、既に時の観念らしいものを含んでゐると言はねばならぬ。仮りに、合理化を試みると、「この榛や、いづくの榛。やすみしゝわが大君の……わが逃げ登りし……榛の木の枝」と言ふ様な形だつたもので、呪物の由来を説くと共に、「し」に詠歎を含めてゐるらしくも見える。ともかくも「し」は、過去と言へないまでも、職能は変化してゐる。此と似た縁起を説く歌としての</p>
+      </div>
+      <div type="layout" source="#source-40487-40956" style="padding-inline-start: 2em">
+        <p source="#source-40522-40920"><seg source="#source-40522-40624">この御酒は、わが御酒ならず、くしの神　常世にいますいはたゝす少御神の</seg><hi rend="bosen 傍線 right" source="#source-40624-40666" corresp="#source-40633-40666"><seg source="#source-40624-40633">神ほき</seg></hi><seg source="#source-40666-40669">　</seg><hi rend="bosen 傍線 right" source="#source-40669-40729" corresp="#source-40687-40729"><seg source="#source-40669-40687">ほきくるほし</seg></hi><seg source="#source-40729-40732">、</seg><hi rend="bosen 傍線 right" source="#source-40732-40774" corresp="#source-40741-40774"><seg source="#source-40732-40741">豊ほき</seg></hi><seg source="#source-40774-40777">　</seg><hi rend="bosen 傍線 right" source="#source-40777-40837" corresp="#source-40795-40837"><seg source="#source-40777-40795">ほきもとほし</seg></hi><seg source="#source-40837-40849">　まつり</seg><ruby type="furigana" rend="right" source="#source-40849-40861"><rb>来</rb><rt>コ</rt></ruby><hi rend="bouten 傍点 right" source="#source-40861-40891" corresp="#source-40864-40891"><seg source="#source-40861-40864">し</seg></hi><seg source="#source-40891-40920">御酒ぞ……（記紀）</seg></p>
+      </div>
+      <div>
+        <p source="#source-40958-41092">やはり「し」には、詠歎と讃美とが、籠つてゐるやうだ。つまり、感情をわりこませてゐる訣だ。</p>
+      </div>
+      <div type="layout" source="#source-41092-41400" style="padding-inline-start: 2em">
+        <p source="#source-41127-41240"><seg source="#source-41127-41151">○つぎねふ　山代</seg><ruby type="furigana" rend="right" source="#source-41151-41166"><rb>女</rb><rt>メ</rt></ruby><seg source="#source-41166-41211">のこくは持ち、うちし大根　さわ</seg><choice source="#source-41211-41217"><orig>／＼</orig><reg>〱</reg></choice><seg source="#source-41217-41240">に……（記紀）</seg></p>
+        <p style="text-indent: 3em" rend="first-line-indent(3)" source="#source-41240-41311"><seg source="#source-41240-41311">又、うちし大根　根白の白たゞむき（記紀）</seg></p>
+        <p source="#source-41311-41364"><seg source="#source-41311-41364">○須々許理がかみし御酒に……（記）</seg></p>
+      </div>
+      <div>
+        <p source="#source-41402-41482">此も詠歎とも言へるが、「うち大根」と言ふ風に説ける。</p>
+      </div>
+      <div type="layout" source="#source-41482-42018" style="padding-inline-start: 2em">
+        <p source="#source-41517-41687"><seg source="#source-41517-41526">○橿の</seg><ruby type="furigana" rend="right" source="#source-41526-41538"><rb>原</rb><rt>フ</rt></ruby><hi rend="bosen 傍線 right" source="#source-41538-41568" corresp="#source-41541-41568"><seg source="#source-41538-41541">に</seg></hi><seg source="#source-41568-41607">よくすをつくり、横臼に醸み</seg><hi rend="bosen 傍線 right" source="#source-41607-41637" corresp="#source-41610-41637"><seg source="#source-41607-41610">し</seg></hi><seg source="#source-41637-41687">大御酒……（記。紀、かめる……）</seg></p>
+        <p source="#source-41687-41815"><seg source="#source-41687-41711">○をとめの床のべ</seg><hi rend="bosen 傍線 right" source="#source-41711-41741" corresp="#source-41714-41741"><seg source="#source-41711-41714">に</seg></hi><seg source="#source-41741-41756">、わが置き</seg><hi rend="bosen 傍線 right" source="#source-41756-41786" corresp="#source-41759-41786"><seg source="#source-41756-41759">し</seg></hi><seg source="#source-41786-41815">劔の大刀……（記）</seg></p>
+        <p source="#source-41815-41982"><seg source="#source-41815-41848">○おきつどり　鴨どく島</seg><hi rend="bosen 傍線 right" source="#source-41848-41878" corresp="#source-41851-41878"><seg source="#source-41848-41851">に</seg></hi><seg source="#source-41878-41890">わがゐね</seg><hi rend="bosen 傍線 right" source="#source-41890-41920" corresp="#source-41893-41920"><seg source="#source-41890-41893">し</seg></hi><seg source="#source-41920-41982">妹は忘れじ……（記。紀、づく……忘らじ）</seg></p>
+      </div>
+      <div>
+        <p source="#source-42020-42169">此等の例では、「に……し……」と言ふ形式も具へてゐるし、「し」の挿入せられた形跡が、まだ伺はれる。</p>
+      </div>
+      <div type="layout" source="#source-42169-42311" style="padding-inline-start: 2em">
+        <p source="#source-42204-42275"><seg source="#source-42204-42275">……わが哭くつまこそこそは、易く膚ふれ（記紀）</seg></p>
+      </div>
+      <div>
+        <p source="#source-42313-43058"><seg source="#source-42313-42391">許存許曾を、許布許曾の誤りだとしてゐるが、日本紀も去</seg><g ref="#gaiji-3-1-90-25" source="#source-42391-42450">罇</g>去曾となつてゐるのだから、「こそこそ」でよい。此が、下に「ふれ」（四段形）と第五変化で結んだものと見れば、其までだが、尚考へて見る必要がある。「こそ」の係結の完成する前の形で、「わが哭くつま。<ruby type="furigana" rend="right" source="#source-42738-42756"><rb>昨夜</rb><rt>コソ</rt></ruby>こそは、易く膚触れ　妻」と言つた形らしく思はれる。つまり、膚触れ<hi rend="bouten 傍点 right" source="#source-42852-42882" corresp="#source-42855-42882"><seg source="#source-42852-42855">し</seg></hi>妻と言ふ義である。若し、此が単に「膚触れし」と言ふだけに止るのでも、「し」と言ふ過程の予期せられてゐることが見える。</p>
+      </div>
+      <div type="layout" source="#source-43058-43233" style="padding-inline-start: 2em">
+        <p source="#source-43093-43197"><seg source="#source-43093-43099">……</seg><hi rend="bouten 傍点 right" source="#source-43099-43147" corresp="#source-43111-43147"><seg source="#source-43099-43111">まさしに</seg></hi><seg source="#source-43147-43197">知りて、我が二人寝し（万葉巻二）</seg></p>
+      </div>
+      <div>
+        <p source="#source-43235-43909">やはり、同じ旧事を説く歌だが、前の歌の様に言ふなら、「わが二人いね（又は、ゐね）」でもよい処だ。恐らく此場合は、「我が二人寝し我が」といふ形だらう。「易く膚ふれ」と「わがゐねし」とを並べて考へれば、「し」の出て来る気分が知れると思ふ。さうして見ると、榛の木の歌も、「猪のうだき畏みわが逃げ登りし猪のうだき」と解すべきで、「ありをのうへの榛の木の枝」は、所謂囃し詞に属すべきものかも知れぬ。先に出た倭建命の歌と、其事情の似たものを、二つ連ねて見ると、</p>
+      </div>
+      <div type="layout" source="#source-43909-44189" style="padding-inline-start: 2em">
+        <p source="#source-43944-44153"><seg source="#source-43944-43965">をとめの床のべ</seg><hi rend="bosen 傍線 right" source="#source-43965-43995" corresp="#source-43968-43995"><seg source="#source-43965-43968">に</seg></hi><seg source="#source-43995-44010">、わが置き</seg><hi rend="bosen 傍線 right" source="#source-44010-44040" corresp="#source-44013-44040"><seg source="#source-44010-44013">し</seg></hi><seg source="#source-44040-44153">劔の大刀。その大刀はや。尾張にたゞに向へる尾津の崎なる一つ松。あせを。……</seg></p>
+      </div>
+      <div>
+        <p source="#source-44191-44289"><seg source="#source-44191-44289">即、榛の木の歌と、様式上に非常に近似性を持つてゐることが知れる。</seg></p>
+        <p source="#source-44289-44963">過去表現に関しては、尚説かねばならぬものが多いが、今は其形容詞語尾と、発生径路を分化する以前を説くに止めねばならぬ。何にしても、「し」が時間意識を出して来る過程には、詠歎と、回想とを加へて来なければならなかつた。さうして更に、形容詞語尾と、明らかな差別を出すためには、熟語を構成する事から、解放せられねばならなかつた。併し一方、形容詞も亦、外見から言へば、独立した形を作らうとした様に見える。だが結局、此方にはやはり、最初の姿が残つてゐるのである。</p>
+        <p style="text-indent: 8em" rend="first-line-indent(8)" source="#source-44963-44992"><seg source="#source-44963-44992">○</seg></p>
+        <p source="#source-44992-45687">考へ方によつては、過去の「し」の起原は、一種の囃し詞の様にも見える。又、一時的には「<ruby type="furigana" rend="right" source="#source-45118-45130"><rb>其</rb><rt>シ</rt></ruby>」のわり込みと見ても済む。だが、囃しと見るのは、其後代的気分から出るものだし、「<ruby type="furigana" rend="right" source="#source-45250-45262"><rb>其</rb><rt>シ</rt></ruby>」と見るのも、或は却て順序を顛倒して、「し」が固定して、「<ruby type="furigana" rend="right" source="#source-45349-45361"><rb>其</rb><rt>シ</rt></ruby>」の感覚を起す様になつたのかも知れない。要するに言うてさし支へのないのは、一種の連体法を作る語尾だと言ふ事である。さうして其「し」は、同時に形容詞語尾をなしてゐる「し」とおなじものだ、と言ふことの推定に近づいて来る。</p>
+        <p source="#source-45687-47354">「やすみし＋の」「あそばし＋の」「いよしたゝし＋の」が、「やすみしゝ」「あそばしゝ」「いよしたゝしゝ」で現されたものとすれば、万葉巻二日並知皇子尊舎人等歌の三つまである<hi rend="bosen 傍線 right" source="#source-45939-45987" corresp="#source-45951-45987"><seg source="#source-45939-45951">御立為之</seg></hi>の句は、「みたゝしの」と訓まずとも、「みたゝしゝ」と言ふ旧訓のまゝでもよいかも知れぬ。意義は同じ、古風だからだ。又、古事記の古訓に、無制限と見えるまで、宣長翁の訓まれた動詞に敬語「み」をつける癖（三矢先生改訓）「み……し」とある部分だけは、見免すことが出来ると言へるかも知れない。又、古風だけに、「やすみしゝ」以下の例と同じく訓むのが本道らしくも思はれる。但其場合も、決して翁の考へに含まれてゐるらしい「み佩かしゝ」などの「し」を過去とゝることは、何処までもいけない。実感は実感でも、近代の文法意識と古代のものとは違はなければならぬ筈だ。「し」から過去を感じ馴れてゐる我々が、「やすみしゝ」「あそばしゝ」「いよしたゝしゝ」を過去と感じ、又「栽ゑしはじかみ」「まきしあだね」に、時間的に所置しようとする心が動いても、其は古代の文法からは、没交渉なものと謂はねばならぬ。さう言ふ例を今一つ、「名細之」によつて説いて見よう。この例が若しも的確でなくとも、さうした類型は、外に沢山ある訣なのだ、と言ふことを言ひ添へる。</p>
+        <p source="#source-47354-47695">我々は、「くはし」と言ふ讃美の語を知つてゐるから、古人が「くはし」を細し（美）と感じた事に不審は抱かなくなつてゐるが、なほ吟味すると、偶「くはし」と言ふ語のあつた為に、其をすべて「美」の範疇にいれて考へたとも言へるではないか。</p>
+      </div>
+      <div type="layout" source="#source-47695-47888" style="padding-inline-start: 2em">
+        <p source="#source-47730-47852"><seg source="#source-47730-47852">……朝日なす目細毛、夕日なす浦細毛。春山のしなひさかえて、秋山の色なつかしき……</seg></p>
+      </div>
+      <div type="layout" source="#source-47890-47943" style="padding-inline-end: 1em; text-align: right">
+        <p source="#source-47920-47943"><seg source="#source-47920-47943">（万葉巻十三）</seg></p>
+      </div>
+      <div>
+        <p source="#source-47943-49109"><hi rend="bosen 傍線 right" source="#source-47943-47997" corresp="#source-47958-47997"><seg source="#source-47943-47958">うらぐはし</seg></hi>は、「うるはし」の語原だとの説もあるが、ともかくも、美意識が動いてゐることは事実だが、稍自由である。「花ぐはし桜のめで」「香ぐはし花橘」など言ふ成語に挿まれた「くはし」も褒め詞の様に見えるが、尚考へる余地がある。「くちら」にかゝると見られる「いすくはし」などは、「勇細し」などで解くのは、如何にも固定した方法を思はせる。つまり「やし」「よし」などゝ用語例の似た、「はし」のあつた事が思はれるのである。其が合理化せられて、「細し」の一つの例に這入つてゐるが、かうした「し」は、外にもいろ<choice source="#source-48723-48729"><orig>／＼</orig><reg>〱</reg></choice>あつたことを考へさせるのである。言換へれば、「やし」「よし」と一類の「はし」があつて、其が偶然、「くはし」と言つた形と結びついた事を思はせるのだ。かう言ふ過程を踏んで、古い組織が、新しい語の組み立て方に、引き直されて行つたものゝ多かつたことが思はれる。</p>
+        <p source="#source-49109-49441">唯此までの「し」で考へられることは、すべて、説明すれば、わり込んで来たものと思はれるものだつた。ところが、日本語の語根時代の俤を見せてゐる、と思はれる語には、語根の中の一部と言ふより、語根その物と見られるのがあることだ。</p>
+      </div>
+      <div type="layout" source="#source-49441-49581" style="padding-inline-start: 2em">
+        <p source="#source-49476-49496"><seg source="#source-49476-49496">おし　　をし</seg></p>
+        <p source="#source-49496-49519"><seg source="#source-49496-49519">もし　　けたし</seg></p>
+        <p source="#source-49519-49545"><seg source="#source-49519-49545">いまし　　しまし</seg></p>
+      </div>
+      <div>
+        <p source="#source-49583-49750"><seg source="#source-49583-49750">神代巻以下まだ、神代の匂ひの失せない時代の記事を見ると、押・忍或は圧の字を上に据ゑた熟字に逢著することが多い。</seg></p>
+      </div>
+      <div type="layout" source="#source-49750-49935" style="padding-inline-start: 2em">
+        <p source="#source-49785-49844"><seg source="#source-49785-49844">○天押帯日子命　押阪連　押媛　押木玉蘰</seg></p>
+        <p source="#source-49844-49885"><seg source="#source-49844-49885">○忍熊王　天忍人　忍穂耳命</seg></p>
+        <p source="#source-49885-49899"><seg source="#source-49885-49899">○天圧神</seg></p>
+      </div>
+      <div>
+        <p source="#source-49937-51301">此等の、沢山の「おし」の中、唯天圧神の外、殆例を見ない程、「おし」は「<ruby type="furigana" rend="right" source="#source-50042-50057"><rb>大</rb><rt>オホ</rt></ruby>」或は「大きし」に通じるのである。此事は、宣長も古事記伝に論じてゐる。が、此に対照して考へると、「をし」の意義は稍明瞭である。古事記・日本紀の古訓などには、此「をし」を形容詞扱ひにして、「をしき」と言ふ活用を出してゐるが、此はうけ取れない。「愛」の義にとるべきではなくて、あるものは悉く「惜」の側に入るものだ。「をし（惜）」「をしむ」から還元して「をし」を「愛し」と感じることは、決して古義を溯源することにならない。たとへば、万葉古義以後、ほゞ通説の形をとつた「三山歌」の、「高山波雲根火雄男志等」の上の雄を目的格の「を」として、下の男を志につゞけて「をし」即「愛し」と訓む風は、意味をなさぬことになる。即語根としては意義はあるが、成語としては意義をなさない。「をし」は恐らく屈折を生じて「をし（惜）」といふ形容詞になつて、完全な意義を生じたと思はれる。だから、古代の「をし」の用語例は、必しも「惜」でなく、大切・大事など言ふ、</p>
+      </div>
+      <div type="layout" source="#source-51301-51576" style="padding-inline-start: 2em">
+        <p source="#source-51336-51416"><seg source="#source-51336-51372">○あたらしき君が老ゆらく</seg><ruby type="furigana" rend="right" source="#source-51372-51393"><rb>惜毛</rb><rt>ヲシモ</rt></ruby><seg source="#source-51393-51416">（万葉巻十三）</seg></p>
+        <p source="#source-51416-51478"><seg source="#source-51416-51478">○劔大刀　名の惜毛われはなし（同巻十二）</seg></p>
+        <p source="#source-51478-51540"><seg source="#source-51478-51540">○君が名はあれど、吾が名之惜毛（同巻二）</seg></p>
+      </div>
+      <div>
+        <p source="#source-51578-52576">などの「をし」その他は、唯の「をし」で解せられるが、よく考へれば、大事と言ふことである。つまり、用言としては、さうした語原的の意義を一部分表して、後の用語例どほりでないものも出来たのだ。「をし」に珍重する意義を失はなかつたのだ。唯、語根の様な形で、他の体言や、用言と熟語を作つた時、特殊な内容を醸し出したものと思はれる。かうした「おし」「をし」が、更に分解して、「お」「を」になることは知れる。即我々の既成概念を以てすれば、大・小である。「お」「を」から直接に熟語を作つてゐる「おきな」「をぐな」「おみな」「をみな」「<ruby type="furigana" rend="right" source="#source-52355-52373"><rb>億計</rb><rt>オケ</rt></ruby>王」「<ruby type="furigana" rend="right" source="#source-52382-52400"><rb>弘計</rb><rt>ヲケ</rt></ruby>王」「<ruby type="furigana" rend="right" source="#source-52409-52430"><rb>大碓</rb><rt>オウス</rt></ruby>」「<ruby type="furigana" rend="right" source="#source-52436-52457"><rb>小碓</rb><rt>ヲウス</rt></ruby>」「おぢ」「をぢ」「おば」「をば」「<ruby type="furigana" rend="right" source="#source-52511-52529"><rb>大忌</rb><rt>オミ</rt></ruby>」「<ruby type="furigana" rend="right" source="#source-52535-52553"><rb>小忌</rb><rt>ヲミ</rt></ruby>」などがある。</p>
+        <p source="#source-52576-53454">私は尚、後々から例証を挙げて行くつもりだが、もう分解出来ぬ様に見える「おし」「をし」にも、やはり接合点があり、而も此等が作つた熟語の多くが失はれて了うたことを考へるのである。唯、「おし」の方は、あゝした形の熟語と認められてよいものとして残つたが、「をし」の方は、熟語用言として形を留めたと見ることが出来るのだ。唯此が今すこし形容詞屈折の含まれた時代だと、「をゆ」とか「をく」「をつ」「をす」とか言ふ形になるのだが、其だけの内容を「をし」が作つてゐない。「<hi rend="bouten 傍点 right" source="#source-53257-53287" corresp="#source-53260-53287"><seg source="#source-53257-53260">お</seg></hi>ゆ（老）」と言ふ語（新国学第二・第一号）に対して、「わかゆ」と言ふ語の出来たのが遥か後の事と思はれるのである。</p>
+        <p source="#source-53454-54551">だから、「をしむ」或は形容詞「をし」などの場合は、「をし」の内容がある点まで拡張してゐるものと見ねばならない。さうして思ふべきは、後来の形容詞に専ら行はれる、殊に久活形容詞専門と思はれる「し」を外して語尾につく形は、こゝで考へる必要がある。たとひ「おゆ」と謂つた形があるとしても、何か特殊な理由がなくてはならない訣である。今仮りに「をし」を以て言へば、私の話が、ひよつとすれば、「し」を単なる領格語尾の様な考へ方に誘うて来たかも知れぬが、最訣り易いこの術語を避けたのは、理由があつた。すべての格及び格の助辞と言ふものが、単に自然にさう傾いて来たゞけで、根本に溯ると、いづれの格にも共有の分子が多いのである。唯用法の問題である。<hi rend="bosen 傍線 right" source="#source-54393-54423" corresp="#source-54396-54423"><seg source="#source-54393-54396">の</seg></hi><seg source="#source-54423-54426">・</seg><hi rend="bosen 傍線 right" source="#source-54426-54456" corresp="#source-54429-54456"><seg source="#source-54426-54429">が</seg></hi><seg source="#source-54456-54551">が主格或は領格、時としては、感動をさへ示す事がある如きである。</seg></p>
+        <p source="#source-54551-55294">私は既に述べもし、此書き物以前に書いた体言語尾の考へについて言ひもした様に、熟語を作る、「ら」・「や」・「か」或は「な」・「た」の類の、語根につき、又其系統の語につく語尾は、体言感覚を作ることによつて、同時に、用言的屈折をしない語の為の、熟語格を作つたことを述べた。畢竟、かうした語尾は、体・用両方面の熟語を作る手引きとなつたことに疑ひはない。唯形容詞の場合、遅れて出来た「く」が、体言の場合のほか、用をなさなかつた事自身、用言的感覚を持たせる様になつた。其だけ、国語意識が変つて来たのである。</p>
+      </div>
+      <div type="layout" source="#source-55294-55774" style="padding-inline-start: 2em">
+        <p source="#source-55329-55478"><seg source="#source-55329-55353">○ます・ら・男（</seg><hi rend="bosen 傍線 right" source="#source-55353-55389" corresp="#source-55359-55389"><seg source="#source-55353-55359">ます</seg></hi><seg source="#source-55389-55392">は</seg><hi rend="bosen 傍線 right" source="#source-55392-55428" corresp="#source-55398-55428"><seg source="#source-55392-55398">いよ</seg></hi><seg source="#source-55428-55478">と、同義語をなす健康の義の語根）</seg></p>
+        <p source="#source-55478-55501"><seg source="#source-55478-55501">○たわ・や・め</seg></p>
+        <p source="#source-55501-55536"><seg source="#source-55501-55536">○さゝ・ら・え＋をとこ</seg></p>
+        <p source="#source-55536-55565"><seg source="#source-55536-55565">○たわ・や・かひな</seg></p>
+        <p source="#source-55565-55591"><seg source="#source-55565-55591">○ふはや・が・下</seg></p>
+        <p source="#source-55591-55617"><seg source="#source-55591-55617">○なごや・が・下</seg></p>
+        <p style="text-indent: 2em" rend="first-line-indent(2)" source="#source-55617-55627"><seg source="#source-55617-55627">×</seg></p>
+        <p source="#source-55627-55668"><seg source="#source-55627-55668">○おだ（おだしく）・や・む</seg></p>
+        <p source="#source-55668-55691"><seg source="#source-55668-55691">○すゝ・ろ・ぐ</seg></p>
+        <p source="#source-55691-55738"><seg source="#source-55691-55738">○そび・や・ぐ（そびゆ・く？）</seg></p>
+      </div>
+      <div>
+        <p source="#source-55776-56021"><seg source="#source-55776-55803">かう言ふ風に、われ</seg><choice source="#source-55803-55809"><orig>／＼</orig><reg>〱</reg></choice><seg source="#source-55809-56021">の時代文法の意識においてこそ、体言・用言の間に、非常な区別をおいて考へてゐるが、古くは語根の結合などにも、かうした無差別なものがあつたのだ。</seg></p>
+      </div>
+      <div type="layout" source="#source-56021-56341" style="padding-inline-start: 2em">
+        <p source="#source-56056-56136"><seg source="#source-56056-56136">○いくばくも生けらじ命を（不生有命乎）（万葉巻十二）</seg></p>
+        <p source="#source-56136-56219"><seg source="#source-56136-56169">○今宵のみ相見て、後は</seg><ruby type="furigana" rend="right" source="#source-56169-56190"><rb>不相</rb><rt>アハジ</rt></ruby><seg source="#source-56190-56219">ものかも（同巻十）</seg></p>
+        <p source="#source-56219-56305"><seg source="#source-56219-56222">○</seg><ruby type="furigana" rend="right" source="#source-56222-56246"><rb>幾時</rb><rt>イクバク</rt></ruby><seg source="#source-56246-56249">も</seg><ruby type="furigana" rend="right" source="#source-56249-56288"><rb>不生物乎</rb><rt>イケラジモノヲ</rt></ruby><seg source="#source-56288-56305">（同巻九）</seg></p>
+      </div>
+      <div>
+        <p source="#source-56343-56885">かう言ふ現象は、又「まし」にもある。語尾としての価値において、<hi rend="bosen 傍線 right" source="#source-56436-56466" corresp="#source-56439-56466"><seg source="#source-56436-56439">や</seg></hi><seg source="#source-56466-56469">・</seg><hi rend="bosen 傍線 right" source="#source-56469-56499" corresp="#source-56472-56499"><seg source="#source-56469-56472">ら</seg></hi><seg source="#source-56499-56502">・</seg><hi rend="bosen 傍線 right" source="#source-56502-56532" corresp="#source-56505-56532"><seg source="#source-56502-56505">た</seg></hi><seg source="#source-56532-56535">・</seg><hi rend="bosen 傍線 right" source="#source-56535-56565" corresp="#source-56538-56565"><seg source="#source-56535-56538">な</seg></hi><seg source="#source-56565-56571">と、</seg><hi rend="bosen 傍線 right" source="#source-56571-56607" corresp="#source-56577-56607"><seg source="#source-56571-56577">まし</seg></hi><seg source="#source-56607-56610">・</seg><hi rend="bosen 傍線 right" source="#source-56610-56646" corresp="#source-56616-56646"><seg source="#source-56610-56616">まじ</seg></hi><seg source="#source-56646-56649">・</seg><hi rend="bosen 傍線 right" source="#source-56649-56679" corresp="#source-56652-56679"><seg source="#source-56649-56652">じ</seg></hi>などの間に開きのある様に考へる方々も多からうが、結局は様式論から言へば一つである。「まし」においては、「もの」に接続するのが普通である。</p>
+      </div>
+      <div type="layout" source="#source-56885-57311" style="padding-inline-start: 2em">
+        <p source="#source-56920-56973"><seg source="#source-56920-56973">○竪薦も持ちて来ましもの（履中記）</seg></p>
+        <p source="#source-56973-57035"><seg source="#source-56973-57035">○岩根しまきて死なましものを（万葉巻二）</seg></p>
+        <p source="#source-57035-57088"><seg source="#source-57035-57088">○山の雫にならましものを（同巻二）</seg></p>
+        <p style="text-indent: 2em" rend="first-line-indent(2)" source="#source-57088-57098"><seg source="#source-57088-57098">×</seg></p>
+        <p source="#source-57098-57151"><seg source="#source-57098-57151">○国知らさまし島の宮はも（同巻二）</seg></p>
+        <p source="#source-57151-57207"><seg source="#source-57151-57207">○うちなびく　春見ましゆは（同巻九）</seg></p>
+        <p source="#source-57207-57275"><seg source="#source-57207-57231">○こゝもあらまし</seg><ruby type="furigana" rend="right" source="#source-57231-57246"><rb>柘</rb><rt>ツミ</rt></ruby><seg source="#source-57246-57275">の枝はも（同巻三）</seg></p>
+      </div>
+      <div>
+        <p source="#source-57313-57630">かうした結合は、近代では、皆「き」と言ふ形を俟つて行ふものと思ふであらう。「じ」「まし」などでは其がない。又おなじ範疇に入りさうな「らし」なども、「らしき」と言ふ形はありながら、真の連体に用ゐられた痕跡はない。</p>
+      </div>
+      <div type="layout" source="#source-57630-57861" style="padding-inline-start: 2em">
+        <p source="#source-57665-57736"><seg source="#source-57665-57736">○うつそみも、つまをあらそふらしき（万葉巻一）</seg></p>
+        <p source="#source-57736-57825"><seg source="#source-57736-57825">○うべしかも。蘇我の子らを、大君のつかはすらしき（推古紀）</seg></p>
+      </div>
+      <div>
+        <p source="#source-57863-57901">そのうへ、「らし」にも、</p>
+      </div>
+      <div type="layout" source="#source-57901-58121" style="padding-inline-start: 2em">
+        <p source="#source-57936-58085"><seg source="#source-57936-58085">○わが大君の、夕さればめし賜良之（神岡の……）、明け来ればとひ賜良志神岡の山の黄葉を。（万葉巻二）</seg></p>
+      </div>
+      <div>
+        <p source="#source-58123-58350">など言ふ幾分疑はしい使ひ方がある。謂はゞ連体形とも言ふべき「し」の形を持つた形容詞類似の助動詞で、多少とも時間観念を含んだ類のあることに注意してよい。</p>
+        <p source="#source-58350-58541">同じ傾向のものと見られさうなのに、「もし」「ごとし」「けたし」がある。だけれども、私は此に就いては、特殊な考へ方を持つてゐる。</p>
+        <p source="#source-58541-59767"><seg source="#source-58541-59309">私は序説に於いて、文章法を説く事は、単語を説く事の延長と考へるのを正しとする、と言つておいた。其を、今になつて思ひ返す必要がある。此は、単なる偶言ではない。近隣諸民族の言語との比較研究から、単語序等の上に非常に考へさせられる事のあつた結果なのだ。古典的な文法と新興の文法とが並行してゐる間に、当然新興の方が正しいものと認められるだけの勢力を得て来なければならぬ筈だが、時としては、却つて古風なものが又再び栄える場合がある。同時に、並行状態が可なり長く続くのも、さうした理由から訣る。此と同じ理屈で、形容詞の活用が</seg><ruby type="furigana" rend="right" source="#source-59309-59324"><rb>略</rb><rt>ほぼ</rt></ruby><seg source="#source-59324-59767">完備し、その色々な変態すら興つて来た時代に、尚古態を残してゐる事を考へなければ、時代文法の研究は無意味である。かう言ふ訣は、形容詞に於いても、いろんな形を派生してゐる時に、尚形容詞語尾の発生時代の姿が、その時代的に合理化せられ乍ら残つてゐる事もあるべき筈だ、と言ふ事を言ひたいのである。譬へば、</seg></p>
+      </div>
+      <div type="layout" source="#source-59767-60010" style="padding-inline-start: 2em">
+        <p source="#source-59802-59846"><seg source="#source-59802-59846">なこひそ吾妹　　かづらせ吾妹</seg></p>
+        <p source="#source-59846-59866"><seg source="#source-59846-59866">ひもとけ吾妹</seg></p>
+        <p source="#source-59866-59898"><seg source="#source-59866-59898">命死なまし甲斐の黒駒</seg></p>
+        <p source="#source-59898-59939"><seg source="#source-59898-59939">そこし恨之（？）秋山われは</seg></p>
+        <p source="#source-59939-59974"><seg source="#source-59939-59974">つかへ奉れる貴之見れば</seg></p>
+      </div>
+      <div>
+        <p source="#source-60012-60089"><seg source="#source-60012-60089">と言ふ様な形ならば、呼格として意味は明らかである。</seg></p>
+      </div>
+      <div type="layout" source="#source-60089-60309" style="padding-inline-start: 2em">
+        <p source="#source-60124-60273"><seg source="#source-60124-60142">あひ見ずて、</seg><ruby type="furigana" rend="right" source="#source-60142-60154"><rb>日</rb><rt>ケ</rt></ruby><seg source="#source-60154-60199">ながくなりぬ。このごろはいかに</seg><ruby type="furigana" rend="right" source="#source-60199-60229"><rb>好去哉</rb><rt>ヨケクヤ？</rt></ruby><seg source="#source-60229-60273">　いぶかし。吾妹（万葉巻四）</seg></p>
+      </div>
+      <div>
+        <p source="#source-60311-61513">の如きは、既に一面呼格であり乍ら、「なつかしき吾兄」といつた意義から差別がつきにくゝなつてゐる。此が一段前の形は、その不即不離の状態が明らかでない多くの例に現れてゐる。つまり、普通呼格の上に形容詞がある時、其が総て、文章成分の顛倒したものと解せられて来てゐるが、実はさうなつて来るまでの過程に「なつかし吾兄」が「吾兄なつかし」の気分的表現でなく、「なつかしき吾兄」の意義を持つた時代があつたのである。つまり、さうした文章上の事実が、実は句或は単語に於ける形式の延長であつたのだ。私は唯この点に、尚幾多の疑問は持つてゐるが、併し乍ら、形容詞の終止形「し」の形が、語根から屈折を生じて独立したと言ふ事の原因には、さうした連体句が倒置せられて（今考へるのとは反対に）来、又さうした意識を以て見る習慣の生じた為に、この形に次第に終止としての実感を持たして来たものと言ふ事情をも、考へて見なければならぬと思ふ。</p>
+        <p style="text-indent: 8em" rend="first-line-indent(8)" source="#source-61513-61542"><seg source="#source-61513-61542">○</seg></p>
+        <p source="#source-61542-61850">既に枕詞のある部分まで、その成因を説いた。併し、尚此に関係のある枕詞がある。其は「じもの」の形を語尾とするものである。此「じもの」は、飜訳の上において、明らかに二通りに区別出来るものと考へられて来てゐる。</p>
+      </div>
+      <div type="layout" source="#source-61850-62206" style="padding-inline-start: 2em">
+        <p source="#source-61885-61929"><seg source="#source-61885-61929">イ、しゝじもの　　鹿児じもの</seg></p>
+        <p style="text-indent: 2em" rend="first-line-indent(2)" source="#source-61929-61970"><seg source="#source-61929-61970">馬じもの　　　犬じもの</seg></p>
+        <p style="text-indent: 2em" rend="first-line-indent(2)" source="#source-61970-62011"><seg source="#source-61970-62011">鵜じもの　　　鴨じもの</seg></p>
+        <p style="text-indent: 2em" rend="first-line-indent(2)" source="#source-62011-62073"><seg source="#source-62011-62073">鳥じもの　　　雪じもの（露じもの？）</seg></p>
+        <p style="text-indent: 2em" rend="first-line-indent(2)" source="#source-62073-62129">うまじもの（――あへ「饗」……）</p>
+        <p source="#source-62129-62170"><seg source="#source-62129-62170">ロ、男じもの　　　牀じもの</seg></p>
+      </div>
+      <div>
+        <p source="#source-62208-63440">と言ふ風になつてゐるが、前者は、その名詞の持つ或傾向を、全然比喩としたもの、後者は、普通「として」と訳して、前の一類の訳語と通ひ乍ら、意味のやゝ違ふ所を出さうとせられてゐるものである。其だけ、元は全然別のものでなく、意義変化した為に出来たもの、とも考へられる。其には過程として「とこじもの」を置いて見る必要がある。旅行中に草を敷き寝する有様を言つたので、<hi rend="bosen 傍線 right" source="#source-62739-62787" corresp="#source-62751-62787"><seg source="#source-62739-62751">牀の如く</seg></hi>とも訳すれば、さうも出来る訣である。一体「男」は、「をとこ」と読むか「をのこ」と読むか訣らないものと見られてゐるが、万葉巻二の二つの用例から見れば、明らかに「烏徳」としたらしく思はれるから、「をとこ」と読んでよからう。だが、古典は古典その者の中において又、特殊の擬古的態度があり、其から来る所の大きな誤解さへも加はるのだから、幾分は「をのこじもの」と謂つてもよいといふ余裕は残して置く方が、国語発達史上却つて正しい見方、と言へるのだ。</p>
+        <p source="#source-63440-64300">私の話が、少し長びいたので、今一度前からの考へを、印象的に要約して置く必要がある。形容詞語尾殊に、重要な終止語尾の、独立或は固定の妥当的な感覚を導いた過程についての考へである。第一、「し」を含んだ語根時代。第二、領格としての用語例に入つた「し」の時代。第三、領格の対象語の脱落した時代。第四、語尾としての「し」の独立時代、と謂つた<hi rend="bouten 傍点 right" source="#source-63935-63989" corresp="#source-63950-63989"><seg source="#source-63935-63950">仮りの区劃</seg></hi><seg source="#source-63989-64300">を立てゝゐるのだが、今の私にとつては、第一期について、最大きな疑問が起つて来てゐる。其で、結局、第二・第三の時代を中心にして論じて来た訣であつた。さうして、其点において可なり必要な件をまだ後廻しにしてゐる。</seg></p>
+        <p source="#source-64300-64788">所謂一類の枕詞の語尾と考へられて来てゐる、「じもの」と言ふ形である。此亦既に述べた「じ（否定）何」「らし何」と同じ発生を有するものである。尚言へば、すべての形容詞語尾は、「しもの」の過程を含んで来たもの、と考へられさへするのであつた。さうして、仮りに様々な「し何」の形を綜合すると、「しもの」と言ふ形に帰一するのは明らかだ。</p>
+        <p source="#source-64788-65483"><ruby type="furigana" rend="right" source="#source-64788-64803"><rb>若</rb><rt>もし</rt></ruby>、形式論をつきつめて行くとすれば、「あなにやし　えをとこ」「やすみしゝ　大君」などの古い例さへ、「あなにや　えをとこ」「やすみし　大君」から更に、領格的用語例の意識を、生じずに居る訣はない。「あなにやの　えをとこ」「やすみしの　大君」と言ふ意識を含んでゐない、と誰が言へよう。一方更に進んでは、「や」「ら」「か」「な」などが、すべて体言化する語尾の用をなす如く、こゝにも「……なる物……」「……物……」と謂つた感覚を以て受け入れたと考へられなからうか。</p>
+      </div>
+      <div type="layout" source="#source-65483-65718" style="padding-inline-start: 2em">
+        <p source="#source-65518-65682"><seg source="#source-65518-65536">わが待つもの</seg><seg type="annotated-text" source="#source-65539-65581"><seg source="#source-65536-65539">　</seg><note type="gloss"><seg source="#source-65560-65566">ナル</seg></note></seg><seg source="#source-65581-65617">鴫はさやらず、いすくはし</seg><seg type="annotated-text" source="#source-65620-65662"><seg source="#source-65617-65620">　</seg><note type="gloss"><seg source="#source-65641-65647">モノ</seg></note></seg><seg source="#source-65662-65682">くちらさやる</seg></p>
+      </div>
+      <div>
+        <p source="#source-65720-65833">と思うて来ると、やゝ論理一遍に傾くが、「じもの」の出来る道筋も知れる様だ。</p>
+        <p source="#source-65833-65916">「じもの」の慣用の最少いものは、記・紀である。その中、</p>
+      </div>
+      <div type="layout" source="#source-65916-66196" style="padding-inline-start: 2em">
+        <p source="#source-65951-66160"><seg source="#source-65951-65993">あをによし　奈良のはざまに、</seg><ruby type="furigana" rend="right" source="#source-65993-66029"><rb>斯々弐暮能</rb><rt>シヽジモノ</rt></ruby><seg source="#source-66029-66080">　みづくへこもり、みなそゝぐ　鮪の</seg><ruby type="furigana" rend="right" source="#source-66080-66101"><rb>若子</rb><rt>ワクゴ</rt></ruby><seg source="#source-66101-66116">を　あさり</seg><ruby type="furigana" rend="right" source="#source-66116-66128"><rb>出</rb><rt>ヅ</rt></ruby><seg source="#source-66128-66160">な。ゐのこ（武烈紀）</seg></p>
+      </div>
+      <div>
+        <p source="#source-66198-67355">此「しゝじもの」の用例は、他の枕詞の「しゝじもの」と余程違うてゐる様に見える。此「しゝじもの」を「<hi rend="bosen 傍線 right" source="#source-66345-66387" corresp="#source-66354-66387"><seg source="#source-66345-66354">みづく</seg></hi><seg source="#source-66387-66390">へ</seg><hi rend="bosen 傍線 right" source="#source-66390-66432" corresp="#source-66399-66432"><seg source="#source-66390-66399">こもり</seg></hi>」の、どの部分かにかゝつてゐるやうに、説くのは苦しい。其なら寧、句を隔てゝゐるが、「しゝじもの……あさり<ruby type="furigana" rend="right" source="#source-66588-66600"><rb>出</rb><rt>ヅ</rt></ruby>な。猪の子」と説けばよい。さう考へると、「をのこじもの」と幾分形が似て来るので、比喩とは遠ざかる。私は一体此「じもの」が歌謡にとり入れられた原因を寧、歌謡その物以外にある、と見て来てゐる。即、歌謡の歴史上において、呪詞（寿詞・祝詞）の古い様式を、長歌が率先してとり入れる様になつた飛鳥・藤原時代から盛んになつたものと見てゐる。此件については別に書いたものがある。此処には其をくり返す繁雑を避けさせて頂く。たとへば、可なり新しい例からあげると、平安初期に固定したと見るべき延喜式祝詞にも、其痕跡が見える。</p>
+      </div>
+      <div type="layout" source="#source-67355-67673" style="padding-inline-start: 2em">
+        <p source="#source-67390-67637"><seg source="#source-67390-67408">○辞別。伊勢</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-67408-67426">尓</note><seg source="#source-67426-67468">坐……皇吾睦神漏伎・神漏弥命</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-67468-67486">登</note><hi rend="bouten 白丸傍点 right" source="#source-67486-67534" corresp="#source-67495-67534"><seg source="#source-67486-67495">宇事物</seg></hi><seg source="#source-67534-67546">頸根衝抜</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-67546-67614"><g ref="#gaiji-3-1-86-47" source="#source-67555-67608">氐</g></note><seg source="#source-67614-67637">……（祈年祭）</seg></p>
+      </div>
+      <div>
+        <p source="#source-67675-67890">此は、祈念祭と同様の形式をとる月次祭は勿論、どう言ふ訣か、広瀬川合祭・龍田風神祭にも用ゐてゐる。而も、「もの」と言ふ語の多く出て来る例として、</p>
+      </div>
+      <div type="layout" source="#source-67890-68476" style="padding-inline-start: 3em; text-indent: -1em">
+        <p source="#source-67955-68440"><seg source="#source-67955-67964">○わが</seg><ruby type="furigana" rend="right" source="#source-67964-67982"><rb>地</rb><rt>トコロ</rt></ruby><seg source="#source-67982-68009">とうすはきいませと</seg><ruby type="furigana" rend="right" source="#source-68009-68030"><rb>進</rb><rt>タテマツ</rt></ruby><seg source="#source-68030-68111">るみてぐらは、明妙・照妙・和妙・荒妙にそなへまつりて、</seg><ruby type="furigana" rend="right" source="#source-68111-68150"><rb>見明物</rb><rt>ミアキラムルモノ</rt></ruby><note type="kunten" subtype="okurigana" rend="superscript" source="#source-68150-68168">止</note><seg source="#source-68168-68174">鏡、</seg><ruby type="furigana" rend="right" source="#source-68174-68207"><rb>翫物</rb><rt>モテアソブモノ</rt></ruby><note type="kunten" subtype="okurigana" rend="superscript" source="#source-68207-68225">止</note><seg source="#source-68225-68240">玉、射放物</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-68240-68258">止</note><seg source="#source-68258-68276">弓矢、打断物</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-68276-68294">止</note><seg source="#source-68294-68312">大刀、馳出物</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-68312-68330">止</note><seg source="#source-68330-68440">御馬、……に至るまでに、横山の如、几物に置き足らはして……（遷却祟神祭）</seg></p>
+      </div>
+      <div>
+        <p source="#source-68478-68738"><seg source="#source-68478-68738">が挙げられよう。他の中臣祝詞とは違ふし、斎部祝詞だけに、尠くとも発想法の古きを保つてゐることも頷ける。此点、同じ様であり乍ら、出雲国造神賀詞は、幾分新しい発想をとつてゐる。</seg></p>
+        <p source="#source-68738-69127">つまり国造家の負幸物と呪詞とを関聯せしめて言ふのに、「もの」の用語例を換へて来てゐる。つまり唯の枕詞のやうにしたてゝゐるのだ。でも尠くとも枕詞として考へる以上、「じもの」に近い用語例と、「……の」と比喩法を採るのと、二つながら並行した方法なる事と合点は行く。</p>
+      </div>
+      <div type="layout" source="#source-69127-70702" style="padding-inline-start: 2em">
+        <p source="#source-69162-70666"><seg source="#source-69162-69195">朝日の豊さか登りに、神</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-69195-69213">乃</note><seg source="#source-69213-69216">礼</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-69216-69237">自利</note><seg source="#source-69237-69243">、臣</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-69243-69261">能</note><hi rend="bouten 白丸傍点 right" source="#source-69261-69303" corresp="#source-69267-69303"><seg source="#source-69261-69267">礼自</seg></hi><note type="kunten" subtype="okurigana" rend="superscript" source="#source-69303-69321">登</note><ruby type="furigana" rend="right" source="#source-69321-69342"><rb>御祷</rb><rt>ミホキ</rt></ruby><seg source="#source-69342-69372">の神宝献らくと奏す。</seg><hi rend="bosen 傍線 right" source="#source-69372-69414" corresp="#source-69381-69414"><seg source="#source-69372-69381">白玉の</seg></hi><seg source="#source-69414-69438">大御白髪いまし、</seg><hi rend="bosen 傍線 right" source="#source-69438-69480" corresp="#source-69447-69480"><seg source="#source-69438-69447">赤玉の</seg></hi><seg source="#source-69480-69507">みあからびいまし、</seg><hi rend="bosen 傍線 right" source="#source-69507-69543" corresp="#source-69513-69543"><seg source="#source-69507-69513">青玉</seg></hi><hi rend="bosen 二重傍線 right" source="#source-69543-69579" corresp="#source-69546-69579"><seg source="#source-69543-69546">の</seg></hi><hi rend="bosen 傍線 right" source="#source-69579-69615" corresp="#source-69585-69615"><seg source="#source-69579-69585">水江</seg></hi><hi rend="bosen 二重傍線 right" source="#source-69615-69651" corresp="#source-69618-69651"><seg source="#source-69615-69618">の</seg></hi><hi rend="bosen 傍線 right" source="#source-69651-69687" corresp="#source-69657-69687"><seg source="#source-69651-69657">玉の</seg></hi><seg source="#source-69687-69711">ゆきあひに、……</seg><ruby type="furigana" rend="right" source="#source-69711-69732"><rb>手長</rb><rt>タナガ</rt></ruby><seg source="#source-69732-69747">の大御世を</seg><hi rend="bosen 傍線 right" source="#source-69747-69807" corresp="#source-69765-69807"><seg source="#source-69747-69765">みはかし広に</seg></hi><ruby type="furigana" rend="right" source="#source-69807-69828"><rb>誅堅</rb><rt>ウチ？</rt></ruby><seg source="#source-69828-69837">めて、</seg><hi rend="bosen 傍線 right" source="#source-69837-69885" corresp="#source-69849-69885"><seg source="#source-69837-69849">白御馬の</seg></hi><seg source="#source-69885-69933">……踏み堅め……振り立つる事は、</seg><hi rend="bosen 傍線 right" source="#source-69933-69969" corresp="#source-69939-69969"><seg source="#source-69933-69939">耳の</seg></hi><seg source="#source-69969-70011">いや高に、天下をしろしめさむ</seg><hi rend="bosen 傍線 right" source="#source-70011-70059" corresp="#source-70023-70059"><seg source="#source-70011-70023">事志太米</seg></hi><seg source="#source-70059-70062">、</seg><ruby type="furigana" rend="right" source="#source-70062-70083"><rb>白鵠</rb><rt>クヾヒ</rt></ruby><seg source="#source-70083-70095">の生御調</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-70095-70113">能</note><seg source="#source-70113-70119">玩物</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-70119-70137">登</note><seg source="#source-70137-70161">、倭文の大御心も</seg><ruby type="furigana" rend="right" source="#source-70161-70179"><rb>多親</rb><rt>タシ</rt></ruby><seg source="#source-70179-70245">に、……若水沼にいや……若えまし、すゝぎふる</seg><hi rend="bosen 傍線 right" source="#source-70245-70305" corresp="#source-70263-70305"><seg source="#source-70245-70263">をどみの水の</seg></hi><seg source="#source-70305-70377">……みをちまし、まそびの大御鏡の面をおしはるして</seg><hi rend="bosen 傍線 right" source="#source-70377-70461" corresp="#source-70407-70461"><seg source="#source-70377-70407">見そなはす事のごとく</seg></hi><seg source="#source-70461-70491">、……しろしめさむ事</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-70491-70509">能</note><seg source="#source-70509-70539">志太米と御祷の神宝を</seg><g ref="#gaiji-3-1-84-92" source="#source-70539-70586">擎</g><seg source="#source-70586-70607">げ持ちて、神礼</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-70607-70628">自利</note><seg source="#source-70628-70637">・臣礼</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-70637-70655">自</note><seg source="#source-70655-70666">と……</seg></p>
+      </div>
+      <div type="layout" source="#source-70704-70763" style="padding-inline-end: 1em; text-align: right">
+        <p source="#source-70734-70763"><seg source="#source-70734-70763">（出雲国造神賀詞）</seg></p>
+      </div>
+      <div>
+        <p source="#source-70763-71578">呪詞に起原を持つ表現法が、思ひがけない程、多く古代祝詞には相当な数はある。而も其方の「鵜じもの」と、記・紀の側では「しゝじもの」などが目につく位だ。而もある点では、奈良朝の文法の貯溜池と見られる宣命には、同じ「じもの」でも、特殊な用語例が残つてゐるのである。さうして其が、第一類の比喩表現を含む「じもの」と関係なく、第二類に極めて近いことが考へられるのだ。第二類から第一類への過程に、「牀じもの」を据ゑて見れば、稍解釈がつきさうに思はれる。我々は成立した形容詞活用に左右せられることなしに、其以前の形を考へるつもりで、まづ見てゆく必要がある。</p>
+      </div>
+      <div type="layout" source="#source-71578-71999" style="padding-inline-start: 3em; text-indent: -1em">
+        <p source="#source-71643-71963"><seg source="#source-71643-71646">○</seg><ruby type="furigana" rend="right" source="#source-71646-71658"><rb>朕</rb><rt>ワ</rt></ruby>が臣としてつかへ奉る人等も、一つ二つを漏し落す事もあらむか、と辱なみ、愧しみおもほしまして、我皇太上天皇の大前に「<ruby type="furigana" rend="right" source="#source-71829-71865"><rb>恐古之物</rb><rt>カシコシモノ</rt></ruby><seg source="#source-71865-71868">」</seg><ruby type="furigana" rend="right" source="#source-71868-71922"><rb>進退匍匐廻</rb><rt>シヾマヒ？ハラバヒモト</rt></ruby><note type="misc" subtype="unresolved" source="#source-71922-71955">［＃（保利《ホリ》）］</note><seg source="#source-71955-71963">……</seg></p>
+      </div>
+      <div type="layout" source="#source-72001-72072" style="padding-inline-end: 1em; text-align: right">
+        <p source="#source-72031-72072"><seg source="#source-72031-72072">（宣命、神亀六年八月五日）</seg></p>
+      </div>
+      <div type="layout" source="#source-72072-72403" style="padding-inline-start: 3em; text-indent: -1em">
+        <p source="#source-72137-72367"><seg source="#source-72137-72140">○</seg><ruby type="furigana" rend="right" source="#source-72140-72152"><rb>汝</rb><rt>ナ</rt></ruby>が命きこしめせとのりたまふ御命を「畏自物」受賜<note type="kunten" subtype="okurigana" rend="superscript" source="#source-72221-72239">理</note><seg source="#source-72239-72242">坐</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-72242-72260">天</note><seg source="#source-72260-72272">食国天下</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-72272-72290">乎</note><seg source="#source-72290-72296">恵賜</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-72296-72314">比</note><seg source="#source-72314-72320">治賜</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-72320-72338">布</note><seg source="#source-72338-72341">間</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-72341-72359">爾</note><seg source="#source-72359-72367">……</seg></p>
+      </div>
+      <div type="layout" source="#source-72405-72482" style="padding-inline-end: 1em; text-align: right">
+        <p source="#source-72435-72482"><seg source="#source-72435-72482">（宣命、天平勝宝元年七月二日）</seg></p>
+      </div>
+      <div>
+        <p source="#source-72482-72937">此等の例を、凡に見ると、万葉の「じもの」の分化したもの、と思はれさうだ。併し、其にしては、あまり飛躍し過ぎてゐると言ふことも、同時に思ひ浮ぶであらう。ともかくも、通例の形容詞の用語例に馴れた我々には、「いまじきの間」「ましゞ・ましゞき」「われじく」或は又、「おたひ<hi rend="bouten 傍点 right" source="#source-72878-72908" corresp="#source-72881-72908"><seg source="#source-72878-72881">し</seg></hi>み」など言ふ形や、</p>
+      </div>
+      <div type="layout" source="#source-72937-73570" style="padding-inline-start: 2em">
+        <p source="#source-72972-73534"><seg source="#source-72972-72975">汝</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-72975-72993">爾</note><seg source="#source-72993-73011">冠位上賜治賜</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-73011-73029">夫</note><seg source="#source-73029-73038">。又此</seg><hi rend="bouten 白丸傍点 right" source="#source-73038-73080" corresp="#source-73044-73080"><seg source="#source-73038-73044">家自</seg></hi><seg type="warichu" rend="two-line" source="#source-73080-73188"><hi rend="bouten 白丸傍点 right" source="#source-73110-73152" corresp="#source-73116-73152"><seg source="#source-73110-73116">久母</seg></hi></seg><seg source="#source-73188-73200">藤原卿等</seg><seg type="warichu" rend="two-line" source="#source-73200-73272"><seg source="#source-73230-73236">乎波</seg></seg><seg source="#source-73272-73296">掛畏聖天皇御世重</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-73296-73364"><g ref="#gaiji-3-1-86-47" source="#source-73305-73358">氐</g></note><hi rend="bouten 白丸傍点 right" source="#source-73364-73412" corresp="#source-73373-73412"><seg source="#source-73364-73373">於母自</seg></hi><note type="kunten" subtype="okurigana" rend="superscript" source="#source-73412-73463"><hi rend="bouten 白丸傍点 right" source="#source-73421-73457" corresp="#source-73424-73457"><seg source="#source-73421-73424">岐</seg></hi></note><seg source="#source-73463-73466">人</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-73466-73484">乃</note><seg source="#source-73484-73499">氏（自）門</seg><note type="misc" subtype="unresolved" source="#source-73499-73526">［＃（止（波））］</note><seg source="#source-73526-73534">……</seg></p>
+      </div>
+      <div type="layout" source="#source-73572-73652" style="padding-inline-end: 1em; text-align: right">
+        <p source="#source-73602-73652"><seg source="#source-73602-73652">（宣命、天平宝字三年六月十六日）</seg></p>
+      </div>
+      <div>
+        <p source="#source-73652-73900"><seg source="#source-73652-73900">の如き用語例のあつた事を示してゐる宣命、及び其前型としてあつた幾多の旧宣命並びに、弘仁・延喜以前の祝詞に現れた筈の形容詞の様子を、今一度思ひ見る必要がないだらうか。</seg></p>
+      </div>
+      <div type="layout" source="#source-73900-74228" style="padding-inline-start: 3em; text-indent: -1em">
+        <p source="#source-73965-74192"><seg source="#source-73965-74192">○……ゆふべには、入り居なげかひ、わきばさむ児の泣く毎に、雄自毛能負ひみ抱きみ、朝鳥の哭のみ泣きつゝ、恋ふれども……吾妹子が入りにし山をよすがとぞ思ふ</seg></p>
+      </div>
+      <div type="layout" source="#source-74230-74298" style="padding-inline-end: 1em; text-align: right">
+        <p source="#source-74260-74298"><seg source="#source-74260-74298">（万葉巻三、高橋虫麻呂）</seg></p>
+      </div>
+      <div type="layout" source="#source-74298-75009" style="padding-inline-start: 3em; text-indent: -1em">
+        <p source="#source-74363-74752"><seg source="#source-74363-74752">○……鳥自物朝立ちい行きて、入り日なす隠りにしかば、吾妹子がかたみにおけるみどり児の、こひ泣く毎に、…………………男自物わきばさみもち、……旦はうらさび暮し、夜は息づき明し、なげゝどもせむすべ知らに、恋ふれども、逢ふよしをなみ、……石根さくみてなづみ来し……</seg></p>
+        <p source="#source-74752-74973"><seg source="#source-74752-74973">○……みどり児のこひ泣く毎に、……烏徳（穂）自物わきばさみもち、……昼はも……、夜はも……なげゝども……こふれども、……石根さくみてなづみ来し……</seg></p>
+      </div>
+      <div type="layout" source="#source-75011-75088" style="padding-inline-end: 1em; text-align: right">
+        <p source="#source-75041-75088"><seg source="#source-75041-75088">（右二首、同巻二、柿本人麻呂）</seg></p>
+      </div>
+      <div type="layout" source="#source-75088-75320" style="padding-inline-start: 3em; text-indent: -1em">
+        <p source="#source-75153-75284"><seg source="#source-75153-75284">○おもがたの忘れてあらば（るとあらば）、あぢきなく、男士物屋恋ひつゝ居らむ（同巻十一）</seg></p>
+      </div>
+      <div>
+        <p source="#source-75322-77304">前の三つの例は、若し「をとこじもの」が、普通考へる様にかゝつてゐるか、疑問だから、稍余裕を置いて考へてゐた。すると、「恋ふ」と言ふ語にかゝつてゐる様にも見える。だが一方、「如く」と一歩の差ある「なるに」「として」など言ふ反対意識を含んで来たものもあることは、否定出来ない。さうした処から、第一類の「じもの」が出来たのであらう。畢竟形容詞の「し」の本来持つた所の「し物」の義が、語となつて現れて来たものと言ふことが出来よう。尚一応考へて見ると、さうした古い「じもの」を以て言ふ固定した表現法があつて、呪詞・宣命・祝詞の表現法の古式としてくり返されてゐる間に、新しい文学が、其様式をとり込み更におし拡げた。其で、類例の尠かつた「じもの」が次第に展開して行つて、第一類を生み出したものと思はれる。たとへば、「畏じ物」の形を延長すると共に、其内容をさのみ変化することなしに、効果を表すには、枕詞の方法が影響したであらう。前にあげた第一類は凡、「かしこじもの」の具体化ではないか。悉く、従属・帰服・謙遜などの様子を示してゐるのが、其証拠である。「鵜じもの」「犬じもの」と謂つても、結局「かしこじもの」の枕詞化ではないか。其と共に、形容詞意識を盛んに持ちはじめた時代だけに、「じもの」の「じ」がさう言ふ方向に力を持ち出してゐる。今すこし推察を附け加へることが出来れば、「かしこじ物」「かこじもの」の類音聯想が、更に「しゝじ物」を案出せしめたとも言へる。「馬じもの」と言ひ、「鴨じもの」と言うても、皆降伏・奉仕の形容に用ゐられてゐる。</p>
+        <p source="#source-77304-78314">「じもの」の語原については、「<ruby type="furigana" rend="right" source="#source-77349-77361"><rb>其</rb><rt>シ</rt></ruby>物」「<ruby type="furigana" rend="right" source="#source-77370-77382"><rb>状</rb><rt>シ</rt></ruby>物」など言ふ印象分解説はあるが、其では「もの」の説明を閑却してゐる。私は思ふ。「もの」はやはり、霊魂の義である。「かしこじもの」は「畏し霊」で、其威力によつての義を含んで居り、「をとこじもの」は<ruby type="furigana" rend="right" source="#source-77673-77706"><rb>壮夫霊</rb><rt>ヲトコジモノ</rt></ruby><seg source="#source-77706-77721">によつて、</seg><ruby type="furigana" rend="right" source="#source-77721-77739"><rb>招魂</rb><rt>コヒ</rt></ruby>をすると言ふ呪詞的な用語例があつたものと見る。意識が変じて、畏ければ、畏しとして、壮夫なれば、壮夫としてなど言ふ風に感じられ、其が更に、新しい民間語原を呼び起したものと見える。併し其径路にあるものとして、遷却祟神祭祝詞・出雲国造神賀詞を見るがよい。物質・霊魂を比喩或は象徴としてゐることが知れる。同時に、「……の霊の表現としての」、「……の霊の寓りなる」と言ふ古代信仰が見えて居る。</p>
+        <p style="text-indent: 8em" rend="first-line-indent(8)" source="#source-78314-78343"><seg source="#source-78314-78343">○</seg></p>
+        <p source="#source-78343-78918"><seg source="#source-78343-78358">私は、いろ</seg><choice source="#source-78358-78364"><orig>／＼</orig><reg>〱</reg></choice>の方角から形容詞語尾「し」の発生を説かうとした。さうして尚言ひ残した事が多い。最心残りなのは、どうしても「し」が語根の一部と見られるものゝ多いこと、亦もつと大切な語根の性質の論を決定した基礎の上に、此論は立つ筈だつたのだ。其が、毫も出来て居ない。其上未練を添へれば、此論文の、主題とした「し」の領格語尾としての成立をすら、存分に言ひ立てる事の出来ないで了うた事である。</p>
+        <p source="#source-78918-79191"><seg source="#source-78918-79191">唯、私の学問を長く慈愛の目で瞻続けて来て下された金沢先生は、かうした論文からも、書かれてゐない結論を見出して下さることゝ、信じもし、甘えもして、文をとぢめることを許して頂くのである。</seg></p>
+      </div>
+    </body>
+    <back>
+      <div type="source">
+        <note type="source-attribution" source="#source-79199-79380"><seg type="source-line">底本：「折口信夫全集　12」中央公論社</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1996（平成8）年3月25日初版発行</seg><lb/><seg type="source-line">初出：「東洋語学乃研究」</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1932（昭和7）年12月</seg></note>
+        <note type="transcriber-note" source="#source-79380-79889"><seg type="source-line">※底本の題名の下に書かれている「昭和七年十二月刊、金沢博士還暦記念「東洋語学乃研究」」はファイル末の「初出」欄に移しました</seg><lb/><seg type="source-line">入力：門田裕志</seg><lb/><seg type="source-line">校正：仙酔ゑびす</seg><lb/><seg type="source-line">2008年11月30日作成</seg><lb/><seg type="source-line">青空文庫作成ファイル：</seg><lb/><seg type="source-line">このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。</seg></note>
+        <note type="source-span" xml:id="source-10094-10978" n="55"/>
+        <note type="source-span" xml:id="source-10307-10313" n="55"/>
+        <note type="source-span" xml:id="source-10307-10343" n="55"/>
+        <note type="source-span" xml:id="source-10313-10343" n="55"/>
+        <note type="source-span" xml:id="source-10358-10364" n="55"/>
+        <note type="source-span" xml:id="source-10358-10394" n="55"/>
+        <note type="source-span" xml:id="source-10364-10394" n="55"/>
+        <note type="source-span" xml:id="source-10469-10475" n="55"/>
+        <note type="source-span" xml:id="source-10469-10505" n="55"/>
+        <note type="source-span" xml:id="source-10475-10505" n="55"/>
+        <note type="source-span" xml:id="source-10829-10874" n="55"/>
+        <note type="source-span" xml:id="source-10829-10943" n="55"/>
+        <note type="source-span" xml:id="source-10874-10943" n="55"/>
+        <note type="source-span" xml:id="source-10943-10978" n="55"/>
+        <note type="source-span" xml:id="source-10978-11008" n="56"/>
+        <note type="source-span" xml:id="source-10978-12885" n="56"/>
+        <note type="source-span" xml:id="source-11008-11014" n="56"/>
+        <note type="source-span" xml:id="source-11341-11347" n="56"/>
+        <note type="source-span" xml:id="source-11341-11377" n="56"/>
+        <note type="source-span" xml:id="source-11347-11377" n="56"/>
+        <note type="source-span" xml:id="source-11461-11470" n="56"/>
+        <note type="source-span" xml:id="source-11461-11506" n="56"/>
+        <note type="source-span" xml:id="source-11470-11506" n="56"/>
+        <note type="source-span" xml:id="source-11833-11839" n="56"/>
+        <note type="source-span" xml:id="source-12001-12010" n="56"/>
+        <note type="source-span" xml:id="source-12001-12046" n="56"/>
+        <note type="source-span" xml:id="source-12010-12046" n="56"/>
+        <note type="source-span" xml:id="source-12046-12166" n="56"/>
+        <note type="source-span" xml:id="source-12166-12175" n="56"/>
+        <note type="source-span" xml:id="source-12166-12211" n="56"/>
+        <note type="source-span" xml:id="source-12175-12211" n="56"/>
+        <note type="source-span" xml:id="source-12394-12406" n="56"/>
+        <note type="source-span" xml:id="source-12394-12442" n="56"/>
+        <note type="source-span" xml:id="source-12406-12442" n="56"/>
+        <note type="source-span" xml:id="source-12442-12445" n="56"/>
+        <note type="source-span" xml:id="source-12445-12460" n="56"/>
+        <note type="source-span" xml:id="source-12445-12499" n="56"/>
+        <note type="source-span" xml:id="source-12460-12499" n="56"/>
+        <note type="source-span" xml:id="source-12499-12502" n="56"/>
+        <note type="source-span" xml:id="source-12502-12517" n="56"/>
+        <note type="source-span" xml:id="source-12502-12556" n="56"/>
+        <note type="source-span" xml:id="source-12517-12556" n="56"/>
+        <note type="source-span" xml:id="source-12885-14063" n="57"/>
+        <note type="source-span" xml:id="source-13038-13047" n="57"/>
+        <note type="source-span" xml:id="source-13038-13080" n="57"/>
+        <note type="source-span" xml:id="source-13047-13080" n="57"/>
+        <note type="source-span" xml:id="source-13479-13488" n="57"/>
+        <note type="source-span" xml:id="source-13479-13521" n="57"/>
+        <note type="source-span" xml:id="source-13488-13521" n="57"/>
+        <note type="source-span" xml:id="source-13725-13734" n="57"/>
+        <note type="source-span" xml:id="source-13725-13767" n="57"/>
+        <note type="source-span" xml:id="source-13734-13767" n="57"/>
+        <note type="source-span" xml:id="source-13767-13782" n="57"/>
+        <note type="source-span" xml:id="source-13782-13824" n="57"/>
+        <note type="source-span" xml:id="source-13782-13890" n="57"/>
+        <note type="source-span" xml:id="source-13824-13890" n="57"/>
+        <note type="source-span" xml:id="source-14063-14272" n="58"/>
+        <note type="source-span" xml:id="source-14272-14649" n="59"/>
+        <note type="source-span" xml:id="source-14649-15368" n="60"/>
+        <note type="source-span" xml:id="source-15368-15515" n="61"/>
+        <note type="source-span" xml:id="source-15403-15403" n="62"/>
+        <note type="source-span" xml:id="source-15403-15441" n="62"/>
+        <note type="source-span" xml:id="source-15441-15479" n="63"/>
+        <note type="source-span" xml:id="source-15517-15873" n="65"/>
+        <note type="source-span" xml:id="source-15873-15996" n="66"/>
+        <note type="source-span" xml:id="source-15908-15908" n="67"/>
+        <note type="source-span" xml:id="source-15908-15934" n="67"/>
+        <note type="source-span" xml:id="source-15934-15960" n="68"/>
+        <note type="source-span" xml:id="source-15998-17074" n="70"/>
+        <note type="source-span" xml:id="source-16751-16757" n="70"/>
+        <note type="source-span" xml:id="source-16751-16787" n="70"/>
+        <note type="source-span" xml:id="source-16757-16787" n="70"/>
+        <note type="source-span" xml:id="source-17074-17266" n="71"/>
+        <note type="source-span" xml:id="source-17109-17109" n="72"/>
+        <note type="source-span" xml:id="source-17109-17127" n="72"/>
+        <note type="source-span" xml:id="source-17109-17186" n="72"/>
+        <note type="source-span" xml:id="source-17127-17133" n="72"/>
+        <note type="source-span" xml:id="source-17127-17163" n="72"/>
+        <note type="source-span" xml:id="source-17133-17163" n="72"/>
+        <note type="source-span" xml:id="source-17163-17186" n="72"/>
+        <note type="source-span" xml:id="source-17186-17230" n="73"/>
+        <note type="source-span" xml:id="source-17268-17289" n="75"/>
+        <note type="source-span" xml:id="source-17268-17642" n="75"/>
+        <note type="source-span" xml:id="source-17289-17370" n="75"/>
+        <note type="source-span" xml:id="source-17370-17385" n="75"/>
+        <note type="source-span" xml:id="source-17642-18184" n="76"/>
+        <note type="source-span" xml:id="source-18089-18095" n="76"/>
+        <note type="source-span" xml:id="source-18089-18125" n="76"/>
+        <note type="source-span" xml:id="source-18095-18125" n="76"/>
+        <note type="source-span" xml:id="source-18125-18184" n="76"/>
+        <note type="source-span" xml:id="source-18184-18364" n="77"/>
+        <note type="source-span" xml:id="source-18219-18219" n="78"/>
+        <note type="source-span" xml:id="source-18219-18272" n="78"/>
+        <note type="source-span" xml:id="source-18272-18328" n="79"/>
+        <note type="source-span" xml:id="source-18366-19748" n="81"/>
+        <note type="source-span" xml:id="source-1839-2105" n="24"/>
+        <note type="source-span" xml:id="source-19500-19503" n="81"/>
+        <note type="source-span" xml:id="source-19500-19530" n="81"/>
+        <note type="source-span" xml:id="source-19503-19530" n="81"/>
+        <note type="source-span" xml:id="source-19677-19692" n="81"/>
+        <note type="source-span" xml:id="source-19748-20104" n="82"/>
+        <note type="source-span" xml:id="source-20104-21107" n="83"/>
+        <note type="source-span" xml:id="source-20428-20461" n="83"/>
+        <note type="source-span" xml:id="source-20662-20665" n="83"/>
+        <note type="source-span" xml:id="source-20662-20692" n="83"/>
+        <note type="source-span" xml:id="source-20665-20692" n="83"/>
+        <note type="source-span" xml:id="source-2105-2366" n="25"/>
+        <note type="source-span" xml:id="source-21107-21142" n="85"/>
+        <note type="source-span" xml:id="source-21142-21770" n="86"/>
+        <note type="source-span" xml:id="source-21177-21177" n="87"/>
+        <note type="source-span" xml:id="source-21177-21180" n="87"/>
+        <note type="source-span" xml:id="source-21177-21359" n="87"/>
+        <note type="source-span" xml:id="source-21180-21189" n="87"/>
+        <note type="source-span" xml:id="source-21180-21222" n="87"/>
+        <note type="source-span" xml:id="source-21189-21222" n="87"/>
+        <note type="source-span" xml:id="source-21222-21234" n="87"/>
+        <note type="source-span" xml:id="source-21234-21237" n="87"/>
+        <note type="source-span" xml:id="source-21234-21270" n="87"/>
+        <note type="source-span" xml:id="source-21237-21270" n="87"/>
+        <note type="source-span" xml:id="source-21270-21288" n="87"/>
+        <note type="source-span" xml:id="source-21288-21297" n="87"/>
+        <note type="source-span" xml:id="source-21288-21330" n="87"/>
+        <note type="source-span" xml:id="source-21297-21330" n="87"/>
+        <note type="source-span" xml:id="source-21330-21359" n="87"/>
+        <note type="source-span" xml:id="source-21359-21383" n="88"/>
+        <note type="source-span" xml:id="source-21359-21514" n="88"/>
+        <note type="source-span" xml:id="source-21383-21398" n="88"/>
+        <note type="source-span" xml:id="source-21383-21443" n="88"/>
+        <note type="source-span" xml:id="source-21398-21443" n="88"/>
+        <note type="source-span" xml:id="source-2140-2140" n="26"/>
+        <note type="source-span" xml:id="source-2140-2172" n="26"/>
+        <note type="source-span" xml:id="source-21443-21461" n="88"/>
+        <note type="source-span" xml:id="source-21461-21467" n="88"/>
+        <note type="source-span" xml:id="source-21467-21500" n="88"/>
+        <note type="source-span" xml:id="source-21500-21514" n="88"/>
+        <note type="source-span" xml:id="source-21514-21538" n="89"/>
+        <note type="source-span" xml:id="source-21514-21630" n="89"/>
+        <note type="source-span" xml:id="source-21538-21550" n="89"/>
+        <note type="source-span" xml:id="source-21538-21592" n="89"/>
+        <note type="source-span" xml:id="source-21550-21592" n="89"/>
+        <note type="source-span" xml:id="source-21592-21630" n="89"/>
+        <note type="source-span" xml:id="source-21630-21654" n="90"/>
+        <note type="source-span" xml:id="source-21630-21734" n="90"/>
+        <note type="source-span" xml:id="source-21654-21660" n="90"/>
+        <note type="source-span" xml:id="source-21654-21696" n="90"/>
+        <note type="source-span" xml:id="source-21660-21696" n="90"/>
+        <note type="source-span" xml:id="source-21696-21734" n="90"/>
+        <note type="source-span" xml:id="source-2172-2181" n="27"/>
+        <note type="source-span" xml:id="source-2172-2213" n="27"/>
+        <note type="source-span" xml:id="source-21772-21807" n="92"/>
+        <note type="source-span" xml:id="source-21807-22090" n="93"/>
+        <note type="source-span" xml:id="source-2181-2193" n="27"/>
+        <note type="source-span" xml:id="source-21842-21842" n="94"/>
+        <note type="source-span" xml:id="source-21842-21857" n="94"/>
+        <note type="source-span" xml:id="source-21842-21892" n="94"/>
+        <note type="source-span" xml:id="source-21857-21869" n="94"/>
+        <note type="source-span" xml:id="source-21869-21892" n="94"/>
+        <note type="source-span" xml:id="source-21892-21910" n="95"/>
+        <note type="source-span" xml:id="source-21892-21939" n="95"/>
+        <note type="source-span" xml:id="source-21910-21931" n="95"/>
+        <note type="source-span" xml:id="source-2193-2213" n="27"/>
+        <note type="source-span" xml:id="source-21931-21939" n="95"/>
+        <note type="source-span" xml:id="source-21939-21957" n="96"/>
+        <note type="source-span" xml:id="source-21939-21995" n="96"/>
+        <note type="source-span" xml:id="source-21957-21981" n="96"/>
+        <note type="source-span" xml:id="source-21981-21995" n="96"/>
+        <note type="source-span" xml:id="source-21995-22013" n="97"/>
+        <note type="source-span" xml:id="source-21995-22052" n="97"/>
+        <note type="source-span" xml:id="source-22013-22052" n="97"/>
+        <note type="source-span" xml:id="source-22052-22054" n="97"/>
+        <note type="source-span" xml:id="source-22092-22127" n="99"/>
+        <note type="source-span" xml:id="source-22127-22415" n="100"/>
+        <note type="source-span" xml:id="source-2213-2222" n="28"/>
+        <note type="source-span" xml:id="source-2213-2260" n="28"/>
+        <note type="source-span" xml:id="source-22162-22162" n="101"/>
+        <note type="source-span" xml:id="source-22162-22281" n="101"/>
+        <note type="source-span" xml:id="source-2222-2234" n="28"/>
+        <note type="source-span" xml:id="source-22281-22379" n="102"/>
+        <note type="source-span" xml:id="source-2234-2260" n="28"/>
+        <note type="source-span" xml:id="source-22417-23169" n="104"/>
+        <note type="source-span" xml:id="source-2260-2266" n="29"/>
+        <note type="source-span" xml:id="source-2260-2292" n="29"/>
+        <note type="source-span" xml:id="source-2266-2275" n="29"/>
+        <note type="source-span" xml:id="source-2275-2292" n="29"/>
+        <note type="source-span" xml:id="source-2292-2330" n="30"/>
+        <note type="source-span" xml:id="source-23169-23345" n="105"/>
+        <note type="source-span" xml:id="source-23345-23476" n="106"/>
+        <note type="source-span" xml:id="source-23476-24352" n="107"/>
+        <note type="source-span" xml:id="source-23541-23541" n="108"/>
+        <note type="source-span" xml:id="source-23541-23562" n="108"/>
+        <note type="source-span" xml:id="source-23541-23690" n="108"/>
+        <note type="source-span" xml:id="source-23562-23577" n="108"/>
+        <note type="source-span" xml:id="source-23577-23595" n="108"/>
+        <note type="source-span" xml:id="source-23595-23622" n="108"/>
+        <note type="source-span" xml:id="source-23622-23690" n="108"/>
+        <note type="source-span" xml:id="source-2368-4194" n="32"/>
+        <note type="source-span" xml:id="source-23690-23747" n="109"/>
+        <note type="source-span" xml:id="source-23690-23815" n="109"/>
+        <note type="source-span" xml:id="source-23747-23759" n="109"/>
+        <note type="source-span" xml:id="source-23759-23815" n="109"/>
+        <note type="source-span" xml:id="source-23815-23937" n="110"/>
+        <note type="source-span" xml:id="source-23937-24066" n="111"/>
+        <note type="source-span" xml:id="source-23937-24140" n="111"/>
+        <note type="source-span" xml:id="source-24066-24081" n="111"/>
+        <note type="source-span" xml:id="source-24081-24093" n="111"/>
+        <note type="source-span" xml:id="source-24093-24105" n="111"/>
+        <note type="source-span" xml:id="source-24105-24140" n="111"/>
+        <note type="source-span" xml:id="source-24140-24263" n="112"/>
+        <note type="source-span" xml:id="source-24140-24352" n="112"/>
+        <note type="source-span" xml:id="source-24263-24278" n="112"/>
+        <note type="source-span" xml:id="source-24278-24352" n="112"/>
+        <note type="source-span" xml:id="source-24352-24557" n="113"/>
+        <note type="source-span" xml:id="source-24420-24420" n="114"/>
+        <note type="source-span" xml:id="source-24420-24492" n="114"/>
+        <note type="source-span" xml:id="source-24420-24557" n="114"/>
+        <note type="source-span" xml:id="source-24492-24516" n="114"/>
+        <note type="source-span" xml:id="source-24516-24557" n="114"/>
+        <note type="source-span" xml:id="source-24557-24846" n="115"/>
+        <note type="source-span" xml:id="source-24622-24622" n="116"/>
+        <note type="source-span" xml:id="source-24622-24655" n="116"/>
+        <note type="source-span" xml:id="source-24622-24810" n="116"/>
+        <note type="source-span" xml:id="source-24655-24667" n="116"/>
+        <note type="source-span" xml:id="source-24667-24733" n="116"/>
+        <note type="source-span" xml:id="source-24733-24739" n="116"/>
+        <note type="source-span" xml:id="source-24739-24810" n="116"/>
+        <note type="source-span" xml:id="source-24848-25585" n="118"/>
+        <note type="source-span" xml:id="source-25585-26363" n="119"/>
+        <note type="source-span" xml:id="source-25650-25650" n="120"/>
+        <note type="source-span" xml:id="source-25650-25775" n="120"/>
+        <note type="source-span" xml:id="source-25775-25891" n="121"/>
+        <note type="source-span" xml:id="source-25891-26049" n="122"/>
+        <note type="source-span" xml:id="source-26049-26067" n="123"/>
+        <note type="source-span" xml:id="source-26049-26327" n="123"/>
+        <note type="source-span" xml:id="source-26067-26079" n="123"/>
+        <note type="source-span" xml:id="source-26079-26082" n="123"/>
+        <note type="source-span" xml:id="source-26082-26094" n="123"/>
+        <note type="source-span" xml:id="source-26094-26166" n="123"/>
+        <note type="source-span" xml:id="source-26166-26322" n="123"/>
+        <note type="source-span" xml:id="source-26196-26211" n="123"/>
+        <note type="source-span" xml:id="source-26196-26250" n="123"/>
+        <note type="source-span" xml:id="source-26211-26250" n="123"/>
+        <note type="source-span" xml:id="source-26250-26286" n="123"/>
+        <note type="source-span" xml:id="source-26322-26327" n="123"/>
+        <note type="source-span" xml:id="source-26365-26415" n="125"/>
+        <note type="source-span" xml:id="source-26395-26415" n="125"/>
+        <note type="source-span" xml:id="source-26415-26635" n="126"/>
+        <note type="source-span" xml:id="source-26480-26480" n="127"/>
+        <note type="source-span" xml:id="source-26480-26599" n="127"/>
+        <note type="source-span" xml:id="source-26637-27069" n="129"/>
+        <note type="source-span" xml:id="source-26637-27206" n="129"/>
+        <note type="source-span" xml:id="source-27069-27084" n="129"/>
+        <note type="source-span" xml:id="source-27069-27123" n="129"/>
+        <note type="source-span" xml:id="source-27084-27123" n="129"/>
+        <note type="source-span" xml:id="source-27123-27206" n="129"/>
+        <note type="source-span" xml:id="source-27206-28639" n="130"/>
+        <note type="source-span" xml:id="source-2842-2860" n="32"/>
+        <note type="source-span" xml:id="source-2842-2902" n="32"/>
+        <note type="source-span" xml:id="source-2860-2902" n="32"/>
+        <note type="source-span" xml:id="source-28639-28668" n="131"/>
+        <note type="source-span" xml:id="source-28668-29333" n="132"/>
+        <note type="source-span" xml:id="source-29333-29547" n="133"/>
+        <note type="source-span" xml:id="source-29368-29368" n="134"/>
+        <note type="source-span" xml:id="source-29368-29383" n="134"/>
+        <note type="source-span" xml:id="source-29368-29511" n="134"/>
+        <note type="source-span" xml:id="source-29383-29431" n="134"/>
+        <note type="source-span" xml:id="source-29431-29511" n="134"/>
+        <note type="source-span" xml:id="source-29549-30280" n="136"/>
+        <note type="source-span" xml:id="source-29711-29714" n="136"/>
+        <note type="source-span" xml:id="source-29711-29741" n="136"/>
+        <note type="source-span" xml:id="source-29714-29741" n="136"/>
+        <note type="source-span" xml:id="source-29741-29744" n="136"/>
+        <note type="source-span" xml:id="source-29744-29747" n="136"/>
+        <note type="source-span" xml:id="source-29744-29774" n="136"/>
+        <note type="source-span" xml:id="source-29747-29774" n="136"/>
+        <note type="source-span" xml:id="source-30280-31611" n="137"/>
+        <note type="source-span" xml:id="source-31051-31063" n="137"/>
+        <note type="source-span" xml:id="source-31051-31099" n="137"/>
+        <note type="source-span" xml:id="source-31063-31099" n="137"/>
+        <note type="source-span" xml:id="source-31099-31102" n="137"/>
+        <note type="source-span" xml:id="source-31102-31225" n="137"/>
+        <note type="source-span" xml:id="source-31132-31189" n="137"/>
+        <note type="source-span" xml:id="source-31339-31351" n="137"/>
+        <note type="source-span" xml:id="source-31339-31387" n="137"/>
+        <note type="source-span" xml:id="source-31351-31387" n="137"/>
+        <note type="source-span" xml:id="source-31611-32159" n="138"/>
+        <note type="source-span" xml:id="source-32159-32446" n="139"/>
+        <note type="source-span" xml:id="source-32446-32475" n="140"/>
+        <note type="source-span" xml:id="source-32475-32827" n="141"/>
+        <note type="source-span" xml:id="source-32510-32510" n="142"/>
+        <note type="source-span" xml:id="source-32510-32572" n="142"/>
+        <note type="source-span" xml:id="source-32572-32637" n="143"/>
+        <note type="source-span" xml:id="source-32637-32667" n="144"/>
+        <note type="source-span" xml:id="source-32637-32711" n="144"/>
+        <note type="source-span" xml:id="source-32667-32682" n="144"/>
+        <note type="source-span" xml:id="source-32682-32711" n="144"/>
+        <note type="source-span" xml:id="source-32711-32741" n="145"/>
+        <note type="source-span" xml:id="source-32711-32791" n="145"/>
+        <note type="source-span" xml:id="source-32741-32756" n="145"/>
+        <note type="source-span" xml:id="source-32756-32791" n="145"/>
+        <note type="source-span" xml:id="source-32829-34025" n="147"/>
+        <note type="source-span" xml:id="source-33102-33123" n="147"/>
+        <note type="source-span" xml:id="source-33834-33855" n="147"/>
+        <note type="source-span" xml:id="source-33855-34025" n="147"/>
+        <note type="source-span" xml:id="source-34025-34230" n="148"/>
+        <note type="source-span" xml:id="source-34060-34060" n="149"/>
+        <note type="source-span" xml:id="source-34060-34075" n="149"/>
+        <note type="source-span" xml:id="source-34060-34194" n="149"/>
+        <note type="source-span" xml:id="source-34075-34099" n="149"/>
+        <note type="source-span" xml:id="source-34099-34117" n="149"/>
+        <note type="source-span" xml:id="source-34117-34129" n="149"/>
+        <note type="source-span" xml:id="source-34129-34144" n="149"/>
+        <note type="source-span" xml:id="source-34144-34156" n="149"/>
+        <note type="source-span" xml:id="source-34156-34194" n="149"/>
+        <note type="source-span" xml:id="source-34232-35254" n="151"/>
+        <note type="source-span" xml:id="source-34331-34343" n="151"/>
+        <note type="source-span" xml:id="source-35254-35686" n="152"/>
+        <note type="source-span" xml:id="source-35289-35289" n="153"/>
+        <note type="source-span" xml:id="source-35289-35328" n="153"/>
+        <note type="source-span" xml:id="source-35289-35471" n="153"/>
+        <note type="source-span" xml:id="source-35328-35340" n="153"/>
+        <note type="source-span" xml:id="source-35340-35361" n="153"/>
+        <note type="source-span" xml:id="source-35361-35466" n="153"/>
+        <note type="source-span" xml:id="source-35391-35430" n="153"/>
+        <note type="source-span" xml:id="source-35466-35471" n="153"/>
+        <note type="source-span" xml:id="source-35471-35528" n="154"/>
+        <note type="source-span" xml:id="source-35471-35650" n="154"/>
+        <note type="source-span" xml:id="source-35528-35645" n="154"/>
+        <note type="source-span" xml:id="source-35558-35609" n="154"/>
+        <note type="source-span" xml:id="source-35645-35650" n="154"/>
+        <note type="source-span" xml:id="source-35688-35891" n="156"/>
+        <note type="source-span" xml:id="source-35891-36147" n="157"/>
+        <note type="source-span" xml:id="source-35926-35926" n="158"/>
+        <note type="source-span" xml:id="source-35926-35962" n="158"/>
+        <note type="source-span" xml:id="source-35926-36111" n="158"/>
+        <note type="source-span" xml:id="source-35962-36004" n="158"/>
+        <note type="source-span" xml:id="source-36004-36034" n="158"/>
+        <note type="source-span" xml:id="source-36034-36058" n="158"/>
+        <note type="source-span" xml:id="source-36058-36111" n="158"/>
+        <note type="source-span" xml:id="source-36149-37255" n="160"/>
+        <note type="source-span" xml:id="source-36635-36647" n="160"/>
+        <note type="source-span" xml:id="source-36635-36683" n="160"/>
+        <note type="source-span" xml:id="source-36647-36683" n="160"/>
+        <note type="source-span" xml:id="source-36683-36803" n="160"/>
+        <note type="source-span" xml:id="source-36803-36818" n="160"/>
+        <note type="source-span" xml:id="source-36803-36857" n="160"/>
+        <note type="source-span" xml:id="source-36818-36857" n="160"/>
+        <note type="source-span" xml:id="source-37255-38073" n="161"/>
+        <note type="source-span" xml:id="source-37468-37471" n="161"/>
+        <note type="source-span" xml:id="source-37468-37498" n="161"/>
+        <note type="source-span" xml:id="source-37471-37498" n="161"/>
+        <note type="source-span" xml:id="source-37498-37510" n="161"/>
+        <note type="source-span" xml:id="source-37510-37513" n="161"/>
+        <note type="source-span" xml:id="source-37510-37540" n="161"/>
+        <note type="source-span" xml:id="source-37513-37540" n="161"/>
+        <note type="source-span" xml:id="source-37771-37783" n="161"/>
+        <note type="source-span" xml:id="source-38073-38254" n="162"/>
+        <note type="source-span" xml:id="source-38108-38108" n="163"/>
+        <note type="source-span" xml:id="source-38108-38114" n="163"/>
+        <note type="source-span" xml:id="source-38108-38218" n="163"/>
+        <note type="source-span" xml:id="source-38114-38120" n="163"/>
+        <note type="source-span" xml:id="source-38120-38218" n="163"/>
+        <note type="source-span" xml:id="source-38256-38417" n="165"/>
+        <note type="source-span" xml:id="source-38417-38646" n="166"/>
+        <note type="source-span" xml:id="source-38452-38452" n="167"/>
+        <note type="source-span" xml:id="source-38452-38584" n="167"/>
+        <note type="source-span" xml:id="source-38452-38610" n="167"/>
+        <note type="source-span" xml:id="source-38584-38590" n="167"/>
+        <note type="source-span" xml:id="source-38590-38610" n="167"/>
+        <note type="source-span" xml:id="source-38648-38663" n="169"/>
+        <note type="source-span" xml:id="source-38648-39175" n="169"/>
+        <note type="source-span" xml:id="source-38663-38696" n="169"/>
+        <note type="source-span" xml:id="source-38696-38723" n="169"/>
+        <note type="source-span" xml:id="source-38723-38729" n="169"/>
+        <note type="source-span" xml:id="source-38723-38759" n="169"/>
+        <note type="source-span" xml:id="source-38729-38759" n="169"/>
+        <note type="source-span" xml:id="source-39008-39014" n="169"/>
+        <note type="source-span" xml:id="source-39014-39175" n="169"/>
+        <note type="source-span" xml:id="source-39175-39730" n="170"/>
+        <note type="source-span" xml:id="source-39210-39210" n="171"/>
+        <note type="source-span" xml:id="source-39210-39228" n="171"/>
+        <note type="source-span" xml:id="source-39210-39323" n="171"/>
+        <note type="source-span" xml:id="source-39228-39231" n="171"/>
+        <note type="source-span" xml:id="source-39228-39258" n="171"/>
+        <note type="source-span" xml:id="source-39231-39258" n="171"/>
+        <note type="source-span" xml:id="source-39258-39323" n="171"/>
+        <note type="source-span" xml:id="source-39323-39338" n="172"/>
+        <note type="source-span" xml:id="source-39323-39694" n="172"/>
+        <note type="source-span" xml:id="source-39338-39341" n="172"/>
+        <note type="source-span" xml:id="source-39338-39368" n="172"/>
+        <note type="source-span" xml:id="source-39341-39368" n="172"/>
+        <note type="source-span" xml:id="source-39368-39398" n="172"/>
+        <note type="source-span" xml:id="source-39398-39401" n="172"/>
+        <note type="source-span" xml:id="source-39398-39428" n="172"/>
+        <note type="source-span" xml:id="source-39401-39428" n="172"/>
+        <note type="source-span" xml:id="source-39428-39497" n="172"/>
+        <note type="source-span" xml:id="source-39497-39500" n="172"/>
+        <note type="source-span" xml:id="source-39497-39527" n="172"/>
+        <note type="source-span" xml:id="source-39500-39527" n="172"/>
+        <note type="source-span" xml:id="source-39527-39533" n="172"/>
+        <note type="source-span" xml:id="source-39533-39545" n="172"/>
+        <note type="source-span" xml:id="source-39545-39557" n="172"/>
+        <note type="source-span" xml:id="source-39557-39572" n="172"/>
+        <note type="source-span" xml:id="source-39557-39611" n="172"/>
+        <note type="source-span" xml:id="source-39572-39611" n="172"/>
+        <note type="source-span" xml:id="source-39611-39638" n="172"/>
+        <note type="source-span" xml:id="source-39638-39647" n="172"/>
+        <note type="source-span" xml:id="source-39638-39680" n="172"/>
+        <note type="source-span" xml:id="source-39647-39680" n="172"/>
+        <note type="source-span" xml:id="source-39680-39694" n="172"/>
+        <note type="source-span" xml:id="source-39732-40487" n="174"/>
+        <note type="source-span" xml:id="source-40487-40956" n="175"/>
+        <note type="source-span" xml:id="source-40522-40522" n="176"/>
+        <note type="source-span" xml:id="source-40522-40624" n="176"/>
+        <note type="source-span" xml:id="source-40522-40920" n="176"/>
+        <note type="source-span" xml:id="source-40624-40633" n="176"/>
+        <note type="source-span" xml:id="source-40624-40666" n="176"/>
+        <note type="source-span" xml:id="source-40633-40666" n="176"/>
+        <note type="source-span" xml:id="source-40666-40669" n="176"/>
+        <note type="source-span" xml:id="source-40669-40687" n="176"/>
+        <note type="source-span" xml:id="source-40669-40729" n="176"/>
+        <note type="source-span" xml:id="source-40687-40729" n="176"/>
+        <note type="source-span" xml:id="source-40729-40732" n="176"/>
+        <note type="source-span" xml:id="source-40732-40741" n="176"/>
+        <note type="source-span" xml:id="source-40732-40774" n="176"/>
+        <note type="source-span" xml:id="source-40741-40774" n="176"/>
+        <note type="source-span" xml:id="source-40774-40777" n="176"/>
+        <note type="source-span" xml:id="source-40777-40795" n="176"/>
+        <note type="source-span" xml:id="source-40777-40837" n="176"/>
+        <note type="source-span" xml:id="source-40795-40837" n="176"/>
+        <note type="source-span" xml:id="source-40837-40849" n="176"/>
+        <note type="source-span" xml:id="source-40849-40861" n="176"/>
+        <note type="source-span" xml:id="source-40861-40864" n="176"/>
+        <note type="source-span" xml:id="source-40861-40891" n="176"/>
+        <note type="source-span" xml:id="source-40864-40891" n="176"/>
+        <note type="source-span" xml:id="source-40891-40920" n="176"/>
+        <note type="source-span" xml:id="source-40958-41092" n="178"/>
+        <note type="source-span" xml:id="source-41092-41400" n="179"/>
+        <note type="source-span" xml:id="source-41127-41127" n="180"/>
+        <note type="source-span" xml:id="source-41127-41151" n="180"/>
+        <note type="source-span" xml:id="source-41127-41240" n="180"/>
+        <note type="source-span" xml:id="source-41151-41166" n="180"/>
+        <note type="source-span" xml:id="source-41166-41211" n="180"/>
+        <note type="source-span" xml:id="source-41211-41217" n="180"/>
+        <note type="source-span" xml:id="source-41217-41240" n="180"/>
+        <note type="source-span" xml:id="source-41240-41311" n="181"/>
+        <note type="source-span" xml:id="source-41311-41364" n="182"/>
+        <note type="source-span" xml:id="source-41402-41482" n="184"/>
+        <note type="source-span" xml:id="source-41482-42018" n="185"/>
+        <note type="source-span" xml:id="source-41517-41517" n="186"/>
+        <note type="source-span" xml:id="source-41517-41526" n="186"/>
+        <note type="source-span" xml:id="source-41517-41687" n="186"/>
+        <note type="source-span" xml:id="source-41526-41538" n="186"/>
+        <note type="source-span" xml:id="source-41538-41541" n="186"/>
+        <note type="source-span" xml:id="source-41538-41568" n="186"/>
+        <note type="source-span" xml:id="source-41541-41568" n="186"/>
+        <note type="source-span" xml:id="source-41568-41607" n="186"/>
+        <note type="source-span" xml:id="source-41607-41610" n="186"/>
+        <note type="source-span" xml:id="source-41607-41637" n="186"/>
+        <note type="source-span" xml:id="source-41610-41637" n="186"/>
+        <note type="source-span" xml:id="source-41637-41687" n="186"/>
+        <note type="source-span" xml:id="source-41687-41711" n="187"/>
+        <note type="source-span" xml:id="source-41687-41815" n="187"/>
+        <note type="source-span" xml:id="source-41711-41714" n="187"/>
+        <note type="source-span" xml:id="source-41711-41741" n="187"/>
+        <note type="source-span" xml:id="source-41714-41741" n="187"/>
+        <note type="source-span" xml:id="source-41741-41756" n="187"/>
+        <note type="source-span" xml:id="source-41756-41759" n="187"/>
+        <note type="source-span" xml:id="source-41756-41786" n="187"/>
+        <note type="source-span" xml:id="source-41759-41786" n="187"/>
+        <note type="source-span" xml:id="source-41786-41815" n="187"/>
+        <note type="source-span" xml:id="source-41815-41848" n="188"/>
+        <note type="source-span" xml:id="source-41815-41982" n="188"/>
+        <note type="source-span" xml:id="source-41848-41851" n="188"/>
+        <note type="source-span" xml:id="source-41848-41878" n="188"/>
+        <note type="source-span" xml:id="source-41851-41878" n="188"/>
+        <note type="source-span" xml:id="source-41878-41890" n="188"/>
+        <note type="source-span" xml:id="source-41890-41893" n="188"/>
+        <note type="source-span" xml:id="source-41890-41920" n="188"/>
+        <note type="source-span" xml:id="source-41893-41920" n="188"/>
+        <note type="source-span" xml:id="source-41920-41982" n="188"/>
+        <note type="source-span" xml:id="source-4194-5516" n="33"/>
+        <note type="source-span" xml:id="source-42020-42169" n="190"/>
+        <note type="source-span" xml:id="source-42169-42311" n="191"/>
+        <note type="source-span" xml:id="source-42204-42204" n="192"/>
+        <note type="source-span" xml:id="source-42204-42275" n="192"/>
+        <note type="source-span" xml:id="source-42313-42391" n="194"/>
+        <note type="source-span" xml:id="source-42313-43058" n="194"/>
+        <note type="source-span" xml:id="source-42391-42450" n="194"/>
+        <note type="source-span" xml:id="source-42738-42756" n="194"/>
+        <note type="source-span" xml:id="source-42852-42855" n="194"/>
+        <note type="source-span" xml:id="source-42852-42882" n="194"/>
+        <note type="source-span" xml:id="source-42855-42882" n="194"/>
+        <note type="source-span" xml:id="source-43058-43233" n="195"/>
+        <note type="source-span" xml:id="source-43093-43093" n="196"/>
+        <note type="source-span" xml:id="source-43093-43099" n="196"/>
+        <note type="source-span" xml:id="source-43093-43197" n="196"/>
+        <note type="source-span" xml:id="source-43099-43111" n="196"/>
+        <note type="source-span" xml:id="source-43099-43147" n="196"/>
+        <note type="source-span" xml:id="source-43111-43147" n="196"/>
+        <note type="source-span" xml:id="source-43147-43197" n="196"/>
+        <note type="source-span" xml:id="source-43235-43909" n="198"/>
+        <note type="source-span" xml:id="source-43909-44189" n="199"/>
+        <note type="source-span" xml:id="source-43944-43944" n="200"/>
+        <note type="source-span" xml:id="source-43944-43965" n="200"/>
+        <note type="source-span" xml:id="source-43944-44153" n="200"/>
+        <note type="source-span" xml:id="source-43965-43968" n="200"/>
+        <note type="source-span" xml:id="source-43965-43995" n="200"/>
+        <note type="source-span" xml:id="source-43968-43995" n="200"/>
+        <note type="source-span" xml:id="source-43995-44010" n="200"/>
+        <note type="source-span" xml:id="source-44010-44013" n="200"/>
+        <note type="source-span" xml:id="source-44010-44040" n="200"/>
+        <note type="source-span" xml:id="source-44013-44040" n="200"/>
+        <note type="source-span" xml:id="source-44040-44153" n="200"/>
+        <note type="source-span" xml:id="source-44191-44289" n="202"/>
+        <note type="source-span" xml:id="source-44289-44963" n="203"/>
+        <note type="source-span" xml:id="source-44963-44992" n="204"/>
+        <note type="source-span" xml:id="source-44992-45687" n="205"/>
+        <note type="source-span" xml:id="source-45118-45130" n="205"/>
+        <note type="source-span" xml:id="source-45250-45262" n="205"/>
+        <note type="source-span" xml:id="source-45349-45361" n="205"/>
+        <note type="source-span" xml:id="source-45687-47354" n="206"/>
+        <note type="source-span" xml:id="source-45939-45951" n="206"/>
+        <note type="source-span" xml:id="source-45939-45987" n="206"/>
+        <note type="source-span" xml:id="source-45951-45987" n="206"/>
+        <note type="source-span" xml:id="source-47354-47695" n="207"/>
+        <note type="source-span" xml:id="source-47695-47888" n="208"/>
+        <note type="source-span" xml:id="source-47730-47730" n="209"/>
+        <note type="source-span" xml:id="source-47730-47852" n="209"/>
+        <note type="source-span" xml:id="source-47890-47943" n="211"/>
+        <note type="source-span" xml:id="source-47920-47943" n="211"/>
+        <note type="source-span" xml:id="source-47943-47958" n="212"/>
+        <note type="source-span" xml:id="source-47943-47997" n="212"/>
+        <note type="source-span" xml:id="source-47943-49109" n="212"/>
+        <note type="source-span" xml:id="source-47958-47997" n="212"/>
+        <note type="source-span" xml:id="source-48723-48729" n="212"/>
+        <note type="source-span" xml:id="source-49109-49441" n="213"/>
+        <note type="source-span" xml:id="source-49441-49581" n="214"/>
+        <note type="source-span" xml:id="source-49476-49476" n="215"/>
+        <note type="source-span" xml:id="source-49476-49496" n="215"/>
+        <note type="source-span" xml:id="source-49496-49519" n="216"/>
+        <note type="source-span" xml:id="source-49519-49545" n="217"/>
+        <note type="source-span" xml:id="source-49583-49750" n="219"/>
+        <note type="source-span" xml:id="source-49750-49935" n="220"/>
+        <note type="source-span" xml:id="source-49785-49785" n="221"/>
+        <note type="source-span" xml:id="source-49785-49844" n="221"/>
+        <note type="source-span" xml:id="source-49844-49885" n="222"/>
+        <note type="source-span" xml:id="source-49885-49899" n="223"/>
+        <note type="source-span" xml:id="source-49937-51301" n="225"/>
+        <note type="source-span" xml:id="source-50042-50057" n="225"/>
+        <note type="source-span" xml:id="source-51301-51576" n="226"/>
+        <note type="source-span" xml:id="source-51336-51336" n="227"/>
+        <note type="source-span" xml:id="source-51336-51372" n="227"/>
+        <note type="source-span" xml:id="source-51336-51416" n="227"/>
+        <note type="source-span" xml:id="source-51372-51393" n="227"/>
+        <note type="source-span" xml:id="source-51393-51416" n="227"/>
+        <note type="source-span" xml:id="source-51416-51478" n="228"/>
+        <note type="source-span" xml:id="source-51478-51540" n="229"/>
+        <note type="source-span" xml:id="source-51578-52576" n="231"/>
+        <note type="source-span" xml:id="source-52355-52373" n="231"/>
+        <note type="source-span" xml:id="source-52382-52400" n="231"/>
+        <note type="source-span" xml:id="source-52409-52430" n="231"/>
+        <note type="source-span" xml:id="source-52436-52457" n="231"/>
+        <note type="source-span" xml:id="source-52511-52529" n="231"/>
+        <note type="source-span" xml:id="source-52535-52553" n="231"/>
+        <note type="source-span" xml:id="source-52576-53454" n="232"/>
+        <note type="source-span" xml:id="source-53257-53260" n="232"/>
+        <note type="source-span" xml:id="source-53257-53287" n="232"/>
+        <note type="source-span" xml:id="source-53260-53287" n="232"/>
+        <note type="source-span" xml:id="source-53454-54551" n="233"/>
+        <note type="source-span" xml:id="source-54393-54396" n="233"/>
+        <note type="source-span" xml:id="source-54393-54423" n="233"/>
+        <note type="source-span" xml:id="source-54396-54423" n="233"/>
+        <note type="source-span" xml:id="source-54423-54426" n="233"/>
+        <note type="source-span" xml:id="source-54426-54429" n="233"/>
+        <note type="source-span" xml:id="source-54426-54456" n="233"/>
+        <note type="source-span" xml:id="source-54429-54456" n="233"/>
+        <note type="source-span" xml:id="source-54456-54551" n="233"/>
+        <note type="source-span" xml:id="source-54551-55294" n="234"/>
+        <note type="source-span" xml:id="source-5516-5791" n="34"/>
+        <note type="source-span" xml:id="source-55294-55774" n="235"/>
+        <note type="source-span" xml:id="source-55329-55329" n="236"/>
+        <note type="source-span" xml:id="source-55329-55353" n="236"/>
+        <note type="source-span" xml:id="source-55329-55478" n="236"/>
+        <note type="source-span" xml:id="source-55353-55359" n="236"/>
+        <note type="source-span" xml:id="source-55353-55389" n="236"/>
+        <note type="source-span" xml:id="source-55359-55389" n="236"/>
+        <note type="source-span" xml:id="source-55389-55392" n="236"/>
+        <note type="source-span" xml:id="source-55392-55398" n="236"/>
+        <note type="source-span" xml:id="source-55392-55428" n="236"/>
+        <note type="source-span" xml:id="source-55398-55428" n="236"/>
+        <note type="source-span" xml:id="source-55428-55478" n="236"/>
+        <note type="source-span" xml:id="source-55478-55501" n="237"/>
+        <note type="source-span" xml:id="source-55501-55536" n="238"/>
+        <note type="source-span" xml:id="source-5551-5551" n="35"/>
+        <note type="source-span" xml:id="source-5551-5589" n="35"/>
+        <note type="source-span" xml:id="source-55536-55565" n="239"/>
+        <note type="source-span" xml:id="source-55565-55591" n="240"/>
+        <note type="source-span" xml:id="source-55591-55617" n="241"/>
+        <note type="source-span" xml:id="source-55617-55627" n="242"/>
+        <note type="source-span" xml:id="source-55627-55668" n="243"/>
+        <note type="source-span" xml:id="source-55668-55691" n="244"/>
+        <note type="source-span" xml:id="source-55691-55738" n="245"/>
+        <note type="source-span" xml:id="source-55776-55803" n="247"/>
+        <note type="source-span" xml:id="source-55776-56021" n="247"/>
+        <note type="source-span" xml:id="source-55803-55809" n="247"/>
+        <note type="source-span" xml:id="source-55809-56021" n="247"/>
+        <note type="source-span" xml:id="source-5589-5609" n="36"/>
+        <note type="source-span" xml:id="source-56021-56341" n="248"/>
+        <note type="source-span" xml:id="source-56056-56056" n="249"/>
+        <note type="source-span" xml:id="source-56056-56136" n="249"/>
+        <note type="source-span" xml:id="source-5609-5656" n="37"/>
+        <note type="source-span" xml:id="source-56136-56169" n="250"/>
+        <note type="source-span" xml:id="source-56136-56219" n="250"/>
+        <note type="source-span" xml:id="source-56169-56190" n="250"/>
+        <note type="source-span" xml:id="source-56190-56219" n="250"/>
+        <note type="source-span" xml:id="source-56219-56222" n="251"/>
+        <note type="source-span" xml:id="source-56219-56305" n="251"/>
+        <note type="source-span" xml:id="source-56222-56246" n="251"/>
+        <note type="source-span" xml:id="source-56246-56249" n="251"/>
+        <note type="source-span" xml:id="source-56249-56288" n="251"/>
+        <note type="source-span" xml:id="source-56288-56305" n="251"/>
+        <note type="source-span" xml:id="source-56343-56885" n="253"/>
+        <note type="source-span" xml:id="source-56436-56439" n="253"/>
+        <note type="source-span" xml:id="source-56436-56466" n="253"/>
+        <note type="source-span" xml:id="source-56439-56466" n="253"/>
+        <note type="source-span" xml:id="source-56466-56469" n="253"/>
+        <note type="source-span" xml:id="source-56469-56472" n="253"/>
+        <note type="source-span" xml:id="source-56469-56499" n="253"/>
+        <note type="source-span" xml:id="source-56472-56499" n="253"/>
+        <note type="source-span" xml:id="source-56499-56502" n="253"/>
+        <note type="source-span" xml:id="source-56502-56505" n="253"/>
+        <note type="source-span" xml:id="source-56502-56532" n="253"/>
+        <note type="source-span" xml:id="source-56505-56532" n="253"/>
+        <note type="source-span" xml:id="source-56532-56535" n="253"/>
+        <note type="source-span" xml:id="source-56535-56538" n="253"/>
+        <note type="source-span" xml:id="source-56535-56565" n="253"/>
+        <note type="source-span" xml:id="source-56538-56565" n="253"/>
+        <note type="source-span" xml:id="source-5656-5682" n="38"/>
+        <note type="source-span" xml:id="source-56565-56571" n="253"/>
+        <note type="source-span" xml:id="source-56571-56577" n="253"/>
+        <note type="source-span" xml:id="source-56571-56607" n="253"/>
+        <note type="source-span" xml:id="source-56577-56607" n="253"/>
+        <note type="source-span" xml:id="source-56607-56610" n="253"/>
+        <note type="source-span" xml:id="source-56610-56616" n="253"/>
+        <note type="source-span" xml:id="source-56610-56646" n="253"/>
+        <note type="source-span" xml:id="source-56616-56646" n="253"/>
+        <note type="source-span" xml:id="source-56646-56649" n="253"/>
+        <note type="source-span" xml:id="source-56649-56652" n="253"/>
+        <note type="source-span" xml:id="source-56649-56679" n="253"/>
+        <note type="source-span" xml:id="source-56652-56679" n="253"/>
+        <note type="source-span" xml:id="source-5682-5732" n="39"/>
+        <note type="source-span" xml:id="source-56885-57311" n="254"/>
+        <note type="source-span" xml:id="source-56920-56920" n="255"/>
+        <note type="source-span" xml:id="source-56920-56973" n="255"/>
+        <note type="source-span" xml:id="source-56973-57035" n="256"/>
+        <note type="source-span" xml:id="source-57035-57088" n="257"/>
+        <note type="source-span" xml:id="source-57088-57098" n="258"/>
+        <note type="source-span" xml:id="source-57098-57151" n="259"/>
+        <note type="source-span" xml:id="source-57151-57207" n="260"/>
+        <note type="source-span" xml:id="source-57207-57231" n="261"/>
+        <note type="source-span" xml:id="source-57207-57275" n="261"/>
+        <note type="source-span" xml:id="source-57231-57246" n="261"/>
+        <note type="source-span" xml:id="source-57246-57275" n="261"/>
+        <note type="source-span" xml:id="source-57313-57630" n="263"/>
+        <note type="source-span" xml:id="source-5732-5755" n="40"/>
+        <note type="source-span" xml:id="source-57630-57861" n="264"/>
+        <note type="source-span" xml:id="source-57665-57665" n="265"/>
+        <note type="source-span" xml:id="source-57665-57736" n="265"/>
+        <note type="source-span" xml:id="source-57736-57825" n="266"/>
+        <note type="source-span" xml:id="source-57863-57901" n="268"/>
+        <note type="source-span" xml:id="source-57901-58121" n="269"/>
+        <note type="source-span" xml:id="source-5793-7469" n="42"/>
+        <note type="source-span" xml:id="source-57936-57936" n="270"/>
+        <note type="source-span" xml:id="source-57936-58085" n="270"/>
+        <note type="source-span" xml:id="source-58123-58350" n="272"/>
+        <note type="source-span" xml:id="source-58350-58541" n="273"/>
+        <note type="source-span" xml:id="source-58541-59309" n="274"/>
+        <note type="source-span" xml:id="source-58541-59767" n="274"/>
+        <note type="source-span" xml:id="source-59309-59324" n="274"/>
+        <note type="source-span" xml:id="source-59324-59767" n="274"/>
+        <note type="source-span" xml:id="source-59767-60010" n="275"/>
+        <note type="source-span" xml:id="source-59802-59802" n="276"/>
+        <note type="source-span" xml:id="source-59802-59846" n="276"/>
+        <note type="source-span" xml:id="source-59846-59866" n="277"/>
+        <note type="source-span" xml:id="source-59866-59898" n="278"/>
+        <note type="source-span" xml:id="source-59898-59939" n="279"/>
+        <note type="source-span" xml:id="source-59939-59974" n="280"/>
+        <note type="source-span" xml:id="source-60012-60089" n="282"/>
+        <note type="source-span" xml:id="source-60089-60309" n="283"/>
+        <note type="source-span" xml:id="source-60124-60124" n="284"/>
+        <note type="source-span" xml:id="source-60124-60142" n="284"/>
+        <note type="source-span" xml:id="source-60124-60273" n="284"/>
+        <note type="source-span" xml:id="source-60142-60154" n="284"/>
+        <note type="source-span" xml:id="source-60154-60199" n="284"/>
+        <note type="source-span" xml:id="source-60199-60229" n="284"/>
+        <note type="source-span" xml:id="source-60229-60273" n="284"/>
+        <note type="source-span" xml:id="source-60311-61513" n="286"/>
+        <note type="source-span" xml:id="source-61513-61542" n="287"/>
+        <note type="source-span" xml:id="source-61542-61850" n="288"/>
+        <note type="source-span" xml:id="source-61850-62206" n="289"/>
+        <note type="source-span" xml:id="source-61885-61885" n="290"/>
+        <note type="source-span" xml:id="source-61885-61929" n="290"/>
+        <note type="source-span" xml:id="source-61929-61970" n="291"/>
+        <note type="source-span" xml:id="source-61970-62011" n="292"/>
+        <note type="source-span" xml:id="source-62011-62073" n="293"/>
+        <note type="source-span" xml:id="source-62073-62129" n="294"/>
+        <note type="source-span" xml:id="source-62129-62170" n="295"/>
+        <note type="source-span" xml:id="source-62208-63440" n="297"/>
+        <note type="source-span" xml:id="source-62739-62751" n="297"/>
+        <note type="source-span" xml:id="source-62739-62787" n="297"/>
+        <note type="source-span" xml:id="source-62751-62787" n="297"/>
+        <note type="source-span" xml:id="source-63440-64300" n="298"/>
+        <note type="source-span" xml:id="source-6390-6402" n="42"/>
+        <note type="source-span" xml:id="source-6390-6438" n="42"/>
+        <note type="source-span" xml:id="source-63935-63950" n="298"/>
+        <note type="source-span" xml:id="source-63935-63989" n="298"/>
+        <note type="source-span" xml:id="source-63950-63989" n="298"/>
+        <note type="source-span" xml:id="source-63989-64300" n="298"/>
+        <note type="source-span" xml:id="source-6402-6438" n="42"/>
+        <note type="source-span" xml:id="source-64300-64788" n="299"/>
+        <note type="source-span" xml:id="source-6438-6441" n="42"/>
+        <note type="source-span" xml:id="source-6441-6444" n="42"/>
+        <note type="source-span" xml:id="source-6441-6471" n="42"/>
+        <note type="source-span" xml:id="source-6444-6471" n="42"/>
+        <note type="source-span" xml:id="source-6471-6594" n="42"/>
+        <note type="source-span" xml:id="source-64788-64803" n="300"/>
+        <note type="source-span" xml:id="source-64788-65483" n="300"/>
+        <note type="source-span" xml:id="source-65483-65718" n="301"/>
+        <note type="source-span" xml:id="source-65518-65518" n="302"/>
+        <note type="source-span" xml:id="source-65518-65536" n="302"/>
+        <note type="source-span" xml:id="source-65518-65682" n="302"/>
+        <note type="source-span" xml:id="source-65536-65539" n="302"/>
+        <note type="source-span" xml:id="source-65539-65581" n="302"/>
+        <note type="source-span" xml:id="source-65560-65566" n="302"/>
+        <note type="source-span" xml:id="source-65581-65617" n="302"/>
+        <note type="source-span" xml:id="source-65617-65620" n="302"/>
+        <note type="source-span" xml:id="source-65620-65662" n="302"/>
+        <note type="source-span" xml:id="source-65641-65647" n="302"/>
+        <note type="source-span" xml:id="source-65662-65682" n="302"/>
+        <note type="source-span" xml:id="source-65720-65833" n="304"/>
+        <note type="source-span" xml:id="source-65833-65916" n="305"/>
+        <note type="source-span" xml:id="source-65916-66196" n="306"/>
+        <note type="source-span" xml:id="source-6594-6606" n="42"/>
+        <note type="source-span" xml:id="source-6594-6642" n="42"/>
+        <note type="source-span" xml:id="source-65951-65951" n="307"/>
+        <note type="source-span" xml:id="source-65951-65993" n="307"/>
+        <note type="source-span" xml:id="source-65951-66160" n="307"/>
+        <note type="source-span" xml:id="source-65993-66029" n="307"/>
+        <note type="source-span" xml:id="source-66029-66080" n="307"/>
+        <note type="source-span" xml:id="source-6606-6642" n="42"/>
+        <note type="source-span" xml:id="source-66080-66101" n="307"/>
+        <note type="source-span" xml:id="source-66101-66116" n="307"/>
+        <note type="source-span" xml:id="source-66116-66128" n="307"/>
+        <note type="source-span" xml:id="source-66128-66160" n="307"/>
+        <note type="source-span" xml:id="source-66198-67355" n="309"/>
+        <note type="source-span" xml:id="source-66345-66354" n="309"/>
+        <note type="source-span" xml:id="source-66345-66387" n="309"/>
+        <note type="source-span" xml:id="source-66354-66387" n="309"/>
+        <note type="source-span" xml:id="source-66387-66390" n="309"/>
+        <note type="source-span" xml:id="source-66390-66399" n="309"/>
+        <note type="source-span" xml:id="source-66390-66432" n="309"/>
+        <note type="source-span" xml:id="source-66399-66432" n="309"/>
+        <note type="source-span" xml:id="source-6642-6663" n="42"/>
+        <note type="source-span" xml:id="source-66588-66600" n="309"/>
+        <note type="source-span" xml:id="source-6663-6672" n="42"/>
+        <note type="source-span" xml:id="source-6663-6705" n="42"/>
+        <note type="source-span" xml:id="source-6672-6705" n="42"/>
+        <note type="source-span" xml:id="source-6705-6795" n="42"/>
+        <note type="source-span" xml:id="source-67355-67673" n="310"/>
+        <note type="source-span" xml:id="source-67390-67390" n="311"/>
+        <note type="source-span" xml:id="source-67390-67408" n="311"/>
+        <note type="source-span" xml:id="source-67390-67637" n="311"/>
+        <note type="source-span" xml:id="source-67408-67426" n="311"/>
+        <note type="source-span" xml:id="source-67426-67468" n="311"/>
+        <note type="source-span" xml:id="source-67468-67486" n="311"/>
+        <note type="source-span" xml:id="source-67486-67495" n="311"/>
+        <note type="source-span" xml:id="source-67486-67534" n="311"/>
+        <note type="source-span" xml:id="source-67495-67534" n="311"/>
+        <note type="source-span" xml:id="source-67534-67546" n="311"/>
+        <note type="source-span" xml:id="source-67546-67614" n="311"/>
+        <note type="source-span" xml:id="source-67555-67608" n="311"/>
+        <note type="source-span" xml:id="source-67614-67637" n="311"/>
+        <note type="source-span" xml:id="source-67675-67890" n="313"/>
+        <note type="source-span" xml:id="source-67890-68476" n="314"/>
+        <note type="source-span" xml:id="source-6795-6807" n="42"/>
+        <note type="source-span" xml:id="source-6795-6843" n="42"/>
+        <note type="source-span" xml:id="source-67955-67955" n="315"/>
+        <note type="source-span" xml:id="source-67955-67964" n="315"/>
+        <note type="source-span" xml:id="source-67955-68440" n="315"/>
+        <note type="source-span" xml:id="source-67964-67982" n="315"/>
+        <note type="source-span" xml:id="source-67982-68009" n="315"/>
+        <note type="source-span" xml:id="source-68009-68030" n="315"/>
+        <note type="source-span" xml:id="source-68030-68111" n="315"/>
+        <note type="source-span" xml:id="source-6807-6843" n="42"/>
+        <note type="source-span" xml:id="source-68111-68150" n="315"/>
+        <note type="source-span" xml:id="source-68150-68168" n="315"/>
+        <note type="source-span" xml:id="source-68168-68174" n="315"/>
+        <note type="source-span" xml:id="source-68174-68207" n="315"/>
+        <note type="source-span" xml:id="source-68207-68225" n="315"/>
+        <note type="source-span" xml:id="source-68225-68240" n="315"/>
+        <note type="source-span" xml:id="source-68240-68258" n="315"/>
+        <note type="source-span" xml:id="source-68258-68276" n="315"/>
+        <note type="source-span" xml:id="source-68276-68294" n="315"/>
+        <note type="source-span" xml:id="source-68294-68312" n="315"/>
+        <note type="source-span" xml:id="source-68312-68330" n="315"/>
+        <note type="source-span" xml:id="source-68330-68440" n="315"/>
+        <note type="source-span" xml:id="source-6843-6855" n="42"/>
+        <note type="source-span" xml:id="source-68478-68738" n="317"/>
+        <note type="source-span" xml:id="source-6855-6867" n="42"/>
+        <note type="source-span" xml:id="source-6855-6903" n="42"/>
+        <note type="source-span" xml:id="source-6867-6903" n="42"/>
+        <note type="source-span" xml:id="source-68738-69127" n="318"/>
+        <note type="source-span" xml:id="source-6903-6942" n="42"/>
+        <note type="source-span" xml:id="source-69127-70702" n="319"/>
+        <note type="source-span" xml:id="source-69162-69162" n="320"/>
+        <note type="source-span" xml:id="source-69162-69195" n="320"/>
+        <note type="source-span" xml:id="source-69162-70666" n="320"/>
+        <note type="source-span" xml:id="source-69195-69213" n="320"/>
+        <note type="source-span" xml:id="source-69213-69216" n="320"/>
+        <note type="source-span" xml:id="source-69216-69237" n="320"/>
+        <note type="source-span" xml:id="source-69237-69243" n="320"/>
+        <note type="source-span" xml:id="source-69243-69261" n="320"/>
+        <note type="source-span" xml:id="source-69261-69267" n="320"/>
+        <note type="source-span" xml:id="source-69261-69303" n="320"/>
+        <note type="source-span" xml:id="source-69267-69303" n="320"/>
+        <note type="source-span" xml:id="source-69303-69321" n="320"/>
+        <note type="source-span" xml:id="source-69321-69342" n="320"/>
+        <note type="source-span" xml:id="source-69342-69372" n="320"/>
+        <note type="source-span" xml:id="source-69372-69381" n="320"/>
+        <note type="source-span" xml:id="source-69372-69414" n="320"/>
+        <note type="source-span" xml:id="source-69381-69414" n="320"/>
+        <note type="source-span" xml:id="source-69414-69438" n="320"/>
+        <note type="source-span" xml:id="source-6942-6954" n="42"/>
+        <note type="source-span" xml:id="source-6942-6990" n="42"/>
+        <note type="source-span" xml:id="source-69438-69447" n="320"/>
+        <note type="source-span" xml:id="source-69438-69480" n="320"/>
+        <note type="source-span" xml:id="source-69447-69480" n="320"/>
+        <note type="source-span" xml:id="source-69480-69507" n="320"/>
+        <note type="source-span" xml:id="source-69507-69513" n="320"/>
+        <note type="source-span" xml:id="source-69507-69543" n="320"/>
+        <note type="source-span" xml:id="source-69513-69543" n="320"/>
+        <note type="source-span" xml:id="source-6954-6990" n="42"/>
+        <note type="source-span" xml:id="source-69543-69546" n="320"/>
+        <note type="source-span" xml:id="source-69543-69579" n="320"/>
+        <note type="source-span" xml:id="source-69546-69579" n="320"/>
+        <note type="source-span" xml:id="source-69579-69585" n="320"/>
+        <note type="source-span" xml:id="source-69579-69615" n="320"/>
+        <note type="source-span" xml:id="source-69585-69615" n="320"/>
+        <note type="source-span" xml:id="source-69615-69618" n="320"/>
+        <note type="source-span" xml:id="source-69615-69651" n="320"/>
+        <note type="source-span" xml:id="source-69618-69651" n="320"/>
+        <note type="source-span" xml:id="source-69651-69657" n="320"/>
+        <note type="source-span" xml:id="source-69651-69687" n="320"/>
+        <note type="source-span" xml:id="source-69657-69687" n="320"/>
+        <note type="source-span" xml:id="source-69687-69711" n="320"/>
+        <note type="source-span" xml:id="source-69711-69732" n="320"/>
+        <note type="source-span" xml:id="source-69732-69747" n="320"/>
+        <note type="source-span" xml:id="source-69747-69765" n="320"/>
+        <note type="source-span" xml:id="source-69747-69807" n="320"/>
+        <note type="source-span" xml:id="source-69765-69807" n="320"/>
+        <note type="source-span" xml:id="source-69807-69828" n="320"/>
+        <note type="source-span" xml:id="source-69828-69837" n="320"/>
+        <note type="source-span" xml:id="source-69837-69849" n="320"/>
+        <note type="source-span" xml:id="source-69837-69885" n="320"/>
+        <note type="source-span" xml:id="source-69849-69885" n="320"/>
+        <note type="source-span" xml:id="source-69885-69933" n="320"/>
+        <note type="source-span" xml:id="source-6990-7077" n="42"/>
+        <note type="source-span" xml:id="source-69933-69939" n="320"/>
+        <note type="source-span" xml:id="source-69933-69969" n="320"/>
+        <note type="source-span" xml:id="source-69939-69969" n="320"/>
+        <note type="source-span" xml:id="source-69969-70011" n="320"/>
+        <note type="source-span" xml:id="source-70011-70023" n="320"/>
+        <note type="source-span" xml:id="source-70011-70059" n="320"/>
+        <note type="source-span" xml:id="source-70023-70059" n="320"/>
+        <note type="source-span" xml:id="source-70059-70062" n="320"/>
+        <note type="source-span" xml:id="source-70062-70083" n="320"/>
+        <note type="source-span" xml:id="source-70083-70095" n="320"/>
+        <note type="source-span" xml:id="source-70095-70113" n="320"/>
+        <note type="source-span" xml:id="source-70113-70119" n="320"/>
+        <note type="source-span" xml:id="source-70119-70137" n="320"/>
+        <note type="source-span" xml:id="source-70137-70161" n="320"/>
+        <note type="source-span" xml:id="source-70161-70179" n="320"/>
+        <note type="source-span" xml:id="source-70179-70245" n="320"/>
+        <note type="source-span" xml:id="source-70245-70263" n="320"/>
+        <note type="source-span" xml:id="source-70245-70305" n="320"/>
+        <note type="source-span" xml:id="source-70263-70305" n="320"/>
+        <note type="source-span" xml:id="source-70305-70377" n="320"/>
+        <note type="source-span" xml:id="source-70377-70407" n="320"/>
+        <note type="source-span" xml:id="source-70377-70461" n="320"/>
+        <note type="source-span" xml:id="source-70407-70461" n="320"/>
+        <note type="source-span" xml:id="source-70461-70491" n="320"/>
+        <note type="source-span" xml:id="source-70491-70509" n="320"/>
+        <note type="source-span" xml:id="source-70509-70539" n="320"/>
+        <note type="source-span" xml:id="source-70539-70586" n="320"/>
+        <note type="source-span" xml:id="source-70586-70607" n="320"/>
+        <note type="source-span" xml:id="source-70607-70628" n="320"/>
+        <note type="source-span" xml:id="source-70628-70637" n="320"/>
+        <note type="source-span" xml:id="source-70637-70655" n="320"/>
+        <note type="source-span" xml:id="source-70655-70666" n="320"/>
+        <note type="source-span" xml:id="source-70704-70763" n="322"/>
+        <note type="source-span" xml:id="source-70734-70763" n="322"/>
+        <note type="source-span" xml:id="source-70763-71578" n="323"/>
+        <note type="source-span" xml:id="source-7077-7080" n="42"/>
+        <note type="source-span" xml:id="source-7077-7107" n="42"/>
+        <note type="source-span" xml:id="source-7080-7107" n="42"/>
+        <note type="source-span" xml:id="source-7107-7110" n="42"/>
+        <note type="source-span" xml:id="source-7110-7113" n="42"/>
+        <note type="source-span" xml:id="source-7110-7140" n="42"/>
+        <note type="source-span" xml:id="source-7113-7140" n="42"/>
+        <note type="source-span" xml:id="source-7140-7143" n="42"/>
+        <note type="source-span" xml:id="source-7143-7146" n="42"/>
+        <note type="source-span" xml:id="source-7143-7173" n="42"/>
+        <note type="source-span" xml:id="source-7146-7173" n="42"/>
+        <note type="source-span" xml:id="source-71578-71999" n="324"/>
+        <note type="source-span" xml:id="source-71643-71643" n="325"/>
+        <note type="source-span" xml:id="source-71643-71646" n="325"/>
+        <note type="source-span" xml:id="source-71643-71963" n="325"/>
+        <note type="source-span" xml:id="source-71646-71658" n="325"/>
+        <note type="source-span" xml:id="source-7173-7469" n="42"/>
+        <note type="source-span" xml:id="source-71829-71865" n="325"/>
+        <note type="source-span" xml:id="source-71865-71868" n="325"/>
+        <note type="source-span" xml:id="source-71868-71922" n="325"/>
+        <note type="source-span" xml:id="source-71922-71955" n="325"/>
+        <note type="source-span" xml:id="source-71955-71963" n="325"/>
+        <note type="source-span" xml:id="source-72001-72072" n="327"/>
+        <note type="source-span" xml:id="source-72031-72072" n="327"/>
+        <note type="source-span" xml:id="source-72072-72403" n="328"/>
+        <note type="source-span" xml:id="source-72137-72137" n="329"/>
+        <note type="source-span" xml:id="source-72137-72140" n="329"/>
+        <note type="source-span" xml:id="source-72137-72367" n="329"/>
+        <note type="source-span" xml:id="source-72140-72152" n="329"/>
+        <note type="source-span" xml:id="source-72221-72239" n="329"/>
+        <note type="source-span" xml:id="source-72239-72242" n="329"/>
+        <note type="source-span" xml:id="source-72242-72260" n="329"/>
+        <note type="source-span" xml:id="source-72260-72272" n="329"/>
+        <note type="source-span" xml:id="source-72272-72290" n="329"/>
+        <note type="source-span" xml:id="source-72290-72296" n="329"/>
+        <note type="source-span" xml:id="source-72296-72314" n="329"/>
+        <note type="source-span" xml:id="source-72314-72320" n="329"/>
+        <note type="source-span" xml:id="source-72320-72338" n="329"/>
+        <note type="source-span" xml:id="source-72338-72341" n="329"/>
+        <note type="source-span" xml:id="source-72341-72359" n="329"/>
+        <note type="source-span" xml:id="source-72359-72367" n="329"/>
+        <note type="source-span" xml:id="source-72405-72482" n="331"/>
+        <note type="source-span" xml:id="source-72435-72482" n="331"/>
+        <note type="source-span" xml:id="source-72482-72937" n="332"/>
+        <note type="source-span" xml:id="source-72878-72881" n="332"/>
+        <note type="source-span" xml:id="source-72878-72908" n="332"/>
+        <note type="source-span" xml:id="source-72881-72908" n="332"/>
+        <note type="source-span" xml:id="source-72937-73570" n="333"/>
+        <note type="source-span" xml:id="source-72972-72972" n="334"/>
+        <note type="source-span" xml:id="source-72972-72975" n="334"/>
+        <note type="source-span" xml:id="source-72972-73534" n="334"/>
+        <note type="source-span" xml:id="source-72975-72993" n="334"/>
+        <note type="source-span" xml:id="source-72993-73011" n="334"/>
+        <note type="source-span" xml:id="source-73011-73029" n="334"/>
+        <note type="source-span" xml:id="source-73029-73038" n="334"/>
+        <note type="source-span" xml:id="source-73038-73044" n="334"/>
+        <note type="source-span" xml:id="source-73038-73080" n="334"/>
+        <note type="source-span" xml:id="source-73044-73080" n="334"/>
+        <note type="source-span" xml:id="source-73080-73188" n="334"/>
+        <note type="source-span" xml:id="source-73110-73116" n="334"/>
+        <note type="source-span" xml:id="source-73110-73152" n="334"/>
+        <note type="source-span" xml:id="source-73116-73152" n="334"/>
+        <note type="source-span" xml:id="source-73188-73200" n="334"/>
+        <note type="source-span" xml:id="source-73200-73272" n="334"/>
+        <note type="source-span" xml:id="source-73230-73236" n="334"/>
+        <note type="source-span" xml:id="source-73272-73296" n="334"/>
+        <note type="source-span" xml:id="source-73296-73364" n="334"/>
+        <note type="source-span" xml:id="source-73305-73358" n="334"/>
+        <note type="source-span" xml:id="source-73364-73373" n="334"/>
+        <note type="source-span" xml:id="source-73364-73412" n="334"/>
+        <note type="source-span" xml:id="source-73373-73412" n="334"/>
+        <note type="source-span" xml:id="source-73412-73463" n="334"/>
+        <note type="source-span" xml:id="source-73421-73424" n="334"/>
+        <note type="source-span" xml:id="source-73421-73457" n="334"/>
+        <note type="source-span" xml:id="source-73424-73457" n="334"/>
+        <note type="source-span" xml:id="source-73463-73466" n="334"/>
+        <note type="source-span" xml:id="source-73466-73484" n="334"/>
+        <note type="source-span" xml:id="source-73484-73499" n="334"/>
+        <note type="source-span" xml:id="source-73499-73526" n="334"/>
+        <note type="source-span" xml:id="source-73526-73534" n="334"/>
+        <note type="source-span" xml:id="source-73572-73652" n="336"/>
+        <note type="source-span" xml:id="source-73602-73652" n="336"/>
+        <note type="source-span" xml:id="source-73652-73900" n="337"/>
+        <note type="source-span" xml:id="source-73900-74228" n="338"/>
+        <note type="source-span" xml:id="source-73965-73965" n="339"/>
+        <note type="source-span" xml:id="source-73965-74192" n="339"/>
+        <note type="source-span" xml:id="source-74230-74298" n="341"/>
+        <note type="source-span" xml:id="source-74260-74298" n="341"/>
+        <note type="source-span" xml:id="source-74298-75009" n="342"/>
+        <note type="source-span" xml:id="source-74363-74363" n="343"/>
+        <note type="source-span" xml:id="source-74363-74752" n="343"/>
+        <note type="source-span" xml:id="source-7469-7645" n="43"/>
+        <note type="source-span" xml:id="source-74752-74973" n="344"/>
+        <note type="source-span" xml:id="source-75011-75088" n="346"/>
+        <note type="source-span" xml:id="source-7504-7504" n="44"/>
+        <note type="source-span" xml:id="source-7504-7536" n="44"/>
+        <note type="source-span" xml:id="source-75041-75088" n="346"/>
+        <note type="source-span" xml:id="source-75088-75320" n="347"/>
+        <note type="source-span" xml:id="source-75153-75153" n="348"/>
+        <note type="source-span" xml:id="source-75153-75284" n="348"/>
+        <note type="source-span" xml:id="source-75322-77304" n="350"/>
+        <note type="source-span" xml:id="source-7536-7571" n="45"/>
+        <note type="source-span" xml:id="source-7571-7609" n="46"/>
+        <note type="source-span" xml:id="source-7647-7796" n="48"/>
+        <note type="source-span" xml:id="source-77304-78314" n="351"/>
+        <note type="source-span" xml:id="source-77349-77361" n="351"/>
+        <note type="source-span" xml:id="source-77370-77382" n="351"/>
+        <note type="source-span" xml:id="source-77673-77706" n="351"/>
+        <note type="source-span" xml:id="source-77706-77721" n="351"/>
+        <note type="source-span" xml:id="source-77721-77739" n="351"/>
+        <note type="source-span" xml:id="source-7796-7983" n="49"/>
+        <note type="source-span" xml:id="source-7831-7831" n="50"/>
+        <note type="source-span" xml:id="source-7831-7947" n="50"/>
+        <note type="source-span" xml:id="source-78314-78343" n="352"/>
+        <note type="source-span" xml:id="source-78343-78358" n="353"/>
+        <note type="source-span" xml:id="source-78343-78918" n="353"/>
+        <note type="source-span" xml:id="source-78358-78364" n="353"/>
+        <note type="source-span" xml:id="source-78918-79191" n="354"/>
+        <note type="source-span" xml:id="source-79199-79380" n="358"/>
+        <note type="source-span" xml:id="source-79380-79889" n="362"/>
+        <note type="source-span" xml:id="source-7985-8126" n="52"/>
+        <note type="source-span" xml:id="source-7985-8932" n="52"/>
+        <note type="source-span" xml:id="source-8126-8138" n="52"/>
+        <note type="source-span" xml:id="source-8126-8174" n="52"/>
+        <note type="source-span" xml:id="source-8138-8174" n="52"/>
+        <note type="source-span" xml:id="source-814-1839" n="23"/>
+        <note type="source-span" xml:id="source-8174-8177" n="52"/>
+        <note type="source-span" xml:id="source-8177-8186" n="52"/>
+        <note type="source-span" xml:id="source-8177-8219" n="52"/>
+        <note type="source-span" xml:id="source-8186-8219" n="52"/>
+        <note type="source-span" xml:id="source-8450-8477" n="52"/>
+        <note type="source-span" xml:id="source-8543-8549" n="52"/>
+        <note type="source-span" xml:id="source-8543-8579" n="52"/>
+        <note type="source-span" xml:id="source-8549-8579" n="52"/>
+        <note type="source-span" xml:id="source-8579-8735" n="52"/>
+        <note type="source-span" xml:id="source-8735-8741" n="52"/>
+        <note type="source-span" xml:id="source-8735-8771" n="52"/>
+        <note type="source-span" xml:id="source-8741-8771" n="52"/>
+        <note type="source-span" xml:id="source-8801-8831" n="52"/>
+        <note type="source-span" xml:id="source-8932-9672" n="53"/>
+        <note type="source-span" xml:id="source-9457-9466" n="53"/>
+        <note type="source-span" xml:id="source-9457-9499" n="53"/>
+        <note type="source-span" xml:id="source-9466-9499" n="53"/>
+        <note type="source-span" xml:id="source-9568-9583" n="53"/>
+        <note type="source-span" xml:id="source-9568-9622" n="53"/>
+        <note type="source-span" xml:id="source-9583-9622" n="53"/>
+        <note type="source-span" xml:id="source-9622-9672" n="53"/>
+        <note type="source-span" xml:id="source-9672-10094" n="54"/>
+      </div>
+      <note type="parser-completion" n="true">The n attribute is true when no parser diagnostic of error severity was raised for this source. What the converter could not interpret is recorded in the interpretation-problem and parser-diagnostic notes.</note>
+      <note type="source-decoding">windows-31j</note>
+      <note type="interpretation-problem">{
+  "aspects": ["content","structure","layout"],
+  "code": "unknown-notation",
+  "influence":
+  {
+    "kind": "document"
+  },
+  "kind": "unknown-notation",
+  "raw": "［＃（保利《ホリ》）］",
+  "source_span":
+  {
+    "coordinate_system": "decoded_utf8",
+    "end": 71955,
+    "line": 325,
+    "start": 71922
+  }
+}</note>
+      <note type="interpretation-problem">{
+  "aspects": ["content","structure","layout"],
+  "code": "unknown-notation",
+  "influence":
+  {
+    "kind": "document"
+  },
+  "kind": "unknown-notation",
+  "raw": "［＃（止（波））］",
+  "source_span":
+  {
+    "coordinate_system": "decoded_utf8",
+    "end": 73526,
+    "line": 334,
+    "start": 73499
+  }
+}</note>
+    </back>
+  </text>
+</TEI>

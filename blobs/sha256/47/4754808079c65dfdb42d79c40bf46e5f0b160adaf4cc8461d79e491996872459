@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:snh="https://w3id.org/soranoha/ns/tei" xmlns="http://www.tei-c.org/ns/1.0" snh:vocab-version="3">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ja">春愁</title>
+        <title type="reading" xml:lang="ja-Hira">しゅんしゅう</title>
+        <author><persName xml:lang="ja"><surname>山口</surname><forename>芳光</forename><idno type="aozora-person-id">001662</idno></persName><persName xml:lang="ja-Hira"><surname>やまぐち</surname><forename>よしみつ</forename></persName><persName xml:lang="ja-Latn"><surname>Yamaguchi</surname><forename>Yoshimitsu</forename></persName></author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://w3id.org/soranoha/">Soranoha</publisher>
+        <idno type="soranoha-work-identifier">054401_001662</idno>
+        <idno type="aozora-work-id">054401</idno>
+        <idno type="aozora-card-url">https://www.aozora.gr.jp/cards/001662/card54401.html</idno>
+        <date when="2018-03-26">2018-03-26</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">The underlying work is in the public domain; Soranoha asserts no rights over it.</licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Soranoha's encoding of this work and the artifacts derived from it are dedicated to the public domain under CC0-1.0. Attribution is requested, not required. Full rights statement: <ptr target="https://w3id.org/soranoha/rights"/></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>沖縄文学全集　第1巻　詩Ⅰ</title><publisher>国書刊行会</publisher><date>1991（平成3）年6月6日</date><note type="input-edition">1991（平成3）年6月6日第1刷</note><note type="proof-edition">1991（平成3）年6月6日第1刷</note></bibl>
+        <bibl><idno type="source-content-hash">sha256:12dee782efa2ed097689cecd7fcdaa7e6a5094d93c6daa83cbc6414138c064a2</idno></bibl>
+        <bibl><idno type="primary-text-hash">sha256:4f41bb30a058a7e136c7adb206578b4098a92af475ca23e55859b4b93d280689</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css"/>
+      <classDecl><taxonomy xml:id="ndc"><bibl>分類番号 as recorded by <title>青空文庫</title>, read as a class of 日本十進分類法 新訂9版. Category labels are from <title>NDC9 Linked Data</title> (日本図書館協会, CC BY); a category's IRI is <ref target="http://jla.or.jp/data/ndc9">http://jla.or.jp/data/ndc9</ref> followed by # and its n.</bibl><category xml:id="ndc911" n="911"><catDesc xml:lang="ja">詩歌</catDesc><catDesc xml:lang="en">Poetry</catDesc></category></taxonomy><taxonomy xml:id="aozora-orthography"><bibl><title>青空文庫</title> 文字遣い種別: the orthographic style Aozora Bunko records for the transcription.</bibl></taxonomy></classDecl>
+      <refsDecl xml:id="source-spans"><p>A note of type source-span has an xml:id of the form source-START-END, giving the extent in UTF-8 bytes of the decoded primary text identified in sourceDesc, after the emendations declared in editorialDecl/correction are applied; each emendation replaces its sic text by its corr text at its own extent. <ptr target="https://w3id.org/soranoha/ns/tei"/></p></refsDecl>
+      <charDecl>
+        <char xml:id="gaiji-1-13-21">
+          <mapping type="unicode">Ⅰ</mapping>
+          <localProp name="rawMarker" value="ローマ数字1"/>
+          <localProp name="sourceReference" value="1-13-21"/>
+          <snh:gaiji-reference original="1-13-21" cell="21" plane="1" kind="jis-code" row="13"/>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ja">日本語</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#ndc">911</classCode>
+        <catRef scheme="#ndc" target="#ndc911"/>
+        <classCode scheme="#aozora-orthography">新字旧仮名</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p source="#source-613-642"><seg source="#source-613-642">理髪師を出張させた</seg></p>
+      <p source="#source-642-686"><seg source="#source-642-648">くる</seg><choice source="#source-648-654"><orig>／＼</orig><reg>〱</reg></choice><seg source="#source-654-686">と髪を刈つたのである</seg></p>
+      <p source="#source-686-712"><seg source="#source-686-712">春愁の髯を剃つた</seg></p>
+      <p source="#source-712-780"><seg source="#source-712-721">青々と</seg><ruby type="furigana" rend="right" source="#source-721-754"><rb>坊主頭</rb><rt>ぼうずあたま</rt></ruby><seg source="#source-754-780">になつたのである</seg></p>
+      <p source="#source-780-813"><seg source="#source-780-813">出家になつたのである。</seg></p>
+    </body>
+    <back>
+      <div type="source">
+        <note type="source-attribution" source="#source-821-971"><seg type="source-line">底本：「沖縄文学全集　第1巻　詩<g ref="#gaiji-1-13-21" source="#source-867-905">Ⅰ</g>」国書刊行会</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1991（平成3）年6月6日第1刷</seg></note>
+        <note type="transcriber-note" source="#source-971-1291"><seg type="source-line">入力：坂本真一</seg><lb/><seg type="source-line">校正：フクポー</seg><lb/><seg type="source-line">2018年3月26日作成</seg><lb/><seg type="source-line">青空文庫作成ファイル：</seg><lb/><seg type="source-line">このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。</seg></note>
+        <note type="source-span" xml:id="source-613-642" n="18"/>
+        <note type="source-span" xml:id="source-642-648" n="19"/>
+        <note type="source-span" xml:id="source-642-686" n="19"/>
+        <note type="source-span" xml:id="source-648-654" n="19"/>
+        <note type="source-span" xml:id="source-654-686" n="19"/>
+        <note type="source-span" xml:id="source-686-712" n="20"/>
+        <note type="source-span" xml:id="source-712-721" n="21"/>
+        <note type="source-span" xml:id="source-712-780" n="21"/>
+        <note type="source-span" xml:id="source-721-754" n="21"/>
+        <note type="source-span" xml:id="source-754-780" n="21"/>
+        <note type="source-span" xml:id="source-780-813" n="22"/>
+        <note type="source-span" xml:id="source-821-867" n="26"/>
+        <note type="source-span" xml:id="source-821-971" n="26"/>
+        <note type="source-span" xml:id="source-867-905" n="26"/>
+        <note type="source-span" xml:id="source-905-925" n="26"/>
+        <note type="source-span" xml:id="source-925-971" n="27"/>
+        <note type="source-span" xml:id="source-971-1291" n="28"/>
+      </div>
+      <note type="parser-completion" n="true">The n attribute is true when no parser diagnostic of error severity was raised for this source. What the converter could not interpret is recorded in the interpretation-problem and parser-diagnostic notes.</note>
+      <note type="source-decoding">windows-31j</note>
+    </back>
+  </text>
+</TEI>

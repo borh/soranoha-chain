@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:snh="https://w3id.org/soranoha/ns/tei" xmlns="http://www.tei-c.org/ns/1.0" snh:vocab-version="3">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ja">マルクスの審判</title>
+        <title type="reading" xml:lang="ja-Hira">マルクスのしんぱん</title>
+        <author><persName xml:lang="ja"><surname>横光</surname><forename>利一</forename><idno type="aozora-person-id">000168</idno></persName><persName xml:lang="ja-Hira"><surname>よこみつ</surname><forename>りいち</forename></persName><persName xml:lang="ja-Latn"><surname>Yokomitsu</surname><forename>Riichi</forename></persName></author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://w3id.org/soranoha/">Soranoha</publisher>
+        <idno type="soranoha-work-identifier">002159_000168</idno>
+        <idno type="aozora-work-id">002159</idno>
+        <idno type="aozora-card-url">https://www.aozora.gr.jp/cards/000168/card2159.html</idno>
+        <date when="2014-09-17">2014-09-17</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">The underlying work is in the public domain; Soranoha asserts no rights over it.</licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Soranoha's encoding of this work and the artifacts derived from it are dedicated to the public domain under CC0-1.0. Attribution is requested, not required. Full rights statement: <ptr target="https://w3id.org/soranoha/rights"/></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>定本横光利一全集　第一巻</title><publisher>河出書房新社</publisher><date>1981（昭和56）年6月30日</date></bibl>
+        <bibl type="first-publication">「新潮」新潮社、1923（大正12）年8月1日発行、第39巻第2号</bibl>
+        <bibl><idno type="source-content-hash">sha256:794bddcdb2c1a9e5edc4ebc8bf0f4789d18572f701cecad4786e2053a169d72f</idno></bibl>
+        <bibl><idno type="primary-text-hash">sha256:ece5e57fe4f41e42e814b5ba7aa2a50c66995434c9379b9731e1bc8207874559</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css"/>
+      <classDecl><taxonomy xml:id="ndc"><bibl>分類番号 as recorded by <title>青空文庫</title>, read as a class of 日本十進分類法 新訂9版. Category labels are from <title>NDC9 Linked Data</title> (日本図書館協会, CC BY); a category's IRI is <ref target="http://jla.or.jp/data/ndc9">http://jla.or.jp/data/ndc9</ref> followed by # and its n.</bibl><category xml:id="ndc913" n="913"><catDesc xml:lang="ja">小説．物語</catDesc><catDesc xml:lang="en">Fiction.Romance.Novel</catDesc></category></taxonomy><taxonomy xml:id="aozora-orthography"><bibl><title>青空文庫</title> 文字遣い種別: the orthographic style Aozora Bunko records for the transcription.</bibl></taxonomy></classDecl>
+      <refsDecl xml:id="source-spans"><p>A note of type source-span has an xml:id of the form source-START-END, giving the extent in UTF-8 bytes of the decoded primary text identified in sourceDesc, after the emendations declared in editorialDecl/correction are applied; each emendation replaces its sic text by its corr text at its own extent. <ptr target="https://w3id.org/soranoha/ns/tei"/></p></refsDecl>
+      <charDecl>
+        <char xml:id="gaiji-4-2-78-17">
+          <mapping type="unicode">氵</mapping>
+          <localProp name="rawMarker" value="さんずい"/>
+          <localProp name="sourceReference" value="第4水準2-78-17"/>
+          <snh:gaiji-reference original="第4水準2-78-17" cell="17" plane="2" kind="jis-code" row="78"/>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ja">日本語</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#ndc">913</classCode>
+        <catRef scheme="#ndc" target="#ndc913"/>
+        <classCode scheme="#aozora-orthography">新字旧仮名</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-498-992"><seg source="#source-498-992">市街を貫いて来た一条の道路が遊廓街へ入らうとする首の所を鉄道が横切つてゐる。其処は危険な所だ。被告はそこの踏切の番人である。彼は先夜遅く道路を鎖で遮断したとき一人の酔漢と争つた。酔漢は番人の引き止めてゐるその鎖を腹にあてたまま無理にぐんぐんと前へ出た。丁度そのとき下りの貨物列車が踏切を通過した。酔漢は跳ね飛ばされて轢死した。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-992-1957"><seg source="#source-992-1957">そこで、予審判事は、番人とはかやうな轢死を未然に防ぐための番人である以上、泥酔者の轢死は故殺であるかそれとも偶然の死であるかを探ぐるがため許りにさへも、そのときの争ひに作用した番人の心理の上に十分の疑ひを持たねばならなかつた。それに彼はその疑ひをなほ一層確実に疑ひ得られる様々の材料を発見した。第一に番人は貧しい独身者であつた。第二に轢死者は資産家の蕩児であつた。第三に番人のゐる踏切が遊廓街の入口であつた。しかし、此の被告の上に明確な判決を下すことは、事件そのものが心理的なものであるだけに容易なことではなかつた。先づその事件の現状を目撃したものがなかつたと云ふことでさへ、判事にとつて此の審問方法は普通の手ではとても無駄だと分つてゐた。</seg></p>
+      <p source="#source-1957-2064">「お前は四十一だと云つたね。妻を貰つたならどうだ。生活に困るのかな。」</p>
+      <p source="#source-2064-2117">「いえ、別に困りはいたしません。」</p>
+      <p source="#source-2117-2176">「と云ふと、望ましいのがないからか。」</p>
+      <p source="#source-2176-2223">「来てくれる者がないんです。」</p>
+      <p source="#source-2223-2306">「ふむ、では、呉れ手のあるまで捜せばよいではないか。」</p>
+      <p source="#source-2306-2368">「私はこれでもう三度妻を変へたのです。」</p>
+      <p source="#source-2368-2472">「三度な？」と云って判事は一寸笑つた。「それはまたどうしたのだね。」</p>
+      <p source="#source-2472-2513">「皆死んで了つたんです。」</p>
+      <p source="#source-2513-2602">「ふむ、死んだのか、それでその来るものがないと云ふのか。」</p>
+      <p source="#source-2602-2682">「いえ、三人とも同じ病気で死んだからだと思ひます。」</p>
+      <p source="#source-2682-2783">「三人とも同じ病気か、成る程ね、そして、それはどう云ふ病気かね。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2783-3285">さう訊いたとき判事は被告の窪んだ眼窩の底から恐怖を感じさせる一種不思議な微笑を見てとつた。そして、これは烈しい神経衰弱にかかつてゐるなと思ひながらも、被告の答へた膜と云ふ婦人病の四番目の文字は「<ruby type="furigana" rend="right" source="#source-3077-3098"><rb>月</rb><rt>にくづき</rt></ruby>」であつたかそれとも「<ruby type="furigana" rend="right" source="#source-3131-3199"><rb><g ref="#gaiji-4-2-78-17" source="#source-3131-3181">氵</g></rb><rt>さんずい</rt></ruby>」であつたかと一寸考へてみてから直ぐ又質問を次へ移した。</p>
+      <p source="#source-3285-3377">「それで何か、その夜お前は酒を少しも飲んではゐなかつたか。」</p>
+      <p source="#source-3377-3412">「飲みませんでした。」</p>
+      <p source="#source-3412-3456">「いつもは飲むんだらうね。」</p>
+      <p source="#source-3456-3512">「さう飲むと云ふほどは飲めません。」</p>
+      <p source="#source-3512-3586">「お前はあの踏切の最初からの番人だつたのだね。」</p>
+      <p source="#source-3586-3603">「はい。」</p>
+      <p source="#source-3603-3701"><seg source="#source-3603-3606">「</seg><ruby type="furigana" rend="right" source="#source-3606-3630"><rb>失策</rb><rt>しくじり</rt></ruby>が一度もなかつたさうだが、それはほんたうか。」</p>
+      <p source="#source-3701-3793">「妻のゐる頃は妻が時々やりました。私にはありませんでした。」</p>
+      <p source="#source-3793-3837">「何年踏切につとめてゐる？」</p>
+      <p source="#source-3837-3863">「十九年です。」</p>
+      <p source="#source-3863-3961">「十九年か、ふむ。」これはなかなか気の小さい男だと判事は思つた。</p>
+      <p source="#source-3961-4038">「十九年と云ふと、お前の幾つの時からかね、二十？」</p>
+      <p source="#source-4038-4223">「二十五の時からです。初めはちよいちよい失策をやりました。それでも私は失策つたと思ひましても他人には解らずにすみました。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4223-4399">何ぜ被告がさう云ふことを自分から云ひ出すのかよく判事には分らなかつた。「私の失策と云ふと、つまりどう云ふんだね。」</p>
+      <p source="#source-4399-4725">「列車の来る時が来ればシグナルを見なくても少々遠くにゐても分りますが、考へごとをしてゐると直ぐ傍へ来なければ分りません。さう云ふときこれは<ruby type="furigana" rend="right" source="#source-4606-4627"><rb>失敗</rb><rt>しまつ</rt></ruby>たと思ひまして周章て鎖を引きますがいつも半分程通つてからです。」</p>
+      <p source="#source-4725-4796">「つまり考へごとをするといけないと云ふのか。」</p>
+      <p source="#source-4796-4855">「はい、考へごとをするといけません。」</p>
+      <p source="#source-4855-4956">「考へごとと云ふと、どんな種類の考へごとかな、どう云つたやうな？」</p>
+      <p source="#source-4956-4997">「家内のことを考へます。」</p>
+      <p source="#source-4997-5164">「家内がないと云つたぢやないか、ア、さうか、つまり三人の妻のことなのか、それでどの家内に一番心をひかれるね。」</p>
+      <p source="#source-5164-5199">「一番目の家内です。」</p>
+      <p source="#source-5199-5231">「優しかつたのか。」</p>
+      <p source="#source-5231-5248">「いえ。」</p>
+      <p source="#source-5248-5292">「お前が愛してゐたのだね。」</p>
+      <p source="#source-5292-5408">「さう云ふわけぢやございませんが、何ぜだか最初のがよく心に浮んで参ります。」</p>
+      <p source="#source-5408-5512">「最初のがね、ふむ、その頃は楽しかつたと見えるな。楽しかつたかね。」</p>
+      <p source="#source-5512-5559">「今から思ふとさう思ひます。」</p>
+      <p source="#source-5559-5618">「此の頃はもう楽しみなことはないか。」</p>
+      <p source="#source-5618-5644">「ありません。」</p>
+      <p source="#source-5644-5670">「何もないか。」</p>
+      <p source="#source-5670-5687">「はい。」</p>
+      <p source="#source-5687-5743">「では、勤めもいやなことだらうね。」</p>
+      <p source="#source-5743-5760">「はい。」</p>
+      <p source="#source-5760-5792">「いやか、勤めは？」</p>
+      <p source="#source-5792-5851">「はい、あまり好きではございません。」</p>
+      <p source="#source-5851-6054">「ふむ、それでお前は何か、お前の踏切りでお前の勤務時間以外のときに轢死人があつても、お前に責任がないと云ふことを知つてゐるだらうね。」</p>
+      <p source="#source-6054-6110">「はい、それはよく存じてをります。」</p>
+      <p source="#source-6110-6199">「三日の夜の轢死人は泥酔してゐたと云ふが事実であらうな。」</p>
+      <p source="#source-6199-6216">「はい。」</p>
+      <p source="#source-6216-6326">「ではそのときの様子を成る可く精細に話してみよ。嘘を云つてはならぬぞ。」</p>
+      <p source="#source-6326-6556">「はい、さうでございますね。あのう十二時二十分の貨物列車の下つて来るまでには少々間がありましたので、それで、私は夕暮に植ゑた孟宗竹を見に行つたのです。」</p>
+      <p source="#source-6556-6642">「ああ一寸待て、独り暮しになつてからどれほどになるな。」</p>
+      <p source="#source-6642-6674">「四年になります。」</p>
+      <p source="#source-6674-6727">「四年か、ふむ、植木は好きかな。」</p>
+      <p source="#source-6727-6783">「はい、いたつて好きでございます。」</p>
+      <p source="#source-6783-6833">「よしよし、それからどうした。」</p>
+      <p source="#source-6833-7045">「それから何かしたいと思ひましたが、することがなかつたので鎖を曳いて了ひました。そこへ<ruby type="furigana" rend="right" source="#source-6962-6989"><rb>泥酔人</rb><rt>よひどれ</rt></ruby>が坂を下つて来て通せと云ふのです。」</p>
+      <p source="#source-7045-7101">「そのとき貨物の音はしてゐたのか。」</p>
+      <p source="#source-7101-7148">「はい、もうしてをりました。」</p>
+      <p source="#source-7148-7204">「通してやればよかつたではないか。」</p>
+      <p source="#source-7204-9168">「はい、私はいつも一度鎖を引けば通る程の時間がございましても通さないことにしてをります。そのときも矢張り通しませんでした。するとあの男は、それぢや俺が通つてやると云つて私の引つ張つてゐる鎖の中程の所へ腹をあてて出ようとしたんです。私は必死の力で引いてゐたのですが、そのうちに私もそれについて二足三足曳かれてゆきました。そのとき、来たな、と思ひました。あなたさまは貨物列車の音を御存知でせうが、貨物の音は普通の客車とは違つて奇妙な音なんです。あの車の音は少し遠くにゐるときも傍まで来たときも同しほどの激しさなんです。それに、あの夜は真暗な所へもつて来て貨物列車が又真黒な物ですから、どこまで来てゐたのだかはつきりしなかつたんです。貨物はそれで一番恐ろしうございます。私はそのとき鎖を、かう必死に引つ張つたんですが、あの男はもう余程線路の近くまで出てをりました。もつとも私が傍まで行つて突き飛ばすか引き戻すかしてやれば、あの男も助かつてゐたと思ひますが、何分そのときはもう度胆がぬかれてをりましたし、それに、あの貨物の音を真近で聞きますと、それやもう変な気になつて了ふのです。何と云ひませうかね、もうただぼんやりして了ふのですよ。風に吸ひ込まれるやうな、何だか息がぐつとつまつて、眼まひがするんです。それでも私はよほどぐつと鎖をひつぱつたつもりなんですが、その中に、風がサツと来たと思つたら、私の鎖を持つてゐる手がひどく痛かつたのを覚えてをります。さうしたら、何でもあの男は私の眼の前をぱつと飛んで行きました。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-9168-9248"><seg source="#source-9168-9248">判事は被告の話し方があまり整ひすぎてゐると思つた。</seg></p>
+      <p source="#source-9248-9442">「一寸待て、そのとき、誰か見てゐたものがあつたかね。」と彼は訊かうとしたが、それではこちらの気持ちを知らしめる恐れがあつたので、</p>
+      <p source="#source-9442-9507">「誰か傍に人でもゐたかね。」と訊いてみた。</p>
+      <p source="#source-9507-9551">「いえ、をりませんでした。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-9551-9790"><seg source="#source-9551-9790">と被告は直ぐに答へた。この場合その直ぐ明瞭に答へ得られたと云ふことは、被告が犯罪の際人目のないと云ふことを意識してゐたと思はれて、また判事の疑ひを尚強めた。</seg></p>
+      <p source="#source-9790-10038">「ふむ、ゐなかつたか、しかし、見てゐたと云ふ者がゐるのだが、その者の云ふこととお前の云ふこととは少し相違してゐるやうであるぞ。偽りはないかね。」と判事は嘘を云つた。</p>
+      <p source="#source-10038-10394">「それは分らなかつたのでせう。何しろ暗かつたのでよく分らなかつたんでせう。どちらの側にをりました？」と被告は少しうろたへた様子で訊き返した。彼のうろたへたと云ふことは彼の陳述に不純な気持ちと作り事とが交つてゐたと云ふことを判事に教へた。</p>
+      <p source="#source-10394-10516">「お前はその酔漢が鎖を引き摺つて出ようとしたとき、何ぜ手で引きとめなかつたか。」</p>
+      <p source="#source-10516-10569">「鎖で間に合ふと思つてゐました。」</p>
+      <p source="#source-10569-10652">「お前はその男をとめるのに何とか言葉をかけたのかね。」</p>
+      <p source="#source-10652-10756">「いえ、酒を飲んでゐるなと思ひましたので、相手になりませんでした。」</p>
+      <p source="#source-10756-10911">「ふむ、なる程。しかし、酒を飲んでゐると気付いたなら、なほ鎖でとめると云ふことがいけないぢやないか。」</p>
+      <p source="#source-10911-11246">「いえ、それはちがひますよ。鎖の方がとめやすうございます。普通の方はどなたもさうお思ひになりませうが、この道の者なら誰だつて鎖でとめると思ひます。それに、手でとめましては相手が相手ですから、なほ喧嘩になつてしまひますよ。」</p>
+      <p source="#source-11246-11398">「それはさうだね。喧嘩になりさうだ。で、何かね、その男が誰だつたかお前は最初から知つてゐたんかね。」</p>
+      <p source="#source-11398-11448">「それは見覚えはございました。」</p>
+      <p source="#source-11448-11561">「その男は最初に何とかお前に云はなかつたか。鎖でお前がとめるとき何とか。」</p>
+      <p source="#source-11561-11728">「さうですね、云ひました。何だか云つてたやうです。何をしやがる、ふざけるない、つてそんなことを云ひましたよ。」</p>
+      <p source="#source-11728-11757">「それだけかな。」</p>
+      <p source="#source-11757-11843">「いえ、まだ何とか云ひました。私は黙つてゐたのですよ。」</p>
+      <p source="#source-11843-11884">「何を云つた、その男は。」</p>
+      <p source="#source-11884-12021">「俺をとめるつてことがあるかい。俺はね、俺は通つてやるぞ、つてそんなことも云ひましたね。」</p>
+      <p source="#source-12021-12110">「ふむ、さうして、それだけか、まだ何とか云はなかつたか。」</p>
+      <p source="#source-12110-12289">「もう覚えてはをりません。何んだかまるきり他のことを饒舌つてゐたやうですが、何のことだかよく私には分りませんでした。」</p>
+      <p source="#source-12289-12417">「お前は日頃通行人をあまり早くから止めると云ふ評判だが、それはどう云ふつもりかな。」</p>
+      <p source="#source-12417-12488">「早くとめる方が安全で良からうと思ふのです。」</p>
+      <p source="#source-12488-12523">「事実それだけかな。」</p>
+      <p source="#source-12523-12561">「はい、それだけです。」</p>
+      <p source="#source-12561-12662"><seg source="#source-12561-12564">「</seg><ruby type="furigana" rend="right" source="#source-12564-12576"><rb>止</rb><rt>と</rt></ruby>めることを面白いと思つたやうなことは一度もなかつたか。」</p>
+      <p source="#source-12662-12769">「さうでございますね、さう云はれますとそんな気も時々はございました。」</p>
+      <p source="#source-12769-12822">「何ぜ面白いと思ひ出したのかね。」</p>
+      <p source="#source-12822-12857">「それは解りません。」</p>
+      <p source="#source-12857-12940">「いつ頃からそんな面白味を知り始めたのか分らないか。」</p>
+      <p source="#source-12940-12978">「最初からのやうです。」</p>
+      <p source="#source-12978-13049">「矢張り面白いといつも思つてゐたのであらう。」</p>
+      <p source="#source-13049-13099">「そんなことはございませんよ。」</p>
+      <p source="#source-13099-13230">「お前は近年道路を遮断するとき、通行人とよく争ふと云ふことだがそんな覚えはあるかな。」</p>
+      <p source="#source-13230-13247">「はい。」</p>
+      <p source="#source-13247-13270">「争ふかね。」</p>
+      <p source="#source-13270-13359">「はい少し早い加減にとめる時よくそんなことがございます。」</p>
+      <p source="#source-13359-13466">「それが近年になつてひどくなつて来たと云ふことだが、事実であらうな。」</p>
+      <p source="#source-13466-13555">「さうでございます。少しひどくなつたやうにも思はれます。」</p>
+      <p source="#source-13555-13656">「面白味を知り始めたと云ふのも、独身者になつてからではないかな。」</p>
+      <p source="#source-13656-13718">「いえ、それや、さうではございません。」</p>
+      <p source="#source-13718-13819">「ふむ、しかし、路をとめると云ふことは、そんなに面白いものかね。」</p>
+      <p source="#source-13819-13926">「何ぜだか、この路は俺の領分だと云つたやうな、そんな気がするんです。」</p>
+      <p source="#source-13926-14063">「なる程ね、お前の職業はただ気ばかり使ふだけで実の上らぬ仕事だから、面白くはなからうの。」</p>
+      <p source="#source-14063-14080">「はい。」</p>
+      <p source="#source-14080-14112">「疲れはせぬかな。」</p>
+      <p source="#source-14112-14135">「疲れます。」</p>
+      <p source="#source-14135-14245">「さうだらう。十九年もよく務まつたな。病気にはかかつたことがあるかな。」</p>
+      <p source="#source-14245-14283">「時々はかかりました。」</p>
+      <p source="#source-14283-14342">「ふむ、<ruby type="furigana" rend="right" source="#source-14295-14316"><rb>遊廓</rb><rt>あそび</rt></ruby>には行くかな。」</p>
+      <p source="#source-14342-14368">「行きません。」</p>
+      <p source="#source-14368-14406">「行きたくはないのか。」</p>
+      <p source="#source-14406-14459">「行つてみたいこともございます。」</p>
+      <p source="#source-14459-14506">「では行けばよいではないか。」</p>
+      <p source="#source-14506-14556">「行つたつてつまらないんです。」</p>
+      <p source="#source-14556-14582">「どうしてだ。」</p>
+      <p source="#source-14582-14635">「つまりませんよ、馬鹿らしうて。」</p>
+      <p source="#source-14635-14664">「金がないのか。」</p>
+      <p source="#source-14664-14792">「金はございます。」と被告は云ふと、暫くして、「困りますよ。」と低く俯向いて云つた。</p>
+      <p source="#source-14792-14896">「ふむふむ、ぢや何か、そのお前の噂が廓にまで拡つてゐるとみえるね。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-14896-14928"><seg source="#source-14896-14928">被告は黙つてゐた。</seg></p>
+      <p source="#source-14928-14984">「いつ頃から行かなくなつたのだね。」</p>
+      <p source="#source-14984-15028">「もう一年以上行きません。」</p>
+      <p source="#source-15028-15231">「さうか、そして、その最後のときはどうだつた。つまりどんな目に会つたのかと云ふのだ。何かつまらないと思ふやうなことでもあつたのかね。」</p>
+      <p source="#source-15231-15281">「私が行くといやな顔をします。」</p>
+      <p source="#source-15281-15349">「ふむふむ、いやな顔をね、何とか云ふのか。」</p>
+      <p source="#source-15349-15366">「はい。」</p>
+      <p source="#source-15366-15398">「何と云つたのだ。」</p>
+      <p source="#source-15398-15439">「幽霊が来たと申します。」</p>
+      <p source="#source-15439-15609">「ふむ、それはどう云ふ意味のことだかお前は知つてゐるのかね。もつともお前に関したことだらうが、成程ね、幽霊か。」</p>
+      <p source="#source-15609-15659">「家内のことだらうと思ひます。」</p>
+      <p source="#source-15659-15850">「ふむ、成る程、それは困つたことだ。遠くの廓へ遊びに行けばよいではないか。それとも何か行かなくともいいやうな所があるのかね。」</p>
+      <p source="#source-15850-15888">「いえ、ございません。」</p>
+      <p source="#source-15888-15974">「ないのか、なくては困るであらう。夜はよく眠れるかね。」</p>
+      <p source="#source-15974-16000">「眠れません。」</p>
+      <p source="#source-16000-16050">「さうであらう。夢を見るかな。」</p>
+      <p source="#source-16050-16091">「はい、夢はよく見ます。」</p>
+      <p source="#source-16091-16150">「どう云ふ種類の夢を一番よく見るか。」</p>
+      <p source="#source-16150-16266">「歯の抜ける夢をよく見ます。それから、熟柿のべたべた落ちる夢も時々みます。」</p>
+      <p source="#source-16266-16343">「ははア、酔漢の通つた前夜はどんな夢を見たかな。」</p>
+      <p source="#source-16343-16393">「それはよく覚えてをりません。」</p>
+      <p source="#source-16393-16554">「ふむ、覚えてはゐないか。お前はその酔漢を見たとき、どう思つたか、<ruby type="furigana" rend="right" source="#source-16492-16519"><rb>粋客</rb><rt>あそびにん</rt></ruby>だとは思つたらうね。」</p>
+      <p source="#source-16554-16634">「はい、いづれ<ruby type="furigana" rend="right" source="#source-16575-16596"><rb>遊興</rb><rt>あそび</rt></ruby>に行くとは思ひました。」</p>
+      <p source="#source-16634-16681">「その男は金持ちだつたかね。」</p>
+      <p source="#source-16681-16698">「はい。」</p>
+      <p source="#source-16698-16784">「お前はいつも粋客を見たとき、どんな気持ちが起るかね。」</p>
+      <p source="#source-16784-16864">「慣れてゐますから、別にどうと云ふ気も起りません。」</p>
+      <p source="#source-16864-16926">「お前の勤務時間は夜の十二時だつたね。」</p>
+      <p source="#source-16926-16943">「はい。」</p>
+      <p source="#source-16943-17074">「それにしては、お前の務め時間以外のときまで見張りをすると云ふのはどうしたことかな。」</p>
+      <p source="#source-17074-17259">「それは癖になつてゐるのです。眠れないときだけは、いつも番をすることにしてをります。その方が私には都合が良うございます。」</p>
+      <p source="#source-17259-17288">「都合と云ふと。」</p>
+      <p source="#source-17288-17353">「その方がつまりまア楽な気がするのです。」</p>
+      <p source="#source-17353-17412">「人々のためを思つてではないのだね。」</p>
+      <p source="#source-17412-17429">「はい。」</p>
+      <p source="#source-17429-17599">「あの通りは坂になつてゐるし、それにお前の踏切は人通りが多いから、遅くまで見張りをしてやる方がいいではないか。」</p>
+      <p source="#source-17599-17766">「そんなことなど思つてはゐられませんよ。直ぐには寝つかれませんから見張りでもしてゐないと苦しくつて困ります。」</p>
+      <p source="#source-17766-17984">「通行人や近所の者達は、お前があまり早くから鎖をひいたり夜遅くまで見張りをしたりすることについて、どのやうな評判をするか考へたことがあるかね。」</p>
+      <p source="#source-17984-18073">「はい、それはいづれよく云はれてゐないとは思つてゐます。」</p>
+      <p source="#source-18073-18216">「では人々から悪く思はれないやうに心掛けるよりも、自分の面白いことをしてみたいと云ふのかね。」</p>
+      <p source="#source-18216-18509">「まア、さう云はれるとそのやうなものですが、もう私は他人の云ふやうなことなぞに気をかけないでゐるつもりです。そんなことを気にしてゐた日には、馬鹿らしくてとてもあんな仕事なんかしてゐられません。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18509-18550"><seg source="#source-18509-18550">被告は一寸言葉を切ると、</seg></p>
+      <p source="#source-18550-18660">「もう私はどうされたつてようございますよ。」とさう云つて判事を見上げた。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18660-19184"><seg source="#source-18660-19184">先手に来たな、と判事は思つた。最早やここまで来れば少し被告の頭を翻弄してかからなければ駄目だと知つた。それに被告の先手を打つたその顔が、真面目であればある程それがいかにも図々しく思はれた。が、又一方その図太さが二人の間の心理的関係を複雑に押し進めては行くものの、却つて自分の疑つてゐる事件の中心に割り込み易い隙間を作るにちがひないと判事は思つた。</seg></p>
+      <p source="#source-19184-19267">「お前には世間の者らが自分の味方のやうに見えるかね。」</p>
+      <p source="#source-19267-19338">「そんなことは私は考へたことがございません。」</p>
+      <p source="#source-19338-19445">「お前が路を遮断するとき、人々が敵のやうに思へたことはなかつたかな。」</p>
+      <p source="#source-19445-19492">「はい、ございませんでした。」</p>
+      <p source="#source-19492-19728">「いや、お前に限らず踏切の番人には、心理学的に云つて、即ち学問上から考察した場合、必ず起らなければならない気持ちなんだが、それでもなかつたとお前は云ふか。」</p>
+      <p source="#source-19728-19805">「それは何んでございます、幾らかはございました。」</p>
+      <p source="#source-19805-19945">「お前はその夜、酔漢を引きとめるとき、誰もあたりに見てゐないと云ふことを知つてゐたらうね。」</p>
+      <p source="#source-19945-20007">「いえ、そんなことは存じませんでした。」</p>
+      <p source="#source-20007-20066">「前に知つてゐたと答へたではないか。」</p>
+      <p source="#source-20066-20164">「いえ。そんなことは申しませんよ。そんなことは申し上げません。」</p>
+      <p source="#source-20164-20244">「では、何ぜ知らないとさうきつぱり云ひたいのかな。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-20244-20309"><seg source="#source-20244-20309">被告は微笑を洩すと下唇を噛んで俯向いた。</seg></p>
+      <p source="#source-20309-20398">「お前はその夜の行為について万事正当だと思つてゐるかね。」</p>
+      <p source="#source-20398-20415">「はい。」</p>
+      <p source="#source-20415-20558">「では、知らないと云つても、知つてゐたと云つても、お前には少しも差し閊へのない筈ではないか。」</p>
+      <p source="#source-20558-20605">「はい、さやうでございます。」</p>
+      <p source="#source-20605-20721">「お前はその夜、酔漢を引きとめる際、あの男を敵のやうには思はなかつたかな。」</p>
+      <p source="#source-20721-20789">「いえ、それやそんな気は起りませんでした。」</p>
+      <p source="#source-20789-20890">「お前は前に社会主義に関する何かの書物でも見たことがあつたかね。」</p>
+      <p source="#source-20890-20907">「いえ。」</p>
+      <p source="#source-20907-21002">「誰からかさう云ふ書物に書いてあることを訊いた覚えはないか。」</p>
+      <p source="#source-21002-21040">「はい。ございません。」</p>
+      <p source="#source-21040-21165">「お前は傭員が時間短縮を鉄道局へ迫つたとき、それに連名してゐたと云ふではないか。」</p>
+      <p source="#source-21165-21182">「はい。」</p>
+      <p source="#source-21182-21277">「では、何ぜあのやうな社会主義的な訴へに連名してゐたのかな。」</p>
+      <p source="#source-21277-21519">「それは仕方がなかつたのです。私にはあんなことをするのが社会主義のやることだかどうかは知りませんでした。たゞ這入れと云はれましたので這入つただけでございます。」</p>
+      <p source="#source-21519-21593">「お前はいつも金持ちをどんな風に思つてゐるな。」</p>
+      <p source="#source-21593-21637">「別にどうとも思ひません。」</p>
+      <p source="#source-21637-21687">「金持ちにはなりたくないのか。」</p>
+      <p source="#source-21687-21788">「それやならしてやらうと<ruby type="furigana" rend="right" source="#source-21723-21747"><rb>仰言</rb><rt>おつしや</rt></ruby>ればなりたうございます。」</p>
+      <p source="#source-21788-21877">「お前に連名をすすめたものは誰かな。誰かあつたであらう。」</p>
+      <p source="#source-21877-22176">「誰もございません。紙が廻つて来たので見ますと、それには私の名がちやんと書いてあつたのです。それには名前の上へ賛成のものは印を捺すやうと書いてございましたので、ただ印を捺しましただけでございます。」</p>
+      <p source="#source-22176-22226">「誰がその紙を持つて来たのか。」</p>
+      <p source="#source-22226-22312">「それは私の名の前に書いてあつた服部勘次と云ふ男です。」</p>
+      <p source="#source-22312-22353">「その男の職業は何かな。」</p>
+      <p source="#source-22353-22436">「同じ踏切番でございます。ただあの男は乙種の方です。」</p>
+      <p source="#source-22436-22465">「乙種と云ふと。」</p>
+      <p source="#source-22465-22512">「昼の間だけ番をするのです。」</p>
+      <p source="#source-22512-22556">「お前は甲種と云ふのかな。」</p>
+      <p source="#source-22556-22573">「はい。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-22573-23142"><seg source="#source-22573-23142">判事はこのかなりに長い審問から、自分の質問の中心点である被告が性的な嫉妬から蕩児を轢殺したのかそれとも階級的な反感から轢殺したものかと云ふ疑ひを、相手に知らしめて了つただけで、ただ得たものは自身のその疑ひを僅かに強めることが出来たにすぎないと思ふと、彼の気持ちは一刻も早く被告に自白を迫りたくなつて来た。それには、先づ何より被告の頭に激動を与へてかからなければ無駄だと知つた。</seg></p>
+      <p source="#source-23142-23279">「お前が早くから道路を遮断すると云ふのは、世間のものが敵のやうに見えたからであらうがな。」</p>
+      <p source="#source-23279-23338">「いえ、それはさうではございません。」</p>
+      <p source="#source-23338-23463">「あの道が自分のものだと思ひ出したのも、お前が独身者になつてからのことであらう。」</p>
+      <p source="#source-23463-23588">「いえ、さうではございませんよ。それはもう、私が務め出したときからでございます。」</p>
+      <p source="#source-23588-23629">「偽りを云つてはならぬ。」</p>
+      <p source="#source-23629-23706">「はい、それはもう最初からさう思つてをりました。」</p>
+      <p source="#source-23706-23798">「お前は夜遅く廓へ通ふ者達を見ると敵のやうに思ふであらう。」</p>
+      <p source="#source-23798-23920">「御冗談を<ruby type="furigana" rend="right" source="#source-23813-23837"><rb>仰言</rb><rt>おつしや</rt></ruby>つては困りますよ。私は決してそんな考へは起しません。」</p>
+      <p source="#source-23920-23949">「何ぜ困るのか。」</p>
+      <p source="#source-23949-24008">「そんなことを仰言つては困りますよ。」</p>
+      <p source="#source-24008-24049">「お前に都合が悪いのか。」</p>
+      <p source="#source-24049-24177">「都合が悪いと云ふわけではございませんが、そんな考へなぞ起したことはございません。」</p>
+      <p source="#source-24177-24275">「お前はお前の都合のよいときばかり、はいはいと云つてゐたのか。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-24275-24484"><seg source="#source-24275-24484">被告は何か云ひたさうに口を動かしたが黙つてゐた。ただ小鼻がひとりぴこぴこ動いてゐた。すると、彼の顔は眼の縁を残して少し青味を帯んで来た。</seg></p>
+      <p source="#source-24484-24585">「お前はあの酔漢を金持ちと見たとき、敵のやうに思つたのであらう。」</p>
+      <p source="#source-24585-24602">「はい。」</p>
+      <p source="#source-24602-24727">「事件の当夜、お前は列車の来たのを見はからつてその酔漢を突き飛ばしたのであらう。」</p>
+      <p source="#source-24727-24744">「はい。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-24744-24806"><seg source="#source-24744-24806">被告は窓の外を見たまま傲然としてゐた。</seg></p>
+      <p source="#source-24806-24835">「さうであらう。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-24835-24867"><seg source="#source-24835-24867">被告は黙つてゐた。</seg></p>
+      <p source="#source-24867-24887">「どうだ。」</p>
+      <p source="#source-24887-24970">「もうどうなりとして下さい。」と被告は強く云ひ放つた。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-24970-25860"><seg source="#source-24970-25860">判事は被告の怒つた顔を見てゐると、事実事件の当夜の被告の行為が自分の疑ひと一致してゐるとすれば、まさか今の場合さうむきに怒ることが出来なからうと思はれて、今迄感じてゐた自分の疑ひもいくらかとけた。しかし、被告の怒りもこちらの横車を押した論理のために怒つたものと思へないではなかつた。してみれば、被告の怒りも、別に、心に覚えのないことをあるやうに云はれたときの根深い怒りとも思はれなくなつて来て、結局判事にはまた以前の疑ひが凝ひとしてつきまとつて来た。しかし、なほこれ以上審問を続けて行くとすれば、被告の反感を拭いてかからなければならなかつた。判事は顔に微笑を湛へながら静に優しく問ひ続けた。</seg></p>
+      <p source="#source-25860-25943">「お前はあの轢死人に妻のあるのを知つてゐるだらうね。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-25943-26008"><seg source="#source-25943-26008">被告はまだ窓の外を見たまゝ答へなかつた。</seg></p>
+      <p source="#source-26008-26097">「子供もたしかあつた筈だつたが、それも知つてゐるのかね。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-26097-26138"><seg source="#source-26097-26138">被告は矢張り黙つてゐた。</seg></p>
+      <p source="#source-26138-26206">「少しもお前は知らないのかな。どうなのだ。」</p>
+      <p source="#source-26206-26289">「知つてゐます。」と被告は敵意を含んだ声で強く云つた。</p>
+      <p source="#source-26289-26507">「さうか、知つてゐるのか。お前がもしそのとき酔漢を引きとめずに、素直に通してをいてやつたら、あの男を死なさずに済んだであらうとは思はないかな。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-26507-26539"><seg source="#source-26507-26539">被告は黙つてゐた。</seg></p>
+      <p source="#source-26539-27465">「もしお前がいつも通行人に対して、優しい心を持つてゐたなら、そのときだつて故意に鎖の権利で引きとめないで通しておいたと思ふであらう。無論死人も悪い。だが、お前にしても全然いいことをしたのではなからう。たとひお前がどれほど正当であるにしろ、お前はあの踏切りでさう云ふ轢死人のないためにと置かれた番人ではないか。それにお前があの男の傍にゐなかつたらともかく、さうではなくてお前が現にその傍についてゐたのだからね。そればかりではない、お前がもしそのとき、そこにゐなかつたなら、却つてあの男も助かつてゐただらう。それにお前がゐたばかりにあの男は死んだのだ。あの男の妻はお前のことをどんな風に思てゐるか考へたことはないかな。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-27465-27530"><seg source="#source-27465-27530">判事の方を見た被告の眼は急に光つて来た。</seg></p>
+      <p source="#source-27530-27601">「お前は妻のあつたときは楽しかつたであらう。」</p>
+      <p source="#source-27601-27651">「はい。」と被告は小さく云つた。</p>
+      <p source="#source-27651-27974">「お前は妻と子のある立派な一人の男を殺したのだとは思はないか。お前には楽しいことが何もないと云つたが、それは成る程よく分る。だが、あの男にはまだまだ楽いことがあつたのだ。世の中が面白かつたのだ。さう思ふであらう。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-27974-28018"><seg source="#source-27974-28018">被告は黙つて俯向いてゐた。</seg></p>
+      <p source="#source-28018-28767">「あの男が死んだなら、妻と子供はどんなに困ると思ふ。お前はいゝ。お前はひとりで淋しく暮さねばならぬと云つてもそれは仕方がない。だが、残つたあの男の妻と子供は、何もわざわざ淋しく暮さないでもよいものを一生淋しく暮さねばならないのだ。お前はたとひ自分のしたことが正当だと思つても、死人の妻や子供はいつまでもお前を恨んでゐるにちがひない。矢張りお前に殺されたのだと思つてゐるにちがひない。それはお前がいくら正当だと云ひ張つたにしろ、さうは思ふまい。矢張り殺したのはお前であつて他の誰でもないのだからな。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-28767-28841"><seg source="#source-28767-28841">判事は被告の頭が垂れ下つて行くのを眺めてゐた。</seg></p>
+      <p source="#source-28841-29251">「ここだツ。」と判事は思つた。彼は勝ち誇つた気持ちになつた。「お前はその男を突き飛ばしたのであらう。」と云ひたかつた。が、そのとき、被告は急に頭を上げると怒つたやうな表情をして判事を睥んだ。すると、突然腹痛でも起つたかのやうに彼の顔が顰み出すと、涙が頬を伝つて落ち始めた。</p>
+      <p source="#source-29251-29307">「私が殺しました。はい殺しました。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-29307-29429"><seg source="#source-29307-29429">何かに引つかかるやうな声でさう被告は云つた。判事は訳の分らぬ昂奮を感じて来た。</seg></p>
+      <p source="#source-29429-29542">「お前はまだ踏切番がしたいかな。」と判事はまるきり心にもないことを訊いた。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-29542-29637"><seg source="#source-29542-29637">被告は椅子の上へ腰を降すと頭をかゝへ込んだまゝ答へなかつた。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-29637-30848"><seg source="#source-29637-30848">判事はかうも手易く誘ひ込まれて来た被告を思ふと、急に今迄の勝ち誇つた気持ちが薄らぐのを感じた。そればかりではなかつた。彼は彼自身漸く握り得たと思つた疑ひの確証さへも再び前のやうに取り失つた。何ぜかと云へば、彼は自分の手段が自分ながらいかにも巧妙であつたと賞讃したい程であつたから。実際いかなるものと云へども、譬へばもしも明らかに故意の殺人ではなかつたと知り得ることの出来る判事自身でさへ、被告の立場に置かれたとき、その巧みな判事の言葉のために被告と同じ悲しみの言動に落されない者はあつたであらうか。それを思ふと、判事の疑ひは却つて彼自身の弁舌の巧みさに邪魔されてまた尽く迷蒙の中に這入つていつた。しかし、それかと云つて彼はまだ自分の疑ひを捨て去ることは出来なかつた。そこで、彼は被告から最も信用すべき自白の言葉をきくためには、今一度被告に投げ与へた悲しみを逆に取り消してかからなければならないのを知つた。</seg></p>
+      <p source="#source-30848-30910">「お前は前にあの酔漢を見たと云つたね。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-30910-30945"><seg source="#source-30910-30945">被告は答へなかつた。</seg></p>
+      <p source="#source-30945-30986">「よく知つてゐたのかな。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-30986-31060">被告は何かを飲み込むやうに「はい。」と云つた。</p>
+      <p source="#source-31060-31119">「あの男はいつも泥酔してゐたのかね。」</p>
+      <p source="#source-31119-31136">「はい。」</p>
+      <p source="#source-31136-31219">「お前は妻のあつたとき、廓へは行つたことがあつたか。」</p>
+      <p source="#source-31219-31317">「ございません。」と被告は鼻声で云ふと赤くなつた眼で判事を見た。</p>
+      <p source="#source-31317-31658">「ふむ、お前はあの酔漢の妻が困つてゐたのを知つてゐたのか。あの妻は困つてゐたのだ。毎夜毎夜良人が夜遊びをして家を空けるので困つてゐたと云ふことだ。お前は何かね、あの男と妻とが、いつも争ひをし続けてゐたのも知らなかつたのかね。」</p>
+      <p source="#source-31658-31753">「はい。」と云つて、被告は鼻を拭いたが、直ぐまた頭をかかへた。</p>
+      <p source="#source-31753-32112">「妻から離縁を迫られてゐたさうだ。ああ云ふ放蕩者は実際の所を云ふと、死んでも別に差し閊へがないのだが、本官は一応取り検べる必要上お前を悲しませてみただけである。さう悲しまなくともよい。多分お前は列車の近づくのが分らなかつたのであらうね。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-32112-32144"><seg source="#source-32112-32144">被告は黙つてゐた。</seg></p>
+      <p source="#source-32144-32245">「お前は最後までその男の出て行くのを引きとめてゐたのであらうな。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-32245-32340"><seg source="#source-32245-32340">矢張り被告は答へなかつた。彼は大きく溜息をつくと顔を顰めた。</seg></p>
+      <p source="#source-32340-32420">「そこが大切な所ではないか。どうだ。さうであらう。」</p>
+      <p source="#source-32420-32437">「はい。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-32437-32520"><seg source="#source-32437-32520">さう被告は低く答へると涙がまた頬を伝つて流れ出した。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-32520-33166"><seg source="#source-32520-33166">自分の言葉のために被告の態度がどんなに変つてゆくかと云ふことを眺めてゐた判事には、被告の様子がまだいかにも悲しさうに見えた。しかし、彼には被告の悲しみは自分に悲しめられた名残りの悲しみであるのか、それとも被告自身の秘めた行為を意識しての悲しみであるのか明瞭に見極めることが出来なかつた。そして、最早や判事は自分の疑ひを確証するいかなる方法をも案出することが出来なくなると、やむなくその日の審問はそれで終らなければならなかつた。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-33166-39582">その夜判事は床へ這入るとまたその日の審問を思ひ廻らした。――事実、被告は酔漢を突き飛ばしたものであらうか、それとも酔漢の死は被告の云つたやうに偶然の死であつたか――それにしても被告は自身に危険な言葉に対して、何ぜあれほども敏感であり得たか。それにも拘らず何ぜあれほど白々しく先手を打つて出て来たか。この二つの反した態度を審問に応じて巧みに変化さし得た被告を思ふと、判事の疑ひは又深まりかけた。しかし、一方は落されまいとし、一方は落さうと努めなければならない場合が場合であるだけに、それを感じた以上守らうとすることに専念する被告の気持ちはいづれ正当なものにちがひなかつた。所詮判事は昼の迷ひを迷ひ続ける以外に何の得る所もなくなつた。しかし、それかと云つて一度は判決を下さなければならない以上そのままに捨てて置くわけにもいかなかつた。これは判事を苦しめた。が、ここまで来れば、判事として最も正しい判決を下す方法は、逆に自分自身の心理に向つて審問してみることであると気がついた。一体何故に自分は自分の疑ひを疑ひとして持ち始めたか。何故に自分はその疑ひを疑ひとして深めてゆくことに努めたか。何故に自分は自分の疑ひの正当である可きことを確信したか。と、さう彼は考へ始めたとき、彼は自分が近年ひどく疑ひ深くなつて来てゐることを発見した。それには永年の判事生活から来る習慣が手伝つてゐることは勿論であるとしても、しかし、ただそれだけではなく自分の洞察力に対する深い自信と、それになほ油をかける神経衰弱とが原因してゐた。此の外にまだ大きな原因が一つあつた。それは彼が前に現下の最も人心の帰趨に多く関係を持つ思想と犯罪との接触点を検点しようとして、社会主義思想の書物を選んだとき、彼の手に入つたものは「マルクスの思想と評伝」と云ふ書物であつた。これを見ると、彼は世界の人心が目下の所資産家階級を撲滅しようとしてゐる無資産階級の団流と、それに対抗して無産家階級の力を圧殺しようとしてゐる資産家階級の団流とのこの二つの階級が、絶えず争つてゐるのを知つた。そのときから、十数万円の家産を持つてゐる判事の感情は、彼の理智がマルクスの理論の堂々とした正しさを肯定すればするほど、その系統に属する一切の社会思想に反感と恐怖と敵意とを持つにいたつた。この彼の感情は頻々として起る様々な社会運動の勃発する度毎に、極めて敏感に恐怖をもつて激しく揺れた。このため彼の正しくあらねばならなかつた審問と判決との上に、どれほど多くの影響を与へてゐたかと云ふことを考へたことはまだ彼には曽てなかつた。しかし、今判事の理智はその方へ向つて来た。彼は前に被告が傭員の時間短縮を鉄道局へ迫つた事件に関係してゐたと云ふことを知つたとき、直ちに自分の社会運動を防衛したがる習慣的な恐怖が、審問の最初から自然被告を敵の立場に置いてかかつてゐたことに気がついた。勿論役目の立場として被告に疑ひを向けてかゝらなければならないのは分つてゐるとしても、しかし事実自分の疑ひはただ単にそのためにばかり深められてゐたとは判事にも思へなかつた。それを知ると、被告の貧しい上に労働が激しければ激しいほど、他人から時間短縮の訴へに誘はれれば教養のない程度に比例して、それだけ被告のその運動に熱情のでることは別に何の不思議もないやうに思はれ出した。それに被告が無智であればあるほど富貴な蕩児に反感を持つたにちがひないとの前の自分の推断は、論理に於て一見正しさうではあるが、その実、それは逆に無智であればあるほど相手の富貴が直接に影響を被告に与へてゐない限り、なほそれだけ相手に反感を持ち得なさうに思へば思ふことが出来て来た。無論被告と酔漢とが争つた以上、そこに何かの反感のあつたことは疑へない事実ではあつた。だがそれとて、自分が被告に向けてゐた敵のやうな反感とはちがつて、被告の反感はただ自由な蕩児を羨むありふれたものであつたにちがひないと思はれ出すと、今迄自分にしつこくつき纏つてゐた被告に対する疑ひも、故意に酔漢を突き飛ばしてまで殺すにいたる種類の反感であつたとは、どうしても思はれなくなつて来た。すると、ただ勝手に自分が被告を危険思想を抱いてゐる者として、ただ勝手に被告を敵の立場に置いてかかつた自分の恐怖心が判事には急に馬鹿らしく羞しくなつて来た。それに判事は自分のために悲しみを投げつけられたそのときの被告のいかにも悲しさうな顔つきを思ひ出した。これは判事の気持ちを被告の孤独な気持ちの中へ全く職権から放れて入り込ませるのに力があつた。それはいかに考へても淋しいものにちがひなかつた。総ての生活の楽しみを運命的に奪はれてゐる男、その運命をつき抜けて行けない男、それが絶えず最も楽しみの焦点である街の入口で、絶えずそれらの歓楽を眺め続け、そこへ入り込む者達のために危険を教へ続けてゐなければならないと云ふことは、とにかく想像しても最も苦痛な生活の一つであるのは分つてゐた。しかし、判事は自分のただ一片の不純な恐怖のために、無罪で済まされる可きその憐れな男を今にも重罪に落し込まうとしてゐた自分のことを考へた。彼は自分の罪を感じてひやりとなつた。</p>
+      <p source="#source-39582-39623">「無罪にしよう。無罪だ。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-39623-39727"><seg source="#source-39623-39727">さう彼はひとり決定すると、急に掌を返すやうな爽快な気持ちになつた。</seg></p>
+      <p source="#source-39727-39795">「これや俺の罪ぢやないぞ。マルクスの罪だ！」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-39795-39842"><seg source="#source-39795-39842">彼は突然に大声で笑ひ出した。</seg></p>
+      <p source="#source-39842-39961">「いや、何に、かまつたことはない。証拠物件として何がある。蕩児よりも番人だ！」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-39961-40167"><seg source="#source-39961-40167">今は判事も全く晴れ晴れとした気持ちであつた。そして、今迄長らく自分を恐喝してゐた恐怖も、不思議に自分から飛び去つてゐるのを彼は感じた。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-40167-40305"><seg source="#source-40167-40305">暫くすると、彼は安らかに眠つてゐた。丁度、マルクスに無罪を宣告された罪人であるかのやうに。</seg></p>
+    </body>
+    <back>
+      <div type="source">
+        <note type="source-attribution" source="#source-40313-40621"><seg type="source-line">底本：「定本横光利一全集　第一巻」河出書房新社</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1981（昭和56）年6月30日初版発行</seg><lb/><seg type="source-line">底本の親本：「御身」金星堂</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1924（大正13）年5月20日発行</seg><lb/><seg type="source-line">初出：「新潮」新潮社</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1923（大正12）年8月1日発行、第39巻第2号</seg></note>
+        <note type="transcriber-note" source="#source-40621-41172"><seg type="source-line">※「旧字、旧仮名で書かれた作品を、現代表記にあらためる際の作業指針」に基づいて、旧字、旧仮名の底本の表記を、新字旧仮名にあらためました。</seg><lb/><seg type="source-line">入力：高寺康仁</seg><lb/><seg type="source-line">校正：松永正敏</seg><lb/><seg type="source-line">2001年12月11日公開</seg><lb/><seg type="source-line">2005年11月6日修正</seg><lb/><seg type="source-line">青空文庫作成ファイル：</seg><lb/><seg type="source-line">このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。</seg></note>
+        <note type="source-span" xml:id="source-10038-10394" n="86"/>
+        <note type="source-span" xml:id="source-10394-10516" n="87"/>
+        <note type="source-span" xml:id="source-10516-10569" n="88"/>
+        <note type="source-span" xml:id="source-10569-10652" n="89"/>
+        <note type="source-span" xml:id="source-10652-10756" n="90"/>
+        <note type="source-span" xml:id="source-10756-10911" n="91"/>
+        <note type="source-span" xml:id="source-10911-11246" n="92"/>
+        <note type="source-span" xml:id="source-11246-11398" n="93"/>
+        <note type="source-span" xml:id="source-11398-11448" n="94"/>
+        <note type="source-span" xml:id="source-11448-11561" n="95"/>
+        <note type="source-span" xml:id="source-11561-11728" n="96"/>
+        <note type="source-span" xml:id="source-11728-11757" n="97"/>
+        <note type="source-span" xml:id="source-11757-11843" n="98"/>
+        <note type="source-span" xml:id="source-11843-11884" n="99"/>
+        <note type="source-span" xml:id="source-11884-12021" n="100"/>
+        <note type="source-span" xml:id="source-12021-12110" n="101"/>
+        <note type="source-span" xml:id="source-12110-12289" n="102"/>
+        <note type="source-span" xml:id="source-12289-12417" n="103"/>
+        <note type="source-span" xml:id="source-12417-12488" n="104"/>
+        <note type="source-span" xml:id="source-12488-12523" n="105"/>
+        <note type="source-span" xml:id="source-12523-12561" n="106"/>
+        <note type="source-span" xml:id="source-12561-12564" n="107"/>
+        <note type="source-span" xml:id="source-12561-12662" n="107"/>
+        <note type="source-span" xml:id="source-12564-12576" n="107"/>
+        <note type="source-span" xml:id="source-12662-12769" n="108"/>
+        <note type="source-span" xml:id="source-12769-12822" n="109"/>
+        <note type="source-span" xml:id="source-12822-12857" n="110"/>
+        <note type="source-span" xml:id="source-12857-12940" n="111"/>
+        <note type="source-span" xml:id="source-12940-12978" n="112"/>
+        <note type="source-span" xml:id="source-12978-13049" n="113"/>
+        <note type="source-span" xml:id="source-13049-13099" n="114"/>
+        <note type="source-span" xml:id="source-13099-13230" n="115"/>
+        <note type="source-span" xml:id="source-13230-13247" n="116"/>
+        <note type="source-span" xml:id="source-13247-13270" n="117"/>
+        <note type="source-span" xml:id="source-13270-13359" n="118"/>
+        <note type="source-span" xml:id="source-13359-13466" n="119"/>
+        <note type="source-span" xml:id="source-13466-13555" n="120"/>
+        <note type="source-span" xml:id="source-13555-13656" n="121"/>
+        <note type="source-span" xml:id="source-13656-13718" n="122"/>
+        <note type="source-span" xml:id="source-13718-13819" n="123"/>
+        <note type="source-span" xml:id="source-13819-13926" n="124"/>
+        <note type="source-span" xml:id="source-13926-14063" n="125"/>
+        <note type="source-span" xml:id="source-14063-14080" n="126"/>
+        <note type="source-span" xml:id="source-14080-14112" n="127"/>
+        <note type="source-span" xml:id="source-14112-14135" n="128"/>
+        <note type="source-span" xml:id="source-14135-14245" n="129"/>
+        <note type="source-span" xml:id="source-14245-14283" n="130"/>
+        <note type="source-span" xml:id="source-14283-14342" n="131"/>
+        <note type="source-span" xml:id="source-14295-14316" n="131"/>
+        <note type="source-span" xml:id="source-14342-14368" n="132"/>
+        <note type="source-span" xml:id="source-14368-14406" n="133"/>
+        <note type="source-span" xml:id="source-14406-14459" n="134"/>
+        <note type="source-span" xml:id="source-14459-14506" n="135"/>
+        <note type="source-span" xml:id="source-14506-14556" n="136"/>
+        <note type="source-span" xml:id="source-14556-14582" n="137"/>
+        <note type="source-span" xml:id="source-14582-14635" n="138"/>
+        <note type="source-span" xml:id="source-14635-14664" n="139"/>
+        <note type="source-span" xml:id="source-14664-14792" n="140"/>
+        <note type="source-span" xml:id="source-14792-14896" n="141"/>
+        <note type="source-span" xml:id="source-14896-14928" n="142"/>
+        <note type="source-span" xml:id="source-14928-14984" n="143"/>
+        <note type="source-span" xml:id="source-14984-15028" n="144"/>
+        <note type="source-span" xml:id="source-15028-15231" n="145"/>
+        <note type="source-span" xml:id="source-15231-15281" n="146"/>
+        <note type="source-span" xml:id="source-15281-15349" n="147"/>
+        <note type="source-span" xml:id="source-15349-15366" n="148"/>
+        <note type="source-span" xml:id="source-15366-15398" n="149"/>
+        <note type="source-span" xml:id="source-15398-15439" n="150"/>
+        <note type="source-span" xml:id="source-15439-15609" n="151"/>
+        <note type="source-span" xml:id="source-15609-15659" n="152"/>
+        <note type="source-span" xml:id="source-15659-15850" n="153"/>
+        <note type="source-span" xml:id="source-15850-15888" n="154"/>
+        <note type="source-span" xml:id="source-15888-15974" n="155"/>
+        <note type="source-span" xml:id="source-15974-16000" n="156"/>
+        <note type="source-span" xml:id="source-16000-16050" n="157"/>
+        <note type="source-span" xml:id="source-16050-16091" n="158"/>
+        <note type="source-span" xml:id="source-16091-16150" n="159"/>
+        <note type="source-span" xml:id="source-16150-16266" n="160"/>
+        <note type="source-span" xml:id="source-16266-16343" n="161"/>
+        <note type="source-span" xml:id="source-16343-16393" n="162"/>
+        <note type="source-span" xml:id="source-16393-16554" n="163"/>
+        <note type="source-span" xml:id="source-16492-16519" n="163"/>
+        <note type="source-span" xml:id="source-16554-16634" n="164"/>
+        <note type="source-span" xml:id="source-16575-16596" n="164"/>
+        <note type="source-span" xml:id="source-16634-16681" n="165"/>
+        <note type="source-span" xml:id="source-16681-16698" n="166"/>
+        <note type="source-span" xml:id="source-16698-16784" n="167"/>
+        <note type="source-span" xml:id="source-16784-16864" n="168"/>
+        <note type="source-span" xml:id="source-16864-16926" n="169"/>
+        <note type="source-span" xml:id="source-16926-16943" n="170"/>
+        <note type="source-span" xml:id="source-16943-17074" n="171"/>
+        <note type="source-span" xml:id="source-17074-17259" n="172"/>
+        <note type="source-span" xml:id="source-17259-17288" n="173"/>
+        <note type="source-span" xml:id="source-17288-17353" n="174"/>
+        <note type="source-span" xml:id="source-17353-17412" n="175"/>
+        <note type="source-span" xml:id="source-17412-17429" n="176"/>
+        <note type="source-span" xml:id="source-17429-17599" n="177"/>
+        <note type="source-span" xml:id="source-17599-17766" n="178"/>
+        <note type="source-span" xml:id="source-17766-17984" n="179"/>
+        <note type="source-span" xml:id="source-17984-18073" n="180"/>
+        <note type="source-span" xml:id="source-18073-18216" n="181"/>
+        <note type="source-span" xml:id="source-18216-18509" n="182"/>
+        <note type="source-span" xml:id="source-18509-18550" n="183"/>
+        <note type="source-span" xml:id="source-18550-18660" n="184"/>
+        <note type="source-span" xml:id="source-18660-19184" n="185"/>
+        <note type="source-span" xml:id="source-19184-19267" n="186"/>
+        <note type="source-span" xml:id="source-19267-19338" n="187"/>
+        <note type="source-span" xml:id="source-19338-19445" n="188"/>
+        <note type="source-span" xml:id="source-19445-19492" n="189"/>
+        <note type="source-span" xml:id="source-19492-19728" n="190"/>
+        <note type="source-span" xml:id="source-1957-2064" n="17"/>
+        <note type="source-span" xml:id="source-19728-19805" n="191"/>
+        <note type="source-span" xml:id="source-19805-19945" n="192"/>
+        <note type="source-span" xml:id="source-19945-20007" n="193"/>
+        <note type="source-span" xml:id="source-20007-20066" n="194"/>
+        <note type="source-span" xml:id="source-20066-20164" n="195"/>
+        <note type="source-span" xml:id="source-20164-20244" n="196"/>
+        <note type="source-span" xml:id="source-20244-20309" n="197"/>
+        <note type="source-span" xml:id="source-20309-20398" n="198"/>
+        <note type="source-span" xml:id="source-20398-20415" n="199"/>
+        <note type="source-span" xml:id="source-20415-20558" n="200"/>
+        <note type="source-span" xml:id="source-20558-20605" n="201"/>
+        <note type="source-span" xml:id="source-20605-20721" n="202"/>
+        <note type="source-span" xml:id="source-2064-2117" n="18"/>
+        <note type="source-span" xml:id="source-20721-20789" n="203"/>
+        <note type="source-span" xml:id="source-20789-20890" n="204"/>
+        <note type="source-span" xml:id="source-20890-20907" n="205"/>
+        <note type="source-span" xml:id="source-20907-21002" n="206"/>
+        <note type="source-span" xml:id="source-21002-21040" n="207"/>
+        <note type="source-span" xml:id="source-21040-21165" n="208"/>
+        <note type="source-span" xml:id="source-21165-21182" n="209"/>
+        <note type="source-span" xml:id="source-2117-2176" n="19"/>
+        <note type="source-span" xml:id="source-21182-21277" n="210"/>
+        <note type="source-span" xml:id="source-21277-21519" n="211"/>
+        <note type="source-span" xml:id="source-21519-21593" n="212"/>
+        <note type="source-span" xml:id="source-21593-21637" n="213"/>
+        <note type="source-span" xml:id="source-21637-21687" n="214"/>
+        <note type="source-span" xml:id="source-21687-21788" n="215"/>
+        <note type="source-span" xml:id="source-21723-21747" n="215"/>
+        <note type="source-span" xml:id="source-2176-2223" n="20"/>
+        <note type="source-span" xml:id="source-21788-21877" n="216"/>
+        <note type="source-span" xml:id="source-21877-22176" n="217"/>
+        <note type="source-span" xml:id="source-22176-22226" n="218"/>
+        <note type="source-span" xml:id="source-22226-22312" n="219"/>
+        <note type="source-span" xml:id="source-2223-2306" n="21"/>
+        <note type="source-span" xml:id="source-22312-22353" n="220"/>
+        <note type="source-span" xml:id="source-22353-22436" n="221"/>
+        <note type="source-span" xml:id="source-22436-22465" n="222"/>
+        <note type="source-span" xml:id="source-22465-22512" n="223"/>
+        <note type="source-span" xml:id="source-22512-22556" n="224"/>
+        <note type="source-span" xml:id="source-22556-22573" n="225"/>
+        <note type="source-span" xml:id="source-22573-23142" n="226"/>
+        <note type="source-span" xml:id="source-2306-2368" n="22"/>
+        <note type="source-span" xml:id="source-23142-23279" n="227"/>
+        <note type="source-span" xml:id="source-23279-23338" n="228"/>
+        <note type="source-span" xml:id="source-23338-23463" n="229"/>
+        <note type="source-span" xml:id="source-23463-23588" n="230"/>
+        <note type="source-span" xml:id="source-23588-23629" n="231"/>
+        <note type="source-span" xml:id="source-23629-23706" n="232"/>
+        <note type="source-span" xml:id="source-2368-2472" n="23"/>
+        <note type="source-span" xml:id="source-23706-23798" n="233"/>
+        <note type="source-span" xml:id="source-23798-23920" n="234"/>
+        <note type="source-span" xml:id="source-23813-23837" n="234"/>
+        <note type="source-span" xml:id="source-23920-23949" n="235"/>
+        <note type="source-span" xml:id="source-23949-24008" n="236"/>
+        <note type="source-span" xml:id="source-24008-24049" n="237"/>
+        <note type="source-span" xml:id="source-24049-24177" n="238"/>
+        <note type="source-span" xml:id="source-24177-24275" n="239"/>
+        <note type="source-span" xml:id="source-24275-24484" n="240"/>
+        <note type="source-span" xml:id="source-24484-24585" n="241"/>
+        <note type="source-span" xml:id="source-24585-24602" n="242"/>
+        <note type="source-span" xml:id="source-24602-24727" n="243"/>
+        <note type="source-span" xml:id="source-2472-2513" n="24"/>
+        <note type="source-span" xml:id="source-24727-24744" n="244"/>
+        <note type="source-span" xml:id="source-24744-24806" n="245"/>
+        <note type="source-span" xml:id="source-24806-24835" n="246"/>
+        <note type="source-span" xml:id="source-24835-24867" n="247"/>
+        <note type="source-span" xml:id="source-24867-24887" n="248"/>
+        <note type="source-span" xml:id="source-24887-24970" n="249"/>
+        <note type="source-span" xml:id="source-24970-25860" n="250"/>
+        <note type="source-span" xml:id="source-2513-2602" n="25"/>
+        <note type="source-span" xml:id="source-25860-25943" n="251"/>
+        <note type="source-span" xml:id="source-25943-26008" n="252"/>
+        <note type="source-span" xml:id="source-26008-26097" n="253"/>
+        <note type="source-span" xml:id="source-2602-2682" n="26"/>
+        <note type="source-span" xml:id="source-26097-26138" n="254"/>
+        <note type="source-span" xml:id="source-26138-26206" n="255"/>
+        <note type="source-span" xml:id="source-26206-26289" n="256"/>
+        <note type="source-span" xml:id="source-26289-26507" n="257"/>
+        <note type="source-span" xml:id="source-26507-26539" n="258"/>
+        <note type="source-span" xml:id="source-26539-27465" n="259"/>
+        <note type="source-span" xml:id="source-2682-2783" n="27"/>
+        <note type="source-span" xml:id="source-27465-27530" n="260"/>
+        <note type="source-span" xml:id="source-27530-27601" n="261"/>
+        <note type="source-span" xml:id="source-27601-27651" n="262"/>
+        <note type="source-span" xml:id="source-27651-27974" n="263"/>
+        <note type="source-span" xml:id="source-2783-3285" n="28"/>
+        <note type="source-span" xml:id="source-27974-28018" n="264"/>
+        <note type="source-span" xml:id="source-28018-28767" n="265"/>
+        <note type="source-span" xml:id="source-28767-28841" n="266"/>
+        <note type="source-span" xml:id="source-28841-29251" n="267"/>
+        <note type="source-span" xml:id="source-29251-29307" n="268"/>
+        <note type="source-span" xml:id="source-29307-29429" n="269"/>
+        <note type="source-span" xml:id="source-29429-29542" n="270"/>
+        <note type="source-span" xml:id="source-29542-29637" n="271"/>
+        <note type="source-span" xml:id="source-29637-30848" n="272"/>
+        <note type="source-span" xml:id="source-3077-3098" n="28"/>
+        <note type="source-span" xml:id="source-30848-30910" n="273"/>
+        <note type="source-span" xml:id="source-30910-30945" n="274"/>
+        <note type="source-span" xml:id="source-30945-30986" n="275"/>
+        <note type="source-span" xml:id="source-30986-31060" n="276"/>
+        <note type="source-span" xml:id="source-31060-31119" n="277"/>
+        <note type="source-span" xml:id="source-31119-31136" n="278"/>
+        <note type="source-span" xml:id="source-31136-31219" n="279"/>
+        <note type="source-span" xml:id="source-31219-31317" n="280"/>
+        <note type="source-span" xml:id="source-3131-3181" n="28"/>
+        <note type="source-span" xml:id="source-3131-3199" n="28"/>
+        <note type="source-span" xml:id="source-31317-31658" n="281"/>
+        <note type="source-span" xml:id="source-31658-31753" n="282"/>
+        <note type="source-span" xml:id="source-31753-32112" n="283"/>
+        <note type="source-span" xml:id="source-32112-32144" n="284"/>
+        <note type="source-span" xml:id="source-32144-32245" n="285"/>
+        <note type="source-span" xml:id="source-32245-32340" n="286"/>
+        <note type="source-span" xml:id="source-32340-32420" n="287"/>
+        <note type="source-span" xml:id="source-32420-32437" n="288"/>
+        <note type="source-span" xml:id="source-32437-32520" n="289"/>
+        <note type="source-span" xml:id="source-32520-33166" n="290"/>
+        <note type="source-span" xml:id="source-3285-3377" n="29"/>
+        <note type="source-span" xml:id="source-33166-39582" n="292"/>
+        <note type="source-span" xml:id="source-3377-3412" n="30"/>
+        <note type="source-span" xml:id="source-3412-3456" n="31"/>
+        <note type="source-span" xml:id="source-3456-3512" n="32"/>
+        <note type="source-span" xml:id="source-3512-3586" n="33"/>
+        <note type="source-span" xml:id="source-3586-3603" n="34"/>
+        <note type="source-span" xml:id="source-3603-3606" n="35"/>
+        <note type="source-span" xml:id="source-3603-3701" n="35"/>
+        <note type="source-span" xml:id="source-3606-3630" n="35"/>
+        <note type="source-span" xml:id="source-3701-3793" n="36"/>
+        <note type="source-span" xml:id="source-3793-3837" n="37"/>
+        <note type="source-span" xml:id="source-3837-3863" n="38"/>
+        <note type="source-span" xml:id="source-3863-3961" n="39"/>
+        <note type="source-span" xml:id="source-39582-39623" n="293"/>
+        <note type="source-span" xml:id="source-3961-4038" n="40"/>
+        <note type="source-span" xml:id="source-39623-39727" n="294"/>
+        <note type="source-span" xml:id="source-39727-39795" n="295"/>
+        <note type="source-span" xml:id="source-39795-39842" n="296"/>
+        <note type="source-span" xml:id="source-39842-39961" n="297"/>
+        <note type="source-span" xml:id="source-39961-40167" n="298"/>
+        <note type="source-span" xml:id="source-40167-40305" n="299"/>
+        <note type="source-span" xml:id="source-40313-40621" n="303"/>
+        <note type="source-span" xml:id="source-4038-4223" n="41"/>
+        <note type="source-span" xml:id="source-40621-41172" n="309"/>
+        <note type="source-span" xml:id="source-4223-4399" n="42"/>
+        <note type="source-span" xml:id="source-4399-4725" n="43"/>
+        <note type="source-span" xml:id="source-4606-4627" n="43"/>
+        <note type="source-span" xml:id="source-4725-4796" n="44"/>
+        <note type="source-span" xml:id="source-4796-4855" n="45"/>
+        <note type="source-span" xml:id="source-4855-4956" n="46"/>
+        <note type="source-span" xml:id="source-4956-4997" n="47"/>
+        <note type="source-span" xml:id="source-498-992" n="15"/>
+        <note type="source-span" xml:id="source-4997-5164" n="48"/>
+        <note type="source-span" xml:id="source-5164-5199" n="49"/>
+        <note type="source-span" xml:id="source-5199-5231" n="50"/>
+        <note type="source-span" xml:id="source-5231-5248" n="51"/>
+        <note type="source-span" xml:id="source-5248-5292" n="52"/>
+        <note type="source-span" xml:id="source-5292-5408" n="53"/>
+        <note type="source-span" xml:id="source-5408-5512" n="54"/>
+        <note type="source-span" xml:id="source-5512-5559" n="55"/>
+        <note type="source-span" xml:id="source-5559-5618" n="56"/>
+        <note type="source-span" xml:id="source-5618-5644" n="57"/>
+        <note type="source-span" xml:id="source-5644-5670" n="58"/>
+        <note type="source-span" xml:id="source-5670-5687" n="59"/>
+        <note type="source-span" xml:id="source-5687-5743" n="60"/>
+        <note type="source-span" xml:id="source-5743-5760" n="61"/>
+        <note type="source-span" xml:id="source-5760-5792" n="62"/>
+        <note type="source-span" xml:id="source-5792-5851" n="63"/>
+        <note type="source-span" xml:id="source-5851-6054" n="64"/>
+        <note type="source-span" xml:id="source-6054-6110" n="65"/>
+        <note type="source-span" xml:id="source-6110-6199" n="66"/>
+        <note type="source-span" xml:id="source-6199-6216" n="67"/>
+        <note type="source-span" xml:id="source-6216-6326" n="68"/>
+        <note type="source-span" xml:id="source-6326-6556" n="69"/>
+        <note type="source-span" xml:id="source-6556-6642" n="70"/>
+        <note type="source-span" xml:id="source-6642-6674" n="71"/>
+        <note type="source-span" xml:id="source-6674-6727" n="72"/>
+        <note type="source-span" xml:id="source-6727-6783" n="73"/>
+        <note type="source-span" xml:id="source-6783-6833" n="74"/>
+        <note type="source-span" xml:id="source-6833-7045" n="75"/>
+        <note type="source-span" xml:id="source-6962-6989" n="75"/>
+        <note type="source-span" xml:id="source-7045-7101" n="76"/>
+        <note type="source-span" xml:id="source-7101-7148" n="77"/>
+        <note type="source-span" xml:id="source-7148-7204" n="78"/>
+        <note type="source-span" xml:id="source-7204-9168" n="79"/>
+        <note type="source-span" xml:id="source-9168-9248" n="80"/>
+        <note type="source-span" xml:id="source-9248-9442" n="81"/>
+        <note type="source-span" xml:id="source-9442-9507" n="82"/>
+        <note type="source-span" xml:id="source-9507-9551" n="83"/>
+        <note type="source-span" xml:id="source-9551-9790" n="84"/>
+        <note type="source-span" xml:id="source-9790-10038" n="85"/>
+        <note type="source-span" xml:id="source-992-1957" n="16"/>
+      </div>
+      <note type="parser-completion" n="true">The n attribute is true when no parser diagnostic of error severity was raised for this source. What the converter could not interpret is recorded in the interpretation-problem and parser-diagnostic notes.</note>
+      <note type="source-decoding">windows-31j</note>
+    </back>
+  </text>
+</TEI>

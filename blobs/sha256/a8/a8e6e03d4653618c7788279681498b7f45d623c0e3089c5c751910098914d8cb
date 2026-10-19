@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:snh="https://w3id.org/soranoha/ns/tei" xmlns="http://www.tei-c.org/ns/1.0" snh:vocab-version="3">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ja">玉取物語</title>
+        <title type="reading" xml:lang="ja-Hira">たまとりものがたり</title>
+        <author><persName xml:lang="ja"><surname>久生</surname><forename>十蘭</forename><idno type="aozora-person-id">001224</idno></persName><persName xml:lang="ja-Hira"><surname>ひさお</surname><forename>じゅうらん</forename></persName><persName xml:lang="ja-Latn"><surname>Hisao</surname><forename>Juran</forename></persName></author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://w3id.org/soranoha/">Soranoha</publisher>
+        <idno type="soranoha-work-identifier">046088_001224</idno>
+        <idno type="aozora-work-id">046088</idno>
+        <idno type="aozora-card-url">https://www.aozora.gr.jp/cards/001224/card46088.html</idno>
+        <date when="2021-03-27">2021-03-27</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">The underlying work is in the public domain; Soranoha asserts no rights over it.</licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Soranoha's encoding of this work and the artifacts derived from it are dedicated to the public domain under CC0-1.0. Attribution is requested, not required. Full rights statement: <ptr target="https://w3id.org/soranoha/rights"/></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>久生十蘭全集　Ⅱ</title><publisher>三一書房</publisher><date>1970（昭和45）年1月31日</date><note type="input-edition">1992（平成4）年2月29日第1版第8刷</note><note type="proof-edition">1986（昭和61）年6月30日第1版第6刷</note></bibl>
+        <bibl type="first-publication">「別冊文藝春秋　第二十四号小説二十人集」1951（昭和26）年10月30日</bibl>
+        <bibl><idno type="source-content-hash">sha256:aa7e0a51761dc2ec4abf9628c9e76afcc75f5578652b8e2a058eedc7268e7cfe</idno></bibl>
+        <bibl><idno type="primary-text-hash">sha256:7c7f032bafb24169bf941845c99aba9c30b400d3f1644f92a0d5cd54d00b615a</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css"/>
+      <classDecl><taxonomy xml:id="ndc"><bibl>分類番号 as recorded by <title>青空文庫</title>, read as a class of 日本十進分類法 新訂9版. Category labels are from <title>NDC9 Linked Data</title> (日本図書館協会, CC BY); a category's IRI is <ref target="http://jla.or.jp/data/ndc9">http://jla.or.jp/data/ndc9</ref> followed by # and its n.</bibl><category xml:id="ndc913" n="913"><catDesc xml:lang="ja">小説．物語</catDesc><catDesc xml:lang="en">Fiction.Romance.Novel</catDesc></category></taxonomy><taxonomy xml:id="aozora-orthography"><bibl><title>青空文庫</title> 文字遣い種別: the orthographic style Aozora Bunko records for the transcription.</bibl></taxonomy></classDecl>
+      <refsDecl xml:id="source-spans"><p>A note of type source-span has an xml:id of the form source-START-END, giving the extent in UTF-8 bytes of the decoded primary text identified in sourceDesc, after the emendations declared in editorialDecl/correction are applied; each emendation replaces its sic text by its corr text at its own extent. <ptr target="https://w3id.org/soranoha/ns/tei"/></p></refsDecl>
+      <charDecl>
+        <char xml:id="gaiji-3-1-84-77">
+          <mapping type="unicode">挘</mapping>
+          <localProp name="rawMarker" value="てへん＋劣"/>
+          <localProp name="sourceReference" value="第3水準1-84-77"/>
+          <snh:gaiji-reference original="第3水準1-84-77" cell="77" plane="1" kind="jis-code" row="84"/>
+        </char>
+        <char xml:id="gaiji-1-4-84">
+          <mapping type="unicode">ゔ</mapping>
+          <localProp name="rawMarker" value="濁点付き平仮名う"/>
+          <localProp name="sourceReference" value="1-4-84"/>
+          <snh:gaiji-reference original="1-4-84" cell="84" plane="1" kind="jis-code" row="4"/>
+        </char>
+        <char xml:id="gaiji-1-13-22">
+          <mapping type="unicode">Ⅱ</mapping>
+          <localProp name="rawMarker" value="ローマ数字2"/>
+          <localProp name="sourceReference" value="1-13-22"/>
+          <snh:gaiji-reference original="1-13-22" cell="22" plane="1" kind="jis-code" row="13"/>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ja">日本語</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#ndc">913</classCode>
+        <catRef scheme="#ndc" target="#ndc913"/>
+        <classCode scheme="#aozora-orthography">新字新仮名</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-607-1718"><seg source="#source-607-628">嘉永のはじめ</seg><seg type="warichu" rend="two-line" source="#source-628-691"><seg source="#source-646-664">嘉永二年十月</seg></seg><seg source="#source-691-880">のことでござった。西国のさる大藩の殿様が本国から江戸へ御帰府の途次、関の宿の近くに差懸った折、右の方のふぐりが俄に痒くなった。</seg><ruby type="furigana" rend="right" source="#source-880-904"><rb>蕁草</rb><rt>いらくさ</rt></ruby><seg source="#source-904-907">の</seg><ruby type="furigana" rend="right" source="#source-907-928"><rb>刺毛</rb><rt>さしげ</rt></ruby><seg source="#source-928-931">で</seg><ruby type="furigana" rend="right" source="#source-931-946"><rb>弄</rb><rt>いら</rt></ruby><seg source="#source-946-988">われるような遣瀬なさで、痒味</seg><ruby type="furigana" rend="right" source="#source-988-1006"><rb>辛</rb><rt>つら</rt></ruby><seg source="#source-1006-1099">味は何にたとえようもないほどであった。しばらくの間は袴の上から</seg><ruby type="furigana" rend="right" source="#source-1099-1123"><rb>押抓</rb><rt>おしつね</rt></ruby><seg source="#source-1123-1183">ってなだめていられたが、仲々もって左様な</seg><ruby type="furigana" rend="right" source="#source-1183-1201"><rb>直</rb><rt>ちょく</rt></ruby><seg source="#source-1201-1300">なことではおさまらない。御袴の裾をもたげ、双方の御手でひきちがえ掻</seg><ruby type="furigana" rend="right" source="#source-1300-1368"><rb><g ref="#gaiji-3-1-84-77" source="#source-1303-1356">挘</g></rb><rt>むし</rt></ruby><seg source="#source-1368-1419">っていられたことであったが、悩みは</seg><ruby type="furigana" rend="right" source="#source-1419-1443"><rb>弥増</rb><rt>いやます</rt></ruby><seg source="#source-1443-1605">ばかり、あたかもふぐりに火がついて乗物いっぱいに延びひろがり、いまにその中に巻きこまれてしまうかと思うような</seg><ruby type="furigana" rend="right" source="#source-1605-1623"><rb>現</rb><rt>うつつ</rt></ruby><seg source="#source-1623-1644">なさで、追々、</seg><ruby type="furigana" rend="right" source="#source-1644-1665"><rb>心気</rb><rt>しんき</rt></ruby><seg source="#source-1665-1718">悩乱してとりとめないまでになった。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-1718-2095"><seg source="#source-1718-1910">御駕籠脇の徒士は只ならぬうめき声を聞きつけ、何事ならんと覗いみるところ、こはいかに殿様には裾前を取散したあられもない御姿にて、</seg><ruby type="furigana" rend="right" source="#source-1910-1925"><rb>悶</rb><rt>もだ</rt></ruby><seg source="#source-1925-1928">え</seg><ruby type="furigana" rend="right" source="#source-1928-1943"><rb>焦</rb><rt>こが</rt></ruby><seg source="#source-1943-2039">れるばかりに身を押揉み、なにやらん不思議なことをせられていられる</seg><ruby type="furigana" rend="right" source="#source-2039-2054"><rb>態</rb><rt>てい</rt></ruby><seg source="#source-2054-2095">、まことに由々しく見えた。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2095-3531">道中奉行は行列をとめ、山添椿庵という御側医者に御容態を伺わせたが、只、「痒い、痒い」とわめかれるばかりで手の施しようもない。殿様には若年の折から<ruby type="furigana" rend="right" source="#source-2314-2341"><rb>驚癇</rb><rt>きょうかん</rt></ruby><seg source="#source-2341-2485">の持病があられるので、大方はそのことと合点し、匆々、関の御本陣へ落着するなり、耳盥に水を汲ませて</seg><ruby type="furigana" rend="right" source="#source-2485-2506"><rb>頭熱</rb><rt>ずねつ</rt></ruby>の引下げにかかったところ、殿様は「おのれは医者の分際で、病の上下も弁えぬのか」といきられ、片膝をあげてふぐりを見せた。山添は目をそばめて<ruby type="furigana" rend="right" source="#source-2710-2734"><rb>熟々</rb><rt>つくづく</rt></ruby><seg source="#source-2734-2983">と拝見いたすところ、右の方のふぐり玉が、軍鶏の卵ほどの大きさになって股間にのさばりかえっているのに、先ずこれはと仰天した。とても人間の身につくものとは思えない。強いて</seg><ruby type="furigana" rend="right" source="#source-2983-3004"><rb>附会</rb><rt>こじつ</rt></ruby><seg source="#source-3004-3016">ければ、</seg><ruby type="furigana" rend="right" source="#source-3016-3037"><rb>癩者</rb><rt>かたい</rt></ruby><seg source="#source-3037-3130">の膝頭とでも言うべき体裁だが、銅の色してつらつらに光りかがやく</seg><ruby type="furigana" rend="right" source="#source-3130-3154"><rb>団々</rb><rt>だんだん</rt></ruby><seg source="#source-3154-3196">たる肉塊の表に、筋と血の管の</seg><ruby type="furigana" rend="right" source="#source-3196-3211"><rb>文</rb><rt>あや</rt></ruby><seg source="#source-3211-3268">がほどよく寄集まり、眼鼻をそなえた人の</seg><ruby type="furigana" rend="right" source="#source-3268-3283"><rb>面</rb><rt>つら</rt></ruby><ruby type="furigana" rend="right" source="#source-3283-3307"><rb>宛然</rb><rt>さながら</rt></ruby><seg source="#source-3307-3334">に見せている。頭に</seg><ruby type="furigana" rend="right" source="#source-3334-3352"><rb>婆娑</rb><rt>ばさ</rt></ruby><seg source="#source-3352-3358">たる</seg><ruby type="furigana" rend="right" source="#source-3358-3385"><rb>長毛</rb><rt>ちょうもう</rt></ruby>を戴き、底意ありげな薄笑いをしているところは、張継が「楓橋夜泊」の寒山拾得の顔にその儘であった。</p>
+      <p source="#source-3531-4559"><seg source="#source-3531-3534">「</seg><ruby type="furigana" rend="right" source="#source-3534-3570"><rb>病草紙</rb><rt>やまいのそうし</rt></ruby>」という絵巻物のあることは御存じであろう。鼻頭の黒き男、眠られぬ女、風病の男、小舌のある男、肛門のない男、また数ある男、<ruby type="furigana" rend="right" source="#source-3750-3780"><rb>男女両性</rb><rt>ふたなり</rt></ruby>の人、頭のあがらぬ法師、息の臭い女など十五段に白描の写しを合せ、十六段一巻となっている。他に侏儒と背高男の掛軸、鶏に眼を突つかせる女、悪夢に襲われる男の三図がござる。「餓鬼草紙」、「地獄草紙」と同じく、<ruby type="furigana" rend="right" source="#source-4083-4101"><rb>詞</rb><rt>ことば</rt></ruby><seg source="#source-4101-4559">は寂蓮、絵は土佐光長の筆と言伝えられている。世に厭わしき病気の数々を描き列ねたは、人間の病苦や六道三世の因果の理を示したものであろうか。山添も古医方家の流を汲むものであるから、六道絵には巨細に通じていたが、光長の思い忘れか執筆の手落か、ついぞこういう病相を見かけなかったので、一段と当惑したことであった。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4559-4975"><seg source="#source-4559-4613">山添は取敢えず塗薬を差上げ、宿々の</seg><ruby type="furigana" rend="right" source="#source-4613-4631"><rb>泊</rb><rt>とまり</rt></ruby><seg source="#source-4631-4637">で、</seg><ruby type="furigana" rend="right" source="#source-4637-4661"><rb>罨方</rb><rt>あんぽう</rt></ruby><seg source="#source-4661-4835">したり冷したり、思いつく限りの手当をぬかりなくやってみたが、ふぐり玉は一日ごとにふくれむくみ、掛川の宿では、とうとう</seg><ruby type="furigana" rend="right" source="#source-4835-4850"><rb>雁</rb><rt>がん</rt></ruby><seg source="#source-4850-4975">の卵ほどに成上り、この先どれほど大きくなるかと思えば、心も身に添わぬほどであった。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4975-5439"><seg source="#source-4975-4990">式根島の</seg><ruby type="furigana" rend="right" source="#source-4990-5020"><rb>大陰嚢</rb><rt>おほふぐり</rt></ruby><note type="sic" source="#source-5020-5068" target="#source-5002-5017">ルビの「おほふぐり」はママ</note><seg source="#source-5068-5158">というは、以前聞いたことがあった。高湿因循の海辺に起る風土の</seg><ruby type="furigana" rend="right" source="#source-5158-5176"><rb>病</rb><rt>やまい</rt></ruby><seg source="#source-5176-5368">で、足は描ける象の脚の如くに肥え、ふぐりは地に曳くようになるというが、これがそれとも思えぬから、山添は山添だけの智慧で、どうやら</seg><ruby type="furigana" rend="right" source="#source-5368-5392"><rb>梅瘡</rb><rt>ばいそう</rt></ruby><seg source="#source-5392-5439">の所以らしいと見込みをつけた。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5439-7081"><seg source="#source-5439-5466">天保以来、殿様も</seg><ruby type="furigana" rend="right" source="#source-5466-5490"><rb>格落</rb><rt>かくおち</rt></ruby><seg source="#source-5490-5538">にて、銭の出る遊びを厭いたまい、</seg><ruby type="furigana" rend="right" source="#source-5538-5559"><rb>下値</rb><rt>げじき</rt></ruby><seg source="#source-5559-5805">の小格子で早乗打を遊ばされる。浜町河岸に御殿のある因幡のさる殿様、小石川の第六天に上邸のある阿波のさる殿様、それにこの殿様は三幅対といわれる締り屋で、その上いささか</seg><ruby type="furigana" rend="right" source="#source-5805-5826"><rb>狡猾</rb><rt>わるご</rt></ruby><seg source="#source-5826-5961">すく、深川へ遊びにお出のときは、芸者どもの祝儀を奉書紙に包んで恭しく水引を掛け、金何百疋と</seg><ruby type="furigana" rend="right" source="#source-5961-5985"><rb>大々</rb><rt>だいだい</rt></ruby>と書いたものを用意なされて一同に下される。茶屋芸者は何事かと恭しく頂戴に及び、さて御包をといて「まあ、たった」と言ったきり、開いた口が塞がらなかったという話がある。またいつかは深川の平清で遊ばれての帰り、お家来に、「うちゃのう、歩いて帰りたいが、道が判らんでの、そちが跡からついてまいって、間違ったら教えてくれや、一遍歩いて見たいでのう」とおっしゃって、仲ノ町を歩いて帰られた。つまりは帰りの駕籠代を惜しまれたので、そういう細かい掛引をされたのだと知れた。一事が万事で、山添の見るところは大凡外れはないものと思われたが、こういう御容態では、古医方家の山添の手に負えない。殿様のふぐり玉が鵞鳥の卵ほどになったら進退をきめようと覚悟していたが、小田原の本宿で予想通りの大きさになったので、はやこれ迄と、夜にまぎれて逐電してしまった。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-7081-7272"><seg source="#source-7081-7204">殿様は入府になるなり、下邸に逼塞し、元日の参賀にも、十一日の具足祝いにも上らず、</seg><ruby type="furigana" rend="right" source="#source-7204-7228"><rb>大物</rb><rt>おおもの</rt></ruby><seg source="#source-7228-7272">を抱えて鬱々としてござった。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-7272-8084"><seg source="#source-7272-7470">極月の二十八日に江戸へ帰りつきけり。道すがらも痛みつつ、帰りての後は、歩むことさえわずらわしく成り、垂れ籠めてのみありける。多くの</seg><ruby type="furigana" rend="right" source="#source-7470-7491"><rb>医師</rb><rt>くすし</rt></ruby><seg source="#source-7491-7503">を招き、</seg><ruby type="furigana" rend="right" source="#source-7503-7527"><rb>種々</rb><rt>くさぐさ</rt></ruby><seg source="#source-7527-7734">、よしということの限りをつくしたれど、ふぐり玉、日に日にただ大きうなりもて行くにつけて、折々、痛み悩むこと更にやむときなし。かかる病なん、</seg><ruby type="furigana" rend="right" source="#source-7734-7749"><rb>終</rb><rt>つい</rt></ruby><seg source="#source-7749-7776">にその痛むところ、</seg><ruby type="furigana" rend="right" source="#source-7776-7794"><rb>蓮</rb><rt>はちす</rt></ruby><seg source="#source-7794-7821">の花の開くがごとく</seg><ruby type="furigana" rend="right" source="#source-7821-7833"><rb>壊</rb><rt>え</rt></ruby><seg source="#source-7833-7917">み崩れて腐り行けば、命幾日もあらずというを聞くにも、今は</seg><ruby type="furigana" rend="right" source="#source-7917-7941"><rb>幾許</rb><rt>いくばく</rt></ruby><seg source="#source-7941-7956">ならずその</seg><ruby type="furigana" rend="right" source="#source-7956-7974"><rb>界</rb><rt>さかい</rt></ruby><seg source="#source-7974-8084">に至らんと思えば、いとど安き心なし。云々とは、殿の御日記の一節であった。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-8084-8572"><seg source="#source-8084-8108">閏二月のさる日</seg><seg type="warichu" rend="two-line" source="#source-8108-8165"><seg source="#source-8126-8138">二月八日</seg></seg><seg source="#source-8165-8572">、将軍家には典医領伊東玄朴をもって御見舞になり、翌日、奥医者並大槻俊斎と戸塚静海を遣わして蘭方の診断させた。同じ蘭方といっても、大槻は江戸仕立、戸塚は長崎仕立で、診立ての違いはあったが、少しも早く病根を摘出しなければ、生命の危殆に及ぶだろうというところでは同じであった。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-8572-10032">ふぐり玉とは、そもいかなるものかというに、是に就いては「たあへるあなとみあ」と、<g ref="#gaiji-1-4-84" source="#source-8695-8740">ゔ</g>えさりうすの「解剖学」に精細に記述されている。即ちそれは扁平、楕円形の肉質であって、内面、外面、上端、下端、前縁、後縁を有つ。重さ、大約して十五ガラム、長さ一寸三分位、幅一寸、厚さは七分ほど也。縦軸は外前方に向い、左のふぐり玉は右よりも稍々低位にあるが通例なり。ふぐり玉の表は<ruby type="furigana" rend="right" source="#source-9154-9169"><rb>靱</rb><rt>つよ</rt></ruby><seg source="#source-9169-9778">く平滑なる白色の膜にして、その下に血管膜と縦横の中隔に隔てらるる数多の葉あり。小葉を充すは直細精管にして、一端は盲端に終り、他端は縦隔中に吻合して網状となる、とある。扨、ふぐり玉の腫瘍には瘡毒、癌種による悪性のもの、高熱、外傷による良性のものとの別があり、猶また局所の肥大には繊維腫、液腫、軟骨腫、骨腫、筋腫に分けられるが、無痛のものにあっては、癌腫の疑いを残すが多く、また良性の肉腫に於ても漸次大を増して</seg><ruby type="furigana" rend="right" source="#source-9778-9817"><rb>小児頭大</rb><rt>しょうにずだい</rt></ruby><seg source="#source-9817-9952">に達し、精系に進入して悪性腫瘍に転位するもの故、有痛無痛に関らず、肥大の形勢にあるものは、</seg><ruby type="furigana" rend="right" source="#source-9952-9985"><rb>可相成</rb><rt>あいなるべく</rt></ruby><seg source="#source-9985-10032">は速かに摘出するがよいとある。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-10032-11174"><seg source="#source-10032-10095">そうそうするうちに、その月の末つ方、殿の</seg><ruby type="furigana" rend="right" source="#source-10095-10116"><rb>御物</rb><rt>おもの</rt></ruby><seg source="#source-10116-10248">は成人の拳ほどの大きさに生長いたした。御痛みの方は以前ほどにはないようであったが、過大の</seg><ruby type="furigana" rend="right" source="#source-10248-10272"><rb>一物</rb><rt>いちもつ</rt></ruby><seg source="#source-10272-10275">を</seg><ruby type="furigana" rend="right" source="#source-10275-10290"><rb>甚</rb><rt>いた</rt></ruby>く御憎しみになり、あおのけに寝たまま、「こやつめが、こやつめが」と<ruby type="furigana" rend="right" source="#source-10389-10401"><rb>飽</rb><rt>あ</rt></ruby><seg source="#source-10401-10404">く</seg><ruby type="furigana" rend="right" source="#source-10404-10416"><rb>期</rb><rt>ご</rt></ruby><seg source="#source-10416-10464">もなく罵られるようになった。殿が</seg><ruby type="furigana" rend="right" source="#source-10464-10485"><rb>御物</rb><rt>おもの</rt></ruby><seg source="#source-10485-10500">にたいする</seg><ruby type="furigana" rend="right" source="#source-10500-10518"><rb>辞宜</rb><rt>じぎ</rt></ruby><seg source="#source-10518-10578">もさることながら、この儘に捨て置いては、</seg><ruby type="furigana" rend="right" source="#source-10578-10602"><rb>鉄丸</rb><rt>てつがん</rt></ruby><seg source="#source-10602-10971">の重さに引かれ、明日にも地獄の底へ落入られるやのあやうい境界に立到った事故、いずれとも匆々に処置いたさねばならぬ羽目になった。殿におかれても、始めがほどは、手荒な取扱いを厭われるげな気味合で、自然と話を外らされるふうであったが、此の態に及んでは、</seg><ruby type="furigana" rend="right" source="#source-10971-10992"><rb>流石</rb><rt>さすが</rt></ruby><seg source="#source-10992-11004">に観念の</seg><ruby type="furigana" rend="right" source="#source-11004-11019"><rb>臍</rb><rt>ほぞ</rt></ruby>を据えられたものとみえ、さる日、お側小姓に「短冊を持て」とお命じになり、あおのけに寝たまま筆をとって、</p>
+      <div type="layout" source="#source-11174-11345" style="padding-inline-start: 1em">
+        <p source="#source-11209-11256"><seg source="#source-11209-11256">身を責むる讐をば斬りつ更にまた</seg></p>
+        <p style="text-indent: 5em" rend="first-line-indent(5)" source="#source-11256-11309"><seg source="#source-11256-11309">よき敵もがな組打ちにせむ</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-11347-11532"><seg source="#source-11347-11532">という一首を大槻にお下渡しになったは、早くも療後の馬上の組打を意図してござる証拠にて、勇ましとも勇ましきかぎりであった。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-11532-11561"><seg source="#source-11532-11561">その頃の日記に、</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-11561-12307"><seg source="#source-11561-11594">さらば如何にすべきと</seg><ruby type="furigana" rend="right" source="#source-11594-11606"><rb>問</rb><rt>と</rt></ruby><seg source="#source-11606-11723">うに、その悪しき玉を切り捨つる法はあれども、未だ我国にて行いしことのなければ、</seg><ruby type="furigana" rend="right" source="#source-11723-11744"><rb>容易</rb><rt>たやす</rt></ruby><seg source="#source-11744-11756">からずと</seg><ruby type="furigana" rend="right" source="#source-11756-11777"><rb>医師</rb><rt>くすし</rt></ruby><seg source="#source-11777-11873">は言う也。されど、とにもかくにも此のまま過ぎ行くは、死ぬべき道に</seg><ruby type="furigana" rend="right" source="#source-11873-11885"><rb>出</rb><rt>い</rt></ruby><seg source="#source-11885-11888">で</seg><ruby type="furigana" rend="right" source="#source-11888-11909"><rb>立行</rb><rt>たちゆ</rt></ruby><seg source="#source-11909-11993">くにて、立帰る期のあらざるを、いかでかその術を行いてよ。</seg><ruby type="furigana" rend="right" source="#source-11993-12005"><rb>療</rb><rt>い</rt></ruby><seg source="#source-12005-12071">する術あるを聞きながら、ただに死ぬを待つこそ</seg><ruby type="furigana" rend="right" source="#source-12071-12089"><rb>烏滸</rb><rt>おこ</rt></ruby><seg source="#source-12089-12307">ならめ、その術ようせずば死なんのみ。さりとても戦いの命を縮むるまでにて、ついに苦しみ悩むかぎりを尽して死なんにまさりぬべしと切に乞う心となりぬ。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-12307-12561">殿の御存念がかようにある上は、医師の方に逡巡のあるべきいわれはなく、大槻「いろいろと取調べ、更速に着手いたしましょうずるが、独、暫時、実検の時を給え」と申して退った。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-12561-13418">翌日の夕景、下谷御徒町和泉橋通りなる伊東玄朴の宅に、江戸の蘭方医二十余名が参集し、御物摘出の外科方を相談した。杉田玄白、前野良沢の「解体新書」が翻刻されてから七十年、その後、「内科撰要」や「医範提綱」というような良知が出て、いよいよ繁栄の趣になったが、蘭方外科は名目ばかりで、膏薬と塗薬のほか何事も得出来ず、華岡流の外科も脱疽、<ruby type="furigana" rend="right" source="#source-13056-13080"><rb>兎脣</rb><rt>みつくち</rt></ruby><seg source="#source-13080-13418">の手術を行なう底のところに止っている。腫瘍のふぐり玉を切取る技は、ぱれいの術書に見えているが、鎖肛、鎖陰を開切するのと事がちがい、男の大事な個所へ切尖を入れる難儀な術でござるゆえ、手引草だけでは事が運ばなんだも道理であった。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-13418-15817"><seg source="#source-13418-13943">その日、参集した蘭方医家の主なる者は、長崎仕立のほうでは、伊東玄朴をはじめとして、竹内玄洞、本間玄調、入沢貞意、戸塚静海、石井宗謙、江戸仕立のほうでは箕作阮甫、高須松寧、大槻俊斎、坪井信良、川本幸民などで、いずれも蘭法で一家をなした大家名手ばかりであったが、如何せん経験のないことで、これぞという成案もなかった。いろいろと議論が出たが、そのうちに、</seg><ruby type="furigana" rend="right" source="#source-13943-13964"><rb>某</rb><rt>それがし</rt></ruby>が「<ruby type="furigana" rend="right" source="#source-13970-13991"><rb>獺</rb><rt>かわうそ</rt></ruby><seg source="#source-13991-14078">の内臓は人間とよく似ていると申し、過ぐる頃、山脇東洋などは</seg><ruby type="furigana" rend="right" source="#source-14078-14096"><rb>度々</rb><rt>どど</rt></ruby>解剖の資料にいたしたよしでござった。肝臓、腎臓が似ているなら、ふぐりの構造も同様であろうと思われる。手始めに獺を集めて剖刀を試されたら如何」というたが、山脇は「臓志」という医書で、獺の内臓は人間の内臓とは似てもつかぬことを宝暦のむかしに明らかにしている次第だったから、意見としてもこれは迂濶なものであった。また一人は「この程、去勢術に関する医書を手に入れました。主として、牛馬の睾丸または卵巣を<ruby type="furigana" rend="right" source="#source-14687-14711"><rb>割去</rb><rt>かっきょ</rt></ruby>する術を詳述したものでござるが、その医書によって、牛馬のふぐりを試みられたら、いくらか手心がわかろうではあるまいか」と尤もらしい説を立てたが、大槻にしても戸塚にしても、その辺にぬかりのあろうわけはなく、如月のはじめ頃からそれぞれ牛馬について十幾度の実検をしているが、止血の方法がうまくいかず、とりわけ性器の完成した壮年の牛馬は夥しく出血して倒れてしまう。灼切り法というのも試みたが、施術後の保定にも不確なところがあるゆえか、幼年の孱弱なものは一匹も助からなかった。大槻、戸塚の実検はまだその辺のところで停滞しているが、殿様の御物は一日といえども待ってはくれぬ。今日の参集も、こういう態たらくではとてものことは望めない。この上は、おのれら二人の力で、日毎に肥えまさる悪性の<ruby type="furigana" rend="right" source="#source-15716-15737"><rb>御物</rb><rt>おもの</rt></ruby><seg source="#source-15737-15817">と駆けくらべをするほかはないと決意したことであった。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-15817-16296">ほどほどに参集も終り、一同が追散したあと、別室に伊東玄朴、戸塚静海、林洞海、大槻俊斎、三宅良斎、玄朴の弟子が二人、この七人が居残ったところで、玄朴が思入れ深く、「<ruby type="furigana" rend="right" source="#source-16063-16081"><rb>左右</rb><rt>そう</rt></ruby>もあれ、今日こそはえらい恥をかいたよの、つくづくと思い知らされたわな」と言うた。戸塚は意外に思うてなぜかと問い返した。そこで玄朴がまた言うた。</p>
+        <p source="#source-16296-18017">「前野、杉田の両先覚が、自ら剖刀をとって、われらのために人体の<ruby type="furigana" rend="right" source="#source-16389-16410"><rb>秘隠</rb><rt>ひいん</rt></ruby><seg source="#source-16410-16419">を説き</seg><ruby type="furigana" rend="right" source="#source-16419-16434"><rb>明</rb><rt>あか</rt></ruby><seg source="#source-16434-16542">してくれられたが、その後、七十と何年、蘭方医おおよそ三百人、内外の末流に</seg><ruby type="furigana" rend="right" source="#source-16542-16569"><rb>跼蹐</rb><rt>きょくせき</rt></ruby><seg source="#source-16569-16743">して、ただの一人も執刀術の勉強に身を挺したものがなかったというは、まことにもって不思議なことであったよ。剖刀外科には</seg><ruby type="furigana" rend="right" source="#source-16743-16764"><rb>手引</rb><rt>てびき</rt></ruby><seg source="#source-16764-16932">がない、手心がわからぬ、道具がない、手が廻らぬ、どうの候のと言うて、この久しい間、うまいこと逃げ居ったわ。今日の</seg><ruby type="furigana" rend="right" source="#source-16932-16959"><rb>参集</rb><rt>さんじゅう</rt></ruby><seg source="#source-16959-17829">でさえ、では拙者が、おのれが、私が、身に引受けて仕ろうと言い出たものは一人もなかったぞ。このたびの馬鹿げたふぐりが例になろうか。ふぐりなどはどうでもいいのじゃ、むずかしかろう、難儀だろう、いかさま手に合わぬだろうが、解剖の技さえ心得ていればみすみす助けられる命を、おのれの卑怯と怠慢から、よくもまあ眼をつぶって見捨てて来たぞ。何千、いや何万、数えきれたものではなかろうてや。方々、如何、思召される。なんという無慙なこと。悪逆無道、酷薄無情、これ以上の地獄の沙汰はあろうずるまい。これが人間の貴い命を預る医者の精神であろうか。恥入った、赤面背汗のいたり、辛うて身悶えするばかりじゃ。</seg><ruby type="furigana" rend="right" source="#source-17829-17853"><rb>其許</rb><rt>そこもと</rt></ruby>らに言うているのではない。自らに語り聞かしておるのでござるじゃが」そう言うて、膝に手を置いてさしうつむいた。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18017-18724"><seg source="#source-18017-18149">皆々、おのれの心の中を見抜かれたような心地がし、粛然とし、打萎れ、つくづくとなり、その</seg><ruby type="furigana" rend="right" source="#source-18149-18164"><rb>後</rb><rt>あと</rt></ruby><seg source="#source-18164-18320">で、力を合せて解剖の勉強に出精しようと誓い合ったことでござる。大槻、戸塚はもとより、竹内、林、また三宅も</seg><ruby type="furigana" rend="right" source="#source-18320-18341"><rb>某</rb><rt>それがし</rt></ruby><ruby type="furigana" rend="right" source="#source-18341-18356"><rb>殿</rb><rt>との</rt></ruby><seg source="#source-18356-18536">のふぐり玉にかかわりあい、それぞれの見識にしたがって勉強しているわけであったが、皆がてんでにおなじような実検をしていても</seg><ruby type="furigana" rend="right" source="#source-18536-18551"><rb>効</rb><rt>かい</rt></ruby><seg source="#source-18551-18724">ないことだから、各々の分担をきめ、それぞれの受持で知識を深めるほうがよいと言う意見が出て、あらためて持役をきめた。</seg></p>
+      </div>
+      <div type="layout" source="#source-18724-18963" style="padding-inline-start: 2em">
+        <p source="#source-18759-18800"><seg source="#source-18759-18800">伊東玄朴　　差図役、相談役</seg></p>
+        <p source="#source-18800-18826"><seg source="#source-18800-18826">戸塚静海　　執刀</seg></p>
+        <p source="#source-18826-18852"><seg source="#source-18826-18852">大槻俊斎　　監察</seg></p>
+        <p source="#source-18852-18878"><seg source="#source-18852-18878">竹内玄洞　　施薬</seg></p>
+        <p source="#source-18878-18904"><seg source="#source-18878-18904">林　洞海　　助手</seg></p>
+        <p source="#source-18904-18927"><seg source="#source-18904-18927">三宅良斎　　同</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18965-20674">そこで玄朴が言うには、「前野、杉田の両先生、その以前では山脇東洋が、人体の内臓に刀を入れたじゃが、どちらも構造を見識するにとどまり、のみならず扱われたは、どちらも<ruby type="furigana" rend="right" source="#source-19211-19232"><rb>絶死</rb><rt>ぜっし</rt></ruby><seg source="#source-19232-19235">の</seg><ruby type="furigana" rend="right" source="#source-19235-19253"><rb>屍</rb><rt>むくろ</rt></ruby><seg source="#source-19253-19292">であった。回生を意図して、</seg><ruby type="furigana" rend="right" source="#source-19292-19316"><rb>生体</rb><rt>せいたい</rt></ruby>のそれも陰嚢に刀を入れるなどは、わが国の医術がはじまって以来、これが最初のことじゃ。言うまでもないが、一世を劃する試みとなるわけでござる。われらの名聞など、どうあろうとさしかまいはないが、このたびばかりは、なんとしても仕終わせねばならぬ。万一にも仕損じたら、この先、蘭方外科は何とあるであろう。それでは困るから、取掛るからには、手ぬかりのないように、万全を期さねばならぬ。まず施術の時期だが、それについて戸塚氏に御意見があったら承っておきたい」。戸塚の意見は、かすとらちおんの医書には去勢の術は寒暑の候はいずれも不可、春、秋、殊に早春がよいとあった。これは牛馬のことで、殿のふぐりは譬えにならないようなものだが、なんといっても施術の器具が思うようでなく、消毒の方法も不備だから、感染の恐れの少ない季節を選びたい。なおその上、寛怠に似て恐縮だが実はまだ研究が十分でない。行届きかねるところもある。自信もないのに執刀するのは、天を懼れざる仕方だから、ならば一日でも先へ繰延したいのが真意だということであった。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-20674-22239"><seg source="#source-20674-20698">幸いなるかな、</seg><ruby type="furigana" rend="right" source="#source-20698-20725"><rb>殿上</rb><rt>でんじょう</rt></ruby><seg source="#source-20725-20779">の御腫物は良性でござって、梅瘡にも、</seg><ruby type="furigana" rend="right" source="#source-20779-20806"><rb>労性</rb><rt>ろうしょう</rt></ruby><seg source="#source-20806-20890">にも、癌腫にもその方の悪性の筋をひいていないから、仮りに</seg><ruby type="furigana" rend="right" source="#source-20890-20929"><rb>小児頭大</rb><rt>しょうにずだい</rt></ruby>の極度に及ぶにしても、そこまで行くには半年や十月の余裕があるものと見てよい。願われるなら、十月の初秋の候に事を挙げたいと存念を披瀝した。玄朴考えて、「大槻氏、其許は最初からの<ruby type="furigana" rend="right" source="#source-21190-21217"><rb>関係</rb><rt>かかりあい</rt></ruby>だが、御ンふぐりのふくれぐあいを測っていられたろうか。書き留めたものでもあったら、ちょっと見たい」と言うたら、大槻は書附をだして、何月何日には何寸何分、何日には何分と読みあげた。玄朴、聞いてから、指を折って数えていたが「うむ、今のところはまず鷺の卵ぐらいか。十月となると、<ruby type="furigana" rend="right" source="#source-21625-21640"><rb>鶴</rb><rt>つる</rt></ruby>の卵ほどになろうかな。よし、十月にきめよう。それはいいが、御先方はむずむずしていられるところだから、悠長めかした話に御同心になるであろうか」そこで戸塚、「明らさまに申したら、御承服なさるはずはございませぬから、ただ、そのうちに、とだけお答えしておきます。なにをお問いになられても、そのうちに。余のことは一切申しあげず、十月までは、そのうちにそのうちにで押し通すつもり」そういうことで相談が結着した。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-22239-22943"><seg source="#source-22239-22338">三月もすぎ、四月終り、五、六、七と月を越して、八月となった。殿の</seg><ruby type="furigana" rend="right" source="#source-22338-22359"><rb>御物</rb><rt>おもの</rt></ruby><seg source="#source-22359-22386">はますます増長し、</seg><ruby type="furigana" rend="right" source="#source-22386-22410"><rb>小枕</rb><rt>こまくら</rt></ruby><seg source="#source-22410-22614">ほどになったことで、あおのけに寝た腹の上に、ふぐりが大々と盛りあがり、石灯籠の子持笠のように見えた。殿はうちつづく暑気に悩んでほとほとに</seg><ruby type="furigana" rend="right" source="#source-22614-22626"><rb>倦</rb><rt>う</rt></ruby>んじられ、「おのれらは、そのうちにとばかりぬかしおるが、おれをば、ふぐり玉の下敷にして殺す気かのう。うちゃもう、この上は<ruby type="furigana" rend="right" source="#source-22806-22821"><rb>堪</rb><rt>こら</rt></ruby>えてつかわさぬぞ」などとのたまい、桐の夏枕を掴み投げにし、大荒れに荒れたもうた。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-22943-23269"><seg source="#source-22943-23269">そうするところに、殿のふぐり玉に殉死をねがうものが出てきた。戸塚が牛馬のふぐりに執刀を試みていることが、風のように洩れだし、施術が遅れるのはそのせいなりと独り嚥込みし、気の早いのから順番に願書を上げたものであった。</seg></p>
+      </div>
+      <div type="layout" source="#source-23269-23629" style="padding-inline-start: 2em">
+        <p source="#source-23304-23363"><seg source="#source-23304-23363">八月　七日　　　杉浦　三蔵　　御側調役</seg></p>
+        <p source="#source-23363-23422"><seg source="#source-23363-23422">同　　九日　　　生島　孫太　　取次下番</seg></p>
+        <p source="#source-23422-23478"><seg source="#source-23422-23478">同　十二日　　　矢部国四郎　　調役並</seg></p>
+        <p source="#source-23478-23537"><seg source="#source-23478-23537">同　　同　　　　多門　孝平　　物頭添役</seg></p>
+        <p source="#source-23537-23593"><seg source="#source-23537-23593">同　十五日　　　石井久之助　　使番並</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-23631-24140"><seg source="#source-23631-24140">殉死願は続々と出て、九月中には二十六人にまでなったが、もとより聞かれるような願いでないから、一、二日手許に止めて置いて、夫々に差戻した。そうすると、こんどは大槻や戸塚の帰途を擁して強請するものが出てきた。いちど出したふぐりが、たやすくひっこまされるかということなのだが、いきり立った荒れ玉をおしなだめるのに、大槻も戸塚も大方汗をかいた。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-24140-24742"><seg source="#source-24140-24742">施術は十一月四日の正午から下邸の中ノ書院で行なわれることになり、戸塚、大槻、林、竹内の四人が前日から泊りこんで万般の準備にとりかかった。欄間の塵を払い、残る方なく清掃し、書院の真中に畳を五畳積みあげて清浄な白布で蔽い、そこを施術の場所にした。畳を重ねて台をつくるのは、この日がはじめてではない。むかしから順天堂の一派がやっていた方式であったが、切腹の場に似ていると言って、重役からきつい文句が出た。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-24742-25551"><seg source="#source-24742-24853">そちらの一角はようようのことで切崩したが、ここに意外な障りが起った。殿は</seg><ruby type="furigana" rend="right" source="#source-24853-24868"><rb>御</rb><rt>おん</rt></ruby><seg source="#source-24868-25099">二十八歳、倭子という奥方があられるが、まだ嫡子がない。こういう御境界は前々から知れ切っていたから、一人旅の遍路の笠にも同行二人と書きつけるごとく、いやまた</seg><ruby type="furigana" rend="right" source="#source-25099-25114"><rb>唐</rb><rt>から</rt></ruby><seg source="#source-25114-25246">の車は一輪で用を弁ずるがごとく、右は失っても左さえあれば、一個をもって二個の役を果すべき</seg><ruby type="furigana" rend="right" source="#source-25246-25273"><rb>証跡</rb><rt>しょうせき</rt></ruby><seg source="#source-25273-25471">を二人からさまざまに申上げ、御親類一同も御納得になったことであったが、今日という今日になって、御母堂の筋から、外科の施術をとりやめて</seg><ruby type="furigana" rend="right" source="#source-25471-25483"><rb>散</rb><rt>ち</rt></ruby><seg source="#source-25483-25551">らす方を考えよと、取次をもって仰せだされた。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-25551-27842">大槻と戸塚は中ノ書院の入側に坐って顔を見合っていたが、そのうちに大槻「いまになってかような御沙汰を受けるのは困る。お目にかかって申しあげようではないか」と立ちかかった。戸塚は「それはわかっているが、奥の刀自さまは国学の造詣の深いお方だと言うから、生仲なことでは御納得になるまいぞ」と言うたら、大槻は「そのことだ。とても理で押せまい、欺してしまうのよ。まあ行こう」と、戸塚を誘って奥へ上った。大槻はかれこれと<ruby type="furigana" rend="right" source="#source-26163-26184"><rb>去気</rb><rt>さりげ</rt></ruby>ない体で世間話をして居って、そのあとで急に思いついたように「万葉集の巻ノ七に、伊勢の海のあまの<ruby type="furigana" rend="right" source="#source-26325-26349"><rb>志摩津</rb><rt>しまづ</rt></ruby><seg source="#source-26349-26352">が</seg><ruby type="furigana" rend="right" source="#source-26352-26379"><rb>鮑玉</rb><rt>あわびだま</rt></ruby><seg source="#source-26379-26391">、取りて</seg><ruby type="furigana" rend="right" source="#source-26391-26406"><rb>後</rb><rt>のち</rt></ruby><seg source="#source-26406-26418">もが恋の</seg><ruby type="furigana" rend="right" source="#source-26418-26433"><rb>繁</rb><rt>しげ</rt></ruby><seg source="#source-26433-26733">けんという和歌がございます。一般には、藤原ノ淡海公と志摩の玉取りの故事を読んだものと言うことになって居りまするが、わたくしどもは、あれを医学の歌だとして居ります。あまとあるは、海に潜る海女にてはなく、</seg><ruby type="furigana" rend="right" source="#source-26733-26754"><rb>古</rb><rt>いにしえ</rt></ruby><seg source="#source-26754-26793">は海辺の遊女の異名であった</seg><ruby type="furigana" rend="right" source="#source-26793-26808"><rb>蜑</rb><rt>あま</rt></ruby>を指したもので」。刀自殿は<ruby type="furigana" rend="right" source="#source-26847-26859"><rb>異</rb><rt>い</rt></ruby>な顔をして「それまた、変った御説よの」と乗出してこられた。すると大槻「往古は陸路の便が少なく、旅行はおおむね海路によりましたが、旅人の鬱を散ずるため、港々に蜑という遊女が居って、船が港へ入ると、小舟に乗り、あるいは岸に立って客を招んだよしでございます。伊勢の海の歌にある鮑玉とは人間の精髄のことで、男にあっては<ruby type="furigana" rend="right" source="#source-27324-27351"><rb>鰒玉</rb><rt>ふぐりだま</rt></ruby><seg source="#source-27351-27372">、女にあっては</seg><ruby type="furigana" rend="right" source="#source-27372-27399"><rb>鮑玉</rb><rt>あわびだま</rt></ruby>。その頃、蜑を抱えまするとき、前もって一方の鮑玉を切取る例がござったが、蜑どもにしては、鮑玉の一方が残って居れば、いつでも想う人の子を孕むことができるというその心をうたったものと解して居ります。とりとめもない話でございますが、なにせよ古い頃のことで」そう言って、恭しくお辞儀をしたものであった。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-27842-28327"><seg source="#source-27842-27932">さてその間、なにやかとごたごたしたが、自然のうちに御差止が</seg><ruby type="furigana" rend="right" source="#source-27932-27944"><rb>許</rb><rt>ゆ</rt></ruby><seg source="#source-27944-27956">れ、翌日</seg><seg type="warichu" rend="two-line" source="#source-27956-28016"><seg source="#source-27974-27989">十一月四日</seg></seg><seg source="#source-28016-28181">の正午から我が国はじまって以来のふぐり外科の施術にとりかかった。昼の午の刻から暮れ切るまでかかり、見ん事、殿の</seg><ruby type="furigana" rend="right" source="#source-28181-28211"><rb>御宝蔵</rb><rt>ごほうぞう</rt></ruby><seg source="#source-28211-28223">から腐れ</seg><ruby type="furigana" rend="right" source="#source-28223-28247"><rb>宝珠</rb><rt>ほうしゅ</rt></ruby><seg source="#source-28247-28327">をとりいだした。その次第は、殿の日記に見えてござる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-28327-29046"><seg source="#source-28327-29046">切るところを見定めんとするなるべし。まず畳五畳ばかり重ねた上に寝させたり。刀を執るものは戸塚静海を長として、林洞海、三宅良斎なり。伊東玄朴かたわらにありて、何くれとなく計らい定む。大槻俊斎はおのれの胸をば右の手でしっかりとおさえつけ、左の手に蘭書を持ち、一寸の誤ちもあらせじと心を配るなりけり。竹内玄洞は薬のことを司れるが、おのれが顔を見つつ、心地いかにいかにと問うなり。玄朴の教え子二人、左右の足をおさえて動かさず、洞海の教え子ら、水よ布よ、と役送す。かくて刀をとりはじむ。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-29046-29858"><seg source="#source-29046-29127">静海、刀をおろし、陰茎の脇、ふぐりの右の方を五六寸も</seg><ruby type="furigana" rend="right" source="#source-29127-29142"><rb>截</rb><rt>きり</rt></ruby><seg source="#source-29142-29232">割りたりとか。おのれにはただ冷水を注ぐかと思われぬ。この時、</seg><ruby type="furigana" rend="right" source="#source-29232-29247"><rb>午</rb><rt>うま</rt></ruby><seg source="#source-29247-29406">の刻の鐘きこえけり。さて、今は切りたる中を開きて見定むるなるべし。時として身のうちに響くこともありけれど、</seg><ruby type="furigana" rend="right" source="#source-29406-29418"><rb>左</rb><rt>さ</rt></ruby><seg source="#source-29418-29472">のみ痛しとも堪えがたしとも思われず、</seg><app type="base-text-variant" source="#source-29478-29526"><lem><seg source="#source-29472-29478">折々</seg></lem><rdg type="base-text"><seg source="#source-29514-29520">折折</seg></rdg></app><seg source="#source-29526-29547">、水注ぎ洗うが</seg><ruby type="furigana" rend="right" source="#source-29547-29571"><rb>冷々</rb><rt>ひやひや</rt></ruby><seg source="#source-29571-29625">と覚えらる。人々、さまざまに計らいて</seg><ruby type="furigana" rend="right" source="#source-29625-29649"><rb>精系</rb><rt>せいけい</rt></ruby><seg source="#source-29649-29832">を糸にて結びたるときは、命の限りとばかりにて、腹の中の物を差入れらるる心地ぞせられける。ほどなく切捨てたるにや、その心地も</seg><ruby type="furigana" rend="right" source="#source-29832-29847"><rb>直</rb><rt>なお</rt></ruby><seg source="#source-29847-29858">りぬ。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-29858-30418"><seg source="#source-29858-30140">扨、あしき玉を取り出すとて、左右は纒いたる筋を切るに、二度三度は響きつれど、なにばかりの事もなし。明暮れ心にかかり、片時も忘れざりし根を断ち、玉をぬき出したるなれば、たとえんにものなく、</seg><ruby type="furigana" rend="right" source="#source-30140-30164"><rb>清々</rb><rt>すがすが</rt></ruby><seg source="#source-30164-30203">しくおぼえける。今は更に、</seg><ruby type="furigana" rend="right" source="#source-30203-30224"><rb>千歳</rb><rt>ちとせ</rt></ruby><seg source="#source-30224-30254">の命、継ぎたりと心の</seg><ruby type="furigana" rend="right" source="#source-30254-30275"><rb>落居</rb><rt>おちい</rt></ruby><seg source="#source-30275-30418">たるにや、疵口を縫いつくろう折、仲々、堪えがたくて人々に笑われたりき。このとき全く日暮れたり。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-30418-30975"><seg source="#source-30418-30463">とり出したる玉を見るに、少し</seg><ruby type="furigana" rend="right" source="#source-30463-30478"><rb>裏</rb><rt>うら</rt></ruby><ruby type="furigana" rend="right" source="#source-30478-30496"><rb>平</rb><rt>たいら</rt></ruby><seg source="#source-30496-30975">みて、長きところ五寸余り、幅は四寸ばかりにて、ところどころ高低ありて形を失い、裁ち割りて見るに、玉の性変じていたく色も乱れ、いまや腐れ出ずべきさまなり。重さ百匁余りもありしとか。さもあれ、仰向けに寝よといわれ、昼より暮れ過ぎまで押えつけられ、動きもさえならざりし事とて、腰痛みて苦しけれど、念じて、そのまま粥など吸う。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-30975-31563"><seg source="#source-30975-31401">六日、七日、おなじ心地なり。八日の日、いかにしけむ、尿の出あしくなりて、日に一度、夜に一度ばかり出るに、いたく悩まし。十日になりて、洞海、思いだして、縫いたる糸の引詰まったるがありと言いて切捨てたれば、瞬く間に心地よく出てきにけり。これより後、なんの障る事なく、十五、六日には食物の</seg><ruby type="furigana" rend="right" source="#source-31401-31422"><rb>戒</rb><rt>いましめ</rt></ruby><seg source="#source-31422-31563">もいささか緩り、疵口も大方癒着し、今はただ日を数えて全く癒えなん事を待つばかりになんありける。</seg></p>
+      </div>
+    </body>
+    <back>
+      <div type="source">
+        <note type="source-attribution" source="#source-31571-31893"><seg type="source-line">底本：「久生十蘭全集　<g ref="#gaiji-1-13-22" source="#source-31604-31642">Ⅱ</g>」三一書房</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1970（昭和45）年1月31日第1版第1刷発行</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1992（平成4）年2月29日第1版第8刷発行</seg><lb/><seg type="source-line">初出：「別冊文藝春秋　第二十四号小説二十人集」</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1951（昭和26）年10月30日</seg></note>
+        <note type="transcriber-note" source="#source-31893-32396"><seg type="source-line">※誤植を疑った箇所を、「定本久生十蘭全集　8」国書刊行会、2010（平成22）年11月24日初版第1刷発行の表記にそって、あらためました。</seg><lb/><seg type="source-line">入力：門田裕志</seg><lb/><seg type="source-line">校正：芝裕久</seg><lb/><seg type="source-line">2021年3月27日作成</seg><lb/><seg type="source-line">青空文庫作成ファイル：</seg><lb/><seg type="source-line">このファイルは、インターネットの図書館、青空文庫（https://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。</seg></note>
+        <note type="source-span" xml:id="source-10032-10095" n="30"/>
+        <note type="source-span" xml:id="source-10032-11174" n="30"/>
+        <note type="source-span" xml:id="source-1006-1099" n="18"/>
+        <note type="source-span" xml:id="source-10095-10116" n="30"/>
+        <note type="source-span" xml:id="source-10116-10248" n="30"/>
+        <note type="source-span" xml:id="source-10248-10272" n="30"/>
+        <note type="source-span" xml:id="source-10272-10275" n="30"/>
+        <note type="source-span" xml:id="source-10275-10290" n="30"/>
+        <note type="source-span" xml:id="source-10389-10401" n="30"/>
+        <note type="source-span" xml:id="source-10401-10404" n="30"/>
+        <note type="source-span" xml:id="source-10404-10416" n="30"/>
+        <note type="source-span" xml:id="source-10416-10464" n="30"/>
+        <note type="source-span" xml:id="source-10464-10485" n="30"/>
+        <note type="source-span" xml:id="source-10485-10500" n="30"/>
+        <note type="source-span" xml:id="source-10500-10518" n="30"/>
+        <note type="source-span" xml:id="source-10518-10578" n="30"/>
+        <note type="source-span" xml:id="source-10578-10602" n="30"/>
+        <note type="source-span" xml:id="source-10602-10971" n="30"/>
+        <note type="source-span" xml:id="source-10971-10992" n="30"/>
+        <note type="source-span" xml:id="source-1099-1123" n="18"/>
+        <note type="source-span" xml:id="source-10992-11004" n="30"/>
+        <note type="source-span" xml:id="source-11004-11019" n="30"/>
+        <note type="source-span" xml:id="source-11174-11345" n="31"/>
+        <note type="source-span" xml:id="source-11209-11209" n="32"/>
+        <note type="source-span" xml:id="source-11209-11256" n="32"/>
+        <note type="source-span" xml:id="source-1123-1183" n="18"/>
+        <note type="source-span" xml:id="source-11256-11309" n="33"/>
+        <note type="source-span" xml:id="source-11347-11532" n="35"/>
+        <note type="source-span" xml:id="source-11532-11561" n="36"/>
+        <note type="source-span" xml:id="source-11561-11594" n="37"/>
+        <note type="source-span" xml:id="source-11561-12307" n="37"/>
+        <note type="source-span" xml:id="source-11594-11606" n="37"/>
+        <note type="source-span" xml:id="source-11606-11723" n="37"/>
+        <note type="source-span" xml:id="source-11723-11744" n="37"/>
+        <note type="source-span" xml:id="source-11744-11756" n="37"/>
+        <note type="source-span" xml:id="source-11756-11777" n="37"/>
+        <note type="source-span" xml:id="source-11777-11873" n="37"/>
+        <note type="source-span" xml:id="source-1183-1201" n="18"/>
+        <note type="source-span" xml:id="source-11873-11885" n="37"/>
+        <note type="source-span" xml:id="source-11885-11888" n="37"/>
+        <note type="source-span" xml:id="source-11888-11909" n="37"/>
+        <note type="source-span" xml:id="source-11909-11993" n="37"/>
+        <note type="source-span" xml:id="source-11993-12005" n="37"/>
+        <note type="source-span" xml:id="source-12005-12071" n="37"/>
+        <note type="source-span" xml:id="source-1201-1300" n="18"/>
+        <note type="source-span" xml:id="source-12071-12089" n="37"/>
+        <note type="source-span" xml:id="source-12089-12307" n="37"/>
+        <note type="source-span" xml:id="source-12307-12561" n="38"/>
+        <note type="source-span" xml:id="source-12561-13418" n="39"/>
+        <note type="source-span" xml:id="source-1300-1368" n="18"/>
+        <note type="source-span" xml:id="source-1303-1356" n="18"/>
+        <note type="source-span" xml:id="source-13056-13080" n="39"/>
+        <note type="source-span" xml:id="source-13080-13418" n="39"/>
+        <note type="source-span" xml:id="source-13418-13943" n="40"/>
+        <note type="source-span" xml:id="source-13418-15817" n="40"/>
+        <note type="source-span" xml:id="source-1368-1419" n="18"/>
+        <note type="source-span" xml:id="source-13943-13964" n="40"/>
+        <note type="source-span" xml:id="source-13970-13991" n="40"/>
+        <note type="source-span" xml:id="source-13991-14078" n="40"/>
+        <note type="source-span" xml:id="source-14078-14096" n="40"/>
+        <note type="source-span" xml:id="source-1419-1443" n="18"/>
+        <note type="source-span" xml:id="source-1443-1605" n="18"/>
+        <note type="source-span" xml:id="source-14687-14711" n="40"/>
+        <note type="source-span" xml:id="source-15716-15737" n="40"/>
+        <note type="source-span" xml:id="source-15737-15817" n="40"/>
+        <note type="source-span" xml:id="source-15817-16296" n="41"/>
+        <note type="source-span" xml:id="source-1605-1623" n="18"/>
+        <note type="source-span" xml:id="source-16063-16081" n="41"/>
+        <note type="source-span" xml:id="source-1623-1644" n="18"/>
+        <note type="source-span" xml:id="source-16296-18017" n="42"/>
+        <note type="source-span" xml:id="source-16389-16410" n="42"/>
+        <note type="source-span" xml:id="source-16410-16419" n="42"/>
+        <note type="source-span" xml:id="source-16419-16434" n="42"/>
+        <note type="source-span" xml:id="source-16434-16542" n="42"/>
+        <note type="source-span" xml:id="source-1644-1665" n="18"/>
+        <note type="source-span" xml:id="source-16542-16569" n="42"/>
+        <note type="source-span" xml:id="source-16569-16743" n="42"/>
+        <note type="source-span" xml:id="source-1665-1718" n="18"/>
+        <note type="source-span" xml:id="source-16743-16764" n="42"/>
+        <note type="source-span" xml:id="source-16764-16932" n="42"/>
+        <note type="source-span" xml:id="source-16932-16959" n="42"/>
+        <note type="source-span" xml:id="source-16959-17829" n="42"/>
+        <note type="source-span" xml:id="source-1718-1910" n="19"/>
+        <note type="source-span" xml:id="source-1718-2095" n="19"/>
+        <note type="source-span" xml:id="source-17829-17853" n="42"/>
+        <note type="source-span" xml:id="source-18017-18149" n="43"/>
+        <note type="source-span" xml:id="source-18017-18724" n="43"/>
+        <note type="source-span" xml:id="source-18149-18164" n="43"/>
+        <note type="source-span" xml:id="source-18164-18320" n="43"/>
+        <note type="source-span" xml:id="source-18320-18341" n="43"/>
+        <note type="source-span" xml:id="source-18341-18356" n="43"/>
+        <note type="source-span" xml:id="source-18356-18536" n="43"/>
+        <note type="source-span" xml:id="source-18536-18551" n="43"/>
+        <note type="source-span" xml:id="source-18551-18724" n="43"/>
+        <note type="source-span" xml:id="source-18724-18963" n="44"/>
+        <note type="source-span" xml:id="source-18759-18759" n="45"/>
+        <note type="source-span" xml:id="source-18759-18800" n="45"/>
+        <note type="source-span" xml:id="source-18800-18826" n="46"/>
+        <note type="source-span" xml:id="source-18826-18852" n="47"/>
+        <note type="source-span" xml:id="source-18852-18878" n="48"/>
+        <note type="source-span" xml:id="source-18878-18904" n="49"/>
+        <note type="source-span" xml:id="source-18904-18927" n="50"/>
+        <note type="source-span" xml:id="source-18965-20674" n="52"/>
+        <note type="source-span" xml:id="source-1910-1925" n="19"/>
+        <note type="source-span" xml:id="source-19211-19232" n="52"/>
+        <note type="source-span" xml:id="source-19232-19235" n="52"/>
+        <note type="source-span" xml:id="source-19235-19253" n="52"/>
+        <note type="source-span" xml:id="source-1925-1928" n="19"/>
+        <note type="source-span" xml:id="source-19253-19292" n="52"/>
+        <note type="source-span" xml:id="source-1928-1943" n="19"/>
+        <note type="source-span" xml:id="source-19292-19316" n="52"/>
+        <note type="source-span" xml:id="source-1943-2039" n="19"/>
+        <note type="source-span" xml:id="source-2039-2054" n="19"/>
+        <note type="source-span" xml:id="source-2054-2095" n="19"/>
+        <note type="source-span" xml:id="source-20674-20698" n="53"/>
+        <note type="source-span" xml:id="source-20674-22239" n="53"/>
+        <note type="source-span" xml:id="source-20698-20725" n="53"/>
+        <note type="source-span" xml:id="source-20725-20779" n="53"/>
+        <note type="source-span" xml:id="source-20779-20806" n="53"/>
+        <note type="source-span" xml:id="source-20806-20890" n="53"/>
+        <note type="source-span" xml:id="source-20890-20929" n="53"/>
+        <note type="source-span" xml:id="source-2095-3531" n="20"/>
+        <note type="source-span" xml:id="source-21190-21217" n="53"/>
+        <note type="source-span" xml:id="source-21625-21640" n="53"/>
+        <note type="source-span" xml:id="source-22239-22338" n="54"/>
+        <note type="source-span" xml:id="source-22239-22943" n="54"/>
+        <note type="source-span" xml:id="source-22338-22359" n="54"/>
+        <note type="source-span" xml:id="source-22359-22386" n="54"/>
+        <note type="source-span" xml:id="source-22386-22410" n="54"/>
+        <note type="source-span" xml:id="source-22410-22614" n="54"/>
+        <note type="source-span" xml:id="source-22614-22626" n="54"/>
+        <note type="source-span" xml:id="source-22806-22821" n="54"/>
+        <note type="source-span" xml:id="source-22943-23269" n="55"/>
+        <note type="source-span" xml:id="source-2314-2341" n="20"/>
+        <note type="source-span" xml:id="source-23269-23629" n="56"/>
+        <note type="source-span" xml:id="source-23304-23304" n="57"/>
+        <note type="source-span" xml:id="source-23304-23363" n="57"/>
+        <note type="source-span" xml:id="source-23363-23422" n="58"/>
+        <note type="source-span" xml:id="source-2341-2485" n="20"/>
+        <note type="source-span" xml:id="source-23422-23478" n="59"/>
+        <note type="source-span" xml:id="source-23478-23537" n="60"/>
+        <note type="source-span" xml:id="source-23537-23593" n="61"/>
+        <note type="source-span" xml:id="source-23631-24140" n="63"/>
+        <note type="source-span" xml:id="source-24140-24742" n="64"/>
+        <note type="source-span" xml:id="source-24742-24853" n="65"/>
+        <note type="source-span" xml:id="source-24742-25551" n="65"/>
+        <note type="source-span" xml:id="source-2485-2506" n="20"/>
+        <note type="source-span" xml:id="source-24853-24868" n="65"/>
+        <note type="source-span" xml:id="source-24868-25099" n="65"/>
+        <note type="source-span" xml:id="source-25099-25114" n="65"/>
+        <note type="source-span" xml:id="source-25114-25246" n="65"/>
+        <note type="source-span" xml:id="source-25246-25273" n="65"/>
+        <note type="source-span" xml:id="source-25273-25471" n="65"/>
+        <note type="source-span" xml:id="source-25471-25483" n="65"/>
+        <note type="source-span" xml:id="source-25483-25551" n="65"/>
+        <note type="source-span" xml:id="source-25551-27842" n="66"/>
+        <note type="source-span" xml:id="source-26163-26184" n="66"/>
+        <note type="source-span" xml:id="source-26325-26349" n="66"/>
+        <note type="source-span" xml:id="source-26349-26352" n="66"/>
+        <note type="source-span" xml:id="source-26352-26379" n="66"/>
+        <note type="source-span" xml:id="source-26379-26391" n="66"/>
+        <note type="source-span" xml:id="source-26391-26406" n="66"/>
+        <note type="source-span" xml:id="source-26406-26418" n="66"/>
+        <note type="source-span" xml:id="source-26418-26433" n="66"/>
+        <note type="source-span" xml:id="source-26433-26733" n="66"/>
+        <note type="source-span" xml:id="source-26733-26754" n="66"/>
+        <note type="source-span" xml:id="source-26754-26793" n="66"/>
+        <note type="source-span" xml:id="source-26793-26808" n="66"/>
+        <note type="source-span" xml:id="source-26847-26859" n="66"/>
+        <note type="source-span" xml:id="source-2710-2734" n="20"/>
+        <note type="source-span" xml:id="source-27324-27351" n="66"/>
+        <note type="source-span" xml:id="source-2734-2983" n="20"/>
+        <note type="source-span" xml:id="source-27351-27372" n="66"/>
+        <note type="source-span" xml:id="source-27372-27399" n="66"/>
+        <note type="source-span" xml:id="source-27842-27932" n="67"/>
+        <note type="source-span" xml:id="source-27842-28327" n="67"/>
+        <note type="source-span" xml:id="source-27932-27944" n="67"/>
+        <note type="source-span" xml:id="source-27944-27956" n="67"/>
+        <note type="source-span" xml:id="source-27956-28016" n="67"/>
+        <note type="source-span" xml:id="source-27974-27989" n="67"/>
+        <note type="source-span" xml:id="source-28016-28181" n="67"/>
+        <note type="source-span" xml:id="source-28181-28211" n="67"/>
+        <note type="source-span" xml:id="source-28211-28223" n="67"/>
+        <note type="source-span" xml:id="source-28223-28247" n="67"/>
+        <note type="source-span" xml:id="source-28247-28327" n="67"/>
+        <note type="source-span" xml:id="source-28327-29046" n="68"/>
+        <note type="source-span" xml:id="source-29046-29127" n="69"/>
+        <note type="source-span" xml:id="source-29046-29858" n="69"/>
+        <note type="source-span" xml:id="source-29127-29142" n="69"/>
+        <note type="source-span" xml:id="source-29142-29232" n="69"/>
+        <note type="source-span" xml:id="source-29232-29247" n="69"/>
+        <note type="source-span" xml:id="source-29247-29406" n="69"/>
+        <note type="source-span" xml:id="source-29406-29418" n="69"/>
+        <note type="source-span" xml:id="source-29418-29472" n="69"/>
+        <note type="source-span" xml:id="source-29472-29478" n="69"/>
+        <note type="source-span" xml:id="source-29478-29526" n="69"/>
+        <note type="source-span" xml:id="source-29514-29520" n="69"/>
+        <note type="source-span" xml:id="source-29526-29547" n="69"/>
+        <note type="source-span" xml:id="source-29547-29571" n="69"/>
+        <note type="source-span" xml:id="source-29571-29625" n="69"/>
+        <note type="source-span" xml:id="source-29625-29649" n="69"/>
+        <note type="source-span" xml:id="source-29649-29832" n="69"/>
+        <note type="source-span" xml:id="source-2983-3004" n="20"/>
+        <note type="source-span" xml:id="source-29832-29847" n="69"/>
+        <note type="source-span" xml:id="source-29847-29858" n="69"/>
+        <note type="source-span" xml:id="source-29858-30140" n="70"/>
+        <note type="source-span" xml:id="source-29858-30418" n="70"/>
+        <note type="source-span" xml:id="source-3004-3016" n="20"/>
+        <note type="source-span" xml:id="source-30140-30164" n="70"/>
+        <note type="source-span" xml:id="source-3016-3037" n="20"/>
+        <note type="source-span" xml:id="source-30164-30203" n="70"/>
+        <note type="source-span" xml:id="source-30203-30224" n="70"/>
+        <note type="source-span" xml:id="source-30224-30254" n="70"/>
+        <note type="source-span" xml:id="source-30254-30275" n="70"/>
+        <note type="source-span" xml:id="source-30275-30418" n="70"/>
+        <note type="source-span" xml:id="source-3037-3130" n="20"/>
+        <note type="source-span" xml:id="source-30418-30463" n="71"/>
+        <note type="source-span" xml:id="source-30418-30975" n="71"/>
+        <note type="source-span" xml:id="source-30463-30478" n="71"/>
+        <note type="source-span" xml:id="source-30478-30496" n="71"/>
+        <note type="source-span" xml:id="source-30496-30975" n="71"/>
+        <note type="source-span" xml:id="source-30975-31401" n="72"/>
+        <note type="source-span" xml:id="source-30975-31563" n="72"/>
+        <note type="source-span" xml:id="source-3130-3154" n="20"/>
+        <note type="source-span" xml:id="source-31401-31422" n="72"/>
+        <note type="source-span" xml:id="source-31422-31563" n="72"/>
+        <note type="source-span" xml:id="source-3154-3196" n="20"/>
+        <note type="source-span" xml:id="source-31571-31604" n="76"/>
+        <note type="source-span" xml:id="source-31571-31893" n="76"/>
+        <note type="source-span" xml:id="source-31604-31642" n="76"/>
+        <note type="source-span" xml:id="source-31642-31659" n="76"/>
+        <note type="source-span" xml:id="source-31659-31720" n="77"/>
+        <note type="source-span" xml:id="source-31720-31780" n="78"/>
+        <note type="source-span" xml:id="source-31780-31851" n="79"/>
+        <note type="source-span" xml:id="source-31851-31893" n="80"/>
+        <note type="source-span" xml:id="source-31893-32396" n="81"/>
+        <note type="source-span" xml:id="source-3196-3211" n="20"/>
+        <note type="source-span" xml:id="source-3211-3268" n="20"/>
+        <note type="source-span" xml:id="source-3268-3283" n="20"/>
+        <note type="source-span" xml:id="source-3283-3307" n="20"/>
+        <note type="source-span" xml:id="source-3307-3334" n="20"/>
+        <note type="source-span" xml:id="source-3334-3352" n="20"/>
+        <note type="source-span" xml:id="source-3352-3358" n="20"/>
+        <note type="source-span" xml:id="source-3358-3385" n="20"/>
+        <note type="source-span" xml:id="source-3531-3534" n="21"/>
+        <note type="source-span" xml:id="source-3531-4559" n="21"/>
+        <note type="source-span" xml:id="source-3534-3570" n="21"/>
+        <note type="source-span" xml:id="source-3750-3780" n="21"/>
+        <note type="source-span" xml:id="source-4083-4101" n="21"/>
+        <note type="source-span" xml:id="source-4101-4559" n="21"/>
+        <note type="source-span" xml:id="source-4559-4613" n="22"/>
+        <note type="source-span" xml:id="source-4559-4975" n="22"/>
+        <note type="source-span" xml:id="source-4613-4631" n="22"/>
+        <note type="source-span" xml:id="source-4631-4637" n="22"/>
+        <note type="source-span" xml:id="source-4637-4661" n="22"/>
+        <note type="source-span" xml:id="source-4661-4835" n="22"/>
+        <note type="source-span" xml:id="source-4835-4850" n="22"/>
+        <note type="source-span" xml:id="source-4850-4975" n="22"/>
+        <note type="source-span" xml:id="source-4975-4990" n="23"/>
+        <note type="source-span" xml:id="source-4975-5439" n="23"/>
+        <note type="source-span" xml:id="source-4990-5020" n="23"/>
+        <note type="source-span" xml:id="source-5002-5017" n="23"/>
+        <note type="source-span" xml:id="source-5020-5068" n="23"/>
+        <note type="source-span" xml:id="source-5068-5158" n="23"/>
+        <note type="source-span" xml:id="source-5158-5176" n="23"/>
+        <note type="source-span" xml:id="source-5176-5368" n="23"/>
+        <note type="source-span" xml:id="source-5368-5392" n="23"/>
+        <note type="source-span" xml:id="source-5392-5439" n="23"/>
+        <note type="source-span" xml:id="source-5439-5466" n="24"/>
+        <note type="source-span" xml:id="source-5439-7081" n="24"/>
+        <note type="source-span" xml:id="source-5466-5490" n="24"/>
+        <note type="source-span" xml:id="source-5490-5538" n="24"/>
+        <note type="source-span" xml:id="source-5538-5559" n="24"/>
+        <note type="source-span" xml:id="source-5559-5805" n="24"/>
+        <note type="source-span" xml:id="source-5805-5826" n="24"/>
+        <note type="source-span" xml:id="source-5826-5961" n="24"/>
+        <note type="source-span" xml:id="source-5961-5985" n="24"/>
+        <note type="source-span" xml:id="source-607-1718" n="18"/>
+        <note type="source-span" xml:id="source-607-628" n="18"/>
+        <note type="source-span" xml:id="source-628-691" n="18"/>
+        <note type="source-span" xml:id="source-646-664" n="18"/>
+        <note type="source-span" xml:id="source-691-880" n="18"/>
+        <note type="source-span" xml:id="source-7081-7204" n="26"/>
+        <note type="source-span" xml:id="source-7081-7272" n="26"/>
+        <note type="source-span" xml:id="source-7204-7228" n="26"/>
+        <note type="source-span" xml:id="source-7228-7272" n="26"/>
+        <note type="source-span" xml:id="source-7272-7470" n="27"/>
+        <note type="source-span" xml:id="source-7272-8084" n="27"/>
+        <note type="source-span" xml:id="source-7470-7491" n="27"/>
+        <note type="source-span" xml:id="source-7491-7503" n="27"/>
+        <note type="source-span" xml:id="source-7503-7527" n="27"/>
+        <note type="source-span" xml:id="source-7527-7734" n="27"/>
+        <note type="source-span" xml:id="source-7734-7749" n="27"/>
+        <note type="source-span" xml:id="source-7749-7776" n="27"/>
+        <note type="source-span" xml:id="source-7776-7794" n="27"/>
+        <note type="source-span" xml:id="source-7794-7821" n="27"/>
+        <note type="source-span" xml:id="source-7821-7833" n="27"/>
+        <note type="source-span" xml:id="source-7833-7917" n="27"/>
+        <note type="source-span" xml:id="source-7917-7941" n="27"/>
+        <note type="source-span" xml:id="source-7941-7956" n="27"/>
+        <note type="source-span" xml:id="source-7956-7974" n="27"/>
+        <note type="source-span" xml:id="source-7974-8084" n="27"/>
+        <note type="source-span" xml:id="source-8084-8108" n="28"/>
+        <note type="source-span" xml:id="source-8084-8572" n="28"/>
+        <note type="source-span" xml:id="source-8108-8165" n="28"/>
+        <note type="source-span" xml:id="source-8126-8138" n="28"/>
+        <note type="source-span" xml:id="source-8165-8572" n="28"/>
+        <note type="source-span" xml:id="source-8572-10032" n="29"/>
+        <note type="source-span" xml:id="source-8695-8740" n="29"/>
+        <note type="source-span" xml:id="source-880-904" n="18"/>
+        <note type="source-span" xml:id="source-904-907" n="18"/>
+        <note type="source-span" xml:id="source-907-928" n="18"/>
+        <note type="source-span" xml:id="source-9154-9169" n="29"/>
+        <note type="source-span" xml:id="source-9169-9778" n="29"/>
+        <note type="source-span" xml:id="source-928-931" n="18"/>
+        <note type="source-span" xml:id="source-931-946" n="18"/>
+        <note type="source-span" xml:id="source-946-988" n="18"/>
+        <note type="source-span" xml:id="source-9778-9817" n="29"/>
+        <note type="source-span" xml:id="source-9817-9952" n="29"/>
+        <note type="source-span" xml:id="source-988-1006" n="18"/>
+        <note type="source-span" xml:id="source-9952-9985" n="29"/>
+        <note type="source-span" xml:id="source-9985-10032" n="29"/>
+      </div>
+      <note type="parser-completion" n="true">The n attribute is true when no parser diagnostic of error severity was raised for this source. What the converter could not interpret is recorded in the interpretation-problem and parser-diagnostic notes.</note>
+      <note type="source-decoding">windows-31j</note>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:snh="https://w3id.org/soranoha/ns/tei" xmlns="http://www.tei-c.org/ns/1.0" snh:vocab-version="3">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ja">フランダースの犬</title>
+        <title type="reading" xml:lang="ja-Hira">フランダースのいぬ</title>
+        <title type="original">A Dog of Flanders</title>
+        <author><persName xml:lang="ja"><surname>ド・ラ・ラメー</surname><forename>マリー・ルイーズ</forename><idno type="aozora-person-id">001044</idno></persName><persName xml:lang="ja-Hira"><surname>ド・ラ・ラメー</surname><forename>マリー・ルイーズ</forename></persName><persName xml:lang="ja-Latn"><surname>de la Ramee</surname><forename>Marie Louise</forename></persName></author>
+        <respStmt><resp>翻訳者</resp><persName xml:lang="ja"><surname>菊池</surname><forename>寛</forename><idno type="aozora-person-id">000083</idno></persName><persName xml:lang="ja-Hira"><surname>きくち</surname><forename>かん</forename></persName><persName xml:lang="ja-Latn"><surname>Kikuchi</surname><forename>Kan</forename></persName></respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://w3id.org/soranoha/">Soranoha</publisher>
+        <idno type="soranoha-work-identifier">004880_001044</idno>
+        <idno type="aozora-work-id">004880</idno>
+        <idno type="aozora-card-url">https://www.aozora.gr.jp/cards/001044/card4880.html</idno>
+        <date when="2014-09-18">2014-09-18</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">The underlying work is in the public domain; Soranoha asserts no rights over it.</licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Soranoha's encoding of this work and the artifacts derived from it are dedicated to the public domain under CC0-1.0. Attribution is requested, not required. Full rights statement: <ptr target="https://w3id.org/soranoha/rights"/></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>小学生全集26</title><publisher>興文社、文芸春秋社</publisher><date>1929（昭和4）年5月23日</date><note type="input-edition">1929（昭和4）年5月23日</note><note type="proof-edition">1929（昭和4）年5月23日</note></bibl>
+        <bibl><idno type="source-content-hash">sha256:01cd887a810e3f7fad4bb12bbbb418fde819cd6bf53b01e7de73e4d0b62bd31c</idno></bibl>
+        <bibl><idno type="primary-text-hash">sha256:a5350cf080cb95396d32ece3dda95bb949d75dbd1bc7254515f4c953cc99b934</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css"/>
+      <classDecl><taxonomy xml:id="ndc"><bibl>分類番号 as recorded by <title>青空文庫</title>, read as a class of 日本十進分類法 新訂9版. Category labels are from <title>NDC9 Linked Data</title> (日本図書館協会, CC BY); a category's IRI is <ref target="http://jla.or.jp/data/ndc9">http://jla.or.jp/data/ndc9</ref> followed by # and its n.</bibl><category xml:id="ndc933" n="933"><catDesc xml:lang="ja">小説．物語</catDesc><catDesc xml:lang="en">Fiction.Romance.Novel</catDesc></category></taxonomy><taxonomy xml:id="aozora-shelf"><bibl>分類番号 as recorded by <title>青空文庫</title>: the prefix K (児童図書記号) is placed before the NDC code for children's books.</bibl><category xml:id="shelf-k" n="K"><catDesc xml:lang="ja">児童書</catDesc><catDesc xml:lang="en">Children's material</catDesc></category></taxonomy><taxonomy xml:id="aozora-orthography"><bibl><title>青空文庫</title> 文字遣い種別: the orthographic style Aozora Bunko records for the transcription.</bibl></taxonomy></classDecl>
+      <refsDecl xml:id="source-spans"><p>A note of type source-span has an xml:id of the form source-START-END, giving the extent in UTF-8 bytes of the decoded primary text identified in sourceDesc, after the emendations declared in editorialDecl/correction are applied; each emendation replaces its sic text by its corr text at its own extent. <ptr target="https://w3id.org/soranoha/ns/tei"/></p></refsDecl>
+      <charDecl>
+        <char xml:id="gaiji-4-2-92-63">
+          <mapping type="unicode">餲</mapping>
+          <localProp name="rawMarker" value="「渇」の「さんずい」に代えて「しょくへん」"/>
+          <localProp name="sourceReference" value="第4水準2-92-63"/>
+          <snh:gaiji-reference original="第4水準2-92-63" cell="63" plane="2" kind="jis-code" row="92"/>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ja">日本語</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#ndc">K933</classCode>
+        <catRef scheme="#ndc" target="#ndc933"/>
+        <catRef scheme="#aozora-shelf" target="#shelf-k"/>
+        <classCode scheme="#aozora-orthography">新字新仮名</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-804-899"><seg source="#source-804-899">ネルロとパトラッシュ――この二人はさびしい身の上同志でした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-899-2083">ふたりともこの世に頼るものなく取り残されたひとりぼっち同志ですから、その仲のいいことは言うまでもありません。いや、「仲がいい」くらいな言葉では言いあらわせません。兄弟でもこれほど愛し合っている者はまずないでしょう。ほんとにこれ以上の親しさはかんがえられないほどの間柄でした。しかも、ふたり、と言っても人間同志ではないのです。ネルロは、フランスとベルギーの境を流れるムーズ河の畔の田舎町アンデルスに生れた少年。パトラッシュは、フランダース産の大きな犬なのです。このふたりは、<ruby type="furigana" rend="right" source="#source-1610-1634"><rb>年数</rb><rt>としかず</rt></ruby><seg source="#source-1634-1916">から言ったら、いわゆるおなじ年ですが、一方はまだあどけない子供ですのに、一方はすでに老犬の部類に入っています。ふたりが友達になったそもそものはじまりは、お互いに同情し合ったのがもとで、日を</seg><ruby type="furigana" rend="right" source="#source-1916-1928"><rb>経</rb><rt>ふ</rt></ruby><seg source="#source-1928-2083">るにしたがって、その気持はますます深まり、今ではもう切っても切れない親しさにむすびついてしまいました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2083-2169"><seg source="#source-2083-2110">村はずれの小さな</seg><ruby type="furigana" rend="right" source="#source-2110-2128"><rb>小舎</rb><rt>こや</rt></ruby><seg source="#source-2128-2169">、それがふたりの家でした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2169-4133"><seg source="#source-2169-2439">この村というのは、ベルギーの首府アントワープから一里半ばかり離れたフランダースの一村落で、まわりには麦畑や牧場が広々とつらなっていて、その平野を貫ぬく大きな運河の岸には、ポプラや</seg><ruby type="furigana" rend="right" source="#source-2439-2466"><rb>赤揚樹</rb><rt>はんのき</rt></ruby><seg source="#source-2466-2505">の長い並木が、そよそよ吹く</seg><ruby type="furigana" rend="right" source="#source-2505-2529"><rb>微風</rb><rt>そよかぜ</rt></ruby><seg source="#source-2529-2730">にさえ枝をゆすぶっていました。村には家屋敷がおよそ二十ばかり、その鎧戸は、みんな明るい緑色か、青空そのままの色に塗られ、屋根は、多くは</seg><ruby type="furigana" rend="right" source="#source-2730-2745"><rb>紅</rb><rt>あか</rt></ruby><seg source="#source-2745-2748">い</seg><ruby type="furigana" rend="right" source="#source-2748-2766"><rb>薔薇</rb><rt>バラ</rt></ruby><seg source="#source-2766-2865">色、または黒と白のまだらに塗られていました。壁は雪のように真白で、</seg><app type="base-text-variant" source="#source-2871-2919"><lem><seg source="#source-2865-2871">太陽</seg></lem><rdg type="base-text"><seg source="#source-2907-2913">大陽</seg></rdg></app><seg source="#source-2919-3003">に輝いている時は目がいたくなるほどでした。村の中央には、</seg><ruby type="furigana" rend="right" source="#source-3003-3018"><rb>苔</rb><rt>こけ</rt></ruby><seg source="#source-3018-3207">むした土手の上に風車がそびえ立っています。この風車はこの辺一帯の低地の目標ともなっているものでした。ずっとずっと昔、この風車は</seg><ruby type="furigana" rend="right" source="#source-3207-3222"><rb>翼</rb><rt>はね</rt></ruby><seg source="#source-3222-3249">も何もかもすっかり</seg><ruby type="furigana" rend="right" source="#source-3249-3270"><rb>真紅</rb><rt>まっか</rt></ruby><seg source="#source-3270-3603">に塗られたこともありました。が今はもうその燃えるような赤い色も風雨にさらされて汚なく色あせてしまい、まわり具合も、よぼよぼのおじいさんのように、止ったり、動いたり、という有様になってしまいました。とは言えまだこの辺の人達の</seg><ruby type="furigana" rend="right" source="#source-3603-3627"><rb>麦搗</rb><rt>むぎつき</rt></ruby><seg source="#source-3627-4133">の役は充分足しています。この風車と向き合って古ぼけた小さな教会堂が建っています。その細長い塔の上の鐘は、朝に夕に、静かな、かなしげな音をひびかせるのでした。東北の方広々とした平野の彼方にはアントワープの旧教寺院の尖った塔が、そびえ立っているのが望まれました。平野にははてしもなくあおやかな穀物の畑がひろがって、まるで一面海のようでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4133-4801"><seg source="#source-4133-4556">さて、その村はずれの小屋の主人というのは、大へん年とった、そして大へん貧乏で、ジェハン・ダアズというおじいさんでした。このおじいさんも、ずっと以前は軍人で、あのナポレオンの大軍がこのベルギーに攻め入って来た時には、戦いに出た経歴も持っています。しかもこのおじいさんが、その戦場から</seg><app type="base-text-variant" source="#source-4574-4643"><lem><seg source="#source-4556-4574">持ちかえった</seg></lem><rdg type="base-text"><seg source="#source-4622-4637">持ちかえた</seg></rdg></app><seg source="#source-4643-4721">ものとしては何一つなく、ただ、大きな傷を受けて、一生</seg><ruby type="furigana" rend="right" source="#source-4721-4742"><rb>跛</rb><rt>ちんば</rt></ruby><seg source="#source-4742-4801">をひきずらねばならないことだけでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4801-5925"><seg source="#source-4801-5626">ジェハンじいさんが八十才になった時、じいさんの娘が、アンデルスというところで死に、二才になったばかりの男の子をおじいさんの手に残しました。自分一人の暮しさえやっとであるこの貧乏なおじいさんは、それでも愚痴一つこぼさず、この厄介者を引き受けました。そしてこの厄介者はじき、おじいさんにとって、可愛い、尊い、なくてはならない大切なものになってしまったのでした。その忘れがたみのネルロ――実の名はニコラスというのだが、それを可愛らしく呼んでネルロとしたのです――は、この上ないおじいさんの慰め手となって、この小さな小屋はほんとうに平和でした。小屋は粗末な</seg><app type="base-text-variant" source="#source-5629-5671"><lem><seg source="#source-5626-5629">掘</seg></lem><rdg type="base-text"><seg source="#source-5662-5665">堀</seg></rdg></app><seg source="#source-5671-5863">っ立て小屋にすぎませんでしたが、おじいさんは、いつもきちんと片づけ、貝殻のように白く塗り立てて、まわりには、ささやかな豆や薬草や</seg><ruby type="furigana" rend="right" source="#source-5863-5887"><rb>南瓜</rb><rt>かぼちゃ</rt></ruby><seg source="#source-5887-5925">の畑をつくっていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5925-6599"><seg source="#source-5925-6138">このおじいさんと孫とは、おそろしく貧乏で、全くなにも口にすることのできない日が幾日もあり、たとえどんなにうまく行った日でも、これで十分という</seg><app type="base-text-variant" source="#source-6144-6192"><lem><seg source="#source-6138-6144">ほど</seg></lem><rdg type="base-text"><seg source="#source-6180-6186">ぼど</seg></rdg></app><seg source="#source-6192-6599">食べられることなど決してありませんでした。ですから二人にとっては、これで腹一ぱいというだけ食べられれば、それがもう天国へ登ったほどありがたいことなのでした。しかしこんなに貧乏でも、おじいさんは親切でやさしく、孫のネルロも、嘘を言わない、無邪気な素直な心を持っていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-6599-7039"><seg source="#source-6599-7039">ふたりはもうほんのわずかなパンの皮とキャベツの葉っぱで満足して、その上はなんにも望みませんでした。ただ一つ、ねがいと言っては、犬のパトラッシュが、いつまでも側にいてくれればいい、と言うことだけでした。ほんとうにパトラッシュがいなかったら、今頃このおじいさんと孫はどうなっていたことでしょう。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-7039-9347"><seg source="#source-7039-7192">パトラッシュは彼等にとって全くなくてはならないものでした。この犬一ぴきが、彼等――老いぼれた不具者と</seg><ruby type="furigana" rend="right" source="#source-7192-7213"><rb>頑是</rb><rt>がんぜ</rt></ruby><seg source="#source-7213-7219">ない</seg><ruby type="furigana" rend="right" source="#source-7219-7243"><rb>幼児</rb><rt>おさなご</rt></ruby><seg source="#source-7243-7633">――にとっては、ただ一人の稼ぎ人、ただ一人の友達、ただ一人の相談相手、杖とも柱ともたのむ、ただ一つの頼りなのでした。フランダースの犬は、一体に頭も四本の脚も大きく、耳は狼のようにぴんと立っていて、何代も何代も親ゆずりの荒い労働で鍛え上げたがっしりしたその足は、</seg><ruby type="furigana" rend="right" source="#source-7633-7648"><rb>何</rb><rt>いず</rt></ruby><seg source="#source-7648-8077">れも外側にひらいてふんばっていて、見るからに異常な筋肉の発達を示しています。全くフランダースの犬は、親子代々、一生、はげしいむごたらしい労働にこきつかわれ、力つきて、ついには路上に血を吐いて行き倒れる、という運命を持っているのでした。そうした犬を両親にしてパトラッシュは生れました。彼は</seg><ruby type="furigana" rend="right" source="#source-8077-8098"><rb>悪罵</rb><rt>あくば</rt></ruby><seg source="#source-8098-8122">と鞭とに育てられ</seg><ruby type="furigana" rend="right" source="#source-8122-8155"><rb>一疋前</rb><rt>いっぴきまえ</rt></ruby><seg source="#source-8155-8200">の犬となる前にすでに荷車を挽く</seg><ruby type="furigana" rend="right" source="#source-8200-8224"><rb>擦傷</rb><rt>すりきず</rt></ruby><seg source="#source-8224-8242">のいたさと、</seg><ruby type="furigana" rend="right" source="#source-8242-8263"><rb>頸環</rb><rt>くびわ</rt></ruby><seg source="#source-8263-8551">の苦しみを味いました。彼は生れてやっと、一年たつやたたずで、もう、ある金物行商人の手に売られ、そこで、思い出すもおそろしい生活を強いられたのでした。その主人と言うのは、飲んだくれの情知らずで、</seg><ruby type="furigana" rend="right" source="#source-8551-8575"><rb>食物</rb><rt>たべもの</rt></ruby><seg source="#source-8575-9028">などろくろく与えず、山のような荷をひかせ、絶え間なく鞭をふり下すのでした。幸か不幸か、パトラッシュには力がうんとありました。根がこう言った残酷な労働をするように生れ落ち、慣らされて来た、鉄のような血統を受けているのですから、大抵の労働には、へたばることなく、したがって苦痛は増すばかりでした。重荷、鞭、</seg><ruby type="furigana" rend="right" source="#source-9028-9141"><rb><seg source="#source-9028-9031">飢</seg><g ref="#gaiji-4-2-92-63" source="#source-9031-9126">餲</g></rb><rt>きかつ</rt></ruby><seg source="#source-9141-9347">これらの苦しみが、この憐れな犬の、その主人からもらうただ一つのお給金のようなもので、その他には何一つむくいられるものはありませんでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-9347-10630"><seg source="#source-9347-10630">こんな、地獄のような苦しみを、二年ばかりも堪えて来た後のある日のことでした。その日パトラッシュは、いつもの通り、あの有名な画家ルーベンスが生れたアントワープの町に通ずる埃っぽい気持ちの悪い道を、あえぎあえぎ、車をひいて行きました。車には、鍋類、鉄皿、鉄瓶、バケツ、その他いろんな瀬戸物類、真鋳類、錫類などが山と積んでありました。丁度夏の真盛りでその暑さと言ったらありません。そうした中をパトラッシュは一日中何も食べずその上半日も水を口にしないのでした。パトラッシュは苦しげにあえぎました。けれども主人は知らぬ顔で、のっそりのっそりついて行くばかり、時たま犬の方を見るかとおもえば、すでに鞭は打ち下されて、その長い革ひもの先は、擦傷も露わな犬の腰にぐるぐると巻きつくのでした。金物屋は、道ばたに酒屋でもみつければ、忽ち入りこんでビールをひっかけるのでしたが、犬には、運河の水を一飲みするだけの暇さえ与えず、ただもう追い立てに追い立てて鞭をならすのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-10630-12882"><seg source="#source-10630-10711">くわッと照りつける太陽に、焼けるように熱くなった道。</seg><ruby type="furigana" rend="right" source="#source-10711-10723"><rb>饑</rb><rt>う</rt></ruby><seg source="#source-10723-10876">え切ってきりきりいたむ腹、かわき切ってひりひりいたむ喉、目は砂ぼこりでかすみ、腰に結びつけられた重荷の</seg><ruby type="furigana" rend="right" source="#source-10876-10894"><rb>軛</rb><rt>くびき</rt></ruby><seg source="#source-10894-11440">の情け容赦のない重さ。さすがのパトラッシュも、ぼっと気が遠くなり、生れて初めてよたよたとよろめいて、口から泡をふいて倒れてしまいました。これを見ると金物屋は、彼独特の気つけ薬をとり出しました。ああ、それは蹴ることでした。どなることでした。かたい樫の棒でなぐりつけることでした。しかし、どんなに蹴ってみても、どなってみても、なぐってみても、今度はもうパトラッシュには</seg><ruby type="furigana" rend="right" source="#source-11440-11461"><rb>利目</rb><rt>ききめ</rt></ruby><seg source="#source-11461-12882">がありませんでした。彼は、ただもうぐったりと身動きもせず、白っぽい埃の中に横たわったきりでした。しばらくして行商人は、もうこれはとてもだめだと分ると、さもいまいましげに舌打ちをして、手荒く梶棒からとき放し、犬の体を、どん、と草のしげみへ蹴とばして、このやくざ野郎め、蟻にさされるとも、烏につつかれるとも、勝手にしやがれ、と口汚く罵って、それから、ぷんぷん怒りながら今度は自分で車を坂の方へ曳いて行きました。丁度その日は、向うのルーヴァンの町でお祭りがある前の日でした。で、金物屋は、早くその市場へ行きついて、金物の店を出すのに都合のいい場所をとろうといそいでいるのでした。ですからこんなことになった今、金物屋の癇癪は大へんなものでした。そのルーヴァンまでは、まだなかなかなんですもの。金物屋は、どこかに飼主にはぐれた犬でも居ないものか、いたら、なるたけ大きな奴をひっ捕えて、しばりつけてやろうと、悪ごすい目をきょろきょろさせながら、さもやり切れなそうに車をひいて行きました。パトラッシュは蹴こまれたままでいました。茫々と草のしげった溝のなかに――</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-12882-13490"><seg source="#source-12882-13490">その日、その街道は大へんなにぎわいでした。てくてく歩く人、驢馬に乗る人、あるいは二輪馬車、四輪馬車を走らす人、いずれも、お祭り気分で浮かれながらぞろぞろ行くのでした。もちろんその人達の目にも、倒れた犬はうつったでしょうが、みんな、そのまま行きすぎてしまいました。要するにたかが死んだ犬一ぴき、――それが、この地方でなんのめずらしいものですか。世界中どこへ行ったって、やはりなんでもないことなんでしょう。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-13490-14008"><seg source="#source-13490-13580">しばらくすると、人波にもまれながら、腰の曲った、よぼよぼの</seg><ruby type="furigana" rend="right" source="#source-13580-13598"><rb>跛</rb><rt>ちんば</rt></ruby><seg source="#source-13598-14008">のおじいさんが、やって来ました。別にお祭りに出かけるらしくもなく、みすぼらしいぼろを着て、埃の中をだまりこんでやって来ました。このおじいさんが、パトラッシュをみつけるとふしぎそうに立ち止り、草を分けてそばへ寄り、親切な目つきで、しげしげと犬のからだをしらべてみるのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-14008-14544"><seg source="#source-14008-14107">おじいさんのそばには、三才ばかりの、バラのような頬っぺたの、髪の</seg><ruby type="furigana" rend="right" source="#source-14107-14131"><rb>房々</rb><rt>ふさふさ</rt></ruby><seg source="#source-14131-14544">した瞳の黒い子供がくっついていました。草は、その子の胸までもあるのでした。子供はおじいさんにつかまり、これは大へんだ、と言わんばかりに目をまるくして、可哀想な犬をじっとみつめていました。こうしてふたりははじめて会ったのでした。――子供のネルロと、大犬のパトラッシュとが。――</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-14544-15974"><seg source="#source-14544-15600">さて、ジェハンじいさんは、いろいろに骨を折って、ようやく犬のからだを、じき近くの、自分の小屋へ運びこみ、息のたえたこの犬を、心をこめて介抱してやりました。しかし、パトラッシュの倒れたのは、暑さと饑渇とつかれで、一時目がくらんだためですから、日かげへしずかにねかしておくうちに、やがて、元気をとり戻して来ました。そうして、はや、よろめきながら、立ち上ろうとさえするのでした。それから何週間もの間、パトラッシュは、力もなく、役にもたたず、全くの病犬で、死にはすまいかと、案じられるようでした。しかしその間、犬は決して、荒くどなられることもなく、いたい鞭も受けませんでした。ただ受けるのは、可愛らしい子供の、片言まじりなぐさめと、おじいさんの、親切ないたわりばかりでありました。まことに、このさびしい年寄と、</seg><ruby type="furigana" rend="right" source="#source-15600-15624"><rb>幼児</rb><rt>おさなご</rt></ruby><seg source="#source-15624-15974">、この二人だけが、心をつくして病気の犬を見守るのでした。小屋の隅には、枯草を山のように積んで、犬の寝床ができました。そうしておじいさんと幼児とは、じっと耳をすまして、犬の寝息をうかがい、その息さえ聞こえれば、ほっと安心するのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-15974-17551"><seg source="#source-15974-16523">犬はようやく元気になって、はじめて、一声吠えてみると、それをうれしがって、おじいさんと子供とは、どっと笑うのでした。そして、元気になってよかったと、うれしなみだをこぼすのでした。殊にネルロは、夢中になってよろこんで、すぐかけ出して行って、野菊を摘みあつめて頸環をこしらえて来て、それを荒毛のパトラッシュの頸にかけてやり、子供らしい赤いやわらかい唇で、何度も何度も、</seg><ruby type="furigana" rend="right" source="#source-16523-16541"><rb>接吻</rb><rt>キス</rt></ruby><seg source="#source-16541-17234">するのでした。こうしてパトラッシュは、すっかり元気をとりもどして、もと通りの大きな、がっしりと力が満ちた犬になりました。はじめ、パトラッシュは、以前と様子のちがっているのが、気がかりな風でしたが、間もなく、すべてのことが分って来たので、すっかり安心しました。こうしておじいさんと子供の親切な心が分ると共に、パトラッシュの心の内には、生れてはじめて愛というものが、非常な力で湧き上ったのでした。そしてその愛は、その後一生、パトラッシュが死ぬまで、一度も鈍ったことは</seg><app type="base-text-variant" source="#source-17249-17321"><lem><seg source="#source-17234-17249">ありません</seg></lem><rdg type="base-text"><seg source="#source-17294-17315">ありありません</seg></rdg></app><seg source="#source-17321-17551">でした。パトラッシュは、恵まれた、今度の新しい生活のすべてを知ろうとして、その澄んだ目で、じっと注意深く、おじいさんと子供のすることを見守っていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-17551-18357"><seg source="#source-17551-18357">さてこのジェハンじいさんの仕事と言うのは、毎朝、近所の、牧場主たちの牛乳を、小さな手車で、アントワープの町へ運ぶことでした。村の人達は、このおじいさんをあわれんでそうした仕事を与えていたのでした。何しろごくの正直者ですから、牛乳を運んでもらうばかりでなく、村にいて、仕事としては、畑の番、牛小舎、鶏小舎の番、小さな田の番、などいろいろたのまれるのでした。しかし、もうそろそろおじいさんには、仕事がむずかしくなって来ました。なにしろ八十三という年寄になったのですもの。アントワープへ行くにしても、三里からの道を歩かねばならないのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18357-20453"><seg source="#source-18357-19389">パトラッシュは、はじめて、しゃんと起き出た日、おじいさんが持って出たり持ってかえったりする牛乳缶を、じっと気をつけてながめていました。鳶いろの頸に野菊の花環を巻かれたままで、日向ぼっこをしながら。そして、そのあくる朝になると、パトラッシュは、おじいさんがまだ車に手をかけないさきに起きて行って、ぴったり、車の梶棒の間にからだをおきました。それは丁度、私は車をひくことを知っています。どうかせめてこんな仕事でなりと、御恩がえしをさせて下さい、と言うかのようでした。が、このおじいさんは、犬に車を曳かせるのは、神さまが犬をつくられた御心ではない、と信じている人でしたから、それを長いこと、許さずにいました。しかし、パトラッシュはどうしてもそれを止めません。おじいさんが、自分のからだを梶棒に</seg><ruby type="furigana" rend="right" source="#source-19389-19404"><rb>結</rb><rt>ゆわ</rt></ruby><seg source="#source-19404-20025">いつけてくれないと知って、今度は、歯でくわえて曳いて行こうとするのでした。これには、さすがのおじいさんも根まけがし、また、自分の助けた動物の、恩をかえそうとする心のけな気で熱心なのに打たれて、とうとうそれを承知してしまいました。そこで、犬が挽きよいように車をつくりなおし、おじいさんの命のあるかぎり、それを毎朝犬が、せっせと曳くことになったのでした。冬になると、おじいさんは、ルーヴァンの祭の日に、死にかかった犬を</seg><ruby type="furigana" rend="right" source="#source-20025-20040"><rb>溝</rb><rt>どぶ</rt></ruby><seg source="#source-20040-20453">から救いあげてやったことの仕合せを、つくづく感謝するのでした。何しろ、年老いて、おとろえる一方のおじいさんです。もしこの忠義な犬が、骨身惜しまず働いてくれなかったとしたら、雪道や、ぬかるみの深い轍の跡を、重い牛乳缶をつけてひっぱって行くのが、どんなに辛いことだったでしょう。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-20453-21871"><seg source="#source-20453-21647">ところで、パトラッシュにとっては、こうして働くことがまるで天国のように思われました。あの因業な昔の主人に、山なす重荷をつけられて、一足毎に鞭でぴしぴし打たれた身には、このおじいさんの緑色の小さな手車に、ぴかぴか光る真鍮の缶をのせて行くことなど、思いもかけなかったたのしさでした。まして親切なおじいさんが、たえず、やさしい声をかけてくれたり、抱きしめたりしてくれるのですもの。なおありがたいことには、一日の仕事が、三時か四時にはすんでしまって、あとはパトラッシュの自由な時間なのでした。日向ぼっこをしようが、子供と一しょにふざけようが、近所の犬と遊ぼうが、まったくしたい放題。パトラッシュはもうもう満足し切っていました。殊に運のいいことには、前の主人の金物屋は、あのルーヴァンのお祭りさわぎに、ひどく酔っぱらったあげく、喧嘩をして殺されてしまったのです。生きていて、もしもみつけ出されでもしたら、</seg><app type="base-text-variant" source="#source-21665-21740"><lem><seg source="#source-21647-21665">パトラッシュ</seg></lem><rdg type="base-text"><seg source="#source-21713-21734">パートラッシュ</seg></rdg></app><seg source="#source-21740-21871">は否応なし、この新しい居心地のいい家から、ひきずられて行かねばならなかったでしょうに。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-21871-22671"><seg source="#source-21871-21973">それから二三年たちました。ジェハンじいさんは、それまでなやんで来た</seg><ruby type="furigana" rend="right" source="#source-21973-21991"><rb>跛</rb><rt>びっこ</rt></ruby><seg source="#source-21991-22671">の上に、今度はリュウマチをわずらって足がひどくしびれるようになり、もうこの上は、車について出かけられなくなってしまいました。この時六才になっていたネルロは、それまで何遍となくおじいさんにつれられて行って、アントワープの町の様子も知りつくしていましたので、おじいさんに代って車について行くことになりました。牛乳を売って代金を集め、それを、それぞれの牧場主にとどける。その様子がいかにもいじらしくて気の毒なので、見る人の心を感じさせずにはおきませんでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-22671-23567"><seg source="#source-22671-22743">ネルロはほんとうに美しい少年でした。黒目勝ちな</seg><ruby type="furigana" rend="right" source="#source-22743-22758"><rb>凉</rb><rt>すず</rt></ruby><seg source="#source-22758-22788">しい瞳、薔薇のように</seg><ruby type="furigana" rend="right" source="#source-22788-22812"><rb>生々</rb><rt>いきいき</rt></ruby><seg source="#source-22812-23181">した頬、そしてつややかな髪が、ふさふさときゃしゃなえり元までたれていました。で、この少年と犬と牛乳車をモデルにする画家が、たくさん出て来ました。――緑色の牛乳車にかがやく真鍮の缶、それを曳くのは大きな鳶色の猛犬。梶棒につけた小鈴が、一足毎に可愛い</seg><ruby type="furigana" rend="right" source="#source-23181-23193"><rb>音</rb><rt>ね</rt></ruby><seg source="#source-23193-23376">をたてて、つきそうのは可憐な美少年。小さな白い素足に大きな木靴をはいて、ルーベンスの名画から抜け出して来たようなたのしげな</seg><ruby type="furigana" rend="right" source="#source-23376-23397"><rb>邪気</rb><rt>あどけ</rt></ruby><seg source="#source-23397-23511">ないその顔は、どんなに人をひきつけたことでしょう、大勢の画家たちが我勝ちにと</seg><ruby type="furigana" rend="right" source="#source-23511-23526"><rb>画</rb><rt>えが</rt></ruby><seg source="#source-23526-23567">いたのも尤もなことでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-23567-24718"><seg source="#source-23567-24718">ネルロとパトラッシュとはすっかりこの仕事に慣れ、また、こころからこの仕事を好いていたので、夏になってジェハンじいさんの病気がよくなっても、もうおじいさんは出かけて行かなくてもすむのでした。おじいさんは日あたりのいい小屋の入口に腰を下して、ネルロとパトラッシュがいそいそと畑の木戸をくぐり、やがて、その姿が遠くへ消えてしまうまで見送り、とろとろっと居ねむって、短い夢さえみる。やがて目をさまして、お祈りをしたり、畑のものなど見廻ったりする、そうこうするうちに時計が三時を打つと、おもてへ出て、ネルロたちを待ち受けるのでした。うちへ近づくと、パトラッシュはうれしそうに一声高く吠えます。そして梶棒をはずしてもらって、ゆっくりとくつろぐのです。ネルロはその日の賃銀を得意そうに計算し、やがて、みんなそろってライ麦のパンに、牛乳やちょっとしたスープをそえて食べるのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-24718-25172"><seg source="#source-24718-25172">目をあげれば、野は、次第々々に暮れて行き、宵闇が、遥かな旧教寺院の尖った塔をぼかし初めるのです。それから、おじいさんにお祈りをしてもらって、みんな安らかなねむりにつくのでした。こう言うたのしい暮しが、幾日とつづき、幾年とつづきました。そして、ネルロとパトラッシュの生活は、相変らず幸福で平和でした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-25172-25558"><seg source="#source-25172-25412">春と夏とは、ネルロたちにとって、一番たのしい時でした。一体フランダースというところは見渡す限りどこまでも牧場や田畑がつらなっているだけで、変化に乏しい、あまり</seg><ruby type="furigana" rend="right" source="#source-25412-25439"><rb>面白</rb><rt>おもしろい</rt></ruby><seg source="#source-25439-25558">とは言えない土地ですが、そこにはまた、この地方独特の景色もあるというものです。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-25558-27963"><seg source="#source-25558-25639">運河の岸の、梢あざやかな長い並樹みち、水際には、高い</seg><ruby type="furigana" rend="right" source="#source-25639-25651"><rb>藺</rb><rt>い</rt></ruby><seg source="#source-25651-26209">の間に花が咲き、古ぼけた荷足り舟が、青い樽を積み、さまざまな旗をひらめかして、しずかにすべって行く。変化に乏しく退屈であっても、ネルロとパトラッシュにとっては実にこの上もない楽園でした。ふたりは仕事がすむと、きっとつれだって出かけて来る。運河の土手の、したたるような青草のしげみに身をうずめて浮び来り、浮び去る重たげな舟をながめる。すると、かぐわしい夏花の匂いと、爽やかな</seg><ruby type="furigana" rend="right" source="#source-26209-26227"><rb>潮</rb><rt>うしお</rt></ruby><seg source="#source-26227-27232">の香とが、混り合って、漂って来るのでした。ふたりは、やさしげな満ち足りた瞳をして、いつまでもいつまでも、そうして坐っているのでした。しかし冬はほんとうに辛いのでした。ふたりはまだ暗いうちから起き出るのに、それでも、ひるのうちに仕事がすっかり終るようなことはめったになく、それに小屋は、あたたかい時には思いもしなかったような隙間や節穴が一ぱいで、冬の夜更けには、寒い冷たい風が吹き込んで、まるで家畜小屋にでもいるような気がするのでした。春から秋へかけて、実らないながらも、そのしげった緑の葉で小屋をつつんでくれたぶどうも、冬になるとみすぼらしく枯れはてて、黒い汚い蔓がからみついているばかりです。あやまって水を床にこぼしたりすれば、じきそれが凍りついてしまうのでした。広い</seg><ruby type="furigana" rend="right" source="#source-27232-27253"><rb>荒野</rb><rt>あれの</rt></ruby><seg source="#source-27253-27694">は雪に埋れて、ネルロのきゃしゃな手足は痺れパトラッシュの頑丈な脚も氷柱で傷ができました。しかしふたりは健気にも泣き言一つ言わず、梶棒の鈴の音もほがらかに、毎朝三里の道を行くのでした。アントワープの町の人々はみないじらしがって、パン切れにスープをそえて、持ち出して来てくれるおかみさんや、かえりの</seg><ruby type="furigana" rend="right" source="#source-27694-27721"><rb>空車</rb><rt>あきぐるま</rt></ruby><seg source="#source-27721-27730">の中へ</seg><ruby type="furigana" rend="right" source="#source-27730-27748"><rb>薪</rb><rt>たきぎ</rt></ruby><seg source="#source-27748-27963">の束を入れてくれる人などあらわれました。また同じ村の女などで、わざわざ牛乳などとっておいて、ふたりのかえりをねぎらってくれる人もあるのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-27963-28163"><seg source="#source-27963-28107">そういうわけで、知るかぎりの人々に愛され、いたわられて、この小さな藁小屋の中はいつもたのしげな</seg><ruby type="furigana" rend="right" source="#source-28107-28134"><rb>笑声</rb><rt>わらいごえ</rt></ruby><seg source="#source-28134-28163">がみちていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-28163-29116"><seg source="#source-28163-28205">パトラッシュは、ほんとうに</seg><ruby type="furigana" rend="right" source="#source-28205-28229"><rb>幸福</rb><rt>しあわせ</rt></ruby><seg source="#source-28229-28256">でした。同じ炎天の</seg><ruby type="furigana" rend="right" source="#source-28256-28271"><rb>下</rb><rt>もと</rt></ruby><seg source="#source-28271-28400">でも、同じ氷雪の路でも、昔と今では地獄と極楽の相違です。たとえひどく空腹をかんじ、足の</seg><ruby type="furigana" rend="right" source="#source-28400-28418"><rb>傷</rb><rt>いたみ</rt></ruby><seg source="#source-28418-28529">がひりひり痛むことがあっても、おじいさんの親切ないたわりと、少年のやさしい</seg><ruby type="furigana" rend="right" source="#source-28529-28547"><rb>接吻</rb><rt>キス</rt></ruby><seg source="#source-28547-29078">とは、すべての苦痛をおぎなって余りあるのでした。パトラッシュはこの上何をのぞみましょう。けれどもそのパトラッシュにたった一つ、不安と言えば言えるものがありました。それはこうでした。アントワープの都には、古代石造建築の名残りが、たくさん残っています。今はもうアントワープは、俗っぽい商業地になってしまいましたけれど、それでも、尊いお寺やお社が、昔の名残りを</seg><ruby type="furigana" rend="right" source="#source-29078-29093"><rb>止</rb><rt>とど</rt></ruby><seg source="#source-29093-29116">めていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-29116-29697"><seg source="#source-29116-29697">世に名高い大画家ルーベンスはこの町に生れたのです。アントワープが商業地以外に芸術の都としても世に知られるようになったのはひとえにこのルーベンスのおかげでした。彼の尊敬すべき偉大な魂は今もなおアントワープの町の上をさまよい、見守っていると言えましょう。ほんとにアントワープ到るところにルーベンスを感じ、ルーベンスを感じることによって、この町のすべてが清められ深められるとも言えましょう。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-29697-30119"><seg source="#source-29697-30119">そのルーベンスの白い墓標は、アントワープの中央、セントジャック寺院内の、いとものしずかなところに立っています。そのしずけさの上を、時折、おだやかなオルガンの音と、讃美歌の合唱がながれていくのでした。芸術家の墓のうちでも、こんないい場所にこれほど立派に立っているのは少いでしょう。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-30119-30481"><seg source="#source-30119-30481">さて、パトラッシュの心配というのはこれでした。この、厳かにそびえている古びた石造建築の中に、時折ネルロの姿が消えてしまう。その暗いアーチ型の玄関の奥にネルロが吸いこまれてしまって、パトラッシュだけがぼんやり、敷石の上にとり残されるのです。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-30481-31233"><seg source="#source-30481-30937">パトラッシュは、一体どんな面白いものがあって、自分と離れたことのない仲よしをいつもいつもあの門内へさそいこんでしまうのだろうと、ふしぎでたまらないのでした。一二度、彼はそれを見きわめようとして、牛乳車をくっつけたまま、入口の石段をガラガラのぼりかけたことがありましたが、その度、黒服に銀のくさりをつけた</seg><ruby type="furigana" rend="right" source="#source-30937-30949"><rb>脊</rb><rt>せ</rt></ruby><seg source="#source-30949-31233">の高い門番に一言の下に追いかえされてしまいました。パトラッシュは仕方なく、小さい御主人に変りがなければいいがと案じながら、じっとねそべって、ネルロが出て来るのを辛抱強く待っているのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-31233-32117"><seg source="#source-31233-32117">パトラッシュはどこの村の人たちも教会へ行くことを知っています。大ぜい揃って、あの赤い風車のむかいの、古ぼけた教会堂へ出かけるのも見ていますから、ネルロが、お寺へ入るのが別に心配というのではありません。ただ、気になるのは、その町の寺院から出て来る時のネルロの顔いろなのでした。非常に興奮したようにあかくほてった頬をしているかとおもえば、またひどくあおざめている時もあって、そう言う日にかぎって、家へかえってからも、ぼんやり夢みるような眼をして、すわりこんだきり、一向遊ぼうともしないのです。そして運河の彼方に暮れていく空をながめては、いかにも、思い沈んだかなしげな様子をしているのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-32117-32605"><seg source="#source-32117-32605">パトラッシュは、心配で心配でたまりません。これは一体どういうわけなのだろう、なんにせよ、こんな小さい子供が、こんな真面目くさった顔つきになるのは、普通でもないしよいことでもないと、パトラッシュは口にこそ出さね、気をくばって、ネルロの行くところは野と言わず、市場の人混みと言わず、片時もそばをはなれないことにきめたのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-32605-33240"><seg source="#source-32605-33172">おかしいことには、ネルロは村の教会へは行こうともしません。ただ行きたがるのはあの町の大寺院だけです。パトラッシュはその寺院の大門のそとに取り残されて脊のびをしたりため息をついたり、はては大声に吠えたりしますがどうにもなりません。やがて門の扉が閉められる頃になってネルロはようやくつまみ出されるようにして追い出されて来ます。そして、すぐ犬の頸に抱きついて、そのひろい鳶いろの額に</seg><ruby type="furigana" rend="right" source="#source-33172-33190"><rb>接吻</rb><rt>キス</rt></ruby><seg source="#source-33190-33240">しながら、いつもきまったように、</seg></p>
+      <p source="#source-33240-33539">「パトラッシュ、僕は見たくって――一目でいい。見さえすれば――」と、きれぎれにつぶやくのです。それは一体なんのことであろう。パトラッシュは、思いやりのこもった目で、じっと少年の顔をみつめるのでした。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-33539-34192">ある日、門衛がいないで、扉があいたままにしてあるのをさいわい、犬は少年のあとを追ってこっそり内へ入りこんでみました。少年はうっとりとして「キリスト昇天」の画の前にうずくまっていましたが、うしろに犬の来ているのに気がつくと、立ち上ってやさしく犬を胸のあたりまで抱き上げました。その顔は、涙にぬれていました。ネルロは、堂内の両側に<app type="base-text-variant" source="#source-34043-34103"><lem><seg source="#source-34031-34043">かかげて</seg></lem><rdg type="base-text"><seg source="#source-34085-34097">かがげて</seg></rdg></app><seg source="#source-34103-34192">ある二つの画をぴったりと覆った厚い布を指して、言いました。</seg></p>
+      <p source="#source-34192-34806">「パトラッシュ、貧乏でお金がはらえないからあの画が見られないなんて、なんて情ないことだろう。貧乏人には見せられないなんて、どうしてあの画の作者が言うものか、いつだって僕らに見せるつもりだったんだ、毎日見ててもいいと思ったにちがいない。それだのに、こんなに覆ってしまうなんて、金持が来て、金を払わなければ、いつまでも美しい画に光りもあてないなんて。ああ見たいな、見たいな見さえすれば僕、死んでもいいんだが――」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-34806-35084"><seg source="#source-34806-35084">パトラッシュははじめて知りました。あんなにもネルロをひきつけ、さそい入れたものが、この覆われた二つの大きな画だったということを。しかしパトラッシュにもどうすることもできませんでした。</seg></p>
+      <p source="#source-35084-35569">「キリストの昇天」「十字架上のキリスト」この二つの名画の見物料を儲け出すことは、ネルロにとってもパトラッシュにとっても、丁度この寺院の高い尖塔によじのぼると同様全く思いもよらぬ難事だったのです。ふたりは、余分なお金など、それこそ一文もありはしません。炉に焚く薪の一束、うすいスープの一鍋さえ思うに任せぬあわれな身ですもの。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-35569-35967"><seg source="#source-35569-35967">しかしながら、ネルロの心は、このルーベンスの二つの名画を見たいと言うねがいを、どうしてもあきらめることができず、いや、ますます燃えさかるのみでした。身は水呑百姓の子供のあわれな牛乳配達にすぎなかったけれど、ネルロの心は常に高く、大画家ルーベンスを夢見ていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-35967-37424">ひもじさ寒さも気にとめず、いつも心に描いてたのしんでいるのは、かつて見て知っている『キリスト昇天』のその神々しい顔つき、金髪を肩に波打たして、その額に消えることなき栄光のてりかがやいている図でした。貧しい中に育ち、何の教育も受けていないが、少年ネルロは、まさしく天才の素質を持っていたのです。もとより、誰一人そんなことを気づく者はなく、ネルロ自身も、そんなことは思ったこともありません。ただそれを知っているのは、ネルロのそばを離れたことのない犬のパトラッシュだけでした。パトラッシュは、ネルロがよく白墨で石の上などへ、動物や植物などをいろいろと描くのを、また、一しょに枯草の床にねむる時など、そうしてそんな時のネルロの顔が、どんなにぱあっと輝いているかを見知っていました。ネルロが大画家ルーベンスの魂にむかって、いろいろな<ruby type="furigana" rend="right" source="#source-37053-37065"><rb>賛</rb><rt>ほ</rt></ruby><seg source="#source-37065-37424">めことばや、思いつめた祈りを捧げているのを聞きました。また、度々、よろこびとかなしみとが混り合ったような、なんとも言うことのできない涙が、この小さな子供の瞼からあふれ落ちて、パトラッシュの皺のよった、鳶いろの額へかかるのも知っていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-37424-37516"><seg source="#source-37424-37516">その頃、ジェハンじいさんは病気になって床についていました。</seg></p>
+      <p source="#source-37516-38481">「ネルロやお前が早く大きくなって、せめてこの小屋でも自分のものにして、田の一反でも持って、近所の衆に旦那と言われるようになってくれたら、おじいさんも安心して目がつぶれるがな。」と、おじいさんは床の中で、何遍もこんなことをくりかえし言っていました。このあたりの百姓の望みと言ったら、土地を少しでも持って、村の人達に旦那と呼ばれるようになる、それがもう何よりの最大の望みなのでした。このおじいさんも、若い時にはとび出してあらゆる地方を流れあるき、しかも何一つ儲けてかえったと言うでもなく、とうとうこんなに年寄ってようやく一つ所に落ちつき、やっぱり百姓は百姓の分相応な望みで暮すのが一番だと悟って、可愛い孫のために、ひたすらそれをねがったのでした。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-38481-38720"><seg source="#source-38481-38720">だが、ネルロはだまっていました。ルーベンスやヨーンデェンスや、ヴァン・グィリなどの大芸術家、その人達の天才と同じものが、少年ネルロの血にも流れていたのです。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-38720-39742"><seg source="#source-38720-39119">ネルロの考えている未来は、おじいさんの考えとは全くちがっています。わずかばかりの土地を耕して、小っぽけな家に住み、自分より貧乏な人や、せいぜい同じくらいの貧乏人同志から、旦那と呼ばれて満足するなどと言うことは、ネルロにとっては思いもよらぬことです。あかあかと燃える</seg><ruby type="furigana" rend="right" source="#source-39119-39143"><rb>夕映</rb><rt>ゆうばえ</rt></ruby><seg source="#source-39143-39629">の空、うっすらと狭霧の立ちこめる朝などに、遠くそびえるあの大寺院の尖塔は、ネルロの心と、おじいさんの言葉とは全くちがったものを告げているのでした。しかし少年がこれをはなすのは、犬のパトラッシュだけで、まるで赤ん坊にでも言いきかすように、ゆっくりゆっくりその耳にささやくのでした。車について野原を行く時にも、風そよぐ運河の岸の</seg><ruby type="furigana" rend="right" source="#source-39629-39650"><rb>叢</rb><rt>くさむら</rt></ruby><seg source="#source-39650-39742">に並んでねころぶときにも、きまって、これをささやくのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-39742-41466"><seg source="#source-39742-41308">パトラッシュのほかにもう一人だけ、ネルロは話相手がありました。それはアロアという小さな女の子で、あの丘の上の風車の家の娘で、お父さんの粉挽屋は、この村一番のお金持でした。アロアは、まだほんの幼い少女でした。ぽっちゃり肥えて、なにか紅い花のような子でした。そのぱっちりした黒い瞳の愛らしさと言ったらないのでした。アロアはよく、ネルロやパトラッシュと遊びました。野原で鬼ごっこをしたり、雪投げをしたり、野菊を摘んだり、くるみひろいに行ったり。ある時は手をつないで教会堂へ行ったり、水車小屋の中の大きな炉ばたにすわりこんだり。――アロアはその金持な粉挽やのたった一人娘でした。いつもさっぱりと可愛い着物をつけて、お祭の時など両手に持ち切れないほどお菓子だの、おもちゃだの買うことができるのでした。アロアがはじめて洗礼式に出かけた時、その捲毛の金髪の上へかぶった帽子はおばあさんゆずりのクリン織のとても見事なぜいたくなもので、万事がそういう風ですから、アロアはまだやっと十二なのに、もう近所の人々の口の端にのぼって、あの娘をうちの息子のお嫁にもらったらさぞいいお嫁さんになるが、などと噂されました。しかし本人のアロアは一向無邪気な可愛い子供で、自分の</seg><ruby type="furigana" rend="right" source="#source-41308-41323"><rb>家</rb><rt>うち</rt></ruby><seg source="#source-41323-41466">の財産のことなど知りもせず、とにかく一番好きなのはジェハンじいさんとこの孫と犬とでありました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-41466-41573"><seg source="#source-41466-41573">アロアの父親は、コゼツの旦那と言われていい人だが、すこし頑固でした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-41573-42622"><seg source="#source-41573-42622">ある日、彼が水車小屋のうしろの畑を通りかかると、丁度ネルロとアロアが遊んでいました。娘が真中の高くつんだ枯草の上にすわり、パトラッシュの大きな鳶いろの頭をひざにのせている。あたりにはひなげしや、矢車草などと色とりどりにちらばっていて、それをネルロが松のけずり板に、写生しているところでした。コゼツの旦那は、立ち止って、その写生をながめました。ぽちゃぽちゃした頬、黒い瞳、ふしぎによく似ています。彼はこの一人娘を、目に入れてもいたくないほど、可愛がっていたのでした。ふいに彼は、何を思ったか、お母さんが呼んでいるのに、なぜぐずぐずしているのかとアロアを叱りつけ、アロアがびっくりして泣き出すのもかまわず、家の方へ追いやってしまいました。そして振りかえって、ネルロの手からその板ぎれを取り上げました。</seg></p>
+      <p source="#source-42622-42696">「なぜ、こんなばかげた真似ばかりしているんだ。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-42696-42746"><seg source="#source-42696-42746">ネルロはあかくなってうなだれ、</seg></p>
+      <p source="#source-42746-42946">「僕は見えるものを何でも写生するんです。」と小さい声で言いました。コゼツはだまっていましたが、やがて五十銭銀貨を一つさし出しました。</p>
+      <p source="#source-42946-43179">「それは悪いひまつぶしというものだ。だがこれは大層よくアロアに似ているから、うちの母さんにみせたらよろこぶだろう。この金をやるから、この絵はわしにくれ。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-43179-43250"><seg source="#source-43179-43250">するとネルロは顔をあげ、手をうしろへやって、</seg></p>
+      <p source="#source-43250-43558">「いいえ、僕、お金なんかいりません。この絵がよかったら持っていらっしゃい。いつもあなたは親切にして下すったんですもの。」こう無邪気に言って、そして少年は犬を呼び、畑を横切ってさっさとそこを立ち去りました。</p>
+      <p source="#source-43558-43878">「あの銀貨をもらっていたら、<hi rend="bouten 傍点 right" source="#source-43600-43636" corresp="#source-43606-43636"><seg source="#source-43600-43606">あれ</seg></hi><seg source="#source-43636-43726">がみられたんだが、でも僕はあの絵を売ることはできない。たとえ</seg><hi rend="bouten 傍点 right" source="#source-43726-43762" corresp="#source-43732-43762"><seg source="#source-43726-43732">あれ</seg></hi>が見られるにしても。」と、少年は犬に向ってつぶやくのでした。その夜コゼツは、</p>
+      <p source="#source-43878-44279">「あの子供をあまりアロアと遊ばせちゃいかんね。あとできっと心配事が起って来るよ、あの子供は今年十五だし、娘は十二だ。それにあの子は、ちょっとした顔つきでもあるし。」とおかみさんにはなしかけました。おかみさんは、ストーヴの上におかれたさっきの絵につくづく見入りながら、</p>
+      <p source="#source-44279-44386">「それにまじめな子で、一本気のようでもございますしね。」と言いました。</p>
+      <p source="#source-44386-44514">「そこじゃて。それをわしはおもうのじゃ。」と、コゼツはたばこをつめながら言いました。</p>
+      <p source="#source-44514-44657">「ほんとにそうでございますね。あなたのお考えどおりになります。」とおかみさんは口ごもりながら、</p>
+      <p source="#source-44657-44872">「大そう結構のように思われますわ、娘だってこの財産をつぎますればふたりの一生は安楽ですし、それに越した二人の<ruby type="furigana" rend="right" source="#source-44819-44843"><rb>幸福</rb><rt>しあわせ</rt></ruby>はありませんわ。」</p>
+      <p source="#source-44872-44994">「だから女は困るというのじゃ、ばかな。」と、主人はパイプをテーブルに打ちつけて、</p>
+      <p source="#source-44994-45215">「あの子供が何じゃ、乞食じゃないか。おまけに画家になろうなどと自惚れているからなお始末が悪い。これ、よく注意して、もう決して遊ばせてはならんぞ。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-45215-45799"><seg source="#source-45215-45799">おかみさんは、ネルロを可愛がっていましたが、気の弱い人だったので、そのままだまって、主人のいうとおりにすることにしてしまいました。けれども、母親として、娘が一番仲よくしている友達と裂こうということもできず、主人としても、貧乏ということ以外には何一つ欠点のない子供に対して、そうむごいことをしむけることもできませんでした。が、わざわざそんなことをしなくても、コゼツの目的は達せられました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-45799-46476"><seg source="#source-45799-46159">ネルロは男らしく、しずかで感じ易い少年でしたから、もうそれ以後はあきらめて、たといひまがあっても、丘の上の赤い風車の方へは、足をはこばなくなったのでした。なにがあんなにコゼツの旦那の気にさわったのか、ネルロには分りませんでした。ただ大方、</seg><ruby type="furigana" rend="right" source="#source-46159-46186"><rb>牧場</rb><rt>ぼくじょう</rt></ruby><seg source="#source-46186-46476">でアロアを写生したことがいけなかったんだろうと思っていました。で、時として、アロアが彼をみつけてとんで来て、手にすがりつくことでもあると、彼はかなしげにほほえんで、いろいろとなだめるのでした。</seg></p>
+      <p source="#source-46476-47105">「ね、アロアちゃん。お父さんの御きげんを悪くしないで下さいね。お父さんは、僕があなたを怠け者にでもするようにおもっていらっしゃるんだからね。だから僕と一しょに遊ぶのがお気に入らないんでしょう。でもお父さんはいい方で、ほんとにあなたを可愛がっていらっしゃるんだから、僕たちは、御きげんを損ねるようなことをしてはいけない。ね、アロアちゃん。よく分ったでしょう。」とは言えそれは、かなしさ、さびしさをおさえぬいた言葉でした。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-47105-48028"><seg source="#source-47105-47135">ネルロにとっては、</seg><ruby type="furigana" rend="right" source="#source-47135-47159"><rb>微風</rb><rt>そよかぜ</rt></ruby><seg source="#source-47159-48028">にそよぐポプラ並木の朝の景色も、もはや以前のように、たのしげに晴々しくは見えませんでした。その古ぼけた赤い風車は、ネルロにとっては一つの目印で、そこまで来ると、一休みするのがきまりでした。そして、往きにもかえりにも、水車小屋の人達に元気よく挨拶すると、その低い水車小屋の木戸の上にアロアの金髪がちらとゆれて、やがて、アロアの小さなもみじのような手に、パトラッシュの御馳走のパンの皮や魚の骨などが持って来られるのが常でした。――が、いまは――パトラッシュはふしぎそうな目つきで、木戸がかたく閉じられてあるのをながめます。少年はさっさと通りすぎて行くが、その心の中では辛いのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-48028-48294"><seg source="#source-48028-48241">アロアは窓の中で、編ものをしている手に、ほろっと涙を落す。主人のコゼツは、粉袋や粉挽機械の間をせっせと働きながら、いよいよ心をかたくなにして</seg><ruby type="furigana" rend="right" source="#source-48241-48268"><rb>独言</rb><rt>ひとりごと</rt></ruby><seg source="#source-48268-48294">を言うのでした。</seg></p>
+      <p source="#source-48294-48614">「こうして離しておく方がいいのじゃ。あの子供はどうせ乞食みたいで、その上画家になろうなどと、とんでもないばかげた夢を見ている。まかりまちがえば、こののちどんな<ruby type="furigana" rend="right" source="#source-48531-48558"><rb>不幸</rb><rt>ふしあわせ</rt></ruby>が起って来るかもしれん、用心用心。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-48614-49258"><seg source="#source-48614-49130">こうした間にも、れいの松の板ぎれは、粉挽屋の食堂のストーヴの上の置時計と十字架像の間に、大事そうにかざられてありました。ネルロはときどき、絵だけがこうも歓迎されて、それを描いた自分はなぜ除けものにされるのかしらと、かなしい、さびしいおもいを抱くのでしたが、ネルロは決して恨みがましいことは口に出しませんでした。ひとりずっと、心の中のかなしみに</seg><ruby type="furigana" rend="right" source="#source-49130-49145"><rb>堪</rb><rt>こら</rt></ruby><seg source="#source-49145-49258">えているのが、彼の性でした。ジェハンじいさんは、よく彼に言い聞かせました。</seg></p>
+      <p source="#source-49258-49497">「わし等は貧乏人じゃ、何でも神さまが下されたものをそのままお受けせねばならぬ。それにはよいことも悪いこともあろう。だが、貧乏人は、えり好みをするのじゃない。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-49497-49649"><seg source="#source-49497-49649">少年はだまって、おじいさんの言葉を聞いていました。彼はなんにもその言葉に逆いませんでした。しかし、</seg></p>
+      <p source="#source-49649-49819">「いや、貧乏人だって、時にはえらばねばならぬこともある。えらくなる道をえらぶ、それを誰がいけないというものか。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-49819-49899"><seg source="#source-49819-49899">ネルロはけがれない心に、一途にこう考えていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-49899-50654"><seg source="#source-49899-50538">ある日、運河のほとりの麦畑に、ネルロがたった一人で佇んでいると、ふとそれを可愛らしいアロアがみつけてかけ出して来ました。そしてネルロによりそいながら、しくしく泣き出すのでした。明日はアロアの誕生日なので、これまでなら、ネルロを招いて、おいしい御馳走をしたり、大きな納屋であそびまわったりして、たのしくすごせるはずなのに、今年に限ってお父さんもお母さんも、ネルロを呼んではいけないと言い渡されたのでした。ネルロはやさしく少女に</seg><ruby type="furigana" rend="right" source="#source-50538-50556"><rb>接吻</rb><rt>キス</rt></ruby><seg source="#source-50556-50586">してそして、深く胸の</seg><ruby type="furigana" rend="right" source="#source-50586-50601"><rb>中</rb><rt>うち</rt></ruby><seg source="#source-50601-50654">に決心したことをささやくのでした。</seg></p>
+      <p source="#source-50654-51193">「ね、アロアちゃん、僕もいつかはきっとえらくなってみせますよ。やがて時が来れば、お父さんが持っていらっしゃる僕の描いたあの松の板ぎれだって、あの大きさの銀を出しても変えない程な値が出ますよ。そうなったら、お父さんだって、戸を閉めて僕を入れないようなことはなさらないでしょう。ただ、アロアちゃん僕を忘れないでね。忘れないで下さいね。僕きっとえらくなるから――」</p>
+      <p source="#source-51193-51801">「まああたしがあんたを忘れるって言うの、そんなこと言うならいいわ。」と愛らしく泣きぬれたアロアは、頬をふくらしてすねたように叫びました。その眼には、まごころがあらわれていました。少年はそれをみると胸がせまって、いそいで目をそらしました。遥か彼方には、宵闇にほの白く、あの旧教の大伽藍がそびえ立っていました。少年の顔には、一瞬間、何か崇高なかがやきがひらめきました。アロアはちょっとこわくなったほどでした。</p>
+      <p source="#source-51801-51884">「僕はえらくなる。」と、少年は深い息をして呟きました。</p>
+      <p source="#source-51884-51961">「アロアちゃん、えらくなれなかったら、僕は死ぬ。」</p>
+      <p source="#source-51961-53133">「死ぬんですって、じゃあたしを忘れてしまうのね。」と、アロアは少し苛立ってネルロを押しのけました少年は頭をふって、ほほ笑み、脊丈ほどもある、黄色に熟れた麦のかげを、家の方へかえって行くのでした。少年の目には幻が浮んでいました。――いまにきっと<ruby type="furigana" rend="right" source="#source-52324-52348"><rb>幸福</rb><rt>しあわせ</rt></ruby><seg source="#source-52348-53133">になれる時が来る。名を成して再び故郷にかえって来て、あらためてアロアのお父さんに挨拶したら、その時、お父さんはどんなに僕をよろこびむかえてくれるだろう。村の人達も僕を見ようとして集まって来て、あわれだった昔のことなど思い出し、よけいその成功をよろこんでくれるだろう。その時が来たら、ジェハンおじいさんには、あのセント・ジャック寺の中に描いてあるえらいお坊さんのように、毛皮や紫の着物を着せてあげて、その肖像を描いてあげよう。それから忠犬パトラッシュの頸には金の頸環をつけてやり、自分のすぐそばへおいて、集まって来る人々に、</seg></p>
+      <p source="#source-53133-53930">「この犬が、前には私のたった一人の友達だったのです。」と紹介しよう。住む家は、あの大寺院の塔のみえる丘の上へ大理石の宮殿のようなのがいい。そこへ多くの貧乏な淋しいそして大きな望みを抱いている少年たちをあつめ、明るくたのしい生活を与えてやって、彼らをはげまし、もし彼らが自分の名をほめたたえるようなことがあれば「いや、私に感謝する程のことはない。ルーベンスに感謝しなさい。もしルーベンスがなかったら、私はなんにもなれなかったろう。」と言おう――こんな空想が、全く清らかにあどけなく、ほほえましく少年の胸を<ruby type="furigana" rend="right" source="#source-53886-53901"><rb>掩</rb><rt>おお</rt></ruby><seg source="#source-53901-53930">いつつむのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-53930-54511"><seg source="#source-53930-54272">このアロアの誕生日の夜、ネルロとパトラッシュはうすぐらい小屋で、まずい粗末な夕食をとっていました。丁度その頃水車小屋の中では、村の子供たちがすっかり招かれて、明るい灯の下で、おいしいめずらしいお菓子や御馳走を頬ばりながら、笛や</seg><ruby type="furigana" rend="right" source="#source-54272-54296"><rb>胡弓</rb><rt>こきゅう</rt></ruby><seg source="#source-54296-54511">に合せて、おどり狂っているのですから、ネルロにとっては、よい気持のしない日であるにもかかわらず、彼はよく堪えて、小屋の入口に犬と並んで腰かけ、</seg></p>
+      <p source="#source-54511-54786">「ね、パトラッシュ。くよくよするのは止そうよ。」こう言いながらパトラッシュの頸をだいて<ruby type="furigana" rend="right" source="#source-54640-54658"><rb>接吻</rb><rt>キス</rt></ruby><seg source="#source-54658-54727">してやるのでした。粉挽場の方からは、たのしげな</seg><ruby type="furigana" rend="right" source="#source-54727-54754"><rb>笑声</rb><rt>わらいごえ</rt></ruby><seg source="#source-54754-54786">がつたわって来ます。</seg></p>
+      <p source="#source-54786-54887">「いいさ、いいさ。いまにだんだんかわって来るからね、辛抱おしよ。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-54887-55347"><seg source="#source-54887-54917">少年は未来のことを</seg><ruby type="furigana" rend="right" source="#source-54917-54932"><rb>確</rb><rt>かた</rt></ruby><seg source="#source-54932-55347">く信じていますが、パトラッシュはさすがに犬ですから、現在うまい肉の御馳走にありつけないことには、将来にどんなたくさんの御馳走を思い浮べてみても、それではつぐないがつかないのでした。で、その日以後パトラッシュはコゼツの旦那の姿を見れば、いまいましそうに唸り声をあげるのでした。</seg></p>
+      <p source="#source-55347-55640">「今日はアロアさんの誕生祝いの日だろう。」とおじいさんは、小屋の隅っこの床の中から聞きました。少年はだまってうなずきました。おじいさんが、それをおぼえていたのが少年はどんなに切なかったでしょう。</p>
+      <p source="#source-55640-55753">「じゃどうしてお前出かけないんだい。」と、おじいさんはまた問いかけました。</p>
+      <p source="#source-55753-55836">「お前、いつの年だって行かないことはないじゃないか。」</p>
+      <p source="#source-55836-55952">「だって僕、おじいさんが病気だし――」と少年は、うつむいて言葉を濁しました。</p>
+      <p source="#source-55952-56350">「なんの、なんの、わしのことなら気にせんで行っといで。出がけにビュレットのおばさんに頼んで行ってさえくれればすぐ来てみてくれるよ。――ネルロ、お前どうしたんだ。まさかあそこのお嬢さんの悪口でもしゃべったんじゃあるまいな。」と、おじいさんはふしぎでならないのでした。</p>
+      <p source="#source-56350-56508">「いいえ、おじいさん。悪口なんか――」と、少年は口早に答えましたが、そのうなだれた顔はあかくなりました。</p>
+      <p source="#source-56508-56714">「なんでもないのよおじいさん。ただ、コゼツの旦那が、今年は僕を<ruby type="furigana" rend="right" source="#source-56601-56613"><rb>招</rb><rt>よ</rt></ruby>ばなかっただけ。あの人、ちょっと僕に思いちがいをしてるらしいの。」</p>
+      <p source="#source-56714-56797">「だってお前、なんにも悪いことはしなかったんだろう。」</p>
+      <p source="#source-56797-56958">「それが、いいかわるいか、僕には分らないんです。僕は、アロアちゃんの顔を、松の板ぎれへ写生しただけなの。」</p>
+      <p source="#source-56958-56984">「ああそうか。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-56984-57532"><seg source="#source-56984-57176">おじいさんはだまってしまいました。ネルロの無邪気な言葉を聞いて、おじいさんにはすっかりわけが分ったのです。老いぼれて、長い間、</seg><app type="base-text-variant" source="#source-57212-57272"><lem><ruby type="furigana" rend="right" source="#source-57176-57212"><rb>掘立小屋</rb><rt>ほったてごや</rt></ruby></lem><rdg type="base-text"><seg source="#source-57254-57266">堀立小屋</seg></rdg></app><seg source="#source-57272-57532">の中にねたきりではありましたが、おじいさんは、まだ、世間がどう言うものかと言うことを、忘れてはいませんでした。おじいさんはやさしく孫の美しい顔を自分の胸のへんに引きよせて、</seg></p>
+      <p source="#source-57532-57579">「お前は貧乏な子だからのう。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-57579-57629"><seg source="#source-57579-57629">その声はかすれてふるえました。</seg></p>
+      <p source="#source-57629-57715">「ほんとに貧乏なんだからのう。お前も辛い目を見るのう。」</p>
+      <p source="#source-57715-58629">「いいえ、おじいさん。僕は金持と同じよ。」と、ネルロはささやきました。実際のところ、ネルロはそう信じていたのです。自分は強い力を持っている。王様の力でもどうすることもできないほどの力を持っているように思えました。少年は立ち上って、再び戸口に佇みました。秋の夜はしずかで、高いポプラの枝が<ruby type="furigana" rend="right" source="#source-58144-58168"><rb>微風</rb><rt>そよかぜ</rt></ruby><seg source="#source-58168-58201">に揺らいでいます。空は</seg><ruby type="furigana" rend="right" source="#source-58201-58222"><rb>夥</rb><rt>おびただ</rt></ruby><seg source="#source-58222-58360">しい星でした。少年は目をあけてじっとそれをながめました。粉挽屋の家の、窓という窓はあかあかと</seg><ruby type="furigana" rend="right" source="#source-58360-58381"><rb>灯</rb><rt>ともしび</rt></ruby><seg source="#source-58381-58411">がもれて、時折、笛の</seg><ruby type="furigana" rend="right" source="#source-58411-58423"><rb>音</rb><rt>ね</rt></ruby><seg source="#source-58423-58629">がひびいて来ます。涙が少年の頬をつたわりました。まだ何と言ってもほんの子供ですから、かなしいのでした。けれども、にっこり笑顔をつくって、</seg></p>
+      <p source="#source-58629-58880">「なあに将来だ。」とひとり言を言いました。夜が更けるまで彼はそうして佇んでいましたが、やがてパトラッシュを抱いて床につき、さびしくもおだやかな眠りに落ちて行きました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-58880-61558"><seg source="#source-58880-59816">さて少年には、パトラッシュのほか誰にも知らせない一つの秘密がありました。小屋には小さな次の間があって、そこはネルロだけが入るところになっていました。ひどく荒れた部屋ですが北側から光線が入ります。この部屋でネルロは、木片で無細工な画架をこしらえ、それに大きな紙を張り、そこへこれぞとおもうものをぜひ一つ描きあげようと一生懸命になっているのでした。ネルロは、誰にも画の描き方を教わったことはありません。むろん、絵具を買う余裕などもありません。ただ、白と黒の使い分けで目にうつるものを描くだけでした。いま、彼が木炭筆で描いたばかりの大きな画は、一人の老人が、倒れた樹に腰を下しているところ、ただそれだけです。少年は以前、年取った</seg><ruby type="furigana" rend="right" source="#source-59816-59837"><rb>樵夫</rb><rt>きこり</rt></ruby><seg source="#source-59837-60503">のネッセルが、夕方になると、そんな様子で休んでいるのを度々みたのでした。輪廓の具合や影の描き方など、誰におそわったでもないけれど、ネルロは自分の考え一つで、さも老いぼれた、つかれた老人を描きました。宵闇がせまって来る暮れどき、倒れた樹に腰を下して、あらゆる世の苦労をなめつくしたようなつかれたかおつきで、じっと思い沈んでいるこの老いた樵夫の様子は、全く詩の趣きがありました。もとよりその画は素人らしく、欠点もありますが、しかし、ほんとうに自然な</seg><ruby type="furigana" rend="right" source="#source-60503-60530"><rb>素直</rb><rt>そっちょく</rt></ruby><seg source="#source-60530-60575">な画です。いかにも、かなしさに</seg><ruby type="furigana" rend="right" source="#source-60575-60590"><rb>咽</rb><rt>むせ</rt></ruby><seg source="#source-60590-61280">んでいるようで、ある美しささえ持っています。パトラッシュはいつも、何時間でも動かずにこの画ができ上っていくのをながめていました。そして、ネルロの心に希望が燃えているのをさとりました。その希望と言うのも、おそらく、向う見ずな、無駄なことかもしれませんが、ネルロはこの画を出品して、年額二百フランの賞金を得るために競争してみようとしているのです。そのころ、アントワープの町では、十八才以下の天分ある少年は、身分にかかわらず、鉛筆画か木炭画の自作の作品を出して、その</seg><ruby type="furigana" rend="right" source="#source-61280-61295"><rb>中</rb><rt>うち</rt></ruby><seg source="#source-61295-61558">一枚だけがえらばれてこの賞金をもらうことになっていました。ルーベンスに縁の深いこの町では、一流の画の大家が三人審査員になって、それらの作品の優劣をきめることになっていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-61558-62118"><seg source="#source-61558-61579">春と夏と秋を</seg><ruby type="furigana" rend="right" source="#source-61579-61591"><rb>打</rb><rt>ぶ</rt></ruby><seg source="#source-61591-62118">っ通して、ネルロはこの大作の完成に余念がありませんでした。もしこれがうまく栄冠を担えれば彼にとっては、年来の宿望に向って第一歩をふみ出すことになるのです。ネルロはこの企てを誰にも言いませんでした。おじいさんに言ったところで分ってはもらえないし、それはアロアは、もう彼にとって、ないも同じでした。打ち明けるのはただ犬のパトラッシュだけ。そうしていつも、</seg></p>
+      <p source="#source-62118-62570">「ああルーベンス、ルーベンスの魂が知っていたら、きっと僕をえらび出してくれるのだが。」とつぶやくのでした。パトラッシュもまた、こんなことを考えていました。ルーベンスと言う人は、きっと犬を愛していたにちがいない。もし犬を深く愛していたんでなければ、あんなに正しく、美しい、犬が描けるものではないと――。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-62570-63175"><seg source="#source-62570-62876">出品する画は、いずれも十二月の一日に運ばれて、その月の二十四日に結果が発表されることになっていました。で、もしうまく、入選すれば、クリスマスには二重のよろこびを持てるわけでした。身を切るような寒風の吹き</seg><ruby type="furigana" rend="right" source="#source-62876-62891"><rb>荒</rb><rt>すさ</rt></ruby><seg source="#source-62891-63175">ぶその日、ネルロは波打つ胸をおさえて、いよいよでき上った苦心の画を、牛乳車にのせて、パトラッシュと一しょに、町へ運んで行きました。そして、きめられた通りに展覧会の入口のところにおきました。</seg></p>
+      <p source="#source-63175-63240">「大抵だめだろう――僕には分らない――。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-63240-63644"><seg source="#source-63240-63644">ネルロは、妙に臆病になって、なにか、胸がいたいほどでした。画はおいて来たものの、考えてみれば、ずいぶん向う見ずな話です。靴下もないようなこの貧乏な子供が、自分の名さえろくろく書けない無学の身で、はずかしくもなく、そんな一流の大家たちに、自分の画を見てもらうなんて――</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-63644-63937"><seg source="#source-63644-63937">だが、ネルロは、大寺院に近づくにつれてだんだん元気をとりもどしました。威厳のある王様のようなルーベンスの姿が、暗い中からすっと浮んで来て、ネルロに微笑みかけ、ささやくようにおもわれたからです。</seg></p>
+      <p source="#source-63937-64116">「気を落してはいけないよ。私だって、アントワープに名を残すようになったのは、決して、弱い心ではできなかったことだよ。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-64116-64331"><seg source="#source-64116-64331">冷たい夜を、ネルロは、わが心をはげましつつ、かえって行きました。彼は全力をつくしたのです。あとはもう、神様の御心に任せる他ありませんでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-64331-65029"><seg source="#source-64331-64952">その夜、ネルロが家へかえってから雪が降り出し、幾日も幾日もふりつづきました。田も畑もあぜみちも、すっかり雪にうずもれてしまい、川という川はみんな、かたく凍りついてしまいました。もうこうなると、牛乳を持ちまわるのは、実に辛いのでした。吹きさらしの野、夜明けの暗い人気のない町は、よけい寒さがこたえるのでした。殊に犬のパトラッシュは、少年が年毎に次第に力を増して行くのに反し、ますます老いぼれて行くのみで、骨の節々が</seg><ruby type="furigana" rend="right" source="#source-64952-64967"><rb>硬</rb><rt>こわ</rt></ruby><seg source="#source-64967-65029">ばって来てはげしく疼いて苦しいのでした。</seg></p>
+      <p source="#source-65029-65853">「パトラッシュ、お前はもううちでねておいでよ。お前ももう隠居してもいい頃だ、大丈夫、僕ひとりで車はひけるから。」と、ネルロが無理にも止めようとしたのは、<ruby type="furigana" rend="right" source="#source-65257-65281"><rb>一朝</rb><rt>ひとあさ</rt></ruby><seg source="#source-65281-65284">や</seg><ruby type="furigana" rend="right" source="#source-65284-65308"><rb>二朝</rb><rt>ふたあさ</rt></ruby><seg source="#source-65308-65500">のことではありませんでした。が、パトラッシュはききません。毎朝、起きると、彼はちゃんと梶棒のところへ行っています。そして、今まで</seg><ruby type="furigana" rend="right" source="#source-65500-65515"><rb>長</rb><rt>なが</rt></ruby><seg source="#source-65515-65853">の年月通い慣れたその野道を、雪を蹴って、進むのでした。ただ少年に、以前より手数をかけるのは、牛乳車の輪が、凍った轍の跡にはまって、動きのとれない時、後から棒をさしこんでもらうだけでした。これだけ、昔より力がおとろえたのです。</seg></p>
+      <p source="#source-65853-66410">「死ぬまでは休息と言うことはない。」パトラッシュはいつもこうかんがえていました。が、ときどき、ふっと、その最後の休息が、間近に迫って来たようにかんじられて、なんだか目が前ほどはっきり見えなくなったし、教会堂の鐘が五つ鳴って、パトラッシュに、起きて働かねばならぬ時が来たと知らせると、ぱっとはね起るのに変りありませんが、それが前とちがって、非常な苦痛にかんじられるのです。</p>
+      <p source="#source-66410-66526">「かわいそうなパトラッシュ。お前も、わしと一しょに、安楽往生をするのかい。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-66526-66957"><seg source="#source-66526-66784">ジェハンじいさんは、やせこけた皺だらけの手で、犬の頭をなでました。このおじいさんと老犬とは、いつも、パンの皮を分けてたべました。そしていつも同じ心で、年を取るのを嘆きつつ</seg><ruby type="furigana" rend="right" source="#source-66784-66808"><rb>行末</rb><rt>ゆくすえ</rt></ruby><seg source="#source-66808-66957">のことを案じ合うのでした。お互いが死んでしまったら、あとに残るあの可愛いネルロはどうなるでしょう。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-66957-67727"><seg source="#source-66957-67727">ある日の午後のこと、少年と犬とが、アントワープからのかえりみちでした。雪は凍って、まるで大理石のようにひろい野原にしきつめていました。ふと足許を見ると、可愛らしい人形が落ちていました。五六寸の、たいへん美しい太鼓叩きの人形で、ちっとも傷のついていない立派なおもちゃでした。ネルロは拾い上げて、いろいろ探してみましたが、落し主が分らないので、それをアロアにやったら、さぞよろこぶだろう、とかんがえました。落し主が分らないのだから、それを長い間の仲よしにやっても、別にわるいことではあるまい、と彼は思ったのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-67727-68275"><seg source="#source-67727-67925">ネルロが粉挽屋のところを通った時は、もうしずかな晩になっていました。アロアの部屋の小さい窓はよく分っています。その窓のすぐきわから</seg><ruby type="furigana" rend="right" source="#source-67925-67952"><rb>斜下</rb><rt>ななめした</rt></ruby><seg source="#source-67952-68066">につき出た屋根、彼はその屋根によじのぼって、しずかに窓をたたくと、中で小さな</seg><ruby type="furigana" rend="right" source="#source-68066-68087"><rb>灯</rb><rt>ともしび</rt></ruby><seg source="#source-68087-68275">がつきました。アロアは窓をあけてびっくりしました。ネルロは太鼓叩きの人形をアロアの手に握らして、小さな声で口早に言いました。</seg></p>
+      <p source="#source-68275-68427">「アロアちゃん、お人形だよ。雪の上で拾ったの。とっておおきなさいよ、ね、神様が下すったんですもの。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-68427-69365"><seg source="#source-68427-69168">ネルロはするすると屋根をすべりおりて、アロアが、ありがとう、と言う間もなく、闇の中に消えてしまいました。その夜、粉挽場が火事になって、水車場と母屋だけは助かりましたが、納屋と沢山の麦がやけました。村中は大へんなさわぎで、アントワープからは、雪を蹴立てて、蒸気ポンプがかけつけて来ました。さいわい、保険がつけてあったので、大した損害にはなりませんでしたが、主人のコゼツは、かんかんに怒って、この火事はあやまちからではなく、きっと誰かが、つけ火をしたにちがいないと、どなりました。この時ネルロも、</seg><ruby type="furigana" rend="right" source="#source-69168-69186"><rb>円</rb><rt>まろら</rt></ruby><seg source="#source-69186-69365">かな夢を破られて、びっくりしてかけつけて来ましたが、コゼツの旦那は荒々しく彼をつきのけて、腹が立ってたまらないように、</seg></p>
+      <p source="#source-69365-69814">「貴様は宵にここらをうろついていたな。俺はちゃんと知っているぞ、貴様こそ今夜の火事には一番覚えがあるはずだ。」と怒鳴りました。ネルロはあまりのことにぼんやりしてしまって口が利けませんでした。場合が場合だから、聞いている人は、それを冗談だと聞きすごしてくれないだろうと、全く途方にくれてしまいました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-69814-70458"><seg source="#source-69814-70458">粉挽屋の主人は、翌日になっても、近所の人の前で大っぴらにこの言葉を口にしました。すると中には、ネルロがその夜、別に用もないのに粉挽場の辺をうろうろしていたの、アロアと遊ぶことを断られたので、ネルロがコゼツの旦那を恨んでいたのと、蔭口をきく者も出て来、その上何とかしてこのお金持に取入って、その一人娘を息子の嫁にもらい、財産にありつこうと言う腹ぐろい人達も交って、ジェハンじいさんの孫は、全く可哀想な立場におかれてしまいました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-70458-71222"><seg source="#source-70458-71222">村の人達は誰もまさか、コゼツの旦那の言葉を、信じるわけではないのですが、何しろ、狭い村のことではあり、村一番のお金持の気に逆っては何かと自分たちの損ですから、あんまり親切そうにしているところをコゼツの旦那に見られては面倒だと、みんな、申し合せたように、ネルロを避けるようになってしまったのでした。ですから、それからは、ネルロとパトラッシュが、毎朝アントワープへ運んで行く牛乳の御用を聞きにまわっても、牧場主たちは、以前のように、何かと親切に計らってくれず、素気ない態度で、あまり口も利いてくれないのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-71222-71320"><seg source="#source-71222-71320">粉挽屋のおかみさんは、涙ぐんで、おそるおそる主人に言いました。</seg></p>
+      <p source="#source-71320-71664">「あなた、それではあんまり可哀想ですわ。私、あの子が気の毒でたまりません。あの子はほんとに、無邪気な正直者ですもの。いくら、くやしくかんじたことがあったとしたって、ゆめにもあんな大それた悪いことをするような子ではありませんわ。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-71664-72047"><seg source="#source-71664-72047">けれどもコゼツの旦那は一徹者ですから、一度、自分の口から言いふらしたことは、是が非でも、押し通さねばすまないのでした。たとえ、心の奥底で、悪かったが、と気がついて居りながらも、あわれなネルロ、いかに身が潔白なればかまわないとは言え、そこはまだ子供です。</seg></p>
+      <p source="#source-72047-73594">「なあに。僕の画さえ入選したら、村の人達だって、すこしは僕に同情してくれるだろう。」と気をとりなおしとりなおしても、パトラッシュとたったふたりでいる時など、止めようもない涙があふれ落ちるのでした。全く幼い時から会う人毎に可愛がられ、ほめられて大きくなった身が、突然あられもない汚名をきせられ、その頼りにしていた世間の、打って変った冷たい素気ない態度を堪えしのんで行くことは、死にも勝る苦しみでした。雪がふりつづき、村の人達はみんな炉ばたに集まるのに、ネルロとパトラッシュは<ruby type="furigana" rend="right" source="#source-72755-72779"><rb>除者</rb><rt>のけもの</rt></ruby><seg source="#source-72779-73502">で、もう用はないのです。隙間の多いあばら家に、ふたりはしょんぼりとおじいさんのお守りをする。炉は、いつしか火が消えて冷たく、食卓の上には、食べもののない時がつづくのでした。それもそのはず、近頃アントワープから驢馬を仕立てて、毎日牛乳を買い出しに来る商人があらわれたのです。そうして、少年をあわれんで、その商人の牛乳を買わず、緑いろの小さな牛乳車を待っていてくれる家は、ほんの三、四軒に減ってしまい、そのために、パトラッシュが曳かねばならぬ車の荷は軽くなったものの、ネルロの財布に入る</seg><ruby type="furigana" rend="right" source="#source-73502-73529"><rb>端金</rb><rt>はしたがね</rt></ruby><seg source="#source-73529-73594">はいよいよわずかになってしまったのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-73594-74154"><seg source="#source-73594-73966">犬は、いつも止る家の前には、ちゃんと車を止めますが、その門は、もはや彼等のためには開かれませんでした。あわれみを乞うようにじっと見上げる犬の眼は、見る人の胸を打ちましたがみんなむりに目をつぶって心を鬼にして閉め出すのでした。パトラッシュは、力なく</seg><ruby type="furigana" rend="right" source="#source-73966-73993"><rb>空車</rb><rt>あきぐるま</rt></ruby><seg source="#source-73993-74154">をひいて行きます。誰だって、人情のないものはありませんが、コゼツの旦那の気にさわるのをおそれたからでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-74154-75167"><seg source="#source-74154-74685">いよいよクリスマスは近づいて来ました。寒さは一そうきびしくなり、雪は六尺も積もり、氷は、牛や人間が、どこをふんでも大丈夫な程厚くなりました。この季節が、このあたりでは一番たのしい時なのです。どんな貧乏な家にも、あたたかなおいしい御馳走やお菓子が用意され、ストーヴの上には、スープ鍋が、さもうまそうに湯気を立てていて、部屋は色美しくかざられて、たのしげな</seg><ruby type="furigana" rend="right" source="#source-74685-74712"><rb>笑声</rb><rt>わらいごえ</rt></ruby><seg source="#source-74712-75072">がもれるのでした。馬という馬はみんな鈴をつけられ、その音が、いたるところに、にぎやかにひびくのでした。またそとには、若い娘たちが美しい頭巾に厚い上着をつけ、キャッキャッとはしゃぎながら、雪みちをあちこちの集まりに行きつ戻りつしています。その</seg><ruby type="furigana" rend="right" source="#source-75072-75087"><rb>中</rb><rt>うち</rt></ruby><seg source="#source-75087-75167">に、ただ、ネルロの小屋だけが、暗くつめたいのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-75167-76324"><seg source="#source-75167-76324">ネルロとパトラッシュは、全くのふたりっきりになってしまいました。クリスマスの一週間前とうとうジェハンじいさんは息をひきとってしまったのです。おじいさんは、ねている間に死にました。明け方のうす明りに、はじめてそれを知ったふたりの嘆きは、どんなだったでしょう。おじいさんは、どんなに彼等を愛しぬいていたことでしょう。おじいさんは、長い長い間、病の床についたきりで身動きもならず、ふたりのために何をしてやることもできませんでしたが、しかもこの親切な言葉とやさしい笑顔とは、つかれてかえって来るふたりにとって、どんなに大きな慰めだったことか――　そのなきがらを松板の棺におさめ、小さな教会堂のとなりの名もない墓に葬ったとき、ふたりは悲しみ極まわって、雪の上に泣きくずれたまま、立ち去ろうともしませんでした。ああ、犬と少年――彼等は全く、この世に頼るものなく取残されたのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-76324-76926"><seg source="#source-76324-76711">今度こそはあわれにおもって心も解けるだろう、と信じたおかみさんの心だのみも空しく、粉挽屋の主人は、そのささやかな葬式が、門前をすぎるのを見ても、眉をよせたままくやみ一つつぶやこうとはしませんでした。気の弱いおかみさんは、とりつく術もなく涙をふきふき、そっと</seg><ruby type="furigana" rend="right" source="#source-76711-76726"><rb>凋</rb><rt>しぼ</rt></ruby><seg source="#source-76726-76926">まない花を花環に編んで、アロアにそれを墓場へ持って行かせ、今は少年も立ち去って、人影もないその墓の上にうやうやしくおかせたのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-76926-78674"><seg source="#source-76926-77088">ネルロとパトラッシュは、はりさけるような悲しい胸を抱いて墓場を立ち去ったが、そのかえり行く小屋さえも、なお</seg><app type="base-text-variant" source="#source-77100-77163"><lem><seg source="#source-77088-77100">ふたりに</seg></lem><rdg type="base-text"><seg source="#source-77142-77157">ふたりにめ</seg></rdg></app><seg source="#source-77163-77592">慰めを与えることをしませんでした。それは、この小さな家の地代が一月おくれになってしまっていたところへ、このかなしい葬式のために、ネルロは、最後の一銭まで、払ってしまったのです。小屋の持主というのは靴やのおやじで、世の中に金ほど可愛いものはないと思っている人情知らずでした。彼は、ネルロの</seg><ruby type="furigana" rend="right" source="#source-77592-77616"><rb>詫言</rb><rt>わびごと</rt></ruby><seg source="#source-77616-77739">に耳をも貸さず、家賃や地代が払えないなら、その代り小屋にあるものは、鍋から釜から、</seg><ruby type="furigana" rend="right" source="#source-77739-77760"><rb>木片</rb><rt>きぎれ</rt></ruby><seg source="#source-77760-77769">一つ、</seg><ruby type="furigana" rend="right" source="#source-77769-77793"><rb>石塊</rb><rt>いしくれ</rt></ruby><seg source="#source-77793-78504">一つに至るまで、すっかりおいて明日限り立ち退けと、むごい宣告を下したのでした。小屋は、貧しく小さかったが、ネルロたちは、どんなになつかしい思い出を、そこに持っていることでしょう。夏になれば、一面にまといついて繁るぶどう。朝まだき、露をふくんで彼等にほほえみかける、畑の豆の花。彼等のどんなよろこびも、どんなかなしみも、みんな見守っていたこの小屋。どんなにつかれてかえって来ても、安らかにいこわせてくれたこの小屋。――その晩ネルロとパトラッシュは、一晩中火の気のない炉ばたで、</seg><ruby type="furigana" rend="right" source="#source-78504-78525"><rb>灯</rb><rt>ともしび</rt></ruby><seg source="#source-78525-78674">もつけず抱き合っていました。めいめい、心の中に、この小屋の、すぎ去った日のことを思い起しながら――</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-78674-78919"><seg source="#source-78674-78919">やがて一夜があけました。それはクリスマスの前の日でした。ネルロはふるえながら、冷え切った両腕でかたく犬を抱きしめた。大粒の涙が、はらはらと犬の額にかかりました。</seg></p>
+      <p source="#source-78919-79065">「パトラッシュ、行こうよ。ね、行こう。僕らはじっとして蹴り出されるまでもない。ね、さ、行こう。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-79065-79454"><seg source="#source-79065-79454">ふたりは、かなしげに並んで小屋を出ました。どんな大事なものも、どんななつかしいものもすっかり残して、全くの着のみ着のままで――。緑いろの牛乳車のまえをとおる時、パトラッシュは、さも切なげに頸をたれてしまいました。ああこれももうふたりのものではないのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-79454-79744"><seg source="#source-79454-79744">彼等は、通いなれた道を、アントワープの方へ辿りました。まだ太陽は登らず、道に沿うた大抵の家は、まだ戸を閉めていました。町には、二三の人影もありましたが、誰も少年と犬をふりむく人はありません。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-79744-79983"><seg source="#source-79744-79983">ネルロはある家の前に来ると、立ち止って、訴えるような目つきで家の中をのぞきました。それは、おじいさんが元気だったころ、よくやって来たことのある人の家でした。</seg></p>
+      <p source="#source-79983-80609">「もし。パンの堅皮がありましたら、犬にやって下さいませんか。これはもう老いぼれている上に、きのうのおひるから、なんにも食べてないのです。」と、ネルロはおそるおそる言いました。すると家の女の人はすばやく戸をしめて、このごろは麦が高くって、というようなことをぶつぶつ呟くのでした。ネルロとパトラッシュはとりつくすべもなく、またとぼとぼとつかれた足をひきずって行きました。町についた時には、もう鐘は十時を鳴らしていました。</p>
+      <p source="#source-80609-80734">「僕がなんか売れそうなものを持ってたら、パトラッシュにパンを買ってやれるんだが。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-80734-81120"><seg source="#source-80734-80938">だが、ネルロが身につけているものと言っては、ぼろぼろの着物と、汚れた木靴だけでした。パトラッシュはネルロの心持を悟って、鼻先をネルロの</seg><ruby type="furigana" rend="right" source="#source-80938-80950"><rb>掌</rb><rt>て</rt></ruby><seg source="#source-80950-80953">の</seg><ruby type="furigana" rend="right" source="#source-80953-80968"><rb>中</rb><rt>うち</rt></ruby><seg source="#source-80968-81120">に押しつけ、どうか、自分のためなら心配してくれるな、なにもいらぬからと、頼むような様子をみせました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-81120-82415"><seg source="#source-81120-81708">その日の十二時には、例の画の審査の結果が発表されることになっていました。その会場の入口には、もう大ぜいの少年が集まっていました。みんなお父さんやお母さんにつれられていろいろささやき合っているのでした。その群に入りこんだ時、ネルロの胸は激しく波打って、いたいようでした。彼はパトラッシュをしっかりと抱きしめました。やがて町の大鐘が音たかく鳴りわたりました。十二時になったのです。と同時に玄関の</seg><ruby type="furigana" rend="right" source="#source-81708-81723"><rb>扉</rb><rt>ドア</rt></ruby><seg source="#source-81723-82293">が開いて、大勢はときめく胸をおさえながら、なだれこみました。当選の画は、上段においてある台の上にかざられることになっていたのです。はっと思った瞬間、ネルロは目がくらみ、頭がぼーっとして、からだがくずおれかかりました。ようやく気をしずめて、も一度そのかざられた画を見ましたが、ああ、それは彼の描いた画ではありませんでした。やがて、よくひびき渡る声で、当選した画は、アントワープ生れの</seg><ruby type="furigana" rend="right" source="#source-82293-82326"><rb>埠頭場主</rb><rt>はとばぬし</rt></ruby><seg source="#source-82326-82415">の子、ステフアン・キイスリングの作であると告げられました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-82415-82978"><seg source="#source-82415-82772">ネルロが気がついた時は、彼は玄関先の石の上に倒れていて、パトラッシュが一生懸命彼を正気づかせようと鼻をすりつけていました。すこしはなれたところでは、アントワープの少年団が入選した名誉ある友達を大さわぎをしてとりかこみながら、これからその</seg><ruby type="furigana" rend="right" source="#source-82772-82796"><rb>埠頭場</rb><rt>はとば</rt></ruby><seg source="#source-82796-82978">の家まで威勢よく送って行こうとしているところでした。ネルロはよろよろと立ち上って、パトラッシュをしっかり抱きしめました。</seg></p>
+      <p source="#source-82978-83055">「ああ、もうだめだ。パトラッシュ、もう何もかも。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-83055-84722"><seg source="#source-83055-83796">ネルロは幾度も倒れそうになるのを、ようよう踏みこらえました。もう、お腹が空き切って、辛抱できないほどです。やっぱり、村へひきかえすほかはないのです。犬は頭をたれて、したがいました。パトラッシュの強い足も、もうつかれはてているのでした。雪はますます降りしきりきびしい北風が吹きつけました。野原は殊に凄まじく、慣れた道を横切るにも、並大抵ではないのでした。やっとの思いで村に近づいた時、鐘が四つ鳴りました。突然パトラッシュは立ち止りました。なにか、雪の中にかぎつけたものとみえ、妙な吠え方をして、</seg><ruby type="furigana" rend="right" source="#source-83796-83811"><rb>咬</rb><rt>くわ</rt></ruby><seg source="#source-83811-83979">え出したのは小さな革袋で、それをネルロにわたしました。丁度その近くに小さな十字架像があって、その下にささやかなお</seg><ruby type="furigana" rend="right" source="#source-83979-84006"><rb>燈明</rb><rt>とうみょう</rt></ruby><seg source="#source-84006-84180">があったので、ネルロは気のない様子で、そのうすあかりに袋を近づけてしらべると、コゼツという名が書いてあり、中には六千</seg><ruby type="furigana" rend="right" source="#source-84180-84201"><rb>法</rb><rt>フラン</rt></ruby><seg source="#source-84201-84722">という大金の切手が入っていました。これを見るとぼんやりしていた少年の気持が、しゃんとして来ました。彼は早速それをふところに押しこんで、犬をなでて歩き出しました。パトラッシュも小走りにつづきました。ネルロはまっすぐに粉挽小屋へかけつけて、入口の戸をたたきました。開けたのはおかみさんで、目を泣きはらしていました。アロアもそばにすがりついていました。</seg></p>
+      <p source="#source-84722-84856">「ああお前さんだったの、可哀想に。」とおかみさんは涙をこぼしこぼし優しい声で言いました。</p>
+      <p source="#source-84856-85389">「でもね、早くおかえりよ。旦那さんが見たらやかましいからね。今夜、うちでは大変な心配事ができたんだよ。旦那さんが、さっき馬でおかえりの途中、大金の入った財布を落してね、今探しにお出かけなすったところなの。生憎この雪ではねえ――。もしみつからなかったら、うちは丸つぶれになってしまうんだよ。ほんとにうちの人が、お前さんに辛くしたむくいが、今来たのですよ。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-85389-85484"><seg source="#source-85389-85484">少年は革袋を取り出し、パトラッシュを家の中に呼び入れました。</seg></p>
+      <p source="#source-85484-85597">「この犬が、このお金をいま見つけたんです。」と、ネルロは口早に言いました。</p>
+      <p source="#source-85597-85920">「どうぞ旦那さまにそうおっしゃって下さい。もうこの犬も老いぼれて来ましたから、どうかこの犬だけ宿を貸して<ruby type="furigana" rend="right" source="#source-85753-85765"><rb>饑</rb><rt>う</rt></ruby>えないようにしてやって下さい。おねがいです。僕の跡を追いますから、どうかやさしくなだめてやって――。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-85920-86843"><seg source="#source-85920-85992">待って、と言う間もなく、少年は身をかがめて犬に</seg><ruby type="furigana" rend="right" source="#source-85992-86010"><rb>接吻</rb><rt>キス</rt></ruby><seg source="#source-86010-86046">したかと思うと、すばやく</seg><ruby type="furigana" rend="right" source="#source-86046-86061"><rb>扉</rb><rt>ドア</rt></ruby><seg source="#source-86061-86274">を閉め、闇の中へ走り去ってしまいました。おかみさんもアロアも、あまりのよろこびとおどろきに言葉も出ませんでした。パトラッシュは閉めこまれた樫の</seg><ruby type="furigana" rend="right" source="#source-86274-86289"><rb>扉</rb><rt>ドア</rt></ruby><seg source="#source-86289-86610">に腹立たしく吠えかかったがもうだめでした。おかみさんもアロアも、ネルロのことは気になりましたが、何事も父親がかえってから、今はせめてパトラッシュだけにもと、お菓子や肉を一ぱい出して来て、一生けんめいなだめ、炉ばたの</seg><ruby type="furigana" rend="right" source="#source-86610-86631"><rb>温</rb><rt>あたたか</rt></ruby><seg source="#source-86631-86763">いところに誘おうとしましたが、それは何の甲斐もありませんでした。パトラッシュは石のように</seg><ruby type="furigana" rend="right" source="#source-86763-86778"><rb>扉</rb><rt>ドア</rt></ruby><seg source="#source-86778-86843">の前に頑張ったままみむきもしないのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-86843-87022"><seg source="#source-86843-87022">しばらくたって、別の入口から、主人のコゼツがしょんぼりかえって来ました。どっかと腰を下すと、うめくように言いました。</seg></p>
+      <p source="#source-87022-87207">「ああ、もうだめだ。提灯をつけて残らず探して見たのだが、もうない。――娘にゆずる分も何もかもすっかりなくなってしまった。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-87207-87479"><seg source="#source-87207-87435">おかみさんは革袋を差出して、事の次第をはなしました。聞いているうちに、コゼツはたまらなくなって、ぶるぶるふるえるからだを投げ出し、両手でしっかりと顔を</seg><ruby type="furigana" rend="right" source="#source-87435-87450"><rb>掩</rb><rt>おお</rt></ruby><seg source="#source-87450-87479">ってしまいました。</seg></p>
+      <p source="#source-87479-87835">「ああ、わしはあの子に辛く当って来た。わしのような人間が、どうしてあの子の親切を受けることができようか。」と、彼は身悶えしてうめきました。小さなアロアは、それに元気づいて父のそばへにじり寄り、その美しい捲毛の頭を父の膝におしつけながら、</p>
+      <p source="#source-87835-87969">「お父さん、ネルロはもう家へ来てもいいのね。明日招んでもいいのね、<ruby type="furigana" rend="right" source="#source-87934-87949"><rb>先</rb><rt>せん</rt></ruby>のように。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-87969-88070"><seg source="#source-87969-88070">コゼツは娘をしっかり抱きしめました。その顔は涙でぬれていました。</seg></p>
+      <p source="#source-88070-88471">「ああ、そうとも、そうとも。明日のクリスマスには招ぶのだよ。いつでも遊びに来たい時は来てもらうがいい。わしの<ruby type="furigana" rend="right" source="#source-88232-88256"><rb>剛慾</rb><rt>ごうよく</rt></ruby>がこんな罪をつくったので、いま神様がこらしめて下すったのだ。わしは神様におすがりして、あの子に償いをせねばならぬ。罪ほろぼしをせねばならぬ。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-88471-88686"><seg source="#source-88471-88522">アロアはうれしさのあまり、父親に</seg><ruby type="furigana" rend="right" source="#source-88522-88540"><rb>接吻</rb><rt>キス</rt></ruby><seg source="#source-88540-88600">して、大きな膝からすべり落ちるか早いか、</seg><ruby type="furigana" rend="right" source="#source-88600-88615"><rb>扉</rb><rt>ドア</rt></ruby><seg source="#source-88615-88686">の方ばかり、見守っている犬の許にかけて行って、</seg></p>
+      <p source="#source-88686-88808">「今夜、パトラッシュに御馳走してやってもいいの。」とさもうれしそうに叫びました。</p>
+      <p source="#source-88808-89020">「いいとも、いいとも。うんと御馳走しておやり。」とコゼツは言いました。この老いた頑固なおやじさんも、全く心の底から改心してしまったのでした。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-89020-90399"><seg source="#source-89020-89194">その夜はクリスマスの前夜ですから、大きな粉挽場の中は、目のさめるように美しくかざり立てられていました。吊された線の</seg><ruby type="furigana" rend="right" source="#source-89194-89218"><rb>枝々</rb><rt>えだえだ</rt></ruby><seg source="#source-89218-89314">。うめもどきの赤い実がたくさんなっている枝の間から、十字架像と、</seg><ruby type="furigana" rend="right" source="#source-89314-89341"><rb>時鳥</rb><rt>ほととぎす</rt></ruby><seg source="#source-89341-89467">の形をした置時計がのぞいています。アロアをよろこばせるための、紙でこしらえた提灯には</seg><ruby type="furigana" rend="right" source="#source-89467-89488"><rb>灯</rb><rt>ともしび</rt></ruby><seg source="#source-89488-89707">がつき、いろいろなおもちゃや、目のさめるような絵紙につつんだおいしいお菓子が一ぱい並んでいます。このクリスマスのかざりをした明るいたのしい、そして</seg><ruby type="furigana" rend="right" source="#source-89707-89731"><rb>食物</rb><rt>たべもの</rt></ruby><seg source="#source-89731-89893">のたくさんある部屋で、パトラッシュを一番のお客さんにしようと、アロアは一生けんめいでした。が、パトラッシュは</seg><ruby type="furigana" rend="right" source="#source-89893-89914"><rb>暖</rb><rt>あたたか</rt></ruby><seg source="#source-89914-90232">い炉ばたへ行こうとも御馳走をふりむこうともしませんでした。からだは凍え、おなかは空き切っているにもかかわらず、ネルロがいなければ犬はなんにも食べたくもなく、なぐさめられもしないのです。パトラッシュはただ石のように</seg><ruby type="furigana" rend="right" source="#source-90232-90247"><rb>扉</rb><rt>ドア</rt></ruby><seg source="#source-90247-90399">のそばにすわりこんで逃げ道はないかと、そればかりねらっているのでした。これを見たコゼツは言いました。</seg></p>
+      <p source="#source-90399-90551">「あの子がいないといかんのだな。よしよし夜があけたら、何はおいてもわしがむかいに行ってやるからな。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-90551-90865"><seg source="#source-90551-90674">ああ、パトラッシュのほかに、誰がネルロの心を知っていよう。犬を残してただひとり、</seg><ruby type="furigana" rend="right" source="#source-90674-90686"><rb>饑</rb><rt>う</rt></ruby><seg source="#source-90686-90865">えと悲しみとを覚悟して出て行ったその雄々しくもいたましい心――それはただ、パトラッシュだけがかんじていることなのです。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-90865-92052"><seg source="#source-90865-90898">粉挽屋の台所は大へん</seg><ruby type="furigana" rend="right" source="#source-90898-90919"><rb>暖</rb><rt>あたたか</rt></ruby><seg source="#source-90919-90958">です。炉のなかでは、大きな</seg><ruby type="furigana" rend="right" source="#source-90958-90973"><rb>榾</rb><rt>ほだ</rt></ruby><seg source="#source-90973-91069">がぱちぱちと赤く燃え、隣近所の人々は、夕飯のために焙った鵞鳥の肉</seg><ruby type="furigana" rend="right" source="#source-91069-91096"><rb>一片</rb><rt>ひときれ</rt></ruby><seg source="#source-91096-92052">とお酒一ぱいとにありつくために、交る交るやって来ます。アロアは、明日こそ大好きなネルロと遊べるといううれしさにはしゃぎまわって、その金髪が頭のうしろでおどってばかりいました。主人のコゼツは、胸が一ぱいになって、涙ぐんだ眼で娘に笑いかけながら、どうしたら娘のなつかしがる友達と仲なおりができるかとかんがえています。また、おかみさんはやさしい、満足そうなかおつきで、静かに糸車のそばにすわりました。置時計は時鳥の啼き声そっくりに時を告げました。その中でパトラッシュは、第一のお客さまとしていろいろ親切な言葉をかけられても、やはり頑張って動きません。ネルロがいなくては、どんなにたのしみも御馳走もパトラッシュをよろこばすことはできないのです。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-92052-93227"><seg source="#source-92052-92319">やがて、大きな食卓の上に、さまざまな御馳走が並べられ、お客さんたちは席につきました。部屋の中にはよろこびの声が満ちて、キリスト降誕の仮装をした大ぜいの子供が、それぞれ心をこめた</seg><ruby type="furigana" rend="right" source="#source-92319-92346"><rb>贈物</rb><rt>おくりもの</rt></ruby><seg source="#source-92346-92484">をアロアに贈った、その時でした。今まですきをねらっていたパトラッシュは新しく来たお客が思わず</seg><ruby type="furigana" rend="right" source="#source-92484-92499"><rb>扉</rb><rt>ドア</rt></ruby><seg source="#source-92499-93120">の掛金をはずしたとたん、風のようにぬけ出しました。パトラッシュはその疲れ切った足がつづく限り、暗い夜の雪みちを走りに走って行きました。ただひたむきにネルロの跡を追うばかりです。もしこれが人間であったら、あるいはそのおいしい御馳走と、暖い炉ばたと、安楽な眠りとに誘われて、止ったかもしれません。が、しかしパトラッシュは、この老いたフランダースの犬は、遠い昔を忘れてはいませんでした。あのおじいさんと幼児とが、道ばたの</seg><ruby type="furigana" rend="right" source="#source-93120-93144"><rb>泥溝</rb><rt>どろみぞ</rt></ruby><seg source="#source-93144-93227">に息絶った自分を救い上げ、見守ってくれたその遠い昔を。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-93227-95005"><seg source="#source-93227-95005">そとは吹雪でした。もう十時でしょう。ネルロの足跡は大方消えてしまっているので、匂いを嗅いで足跡を辿って行くパトラッシュの苦心は実にいたましいようでした。ようやく見つけ出す、すぐ消えている、また探し出す、また見失う、そんなことを百度以上もくりかえしつつ、パトラッシュははしりつづけました。この一寸先も見えない吹雪の夜を、饑えと寒さによろめきながらパトラッシュは、ただ主人を探し出すという一途な愛に支えられて走りつづけて行くのでした。ネルロの足跡は、吹雪にかき消されてはいるものの、とにかくまっすぐにアントワープに向っていることだけは分ります。パトラッシュがやっとの思いでアントワープの町はずれまで辿りつきそれから狭い曲りくねった道に入った時は、もう真夜中をすぎていました。町の中もまっくらでただ、ところどころ戸の隙間から細いあかりがもれているだけでした。酔っぱらいの歌声がどこかで起って、そして消えて行きました。しんとしずまりかえった中に、風だけが街燈の高い鉄柱につきあたって、すさまじいひびきをたてるのでした。ネルロの足跡はこの町に入ってから、大ぜいの通行人の足跡にまじり合い、ふみにじられて、それを拾って行くのは、今までより、もっともっと困難でした。寒さが骨までしみ通り、足は凍った角で傷つきました。而もパトラッシュは、恐ろしいほどの忍耐を以て、ネルロの跡を嗅ぎ求めて行きました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-95005-95478"><seg source="#source-95005-95478">こうして、堪えに堪えて、パトラッシュはついに愛する主人の足跡を追って、町の中央の旧教寺院の入口までのぼりついたのでした。ああ、ここは、一番慕っていたところだ、と、犬は思いました。ネルロが芸術というものに憧れている心持は、パトラッシュには分らないながら、なにか、哀れにかなしく、そして神々しくかんじられたのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-95478-96473"><seg source="#source-95478-95544">大寺院の門は、真夜中の集まりがすんだあと、</seg><ruby type="furigana" rend="right" source="#source-95544-95559"><rb>扉</rb><rt>ドア</rt></ruby><seg source="#source-95559-95796">が閉じていませんでした。門番が、早くかえって御馳走が食べたかったか、それとも眠くて鍵をかけ損ねて気づかなかったのか、なにかそんな手抜かりがあったからでしょう、</seg><ruby type="furigana" rend="right" source="#source-95796-95811"><rb>扉</rb><rt>ドア</rt></ruby><seg source="#source-95811-96093">が半分開けたままんなっていて、パトラッシュの求める足跡は、そこからてんてんと白い雪を落して奥へつづいているのでした。そのかすかな白い一すじにみちびかれて、神々しい静かな堂内の、ひろびろした</seg><ruby type="furigana" rend="right" source="#source-96093-96129"><rb>円天井</rb><rt>まるてんじょう</rt></ruby>の下を通って、まっすぐに聖堂の入口まで来ると、そこに倒れているネルロを見出しました。パトラッシュは、よろめくようにかけよって、ぴったりと顔をすりよせました、「あなたを見すてるような、そんな不忠ものと思わないで――」と言うように。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-96473-96607"><seg source="#source-96473-96607">ネルロは低く叫んで身を起しました。そして、しっかりと犬を抱きしめながらささやきました。</seg></p>
+      <p source="#source-96607-96849">「おおパトラッシュ、可哀想なパトラッシュ。ふたり一しょに死のう。世間の人は、もう僕たちには用がないのだ。ここで横になって死のう。僕たちはたったふたりっきりだ。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-96849-97067"><seg source="#source-96849-97067">ものの言えないパトラッシュは、答えの代りに、なおもネルロの胸にひしとその頭をおしつけました。大粒の涙が、その茶色の悲しそうな瞼にたまりました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-97067-97177"><seg source="#source-97067-97177">ふたりは刺されるような寒さの中で、しっかりと抱き合って横になりました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-97177-98739"><seg source="#source-97177-98671">ふたりが横たわっている石造建築の広い内部は、野ざらしよりもっと寒さがひどいのでした。そのふれるもの一切を凍らせずにはおかないような狂風。――闇の中を、ときどき蝙蝠がとびまわるのでした。ルーベンスの画の下にふたりは横たわっていました。あまりの寒さに、からだはしびれ、ふしぎな眠気がおそって来て、ふたりは次第に気がとおく、うっとりとなって行きました。ふたりの心にはすぎ去った楽しい日のことが浮び出ました。夏の牧場の花の咲きみだれた中を互に追いつ追われつかけまわったことや、運河の岸のしげった草の中にすわり、静かにすべり行く船をながめくらしたことや――。ふたりは争いというものを知りませんでした。ネルロはパトラッシュをいとしみ、パトラッシュはネルロを慕い、お互に深く深く愛し合っていました。ふたりがこの世に生きていたのは短い間でしたが、ふたりがつくさねばならない義務はつくしました。どんな人にも獣にも恨みを持ったことがなく、きわめて素直でしたから、決して心に何のとがめることもなく、はればれしていました。そして今、饑えにおとろえはて、血は寒さに凍りクリスマス前夜の夜あかしのたのしさを思い浮べながら、</seg><ruby type="furigana" rend="right" source="#source-98671-98695"><rb>昏々</rb><rt>こんこん</rt></ruby><seg source="#source-98695-98739">と死んで行こうとするのです。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-98739-99383">突然、大きな白い光が、がらんとした堂の中に流れ入りました。月でした。いつしか雪はふり止んで、いま、雲間を逃れ出た月の光は、二つの名画を照し出しました。画をつつんであった覆いは、少年がここへ入った時すでに引き裂いてしまったから、この一瞬、「キリストの昇天」と「十字架上のキリスト」の二名画は実にはっきり認め得たのでした。思わずネルロは立ち上り、両手を画の方へさし出しました。感きわまった涙が、そのあおざめた頬にあふれ落ちました。</p>
+      <p source="#source-99383-99538">「見た、ああ僕はとうとう見た。」と、少年は叫びました。「ああ神さま、もうこの上はなんにもいりません。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-99538-100026"><seg source="#source-99538-100026">足の力がつきて、膝がしらでようよう身を支えながら、なおもネルロは喰い入るように、その崇拝している荘厳な画に見入りました。清らかな月の光は、そのあこがれの画を隅々まではっきりと示しました。が、これも一瞬にしてかくれ、堂内は再びまっくらな闇がひろがりました。画の方にさし出されていたネルロの両手は、再び犬のからだを抱きました。</seg></p>
+      <p source="#source-100026-100243">「ああ、神さまのお顔が拝めるだろう。――あそこに。」彼の唇がかすかに動きました。「神様は私たちをお見すてにはならない。神様は御慈悲深い――。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-100243-101133"><seg source="#source-100243-100318">夜があけました。アントワープの町の人々は、この大</seg><app type="base-text-variant" source="#source-100324-100372"><lem><seg source="#source-100318-100324">伽藍</seg></lem><rdg type="base-text"><seg source="#source-100360-100366">迦藍</seg></rdg></app><seg source="#source-100372-101133">の内に、少年と犬とを見い出しました。もうふたりとも、冷たく息絶えていました。さびしい夜の寒さは、若い命と、年老いた命とを一しょに凍らして、しずかな、永いねむりにつかせたのでした。クリスマスの朝がほのぼのと明けて、坊さんたちがやって来た時には、石のようにかたく抱き合った少年と犬のなきがらの上に、ルーベンスの名画は覆いをむしりとられて、その偉大なる天才の筆の跡をあらわし、清々しい朝の光が、神の子の頭においたいばらの冠をてらしていました。やがて、一人の頑固そうな顔をした老人が、おいおい泣きながらやって来て、</seg></p>
+      <p source="#source-101133-101372">「わしはまあこの子供に、何というむごい扱いをしたことだろう。ああすまないすまない。罪滅しをせねばらなぬ。わしの、<ruby type="furigana" rend="right" source="#source-101301-101316"><rb>聟</rb><rt>むこ</rt></ruby>になるべきはずの子だったのに――。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-101372-101929">またしばらくすると、そこ頃有名な画家がやって来て集まっている人々に言うのでした。「本当の値打から言ったら、たしかにこの子がえらばるべきだったのに。あの夕暮の、倒れた樹に腰を下した老樵夫の画。あの画には天才のひらめきがあった。未来にはきっとすぐれた画家になれる<ruby type="furigana" rend="right" source="#source-101762-101774"><rb>児</rb><rt>こ</rt></ruby>だった。わしは何とかして探し出してみっしり仕込んで、その天才をみがかそうとかんがえていたものを――。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-101929-102087"><seg source="#source-101929-101950">また、捲毛の</seg><ruby type="furigana" rend="right" source="#source-101950-101965"><rb>美</rb><rt>うる</rt></ruby><seg source="#source-101965-102087">わしい少女は泣きくずれながら、父の腕にすがって、声を惜しまずかきくどくのでした。</seg></p>
+      <p source="#source-102087-102662">「ネルロいらっしゃいよ。支度はみんなできてよ。あなたのために、仮装した子供たちが、めいめい贈り物を手にしているし、笛吹きのじいさんが、いま吹きはじめるところなの。あなたと私は、このクリスマスの一週間は、ちっとも離れず炉ばたで栗をやいてていいんですって。クリスマスの一週間どころかいつまでいたってかまわないって。ね、パトラッシュもうれしいでしょう。早く起きていらっしゃいよ、ネルロ。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-102662-102904"><seg source="#source-102662-102743">けれども、偉大なルーベンスの画の方にむけたままのその</seg><ruby type="furigana" rend="right" source="#source-102743-102767"><rb>死顔</rb><rt>しにがお</rt></ruby>は、口許にかすかな笑を浮べたまま、あたりの人々に、「もうおそい」と答えているかのようです。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-102904-103407"><seg source="#source-102904-102928">ほがらかな鐘の</seg><ruby type="furigana" rend="right" source="#source-102928-102940"><rb>音</rb><rt>ね</rt></ruby><seg source="#source-102940-103407">が鳴りわたり、太陽はうららかに雪の野を照らし、華やかに着飾った人々は往来にむらがって、よろこんでいますが、もはやネルロとパトラッシュとは、人の慈悲にすがる必要はありませんでした。ふたりが生きている間に一生けんめいに求めていたものを、死んで何もいらなくなった今になって、はじめてアントワープの人達が与えたのです。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-103407-103658"><ruby type="furigana" rend="right" source="#source-103410-103431"><rb>生命</rb><rt>いのち</rt></ruby><seg source="#source-103431-103658">のある間はなれられなかったこのふたりは、死んでからもはなれませんでした。少年の腕はどうしてもはなすことのできないほどしっかりと犬を抱きしめていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-103658-103934"><seg source="#source-103658-103886">恥じ入って後悔した村の人達は、ふたりのために、神さまが特別のお恵みをお与え下さるように祈りながら、墓を一つにして、主従抱き合ったままで葬りました。――</seg><ruby type="furigana" rend="right" source="#source-103886-103910"><rb>永遠</rb><rt>とこしえ</rt></ruby><seg source="#source-103910-103934">に――（おわり）</seg></p>
+    </body>
+    <back>
+      <div type="source">
+        <note type="source-attribution" source="#source-103942-104091"><seg type="source-line">底本：「小学生全集26　黒馬物語・フランダースの犬」興文社、文芸春秋社</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1929（昭和4）年5月23日発行</seg></note>
+        <note type="transcriber-note" source="#source-104091-104855"><seg type="source-line">※「旧字、旧仮名で書かれた作品を、現代表記にあらためる際の作業指針」に基づいて、底本の表記をあらためました。</seg><lb/><seg type="source-line">その際、以下の置き換えをおこないました。</seg><lb/><seg type="source-line">「或→ある、あるい　併し→しかし　唯→ただ　出来→でき　尚→なお　筈→はず　勿論→もちろん」</seg><lb/><seg type="source-line">※総ルビをパラルビにかえました。</seg><lb/><seg type="source-line">入力：大久保ゆう</seg><lb/><seg type="source-line">校正：門田裕志</seg><lb/><seg type="source-line">2003年11月6日作成</seg><lb/><seg type="source-line">2005年12月17日修正</seg><lb/><seg type="source-line">青空文庫作成ファイル：</seg><lb/><seg type="source-line">このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。</seg></note>
+        <note type="source-span" xml:id="source-100026-100243" n="196"/>
+        <note type="source-span" xml:id="source-100243-100318" n="198"/>
+        <note type="source-span" xml:id="source-100243-101133" n="198"/>
+        <note type="source-span" xml:id="source-100318-100324" n="198"/>
+        <note type="source-span" xml:id="source-100324-100372" n="198"/>
+        <note type="source-span" xml:id="source-100360-100366" n="198"/>
+        <note type="source-span" xml:id="source-100372-101133" n="198"/>
+        <note type="source-span" xml:id="source-101133-101372" n="199"/>
+        <note type="source-span" xml:id="source-101301-101316" n="199"/>
+        <note type="source-span" xml:id="source-101372-101929" n="200"/>
+        <note type="source-span" xml:id="source-101762-101774" n="200"/>
+        <note type="source-span" xml:id="source-101929-101950" n="201"/>
+        <note type="source-span" xml:id="source-101929-102087" n="201"/>
+        <note type="source-span" xml:id="source-101950-101965" n="201"/>
+        <note type="source-span" xml:id="source-101965-102087" n="201"/>
+        <note type="source-span" xml:id="source-102087-102662" n="202"/>
+        <note type="source-span" xml:id="source-102662-102743" n="203"/>
+        <note type="source-span" xml:id="source-102662-102904" n="203"/>
+        <note type="source-span" xml:id="source-102743-102767" n="203"/>
+        <note type="source-span" xml:id="source-102904-102928" n="204"/>
+        <note type="source-span" xml:id="source-102904-103407" n="204"/>
+        <note type="source-span" xml:id="source-102928-102940" n="204"/>
+        <note type="source-span" xml:id="source-102940-103407" n="204"/>
+        <note type="source-span" xml:id="source-103407-103410" n="205"/>
+        <note type="source-span" xml:id="source-103407-103658" n="205"/>
+        <note type="source-span" xml:id="source-103410-103431" n="205"/>
+        <note type="source-span" xml:id="source-103431-103658" n="205"/>
+        <note type="source-span" xml:id="source-103658-103886" n="206"/>
+        <note type="source-span" xml:id="source-103658-103934" n="206"/>
+        <note type="source-span" xml:id="source-103886-103910" n="206"/>
+        <note type="source-span" xml:id="source-103910-103934" n="206"/>
+        <note type="source-span" xml:id="source-103942-104091" n="210"/>
+        <note type="source-span" xml:id="source-104091-104855" n="212"/>
+        <note type="source-span" xml:id="source-10630-10711" n="30"/>
+        <note type="source-span" xml:id="source-10630-12882" n="30"/>
+        <note type="source-span" xml:id="source-10711-10723" n="30"/>
+        <note type="source-span" xml:id="source-10723-10876" n="30"/>
+        <note type="source-span" xml:id="source-10876-10894" n="30"/>
+        <note type="source-span" xml:id="source-10894-11440" n="30"/>
+        <note type="source-span" xml:id="source-11440-11461" n="30"/>
+        <note type="source-span" xml:id="source-11461-12882" n="30"/>
+        <note type="source-span" xml:id="source-12882-13490" n="31"/>
+        <note type="source-span" xml:id="source-13490-13580" n="32"/>
+        <note type="source-span" xml:id="source-13490-14008" n="32"/>
+        <note type="source-span" xml:id="source-13580-13598" n="32"/>
+        <note type="source-span" xml:id="source-13598-14008" n="32"/>
+        <note type="source-span" xml:id="source-14008-14107" n="33"/>
+        <note type="source-span" xml:id="source-14008-14544" n="33"/>
+        <note type="source-span" xml:id="source-14107-14131" n="33"/>
+        <note type="source-span" xml:id="source-14131-14544" n="33"/>
+        <note type="source-span" xml:id="source-14544-15600" n="34"/>
+        <note type="source-span" xml:id="source-14544-15974" n="34"/>
+        <note type="source-span" xml:id="source-15600-15624" n="34"/>
+        <note type="source-span" xml:id="source-15624-15974" n="34"/>
+        <note type="source-span" xml:id="source-15974-16523" n="35"/>
+        <note type="source-span" xml:id="source-15974-17551" n="35"/>
+        <note type="source-span" xml:id="source-1610-1634" n="21"/>
+        <note type="source-span" xml:id="source-1634-1916" n="21"/>
+        <note type="source-span" xml:id="source-16523-16541" n="35"/>
+        <note type="source-span" xml:id="source-16541-17234" n="35"/>
+        <note type="source-span" xml:id="source-17234-17249" n="35"/>
+        <note type="source-span" xml:id="source-17249-17321" n="35"/>
+        <note type="source-span" xml:id="source-17294-17315" n="35"/>
+        <note type="source-span" xml:id="source-17321-17551" n="35"/>
+        <note type="source-span" xml:id="source-17551-18357" n="36"/>
+        <note type="source-span" xml:id="source-18357-19389" n="37"/>
+        <note type="source-span" xml:id="source-18357-20453" n="37"/>
+        <note type="source-span" xml:id="source-1916-1928" n="21"/>
+        <note type="source-span" xml:id="source-1928-2083" n="21"/>
+        <note type="source-span" xml:id="source-19389-19404" n="37"/>
+        <note type="source-span" xml:id="source-19404-20025" n="37"/>
+        <note type="source-span" xml:id="source-20025-20040" n="37"/>
+        <note type="source-span" xml:id="source-20040-20453" n="37"/>
+        <note type="source-span" xml:id="source-20453-21647" n="38"/>
+        <note type="source-span" xml:id="source-20453-21871" n="38"/>
+        <note type="source-span" xml:id="source-2083-2110" n="22"/>
+        <note type="source-span" xml:id="source-2083-2169" n="22"/>
+        <note type="source-span" xml:id="source-2110-2128" n="22"/>
+        <note type="source-span" xml:id="source-2128-2169" n="22"/>
+        <note type="source-span" xml:id="source-21647-21665" n="38"/>
+        <note type="source-span" xml:id="source-21665-21740" n="38"/>
+        <note type="source-span" xml:id="source-2169-2439" n="23"/>
+        <note type="source-span" xml:id="source-2169-4133" n="23"/>
+        <note type="source-span" xml:id="source-21713-21734" n="38"/>
+        <note type="source-span" xml:id="source-21740-21871" n="38"/>
+        <note type="source-span" xml:id="source-21871-21973" n="39"/>
+        <note type="source-span" xml:id="source-21871-22671" n="39"/>
+        <note type="source-span" xml:id="source-21973-21991" n="39"/>
+        <note type="source-span" xml:id="source-21991-22671" n="39"/>
+        <note type="source-span" xml:id="source-22671-22743" n="40"/>
+        <note type="source-span" xml:id="source-22671-23567" n="40"/>
+        <note type="source-span" xml:id="source-22743-22758" n="40"/>
+        <note type="source-span" xml:id="source-22758-22788" n="40"/>
+        <note type="source-span" xml:id="source-22788-22812" n="40"/>
+        <note type="source-span" xml:id="source-22812-23181" n="40"/>
+        <note type="source-span" xml:id="source-23181-23193" n="40"/>
+        <note type="source-span" xml:id="source-23193-23376" n="40"/>
+        <note type="source-span" xml:id="source-23376-23397" n="40"/>
+        <note type="source-span" xml:id="source-23397-23511" n="40"/>
+        <note type="source-span" xml:id="source-23511-23526" n="40"/>
+        <note type="source-span" xml:id="source-23526-23567" n="40"/>
+        <note type="source-span" xml:id="source-23567-24718" n="41"/>
+        <note type="source-span" xml:id="source-2439-2466" n="23"/>
+        <note type="source-span" xml:id="source-2466-2505" n="23"/>
+        <note type="source-span" xml:id="source-24718-25172" n="42"/>
+        <note type="source-span" xml:id="source-2505-2529" n="23"/>
+        <note type="source-span" xml:id="source-25172-25412" n="44"/>
+        <note type="source-span" xml:id="source-25172-25558" n="44"/>
+        <note type="source-span" xml:id="source-2529-2730" n="23"/>
+        <note type="source-span" xml:id="source-25412-25439" n="44"/>
+        <note type="source-span" xml:id="source-25439-25558" n="44"/>
+        <note type="source-span" xml:id="source-25558-25639" n="45"/>
+        <note type="source-span" xml:id="source-25558-27963" n="45"/>
+        <note type="source-span" xml:id="source-25639-25651" n="45"/>
+        <note type="source-span" xml:id="source-25651-26209" n="45"/>
+        <note type="source-span" xml:id="source-26209-26227" n="45"/>
+        <note type="source-span" xml:id="source-26227-27232" n="45"/>
+        <note type="source-span" xml:id="source-27232-27253" n="45"/>
+        <note type="source-span" xml:id="source-27253-27694" n="45"/>
+        <note type="source-span" xml:id="source-2730-2745" n="23"/>
+        <note type="source-span" xml:id="source-2745-2748" n="23"/>
+        <note type="source-span" xml:id="source-2748-2766" n="23"/>
+        <note type="source-span" xml:id="source-2766-2865" n="23"/>
+        <note type="source-span" xml:id="source-27694-27721" n="45"/>
+        <note type="source-span" xml:id="source-27721-27730" n="45"/>
+        <note type="source-span" xml:id="source-27730-27748" n="45"/>
+        <note type="source-span" xml:id="source-27748-27963" n="45"/>
+        <note type="source-span" xml:id="source-27963-28107" n="46"/>
+        <note type="source-span" xml:id="source-27963-28163" n="46"/>
+        <note type="source-span" xml:id="source-28107-28134" n="46"/>
+        <note type="source-span" xml:id="source-28134-28163" n="46"/>
+        <note type="source-span" xml:id="source-28163-28205" n="47"/>
+        <note type="source-span" xml:id="source-28163-29116" n="47"/>
+        <note type="source-span" xml:id="source-28205-28229" n="47"/>
+        <note type="source-span" xml:id="source-28229-28256" n="47"/>
+        <note type="source-span" xml:id="source-28256-28271" n="47"/>
+        <note type="source-span" xml:id="source-28271-28400" n="47"/>
+        <note type="source-span" xml:id="source-28400-28418" n="47"/>
+        <note type="source-span" xml:id="source-28418-28529" n="47"/>
+        <note type="source-span" xml:id="source-28529-28547" n="47"/>
+        <note type="source-span" xml:id="source-28547-29078" n="47"/>
+        <note type="source-span" xml:id="source-2865-2871" n="23"/>
+        <note type="source-span" xml:id="source-2871-2919" n="23"/>
+        <note type="source-span" xml:id="source-2907-2913" n="23"/>
+        <note type="source-span" xml:id="source-29078-29093" n="47"/>
+        <note type="source-span" xml:id="source-29093-29116" n="47"/>
+        <note type="source-span" xml:id="source-29116-29697" n="48"/>
+        <note type="source-span" xml:id="source-2919-3003" n="23"/>
+        <note type="source-span" xml:id="source-29697-30119" n="49"/>
+        <note type="source-span" xml:id="source-3003-3018" n="23"/>
+        <note type="source-span" xml:id="source-30119-30481" n="50"/>
+        <note type="source-span" xml:id="source-3018-3207" n="23"/>
+        <note type="source-span" xml:id="source-30481-30937" n="51"/>
+        <note type="source-span" xml:id="source-30481-31233" n="51"/>
+        <note type="source-span" xml:id="source-30937-30949" n="51"/>
+        <note type="source-span" xml:id="source-30949-31233" n="51"/>
+        <note type="source-span" xml:id="source-31233-32117" n="52"/>
+        <note type="source-span" xml:id="source-3207-3222" n="23"/>
+        <note type="source-span" xml:id="source-32117-32605" n="53"/>
+        <note type="source-span" xml:id="source-3222-3249" n="23"/>
+        <note type="source-span" xml:id="source-3249-3270" n="23"/>
+        <note type="source-span" xml:id="source-32605-33172" n="54"/>
+        <note type="source-span" xml:id="source-32605-33240" n="54"/>
+        <note type="source-span" xml:id="source-3270-3603" n="23"/>
+        <note type="source-span" xml:id="source-33172-33190" n="54"/>
+        <note type="source-span" xml:id="source-33190-33240" n="54"/>
+        <note type="source-span" xml:id="source-33240-33539" n="55"/>
+        <note type="source-span" xml:id="source-33539-34192" n="56"/>
+        <note type="source-span" xml:id="source-34031-34043" n="56"/>
+        <note type="source-span" xml:id="source-34043-34103" n="56"/>
+        <note type="source-span" xml:id="source-34085-34097" n="56"/>
+        <note type="source-span" xml:id="source-34103-34192" n="56"/>
+        <note type="source-span" xml:id="source-34192-34806" n="57"/>
+        <note type="source-span" xml:id="source-34806-35084" n="58"/>
+        <note type="source-span" xml:id="source-35084-35569" n="59"/>
+        <note type="source-span" xml:id="source-35569-35967" n="60"/>
+        <note type="source-span" xml:id="source-35967-37424" n="61"/>
+        <note type="source-span" xml:id="source-3603-3627" n="23"/>
+        <note type="source-span" xml:id="source-3627-4133" n="23"/>
+        <note type="source-span" xml:id="source-37053-37065" n="61"/>
+        <note type="source-span" xml:id="source-37065-37424" n="61"/>
+        <note type="source-span" xml:id="source-37424-37516" n="62"/>
+        <note type="source-span" xml:id="source-37516-38481" n="63"/>
+        <note type="source-span" xml:id="source-38481-38720" n="64"/>
+        <note type="source-span" xml:id="source-38720-39119" n="65"/>
+        <note type="source-span" xml:id="source-38720-39742" n="65"/>
+        <note type="source-span" xml:id="source-39119-39143" n="65"/>
+        <note type="source-span" xml:id="source-39143-39629" n="65"/>
+        <note type="source-span" xml:id="source-39629-39650" n="65"/>
+        <note type="source-span" xml:id="source-39650-39742" n="65"/>
+        <note type="source-span" xml:id="source-39742-41308" n="66"/>
+        <note type="source-span" xml:id="source-39742-41466" n="66"/>
+        <note type="source-span" xml:id="source-41308-41323" n="66"/>
+        <note type="source-span" xml:id="source-41323-41466" n="66"/>
+        <note type="source-span" xml:id="source-4133-4556" n="24"/>
+        <note type="source-span" xml:id="source-4133-4801" n="24"/>
+        <note type="source-span" xml:id="source-41466-41573" n="67"/>
+        <note type="source-span" xml:id="source-41573-42622" n="68"/>
+        <note type="source-span" xml:id="source-42622-42696" n="69"/>
+        <note type="source-span" xml:id="source-42696-42746" n="70"/>
+        <note type="source-span" xml:id="source-42746-42946" n="71"/>
+        <note type="source-span" xml:id="source-42946-43179" n="72"/>
+        <note type="source-span" xml:id="source-43179-43250" n="73"/>
+        <note type="source-span" xml:id="source-43250-43558" n="74"/>
+        <note type="source-span" xml:id="source-43558-43878" n="75"/>
+        <note type="source-span" xml:id="source-43600-43606" n="75"/>
+        <note type="source-span" xml:id="source-43600-43636" n="75"/>
+        <note type="source-span" xml:id="source-43606-43636" n="75"/>
+        <note type="source-span" xml:id="source-43636-43726" n="75"/>
+        <note type="source-span" xml:id="source-43726-43732" n="75"/>
+        <note type="source-span" xml:id="source-43726-43762" n="75"/>
+        <note type="source-span" xml:id="source-43732-43762" n="75"/>
+        <note type="source-span" xml:id="source-43878-44279" n="76"/>
+        <note type="source-span" xml:id="source-44279-44386" n="77"/>
+        <note type="source-span" xml:id="source-44386-44514" n="78"/>
+        <note type="source-span" xml:id="source-44514-44657" n="79"/>
+        <note type="source-span" xml:id="source-44657-44872" n="80"/>
+        <note type="source-span" xml:id="source-44819-44843" n="80"/>
+        <note type="source-span" xml:id="source-44872-44994" n="81"/>
+        <note type="source-span" xml:id="source-44994-45215" n="82"/>
+        <note type="source-span" xml:id="source-45215-45799" n="83"/>
+        <note type="source-span" xml:id="source-4556-4574" n="24"/>
+        <note type="source-span" xml:id="source-4574-4643" n="24"/>
+        <note type="source-span" xml:id="source-45799-46159" n="84"/>
+        <note type="source-span" xml:id="source-45799-46476" n="84"/>
+        <note type="source-span" xml:id="source-46159-46186" n="84"/>
+        <note type="source-span" xml:id="source-46186-46476" n="84"/>
+        <note type="source-span" xml:id="source-4622-4637" n="24"/>
+        <note type="source-span" xml:id="source-4643-4721" n="24"/>
+        <note type="source-span" xml:id="source-46476-47105" n="85"/>
+        <note type="source-span" xml:id="source-47105-47135" n="86"/>
+        <note type="source-span" xml:id="source-47105-48028" n="86"/>
+        <note type="source-span" xml:id="source-47135-47159" n="86"/>
+        <note type="source-span" xml:id="source-47159-48028" n="86"/>
+        <note type="source-span" xml:id="source-4721-4742" n="24"/>
+        <note type="source-span" xml:id="source-4742-4801" n="24"/>
+        <note type="source-span" xml:id="source-4801-5626" n="25"/>
+        <note type="source-span" xml:id="source-4801-5925" n="25"/>
+        <note type="source-span" xml:id="source-48028-48241" n="87"/>
+        <note type="source-span" xml:id="source-48028-48294" n="87"/>
+        <note type="source-span" xml:id="source-48241-48268" n="87"/>
+        <note type="source-span" xml:id="source-48268-48294" n="87"/>
+        <note type="source-span" xml:id="source-48294-48614" n="88"/>
+        <note type="source-span" xml:id="source-48531-48558" n="88"/>
+        <note type="source-span" xml:id="source-48614-49130" n="89"/>
+        <note type="source-span" xml:id="source-48614-49258" n="89"/>
+        <note type="source-span" xml:id="source-49130-49145" n="89"/>
+        <note type="source-span" xml:id="source-49145-49258" n="89"/>
+        <note type="source-span" xml:id="source-49258-49497" n="90"/>
+        <note type="source-span" xml:id="source-49497-49649" n="91"/>
+        <note type="source-span" xml:id="source-49649-49819" n="92"/>
+        <note type="source-span" xml:id="source-49819-49899" n="93"/>
+        <note type="source-span" xml:id="source-49899-50538" n="94"/>
+        <note type="source-span" xml:id="source-49899-50654" n="94"/>
+        <note type="source-span" xml:id="source-50538-50556" n="94"/>
+        <note type="source-span" xml:id="source-50556-50586" n="94"/>
+        <note type="source-span" xml:id="source-50586-50601" n="94"/>
+        <note type="source-span" xml:id="source-50601-50654" n="94"/>
+        <note type="source-span" xml:id="source-50654-51193" n="95"/>
+        <note type="source-span" xml:id="source-51193-51801" n="96"/>
+        <note type="source-span" xml:id="source-51801-51884" n="97"/>
+        <note type="source-span" xml:id="source-51884-51961" n="98"/>
+        <note type="source-span" xml:id="source-51961-53133" n="99"/>
+        <note type="source-span" xml:id="source-52324-52348" n="99"/>
+        <note type="source-span" xml:id="source-52348-53133" n="99"/>
+        <note type="source-span" xml:id="source-53133-53930" n="100"/>
+        <note type="source-span" xml:id="source-53886-53901" n="100"/>
+        <note type="source-span" xml:id="source-53901-53930" n="100"/>
+        <note type="source-span" xml:id="source-53930-54272" n="101"/>
+        <note type="source-span" xml:id="source-53930-54511" n="101"/>
+        <note type="source-span" xml:id="source-54272-54296" n="101"/>
+        <note type="source-span" xml:id="source-54296-54511" n="101"/>
+        <note type="source-span" xml:id="source-54511-54786" n="102"/>
+        <note type="source-span" xml:id="source-54640-54658" n="102"/>
+        <note type="source-span" xml:id="source-54658-54727" n="102"/>
+        <note type="source-span" xml:id="source-54727-54754" n="102"/>
+        <note type="source-span" xml:id="source-54754-54786" n="102"/>
+        <note type="source-span" xml:id="source-54786-54887" n="103"/>
+        <note type="source-span" xml:id="source-54887-54917" n="104"/>
+        <note type="source-span" xml:id="source-54887-55347" n="104"/>
+        <note type="source-span" xml:id="source-54917-54932" n="104"/>
+        <note type="source-span" xml:id="source-54932-55347" n="104"/>
+        <note type="source-span" xml:id="source-55347-55640" n="106"/>
+        <note type="source-span" xml:id="source-55640-55753" n="107"/>
+        <note type="source-span" xml:id="source-55753-55836" n="108"/>
+        <note type="source-span" xml:id="source-55836-55952" n="109"/>
+        <note type="source-span" xml:id="source-55952-56350" n="110"/>
+        <note type="source-span" xml:id="source-5626-5629" n="25"/>
+        <note type="source-span" xml:id="source-5629-5671" n="25"/>
+        <note type="source-span" xml:id="source-56350-56508" n="111"/>
+        <note type="source-span" xml:id="source-56508-56714" n="112"/>
+        <note type="source-span" xml:id="source-56601-56613" n="112"/>
+        <note type="source-span" xml:id="source-5662-5665" n="25"/>
+        <note type="source-span" xml:id="source-5671-5863" n="25"/>
+        <note type="source-span" xml:id="source-56714-56797" n="113"/>
+        <note type="source-span" xml:id="source-56797-56958" n="114"/>
+        <note type="source-span" xml:id="source-56958-56984" n="115"/>
+        <note type="source-span" xml:id="source-56984-57176" n="116"/>
+        <note type="source-span" xml:id="source-56984-57532" n="116"/>
+        <note type="source-span" xml:id="source-57176-57212" n="116"/>
+        <note type="source-span" xml:id="source-57212-57272" n="116"/>
+        <note type="source-span" xml:id="source-57254-57266" n="116"/>
+        <note type="source-span" xml:id="source-57272-57532" n="116"/>
+        <note type="source-span" xml:id="source-57532-57579" n="117"/>
+        <note type="source-span" xml:id="source-57579-57629" n="118"/>
+        <note type="source-span" xml:id="source-57629-57715" n="119"/>
+        <note type="source-span" xml:id="source-57715-58629" n="120"/>
+        <note type="source-span" xml:id="source-58144-58168" n="120"/>
+        <note type="source-span" xml:id="source-58168-58201" n="120"/>
+        <note type="source-span" xml:id="source-58201-58222" n="120"/>
+        <note type="source-span" xml:id="source-58222-58360" n="120"/>
+        <note type="source-span" xml:id="source-58360-58381" n="120"/>
+        <note type="source-span" xml:id="source-58381-58411" n="120"/>
+        <note type="source-span" xml:id="source-58411-58423" n="120"/>
+        <note type="source-span" xml:id="source-58423-58629" n="120"/>
+        <note type="source-span" xml:id="source-58629-58880" n="121"/>
+        <note type="source-span" xml:id="source-5863-5887" n="25"/>
+        <note type="source-span" xml:id="source-5887-5925" n="25"/>
+        <note type="source-span" xml:id="source-58880-59816" n="122"/>
+        <note type="source-span" xml:id="source-58880-61558" n="122"/>
+        <note type="source-span" xml:id="source-5925-6138" n="26"/>
+        <note type="source-span" xml:id="source-5925-6599" n="26"/>
+        <note type="source-span" xml:id="source-59816-59837" n="122"/>
+        <note type="source-span" xml:id="source-59837-60503" n="122"/>
+        <note type="source-span" xml:id="source-60503-60530" n="122"/>
+        <note type="source-span" xml:id="source-60530-60575" n="122"/>
+        <note type="source-span" xml:id="source-60575-60590" n="122"/>
+        <note type="source-span" xml:id="source-60590-61280" n="122"/>
+        <note type="source-span" xml:id="source-61280-61295" n="122"/>
+        <note type="source-span" xml:id="source-61295-61558" n="122"/>
+        <note type="source-span" xml:id="source-6138-6144" n="26"/>
+        <note type="source-span" xml:id="source-6144-6192" n="26"/>
+        <note type="source-span" xml:id="source-61558-61579" n="123"/>
+        <note type="source-span" xml:id="source-61558-62118" n="123"/>
+        <note type="source-span" xml:id="source-61579-61591" n="123"/>
+        <note type="source-span" xml:id="source-61591-62118" n="123"/>
+        <note type="source-span" xml:id="source-6180-6186" n="26"/>
+        <note type="source-span" xml:id="source-6192-6599" n="26"/>
+        <note type="source-span" xml:id="source-62118-62570" n="124"/>
+        <note type="source-span" xml:id="source-62570-62876" n="125"/>
+        <note type="source-span" xml:id="source-62570-63175" n="125"/>
+        <note type="source-span" xml:id="source-62876-62891" n="125"/>
+        <note type="source-span" xml:id="source-62891-63175" n="125"/>
+        <note type="source-span" xml:id="source-63175-63240" n="126"/>
+        <note type="source-span" xml:id="source-63240-63644" n="127"/>
+        <note type="source-span" xml:id="source-63644-63937" n="128"/>
+        <note type="source-span" xml:id="source-63937-64116" n="129"/>
+        <note type="source-span" xml:id="source-64116-64331" n="130"/>
+        <note type="source-span" xml:id="source-64331-64952" n="131"/>
+        <note type="source-span" xml:id="source-64331-65029" n="131"/>
+        <note type="source-span" xml:id="source-64952-64967" n="131"/>
+        <note type="source-span" xml:id="source-64967-65029" n="131"/>
+        <note type="source-span" xml:id="source-65029-65853" n="132"/>
+        <note type="source-span" xml:id="source-65257-65281" n="132"/>
+        <note type="source-span" xml:id="source-65281-65284" n="132"/>
+        <note type="source-span" xml:id="source-65284-65308" n="132"/>
+        <note type="source-span" xml:id="source-65308-65500" n="132"/>
+        <note type="source-span" xml:id="source-65500-65515" n="132"/>
+        <note type="source-span" xml:id="source-65515-65853" n="132"/>
+        <note type="source-span" xml:id="source-65853-66410" n="133"/>
+        <note type="source-span" xml:id="source-6599-7039" n="27"/>
+        <note type="source-span" xml:id="source-66410-66526" n="134"/>
+        <note type="source-span" xml:id="source-66526-66784" n="135"/>
+        <note type="source-span" xml:id="source-66526-66957" n="135"/>
+        <note type="source-span" xml:id="source-66784-66808" n="135"/>
+        <note type="source-span" xml:id="source-66808-66957" n="135"/>
+        <note type="source-span" xml:id="source-66957-67727" n="136"/>
+        <note type="source-span" xml:id="source-67727-67925" n="137"/>
+        <note type="source-span" xml:id="source-67727-68275" n="137"/>
+        <note type="source-span" xml:id="source-67925-67952" n="137"/>
+        <note type="source-span" xml:id="source-67952-68066" n="137"/>
+        <note type="source-span" xml:id="source-68066-68087" n="137"/>
+        <note type="source-span" xml:id="source-68087-68275" n="137"/>
+        <note type="source-span" xml:id="source-68275-68427" n="138"/>
+        <note type="source-span" xml:id="source-68427-69168" n="139"/>
+        <note type="source-span" xml:id="source-68427-69365" n="139"/>
+        <note type="source-span" xml:id="source-69168-69186" n="139"/>
+        <note type="source-span" xml:id="source-69186-69365" n="139"/>
+        <note type="source-span" xml:id="source-69365-69814" n="140"/>
+        <note type="source-span" xml:id="source-69814-70458" n="141"/>
+        <note type="source-span" xml:id="source-7039-7192" n="28"/>
+        <note type="source-span" xml:id="source-7039-9347" n="28"/>
+        <note type="source-span" xml:id="source-70458-71222" n="142"/>
+        <note type="source-span" xml:id="source-71222-71320" n="143"/>
+        <note type="source-span" xml:id="source-71320-71664" n="144"/>
+        <note type="source-span" xml:id="source-71664-72047" n="145"/>
+        <note type="source-span" xml:id="source-7192-7213" n="28"/>
+        <note type="source-span" xml:id="source-72047-73594" n="146"/>
+        <note type="source-span" xml:id="source-7213-7219" n="28"/>
+        <note type="source-span" xml:id="source-7219-7243" n="28"/>
+        <note type="source-span" xml:id="source-7243-7633" n="28"/>
+        <note type="source-span" xml:id="source-72755-72779" n="146"/>
+        <note type="source-span" xml:id="source-72779-73502" n="146"/>
+        <note type="source-span" xml:id="source-73502-73529" n="146"/>
+        <note type="source-span" xml:id="source-73529-73594" n="146"/>
+        <note type="source-span" xml:id="source-73594-73966" n="147"/>
+        <note type="source-span" xml:id="source-73594-74154" n="147"/>
+        <note type="source-span" xml:id="source-73966-73993" n="147"/>
+        <note type="source-span" xml:id="source-73993-74154" n="147"/>
+        <note type="source-span" xml:id="source-74154-74685" n="148"/>
+        <note type="source-span" xml:id="source-74154-75167" n="148"/>
+        <note type="source-span" xml:id="source-74685-74712" n="148"/>
+        <note type="source-span" xml:id="source-74712-75072" n="148"/>
+        <note type="source-span" xml:id="source-75072-75087" n="148"/>
+        <note type="source-span" xml:id="source-75087-75167" n="148"/>
+        <note type="source-span" xml:id="source-75167-76324" n="149"/>
+        <note type="source-span" xml:id="source-76324-76711" n="150"/>
+        <note type="source-span" xml:id="source-76324-76926" n="150"/>
+        <note type="source-span" xml:id="source-7633-7648" n="28"/>
+        <note type="source-span" xml:id="source-7648-8077" n="28"/>
+        <note type="source-span" xml:id="source-76711-76726" n="150"/>
+        <note type="source-span" xml:id="source-76726-76926" n="150"/>
+        <note type="source-span" xml:id="source-76926-77088" n="151"/>
+        <note type="source-span" xml:id="source-76926-78674" n="151"/>
+        <note type="source-span" xml:id="source-77088-77100" n="151"/>
+        <note type="source-span" xml:id="source-77100-77163" n="151"/>
+        <note type="source-span" xml:id="source-77142-77157" n="151"/>
+        <note type="source-span" xml:id="source-77163-77592" n="151"/>
+        <note type="source-span" xml:id="source-77592-77616" n="151"/>
+        <note type="source-span" xml:id="source-77616-77739" n="151"/>
+        <note type="source-span" xml:id="source-77739-77760" n="151"/>
+        <note type="source-span" xml:id="source-77760-77769" n="151"/>
+        <note type="source-span" xml:id="source-77769-77793" n="151"/>
+        <note type="source-span" xml:id="source-77793-78504" n="151"/>
+        <note type="source-span" xml:id="source-78504-78525" n="151"/>
+        <note type="source-span" xml:id="source-78525-78674" n="151"/>
+        <note type="source-span" xml:id="source-78674-78919" n="152"/>
+        <note type="source-span" xml:id="source-78919-79065" n="153"/>
+        <note type="source-span" xml:id="source-79065-79454" n="154"/>
+        <note type="source-span" xml:id="source-79454-79744" n="155"/>
+        <note type="source-span" xml:id="source-79744-79983" n="156"/>
+        <note type="source-span" xml:id="source-79983-80609" n="157"/>
+        <note type="source-span" xml:id="source-804-899" n="20"/>
+        <note type="source-span" xml:id="source-80609-80734" n="158"/>
+        <note type="source-span" xml:id="source-80734-80938" n="159"/>
+        <note type="source-span" xml:id="source-80734-81120" n="159"/>
+        <note type="source-span" xml:id="source-8077-8098" n="28"/>
+        <note type="source-span" xml:id="source-80938-80950" n="159"/>
+        <note type="source-span" xml:id="source-80950-80953" n="159"/>
+        <note type="source-span" xml:id="source-80953-80968" n="159"/>
+        <note type="source-span" xml:id="source-80968-81120" n="159"/>
+        <note type="source-span" xml:id="source-8098-8122" n="28"/>
+        <note type="source-span" xml:id="source-81120-81708" n="160"/>
+        <note type="source-span" xml:id="source-81120-82415" n="160"/>
+        <note type="source-span" xml:id="source-8122-8155" n="28"/>
+        <note type="source-span" xml:id="source-8155-8200" n="28"/>
+        <note type="source-span" xml:id="source-81708-81723" n="160"/>
+        <note type="source-span" xml:id="source-81723-82293" n="160"/>
+        <note type="source-span" xml:id="source-8200-8224" n="28"/>
+        <note type="source-span" xml:id="source-8224-8242" n="28"/>
+        <note type="source-span" xml:id="source-82293-82326" n="160"/>
+        <note type="source-span" xml:id="source-82326-82415" n="160"/>
+        <note type="source-span" xml:id="source-82415-82772" n="161"/>
+        <note type="source-span" xml:id="source-82415-82978" n="161"/>
+        <note type="source-span" xml:id="source-8242-8263" n="28"/>
+        <note type="source-span" xml:id="source-8263-8551" n="28"/>
+        <note type="source-span" xml:id="source-82772-82796" n="161"/>
+        <note type="source-span" xml:id="source-82796-82978" n="161"/>
+        <note type="source-span" xml:id="source-82978-83055" n="162"/>
+        <note type="source-span" xml:id="source-83055-83796" n="163"/>
+        <note type="source-span" xml:id="source-83055-84722" n="163"/>
+        <note type="source-span" xml:id="source-83796-83811" n="163"/>
+        <note type="source-span" xml:id="source-83811-83979" n="163"/>
+        <note type="source-span" xml:id="source-83979-84006" n="163"/>
+        <note type="source-span" xml:id="source-84006-84180" n="163"/>
+        <note type="source-span" xml:id="source-84180-84201" n="163"/>
+        <note type="source-span" xml:id="source-84201-84722" n="163"/>
+        <note type="source-span" xml:id="source-84722-84856" n="164"/>
+        <note type="source-span" xml:id="source-84856-85389" n="165"/>
+        <note type="source-span" xml:id="source-85389-85484" n="166"/>
+        <note type="source-span" xml:id="source-85484-85597" n="167"/>
+        <note type="source-span" xml:id="source-8551-8575" n="28"/>
+        <note type="source-span" xml:id="source-85597-85920" n="168"/>
+        <note type="source-span" xml:id="source-8575-9028" n="28"/>
+        <note type="source-span" xml:id="source-85753-85765" n="168"/>
+        <note type="source-span" xml:id="source-85920-85992" n="169"/>
+        <note type="source-span" xml:id="source-85920-86843" n="169"/>
+        <note type="source-span" xml:id="source-85992-86010" n="169"/>
+        <note type="source-span" xml:id="source-86010-86046" n="169"/>
+        <note type="source-span" xml:id="source-86046-86061" n="169"/>
+        <note type="source-span" xml:id="source-86061-86274" n="169"/>
+        <note type="source-span" xml:id="source-86274-86289" n="169"/>
+        <note type="source-span" xml:id="source-86289-86610" n="169"/>
+        <note type="source-span" xml:id="source-86610-86631" n="169"/>
+        <note type="source-span" xml:id="source-86631-86763" n="169"/>
+        <note type="source-span" xml:id="source-86763-86778" n="169"/>
+        <note type="source-span" xml:id="source-86778-86843" n="169"/>
+        <note type="source-span" xml:id="source-86843-87022" n="170"/>
+        <note type="source-span" xml:id="source-87022-87207" n="171"/>
+        <note type="source-span" xml:id="source-87207-87435" n="172"/>
+        <note type="source-span" xml:id="source-87207-87479" n="172"/>
+        <note type="source-span" xml:id="source-87435-87450" n="172"/>
+        <note type="source-span" xml:id="source-87450-87479" n="172"/>
+        <note type="source-span" xml:id="source-87479-87835" n="173"/>
+        <note type="source-span" xml:id="source-87835-87969" n="174"/>
+        <note type="source-span" xml:id="source-87934-87949" n="174"/>
+        <note type="source-span" xml:id="source-87969-88070" n="175"/>
+        <note type="source-span" xml:id="source-88070-88471" n="176"/>
+        <note type="source-span" xml:id="source-88232-88256" n="176"/>
+        <note type="source-span" xml:id="source-88471-88522" n="177"/>
+        <note type="source-span" xml:id="source-88471-88686" n="177"/>
+        <note type="source-span" xml:id="source-88522-88540" n="177"/>
+        <note type="source-span" xml:id="source-88540-88600" n="177"/>
+        <note type="source-span" xml:id="source-88600-88615" n="177"/>
+        <note type="source-span" xml:id="source-88615-88686" n="177"/>
+        <note type="source-span" xml:id="source-88686-88808" n="178"/>
+        <note type="source-span" xml:id="source-88808-89020" n="179"/>
+        <note type="source-span" xml:id="source-89020-89194" n="180"/>
+        <note type="source-span" xml:id="source-89020-90399" n="180"/>
+        <note type="source-span" xml:id="source-89194-89218" n="180"/>
+        <note type="source-span" xml:id="source-89218-89314" n="180"/>
+        <note type="source-span" xml:id="source-89314-89341" n="180"/>
+        <note type="source-span" xml:id="source-89341-89467" n="180"/>
+        <note type="source-span" xml:id="source-89467-89488" n="180"/>
+        <note type="source-span" xml:id="source-89488-89707" n="180"/>
+        <note type="source-span" xml:id="source-89707-89731" n="180"/>
+        <note type="source-span" xml:id="source-89731-89893" n="180"/>
+        <note type="source-span" xml:id="source-89893-89914" n="180"/>
+        <note type="source-span" xml:id="source-899-2083" n="21"/>
+        <note type="source-span" xml:id="source-89914-90232" n="180"/>
+        <note type="source-span" xml:id="source-90232-90247" n="180"/>
+        <note type="source-span" xml:id="source-90247-90399" n="180"/>
+        <note type="source-span" xml:id="source-9028-9031" n="28"/>
+        <note type="source-span" xml:id="source-9028-9141" n="28"/>
+        <note type="source-span" xml:id="source-9031-9126" n="28"/>
+        <note type="source-span" xml:id="source-90399-90551" n="181"/>
+        <note type="source-span" xml:id="source-90551-90674" n="182"/>
+        <note type="source-span" xml:id="source-90551-90865" n="182"/>
+        <note type="source-span" xml:id="source-90674-90686" n="182"/>
+        <note type="source-span" xml:id="source-90686-90865" n="182"/>
+        <note type="source-span" xml:id="source-90865-90898" n="183"/>
+        <note type="source-span" xml:id="source-90865-92052" n="183"/>
+        <note type="source-span" xml:id="source-90898-90919" n="183"/>
+        <note type="source-span" xml:id="source-90919-90958" n="183"/>
+        <note type="source-span" xml:id="source-90958-90973" n="183"/>
+        <note type="source-span" xml:id="source-90973-91069" n="183"/>
+        <note type="source-span" xml:id="source-91069-91096" n="183"/>
+        <note type="source-span" xml:id="source-91096-92052" n="183"/>
+        <note type="source-span" xml:id="source-9141-9347" n="28"/>
+        <note type="source-span" xml:id="source-92052-92319" n="184"/>
+        <note type="source-span" xml:id="source-92052-93227" n="184"/>
+        <note type="source-span" xml:id="source-92319-92346" n="184"/>
+        <note type="source-span" xml:id="source-92346-92484" n="184"/>
+        <note type="source-span" xml:id="source-92484-92499" n="184"/>
+        <note type="source-span" xml:id="source-92499-93120" n="184"/>
+        <note type="source-span" xml:id="source-93120-93144" n="184"/>
+        <note type="source-span" xml:id="source-93144-93227" n="184"/>
+        <note type="source-span" xml:id="source-93227-95005" n="185"/>
+        <note type="source-span" xml:id="source-9347-10630" n="29"/>
+        <note type="source-span" xml:id="source-95005-95478" n="186"/>
+        <note type="source-span" xml:id="source-95478-95544" n="187"/>
+        <note type="source-span" xml:id="source-95478-96473" n="187"/>
+        <note type="source-span" xml:id="source-95544-95559" n="187"/>
+        <note type="source-span" xml:id="source-95559-95796" n="187"/>
+        <note type="source-span" xml:id="source-95796-95811" n="187"/>
+        <note type="source-span" xml:id="source-95811-96093" n="187"/>
+        <note type="source-span" xml:id="source-96093-96129" n="187"/>
+        <note type="source-span" xml:id="source-96473-96607" n="188"/>
+        <note type="source-span" xml:id="source-96607-96849" n="189"/>
+        <note type="source-span" xml:id="source-96849-97067" n="190"/>
+        <note type="source-span" xml:id="source-97067-97177" n="191"/>
+        <note type="source-span" xml:id="source-97177-98671" n="192"/>
+        <note type="source-span" xml:id="source-97177-98739" n="192"/>
+        <note type="source-span" xml:id="source-98671-98695" n="192"/>
+        <note type="source-span" xml:id="source-98695-98739" n="192"/>
+        <note type="source-span" xml:id="source-98739-99383" n="193"/>
+        <note type="source-span" xml:id="source-99383-99538" n="194"/>
+        <note type="source-span" xml:id="source-99538-100026" n="195"/>
+      </div>
+      <note type="parser-completion" n="true">The n attribute is true when no parser diagnostic of error severity was raised for this source. What the converter could not interpret is recorded in the interpretation-problem and parser-diagnostic notes.</note>
+      <note type="source-decoding">windows-31j</note>
+    </back>
+  </text>
+</TEI>

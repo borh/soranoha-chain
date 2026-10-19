@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:snh="https://w3id.org/soranoha/ns/tei" xmlns="http://www.tei-c.org/ns/1.0" snh:vocab-version="3">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ja">古事記</title>
+        <title type="reading" xml:lang="ja-Hira">こじき</title>
+        <title type="sub" xml:lang="ja">01 凡例</title>
+        <title type="sub-reading" xml:lang="ja-Hira">01 はんれい</title>
+        <author><persName xml:lang="ja"><surname>武田</surname><forename>祐吉</forename><idno type="aozora-person-id">001349</idno></persName><persName xml:lang="ja-Hira"><surname>たけだ</surname><forename>ゆうきち</forename></persName><persName xml:lang="ja-Latn"><surname>Takeda</surname><forename>Yukichi</forename></persName></author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://w3id.org/soranoha/">Soranoha</publisher>
+        <idno type="soranoha-work-identifier">051727_001349</idno>
+        <idno type="aozora-work-id">051727</idno>
+        <idno type="aozora-card-url">https://www.aozora.gr.jp/cards/001349/card51727.html</idno>
+        <date when="2014-09-16">2014-09-16</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">The underlying work is in the public domain; Soranoha asserts no rights over it.</licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Soranoha's encoding of this work and the artifacts derived from it are dedicated to the public domain under CC0-1.0. Attribution is requested, not required. Full rights statement: <ptr target="https://w3id.org/soranoha/rights"/></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>古事記</title><publisher>角川文庫、角川書店</publisher><date>1956（昭和31）年5月20日</date><note type="input-edition">1965（昭和40）年9月20日20版</note><note type="proof-edition">1975（昭和50）年9月30日42版</note></bibl>
+        <bibl><idno type="source-content-hash">sha256:5b107cbbdfea174d4f9f9f0a7134aaf09b8b283c8d005b7396521dfb8462ff8b</idno></bibl>
+        <bibl><idno type="primary-text-hash">sha256:25738b7391220ddd94c86e655e1aac3f1cae257a857873deb01fefd56f1546b2</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css"/>
+      <classDecl><taxonomy xml:id="ndc"><bibl>分類番号 as recorded by <title>青空文庫</title>, read as a class of 日本十進分類法 新訂9版. Category labels are from <title>NDC9 Linked Data</title> (日本図書館協会, CC BY); a category's IRI is <ref target="http://jla.or.jp/data/ndc9">http://jla.or.jp/data/ndc9</ref> followed by # and its n.</bibl><category xml:id="ndc210" n="210"><catDesc xml:lang="ja">日本史</catDesc><catDesc xml:lang="en">General history of Nippon</catDesc></category></taxonomy><taxonomy xml:id="aozora-orthography"><bibl><title>青空文庫</title> 文字遣い種別: the orthographic style Aozora Bunko records for the transcription.</bibl></taxonomy></classDecl>
+      <refsDecl xml:id="source-spans"><p>A note of type source-span has an xml:id of the form source-START-END, giving the extent in UTF-8 bytes of the decoded primary text identified in sourceDesc, after the emendations declared in editorialDecl/correction are applied; each emendation replaces its sic text by its corr text at its own extent. <ptr target="https://w3id.org/soranoha/ns/tei"/></p></refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ja">日本語</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#ndc">210</classCode>
+        <catRef scheme="#ndc" target="#ndc210"/>
+        <classCode scheme="#aozora-orthography">旧字新仮名</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="layout" source="#source-363-1534" style="padding-inline-start: 1em; text-indent: -1em">
+        <p source="#source-431-565"><seg source="#source-431-565">一　本書は、古事記本文の書き下し文に脚註を加えたもの、現代語譯、解説、および索引から成る</seg></p>
+        <p source="#source-565-765"><seg source="#source-565-765">一　古事記の本文は、眞福寺本を底本とし、他本をもつて校訂を加えたものを使用した。その校訂の過程は、特別の場合以外は、すべて省略した。</seg></p>
+        <p source="#source-765-1010"><seg source="#source-765-891">一　書き下し文、および索引は、歴史的かなづかいにより、その他の部分は、新かなづかいに</seg><app type="base-text-variant" source="#source-903-966"><lem><seg source="#source-891-903">よつた。</seg></lem><rdg type="base-text"><seg source="#source-945-960">よつ。た。</seg></rdg></app><seg source="#source-966-1010">漢字はすべて正體を使用した。</seg></p>
+        <p source="#source-1010-1498"><seg source="#source-1010-1498">一　古事記は、三卷に分けてあるだけで、内容については別に標題はない。底本とした眞福寺本には、上方に見出しが書かれているが、今それによらずに、あらたに章を分けて、それぞれ番號や標題を附け、これには括弧をつけてあらたに加えたものであることをあきらかにした。また歌謠には、末尾に括弧をして歌謠番號を記し、索引に便にすることとした。</seg></p>
+      </div>
+    </body>
+    <back>
+      <div type="source">
+        <note type="source-attribution" source="#source-1542-1700"><seg type="source-line">底本：「古事記」角川文庫、角川書店</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1956（昭和31）年5月20日初版発行</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1965（昭和40）年9月20日20版発行</seg></note>
+        <note type="transcriber-note" source="#source-1700-2123"><seg type="source-line">※底本は旧字新かなづかいです。なお拗音・促音は小書きではありません。</seg><lb/><seg type="source-line">入力：川山隆</seg><lb/><seg type="source-line">校正：しだひろし</seg><lb/><seg type="source-line">2013年9月2日作成</seg><lb/><seg type="source-line">青空文庫作成ファイル：</seg><lb/><seg type="source-line">このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。</seg></note>
+        <note type="source-span" xml:id="source-1010-1498" n="16"/>
+        <note type="source-span" xml:id="source-1542-1700" n="21"/>
+        <note type="source-span" xml:id="source-1700-2123" n="24"/>
+        <note type="source-span" xml:id="source-363-1534" n="12"/>
+        <note type="source-span" xml:id="source-431-431" n="13"/>
+        <note type="source-span" xml:id="source-431-565" n="13"/>
+        <note type="source-span" xml:id="source-565-765" n="14"/>
+        <note type="source-span" xml:id="source-765-1010" n="15"/>
+        <note type="source-span" xml:id="source-765-891" n="15"/>
+        <note type="source-span" xml:id="source-891-903" n="15"/>
+        <note type="source-span" xml:id="source-903-966" n="15"/>
+        <note type="source-span" xml:id="source-945-960" n="15"/>
+        <note type="source-span" xml:id="source-966-1010" n="15"/>
+      </div>
+      <note type="parser-completion" n="true">The n attribute is true when no parser diagnostic of error severity was raised for this source. What the converter could not interpret is recorded in the interpretation-problem and parser-diagnostic notes.</note>
+      <note type="source-decoding">windows-31j</note>
+    </back>
+  </text>
+</TEI>

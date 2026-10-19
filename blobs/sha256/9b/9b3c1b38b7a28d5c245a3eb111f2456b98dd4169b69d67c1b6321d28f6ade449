@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:snh="https://w3id.org/soranoha/ns/tei" xmlns="http://www.tei-c.org/ns/1.0" snh:vocab-version="3">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ja">源氏物語</title>
+        <title type="reading" xml:lang="ja-Hira">げんじものがたり</title>
+        <title type="sub" xml:lang="ja">43 雲隠れ</title>
+        <title type="sub-reading" xml:lang="ja-Hira">43 くもがくれ</title>
+        <author><persName xml:lang="ja"><surname>紫式部</surname><idno type="aozora-person-id">000052</idno></persName><persName xml:lang="ja-Hira"><surname>むらさき しきぶ</surname></persName><persName xml:lang="ja-Latn"><surname>Murasaki Shikibu</surname></persName></author>
+        <respStmt><resp>翻訳者</resp><persName xml:lang="ja"><surname>与謝野</surname><forename>晶子</forename><idno type="aozora-person-id">000885</idno></persName><persName xml:lang="ja-Hira"><surname>よさの</surname><forename>あきこ</forename></persName><persName xml:lang="ja-Latn"><surname>Yosano</surname><forename>Akiko</forename></persName></respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://w3id.org/soranoha/">Soranoha</publisher>
+        <idno type="soranoha-work-identifier">005058_000052</idno>
+        <idno type="aozora-work-id">005058</idno>
+        <idno type="aozora-card-url">https://www.aozora.gr.jp/cards/000052/card5058.html</idno>
+        <date when="2014-09-18">2014-09-18</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">The underlying work is in the public domain; Soranoha asserts no rights over it.</licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Soranoha's encoding of this work and the artifacts derived from it are dedicated to the public domain under CC0-1.0. Attribution is requested, not required. Full rights statement: <ptr target="https://w3id.org/soranoha/rights"/></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>全訳源氏物語　中巻</title><publisher>角川文庫、角川書店</publisher><date>1971（昭和46）年11月30日改版</date><note type="input-edition">2002（平成14）年1月15日44版</note><note type="proof-edition">2002（平成14）年1月15日44版</note></bibl>
+        <bibl><idno type="source-content-hash">sha256:d9651dbead2c8fd32d1e82edf8848baf1560a4c6ed50f11aad05b5e56557592e</idno></bibl>
+        <bibl><idno type="primary-text-hash">sha256:438080518773a7f88f3be71e19a5441486590c3d01253735614badfac3c4a36f</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css"/>
+      <classDecl><taxonomy xml:id="ndc"><bibl>分類番号 as recorded by <title>青空文庫</title>, read as a class of 日本十進分類法 新訂9版. Category labels are from <title>NDC9 Linked Data</title> (日本図書館協会, CC BY); a category's IRI is <ref target="http://jla.or.jp/data/ndc9">http://jla.or.jp/data/ndc9</ref> followed by # and its n.</bibl><category xml:id="ndc913" n="913"><catDesc xml:lang="ja">小説．物語</catDesc><catDesc xml:lang="en">Fiction.Romance.Novel</catDesc></category></taxonomy><taxonomy xml:id="aozora-orthography"><bibl><title>青空文庫</title> 文字遣い種別: the orthographic style Aozora Bunko records for the transcription.</bibl></taxonomy></classDecl>
+      <refsDecl xml:id="source-spans"><p>A note of type source-span has an xml:id of the form source-START-END, giving the extent in UTF-8 bytes of the decoded primary text identified in sourceDesc, after the emendations declared in editorialDecl/correction are applied; each emendation replaces its sic text by its corr text at its own extent. <ptr target="https://w3id.org/soranoha/ns/tei"/></p></refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ja">日本語</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#ndc">913</classCode>
+        <catRef scheme="#ndc" target="#ndc913"/>
+        <classCode scheme="#aozora-orthography">新字新仮名</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="layout" source="#source-350-433" style="padding-inline-end: 3em; text-align: right">
+        <p source="#source-380-433"><seg source="#source-380-433">かきくらす涙か雲かしらねどもひかり</seg></p>
+      </div>
+      <div type="layout" source="#source-433-518" style="padding-inline-end: 3em; text-align: right">
+        <p source="#source-463-518"><seg source="#source-463-518">見せねばかかぬ一章　　　　（晶子）</seg></p>
+      </div>
+      <div>
+        <p source="#source-518-605"><note type="explanation" source="#source-518-605">「雲隠れ」の帖は冒頭の晶子詞のみで本文はありません。</note></p>
+      </div>
+    </body>
+    <back>
+      <div type="source">
+        <note type="source-attribution" source="#source-613-796"><seg type="source-line">底本：「全訳源氏物語　中巻」角川文庫、角川書店</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1971（昭和46）年11月30日改版初版発行</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">2002（平成14）年1月15日44版発行</seg></note>
+        <note type="transcriber-note" source="#source-796-1113"><seg type="source-line">入力：kompass</seg><lb/><seg type="source-line">校正：多羅尾伴内</seg><lb/><seg type="source-line">2004年2月6日作成</seg><lb/><seg type="source-line">青空文庫作成ファイル：</seg><lb/><seg type="source-line">このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。</seg></note>
+        <note type="source-span" xml:id="source-350-433" n="13"/>
+        <note type="source-span" xml:id="source-380-433" n="13"/>
+        <note type="source-span" xml:id="source-433-518" n="14"/>
+        <note type="source-span" xml:id="source-463-518" n="14"/>
+        <note type="source-span" xml:id="source-518-605" n="16"/>
+        <note type="source-span" xml:id="source-613-796" n="20"/>
+        <note type="source-span" xml:id="source-796-1113" n="23"/>
+      </div>
+      <note type="parser-completion" n="true">The n attribute is true when no parser diagnostic of error severity was raised for this source. What the converter could not interpret is recorded in the interpretation-problem and parser-diagnostic notes.</note>
+      <note type="source-decoding">windows-31j</note>
+    </back>
+  </text>
+</TEI>

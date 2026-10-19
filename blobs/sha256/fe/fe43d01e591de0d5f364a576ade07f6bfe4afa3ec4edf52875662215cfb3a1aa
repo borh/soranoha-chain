@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:snh="https://w3id.org/soranoha/ns/tei" xmlns="http://www.tei-c.org/ns/1.0" snh:vocab-version="3">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ja">春</title>
+        <title type="reading" xml:lang="ja-Hira">はる</title>
+        <author><persName xml:lang="ja"><surname>豊島</surname><forename>与志雄</forename><idno type="aozora-person-id">000906</idno></persName><persName xml:lang="ja-Hira"><surname>とよしま</surname><forename>よしお</forename></persName><persName xml:lang="ja-Latn"><surname>Toyoshima</surname><forename>Yoshio</forename></persName></author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://w3id.org/soranoha/">Soranoha</publisher>
+        <idno type="soranoha-work-identifier">042446_000906</idno>
+        <idno type="aozora-work-id">042446</idno>
+        <idno type="aozora-card-url">https://www.aozora.gr.jp/cards/000906/card42446.html</idno>
+        <date when="2014-09-21">2014-09-21</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">The underlying work is in the public domain; Soranoha asserts no rights over it.</licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Soranoha's encoding of this work and the artifacts derived from it are dedicated to the public domain under CC0-1.0. Attribution is requested, not required. Full rights statement: <ptr target="https://w3id.org/soranoha/rights"/></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>豊島与志雄著作集　第三巻（小説Ⅲ）</title><publisher>未来社</publisher><date>1966（昭和41）年8月10日</date><note type="input-edition">1966（昭和41）年8月10日第1刷</note><note type="proof-edition">1966（昭和41）年8月10日第1刷</note></bibl>
+        <bibl type="first-publication">「文芸春秋」1926（大正15）年5月</bibl>
+        <bibl><idno type="source-content-hash">sha256:c0d7b171c15df92bac5374ff667a394f67d133e441ad30772de89455efa577f2</idno></bibl>
+        <bibl><idno type="primary-text-hash">sha256:faaa5c825cba7c4f17d54b3bdc8f32c5bcf49d0c82509224b70ceba39d5610e1</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css"/>
+      <classDecl><taxonomy xml:id="ndc"><bibl>分類番号 as recorded by <title>青空文庫</title>, read as a class of 日本十進分類法 新訂9版. Category labels are from <title>NDC9 Linked Data</title> (日本図書館協会, CC BY); a category's IRI is <ref target="http://jla.or.jp/data/ndc9">http://jla.or.jp/data/ndc9</ref> followed by # and its n.</bibl><category xml:id="ndc913" n="913"><catDesc xml:lang="ja">小説．物語</catDesc><catDesc xml:lang="en">Fiction.Romance.Novel</catDesc></category></taxonomy><taxonomy xml:id="aozora-orthography"><bibl><title>青空文庫</title> 文字遣い種別: the orthographic style Aozora Bunko records for the transcription.</bibl></taxonomy></classDecl>
+      <refsDecl xml:id="source-spans"><p>A note of type source-span has an xml:id of the form source-START-END, giving the extent in UTF-8 bytes of the decoded primary text identified in sourceDesc, after the emendations declared in editorialDecl/correction are applied; each emendation replaces its sic text by its corr text at its own extent. <ptr target="https://w3id.org/soranoha/ns/tei"/></p></refsDecl>
+      <charDecl>
+        <char xml:id="gaiji-3-1-85-54">
+          <mapping type="unicode">枘</mapping>
+          <localProp name="rawMarker" value="木＋吶のつくり"/>
+          <localProp name="sourceReference" value="第3水準1-85-54"/>
+          <snh:gaiji-reference original="第3水準1-85-54" cell="54" plane="1" kind="jis-code" row="85"/>
+        </char>
+        <char xml:id="gaiji-4-2-92-25">
+          <mapping type="unicode">頣</mapping>
+          <localProp name="rawMarker" value="臣＋頁"/>
+          <localProp name="sourceReference" value="第4水準2-92-25"/>
+          <snh:gaiji-reference original="第4水準2-92-25" cell="25" plane="2" kind="jis-code" row="92"/>
+        </char>
+        <char xml:id="gaiji-1-13-23">
+          <mapping type="unicode">Ⅲ</mapping>
+          <localProp name="rawMarker" value="「3」はローマ数字"/>
+          <localProp name="sourceReference" value="1-13-23"/>
+          <snh:gaiji-reference original="1-13-23" cell="23" plane="1" kind="jis-code" row="13"/>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ja">日本語</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#ndc">913</classCode>
+        <catRef scheme="#ndc" target="#ndc913"/>
+        <classCode scheme="#aozora-orthography">新字新仮名</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-498-1109"><seg source="#source-498-1109">五月初旬の夜です。或るカフェーの隅っこで、髪の毛の長い痩せた二人の男が酒をのんでいました。一人は専門の小説家で、一人は専門の文芸批評家です。小説家の方は、これから取掛ろうとする創作に思い悩んでいるし、批評家の方は、面白い批評の材料はないものかと考え悩んでいる、そういった気持から、街路で出逢ったのが別れ難くなり、カフェーにはいってお茶でも一杯飲むつもりなのが、場所柄にもなくつい酒となったような有様です。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-1109-1537"><seg source="#source-1109-1537">で、二人はそこで、豆をかじりながら酒を飲んでいました。そして話は次第に専門の事柄に落ちていきました。女中はつまらなそうに向うへ遠のきました。他に客の少ない半端な時間でした。二人は落付いてゆっくり話すことが出来ました。咲き後れた葉桜の大きな一枝が、横手の卓子にぽつねんとしていました。</seg></p>
+      <p source="#source-1537-1713">「早速書かなくちゃならないものが一つあるんだけれど、どうもうまくまとまらなくて困ってる。」と小説家は云い出しました。</p>
+      <p source="#source-1713-1772">「ほう。」と批評家は眼を光らしました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-1772-1927"><seg source="#source-1772-1927">そして専門は専門だけに、小説家がその考えてる小説の話をし、批評家がそれを聞いてやることとなりました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-1927-2349"><seg source="#source-1927-2349">ところで、その小説というのは、小説家が或る青年からじかに聞いた話でした。そして小説家の頭の中で、三つの要点に別たれていました。――一、彼は蒼ざめていた。二、彼は窓際に坐っていた。三、彼は彼女に接吻した。――三から先がまだあるのですが、そこが小説家にはどうもまとまりかねたのです。</seg></p>
+      <p source="#source-2349-2441">「では始めから順々に話してみ給いよ。」と批評家は云いました。</p>
+      <p source="#source-2441-2476">「うむ聞いてくれよ。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2476-2564">そこで小説家は、「彼は蒼ざめていた」を話し初めました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2564-2740"><seg source="#source-2564-2740">和田弁太郎は次第に蒼ざめていった。顔色ばかりではなく全体が蒼ざめていった。昼間もそうであるが、殊に夜はひどかった。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2740-2886"><seg source="#source-2740-2886">板と硝子とで密閉されてる室の中に、六人の青年が眠るのである――規定では夜十時から午前六時まで。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2886-3302"><seg source="#source-2886-3302">春の夜の屋内の空気は、それ自身既になま温い。昼間吸いこまれた日光の余温と、垢や脂にむれてる布団のいきれと、無数に立迷ってる肉眼的なまた顕微鏡的な埃。その中に、六人の男が密閉されて、八時間眠るのである。八時間――四百八十分――六人。血気盛んな肉体の汚気が、約一万回排出される。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-3302-3364"><seg source="#source-3302-3364">むーっとして、重々しく濁り淀んでいる。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-3364-3960"><seg source="#source-3364-3517">そういう寝室が二階に三つ並んでいる。和田弁太郎のは、不幸にもその真中の室である。だから、彼が夜中に、</seg><ruby type="furigana" rend="right" source="#source-3517-3544"><rb>夢現</rb><rt>ゆめうつつ</rt></ruby><seg source="#source-3544-3960">の熱っぽい気持で、ふっと眼を覚すと、その寝室の不潔な鬱陶しい蒸部屋の感じが、壁越しに左右へ伸び拡がり、或る巨大な重苦しさとなって、彼の上へのしかかってくる。そして彼は眠れなくなる。幾度も寝返りをする。がどちらを向いても、すぐそこに、手を伸せば届くところに、仲間の男が寝ている。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-3960-4877"><seg source="#source-3960-4632">二百何十里かの遠い郷里から、身体と一緒にその寄宿舎に運ばれて、一度も洗濯されたことのない布団である。いくら日に干しても湿っぽく汚れている。その襟から、喉仏を露わにぬっと首がのびて、首の先の固い重い大きな頭が、枕にずっしりとのっかっている。触れたら汗か脂かでねちねちしそうな額に、毛髪が縮れ絡んでいる。布団を被っていたのが、息苦しいために伸び出たものらしい。だがいくら伸び出ても、密閉された寝室の中はやはり息苦しい。多分の血液を湛えている皮膚には、</seg><ruby type="furigana" rend="right" source="#source-4632-4653"><rb>面皰</rb><rt>にきび</rt></ruby><seg source="#source-4653-4877">や薄痣や雀斑などが浮上っている。黄色い歯並の覗き出してる半開の口、ぽかんとした空洞な鼻孔、そこからすーっすーっと、時々ぐるぐるっと、息が通っている。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4877-5038"><seg source="#source-4877-5038">そういうのが一室に六つ、窓際から廊下の扉の方へ、横に三つずつ二列になって、ぎっしりつまっているのである。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5038-5295"><seg source="#source-5038-5068">廊下の電燈の光が、</seg><ruby type="furigana" rend="right" source="#source-5068-5089"><rb>櫺子</rb><rt>れんじ</rt></ruby><seg source="#source-5089-5188">窓の黝ずんだ擦硝子に漉されて、ぼーっとした明るみを送っている。その</seg><ruby type="furigana" rend="right" source="#source-5188-5203"><rb>盲</rb><rt>めし</rt></ruby><seg source="#source-5203-5295">いた朧ろな明りが見ようによって、或は赤っぽく、或はだだ白い。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5295-5396"><seg source="#source-5295-5396">或る夜、六人のうちの一人が、ふいに掛布団をはねのけて飛び起きた。</seg></p>
+      <p source="#source-5396-5416">「地震だ。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5416-5637"><seg source="#source-5416-5637">その咄嗟の本能的な叫び声に、却ってしいんとなったところへ、どどどど……ぐらり、ときたやつが、ふらりふらりとなって、波の引くように消えてしまった。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5637-5762"><seg source="#source-5637-5762">ほう、といった気持で、布団から覗き出してるのと起き上ってるのと互に顔を見合った。</seg></p>
+      <p source="#source-5762-5788">「なあーんだ。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5788-5847"><seg source="#source-5788-5847">皆こそこそと布団の中にもぐり込んだ。</seg></p>
+      <p source="#source-5847-6014">「誰だい、悲鳴を挙げたのは。……本当にひどいやつが来たら、逃げようたって逃げられやあしない。死なば皆諸共さ。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-6014-6061"><seg source="#source-6014-6061">だが、力無い声の調子だった。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-6061-6443"><seg source="#source-6061-6262">十二年の大地震に痛んだままの古い建物である。塗り直した壁にもまだ隙間があり、柱は心持ち曲っている。眼に見えない肝心のところ、柱や梁の</seg><ruby type="furigana" rend="right" source="#source-6262-6333"><rb><g ref="#gaiji-3-1-85-54" source="#source-6262-6321">枘</g></rb><rt>ほぞ</rt></ruby><seg source="#source-6333-6443">はゆるんでるに違いない。死なば皆諸共、一度にぐしゃりと潰れるまでである。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-6443-6544"><seg source="#source-6443-6544">言葉が途切れて、どこからか犬の遠吠が聞える。しいんとして蒸暑い。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-6544-6651"><seg source="#source-6544-6651">そのうちに、ひょいと一人が寝台から滑り出て、黙って出て行こうとする。</seg></p>
+      <p source="#source-6651-6698">「おい待てよ、僕も行くから。」</p>
+      <p source="#source-6698-6715">「うむ。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-6715-6867"><seg source="#source-6715-6867">それきり誰も何とも云わない。二人が便所から戻ってきても、誰も何とも云わない。ぐっすり眠ってしまう。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-6867-6959"><seg source="#source-6867-6959">狭い室内で、息と息とが交り合って、朝の六時まで雑居である。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-6959-7348"><seg source="#source-6959-7348">けれど、そういうことが二三度あると、昼間意識のはっきりしてる時に、誰かが、死なば諸共の具体的な提議をした。夜中に大地震があったら、真中の寝台の下にもぐり込むこと、そしてなお余裕があったら、左列の真中のから右列の真中のに這い込んで、六人一つ処にかたまること。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-7348-7494"><seg source="#source-7348-7494">和田弁太郎の寝台は、一番端の窓際にあった。だが、皆が這い込む筈の寝台は、すぐ右側の隣りだった。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-7494-7742"><seg source="#source-7494-7742">そこには、脂ぎって肥満した、多少愚鈍な慷慨悲憤癖のある男が寝ている。その寝床の下に六人の者が駆け込んで、寝間着のまま一団となる。押し合い抱き合いうようよして……。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-7742-7999"><seg source="#source-7742-7999">然し、大地震なんか全く千載一遇だから、滅多にあるものではない。とは云え、ないとも限らない。大気の淀んだ、むーっとする春の夜である。恐らく月の色まで変ってるかも知れない。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-7999-8265"><seg source="#source-7999-8265">和田弁太郎は、仰向の次には右を下にして寝るのが衛生的だと聞いていた。それをむりに、隣りの寝台を鼻先から避けるために、左を下にして寝るのである。そのせいか、猶一層変に寝苦しい。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-8265-8687"><seg source="#source-8265-8687">誰かがむにゃむにゃと口の中で寝言をいう。鼾の音が起ったり消えたりする。またカフェーで酒をのんできた奴だろう。足をばたりとさせる者がある。電車にも乗らずに徒歩通学をしてる苦学生だろう。そして至るところに、低い単調な、而も天井まで室一杯拡がろうとするかのような、永遠の寝息の音……。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-8687-8962"><seg source="#source-8687-8962">室の中のむーっとした空気が、六人の男の口から、幾度交る代る吐き出され吸いこまれてることだろう。然し窓を開け放すことは厳禁されている。戸外の新鮮な夜気は睡眠者の喉を害するそうである。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-8962-9294"><seg source="#source-8962-9294">和田弁太郎は起き上ろうとする。が、それがやはり夢現である。頭の一部がしびれて、そこが大きくふくれ上り、千斤の重みの綿みたいな感じになる。ふわりとしていて、不可抗力的に重い。その中へ、かすかな意識が引きずりこまれてゆく。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-9294-9668"><seg source="#source-9294-9414">身動き一つすることが出来ない。息苦しくなる。眼には見えないが、そこらに眠ってる</seg><ruby type="furigana" rend="right" source="#source-9414-9438"><rb>人数</rb><rt>ひとかず</rt></ruby><seg source="#source-9438-9668">が幾何級数的に殖えてゆく。その無数の口から吐き出される息が、積り積って、なま温くのしかかってくる。穢らわしい擽ったい感触である。いつまでも動かない……。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-9668-9892"><seg source="#source-9668-9892">その感触がどこか遠くで、粘りっこい笑い方をしている。お梅だ。手の皮膚のざらざらした、土くさい、力強いぼってりした腕で、じりじり緊めつけてくる……。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-9892-10293"><seg source="#source-9892-10293">そこで和田弁太郎は眼を覚す。ぐっしょり汗をかいている。が、室内の空気も同じように汗をかいている。どんな不潔なものにもいきなりしゃぶりつきそうな、面皰顔の唇の厚い口、その六つの口から吐き出される息が、濛々と立罩めている。櫺子窓からさす廊下の明りがぼーっと曇っている。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-10293-10421"><seg source="#source-10293-10421">そうなると益々眠れなくなる。何かしら汚い赤黒いものが、身体中にのたうち廻っている。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-10421-11191"><seg source="#source-10421-11191">そして和田弁太郎は屡々寝室をぬけ出すのである。そして彼は考えるのである。――不思議な現象だ。俺は今迄、この寄宿舎の共同生活が少しも嫌ではなかった。それが、休暇に郷里へ帰ってから、俄に嫌で堪らなくなった。殊に夜の同室就寝は我慢が出来ない。何故だ。お梅の肉体を知ったせいだろうか。いや、お梅と俺との関係は、全く没精神的な汚らわしいものだ。友人との共同生活が厭わしくなるほど、それほど純なものでもなければ深いものでもない。友人との共同生活よりももっと、肉体的な汗ばんだものだ。してみると、この嫌厭は、何故だ、何故だ。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-11191-11306"><seg source="#source-11191-11306">和田弁太郎は、考えあぐんで、そしてどうにもならなくて、益々蒼ざめていく。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-11306-11443"><seg source="#source-11306-11443">そこで小説家は一寸話を切りました。そして、どうだろう、という工合に批評家の顔を見ました。</seg></p>
+      <p source="#source-11443-11775">「ふうむ。」と批評家は暫くたって云いました。「一寸面白いようでもあるが、何だかよく分らないところもあるようだね。何と云ったらよいか、こう……余りに特殊な心理なので、そして心理だけなので、一般には向かないかも知れないね。」</p>
+      <p source="#source-11775-11981">「へえー、そうかね。」と小説家は答えました。「僕にはまた、そこが一番大切なところなんだがね。……余り特殊な心理だけで……なるほど……。」</p>
+      <p source="#source-11981-12112">「余り特殊なのと作者の一人よがりとは、一寸区別のつきかねることが多いものだから……。」</p>
+      <p source="#source-12112-12171">「そういうこともないではないが……。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-12171-12382">小説家は不平そうな顔をして、少し抗議をもち出しかけましたが、中途でふと気を変えたらしく、第二の「彼は窓際に坐っていた」を話しだしました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-12382-12459"><seg source="#source-12382-12459">和田弁太郎はよく一人で、寝室の窓際に坐っていた。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-12459-12920"><seg source="#source-12459-12920">睡眠不足の夜が続くので、彼は学校も休みがちになっていた。そして、友人達が出かけていった後、がらんとした広い自習室に一人残って、ぼんやり考えるのであるが、それが変に頼り無いので、のこのこ寝室に上っていって、自分の寝室に寝そべってみたり、窓縁にもたれてみたりして、とりとめもない夢想のうちに坐り通すのである。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-12920-13678"><seg source="#source-12920-13678">彼にとっては、夜分寝室が息苦しいと同じ程度に、昼間は自習室が変に威嚇的に感じられるのである。六人の青年が一室に机を並べて、一緒に読書したり思索したりする、そのことから、一種の窮屈な圧迫が生れてくる。室の中に並んでる同じ形の机、同じ形の本箱、同じ形の椅子、同じ広さの座席範囲、同じ時間内の同じような勉強、そういうものがよってたかって、人並であれ人並であれと、個性へ向って呼びかけてくる。自治共存という綱領の、共存は勿論自治までが、大勢で起居する場合には、ひどく不自由な平凡化の作用を働かしてくるのである。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-13678-13992"><seg source="#source-13678-13992">僅かな学費で東京遊学を志す貧しい青年等のために、郷里の先輩が設けてくれたその寄宿舎が、もし一人一室制になっていたら……と和田弁太郎は考える。そして自習室から逃げ出すように、こそこそと二階の寝室へ上ってゆく。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-13992-14711"><seg source="#source-13992-14711">昼間の寝室は、夜分とは全く異った感じである。もうそこには、なま温い息もうようよした肉体もない。むうっとする人いきれが全くない。寝台の裾の方に畳み積まれてる布団が如何に汚れていようと、棚の上の雑用品が如何に乱雑に散らかっていようと、釘にぶら下ってる着物が如何に垢じみていようと、血の気の多い肉体の主人公が脱ぎ去られた跡は、ただ古ぼけた無生の廃墟に過ぎない。その廃墟の上を、開け放された窓から軽やかな風が流れ来り流れ去ってゆく。その微風の跡を追って、日の光がひたひたと寄せてくる。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-14711-14988"><seg source="#source-14711-14988">窓の向うの低い隣家の屋根の彼方に、或る半宗教的な女学校の建物が見える。その窓にずらりと、真白な顔が並ぶこともある。時とすると、それらの顔全体が一団となって、美しい声で合唱を初める。</seg></p>
+      <div type="layout" source="#source-14988-15333" style="padding-inline-start: 3em">
+        <p source="#source-15023-15049"><seg source="#source-15023-15049">かすみのたなびく</seg></p>
+        <p source="#source-15049-15069"><seg source="#source-15049-15069">はるの野べに</seg></p>
+        <p source="#source-15069-15095"><seg source="#source-15069-15095">ほほえむすみれの</seg></p>
+        <p source="#source-15095-15117"><seg source="#source-15095-15117">ゆかしきかな</seg></p>
+        <p source="#source-15117-15143"><seg source="#source-15117-15143">なつくさしげれる</seg></p>
+        <p source="#source-15143-15163"><seg source="#source-15143-15163">おかのうえに</seg></p>
+        <p source="#source-15163-15189"><seg source="#source-15163-15189">さけるなでしこの</seg></p>
+        <p source="#source-15189-15211"><seg source="#source-15189-15211">やさしきかな</seg></p>
+        <p source="#source-15211-15234"><seg source="#source-15211-15234">人の世のためし</seg></p>
+        <p source="#source-15234-15254"><seg source="#source-15234-15254">いかにもあれ</seg></p>
+        <p source="#source-15254-15277"><seg source="#source-15254-15277">神とともにある</seg></p>
+        <p source="#source-15277-15297"><seg source="#source-15277-15297">身ぞやすけき</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-15337-15477"><seg source="#source-15337-15477">和田弁太郎はその歌声に耳を傾け、それら一団の顔を眺める。そして彼女等の生活を想うのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-15477-16277"><seg source="#source-15477-15840">そして彼の頭には自然と一つの比喩が浮んでくる。若い男子の共同生活が蚯蚓の群居であるとすれば、若い女子の共同生活は蝶の群居である。蚯蚓の群居は如何にねちねちした息苦しい、そして卑俗的な窮屈なものであることか。それに反して蝶の群居は如何に爽かな</seg><ruby type="furigana" rend="right" source="#source-15840-15855"><rb>香</rb><rt>かぐ</rt></ruby><seg source="#source-15855-16277">わしい、そして高踏的な自由なものであることか。とそんな風に彼は感ずる。蚯蚓の鈍感な皮膚と根強い生活力、蝶の敏感な触角と脆い生活力、それを彼は知らない。然し無知は空想を妨げない。彼は彼女等処女の共同生活を想像してみて、それを自分達の共同生活と――自分が感じてる共同生活と比べてみる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-16277-16323"><seg source="#source-16277-16323">歌の合唱はまた繰返される。</seg></p>
+      </div>
+      <div type="layout" source="#source-16323-16509" style="padding-inline-start: 3em">
+        <p source="#source-16358-16384"><seg source="#source-16358-16384">かすみのたなびく</seg></p>
+        <p source="#source-16384-16404"><seg source="#source-16384-16404">はるの野べに</seg></p>
+        <p source="#source-16404-16430"><seg source="#source-16404-16430">ほほえむすみれの</seg></p>
+        <p source="#source-16430-16450"><seg source="#source-16430-16450">ゆかしきかな</seg></p>
+        <p source="#source-16450-16473"><seg source="#source-16450-16473">…………………</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-16513-16716"><seg source="#source-16513-16716">清らかな涼しい声が日光に震えて、庭の樹々の若葉に滑っている窓から見ると、その樹々の梢の方だけが宙に浮いて、柔かな青空に懐かれている。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-16716-16961"><seg source="#source-16716-16961">空には、霞ともつかない薄雲がゆったりとかかっている。見つめているといつしか消えて、青々とした深い大空の肌がじかに感ぜられる。日の光が強くなる。若葉が光ってくる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-16961-17068"><seg source="#source-16961-17068">若葉の光りに、和田弁太郎は咽せ返る。椿の固い葉までが光ってくる……。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-17068-17475"><seg source="#source-17068-17475">大きな椿、その真黒な実、それを竿の先で叩き落すのである。お梅がはちきれそうな笑顔をしている。椿の実を叩き潰して、その汁で髪を洗うと、毛に艶が出る、とそんなことを云う。竿をもてあつかって、汗ばんだ額を拭きながら、あたりを窺う。誰もいない。お梅が一人、眼の前で笑っている。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-17475-17903"><seg source="#source-17475-17903">何という強健な、だが、息苦しい……抱擁だろう。そんなことを和田弁太郎は追想する……休暇の終りの僅かな日数、それから出発。お梅は今もやはり家で働いているかしら……。彼女は恐らく手紙も書けまい。こちらからも手紙は出せない。そしてもうあれきりのことだ。何という強健な、だが、息苦しい……。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-17903-18043"><seg source="#source-17903-18043">そこで和田弁太郎は眉をしかめるのである。何かしら不気味な汚れたものにぶつかった気持である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18043-18300"><seg source="#source-18043-18300">いつのまにか、向うの窓には白い顔の群が消えてしまっている。けれど空耳かしら、合唱の歌声はまだその辺の空中に残っている。清らかな香わしい杳かなものに、心が囚えられてゆく。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18300-18515"><seg source="#source-18300-18515">そしてやはりいつまでも、和田弁太郎は夢想に耽るのである。睡眠不足の熱っぽい頭は、明確な観照をぼかして、そういう馬鹿げた夢想に適するのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18515-18592"><seg source="#source-18515-18592">そういう彼を、不意に同室の誰かが襲うことがある。</seg></p>
+        <p source="#source-18592-18816">「おい、どうしたんだ。」とぽんと肩を叩いて、皮肉な微笑を馴れ馴れしく見せつける。「また例の、プラトニック・ラヴかね。もう誰もいやしないじゃないか。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18816-19160"><seg source="#source-18816-19160">和田弁太郎は既に先刻から、向うの建物の窓に誰もいないことを知っている。然し明らさまに云われると、おもわずかっとなる。プラトニック・ラヴという言葉が第一気に喰わないのである。カフェーなんかに入りびたってるくせに、という腹もある。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-19160-19423"><seg source="#source-19160-19423">もし友人がそれ以上突っこんでゆくならば、和田弁太郎は眼をぎらつかせながら、本当に飛びかかって殴りつけかねない様子をする。で彼を揶揄するには、他の機会を俟たなければならない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-19423-19578"><seg source="#source-19423-19578">平素は大抵彼は黙々として元気がないのである。不機嫌そうに顔をしかめて、意気消沈したもののようである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-19578-19702"><seg source="#source-19578-19702">実際彼は不機嫌で力がなく蒼ざめている。それでなお屡々、二階の窓際に坐りにゆく。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-19702-19818"><seg source="#source-19702-19818">小説家は一寸話を切って、どうだろう、という工合にまた批評家の顔を見ました。</seg></p>
+        <p source="#source-19818-19889">「それは一寸と面白い。」と批評家は云いました。</p>
+        <p source="#source-19889-19915">「そうかねえ。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-19915-20094"><seg source="#source-19915-20094">気乗りしない調子で小説家は答えて、余り嬉しそうな顔もしませんでした。それに調子を合せるように批評家は更に云いました。</seg></p>
+        <p source="#source-20094-20426">「面白い。が然し、動きがないね。一つの<ruby type="furigana" rend="right" source="#source-20151-20172"><rb>情景</rb><rt>シーン</rt></ruby>だけで……勿論その情景は、窓に坐って女学生の讃美歌の合唱をききながら田舎の女を追想するあたりは、面白いには面白いが、それだけじゃどうも、少し物足りなかないかしら……。」</p>
+        <p source="#source-20426-20506">「僕もそういう気がする。然し動きはこれからなんだ。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-20506-20609">そして小説家は、第三の「彼は彼女に接吻した。」を話しだしました。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-20609-20779"><seg source="#source-20609-20779">寄宿舎の近くに、安っぽいカフェーが一つあった。彼等はよくそこへ酒をのみに行った。和田弁太郎も時々ついていった。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-20779-21372"><seg source="#source-20779-20953">然し彼がそこへ行くのは、皆とすこし違って、或る一種の反抗的な気勢からである。寄宿舎の共存生活に対する嫌悪や、お梅の</seg><ruby type="furigana" rend="right" source="#source-20953-20977"><rb>苦々</rb><rt>にがにが</rt></ruby><seg source="#source-20977-21372">しい面も誘惑的な追想や、女学生の歌をききながら夢想する空漠たる憧憬や、其他いろんなものが重なり合って、いっそもっともぐってやれ、自分自身を泥の中につき落してやれ、とそういった突発的な気持になることがある。そういう時彼は、戦闘的な気勢で、皆に交ってカフェーへ行く。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-21372-21605"><seg source="#source-21372-21605">それは、彼等貧しい寄宿学生にふさわしいカフェーだった。天井の低い室に古ぼけた木の卓子、そして、安くて豊富な料理も出来る。その上、お喜代という女給がいる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-21605-22050"><seg source="#source-21605-21938">顔立は一寸整っているが、皮膚のまのびた女である。ひどく肥満していたのが、皮膚はそのままで中の肉だけしぼみ落ちたかのように、肉附に妙にしまりがない。だから頬辺ばかりを眺めると、二十歳以下なのが二十五六歳にも見える。然し唇と</seg><g ref="#gaiji-4-2-92-25" source="#source-21938-21985">頣</g><seg source="#source-21985-22012">とだけは、みっちり</seg><ruby type="furigana" rend="right" source="#source-22012-22024"><rb>実</rb><rt>み</rt></ruby><seg source="#source-22024-22050">がはいっている。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-22050-22646"><seg source="#source-22050-22646">或る朝、誰かがカフェーの前を通りかかった時、彼女は丁度掃除を初めていたが、田舎の女がするように、着物の後ろ襟にハンケチをさしはさんで、襟垢を防いでいた。それが彼女によく似合っていた。発見者は喜んだ。伝え聞いた一同も喜んだ。皆田舎出の青年である。そして中に一人剽軽な者がいて、刺繍入りの大きな絹ハンケチを彼女に贈ったところが、それを頸飾りみたいに首へ巻き縮らしたのが、彼女に不思議とよく似合った。</seg></p>
+        <p source="#source-22646-22723">「いよう、素敵、素敵。公爵令嬢といったところだ。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-22723-22764"><seg source="#source-22723-22764">彼等は手を叩いて喜んだ。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-22764-23000"><seg source="#source-22764-23000">彼女は少し酒が飲めた。酔ってくると、絹ハンケチを首に巻き縮らして、勿体ぶった様子で出て来る。そして皆の方へ後手を一寸差伸して、上目がちに会釈をしてみせる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-23000-23062"><seg source="#source-23000-23062">彼女は時々活動写真を見にゆくのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-23062-23142"><seg source="#source-23062-23142">がそれ以外には、彼女は普通の至極平凡な女給である。</seg></p>
+        <p source="#source-23142-23246">「ねえ、あたしまだ<ruby type="furigana" rend="right" source="#source-23169-23196"><rb>都々逸</rb><rt>どどいつ</rt></ruby>がよく歌えないの。教えて頂戴。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-23246-23353"><seg source="#source-23246-23353">気持のこもらない眼付で、声の調子だけに媚びを含めて、誘いかけてくる。</seg></p>
+        <p source="#source-23353-23439">「止せよ、都々逸なんか。それよりか、初めよう、例のを。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-23439-23534"><seg source="#source-23439-23534">仲間の一人が休暇中大島へ行って大島節を輸入してきたのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-23534-23574"><seg source="#source-23534-23574">誰か一人が音頭をとる。</seg></p>
+      </div>
+      <div type="layout" source="#source-23574-23688" style="padding-inline-start: 3em">
+        <p source="#source-23609-23629"><seg source="#source-23609-23629">わたしゃ大島</seg></p>
+        <p source="#source-23629-23652"><seg source="#source-23629-23652">御神火そだちよ</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-23692-23810"><seg source="#source-23692-23810">初めの一句は調子外れで、後はどうにか歌ってのける。その次は皆の合唱である。</seg></p>
+      </div>
+      <div type="layout" source="#source-23810-23915" style="padding-inline-start: 3em">
+        <p source="#source-23845-23862"><seg source="#source-23845-23862">胸にゃ煙が</seg></p>
+        <p source="#source-23862-23879"><seg source="#source-23862-23879">絶えやせぬ</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-23919-24065"><seg source="#source-23919-24065">それが何度もくり返される。コップを叩く者がある。足を踏み鳴らす者がある。わあっという騒ぎ……。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-24065-24181"><seg source="#source-24065-24181">他に殆んど常連というのがない。彼等だけでカフェー全体を占領してる形である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-24181-24606"><seg source="#source-24181-24606">和田弁太郎は一人黙って酒を飲んでいる。だから早く酔っ払う。半ば自棄になって、将軍みたいな足取りで歩き出して、合唱に加わる。それをお喜代が面白がってはしゃぎ出す。だが、畜生、貴様の知ったことか、とそんな気持で、彼は女学生の讃美歌合唱を頭の中に描きながら、ばかばかしく声を張り上げる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-24606-24668"><seg source="#source-24606-24668">そういう騒ぎが、或る晩突然中断された。</seg></p>
+        <p source="#source-24668-24739">「おい、公爵令嬢、君は何度キスを許したんだ。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-24739-24972"><seg source="#source-24739-24972">そう云って、慷慨悲憤癖のある男が――例の、大地震の時に一同がはいりこむことになっているその寝台の男が、お喜代に向って、しつこく、尋ねかけ初めたのである。</seg></p>
+        <p source="#source-24972-25169">「刺繍になら、キスを許すも許さないもないわ。あたしからしてやるのよ、ええ幾度でも。だって、始終首のまわりにつけてるんじゃないの。」</p>
+        <p source="#source-25169-25279">「ばか、白ばっくれてやがる。そら、その刺繍じゃない。そら、あの刺繍さ。」</p>
+        <p source="#source-25279-25302">「どの刺繍。」</p>
+        <p source="#source-25302-25328">「刺繍の男さ。」</p>
+        <p source="#source-25328-25363">「そんな男があって。」</p>
+        <p source="#source-25363-25395">「あるじゃないか。」</p>
+        <p source="#source-25395-25430">「そう。教えて頂戴。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-25430-25492"><seg source="#source-25430-25492">そこへ額の白い一人がはいりこんでくる。</seg></p>
+        <p source="#source-25492-25692">「もういいじゃないか、それくらいで……。白っばくれるのは、何より有力な証拠さ。そして、一度あれば、二度三度と……当り前じゃないか。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-25692-26060">それでも「慷慨悲憤」はなお、お喜代の口から白状させようとする。彼は何かしら、「刺繍」に――絹ハンケチを買ってやった者に、反感を懐いてるらしい。その晩「<app type="base-text-variant" source="#source-25926-25974"><lem><seg source="#source-25920-25926">刺繍</seg></lem><rdg type="base-text"><seg source="#source-25962-25968">剌繍</seg></rdg></app>」が一人室に残って手紙を書いてることからきたものらしい。</p>
+        <p source="#source-26060-26086">「知らないわ。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-26086-26169"><seg source="#source-26086-26169">お喜代はぶっきら棒にそう云って、わきを向いてしまう。</seg></p>
+        <p source="#source-26169-26279">「それみろ、」と「白額」が云う、「公爵令嬢の御機嫌を損ねたじゃないか。」</p>
+        <p source="#source-26279-26497">「いやこれは失礼しました。」と「慷慨悲憤」はとぼけた態度に出る。私はただ、御令嬢のキスの価何程なりやと、そういう疑問を起しましたものですから。」</p>
+        <p source="#source-26497-26607">「何だって、」と他の一人が乗り出してくる、「キスの価が何程なりや……。」</p>
+        <p source="#source-26607-26822">「そうさ、」とまた急に調子が変る、「例えば、<app type="base-text-variant" source="#source-26679-26727"><lem><seg source="#source-26673-26679">刺繍</seg></lem><rdg type="base-text"><seg source="#source-26715-26721">剌繍</seg></rdg></app>絹ハンケチ一個に対して、何回のキスを支払うか、という問題さ。」</p>
+        <p source="#source-26822-26890">「そいつは面白い。是非解決すべき問題だね。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-26890-27042"><seg source="#source-26890-27042">お喜代はつんと澄しこんでいる。たるんだ頬の肉附が緊張すると、妙になま白い彫刻的な横顔にみえてくる。</seg></p>
+        <p source="#source-27042-27248">「勝手にするがいいわ。あたしはキスを切り売りなんかしませんからね。好きな人にはただで許してやるわ。だけど、あなた方なんかには御免だわ。」</p>
+        <p source="#source-27248-27346">「こいつはお手酷しいね。まあそう云わないで、どうだい僕に一つ。」</p>
+        <p source="#source-27346-27372">「僕にも一つ。」</p>
+        <p source="#source-27372-27398">「俺にも一つ。」</p>
+        <p source="#source-27398-27421">「はははは。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-27421-27582"><seg source="#source-27421-27582">反応がなくて、手持無沙汰になって、出すぎた冗談が自分に戻ってきて、彼等は思い出したように杯を取り上げる。</seg></p>
+        <p source="#source-27582-27635">「おい、お酌くらいはいいだろう。」</p>
+        <p source="#source-27635-27655">「はーい。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-27655-27768"><seg source="#source-27655-27768">ばかに大きな声を出して、お喜代は顔の筋肉一つ崩さないで銚子を取り上げる。</seg></p>
+        <p source="#source-27768-27845">「君がそうして怒った顔は、また別な趣きがあるね。」</p>
+        <p source="#source-27845-27889">「まあー、お止しなさいよ。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-27889-28119"><seg source="#source-27889-28119">打つ真似をして、とうとう笑い出してしまう。それにつけこんで四方から、好奇な眼がぬうっと伸び出す。押しあいへしあい、前へ前へと出ようとしてる気色である。</seg></p>
+        <p source="#source-28119-28193">「止せ、下らないことで一人の女をからかうのは。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-28193-28378"><seg source="#source-28193-28378">胸の鬱積が高まってきて、和田弁太郎は思わずわりこんでゆく。皆その方を振返る。で彼はぎくりとするのを、むりに踏みこたえる。</seg></p>
+        <p source="#source-28378-28431">「キスくらいが何だい、下らない。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-28431-28493"><seg source="#source-28431-28493">一同の間にちらちらと目配せが行き渡る。</seg></p>
+        <p source="#source-28493-28651">「ほう、和田にしちゃあ驚いたな。キスくらいが何だい、下らない……か。そこが、プラトニックの、その……。」</p>
+        <p source="#source-28651-28782">「いいさ、ねえ、」と一人がお喜代に言葉を向ける、「キスくらいが何だい、下らない……。」</p>
+        <p source="#source-28782-28808">「ええそうよ。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-28808-28936"><seg source="#source-28808-28936">これはまたきっぱりとしている。余りにきっぱりとしているので、誰も一寸口を出さない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-28936-29115"><seg source="#source-28936-29115">煙草の煙と酔っ払った人いきれとで、もうっとした春の夜である。しいんとなったとたんだけが底寒くて、後はむしむしとする。</seg></p>
+        <p source="#source-29115-29135">「そうさ。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-29135-29278"><seg source="#source-29135-29278">プラトニックに対して時置いて応えたのが、お喜代に応えた形になって、和田弁太郎は一寸ためらう。</seg></p>
+        <p source="#source-29278-29343"><seg source="#source-29278-29281">「</seg><app type="base-text-variant" source="#source-29287-29335"><lem><seg source="#source-29281-29287">ねえ</seg></lem><rdg type="base-text"><seg source="#source-29323-29329">えね</seg></rdg></app>。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-29343-29423"><seg source="#source-29343-29423">言葉の受け答えが、そのまま咄嗟の気持になってゆく。</seg></p>
+        <p source="#source-29423-29494">「うむ。僕と君と、ここで皆に証明してやろう。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-29494-29679"><seg source="#source-29494-29679">つかつかと歩み寄ると、彼女はじっと身動きもしない。その肩を捉えて、唇を頬に持ってゆく。それから我を忘れて、唇の上に……。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-29679-29852"><seg source="#source-29679-29852">一同は気を呑まれて、息をつめている。和田弁太郎も茫然とつっ立ってしまう。お喜代が一人、くくくくと忍び笑いをする。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-29852-30036"><seg source="#source-29852-30036">瞬間にぷっつり息が切れて、わあっとしたどよめきになる。和田弁太郎は緊張した顔付で、そのままカフェーを飛び出していった。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-30036-30152"><seg source="#source-30036-30152">小説家は一寸話を切って、どうだろう、という工合に三度批評家の顔を見ました。</seg></p>
+        <p source="#source-30152-30214">「それは面白い。」と批評家は云いました。</p>
+        <p source="#source-30214-30255">「それでいいじゃないか。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-30255-30341"><seg source="#source-30255-30341">ところが、それが何だか小説家の気に入らないようでした。</seg></p>
+        <p source="#source-30341-30430">「然し、彼は彼女に接吻した……それだけじゃあ、どうかな。」</p>
+        <p source="#source-30430-30510">「では、その後に、一寸何かつけ加えたらいいだろう。」</p>
+        <p source="#source-30510-30707">「それを僕は考えてるんだ。彼はひどく幽鬱になった……とか、彼ははっと晴々とした気持になった……とか、何かそんな風なことをね……。」</p>
+        <p source="#source-30707-30970">「うむ……然し幽鬱になったというのはどうも旧時代的だし、はっと晴々とした気持になった、というのはどうも余りに新時代的で、何だか不自然な作者の感想みたいに思われやしないかね。」</p>
+        <p source="#source-30970-31092">「だから僕は困っているんだ。彼女に接吻した、だけじゃあどうも納まりがつかない。」</p>
+        <p source="#source-31092-31181">「だが、その、実際の話はどうなんだ。実際のその男の話は。」</p>
+        <p source="#source-31181-31807">「それがね、むつかしいんだ。彼女に接吻した、それから変な気になって、郷里へ帰ってゆく。すると、お梅はもういない。母がうすうす事情を悟って、お梅には暇を出してしまったのだ。彼はその母の心にひどく感激して、すぐに東京へ舞い戻って、寄宿舎の仲間から何と云われようが平気で、熱心に勉強し出した、とそういう話なんだ。ところが、接吻以後は、どうも僕にはついてゆけない。むりについてゆこうとすると、通俗になりそうな気がするんだ。」</p>
+        <p source="#source-31807-31938">「然し、通俗になるもならないも、材料の関係じゃなくて、取扱方だけに依るのじゃないか。」</p>
+        <p source="#source-31938-32021">「それはそうだが、どうもはっきりついてゆけないんだ。」</p>
+        <p source="#source-32021-32176">「それじゃあ仕方がない。彼は彼女に接吻した、それでぷつりと切っちまうんだね。……然し、やはり変かな。」</p>
+        <p source="#source-32176-32214">「うむ、どうも変でね。」</p>
+        <p source="#source-32214-32249">「変と云やあ変だね。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-32249-32644"><seg source="#source-32249-32644">そこで二人は口を噤んでしまいました。そして暫く互に顔を見合せながら、深く考えこみました。そのうちに、ふと白々しい気持になってきました。小説家の方も批評家の方も、自分達が如何につまらないことばかりを考えあぐんでるかということが、胸の底にぼんやり映ってきたのです。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-32644-32823"><seg source="#source-32644-32823">そして二人共、いやあなちぐはぐな、おまけに呆けた気持になって、一寸どうしてよいか分らないで、茫然としてしまいました。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-32823-32949"><seg source="#source-32823-32949">卓子の上には、もう酒の燗も冷えきっていました。そして食い残しの豆が転っていました。</seg></p>
+      </div>
+    </body>
+    <back>
+      <div type="source">
+        <note type="source-attribution" source="#source-32957-33195"><seg type="source-line">底本：「豊島与志雄著作集　第三巻（小説<g ref="#gaiji-1-13-23" source="#source-33014-33015" corresp="#source-33015-33059">Ⅲ</g>）」未来社</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1966（昭和41）年8月10日第1刷発行</seg><lb/><seg type="source-line">初出：「文芸春秋」</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1926（大正15）年5月</seg></note>
+        <note type="transcriber-note" source="#source-33195-33510"><seg type="source-line">入力：tatsuki</seg><lb/><seg type="source-line">校正：門田裕志</seg><lb/><seg type="source-line">2008年1月16日作成</seg><lb/><seg type="source-line">青空文庫作成ファイル：</seg><lb/><seg type="source-line">このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。</seg></note>
+        <note type="source-span" xml:id="source-10293-10421" n="59"/>
+        <note type="source-span" xml:id="source-10421-11191" n="60"/>
+        <note type="source-span" xml:id="source-1109-1537" n="16"/>
+        <note type="source-span" xml:id="source-11191-11306" n="61"/>
+        <note type="source-span" xml:id="source-11306-11443" n="63"/>
+        <note type="source-span" xml:id="source-11443-11775" n="64"/>
+        <note type="source-span" xml:id="source-11775-11981" n="65"/>
+        <note type="source-span" xml:id="source-11981-12112" n="66"/>
+        <note type="source-span" xml:id="source-12112-12171" n="67"/>
+        <note type="source-span" xml:id="source-12171-12382" n="68"/>
+        <note type="source-span" xml:id="source-12382-12459" n="70"/>
+        <note type="source-span" xml:id="source-12459-12920" n="71"/>
+        <note type="source-span" xml:id="source-12920-13678" n="72"/>
+        <note type="source-span" xml:id="source-13678-13992" n="73"/>
+        <note type="source-span" xml:id="source-13992-14711" n="74"/>
+        <note type="source-span" xml:id="source-14711-14988" n="75"/>
+        <note type="source-span" xml:id="source-14988-15333" n="77"/>
+        <note type="source-span" xml:id="source-15023-15023" n="78"/>
+        <note type="source-span" xml:id="source-15023-15049" n="78"/>
+        <note type="source-span" xml:id="source-15049-15069" n="79"/>
+        <note type="source-span" xml:id="source-15069-15095" n="80"/>
+        <note type="source-span" xml:id="source-15095-15117" n="81"/>
+        <note type="source-span" xml:id="source-15117-15143" n="83"/>
+        <note type="source-span" xml:id="source-15143-15163" n="84"/>
+        <note type="source-span" xml:id="source-15163-15189" n="85"/>
+        <note type="source-span" xml:id="source-15189-15211" n="86"/>
+        <note type="source-span" xml:id="source-15211-15234" n="88"/>
+        <note type="source-span" xml:id="source-15234-15254" n="89"/>
+        <note type="source-span" xml:id="source-15254-15277" n="90"/>
+        <note type="source-span" xml:id="source-15277-15297" n="91"/>
+        <note type="source-span" xml:id="source-15335-15337" n="93"/>
+        <note type="source-span" xml:id="source-15337-15477" n="94"/>
+        <note type="source-span" xml:id="source-1537-1713" n="17"/>
+        <note type="source-span" xml:id="source-15477-15840" n="95"/>
+        <note type="source-span" xml:id="source-15477-16277" n="95"/>
+        <note type="source-span" xml:id="source-15840-15855" n="95"/>
+        <note type="source-span" xml:id="source-15855-16277" n="95"/>
+        <note type="source-span" xml:id="source-16277-16323" n="96"/>
+        <note type="source-span" xml:id="source-16323-16509" n="98"/>
+        <note type="source-span" xml:id="source-16358-16358" n="99"/>
+        <note type="source-span" xml:id="source-16358-16384" n="99"/>
+        <note type="source-span" xml:id="source-16384-16404" n="100"/>
+        <note type="source-span" xml:id="source-16404-16430" n="101"/>
+        <note type="source-span" xml:id="source-16430-16450" n="102"/>
+        <note type="source-span" xml:id="source-16450-16473" n="103"/>
+        <note type="source-span" xml:id="source-16511-16513" n="105"/>
+        <note type="source-span" xml:id="source-16513-16716" n="106"/>
+        <note type="source-span" xml:id="source-16716-16961" n="107"/>
+        <note type="source-span" xml:id="source-16961-17068" n="108"/>
+        <note type="source-span" xml:id="source-17068-17475" n="109"/>
+        <note type="source-span" xml:id="source-1713-1772" n="18"/>
+        <note type="source-span" xml:id="source-17475-17903" n="110"/>
+        <note type="source-span" xml:id="source-1772-1927" n="19"/>
+        <note type="source-span" xml:id="source-17903-18043" n="111"/>
+        <note type="source-span" xml:id="source-18043-18300" n="112"/>
+        <note type="source-span" xml:id="source-18300-18515" n="113"/>
+        <note type="source-span" xml:id="source-18515-18592" n="114"/>
+        <note type="source-span" xml:id="source-18592-18816" n="115"/>
+        <note type="source-span" xml:id="source-18816-19160" n="116"/>
+        <note type="source-span" xml:id="source-19160-19423" n="117"/>
+        <note type="source-span" xml:id="source-1927-2349" n="20"/>
+        <note type="source-span" xml:id="source-19423-19578" n="118"/>
+        <note type="source-span" xml:id="source-19578-19702" n="119"/>
+        <note type="source-span" xml:id="source-19702-19818" n="121"/>
+        <note type="source-span" xml:id="source-19818-19889" n="122"/>
+        <note type="source-span" xml:id="source-19889-19915" n="123"/>
+        <note type="source-span" xml:id="source-19915-20094" n="124"/>
+        <note type="source-span" xml:id="source-20094-20426" n="125"/>
+        <note type="source-span" xml:id="source-20151-20172" n="125"/>
+        <note type="source-span" xml:id="source-20426-20506" n="126"/>
+        <note type="source-span" xml:id="source-20506-20609" n="127"/>
+        <note type="source-span" xml:id="source-20609-20779" n="129"/>
+        <note type="source-span" xml:id="source-20779-20953" n="130"/>
+        <note type="source-span" xml:id="source-20779-21372" n="130"/>
+        <note type="source-span" xml:id="source-20953-20977" n="130"/>
+        <note type="source-span" xml:id="source-20977-21372" n="130"/>
+        <note type="source-span" xml:id="source-21372-21605" n="131"/>
+        <note type="source-span" xml:id="source-21605-21938" n="132"/>
+        <note type="source-span" xml:id="source-21605-22050" n="132"/>
+        <note type="source-span" xml:id="source-21938-21985" n="132"/>
+        <note type="source-span" xml:id="source-21985-22012" n="132"/>
+        <note type="source-span" xml:id="source-22012-22024" n="132"/>
+        <note type="source-span" xml:id="source-22024-22050" n="132"/>
+        <note type="source-span" xml:id="source-22050-22646" n="133"/>
+        <note type="source-span" xml:id="source-22646-22723" n="134"/>
+        <note type="source-span" xml:id="source-22723-22764" n="135"/>
+        <note type="source-span" xml:id="source-22764-23000" n="136"/>
+        <note type="source-span" xml:id="source-23000-23062" n="137"/>
+        <note type="source-span" xml:id="source-23062-23142" n="138"/>
+        <note type="source-span" xml:id="source-23142-23246" n="139"/>
+        <note type="source-span" xml:id="source-23169-23196" n="139"/>
+        <note type="source-span" xml:id="source-23246-23353" n="140"/>
+        <note type="source-span" xml:id="source-23353-23439" n="141"/>
+        <note type="source-span" xml:id="source-23439-23534" n="142"/>
+        <note type="source-span" xml:id="source-2349-2441" n="21"/>
+        <note type="source-span" xml:id="source-23534-23574" n="143"/>
+        <note type="source-span" xml:id="source-23574-23688" n="145"/>
+        <note type="source-span" xml:id="source-23609-23609" n="146"/>
+        <note type="source-span" xml:id="source-23609-23629" n="146"/>
+        <note type="source-span" xml:id="source-23629-23652" n="147"/>
+        <note type="source-span" xml:id="source-23690-23692" n="149"/>
+        <note type="source-span" xml:id="source-23692-23810" n="150"/>
+        <note type="source-span" xml:id="source-23810-23915" n="152"/>
+        <note type="source-span" xml:id="source-23845-23845" n="153"/>
+        <note type="source-span" xml:id="source-23845-23862" n="153"/>
+        <note type="source-span" xml:id="source-23862-23879" n="154"/>
+        <note type="source-span" xml:id="source-23917-23919" n="156"/>
+        <note type="source-span" xml:id="source-23919-24065" n="157"/>
+        <note type="source-span" xml:id="source-24065-24181" n="158"/>
+        <note type="source-span" xml:id="source-24181-24606" n="159"/>
+        <note type="source-span" xml:id="source-2441-2476" n="22"/>
+        <note type="source-span" xml:id="source-24606-24668" n="160"/>
+        <note type="source-span" xml:id="source-24668-24739" n="161"/>
+        <note type="source-span" xml:id="source-24739-24972" n="162"/>
+        <note type="source-span" xml:id="source-2476-2564" n="23"/>
+        <note type="source-span" xml:id="source-24972-25169" n="163"/>
+        <note type="source-span" xml:id="source-25169-25279" n="164"/>
+        <note type="source-span" xml:id="source-25279-25302" n="165"/>
+        <note type="source-span" xml:id="source-25302-25328" n="166"/>
+        <note type="source-span" xml:id="source-25328-25363" n="167"/>
+        <note type="source-span" xml:id="source-25363-25395" n="168"/>
+        <note type="source-span" xml:id="source-25395-25430" n="169"/>
+        <note type="source-span" xml:id="source-25430-25492" n="170"/>
+        <note type="source-span" xml:id="source-25492-25692" n="171"/>
+        <note type="source-span" xml:id="source-2564-2740" n="25"/>
+        <note type="source-span" xml:id="source-25692-26060" n="172"/>
+        <note type="source-span" xml:id="source-25920-25926" n="172"/>
+        <note type="source-span" xml:id="source-25926-25974" n="172"/>
+        <note type="source-span" xml:id="source-25962-25968" n="172"/>
+        <note type="source-span" xml:id="source-26060-26086" n="173"/>
+        <note type="source-span" xml:id="source-26086-26169" n="174"/>
+        <note type="source-span" xml:id="source-26169-26279" n="175"/>
+        <note type="source-span" xml:id="source-26279-26497" n="176"/>
+        <note type="source-span" xml:id="source-26497-26607" n="177"/>
+        <note type="source-span" xml:id="source-26607-26822" n="178"/>
+        <note type="source-span" xml:id="source-26673-26679" n="178"/>
+        <note type="source-span" xml:id="source-26679-26727" n="178"/>
+        <note type="source-span" xml:id="source-26715-26721" n="178"/>
+        <note type="source-span" xml:id="source-26822-26890" n="179"/>
+        <note type="source-span" xml:id="source-26890-27042" n="180"/>
+        <note type="source-span" xml:id="source-27042-27248" n="181"/>
+        <note type="source-span" xml:id="source-27248-27346" n="182"/>
+        <note type="source-span" xml:id="source-27346-27372" n="183"/>
+        <note type="source-span" xml:id="source-27372-27398" n="184"/>
+        <note type="source-span" xml:id="source-27398-27421" n="185"/>
+        <note type="source-span" xml:id="source-2740-2886" n="26"/>
+        <note type="source-span" xml:id="source-27421-27582" n="186"/>
+        <note type="source-span" xml:id="source-27582-27635" n="187"/>
+        <note type="source-span" xml:id="source-27635-27655" n="188"/>
+        <note type="source-span" xml:id="source-27655-27768" n="189"/>
+        <note type="source-span" xml:id="source-27768-27845" n="190"/>
+        <note type="source-span" xml:id="source-27845-27889" n="191"/>
+        <note type="source-span" xml:id="source-27889-28119" n="192"/>
+        <note type="source-span" xml:id="source-28119-28193" n="193"/>
+        <note type="source-span" xml:id="source-28193-28378" n="194"/>
+        <note type="source-span" xml:id="source-28378-28431" n="195"/>
+        <note type="source-span" xml:id="source-28431-28493" n="196"/>
+        <note type="source-span" xml:id="source-28493-28651" n="197"/>
+        <note type="source-span" xml:id="source-28651-28782" n="198"/>
+        <note type="source-span" xml:id="source-28782-28808" n="199"/>
+        <note type="source-span" xml:id="source-28808-28936" n="200"/>
+        <note type="source-span" xml:id="source-2886-3302" n="27"/>
+        <note type="source-span" xml:id="source-28936-29115" n="201"/>
+        <note type="source-span" xml:id="source-29115-29135" n="202"/>
+        <note type="source-span" xml:id="source-29135-29278" n="203"/>
+        <note type="source-span" xml:id="source-29278-29281" n="204"/>
+        <note type="source-span" xml:id="source-29278-29343" n="204"/>
+        <note type="source-span" xml:id="source-29281-29287" n="204"/>
+        <note type="source-span" xml:id="source-29287-29335" n="204"/>
+        <note type="source-span" xml:id="source-29323-29329" n="204"/>
+        <note type="source-span" xml:id="source-29343-29423" n="205"/>
+        <note type="source-span" xml:id="source-29423-29494" n="206"/>
+        <note type="source-span" xml:id="source-29494-29679" n="207"/>
+        <note type="source-span" xml:id="source-29679-29852" n="208"/>
+        <note type="source-span" xml:id="source-29852-30036" n="209"/>
+        <note type="source-span" xml:id="source-30036-30152" n="211"/>
+        <note type="source-span" xml:id="source-30152-30214" n="212"/>
+        <note type="source-span" xml:id="source-30214-30255" n="213"/>
+        <note type="source-span" xml:id="source-30255-30341" n="214"/>
+        <note type="source-span" xml:id="source-30341-30430" n="215"/>
+        <note type="source-span" xml:id="source-30430-30510" n="216"/>
+        <note type="source-span" xml:id="source-30510-30707" n="217"/>
+        <note type="source-span" xml:id="source-30707-30970" n="218"/>
+        <note type="source-span" xml:id="source-30970-31092" n="219"/>
+        <note type="source-span" xml:id="source-31092-31181" n="220"/>
+        <note type="source-span" xml:id="source-31181-31807" n="221"/>
+        <note type="source-span" xml:id="source-31807-31938" n="222"/>
+        <note type="source-span" xml:id="source-31938-32021" n="223"/>
+        <note type="source-span" xml:id="source-32021-32176" n="224"/>
+        <note type="source-span" xml:id="source-32176-32214" n="225"/>
+        <note type="source-span" xml:id="source-32214-32249" n="226"/>
+        <note type="source-span" xml:id="source-32249-32644" n="227"/>
+        <note type="source-span" xml:id="source-32644-32823" n="228"/>
+        <note type="source-span" xml:id="source-32823-32949" n="229"/>
+        <note type="source-span" xml:id="source-32957-33014" n="233"/>
+        <note type="source-span" xml:id="source-32957-33195" n="233"/>
+        <note type="source-span" xml:id="source-33014-33015" n="233"/>
+        <note type="source-span" xml:id="source-33015-33059" n="233"/>
+        <note type="source-span" xml:id="source-3302-3364" n="28"/>
+        <note type="source-span" xml:id="source-33059-33076" n="233"/>
+        <note type="source-span" xml:id="source-33076-33130" n="234"/>
+        <note type="source-span" xml:id="source-33130-33159" n="235"/>
+        <note type="source-span" xml:id="source-33159-33195" n="236"/>
+        <note type="source-span" xml:id="source-33195-33510" n="237"/>
+        <note type="source-span" xml:id="source-3364-3517" n="29"/>
+        <note type="source-span" xml:id="source-3364-3960" n="29"/>
+        <note type="source-span" xml:id="source-3517-3544" n="29"/>
+        <note type="source-span" xml:id="source-3544-3960" n="29"/>
+        <note type="source-span" xml:id="source-3960-4632" n="30"/>
+        <note type="source-span" xml:id="source-3960-4877" n="30"/>
+        <note type="source-span" xml:id="source-4632-4653" n="30"/>
+        <note type="source-span" xml:id="source-4653-4877" n="30"/>
+        <note type="source-span" xml:id="source-4877-5038" n="31"/>
+        <note type="source-span" xml:id="source-498-1109" n="15"/>
+        <note type="source-span" xml:id="source-5038-5068" n="32"/>
+        <note type="source-span" xml:id="source-5038-5295" n="32"/>
+        <note type="source-span" xml:id="source-5068-5089" n="32"/>
+        <note type="source-span" xml:id="source-5089-5188" n="32"/>
+        <note type="source-span" xml:id="source-5188-5203" n="32"/>
+        <note type="source-span" xml:id="source-5203-5295" n="32"/>
+        <note type="source-span" xml:id="source-5295-5396" n="33"/>
+        <note type="source-span" xml:id="source-5396-5416" n="34"/>
+        <note type="source-span" xml:id="source-5416-5637" n="35"/>
+        <note type="source-span" xml:id="source-5637-5762" n="36"/>
+        <note type="source-span" xml:id="source-5762-5788" n="37"/>
+        <note type="source-span" xml:id="source-5788-5847" n="38"/>
+        <note type="source-span" xml:id="source-5847-6014" n="39"/>
+        <note type="source-span" xml:id="source-6014-6061" n="40"/>
+        <note type="source-span" xml:id="source-6061-6262" n="41"/>
+        <note type="source-span" xml:id="source-6061-6443" n="41"/>
+        <note type="source-span" xml:id="source-6262-6321" n="41"/>
+        <note type="source-span" xml:id="source-6262-6333" n="41"/>
+        <note type="source-span" xml:id="source-6333-6443" n="41"/>
+        <note type="source-span" xml:id="source-6443-6544" n="42"/>
+        <note type="source-span" xml:id="source-6544-6651" n="43"/>
+        <note type="source-span" xml:id="source-6651-6698" n="44"/>
+        <note type="source-span" xml:id="source-6698-6715" n="45"/>
+        <note type="source-span" xml:id="source-6715-6867" n="46"/>
+        <note type="source-span" xml:id="source-6867-6959" n="47"/>
+        <note type="source-span" xml:id="source-6959-7348" n="48"/>
+        <note type="source-span" xml:id="source-7348-7494" n="49"/>
+        <note type="source-span" xml:id="source-7494-7742" n="50"/>
+        <note type="source-span" xml:id="source-7742-7999" n="51"/>
+        <note type="source-span" xml:id="source-7999-8265" n="52"/>
+        <note type="source-span" xml:id="source-8265-8687" n="53"/>
+        <note type="source-span" xml:id="source-8687-8962" n="54"/>
+        <note type="source-span" xml:id="source-8962-9294" n="55"/>
+        <note type="source-span" xml:id="source-9294-9414" n="56"/>
+        <note type="source-span" xml:id="source-9294-9668" n="56"/>
+        <note type="source-span" xml:id="source-9414-9438" n="56"/>
+        <note type="source-span" xml:id="source-9438-9668" n="56"/>
+        <note type="source-span" xml:id="source-9668-9892" n="57"/>
+        <note type="source-span" xml:id="source-9892-10293" n="58"/>
+      </div>
+      <note type="parser-completion" n="true">The n attribute is true when no parser diagnostic of error severity was raised for this source. What the converter could not interpret is recorded in the interpretation-problem and parser-diagnostic notes.</note>
+      <note type="source-decoding">windows-31j</note>
+      <note type="source-span" xml:id="parser-source-0">{
+  "coordinate_system": "decoded_utf8",
+  "end": 26495,
+  "end_line": 176,
+  "line": 176,
+  "start": 26492
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="unmatched-close" source="#parser-source-0">unmatched_close</note>
+    </back>
+  </text>
+</TEI>

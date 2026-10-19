@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:snh="https://w3id.org/soranoha/ns/tei" xmlns="http://www.tei-c.org/ns/1.0" snh:vocab-version="3">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ja">連句雑俎</title>
+        <title type="reading" xml:lang="ja-Hira">れんくざっそ</title>
+        <author><persName xml:lang="ja"><surname>寺田</surname><forename>寅彦</forename><idno type="aozora-person-id">000042</idno></persName><persName xml:lang="ja-Hira"><surname>てらだ</surname><forename>とらひこ</forename></persName><persName xml:lang="ja-Latn"><surname>Terada</surname><forename>Torahiko</forename></persName></author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://w3id.org/soranoha/">Soranoha</publisher>
+        <idno type="soranoha-work-identifier">002461_000042</idno>
+        <idno type="aozora-work-id">002461</idno>
+        <idno type="aozora-card-url">https://www.aozora.gr.jp/cards/000042/card2461.html</idno>
+        <date when="2014-09-17">2014-09-17</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">The underlying work is in the public domain; Soranoha asserts no rights over it.</licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Soranoha's encoding of this work and the artifacts derived from it are dedicated to the public domain under CC0-1.0. Attribution is requested, not required. Full rights statement: <ptr target="https://w3id.org/soranoha/rights"/></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>寺田寅彦随筆集　第三巻</title><publisher>岩波文庫、岩波書店</publisher><date>1948（昭和23）年5月15日、1963（昭和38）年4月16日第20刷改版</date><note type="input-edition">1993（平成5）年2月5日第59刷</note><note type="proof-edition">1997（平成9）年9月5日第64刷</note></bibl>
+        <bibl type="first-publication">「渋柿」1931（昭和6）年3月～12月</bibl>
+        <bibl><idno type="source-content-hash">sha256:e8eacb166e694c3bc3e306c24bdac2cc411be9ba1d909d6766cd1d9263afc9f7</idno></bibl>
+        <bibl><idno type="primary-text-hash">sha256:cc8877a0de86061ffea9da5fd1d372a56468d82318a252b3da652ab577b7762b</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css"/>
+      <classDecl><taxonomy xml:id="ndc"><bibl>分類番号 as recorded by <title>青空文庫</title>, read as a class of 日本十進分類法 新訂9版. Category labels are from <title>NDC9 Linked Data</title> (日本図書館協会, CC BY); a category's IRI is <ref target="http://jla.or.jp/data/ndc9">http://jla.or.jp/data/ndc9</ref> followed by # and its n.</bibl><category xml:id="ndc901" n="901"><catDesc xml:lang="ja">文学理論・作法</catDesc><catDesc xml:lang="en">Theory and techniques</catDesc></category></taxonomy><taxonomy xml:id="aozora-orthography"><bibl><title>青空文庫</title> 文字遣い種別: the orthographic style Aozora Bunko records for the transcription.</bibl></taxonomy></classDecl>
+      <refsDecl xml:id="source-spans"><p>A note of type source-span has an xml:id of the form source-START-END, giving the extent in UTF-8 bytes of the decoded primary text identified in sourceDesc, after the emendations declared in editorialDecl/correction are applied; each emendation replaces its sic text by its corr text at its own extent. <ptr target="https://w3id.org/soranoha/ns/tei"/></p></refsDecl>
+      <charDecl>
+        <char xml:id="gaiji-3-1-90-47">
+          <mapping type="unicode">腊</mapping>
+          <localProp name="rawMarker" value="月＋昔"/>
+          <localProp name="sourceReference" value="第3水準1-90-47"/>
+          <snh:gaiji-reference original="第3水準1-90-47" cell="47" plane="1" kind="jis-code" row="90"/>
+        </char>
+        <char xml:id="gaiji-4-2-84-21">
+          <mapping type="unicode">𥿻</mapping>
+          <localProp name="rawMarker" value="糸＋旨"/>
+          <localProp name="sourceReference" value="第4水準2-84-21"/>
+          <snh:gaiji-reference original="第4水準2-84-21" cell="21" plane="2" kind="jis-code" row="84"/>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ja">日本語</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#ndc">901</classCode>
+        <catRef scheme="#ndc" target="#ndc901"/>
+        <classCode scheme="#aozora-orthography">新字新仮名</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p style="text-indent: 5em" rend="first-line-indent(5)" source="#source-618-661"><seg source="#source-618-661">一　連句の独自性</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-661-2184">日本アジア協会学報第二集第三巻にエー・ネヴィル・ホワイマント氏の「日本語および国民の南洋起原説」という論文が出ている。これはこの表題の示すごとく、日本国語の根源が南洋にある事を論証し、従って国民祖先の大部分もまた南洋から渡来したものだと論断しようとするものである。この学説の当否についてはもちろん種々の議論があるであろうが、ここではもちろんそれは問題にしない。この論文の始めの序説中、日本人の独創能力に乏しい事を述べた一節に、チャンバレーン博士の言ったという言葉を引いて、「この邦土で純粋に日本固有というべきものはただ二つ、それは<ruby type="furigana" rend="right" source="#source-1459-1486"><rb>風呂桶</rb><rt>ふろおけ</rt></ruby>とそうしてポエトリーである」と述べている。また「もっと意地の悪いある批評家は『だれもたぶんこの二つのどれもを召し上げたいとは思わないだろう』と言った」とある。この所説の当否もここでは問題にしない。ただこのいわゆるポエトリーがここで何をさすかが問題である。不幸にして私はこのチャンバレーンの言葉がどこに発表されているかを知らないから今たしかにこの点を追究する道がない。しかしたぶんこれはまず和歌をさし、そうして事によると俳句も含まれているのではないかと思うのである。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2184-2792"><seg source="#source-2184-2397">このように、これ以上惨酷にはあり得ないと思うほど惨酷な目で日本の文化をながめたときでさえ、ともかくも目立って見える日本固有の詩形の中でも特に</seg><ruby type="furigana" rend="right" source="#source-2397-2436"><rb>俳諧連句</rb><rt>はいかいれんく</rt></ruby><seg source="#source-2436-2493">という独自なものの存在する事をこれらの</seg><ruby type="furigana" rend="right" source="#source-2493-2523"><rb>毛唐人</rb><rt>けとうじん</rt></ruby><seg source="#source-2523-2688">どもが知っていたかどうか、たとえそういう詩形の存在を概念的に知っていたとしてもほんとうにその内容を理解し正当に</seg><ruby type="furigana" rend="right" source="#source-2688-2706"><rb>估価</rb><rt>こか</rt></ruby><seg source="#source-2706-2792">し得たであろうという事はほとんど不可能であると思われる。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2792-3436">西洋人が俳諧を理解し得ないというのは、われわれ日本人が厳密に正当にゲーテやシェークスピアを理解しないというのとはちがって、そこにもう一つ輪をかけた困難があると思われる。後者には世界人類に共通な人間性そのものが基調をなしているのに、前者には東洋人特に日本人に独自なある物がその存在の主要な基礎になっていると思われるからである。その基礎的要素とは何か、と問われればわれわれはまず単に「それが俳諧である」と答えるよりほかに道はない。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-3436-5613"><seg source="#source-3436-3544">何が俳諧であるかを一口や二口で説明するのは非常にむつかしいが、何が俳諧</seg><hi rend="bouten 傍点 right" source="#source-3544-3586" corresp="#source-3553-3586"><seg source="#source-3544-3553">でない</seg></hi>かを例示するほうが比較的やさしいようである。私の知る限りにおいてドイツ人は俳諧の持ち合わせの最も乏しい国民である。彼らはたとえば、呼び鈴の押しボタンの上に「呼び鈴」とはり札をし、便所の<ruby type="furigana" rend="right" source="#source-3862-3880"><rb>箒</rb><rt>ほうき</rt></ruby>には「便所の箒」と書かなければどうも安心のできない国民なのである。そのおかげでドイツの精密工業は発達し、分析的にひどく込み入っためんどうな哲学が栄える。本来快楽を目的とする音楽でさえもドイツ人の手にかかるとそれが高等数学の数式の行列のようなものになり、目を喜ばすべき映画でさえもこの国でできたものは見ていておのずから頭痛のして来るようなのがはなはだ多い。これに比べてフランスにはいくらかの俳諧があるように思われる。セーヌ河畔の<ruby type="furigana" rend="right" source="#source-4519-4531"><rb>釣</rb><rt>つ</rt></ruby><seg source="#source-4531-4627">り人や、古本店、リュクサンブールの人形芝居、美術学生のネクタイ、</seg><ruby type="furigana" rend="right" source="#source-4627-4645"><rb>蛙</rb><rt>かえる</rt></ruby><seg source="#source-4645-4939">の料理にもどこかに俳諧のひとしずくはある。この俳諧がこの国の基礎科学にドイツ人の及ばない独自な光彩を与え、この国の芸術に特有な新鮮味を添えているのではないかとも思われる。たとえば近代物理学の領域を</seg><ruby type="furigana" rend="right" source="#source-4939-4960"><rb>風靡</rb><rt>ふうび</rt></ruby>した「波動力学」のごときもその最初の骨組みはフランスの一貴族学者ド・ブローリーがすっかり組み立ててしまった。その「俳諧」の中に含まれた「さび」や「しおり」を白日の明るみに引きずり出してすみからすみまで注釈し<ruby type="furigana" rend="right" source="#source-5269-5290"><rb>敷衍</rb><rt>ふえん</rt></ruby><seg source="#source-5290-5613">することは曲斎的なるドイツ人の仕事であったのである。芸術のほうでもマチスの絵やマイヨールの彫刻にはどこかにわれわれの俳諧がある。これがドイツへはいると、たちまちに器械化数学化した鉄筋式リアリズムになるのが妙である。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5613-6137">ヒアガルの絵のように一幅の画面に一見ほとんど雑然といろいろなものを気違いの夢の中の群像とでもいったように並べたのがある。日本人でもこのまねをするあほうがあるが、あれも本来のねらいどころはおそらく一種の「俳諧」であったに相違ない。ただこれは「時」の俳諧の代わりに「空間」の俳諧を試みて、そうしてあまり成効しなかった一つの習作とも見らるるものである。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-6137-8239"><seg source="#source-6137-6503">しかしなんと言っても俳諧は日本の特産物である。それはわれわれの国土自身われわれの生活自身が俳諧だからである。ひとたび世界を旅行して日本へ帰って来てそうして汽車で東海道をずうっと一ぺん通過してみれば、いかにわが国の自然と人間生活がすでに始めから</seg><ruby type="furigana" rend="right" source="#source-6503-6533"><rb>歌仙式</rb><rt>かせんしき</rt></ruby><seg source="#source-6533-6782">にできあがっているかを感得することができるであろうと思う。アメリカでは二昼夜汽車で走っても左右には麦畑のほか何もない所があるという話である。ドイツでは行っても行っても</seg><ruby type="furigana" rend="right" source="#source-6782-6812"><rb>洪積期</rb><rt>こうせきき</rt></ruby><seg source="#source-6812-6866">の砂地のゆるやかな波の上にばらまいた</seg><ruby type="furigana" rend="right" source="#source-6866-6893"><rb>赤瓦</rb><rt>あかがわら</rt></ruby><seg source="#source-6893-6932">の小集落と、キーファー松や</seg><ruby type="furigana" rend="right" source="#source-6932-6956"><rb>白樺</rb><rt>しらかば</rt></ruby><seg source="#source-6956-7145">の森といったような景色が多い。日本の景観の多様性はたとえば本邦地質図の一幅を広げて見ただけでも想像される。それは一片のつづれの</seg><ruby type="furigana" rend="right" source="#source-7145-7163"><rb>錦</rb><rt>にしき</rt></ruby><seg source="#source-7163-7217">をでも見るように多様な地質の小断片の</seg><ruby type="furigana" rend="right" source="#source-7217-7241"><rb>綴合</rb><rt>てつごう</rt></ruby><seg source="#source-7241-7286">である。これに応じて山川草木の</seg><ruby type="furigana" rend="right" source="#source-7286-7310"><rb>風貌</rb><rt>ふうぼう</rt></ruby><seg source="#source-7310-7526">はわずかに数キロメートルの距離の間に極端な変化を示す。また気象図を広げて見る。地形の複雑さに支配される気温降水分布の複雑さは峠一つを隔ててそこに</seg><ruby type="furigana" rend="right" source="#source-7526-7547"><rb>呉越</rb><rt>ごえつ</rt></ruby><seg source="#source-7547-7964">の差を生じるのである。この環境の変化に応ずる風俗人情の差異の多様性もまたおそらく世界に類を見ないであろう。一つは過去の封建制度によってこれが強調されたということは許容しても、人力のいかんともし難い天然環境の影響は将来においてもおそらく永久に継続するであろう。試みに中央線の汽車で</seg><ruby type="furigana" rend="right" source="#source-7964-7991"><rb>甲州</rb><rt>こうしゅう</rt></ruby><seg source="#source-7991-7997">から</seg><ruby type="furigana" rend="right" source="#source-7997-8024"><rb>信州</rb><rt>しんしゅう</rt></ruby><seg source="#source-8024-8239">へ分け入る際、沿道の民家の建築様式あるいは単にその屋根の形だけに注意してみても、私の言うことが何を意味するかがおぼろげにわかるであろうと思う。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-8239-9294">このような天然の空間的多様性のほかにもう一つ、また時間的の多様性においても日本はかなりに豊富に恵まれているのである。南洋中の島では一年じゅうがほとんど同じ季節であり、春夏秋冬はただの言葉である。ここでは俳諧は有り得ない。またたとえばドイツやイギリスにはほんとうの「夏」が欠如している。そうしてモンスーンのないかの地にはほんとうの「春風」「秋風」がなく、またかの地には「<ruby type="furigana" rend="right" source="#source-8794-8815"><rb>野分</rb><rt>のわき</rt></ruby>」がなく「<ruby type="furigana" rend="right" source="#source-8830-8857"><rb>五月雨</rb><rt>さみだれ</rt></ruby>」がなく「しぐれ」がなく、「<ruby type="furigana" rend="right" source="#source-8899-8929"><rb>柿紅葉</rb><rt>かきもみじ</rt></ruby>」がなく「霜柱」もない。しかし大陸と大洋との気象活動中心の境界線にまたがる日本では、どうかすると一日の中に夏と冬とがひっくり返るようなことさえある。その上に大地震があり大火事がある。無常迅速は実にわが国の風土の特徴であるように私には思われる。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-9294-9740"><seg source="#source-9294-9624">日本人の宗教や哲学の奥底には必ずこの自然的制約が深い根を張っている。そうして俳諧の華実もまた実にここから生まれて来るような気がする。無常迅速、流転してやまざる環境に支配された人生の不定感は一方では外来の仏教思想に豊かな</seg><ruby type="furigana" rend="right" source="#source-9624-9645"><rb>沃土</rb><rt>よくど</rt></ruby><seg source="#source-9645-9740">を供給し、また一方では俳諧のさびしおりを発育させたのであろう。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-9740-10993"><seg source="#source-9740-9902">私のこのはなはだ不完全に概括的な、不透明に命題的な世迷い言を追跡する代わりに、読者はむしろ直接に、たとえば</seg><ruby type="furigana" rend="right" source="#source-9902-9926"><rb>猿蓑</rb><rt>さるみの</rt></ruby><seg source="#source-9926-10139">の中の任意の一歌仙を取り上げ、その中に流動するわが国特有の自然環境とこれに支配される人間生活の苦楽の無常迅速なる表象を追跡するほうが、はるかに</seg><ruby type="furigana" rend="right" source="#source-10139-10163"><rb>明晰</rb><rt>めいせき</rt></ruby>に私の言わんと欲するところを示揚するであろう。試みに「<ruby type="furigana" rend="right" source="#source-10244-10259"><rb>鳶</rb><rt>とび</rt></ruby>の羽」の巻をひもといてみる。鳶はひとしきり<ruby type="furigana" rend="right" source="#source-10322-10343"><rb>時雨</rb><rt>しぐれ</rt></ruby><seg source="#source-10343-10697">に悩むがやがて風収まって羽づくろいする。その姿を哀れと見るのは、すなわち日本人の日常生活のあわれを一羽の鳥に投影してしばらくそれを客観する、そこに始めて俳諧が生まれるのである。旅には渡渉する川が横たわり、住には小獣の迫害がある。そうして</seg><ruby type="furigana" rend="right" source="#source-10697-10712"><rb>梨</rb><rt>なし</rt></ruby><seg source="#source-10712-10778">を作り、墨絵をかきなぐり、めりやすを着用し、</seg><ruby type="furigana" rend="right" source="#source-10778-10793"><rb>午</rb><rt>ひる</rt></ruby><seg source="#source-10793-10829">の貝をぶうぶうと鳴らし、</seg><ruby type="furigana" rend="right" source="#source-10829-10847"><rb>茣蓙</rb><rt>ござ</rt></ruby><seg source="#source-10847-10850">に</seg><ruby type="furigana" rend="right" source="#source-10850-10862"><rb>寝</rb><rt>い</rt></ruby><seg source="#source-10862-10868">ね、</seg><ruby type="furigana" rend="right" source="#source-10868-10889"><rb>芙蓉</rb><rt>ふよう</rt></ruby><seg source="#source-10889-10922">の散るを賞し、そうして</seg><ruby type="furigana" rend="right" source="#source-10922-10952"><rb>水前寺</rb><rt>すいぜんじ</rt></ruby><seg source="#source-10952-10993">の吸い物をすするのである。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-10993-11280"><seg source="#source-10993-11280">このようにして一連句は日本人の過去、現在、未来の生きた生活の忠実なる活動写真であり、また最も優秀なるモンタージュ映画となるのである。これについてはさらに章を改めて詳しく論じてみたいと思う。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-11280-11807"><seg source="#source-11280-11667">ともかくも、俳諧連句が過去においてのみならず将来においても、必然的に日本国民に独自なものであるということは、以上の不備な所説でもいくらかは了解されるであろうと思う。そうして、かのチャンバレーン氏やホワイマント氏がもう少しよく勉強してかからないうちは、いくら</seg><ruby type="furigana" rend="right" source="#source-11667-11688"><rb>爪立</rb><rt>つまだ</rt></ruby><seg source="#source-11688-11807">ちしても手のとどかぬところに固有の妙味のあることも明らかになるであろうと思う。</seg></p>
+      <div type="layout" source="#source-11807-11874" style="padding-inline-end: 3em; text-align: right">
+        <p source="#source-11837-11874"><seg source="#source-11837-11874">（昭和六年三月、渋柿）</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 5em" rend="first-line-indent(5)" source="#source-11874-11914"><seg source="#source-11874-11914">二　連句と音楽</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-11914-12234"><seg source="#source-11914-12234">連句というものと、一般に音楽と称するものとの間にある程度の形式的の類似がある事について私は従来もすでにたびたびいろいろな機会に述べたことがあるが、ここでもう一度改めてこの点について詳しく考え直してみたいと思う。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-12234-13064"><seg source="#source-12234-13064">もっとも、なんと言っても音楽は音楽、連句は連句であるから、あまり無理な比較をしようとすれば結局はなはだしい付会に陥るにきまっている。これについては最初から用心してかかる必要がある。しかしこの用心を頭の中に置いた上で、試みにいかなる程度まで、いかなる方向にこの比較が可能であるかを一応当たってみるのは無意義ではないであろう。少なくもそうしてみることによってわれわれは連句というものの本質をなんらかの新しい光のもとに見直す事ができるかもしれない。そうして連句のこれからの進むべき道程に関するなんらかの暗示を得る機縁に探り当てるかもしれないと思うのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-13064-16237">連句に限らずすべての詩歌、ただし近ごろの先端的とか称する奇妙な不規則な詩形の化け物はひとまず除外するとして、普通の古典的の意味においてのすべての詩歌は、皆共通な音楽的要素をもっている。それはまず第一に時間的なリズムである。しかしこれがあるというだけならば連句も他の詩歌も別に変わったことはないようである。しかるに普通の詩歌ではこの律動の要素はかなり必要ではあるが、しかしいくらか従属的なものと見なすこともできる。なぜかと言えば、詩歌にはその言葉の連続によって生ずる一貫した企図の表現、平たく言えば筋書きがあって、その筋書きによって代表された一つのまとまった全体があり、そういう点では律動的でない戯曲や小説や紀行文や随筆やとも共通な要素をもっている。それに付帯してもう一つ音楽的な律動的要素が融合してそうしていわゆる詩歌となっているのである。しかるに連句では一つ一つの短句長句はそれぞれにはまとまった表象をもっているが、ある句とその付け句との間の関係はもはや普通の詩歌の相次ぐ二句の間の関係とはよほどちがったものになっている。実際は一見そういう差別の見えにくい実例もあるかもしれないが、少なくも原理的にはそこに根本的な相違が存在する。この点についてはまた別に詳論する必要があるが、簡単に言えば次のようにも言われる。すなわち普通の詩歌の相次ぐ二句の接続は論理的単義的であり、甲句の「面」と乙句の「面」とは普通幾何学的に連続し、甲の描く曲線は乙の曲線と必然的単義的に連結している。これに反して連句中の一句とその付け句との「面」の関係は、複雑に連絡した一種のリーマン的表面の各葉の間の関係のようなものである。句の外観上の表面に現われた甲の曲線から乙の曲線に移る間に通過するその径路は、実は幾段にも重畳した多様な層の間にほとんど無限に多義的な曲線を描く可能性をもっているのである。そうして連句というものの独自なおもしろみはまさにこの複雑な自由さにかかっているのである。要するに普通の詩歌の相次ぐ二句は結局一つの有機的なものの部分であり、個体としての存在価値をもたないものであるが、連句の二句は、明白に二つの立派な独立な個体であって、しかもその二つの個体自身の別々の価値のみならず、むしろ個体と個体との接触によって生ずる「界面現象」といったようなものが最も重要な価値をもつものになるのである。そうしてこの点がすでに連句と音楽との比較の上に一つの著しい目標を与えるのである。これを私は今かりに旋律的要素と名づけてみようと思う。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-16237-17550"><seg source="#source-16237-16303">音楽の最も簡単なものを取ってみると、それは</seg><ruby type="furigana" rend="right" source="#source-16303-16339"><rb>日蓮宗</rb><rt>にちれんしゅう</rt></ruby><seg source="#source-16339-17500">の太鼓や野蛮人の手拍子足拍子のようなもので、これは同一な音の律動的な進行に過ぎない。これよりもう少し進歩したものになると互いに音程のちがった若干種類の音が使われるようになって、そこにいわゆるメロディーが生まれる。二種の高さの音をそれぞれに取り離して全く別々に聞くだけならば、振動数がかなりちがってもたいしてちがった感じの違いは起こらないのが、二つの音を相次いで聞くときに始めて甲乙二音の音程差に対して特別な限定が生じ、そこからいわゆる音階が生まれて来る。これが旋律の成立の第一条件である。たとえばある基音に対して長三度の音と短三度の音とを二つ別々に相当な時間を隔てて聞いたのではどちらでも全く同じ心持ちしか起こらない。しかし基音からすぐに長三度へあがるのと短三度へ上がるのとではそれこそ全く春と秋とちがうほどの差違を感ずるであろう。次いで五度に移ってみればこの差違はいっそう</seg><ruby type="furigana" rend="right" source="#source-17500-17527"><rb>明瞭</rb><rt>めいりょう</rt></ruby><seg source="#source-17527-17550">に感じられる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-17550-18926"><seg source="#source-17550-17976">連句における一句とその付け句との接続にはこれとよく似たある物があるのである。いったい甲音と乙音とが接続して響く際われわれ人間の内耳の微妙な機官に何事が起こってその結果われわれの脳髄に何事が起こるかということについては今日でも実はまだよくわかっていないのであるが、ただ甲が残して行った</seg><ruby type="furigana" rend="right" source="#source-17976-18006"><rb>余響</rb><rt>ナハクラング</rt></ruby><seg source="#source-18006-18018">あるいは</seg><ruby type="furigana" rend="right" source="#source-18018-18045"><rb>残像</rb><rt>ナハビルド</rt></ruby>のようなものと、次に来る乙との間のある数量的な関係で音の協和不協和が規定されることだけは確実である。連句の場合にはもちろん事がらが比較にならぬほどあまりに複雑であって、到底音の場合などとの直接の比較は許されないが、ただ甲句を読み通した後に脳裏に残る余響や残像のようなものと、次に来る乙句の内容たる表象や情緒との重なりぐあいによって、そこに甲乙二句一つ一つとはまた別なある物が生まれ、これが協和不協和の感を与えることだけは確実である。この二つのものの接触によって生まれる第三の新しいもの、すなわち「音程」というものに相当するものがちょうど連句の場合の「付け味」になると考えることもできる。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18926-19777">今ただ二つの音の連続だけでは旋律はできあがらないと同様に、ただ一対の長句と短句だけでは連句はできない。いろいろな音程が相次いで「進行」して始めて一つの旋律一つの節回しができ、そうすることによってそこにほとんど無際限な変化の自由が生ずるのである。普通のわれわれの音楽で使われる音程の数は有限な少数であるのに、実際これからあらゆる旋律、たとえば<ruby type="furigana" rend="right" source="#source-19439-19472"><rb>追分節</rb><rt>おいわけぶし</rt></ruby><seg source="#source-19472-19777">も生まれればチゴイネルワイゼンも生まれる。ましてや連句の場合にこの音程に相当する付け味の数は言わば高次元の無限大である。これから見ても連句の世界の広大無辺なことをいくらでも想像することができるであろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-19777-20904"><seg source="#source-19777-20089">普通西洋音楽で一つのまとまった曲と称するものにいろいろの形式がある。たとえば三部形式と称するものでは、その名の示すように三つの相次ぐ部分から成立している。たとえば第一の部分がある旋律によって表わされた一つの</seg><ruby type="furigana" rend="right" source="#source-20089-20110"><rb>主題</rb><rt>テーマ</rt></ruby><seg source="#source-20110-20683">であるとすれば、第二の部分はこれと照応しまた対比さるべきものであり、これに次いで来る第三すなわち終局部では再び前の主題が繰り返される。またソナタ形式ならば、第一主題、第二主題の次にいわゆる発展部が来てこれら主題に対する解答を試みる。これが活躍した後に、再び始めの第一、第二主題が繰り返されて終局するのである。今連句歌仙の三十六句をたとえば（表六句）（裏と二の表裏合わせて二十四句）（</seg><ruby type="furigana" rend="right" source="#source-20683-20704"><rb>名残</rb><rt>なごり</rt></ruby><seg source="#source-20704-20904">の裏六句）と分けて、これを三部形式あるいはソナタ形式にたとえてみることもできないことはないが、この対比はそれほど適切とは思われない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-20904-22223">上記のような形式から成る「楽章」をさらに三つ四つと続けていわゆるソナタやシンフォニーを構成する。この組み立てのほうが連句の組み立てと比較するのにより適当であるように思われる。もっとも正当なソナタやシンフォニーのように四楽章から成る場合だと、第一章が通例早いテンポのソナタ形式のもの、第二章がいわゆるスロームーヴメントで表情豊かな唱歌形式のもの、第三章が軽快な舞踏曲のようなもので、往々<ruby type="furigana" rend="right" source="#source-21483-21522"><rb>諧謔的</rb><rt>かいぎゃくてき</rt></ruby><seg source="#source-21522-22223">なスケルツォが使われる。第四章がたいてい急テンポのロンドやソナタ形式のものになっている。そこで今試みに歌仙の一つを取って考えてみると、少なくも私だけの感じでは、形式的にも最初の表六句は一つの楽章を作り、次に裏の十二句が又一つの楽章、次に二の表の十二句が第三楽章、そうして最後の六句が第四の終局楽章を形成していると言ってもたいした無理な比較ではないような気がするのである。この比較の当否は二段としても、試みにこういう考えを仮設してもう少し比較を進めてみたらどうなるか。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-22223-24586"><seg source="#source-22223-22361">まず第一楽章六句はおのずから温雅で重厚な気分に統一されている場合が多いようである。ここでは</seg><ruby type="furigana" rend="right" source="#source-22361-22382"><rb>神祇</rb><rt>じんぎ</rt></ruby><seg source="#source-22382-22922">釈教恋無常の活躍は許されない。テンポで言えばまずアンダンテのような心持ちである。第二楽章十二句になるとよほど活発にあるいはパッショネートになって来て、恋をしたり子をかわいがったり大病をしたり坊主になったりする。しかし全体のテンポは私にはむしろ緩徐に感ぜられ、アダジオのような気持ちがする。ところが第三楽章の十二句になると、どうもだいぶ気が軽くなり行儀がくずれて</seg><hi rend="bouten 傍点 right" source="#source-22922-22970" corresp="#source-22934-22970"><seg source="#source-22922-22934">はれた足</seg></hi><seg source="#source-22970-22997">を縁へ投げ出したり</seg><hi rend="bouten 傍点 right" source="#source-22997-23069" corresp="#source-23021-23069"><seg source="#source-22997-23021">物ごとにだだくさ</seg></hi><seg source="#source-23069-23114">になったり隣家とけんかをしたり</seg><ruby type="furigana" rend="right" source="#source-23114-23141"><rb>雪舟</rb><rt>せっしゅう</rt></ruby>の自慢をしたりあばたの小僧をいやがらせたり、どうもとかくスケルツォの気分が漂って来る場合が多いようである。そうしてテンポも早くアレグロになり、時にはプレストにもなるようである。ところが最終の第四楽章に入ると、再びもとの静かさに帰る、そうして「花の座」が現われ、最後に、ゆるやかなあげ句で、ちょうど春の夕暮れのような心持ちで全編が終結するのである。これはもちろんラルゴかレントの拍子である。このように連句の場合では１と４が緩徐であるのに、音楽のほうでは１と４が急テンポである事自身がまたわれわれにおもしろい問題を提供するのであるが、これについてはあまりに岐路に入ることになるのでここには述べない。ただこの比較から得らるる一つの暗示は、歌仙の形式で<ruby type="furigana" rend="right" source="#source-24107-24131"><rb>芭蕉</rb><rt>ばしょう</rt></ruby><seg source="#source-24131-24586">以来の伝統的な形式とちがった、西洋音楽のそれのようなものをも作りうるのではないかということ、またこれと逆に俳諧の構造を音楽のほうに移して連句的な楽章配置をもったソナタやコンツェルトを作ることはできないかということである。これはただの暗示であるが、ともかくも一つの可能性を示唆するものであろうと思われる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-24586-25008"><seg source="#source-24586-25008">元来この四楽章構成は決して偶然なものではなくて、ちょうど漢詩の起承転結などにも現われまた戯曲にも小説にも用いられる必然的な構成法であって特に連句のみに限られたことではないのであるが、しかしその構成要素の音楽的な点から見て連句の場合ほど適切なる比較を許すものは他にはないのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-25008-25454"><seg source="#source-25008-25454">さて上記の考え方では、連句の長句一つ、短句一つを、それぞれの一つの音に比較するという前提のもとに考えを進めたのであるが、これは多くの中の一つの考え方であって、唯一無二の考え方ではない。これよりももっと適切で有効な比較はいくらもあるであろう。たとえばわれわれは次のような比較を試みることもできる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-25454-27427">前述のように連句中の一句一句をそれぞれの一つの音と見立てる代わりにこれよりはもう少し複雑な見方をすることもできる。元来一つの長句ならば長句の中には、実際いろいろな表象や観念が含まれていて、それらの結合によって一つの複雑な光景なり情緒なりが代表され描写されている。こういう見方からすれば、それらの一句中のいくつかの表象はそれぞれ一つずつの音のようなものであって、これが寄り集まって一つの「<ruby type="furigana" rend="right" source="#source-26036-26057"><rb>和弦</rb><rt>かげん</rt></ruby>」のようなものを構成していると見られないことはない。もっとも、ただの一句でもそれを読む時の感官的活動は時間的に進行するので、決して同時にいろいろの要素表象が心に響くのではないが、しかし一句としてのまとまった感じは一句を通覧した時に始めて成立するのであるから、物理的には同時でなくても心理的には「同時」にこれらの各表象が頭に響くので、結局三つか四つの弦を同時に鳴らせた一つの和弦を聞くか、あるいは和弦を分解して交互に響かせるアルペジオを聞く場合と類似の過程である。つまり一つの句をたとえばピアノの譜で縦に重畳した若干の重音の<ruby type="furigana" rend="right" source="#source-26840-26861"><rb>串刺</rb><rt>くしざ</rt></ruby><seg source="#source-26861-27311">しに相当させることができる。これが大きな管弦楽ならばまたいっそう多数の音が重畳して来るわけであるが、連句の一句に同時に響いて来る表象情緒の重なり方の複雑さは、管弦楽などよりもいっそうウルトラの複雑さで到底数字や記号で表わさるべき程度のものではないのである。それでもわれわれはともかくもこの二つのものの</seg><ruby type="furigana" rend="right" source="#source-27311-27341"><rb>和弦的</rb><rt>かげんてき</rt></ruby><seg source="#source-27341-27427">要素の比較にある意味を認めることだけはできるように思う。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-27427-30618"><seg source="#source-27427-27520">複音が相次いで進行する場合にそこにいろんな込み入ったいわゆる</seg><ruby type="furigana" rend="right" source="#source-27520-27550"><rb>和声学</rb><rt>ハルモニー</rt></ruby><seg source="#source-27550-27988">上の規則が生まれて来る。これらを一々引き合いに出して連句の場合に付会しようとしても、それはおそらく始めから無理であるにきまっているが、しかし連句の相次ぐ二句の接触によって甲句に含むいろいろの組成要素と乙句に含むそれらとの関係から、いわゆる付き過ぎたり離れ過ぎたりする現象が起こって来る。これが</seg><ruby type="furigana" rend="right" source="#source-27988-28018"><rb>和声学</rb><rt>ハルモニー</rt></ruby><seg source="#source-28018-28132">上のいろいろな規則とどこかに共通な原理を思わせるものがあるのである。たとえば</seg><ruby type="furigana" rend="right" source="#source-28132-28153"><rb>和声</rb><rt>かせい</rt></ruby><seg source="#source-28153-28744">のほうで八度や五度の並行を忌むというのは、つまりあまりに付き過ぎて進行変化がなくなるのをきらうからである。また一方であまりに突飛な音の飛躍も喜ばれないのはつまり離れ過ぎを忌むのである。次から次と不即不離な関係で無理なく自由に流動進行することによってそこにベートーヴェンやブラームスが現われて活躍するのである。またあまりに美しい完全な和弦が連行すると単調になり退屈になるので適当な不協和音を適当に</seg><ruby type="furigana" rend="right" source="#source-28744-28771"><rb>插入</rb><rt>そうにゅう</rt></ruby><seg source="#source-28771-30181">することによって、曲の変化と活気が生じる。それと同様に、歌仙でもあまり美しい上品なそして句調の平滑な句が続くと、すぐだれて来て活気がなくなる。われわれ初心の者の連句はとかくこうなりたがるのである。しかし古人のすぐれた連句と思うのをよく解剖してみると、どうもこの不協和音のようなものが巧みに插入されているように思われる。一句として見ても、また前句との付きぐあいから見ても、どうにもあまりぞっとしないと思われる句が七部集の中でもたくさんにある。それで一句一句しらみつぶしに解釈し批評して行く場合にはこれらの句はややもすれば罰点を付けられるのであるが、しかし上述のような考え方に従ってその句の近辺一帯の進行を通観した後にその一句の役目を考え直してみると、多くの場合にわれわれはこのやや劣勢なる不協和音的存在の価値を前とはちがった光のもとに見直すことがあるような気がする。芭蕉のごときこの道の大先達はおそらくこの点をかなりまで判然と意識していて、そうしてこれらの悪句を巧みに拾い上げて插入し活用したのかもしれない。試みにこれらのへんな句やいやな句を</seg><ruby type="furigana" rend="right" source="#source-30181-30205"><rb>抹殺</rb><rt>まっさつ</rt></ruby><seg source="#source-30205-30538">してそれを美しいやさしいさびしおりにみちた句ばかりに作り変えることができたとする。そうしてみた後にわれわれは、事によると、せっかくのその修正の成果が意外にも単調一律なよそ行きの美句の退屈なる連鎖になりおおせたことを発見して</seg><ruby type="furigana" rend="right" source="#source-30538-30562"><rb>茫然</rb><rt>ぼうぜん</rt></ruby><seg source="#source-30562-30618">自失するようなことになりはしないか。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-30618-31595"><seg source="#source-30618-30885">連句と音楽とのいろいろな並行性を考えるときに、いつも私の痛切に感じる一つの点は、歌仙の終局の数句の推移の感じが実によく楽曲の終節の感じに似ていることである。曲の最後に打ち止めの</seg><ruby type="furigana" rend="right" source="#source-30885-30915"><rb>主和弦</rb><rt>しゅかげん</rt></ruby>が端然として響く前にあらかじめ不協和な一団の音群があって、それから最後の和弦への推移がいわゆる「<ruby type="furigana" rend="right" source="#source-31059-31095"><rb>解決</rb><rt>アウフレーズング</rt></ruby>」によってきわめて自然に行なわれて、たとえば肩の凝りがすうととけるように感じる、そうしてそれによって終局<ruby type="furigana" rend="right" source="#source-31251-31275"><rb>安堵</rb><rt>あんど</rt></ruby><seg source="#source-31275-31287">の感じが</seg><ruby type="furigana" rend="right" source="#source-31287-31314"><rb>明瞭</rb><rt>めいりょう</rt></ruby><seg source="#source-31314-31595">に印銘される。ところが連句の最後の花の座の直前一二句の複雑な曲折から、花の座を経過して最後の短句に入ってゆるやかに静かに終局するあの心持ちが実によくこの楽曲終節の感じに似ているのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-31595-31750"><seg source="#source-31595-31750">これと同様なことは歌仙の他の部分と楽曲のこれに対応する部分についてもある度までは言われるように思う。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-31750-32256">このような、かりに「<ruby type="furigana" rend="right" source="#source-31783-31813"><rb>和声的</rb><rt>かせいてき</rt></ruby>要素」とでも名づくべきものは、普通の詩歌の中にでもしいて求むればある程度までは求められないことはないかもしれないが、しかしそれは前の律動的要素や旋律的要素と同様に従属的なものである。しかるに連句の場合にはこれが本質的な第一義的の主要素であってこれを取ってしまえば連句はなくなってしまうのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-32256-33095">以上述べたところを約言してみると、連句は音楽と同じく「<ruby type="furigana" rend="right" source="#source-32340-32361"><rb>律動</rb><rt>リズム</rt></ruby>」と「<ruby type="furigana" rend="right" source="#source-32370-32397"><rb>旋律</rb><rt>メロディー</rt></ruby>」と「<ruby type="furigana" rend="right" source="#source-32406-32433"><rb>和声</rb><rt>ハーモニー</rt></ruby>」をその存立要件として成立するものである。そうして音楽の場合の一つ一つの音に相応するものがいろいろの物象や感覚の心像、またそれに付帯し<ruby type="furigana" rend="right" source="#source-32634-32658"><rb>纏綿</rb><rt>てんめん</rt></ruby>する情緒である。これらの要素が相次ぎ相重なって律動的旋律的和声的に進行するものが俳諧連句である。従ってこれらの音に相当する要素には一つ一つとしての「意味」はあっても一編の歌仙全体にはなんらの物語の筋は作り上げない。筋はあってもそれはもはや言葉では言い現わされない、純音楽的な進行の筋である。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-33095-33544"><seg source="#source-33095-33544">このように、連句は文学であるよりは、より多く音楽である。近代のわが国の文学者が俳諧連句の存在を認めなかったのはむしろ当然であるかもしれない。しかしそうかと言っていわゆる音楽者のほうでは楽器や人間の声帯の発する音以外のものはいっさい取り扱わないのであるから、連句はもちろん音楽者からも顧みられない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-33544-33843"><seg source="#source-33544-33787">舞踊と連句とも、やはりその音楽的要素においてかなりよく似た点があると思うのであるが、舞踊家も舞踊の研究者もいまだかつてこのわが国に特有な音楽的芸術としての連句に</seg><ruby type="furigana" rend="right" source="#source-33787-33811"><rb>一瞥</rb><rt>いちべつ</rt></ruby><seg source="#source-33811-33843">を与えようとしない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-33843-35132">近代のモンタージュ映画は次第に音楽的、連句的の方面に進展しているように見える。たとえば最近に見たソビエト映画の「春」のごときもそうである。特にこれには「季題感」が背景として動いているところに俳諧的な感じが強い。そうして、律動的旋律的<ruby type="furigana" rend="right" source="#source-34194-34227"><rb>和声的</rb><rt>かせいてき</rt></ruby>の進行を企図している点も実に連句的である。ただこの「春」と「炭俵」「<ruby type="furigana" rend="right" source="#source-34329-34353"><rb>猿蓑</rb><rt>さるみの</rt></ruby>」等の中の歌仙とを対比して見ると、私はいかに前者がまだ幼稚で、いかに後者が洗練されているかに驚嘆するものである。それにかかわらず、わが国の映画界や多数の映画研究者・映画批評家はいたずらに西洋人の<ruby type="furigana" rend="right" source="#source-34644-34668"><rb>後塵</rb><rt>こうじん</rt></ruby><seg source="#source-34668-34671">を</seg><ruby type="furigana" rend="right" source="#source-34671-34698"><rb>追蹤</rb><rt>ついしょう</rt></ruby><seg source="#source-34698-35132">するに忙しくて、われわれの足元に数百年来ころがっているこのきわめて優秀なモンタージュ映画の立派なシナリオの存在には気づかないように見える。あるいは気がついても認めたくないのかもしれない。そうしてプドーフキンがどう言った、エイゼンシュテインがどう言ったと言わなければ収まらないように見える。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-35132-36535">かようにして連句芸術は、文学者からも音楽家からも映画界からも閑却されて、あたかも過去の幽霊のごとくなってしまった。由来現今の日本人はすべてのものの批判の標準を西洋人の頭の中へ置くのであるから、西洋人の全然知らない従って称揚しない連句が問題にならないのもやむを得ない次第であろう。そのうちにだれか西洋で毛色の変わった日本学者がこの連句芸術を「発見」して、これを驚嘆し<ruby type="furigana" rend="right" source="#source-35681-35705"><rb>礼賛</rb><rt>らいさん</rt></ruby><seg source="#source-35705-35819">し宣伝する日が来るかもしれない。そうすると、ちょうど荷物の包み紙になっていた</seg><ruby type="furigana" rend="right" source="#source-35819-35837"><rb>反古</rb><rt>ほご</rt></ruby><seg source="#source-35837-35846">同様の</seg><ruby type="furigana" rend="right" source="#source-35846-35870"><rb>歌麿</rb><rt>うたまろ</rt></ruby><seg source="#source-35870-35873">や</seg><ruby type="furigana" rend="right" source="#source-35873-35897"><rb>広重</rb><rt>ひろしげ</rt></ruby>が一躍高貴な美術品に変化したと同様の現象を呈するかもしれない。ただ困った事には、目で見ればわかる絵画とちがって、「国語」を要素とする連句がほんとうに西洋人に「わかる」見込みはなかなか容易にはなさそうである。そうしてみると結局日本人の西洋本位思想が少しでも減退してほんとうの国民的自覚が<ruby type="furigana" rend="right" source="#source-36323-36347"><rb>勃興</rb><rt>ぼっこう</rt></ruby><seg source="#source-36347-36535">しない限り、連句が日本人自身から正当に認められる日の来るのはなかなか待ち遠しいかもしれない。考えてみると情けない次第である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-36535-38379"><seg source="#source-36535-37411">しかしまた考えてみると、西洋人のまねをして西洋の理論の代弁をするような情けないできそこないの日本人は、日本国民の中ではむしろ比較的少数な特殊階級の人間である。国民の大多数はやはり純良種の日本人であって米の飯とたくあんを食い、われら固有の民謡をうたい、われらの踊りを踊っている。そうして連句に現われているそのままの日本人の生活をまさしく生活しつつあるのである。従ってこれらの大多数の純日本人は当然に俳諧連句に対する先天的の理解力も創作能力も付与されているのである。ただ現在では彼らの耳目の及ぶ範囲のそとに連句が放逐されているために、彼らはこの者の存在を全く忘れてしまっているのである。</seg><ruby type="furigana" rend="right" source="#source-37411-37432"><rb>神田</rb><rt>かんだ</rt></ruby><seg source="#source-37432-37468">を歩いてあの数多い書店の</seg><ruby type="furigana" rend="right" source="#source-37468-37483"><rb>棚</rb><rt>たな</rt></ruby><seg source="#source-37483-38074">から棚とあさって歩いて見ても、連句に関する書籍の数は全体の何万分の一にも足りない少数である。日本人でありながらロシア人やアメリカ人になったような気持ちで浮かれた事を満載した書物はよく売れると見えて有り過ぎるほどあるのに、連句の本などはミイラかウニコーンを捜す気で捜さなければ見つからない。これが何よりの証拠である。ただ近来少数ではあるがまじめで立派な連句に関する研究的の著書が現われるのは暗夜に</seg><ruby type="furigana" rend="right" source="#source-38074-38098"><rb>一抹</rb><rt>いちまつ</rt></ruby><seg source="#source-38098-38101">の</seg><ruby type="furigana" rend="right" source="#source-38101-38125"><rb>曙光</rb><rt>しょこう</rt></ruby><seg source="#source-38125-38379">を見るような気がして喜ばしい。しかし結局連句は音楽である。音楽は演奏され聞かれるべきものである。連句の音楽はもう少し広く日本人の間に演奏され享楽されてしかるべきである。</seg></p>
+        <p source="#source-38379-38792">「連句と音楽」という題目のもとに考えらるべき事はまだたくさんにあるが、それらについてはさらに項を改めて詳しく述べてみたいと思う。上述の未熟な所説についてはさらに考え直さなければならない不備の点も多いことと思われるので、それらの点については読者の示教を仰ぎたいと思うのである。</p>
+      </div>
+      <div type="layout" source="#source-38792-38865" style="padding-inline-end: 3em; text-align: right">
+        <p source="#source-38822-38865"><seg source="#source-38822-38865">（昭和六年四―五月、渋柿）</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 5em" rend="first-line-indent(5)" source="#source-38865-38905"><seg source="#source-38865-38905">三　連句と合奏</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-38905-39336">連句の文学的作品としての著しい特異性の一つと見るべきことは、それが一つのまとまった全体を形成しておりながらその作者は必ずしも一人の人間でなくてむしろ一般には数人の一団より成る「集合人」であるということである。近ごろの言葉で言えば一種の共同制作によってできあがるものだということである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-39336-41090"><seg source="#source-39336-40299">漢詩でもたまには数人の合作になるものはあるようである。近ごろはひとつづきの小説を数人の作者が書き続けて行くのもあるようである。これらの場合その作者たちにとっては、行く先がどういうふうに成り行くものか見当がつかないで、そうしていろいろと思いもかけない方向に発展して行くという好奇的な享楽は多分にあるかもしれないが、できあがった結果をその制作過程を知らない読者のほうから見た場合にはたいていはなはだあっけのないものになってしまっているのが多いようである。できあがったものは形式上普通の詩や小説と全く同じであるから読むほうではそういうつもりで読み、またそういうものとしての論理や性格やの統一を要求しているのに、内容にはどうしてもどこかに分裂があり</seg><ruby type="furigana" rend="right" source="#source-40299-40317"><rb>齟齬</rb><rt>そご</rt></ruby>があるのを免れ難いからである。連句の場合ではこれと反対に読者のほうで初めから普通の詩や小説のように話の筋や論理的の連結を期待せず、また期待してもそういうものはどこにもない。そうして前条に詳説したようにたださまざまの景象や情緒の変転して行く間に生まれ来る「旋律」と「和声」とを聞かされるのである。従ってこの間に錯雑して現われて来るいろいろな作者のそれぞれちがった個性はなんらの<ruby type="furigana" rend="right" source="#source-40878-40899"><rb>破綻</rb><rt>はたん</rt></ruby><seg source="#source-40899-41090">を生じないのみか、かえってちょうどいろいろ違った音色をもつ楽器のそれぞれの音のような効果をもって読者の胸に響いて来るのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-41090-41947"><seg source="#source-41090-41708">前者では一つの個性が分裂し破壊した感じを与えるのに対して、後者では多数の個性が融合調和して一つの全体を構成しているように感じられるのである。前者では往々たとえば一人の歌手の声が途中で破れていわゆる五色の声を出すような不快な感があるのに、後者では、いろいろの音域の肉声や楽器の音の集まった美しい快い合奏を聞くような感じを与えるのである。もし詩や小説の合作がまれに非常にうまく成効した場合にはどうかと言えば、それは</seg><ruby type="furigana" rend="right" source="#source-41708-41735"><rb>畢竟</rb><rt>ひっきょう</rt></ruby>言わば作者Ａと作者Ｂとの共同によって成り立った「共通人」Ｃといったような一人の仮想的個人の詩か小説であるのと何も変わったことはないであろう。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-41947-44085"><seg source="#source-41947-42043">ここで考えているような立場からすれば、普通の文学的作品は一種の</seg><ruby type="furigana" rend="right" source="#source-42043-42070"><rb>分析</rb><rt>アナリシス</rt></ruby><seg source="#source-42070-42112">であるのに対して連句は一種の</seg><ruby type="furigana" rend="right" source="#source-42112-42139"><rb>編成</rb><rt>シンテシス</rt></ruby><seg source="#source-42139-42436">であるとも言われる。前者は与えられた一つのものに内在する有機的構造を分析展開して見せるに対して、後者は与えられた離れ離れの材料からそれによって合成されうべき可能の圏内に独創機能を働かせて建築を構成し</seg><ruby type="furigana" rend="right" source="#source-42436-42463"><rb>綾錦</rb><rt>あやにしき</rt></ruby><seg source="#source-42463-42868">を織り成すものだとも言われないことはないのである。こういう意味でも連句はやはりいちばんよく楽曲に似ている。そうして多数の作者より成る連句はまさに一つの管弦楽に類していると言ってもはなはだしい不倫の比較ではあるまいと思われるのである。ただ一種の楽器のあまり長い独奏は聴者の</seg><ruby type="furigana" rend="right" source="#source-42868-42892"><rb>倦怠</rb><rt>けんたい</rt></ruby>をきたしやすい。もっともピアノなどにはしばしば相当長い独奏曲があるにはあるが、これはしかし、見方によれば常にあまたの同時に響く音の並行であって、肉声ならばちょうど四部合唱のようなものを一つの器械を借りて一人の手で奏しているようなものである。実際、ピアノの高いほうの音と低い音のほうではいわゆる「音色」の感じにもいくらかの違いがあると考えれば考えられなくもないのである。それでもピアノの大曲となればやはりコンツェルトのように管弦が添うのが常である。合奏として見た連句で、三人ないし四五人までの共同制作になるものに比較さるべきものとしては各種のいわゆる「室内楽」がある。すなわち<ruby type="furigana" rend="right" source="#source-43753-43777"><rb>三重奏</rb><rt>トリオ</rt></ruby><seg source="#source-43777-43780">、</seg><ruby type="furigana" rend="right" source="#source-43780-43810"><rb>四重奏</rb><rt>カルテット</rt></ruby><seg source="#source-43810-43813">、</seg><ruby type="furigana" rend="right" source="#source-43813-43846"><rb>五重奏</rb><rt>クインテット</rt></ruby><seg source="#source-43846-43918">と称するのがそれである。二人だけの連吟はもちろん</seg><ruby type="furigana" rend="right" source="#source-43918-43948"><rb>二重奏</rb><rt>デュエット</rt></ruby><seg source="#source-43948-44085">であるが、場合によっては一方が独奏で他方は伴奏のような感じを与えるものさえもないではない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-44085-47348">試みに芭蕉七部集をひもといて二三の実例について考えてみる。まず試みに「炭俵」上巻の初めにある芭蕉<ruby type="furigana" rend="right" source="#source-44232-44253"><rb>野坡</rb><rt>やば</rt></ruby>の合奏を調べてみると、「むめが香にのっと日の出る山路かな」の発句にはじまって、「<ruby type="furigana" rend="right" source="#source-44373-44397"><rb>屏風</rb><rt>びょうぶ</rt></ruby>の陰に見ゆる菓子盆」の揚げ句に終わる芭蕉のパートにはいったいにピッチの高いアクセントの強い句が目に立つ。これに相和する野坡のパートにはほとんど常に低音で弱い感じが支配しているように思われる。「<ruby type="furigana" rend="right" source="#source-44685-44712"><rb>家普請</rb><rt>やぶしん</rt></ruby>を春のてすきにとり付いて」（野）の静かな低音の次に「<ruby type="furigana" rend="right" source="#source-44790-44805"><rb>上</rb><rt>かみ</rt></ruby>のたよりにあがる米の値」（芭）は、どうしても高く強い。そうして「<ruby type="furigana" rend="right" source="#source-44901-44916"><rb>宵</rb><rt>よい</rt></ruby>の内はらはらとせし月の雲」（芭）と一転しているのは一見おとなしいようでもあるが、これを次に来る野坡の二句「<ruby type="furigana" rend="right" source="#source-45075-45096"><rb>藪越</rb><rt>やぶご</rt></ruby>しはなす秋のさびしき」「<ruby type="furigana" rend="right" source="#source-45132-45156"><rb>御頭</rb><rt>おかしら</rt></ruby>へ菊もらわるるめいわくさ」の柔らかく低いピッチに比べると、どうしても違った積極的主動的の音色を思わせる。なんとなく、たとえば芭蕉がヴァイオリン、<ruby type="furigana" rend="right" source="#source-45372-45390"><rb>野坡</rb><rt>やば</rt></ruby>がセロとでもいったような気がするのである。それから「娘を堅う人にあわせぬ」と強く響くあとに「<ruby type="furigana" rend="right" source="#source-45528-45555"><rb>奈良通</rb><rt>ならがよ</rt></ruby>い同じつらなる細元手」と弱く受ける。「ことしは雨のふらぬ六月」（芭）はちょっと見るとなんでもないようで実ははなはだしくきつく響いており、「預けたるみそとりにやる向こう<ruby type="furigana" rend="right" source="#source-45804-45822"><rb>河岸</rb><rt>がし</rt></ruby>」（野）は複雑なようで弱い。「ひたといい出すお袋の事」と上がれば「よもすがら尼の持病を押えける」と下がるのである。……こういうふうに全編を通じて見て行っても芭蕉と野坡の「音色」の著しいちがいはどこまでも<ruby type="furigana" rend="right" source="#source-46125-46149"><rb>截然</rb><rt>せつぜん</rt></ruby><seg source="#source-46149-46179">と読者の心耳に響いて</seg><ruby type="furigana" rend="right" source="#source-46179-46206"><rb>明瞭</rb><rt>めいりょう</rt></ruby>に聞き分けられるであろう。同じように、たとえば「炭俵」秋の部の<ruby type="furigana" rend="right" source="#source-46299-46320"><rb>其角</rb><rt>きかく</rt></ruby><ruby type="furigana" rend="right" source="#source-46320-46341"><rb>孤屋</rb><rt>こおく</rt></ruby>のデュエットを見ると、なんとなく金属管楽器と木管楽器の対立という感じがある。前者の「秋の空尾の<ruby type="furigana" rend="right" source="#source-46482-46494"><rb>上</rb><rt>え</rt></ruby><seg source="#source-46494-46497">の</seg><ruby type="furigana" rend="right" source="#source-46497-46512"><rb>杉</rb><rt>すぎ</rt></ruby>に離れたり」「息吹きかえす<ruby type="furigana" rend="right" source="#source-46551-46575"><rb>霍乱</rb><rt>かくらん</rt></ruby>の針」「顔に物着てうたたねの月」「いさ心跡なき金のつかい道」等にはなんらか晴れやかに明るいホルンか何かの調子があるに対して「つたい道には丸太ころばす」「足軽の<ruby type="furigana" rend="right" source="#source-46812-46833"><rb>子守</rb><rt>こもり</rt></ruby>している八つ下がり」その他には少なくも調子の上でどことなく重く濁ったオボーか何かの音色がこもっている。最後にもう一つ「<ruby type="furigana" rend="right" source="#source-47010-47034"><rb>猿蓑</rb><rt>さるみの</rt></ruby>」で芭蕉<ruby type="furigana" rend="right" source="#source-47046-47073"><rb>去来</rb><rt>きょらい</rt></ruby><ruby type="furigana" rend="right" source="#source-47073-47100"><rb>凡兆</rb><rt>ぼんちょう</rt></ruby><seg source="#source-47100-47103">の</seg><ruby type="furigana" rend="right" source="#source-47103-47127"><rb>三重奏</rb><rt>トリオ</rt></ruby><seg source="#source-47127-47348">を取ってみる。これでも芭蕉のは活殺自由のヴァイオリンの感じがあり、凡兆は中音域を往来するセロ、去来にはどこか理知的常識的なピアノの趣がなくはない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-47348-47881"><seg source="#source-47348-47881">しかしこういう見立てのようなことはもちろん見る人によっていろいろちがいうるものであり、なんら絶対普遍的価値のないものである。従って、そういう無理な比較を列挙するのがここの目的ではない。ただこういう仮設的な比較によって、連句におけるいろいろな個性の対立ということがいかに重要なものであるかを理解するための一つの展望的見地を得ようとするに過ぎないのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-47881-49251"><seg source="#source-47881-48307">こういうふうに考えて来た後に、連句のうちでも独吟というものにどうもあまりおもしろいものの少ないという事実の所因を考えてみれば、その答解はもう自然に眼前に出て来ることになる。すなわち独吟はちょうど伴奏さえもつかないほんとうの独奏をつづけざまに一時間も聞かされるようなものである。これで</seg><ruby type="furigana" rend="right" source="#source-48307-48331"><rb>倦怠</rb><rt>けんたい</rt></ruby>を起こさせないためには演奏者は実に古今独歩の名手でなければならないわけである。次に二重奏連句の二人の作者が、もしその性格、情操、趣味等において互いに共通な点を多分にもっている場合には、句々の応酬はきわめて平滑に進行し、従って制作中のその二人の作者自身の心持ちはきわめて愉快に経過するのであるが、できあがったものを「連句の読者」としての読者の目から見ると、それは事実上結局上述のごとき独吟とほとんど同じようなものになってしまっているべきはずなのである。西洋音楽では同一楽器の二重奏は少なく、あっても非常におもしろいというものはまずはなはだまれであり、それをおもしろく聞かせるにはよほどの名人ぞろいを要するのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-49251-51401"><seg source="#source-49251-49719">こういう立場からすると、連句の共同作者としてはむしろその性格、情操、趣味等において互いに最も多様に相異なるしかもすぐれたそれぞれの特徴を備えた一集団を要するということになって来るであろう。しかし単にいろいろの優秀な楽器が寄り集まっただけでは音楽にはならないと同様に、単にいろいろな個性が他と没交渉に各自の個性を</seg><ruby type="furigana" rend="right" source="#source-49719-49746"><rb>頑強</rb><rt>がんきょう</rt></ruby><seg source="#source-49746-50616">に主張しているだけでは連句は決して成立しない。それらの相反するものが融合調和し相互に扶助し止揚することによって一つの完全なる全体を合成し、そうして各因子が全体としての効果に最も有効に寄与しているのでなければならない。こういうわけであるから、連句のメンバーは個性の差違を有すると同時に互いに充分なる理解と同情とをもっていなければ一つの歌仙をまとめる事も不可能である。トリオやカルテットの仲間がよくできては解散し、解散してはまた別の組ができるのであるが、事情を聞いてみると皆仲間の間の個性の融和がつきにくいのに帰因するようである。もっともこれは楽器の音色が合わないのではないが、これも</seg><ruby type="furigana" rend="right" source="#source-50616-50643"><rb>畢竟</rb><rt>ひっきょう</rt></ruby>楽器を通して演奏を色づける演奏者の「音色」の不調和によるとも見られないことはない。同じようなわけで一つの連句をまとめ上げうるためには、各メンバーがかなり世間と人間とに対する広い理解をもっていなければならないということになるわけである。言い換えると相当に年を取りそうしていわゆる苦労をしていなければできない仕事だということにもなりうるわけである。こういう立場から見ると、「連句する」ことも合奏することも、決してあだな娯楽や消閑の一相ではなくて、実は並みならぬ修行であり鍛錬であることがわかって来るのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-51401-52300"><seg source="#source-51401-52238">トリオやカルテットぐらいならば別に指揮者を必要としないが、少し楽器が多くなって管弦楽の形をとるようになれば、もはやそれは一人のちゃんとした指揮者なしには進行することができなくなる。それと同様に連句でもおおぜいの共同に成る場合には、おそらく一人の指揮者によって始めて最善の効果を上げうるのではないかと思われる。自分は芭蕉時代の連句がいかなる統率法によって行なわれたかという事についてなんらの正確な知識をもたないのであるが、少なくも芭蕉の関与したものである限り、いずれも芭蕉自身がなんらかの意味において指揮棒をふるうてできたものと仮定してもおそらくはなはだしい</seg><ruby type="furigana" rend="right" source="#source-52238-52262"><rb>臆断</rb><rt>おくだん</rt></ruby><seg source="#source-52262-52300">ではないであろうと思う。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-52300-52995"><seg source="#source-52300-52819">管弦楽の指揮者は作曲者と同様に各楽器の特質によく通暁していなければならない。ラッパにセロの音を注文してはならない、セロにファゴットの味を求めてはならない。すべてのものの個性を理解してそれを充分に生かしつつしかもどこまでも全体の効果へと築き上げて行かなければならない。だれでもが指揮者になれない理由はそこにあり、芭蕉七部集の連句には一芭蕉の存在を</seg><ruby type="furigana" rend="right" source="#source-52819-52840"><rb>必須</rb><rt>ひっす</rt></ruby><seg source="#source-52840-52903">とした理由もここにあり、さらにまたたとえば</seg><ruby type="furigana" rend="right" source="#source-52903-52924"><rb>蕪村</rb><rt>ぶそん</rt></ruby><seg source="#source-52924-52995">七部集の見劣りする理由もここにあるのであろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-52995-54386">芭蕉は指揮者であるのみならず、おそらくまた一種の作曲者ででもあったろうと思われる。管弦楽の作曲者の重要な仕事の一つはいわゆるインストルメンテーションであって、すなわち甲乙二つのパートが並行するとして、そのいずれをいずれの楽器に割り当て受け持たせるかによって全体の効果には著しい差違を生ずるのである。連句でも、たとえば去来の「恋」の長句の次を凡兆の「恋」の短句で受けるのと、その反対に去来の短句を凡兆の長句で受けるのとでは、だいぶちがった付け味を示すであろうし、去来の「秋」の次に凡兆の「<ruby type="furigana" rend="right" source="#source-53727-53742"><rb>雑</rb><rt>ぞう</rt></ruby>」が現われるのと、凡兆の「秋」のあとに去来の「雑」が来るのとではやはりかなりちがった効果的特徴を示すであろう。これはおそらくたとえばスコアーの上段をフリュート下段をヴァイオリンで行くのと、それが反対になるのとでまるでちがった音楽になりうるのと似たことになるであろう。おそらく芭蕉は少なくも無意識にはこれらの事理に通暁していたではないかと想像される。そうして場合に応じて適当なる楽器編成を行なったのではないかと想像されるのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-54386-55666"><seg source="#source-54386-55160">これは単に音楽と連句との仮想的対照によって私の得た一つの暗示に過ぎない。前にも断わっておいたとおりこのような比較対照は厳密な意味では本来無理であるのに、それにもかかわらずそれをあえてしたのは、これによって連句というものをなんらか新しい光のもとに見直し、それによって未来の連句への予想と暗示とを求めるための手段としてであった。その目的は以上の所説でいくらかは達せられたように思われるのである。たとえば、少なくも連句の共同作家の相異なるあまたの個性の融合統一ということが連句芸術の最重要な要素であるということがいくらか</seg><ruby type="furigana" rend="right" source="#source-55160-55187"><rb>明瞭</rb><rt>めいりょう</rt></ruby><seg source="#source-55187-55666">にされたであろうと思う。従ってほんとうにすぐれた連句の制作の困難な理由もまた実にこの要素に係わっていることが想像されるであろうと思われる。そうしてこの困難に当面して立派なものを作り上げるには、単に句作にすぐれたメンバーがそろっただけでは不十分であって、どうしても芭蕉ほどの統率的人傑を要する理由もわかってくるであろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-55666-58656"><seg source="#source-55666-55891">こういう点からまた私のここで仮想しているような連句の指揮者の地位はまた映画の監督の地位に相当するようである。いかによい役者やロケーションを使いいかに</seg><ruby type="furigana" rend="right" source="#source-55891-55915"><rb>上手</rb><rt>じょうず</rt></ruby><seg source="#source-55915-56311">なカメラマンを使っても監督の腕が鈍くて材料のエディティングが拙ならば、一編の作品として見た映画はいわゆる興味索然たるものであるに相違ない。実際に芭蕉がいかなる程度までこの監督の役目をつとめたかについては私は何も知らないものである。これについてそれぞれ博学な考証家の</seg><ruby type="furigana" rend="right" source="#source-56311-56335"><rb>穿鑿</rb><rt>せんさく</rt></ruby>をまつ事ができれば幸いである。しかし私がここでこういう未熟で大胆な所説をのべることのおもな動機は、そういう学問的のものではなく、むしろただ一個の俳人としてのまた鑑賞家としての「未来の連句」への予想であり希望である。簡単に言えば、将来ここで想像した作曲者あるいは映画監督のようなリーダーがあちらこちらに現われて、そうしてその掌中の材料を自由に駆使して立派なまとまった楽曲的映画的な連句を作り上げるという制作過程が実行されたならばおもしろいであろうということである。おもしろいというだけではなくて世界にまだ類例のない新しい芸術ができるであろうということである。この理想への一つの試験的の作業としては、たとえば三吟の場合であれば、その中の一人なりまた中立の他の一人なりが試験的の監督となりリーダーとなってその人が単に各句の季題や<ruby type="furigana" rend="right" source="#source-57418-57433"><rb>雑</rb><rt>ぞう</rt></ruby><seg source="#source-57433-57436">の</seg><ruby type="furigana" rend="right" source="#source-57436-57460"><rb>塩梅</rb><rt>あんばい</rt></ruby><seg source="#source-57460-57871">を指定するのみならず、次の秋なら秋、恋なら恋の句をだれにやらせるかまでをも指定し、その上にもちろんできた句の採否もその人に一任するとして進行したらどうであろうか。これははなはだむつかしい試みには相違ない。そうしてその指揮者の頭がよほど幅員が大きく包容力が豊かでなければ、結局</seg><ruby type="furigana" rend="right" source="#source-57871-57901"><rb>狭隘</rb><rt>きょうあい</rt></ruby><seg source="#source-57901-58363">な独吟的になるか、さもなくばメンバーのほうでつまらなくておしまいまでやり切れないであろうと思われる。しかしともかくもこういう試みは未来の連句のためにわれわれの努力し刻苦して研究的に遂行してみる価値のある試みである。たとえ現在の微力なわれわれの試みは当然失敗に終わることが明らかであるまでも、われわれはみじめな</seg><ruby type="furigana" rend="right" source="#source-58363-58390"><rb>醜骸</rb><rt>しゅうがい</rt></ruby><seg source="#source-58390-58405">をさらして</seg><ruby type="furigana" rend="right" source="#source-58405-58429"><rb>塹壕</rb><rt>ざんごう</rt></ruby><seg source="#source-58429-58656">の埋め草になるに過ぎないまでも、これによって未来の連句への第一歩が踏み出されるのであったら、それはおそらく全くの徒労ではないであろうと信ずるのである。</seg></p>
+      </div>
+      <div type="layout" source="#source-58656-58726" style="padding-inline-end: 3em; text-align: right">
+        <p source="#source-58686-58726"><seg source="#source-58686-58726">（昭和六年六月、渋柿）　</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 5em" rend="first-line-indent(5)" source="#source-58726-58781"><seg source="#source-58726-58781">四　連句の心理と夢の心理</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-58781-59416"><seg source="#source-58781-59416">連句の付け合いに関する心理的過程には普通文学における創作心理に比べてよほど特異なものがあるであろう、ということは初めから予期されることである。もしこれがしかるべき心理学者によって研究されればその結果はわれら連句の徒弟に対して興味があり有益であるというだけでなく、一般心理現象中で他の場合にはあまり現われないような特異な潜在的現象を追跡し研究するための一つの新しい道を啓示するような事にもなりはしないかと思われるのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-59416-59838"><seg source="#source-59416-59755">私は心理学者でもなく、また連句の制作についてもきわめて乏しい体験しかもたないから、このような大問題に対してなんら解決のかぎを与えるような議論を提出する資格はないのであるが、試みに自分の浅い経験と知識を通してこの問題の一分野を</seg><ruby type="furigana" rend="right" source="#source-59755-59779"><rb>瞥見</rb><rt>べっけん</rt></ruby><seg source="#source-59779-59838">したままの所見を述べてみることとする。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-59838-61139">眼前に一つの長句なら長句が「与えられたる前句」として提供されている。私がその句をじっと見つめていると、その句の<ruby type="furigana" rend="right" source="#source-60006-60024"><rb>面</rb><rt>おもて</rt></ruby><seg source="#source-60024-60036">に一つの</seg><ruby type="furigana" rend="right" source="#source-60036-60054"><rb>扉</rb><rt>とびら</rt></ruby><seg source="#source-60054-60297">が開かれて、その向こう側に一つの光景なり場面なりが展開される。見ているうちにその視界がだんだんに上下左右にもまた前後にも広がって行き、そうしてその中にいたあるいは</seg><ruby type="furigana" rend="right" source="#source-60297-60309"><rb>在</rb><rt>あ</rt></ruby><seg source="#source-60309-60552">った人物も風景も、それからそれへと活動写真のように変転推移して行く。もしこれをそのままに放任して行けば末はどこまで行くかわからない。しかし私は途中でこのあてなしの</seg><ruby type="furigana" rend="right" source="#source-60552-60579"><rb>逍遙</rb><rt>しょうよう</rt></ruby>を切り上げもう一ぺん元の所へ立ち帰り「前句」の場面に立ちもどってしかとこれを見直してみる。すると前には見えなかった別の扉のようなものがすうと開いて、それをはいって行くと前とはまたまるでちがった風物の花園が眼前に広がって行くのである。そういうことを繰り返していると単なる前句の十七字には無数の扉があり窓があって、それがみなそれぞれの世界への入り口であることに気づくのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-61139-63898">しかしこういう漫歩的見物をしているだけでは所要の付け句はできない。付け句を構成するためにはそれ以前に考慮さるべき若干の制約が規定されている。第一は季題に関するもので、たとえば「秋」あるいは「<ruby type="furigana" rend="right" source="#source-61427-61442"><rb>雑</rb><rt>ぞう</rt></ruby>」でなければならないとすれば、前記の逍遙中に出会ったものはこれによって第一段の整理を受ける。次には前々句との関係による制約であって、前々句が海に関したものとかまた座敷に関したものであれば、それと同種のものは捨ててしまわなければならない。そこで材料は第二段の<ruby type="furigana" rend="right" source="#source-61826-61847"><rb>淘汰</rb><rt>とうた</rt></ruby><seg source="#source-61847-61997">を受けることになる。次には前々句よりももっと前の句列いったいへの考慮であって、そこにはたとえば人事の</seg><ruby type="furigana" rend="right" source="#source-61997-62021"><rb>葛藤</rb><rt>かっとう</rt></ruby>があまり多く連続しておりはしないか、あまりに多くの客観的風物がもたれ込んでおりはしないかを考えて、そこでさらに第三段の削除を行なわなければならない。まずこれだけの整理によってその後に保留されたものならば、それはいずれもある程度までは「求むる付け句」への候補者としての予選に堪えたものである。さて試みにその一つを取ってこれを前句に並列してよくよくながめてみる、するとそれは多くの場合にたいていはあまりに付き過ぎたものになっていることを発見するのが常である。これはむしろ当然なことである。私はただわずかに前句の壁の<ruby type="furigana" rend="right" source="#source-62786-62804"><rb>扉</rb><rt>とびら</rt></ruby>を一つくぐったすぐ向こう側の隣の庭をさまよっているからである。この次に私は通例どうするかと思ってみると、その場合に採る一つの方法は、かくして得た付き過ぎの「第一次付け句」をとって、あたかも前に「前句」に対して行なったと同様な取り扱いをこれに適用するのである。そうして得たあらゆる隣接観念の世界に対して、以上の<ruby type="furigana" rend="right" source="#source-63266-63287"><rb>淘汰</rb><rt>とうた</rt></ruby>整理をもう一ぺん行ない、そうして生き残った若干の結果の中から試みに「第二次の付け句」を構成して、それを再び「所定の前句」に対照してみるのである。そのようにして、第三次、第四次の付け句を作って行くうちには必ず少なくも自分では適当と思われるものの骨格だけは得られるのである。それでもどうしても思わしくない場合にはこれは断念放棄して、さらに第二の予選候補者を取り上げて同様な<ruby type="furigana" rend="right" source="#source-63839-63863"><rb>推敲</rb><rt>すいこう</rt></ruby><seg source="#source-63863-63898">に取りかかるのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-63898-65013">以上はただ付け句の素材だけについての選択の過程であって、それの表現法いかんについてはさらにまた全然別途の主要な作業が始まるわけであるが、そういう方面の問題はこの項ではいっさい触れないことにしようと思う。ともかくも普通はまず素材がきまってからその上での表現であるから、付け方の第一歩は、持って来る「もの」や「こと」の適否にあることはもちろんである。もっとも、少し立ち入って考えると、実際はそう簡単には言ってしまわれない。というのは、表現ということと素材というものとはそれほど切れ離れたものでなくて、同じ素材でも表現のしかたで完全に別の素材として完全なる役目を果たすことがありうるからである。しかしこの問題もここには手をつけないでしばらくそっとしておく。そうしてもっぱら自分の体験としての素材選択の心理的過程のみについて考えてみているのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-65013-65582"><seg source="#source-65013-65079">さて上記の付け句の制作過程は便宜上分析的に</seg><ruby type="furigana" rend="right" source="#source-65079-65103"><rb>整頓</rb><rt>せいとん</rt></ruby><seg source="#source-65103-65582">してみただけであって、制作当時実際にこのとおりに意識的に行なっているのではない。場合によっては第四次第五次の付け句素材までが一分間ぐらいの間に相次いで電光のごとく現われては消えることもあり、また第一次の付け句の世界に足を踏み込んだきりなかなか抜けなくなり、一日も二日ももがかなければならないこともしばしばあるのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-65582-66577"><seg source="#source-65582-65654">このようにして、前句と後句とは言わばそれぞれが</seg><ruby type="furigana" rend="right" source="#source-65654-65678"><rb>錯綜</rb><rt>さくそう</rt></ruby><seg source="#source-65678-66577">した網の二つの結び目のようなものである。また、水上に浮かぶ二つの浮き草の花が水中に隠れた根によって連絡されているようなものである。あるいはまた一つの火山脈の上に噴出した二つの火山のようなものでもある。しかしこれだけの関係ではあまりに二句の間の縁が近すぎ姿が似すぎて結果はいわゆる付き過ぎである。むしろ一つの非常に精巧な器械の二つの部分が複雑きわまる隠れた仕掛けで連結していて、その一方を動かすと他方が動きまた鳴りだすような関係である。それほどの必然さをもって連結されていて、しかもその途中のつながりが深い暗い室の中に隠れているような感じを与えるものが連句の上乗なものでありはしないかと思うのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-66577-67788">これについて思い出すのは近ごろの心理分析学者ことにフロイドの夢の心理に関する考察である。夢は東洋では五臓の疲れなどと言われ、また取り止めもないものの代表者としてあげられ、また一方では未来の予言者としてだいじに取り扱われもした。西洋でも同様であったらしい。しかしいわゆる「夢判断」はフロイドの多年の研究によって今までとはちがった意味をもって<ruby type="furigana" rend="right" source="#source-67087-67108"><rb>甦生</rb><rt>そせい</rt></ruby><seg source="#source-67108-67126">し、迷信者の</seg><ruby type="furigana" rend="right" source="#source-67126-67159"><rb>玩弄物</rb><rt>がんろうぶつ</rt></ruby>であったものがかえってほとんど科学的に真な本能的の「我れ」を読み取る唯一の言葉であるように思われて来たのである。顕在的なる「我れ」のみの心理を学んで安心していたわれわれは、この夢の現象から潜在的「我れ」の心を学び知って、<ruby type="furigana" rend="right" source="#source-67489-67513"><rb>愕然</rb><rt>がくぜん</rt></ruby><seg source="#source-67513-67788">として驚きまた恐れなければならなくなったようである。そうして私はまたこの夢の心理なるものがはなはだしく連句の心理に共有なる諸点を備えていることを発見して驚かなければならないのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-67788-70618">フロイドの考えでは顕在的な「夢内容」の底には潜在的な「夢思想」なるものが流動している。前者の表面的な並列はいわゆる夢のような幻影の無意味な行列に過ぎないのであるが、これらの「夢内容」を形成する象形文字のような影像を一つ一つ夢思想の国のこれに相当する言葉に翻訳してみれば、それはちゃんとした文章となり、そうしてそれは驚くべくおそるべきわが内部生活の秘密を赤裸々に記述するものとなるのである。しかもその一つ一つの象形文字のような夢内容は驚くべく多様な夢思想の圧縮されたエッセンスであり、またはなはだしく複雑な夢思想の網目の接合点である。それらの接合点のうちでも、その人のその日の、その前日の、また<ruby type="furigana" rend="right" source="#source-68679-68706"><rb>生涯</rb><rt>しょうがい</rt></ruby>の経験――意識的ないし無意識的――の最も多くを結びつけるに都合のいいような、そういう特別な接合点が、その夜の夢の内容の一つとして象形文字的に選ばれて現われて来るのである。たとえばフロイドが「植物に関する彼の著書が彼の前に置かれてあり、そのぺージをめくっていると一枚の彩色絵がさし込んであり、また一枚の<ruby type="furigana" rend="right" source="#source-69156-69224"><rb><g ref="#gaiji-3-1-90-47" source="#source-69156-69203">腊</g><seg source="#source-69203-69206">葉</seg></rb><rt>さくよう</rt></ruby>がとじ込んである」という夢を分析した結果によると、この「植物学の著書」というだけの一見きわめて簡単なる内容が実は非常に多様な体験を接合するための一つの中間介在物であり、言わば扇のかなめのようなものになっている。すなわちこれはその日偶然通りかかったある店先で見た他人の他の事に関する植物学の著書につながると同時に、自分の昔書いたある論文につながり、次いでその論文に連関した大学研究室のいろいろの出来事につながり、また一方ではある眼科医へつながる。この眼科医とその前日現に出会って用談をしているうちに邪魔がはいって談を中絶された事があったのである。それからまたその「植物の」というだけがある他のプロフェッサーからその美しい夫人それから他の婦人患者といったふうにいろいろの<ruby type="furigana" rend="right" source="#source-70223-70247"><rb>錯綜</rb><rt>さくそう</rt></ruby>した因果の網目につながっている。かくのごとくにしてこの一見はなはだつまらぬ「植物学の著書」はこれらの多数な夢思想の全体を引率するに最も適当な、扇のかなめのようなものとして便宜上代表的に選ばれてその夜の夢の顕在的夢内容として現われたというのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-70618-71670"><seg source="#source-70618-71098">連句の一句の顕在的内容は、やはりその作者の非常に多数な体験のかなめである。そうしてその多くの潜在的思想の網が部分的に前句と後句に引っかかっているのである。もちろん前句には前句の作者の潜在思想の網目がつながっているのであるが、付け句の作者の見た前句にはまたこの付け句作者自身の潜在的な句想の網目につながるべき代表的記号が</seg><ruby type="furigana" rend="right" source="#source-71098-71125"><rb>明瞭</rb><rt>めいりょう</rt></ruby><seg source="#source-71125-71530">に現われているのである。そうしてまたこの二つの句を読む第三者がこの付け合わせを理解し評価しうるためにはこの第三者の潜在思想中で二句が完全に連結しなければならないのである。しかもこの際読者の網目と前句作者の網目と付け句作者の網目とこの三つのものが最もよく必然的に重なり合い</seg><ruby type="furigana" rend="right" source="#source-71530-71542"><rb>融</rb><rt>と</rt></ruby><seg source="#source-71542-71670">け合う場合において、その付け合わせは最もすぐれた付け合わせとして感ぜられるのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-71670-72236"><seg source="#source-71670-72236">このような機巧によって運ばれる連句の進行はたしかにフロイドの考えたような夢の進行に似ているのである。しかし夢の場合はそれが各個人に固有なものであって必ずしもなんらの普遍性をもたなくてもよい。しかし連句においては甲の夢と乙の夢との共通点がまた読者の多数の夢に強く共鳴する点において立派な普遍性をもっており、そこに一般的鑑賞の目的物たる芸術としての要求が満足されているのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-72236-72814"><seg source="#source-72236-72814">以上のような連句と夢との心理の比較はまた連句の解釈という仕事に一つの新しい立場を与えるであろう。この立場から見ると従来の多くの連句の評釈は往々はなはだしく皮相的でありあるいは偏狭でありあるいは見当違いであるということになるかもしれない。また一方こういう立場から連句を研究することによって心理学者はわれわれの心理の潜在的過程に関して有益な幾多の事実を発見する機会に接するかもしれない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-72814-73080"><seg source="#source-72814-73080">これらについてはなお述べ尽くさないところもあるが、紙面の制限のためにこれまでにとどめて余事は後日に譲ることとする。もしできれば若干の実例について分析を試みたいと思うのである。</seg></p>
+      </div>
+      <div type="layout" source="#source-73080-73147" style="padding-inline-end: 3em; text-align: right">
+        <p source="#source-73110-73147"><seg source="#source-73110-73147">（昭和六年七月、渋柿）</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 5em" rend="first-line-indent(5)" source="#source-73147-73196"><seg source="#source-73147-73196">五　連句心理の諸現象</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-73196-75076"><seg source="#source-73196-75076">連句制作の心理と鑑賞の心理とは必ずしも一致すると限らない。作者が前句を与えられてそれに付け句を提出するまでの心理的経過はその作者に独自なものであって当人以外にはだれにもわからないものである。しかし、そうしてできあがった一連を与えられた鑑賞の目的物とする読者がその前句を味わった後に付け句に取りついてそれをはっきり見定めている間に、その読者の頭の中に起こって来る心理的過程が少なくも部分的には付け句作者の創作当初の心理を反映しなければならない。そうでなければその付け句は失敗であり、不可解である。これはいかなる芸術にもある度までは共通なことであるが、小説や戯曲のようなものではこれは第一義に属しない従属的要素である。それは作物自身が読者の心理過程の軌道を明確に指定しているからである。言わば電車や汽車のレールのようなものである。これに反して連句の場合は、言わば町から町、宿場から宿場への旅の道筋を与えられないで、ただ出発点と到着点とを指定されるだけである。その間をつなぐ道筋はいくつもあり途上の景観にもまたさまざまの異同がある。それでも、どの道筋にも共通に、たとえば富士が右手に見え近辺に茶畑が見えなければならないといったような要求が満たされなければならない。そういうわけであるから連句の場合には特に創作心理と鑑賞心理との区別を立てて考察する必要があるのである。この区別を立てて考えなければ一連の連句を充分に分析し正当に理解することはできないであろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-75076-76647">従来連句の評釈をしたものを見ても、この区別を判然と立てないためにいろいろの疑問が起こったり議論があったりする場合が多いように思われる。多くの場合に創作者の心理分析に傾いた評釈はいわゆる「うがち過ぎ」として<ruby type="furigana" rend="right" source="#source-75385-75409"><rb>擯斥</rb><rt>ひんせき</rt></ruby>され、「さまでは言わずもがな」として敬遠されるようである。これは連句を単に鑑賞するだけの立場からはもっともなことであるが、連句というものをほんとうに研究するには不都合な態度である。のみならず自分で連句の創作に手をつけるものにとっては、この点の研究が最もたいせつなものと私には考えられるのである。そればかりか、鑑賞のみの目的でも真に奥底まで入り込んで鑑賞をほしいままにするためには、一度はこの創作心理のミステリーに触れることが必要であろうと思われるのである。われわれは「うがち過ぎ」をこわがらないで「言わずもがな」をけ飛ばして勇敢に創作心理の<ruby type="furigana" rend="right" source="#source-76219-76240"><rb>虎穴</rb><rt>こけつ</rt></ruby><seg source="#source-76240-76647">に乗り込んでみなければならない。しかしこれはなかなか容易な仕事ではない、一朝一夕に一人や二人の力でできうる見込みはない。そうかと言っていつまでも手をつけずにおくべきものでもない。たとえわれわれの微力ではこの虎穴の入り口でたおれてしまうとしたところでやむを得ないであろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-76647-77720"><seg source="#source-76647-77163">創作心理の上から見てすぐに問題になるのは、連想作用のことである。連句制作の機構の第一要素が連想であることは言うまでもない。しかしこの連想による甲乙二つの対象は決して簡単な論理的または事件的の連絡をもっているものではなくて、たとえば前条に述べた夢の中の二つの物のつながりのように複雑不可思議な糸によってつながっているのである。夢の中ではたとえば</seg><ruby type="furigana" rend="right" source="#source-77163-77187"><rb>蝋燭</rb><rt>ろうそく</rt></ruby><seg source="#source-77187-77720">やあるいはまたじめじめした地下の坑道が性的の象徴となる場合がある。またこれに相当する例は芭蕉初期時代の連句には往々ある。また重いものをかついで山道を登る夢が情婦とのめんどうな交渉の影像として現われることもある。古来の連句の中でもそういう不思議な場合の例を捜せばおそらくいくらでも見つかるであろうという事は、自分自身の貧弱な体験からも想像されることである。</seg></p>
+        <p source="#source-77720-79360"><seg source="#source-77720-77723">「</seg><ruby type="furigana" rend="right" source="#source-77723-77750"><rb>灰汁桶</rb><rt>あくおけ</rt></ruby>のしずくやみけりきりぎりす」「あぶらかすりて<ruby type="furigana" rend="right" source="#source-77816-77837"><rb>宵寝</rb><rt>よいね</rt></ruby>する秋」という一連がある。これに関する評釈はおそらく今までに言い尽くされ書き尽くされているであろうと思う。しかし心理学的連想の実例を捜している一学究としてあらゆる芸術的の立場を離れて見たやぶにらみの目には、灰汁のしずくと油のしたたりとの物理的肖似がすぐに一つの問題の焦点となるであろう。また灰汁のしずくが次第にその流量を減じてとうとう出なくなってしまう、その量対時間関係が「油かすりて」欠乏する感じに照応するのである。これは鑑賞的には全くいわゆる「うがち過ぎ」た無用の<ruby type="furigana" rend="right" source="#source-78539-78566"><rb>詮議立</rb><rt>せんぎだ</rt></ruby>てに相違ないのであるが、心理学的には見のがすことのできない問題である。従って創作心理の研究者にとっては少なくもひとまずは取り上げて精査してみなければならない問題である。「あぶらかすりて」の次に「<ruby type="furigana" rend="right" source="#source-78857-78884"><rb>新畳</rb><rt>あらだたみ</rt></ruby>敷きならしたる月影に」の句がある。ここでも月下の新畳と視感ないし触感的な立場から見て油との連想的関係があるかないかという問題も起こし得られなくはない。これはあまり<ruby type="furigana" rend="right" source="#source-79127-79154"><rb>明瞭</rb><rt>めいりょう</rt></ruby>でないが「かますご食えば風かおる」の次に「<ruby type="furigana" rend="right" source="#source-79217-79232"><rb>蛭</rb><rt>ひる</rt></ruby><seg source="#source-79232-79235">の</seg><ruby type="furigana" rend="right" source="#source-79235-79256"><rb>口処</rb><rt>くちど</rt></ruby>をかきて気味よき」の来るのなどは、感官的連想からの説明が容易である。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-79360-79752">二つのものの感じの共通というのでなくて、二つのものの外面的関係から呼び出される連想としては「身はぬれ紙の取り所なき」に対する「小刀の<ruby type="furigana" rend="right" source="#source-79561-79588"><rb>蛤刃</rb><rt>はまぐりば</rt></ruby>なる細工箱」のごときがそれである。ぬれ紙が小刀を呼び出したのである。もちろん芸術的の価値は全く別問題である。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-79752-79934">物質から来る連想の例では「<ruby type="furigana" rend="right" source="#source-79794-79821"><rb>居風呂</rb><rt>すえふろ</rt></ruby>の屋根」「<ruby type="furigana" rend="right" source="#source-79836-79851"><rb>椴</rb><rt>とど</rt></ruby><seg source="#source-79851-79854">と</seg><ruby type="furigana" rend="right" source="#source-79854-79872"><rb>檜</rb><rt>ひのき</rt></ruby>」「赤い小宮」と三つ続くようなのがある。</p>
+        <p source="#source-79934-80485"><seg source="#source-79934-79937">「</seg><ruby type="furigana" rend="right" source="#source-79937-79955"><rb>干葉</rb><rt>ひば</rt></ruby><seg source="#source-79955-79964">のゆで</seg><ruby type="furigana" rend="right" source="#source-79964-79979"><rb>汁</rb><rt>じる</rt></ruby>悪くさし」「掃けば跡から<ruby type="furigana" rend="right" source="#source-80015-80033"><rb>檀</rb><rt>まゆみ</rt></ruby>ちるなり」「じじめきの中でより出するり<ruby type="furigana" rend="right" source="#source-80090-80111"><rb>頬赤</rb><rt>ほあか</rt></ruby>」の三句には感官的に共通な連想があるのみならず、空間的排列様式の類似から来る連想がある。「生きながら<ruby type="furigana" rend="right" source="#source-80261-80276"><rb>直</rb><rt>すぐ</rt></ruby><seg source="#source-80276-80300">に打ちこむひしこ</seg><ruby type="furigana" rend="right" source="#source-80300-80315"><rb>漬</rb><rt>づけ</rt></ruby>」「<ruby type="furigana" rend="right" source="#source-80321-80336"><rb>椋</rb><rt>むく</rt></ruby>の実落ちる屋根くさるなり」なども全く同様な例である。こういう重複はもちろん歓迎されないものである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-80485-81066"><seg source="#source-80485-80947">こういう例はあげれば際限はない。そうしてこういう例として適当なものは、連句として必ずしも上乗なものではなく、むしろあまりよくないほうが多いかもしれない。それはむしろ当然である。連想で呼び出される第一影像はただ一つの可能な付け句の暗示に過ぎないので、それだけでは決して付け句は成立しない、この第一影像を一つの</seg><ruby type="furigana" rend="right" source="#source-80947-80971"><rb>階梯</rb><rt>かいてい</rt></ruby><seg source="#source-80971-81066">として洗練に洗練を重ねた上で付け句ができあがるべきはずである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-81066-82142">そういう階段としてはその連想がいかに突飛であってもそれはなんのさしつかえもない、最後の成果がよければよいのである。たとえば「雪の跡吹きはがしたるおぼろ月」の前句を見てふいと「<ruby type="furigana" rend="right" source="#source-81330-81351"><rb>蒲団</rb><rt>ふとん</rt></ruby>」という心像が現われたとしても、だれがそれをとがめうるものがあろうか、まただれがその心像の由来の合理的説明を要求するであろうか。その連想の底に雪雲と蒲団との外形的連想がありあるいは「はがす」という言葉が蒲団を呼び出したとしてもそれは作者の罪ではない。ともかくもその突然な「蒲団」の心像を踏段として「蒲団丸げてものおもい居る」という句ができあがってしまえば、もはやそんな連想は必ずしも問題にしなくてよい。読者にとってはむしろ問題にしないほうがよいのであろう。そうして単に雪後の春月に対して物思う姿の余情を味わえば足りるであろう。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-82142-83704"><seg source="#source-82142-82610">連想には上記のように内容から来るもののほかにまた単なる音調から来る連想あるいは共鳴といったような現象がしばしばある。これはわれわれ連句するものの日常経験するところである。全く無意識に前句または前々句等の口調が出て来たがるので当惑することがしばしばある。これらは多くの場合直ちに訂正されるからできあがったものには</seg><ruby type="furigana" rend="right" source="#source-82610-82634"><rb>痕跡</rb><rt>こんせき</rt></ruby><seg source="#source-82634-82712">を現わさないはずであるが、それでも時には見のがされた</seg><ruby type="furigana" rend="right" source="#source-82712-82733"><rb>残滓</rb><rt>ざんし</rt></ruby>らしいものが古人の連句にもしばしば見いだされる。たとえば前掲の「ふとん」の次に「不届」「はっち」と三つのＦＴの結合が現われている。「けんかく」の次に「こまかく」が来たりするのも必ずしも偶然とは思われない。もうすこし<ruby type="furigana" rend="right" source="#source-83054-83087"><rb>不明瞭</rb><rt>ふめいりょう</rt></ruby>なのでは「<hi rend="bouten 白丸傍点 right" source="#source-83102-83138" corresp="#source-83105-83138"><seg source="#source-83102-83105">か</seg></hi><seg source="#source-83138-83147">えるや</seg><hi rend="bouten 白丸傍点 right" source="#source-83147-83183" corresp="#source-83150-83183"><seg source="#source-83147-83150">ら</seg></hi><seg source="#source-83183-83201">山陰伝う四十</seg><hi rend="bouten 白丸傍点 right" source="#source-83201-83243" corresp="#source-83207-83243"><seg source="#source-83201-83207">から</seg></hi>」の次に「むねを<hi rend="bouten 白丸傍点 right" source="#source-83267-83309" corresp="#source-83273-83309"><seg source="#source-83267-83273">から</seg></hi>げる」があり、「<hi rend="bouten 白丸傍点 right" source="#source-83333-83387" corresp="#source-83345-83387"><seg source="#source-83333-83345">だだくさ</seg></hi>」の次に「<hi rend="bouten 白丸傍点 right" source="#source-83402-83456" corresp="#source-83414-83456"><seg source="#source-83402-83414">いただく</seg></hi>」があり、「いさぎよき」の次に「よき社」がありするのも同様である。こういう無意識の口移りは付け句には警戒されたのが三句目四句目にうっかり頭をもたげる例も少なくない。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-83704-84735">同様な部類に属するのは「ほかほかと……いぼいいで」に次いで「ほろほろ……こぼるる」の来るような擬音的重畳形容詞の連続する例である。これは連続する場合もあり、四五句目に現われる場合もはなはだ多い。上の例では「ほろほろ」から四句目に「だんだんに」が来る。同じ百韻中で調べてみると前のほうにある「とろとろ」はだいぶ離れているが、ずっとあとに来る「ほやほや」と「うそうそ」とは五句目に当たる。『そらまめの花』の巻の「すたすた」と「そよそよ」は四句目に当たる。『梅が香』の巻の「ところどころ」と「はらはら」も四句目である。もちろんこれには規約的な条件も支配していると思われるが、心理的にこれらの口調が互いに相吸引していることは争われない。これはおそらく統計学的にも証明し得られるであろうと思う。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-84735-85625">数字と数字との連想も半ば内容的であるが半ばは音調的の口移りから呼び出されるらしい。たとえば『そらまめの花』の巻には「<ruby type="furigana" rend="right" source="#source-84912-84936"><rb>七夕</rb><rt>たなばた</rt></ruby>」の七の字があるだけで本来の「数字」は一つもないのに、『八九間』の巻には「小鳥一さけ」にすぐ続いて「十里あまり」が来る。『振り売りの』の巻にある「二十八日」から八句目に「七つさがり」があり、すぐ続いて「五十石取り」があり、ずっと離れて「四つのかね」と「三月」がある。その他『鉄砲の遠音』の巻に「なまぬる一つ」と「碁いさかい二人」と続くような例ははなはだ多い。もちろんこれに関しても何かの規約はあったかもしれないが本来は心理的の立場から説明さるべき現象である。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-85625-85828"><seg source="#source-85625-85828">以上は主として前句と後句の間の関係だけについての考察であったが、三句目四句目等に及ぼす連想の影響についても考うべき事ははなはだ多い。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-85828-87345"><seg source="#source-85828-86044">遺伝に関してアタヴィズムの現象があるように、連句の連続においてもある一句がその前句よりもいっそう前々句に似たがる傾向がある。いわゆる打ち越しに</seg><ruby type="furigana" rend="right" source="#source-86044-86071"><rb>膠着</rb><rt>こうちゃく</rt></ruby>し、観音開きとなって三句がトリプチコンを形成するようになりたがるものである。これはもとより当然のことである。前句の世界と前々句の世界とは部分的にオーヴァーラップしており、前句と後句ともまた部分的に重合しているのであるから単にプロバビリティーから言ってもそうなりやすいのみならず、まだその上にいっそうそうなりたがる心理がある。それは前々句と前句との付け合わせを「味わう」ことによってこの前二句の重合部が特別に後句作者の頭の中に大きくはびこってしまって、前句の世界を見ているつもりでも実はその重合部だけに目を引かれることになるからである。それでこのような打ち越しの危険を避けるためには、作者は前句によってよび起こされた観念世界の中でどれだけの部分が前の句のそれと重合しているかを認識した上で、きれいさっぱりそれだけを切り抜いて捨ててしまわなければならない。そうして残った部分の輪郭をだんだんに外側へ外側へと広げて行くうちに適当な目標が見つかるのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-87345-88685">以上述べたところからまたわれわれが連句修業の際しばしば遭遇する一つの顕著な現象を説明することができる。それは「前句が前々句に対して付き過ぎになっていると後句が非常に付けにくく、何をもって来ても打ち越しに響く」ということである。すなわち、上述の重合部が前句のほとんど全面積をおおっていて、切り捨てた残部があまりに<ruby type="furigana" rend="right" source="#source-87813-87840"><rb>僅少</rb><rt>きんしょう</rt></ruby><seg source="#source-87840-88326">になるためである。さて以上の心理から起こるアタヴィズム的傾向は連句の規約上厳重に抑制せられるから、少なくも完成した古人の連句集には原則としては現われないはずである。しかしこういう人間の本能的な傾向から起こって来る作用の効果はなかなか根強いものであって、そうそう容易に抑圧することはできないものである。それで一見したところでは</seg><ruby type="furigana" rend="right" source="#source-88326-88341"><rb>毫</rb><rt>ごう</rt></ruby><seg source="#source-88341-88359">もこの規約に</seg><ruby type="furigana" rend="right" source="#source-88359-88386"><rb>牴触</rb><rt>ていしょく</rt></ruby><seg source="#source-88386-88685">しない――少なくも論理的には牴触しないような立派な付け句であっても、心理的科学者の目から見ると明らかに打ち越しの深い影響を受けたと、少なくも疑われるものがあったとしてもなんの不思議はないわけである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-88685-91261"><seg source="#source-88685-88796">試みに審美的のめがねをかなぐりすてて、一つの心理的なからくりの中の歯車や</seg><ruby type="furigana" rend="right" source="#source-88796-88814"><rb>弾条</rb><rt>ばね</rt></ruby>を点検するような無風流な科学者の態度で古人の連句をのぞいてみたらどうであろうか。まず前にも例示した『<ruby type="furigana" rend="right" source="#source-88964-88991"><rb>灰汁桶</rb><rt>あくおけ</rt></ruby>』の巻を開いて見る。芭蕉の「あぶらかすりて」の次の次に去来の「ならべてうれし十の<ruby type="furigana" rend="right" source="#source-89111-89132"><rb>盃</rb><rt>さかずき</rt></ruby>」が来るのである。ここで、いったい去来という人の頭の中に、ありとあらゆる天地万有のうちから、物もあろうに特に選ばれてこの「盃」というものの心像がどうしてまさにここに浮かび上がったかと考えてみなければならない。前句は<ruby type="furigana" rend="right" source="#source-89453-89480"><rb>新畳</rb><rt>あらだたみ</rt></ruby><seg source="#source-89480-89561">を敷いた座敷である、それを通して前々句を見るとそこには</seg><ruby type="furigana" rend="right" source="#source-89561-89585"><rb>行燈</rb><rt>あんどん</rt></ruby><seg source="#source-89585-89612">があり、その中から</seg><ruby type="furigana" rend="right" source="#source-89612-89639"><rb>油皿</rb><rt>あぶらざら</rt></ruby><seg source="#source-89639-89915">の心像がありありと目に見える。その皿が畳の上におりて来る、見ているうちにその油皿が盃に変わって来る。次に一つの盃がばらばらと分殖してそこに十個の皿がずらりと並列する。それに月光がさして</seg><ruby type="furigana" rend="right" source="#source-89915-89939"><rb>忽然</rb><rt>こつぜん</rt></ruby><seg source="#source-89939-90299">と清談の会席が眼前に現われる。こういったような心像変換の現象は少なくもわれわれの夢の中には往々起こる現象であっておそらく何人も経験するところであろう。しかし、私は当時の去来の頭の中にここに私の書いたこのとおりの心理過程が進行したのであろうと</seg><ruby type="furigana" rend="right" source="#source-90299-90323"><rb>臆測</rb><rt>おくそく</rt></ruby>するわけでは決してない。またこういう見方をする事がこの付け句の「鑑賞」の上に有利だというのでも毛頭ないのである。前にも断わったとおり「鑑賞の心理」と「創作の心理」とを少なくもいったんはっきり区別した上で、後者の分析的研究をするための一つの方法を例示するという目的以外には何物もないのである。それかと言ってこれはまた決して私の机上でこね上げた全くの空想ではないのであって、私自身が平常連句制作当時自分の頭の中に進行する過程を内省することによって常に経験するところの現象から類推して行った一つの「思考実験」であるので、これはおそらく連句の制作に体験ある多くの人によって充分正当なる意味において理解してもらえることであろうと思う。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-91261-91848">こういうふうの見方からすると、これと同様な実例ははなはだ多くて枚挙にいとまないくらいである。同じ巻でも「<ruby type="furigana" rend="right" source="#source-91420-91432"><rb>子</rb><rt>ね</rt></ruby>の日」と「<ruby type="furigana" rend="right" source="#source-91447-91471"><rb>春駒</rb><rt>はるこま</rt></ruby>」、「だびら雪」と「<ruby type="furigana" rend="right" source="#source-91501-91519"><rb>摩耶</rb><rt>まや</rt></ruby>の高根に雲」、「迎いせわしき」と「<ruby type="furigana" rend="right" source="#source-91570-91588"><rb>風呂</rb><rt>ふろ</rt></ruby>」、「すさまじき女」と「夕月夜<ruby type="furigana" rend="right" source="#source-91633-91651"><rb>岡</rb><rt>おか</rt></ruby><seg source="#source-91651-91654">の</seg><ruby type="furigana" rend="right" source="#source-91654-91675"><rb>萱根</rb><rt>かやね</rt></ruby><seg source="#source-91675-91678">の</seg><ruby type="furigana" rend="right" source="#source-91678-91702"><rb>御廟</rb><rt>ごびょう</rt></ruby>」、等々々についてもそれぞれ同様な夢の推移径路に関すると同様の試験的分析を施すことは容易である。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-91848-93233">こういうふうの意味でのアタヴィズムはむしろあるところまでは避くべからざることであるのはもちろん、連句の進行上少しも規約的に不都合なことはないのみならず、ある場合にはむしろテンポの調節上からも必要な場合があるかもしれない。しかし少なくも私の見たところで、こういう関係になっていない実例もまたはなはだ多いのである。たとえばやはり同じ『<ruby type="furigana" rend="right" source="#source-92346-92373"><rb>灰汁桶</rb><rt>あくおけ</rt></ruby>』の巻で、芭蕉の「<ruby type="furigana" rend="right" source="#source-92400-92415"><rb>蛭</rb><rt>ひる</rt></ruby><seg source="#source-92415-92418">の</seg><ruby type="furigana" rend="right" source="#source-92418-92439"><rb>口処</rb><rt>くちど</rt></ruby>をかきて気味よき」や「<ruby type="furigana" rend="right" source="#source-92472-92496"><rb>金鍔</rb><rt>きんつば</rt></ruby>」や「加茂の社」のごときはなかなか容易に発見されるような歯車の連鎖を前々句に対して示さない。また『<ruby type="furigana" rend="right" source="#source-92643-92658"><rb>鳶</rb><rt>とび</rt></ruby>の羽』の巻でも芭蕉の「まいら戸」の句「<ruby type="furigana" rend="right" source="#source-92715-92730"><rb>午</rb><rt>ひる</rt></ruby>の貝」の句のごとき、なんでもないような句であるが完全にこのアタヴィズムの<ruby type="furigana" rend="right" source="#source-92838-92862"><rb>痕跡</rb><rt>こんせき</rt></ruby><seg source="#source-92862-92898">を示さない。これに対して</seg><ruby type="furigana" rend="right" source="#source-92898-92922"><rb>史邦</rb><rt>ふみくに</rt></ruby>の「墨絵」は前々句の師匠の「まいら戸」の遺伝を濃厚に受けており、同人の「おもい切ったる死にぐるい」がやはり前々句の去来の「いまや別れの刀さし出す」の純然たる申し子であるがごときはなかなか興味ある事実である。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-93233-93643"><seg source="#source-93233-93643">まだ充分数量的に調べたわけでないから確実なことは言われないのであるが、どうも芭蕉はやはり他の人に比して特別にこのアタヴィズムの痕跡を示した例が少ないように思われる。だれか時間の自由をもつ人が統計的にこの点を調べてみたらおもしろい結果を得られはしないかと想像するのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-93643-95313"><seg source="#source-93643-94039">それはとにかく、だいたいの進行の上からいうと、この種のアタヴィズムでも原則としては避けたほうがよいではないかと思われる。しかしこれはいかにすれば避け得られるか。これは理論上からは必ずしもそう困難なことではなく、前述のような分析を行なった上で、その疑いのあるものは</seg><ruby type="furigana" rend="right" source="#source-94039-94060"><rb>淘汰</rb><rt>とうた</rt></ruby><seg source="#source-94060-94603">して他に転ずるかあるいはまた前に述べたこともあるとおり、かくして不合格になったものを仮想的第二次前句と見立ててこれに対する付け句を求め、それでもいけなければこれに対する第三次の付け句を求め、漸次かくのごとくして打ち越しの遺伝を脱却すればよいわけであろう。しかし自由にこのような進化を遂げうるためには作者の頭がかなり広大な領土を所有している上にその頭の働きが自由に</seg><ruby type="furigana" rend="right" source="#source-94603-94636"><rb>可撓性</rb><rt>フレキシブル</rt></ruby><seg source="#source-94636-94672">であって自分自身の考えの</seg><ruby type="furigana" rend="right" source="#source-94672-94693"><rb>死骸</rb><rt>しがい</rt></ruby>の上を踏み越え踏み越え進行しうるだけの能力をもっているということが必要条件である。芭蕉のごときはそれがかなりよくできる人であったことは以上の乏しい例証からもうかがわれる。芭蕉の辞世と称せられる「夢は枯れ野をかけ<ruby type="furigana" rend="right" source="#source-95008-95023"><rb>回</rb><rt>めぐ</rt></ruby>る」という言葉が私にはなんとなくここに述べた理論の光のもとにまた特別な意味をもって響いて来るのである。彼はこのように夢を駆逐することに喜びと同時に大いなる悲しみをいだいて死んで行ったであろう。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-95313-96935"><seg source="#source-95313-95397">この頭の働きの領土の広さと自由な滑脱性とに関して芭蕉と</seg><ruby type="furigana" rend="right" source="#source-95397-95433"><rb>対蹠的</rb><rt>アンチポーダル</rt></ruby>の位置にいたのはおそらく凡兆のごとき人であったろう。試みにやはり『<ruby type="furigana" rend="right" source="#source-95532-95559"><rb>灰汁桶</rb><rt>あくおけ</rt></ruby>』の巻について点検すると、なるほど前句「<ruby type="furigana" rend="right" source="#source-95619-95637"><rb>摩耶</rb><rt>まや</rt></ruby>」の雲に薫風を持って来た上に「かますご」を導入したのは結構であるが、彼の頭にはおそらくこの「<ruby type="furigana" rend="right" source="#source-95775-95799"><rb>夕飯</rb><rt>ゆうめし</rt></ruby>のかますご」が<ruby type="furigana" rend="right" source="#source-95820-95847"><rb>膠着</rb><rt>こうちゃく</rt></ruby>していてそれから六句目の自分の当番になって「<ruby type="furigana" rend="right" source="#source-95913-95937"><rb>宵々</rb><rt>よいよい</rt></ruby>」の「あつ<ruby type="furigana" rend="right" source="#source-95952-95970"><rb>風呂</rb><rt>ぶろ</rt></ruby>」が出現した感がある。また同じ「夕飯」がまだまだ根を引いて「<ruby type="furigana" rend="right" source="#source-96060-96078"><rb>木曾</rb><rt>きそ</rt></ruby><seg source="#source-96078-96081">の</seg><ruby type="furigana" rend="right" source="#source-96081-96102"><rb>酢茎</rb><rt>すぐき</rt></ruby>」に再現しているかの疑いがある。また後に自分の「田の青やぎていさぎよき」の心像が膠着してそれが六句目の自句「しょろしょろ水に<ruby type="furigana" rend="right" source="#source-96288-96300"><rb>藺</rb><rt>い</rt></ruby>のそよぐらん」に頭をもたげている。しかしこれは決して凡兆という人の特異の天分を無視してこの人をこれだけの点から非難する意では毛頭ないのである。この人の句がうまく適度に混入しているために一巻に特殊な色彩の律動を示していることは疑いもないことであるが、ただもし凡兆型の人物ばかりが四人集まって連句を作ったとしたらその成績はどんなものであるかと想像してみれば、おのずから前述の所論を支持することになるであろうと思われるのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-96935-97294">以上は単に便宜上主として『灰汁桶』だけについて例証したのであるが、読者にしてもし同様の見地に立って他の巻々を点検するだけの労を惜しまれないならば、私のここに述べた未熟な所論の中に多少の真の片影のあることを認めてもらえるであろうと信ずる。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-97294-97503"><seg source="#source-97294-97450">連句制作における興味ある心理的現象は以上にとどまらない。次にはさらに別の方面について所見をのべて読者の</seg><ruby type="furigana" rend="right" source="#source-97450-97474"><rb>叱正</rb><rt>しっせい</rt></ruby><seg source="#source-97474-97503">を待つこととする。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-97503-99053"><seg source="#source-97503-97677">いわゆる連想のうちには、その互いに連想さるべき二つの対象の間に本質的に必然な関係のあるものも多数にある。たとえば、</seg><ruby type="furigana" rend="right" source="#source-97677-97695"><rb>硯</rb><rt>すずり</rt></ruby><seg source="#source-97695-97716">と墨とか坊主と</seg><ruby type="furigana" rend="right" source="#source-97716-97734"><rb>袈裟</rb><rt>けさ</rt></ruby><seg source="#source-97734-97749">とか坊主と</seg><ruby type="furigana" rend="right" source="#source-97749-97767"><rb>章魚</rb><rt>たこ</rt></ruby><seg source="#source-97767-98292">とかいうように並用共存の習慣あるいは形状性能の類似等から来るものもあり、あるいは貧と富、紅と緑のような対照反立の関係から来るものもある。しかしこれらはかなりまですべての人間に共通普遍なもので、従ってすべての人に理解さるべき客観性をもっているのである。しかるにまた一方ではそういう普遍性を全くもたない個人的に特有な連想によって連結された観念の群あるいは</seg><ruby type="furigana" rend="right" source="#source-98292-98325"><rb>複合</rb><rt>コンプレッキス</rt></ruby><seg source="#source-98325-98403">とでも称すべきものがある。これは多くはその一人一人の</seg><ruby type="furigana" rend="right" source="#source-98403-98430"><rb>生涯</rb><rt>しょうがい</rt></ruby><seg source="#source-98430-99053">特に年少時代において体験した非常に強烈な印象に帰因するものであって、特に性的な関係のものが多いという話である。そういう原因は今ここでは別問題として、われわれが連句を制作するに当たって潜在的に重要な役目をつとめる観念群のうちには普遍的でなくて全く個人的なものが時々出現し、そうしてそれが一度現われだすと習慣性を帯びて来て、何度となく同じ一巻の中にさえも現われ、また特にその後に作る他の巻の中に再現したがるものである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-99053-100753"><seg source="#source-99053-99473">この種の観念群の中には、普遍性はないまでも個人個人にはともかくも事件的の連関の記憶が現存していて、それを説明しさえすれば他人も納得するような種類のものも多いが、しかしまた中には自分自身に考えてもどうしても二つのものの間の連鎖が考えられないようなものがないでもない。たとえば、私が</seg><ruby type="furigana" rend="right" source="#source-99473-99488"><rb>鮓</rb><rt>すし</rt></ruby><seg source="#source-99488-99512">を食うときにその</seg><ruby type="furigana" rend="right" source="#source-99512-99527"><rb>箸</rb><rt>はし</rt></ruby><seg source="#source-99527-99596">にかび臭いにおいがあると、きっと屋形船に乗って</seg><ruby type="furigana" rend="right" source="#source-99596-99617"><rb>高知</rb><rt>こうち</rt></ruby><seg source="#source-99617-99620">の</seg><ruby type="furigana" rend="right" source="#source-99620-99650"><rb>浦戸湾</rb><rt>うらとわん</rt></ruby><seg source="#source-99650-99752">に浮かんでいる自分を連想する。もちろんこれは昔そういう場所でそういう</seg><ruby type="furigana" rend="right" source="#source-99752-99767"><rb>箸</rb><rt>はし</rt></ruby><seg source="#source-99767-99770">で</seg><ruby type="furigana" rend="right" source="#source-99770-99785"><rb>鮓</rb><rt>すし</rt></ruby><seg source="#source-99785-99863">を食った事があるには相違ないが、何ゆえにそういう一見</seg><ruby type="furigana" rend="right" source="#source-99863-99887"><rb>些細</rb><rt>ささい</rt></ruby>なことがそれほど強い印象を何十年後の今日までもとどめているのであるか、これには現在の自分には到底意識されない理由があるに相違ないのである。その理由は別問題としてこういう私の頭の中だけにある観念群は連句制作の場合にはかなり重要な役目をつとめることができる。たとえば「屋形船」を題材とした前句に付け合わせようというような場合が起こったとする。その時私はすぐに「鮓」を思い出してそれを足場にした付け句を案じるであろう。そうしてその時同時に頭に浮かんだ「箸」の心像をそこで抑圧しておくと、それがその後の付け句の場合にひょっくり浮かび上がって来て何かの材料になることもありうるであろう。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-100753-101226"><seg source="#source-100753-101226">こういう事は古人の立派な連句にもありはしないかと思って、手近な、そうしてなるべく手数のかからないような範囲内で少しばかり当たってみた。しかしちょうど今言ったような場合の好適例はまだ見いださないのであるが、そのかわりに個々の作者についていろいろな観念群とでも名づくべきものの明白に見えるものを発見することはできた。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-101226-102557"><seg source="#source-101226-101313">たとえば岩波文庫の芭蕉連句集の（五一）と（五二）の中から</seg><ruby type="furigana" rend="right" source="#source-101313-101337"><rb>濁子</rb><rt>じょくし</rt></ruby>という人の句ばかり抜き書きしてみると、「<ruby type="furigana" rend="right" source="#source-101397-101418"><rb>鵜船</rb><rt>うぶね</rt></ruby><seg source="#source-101418-101421">の</seg><ruby type="furigana" rend="right" source="#source-101421-101436"><rb>垢</rb><rt>あか</rt></ruby><seg source="#source-101436-101448">をかゆる</seg><ruby type="furigana" rend="right" source="#source-101448-101472"><rb>渋鮎</rb><rt>しぶあゆ</rt></ruby>」というのがあってそこに「鳥」と「魚」の結合がある。ところが同じ巻の終わりに近く、同人が「このしろを<ruby type="furigana" rend="right" source="#source-101622-101634"><rb>釣</rb><rt>つ</rt></ruby>る」という句を出してその次の自分の番に「<ruby type="furigana" rend="right" source="#source-101694-101715"><rb>水鶏</rb><rt>くいな</rt></ruby>の起こす寝ざめ」を持ち出している。これだけならば不思議はないのであるが、次の巻のいちばん初めのその人の句が「卵産む<ruby type="furigana" rend="right" source="#source-101886-101901"><rb>鶏</rb><rt>とり</rt></ruby>」であって、その次が「<ruby type="furigana" rend="right" source="#source-101934-101967"><rb>干鰯俵</rb><rt>ほしかだわら</rt></ruby>のなまぐさき」である。この二つの歌仙は同年にできてはいるようであるが、この二つのものの中間にいかなる連中と何回いかなる連句を作っているかそれは私には全くわからない。しかし私の書き抜いた長短わずかに二十三句の中にこういう「魚鳥」複合といったようなものが三度までも現われているのは決して偶然とは思われない。たとえば<ruby type="furigana" rend="right" source="#source-102432-102456"><rb>利牛</rb><rt>りぎゅう</rt></ruby><seg source="#source-102456-102557">の句十八の中に鳥類は二度現われるが魚類は一つも現われないのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-102557-103594"><ruby type="furigana" rend="right" source="#source-102560-102584"><rb>史邦</rb><rt>ふみくに</rt></ruby>の句三十八ばかりを書き抜いてすぐ気のついたことは「雨月」複合の多いことである。「月細く小雨にぬるる石地蔵」「酒しぼるしずくながらに月暮れて」「塩浜にふりつづきたる<ruby type="furigana" rend="right" source="#source-102827-102842"><rb>宵</rb><rt>よい</rt></ruby>の月」「月暮れて雨の降りやむ星明かり」以上いずれも雨の月であるが、もう一つおまけに「<ruby type="furigana" rend="right" source="#source-102968-102989"><rb>傘</rb><rt>からかさ</rt></ruby>をひろげもあえずにわか雨」というのがある。ここでは月の代わりに傘が出ている。それからこれは一見しただけではあまり明白ではないが、「寒そうに薬の下をふき立てて」「土たく家のくさききるもの」「よりもそわれぬ中は生かべ」「すり<ruby type="furigana" rend="right" source="#source-103319-103334"><rb>鉢</rb><rt>ばち</rt></ruby>にうえて色つく唐がらし」少し逆もどりして別の巻「<ruby type="furigana" rend="right" source="#source-103406-103421"><rb>溝</rb><rt>どぶ</rt></ruby><ruby type="furigana" rend="right" source="#source-103421-103433"><rb>汲</rb><rt>く</rt></ruby>むかざの隣いぶせき」の五句のごときも、事によると一種の土臭いにおいを中心として凝集した観念群を想像させる。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-103594-105015"><ruby type="furigana" rend="right" source="#source-103597-103621"><rb>岱水</rb><rt>たいすい</rt></ruby><seg source="#source-103621-103924">について調べてみる。五十句拾った中で食物飲料関係のものが十一句、すなわち全体の二十二プロセントを占めている。こういうのを前記の観念群と同一視してよいか悪いかは少し疑わしいがともかくもおもしろい例である。</seg><ruby type="furigana" rend="right" source="#source-103924-103948"><rb>史邦</rb><rt>ふみくに</rt></ruby>の場合には「薬」も入れて飲食物と見るべきものが三十八分の三、即ち八プロセント弱である。これくらいならば普通であるかもしれないが、岱水の場合は少し多すぎるように思われる。それからまた岱水では「<ruby type="furigana" rend="right" source="#source-104233-104251"><rb>醤</rb><rt>もろみ</rt></ruby>のかびをかき分けて」というのと、巻はちがうが「月もわびしき<ruby type="furigana" rend="right" source="#source-104338-104365"><rb>醤油</rb><rt>しょうゆう</rt></ruby><seg source="#source-104365-104368">の</seg><ruby type="furigana" rend="right" source="#source-104368-104383"><rb>粕</rb><rt>かす</rt></ruby>」というのがある。この二度目の月と<ruby type="furigana" rend="right" source="#source-104434-104458"><rb>醤油</rb><rt>しょうゆ</rt></ruby>との会合ははなはだ解決困難であるが、前の巻の初めに、史邦の「<ruby type="furigana" rend="right" source="#source-104548-104572"><rb>帷子</rb><rt>かたびら</rt></ruby>」の発句と芭蕉の<ruby type="furigana" rend="right" source="#source-104596-104611"><rb>脇</rb><rt>わき</rt></ruby><seg source="#source-104611-104614">「</seg><ruby type="furigana" rend="right" source="#source-104614-104629"><rb>籾</rb><rt>もみ</rt></ruby>一升を稲のこぎ賃」との次に岱水が付けた「<ruby type="furigana" rend="right" source="#source-104689-104704"><rb>蓼</rb><rt>たで</rt></ruby><seg source="#source-104704-104713">の穂に</seg><ruby type="furigana" rend="right" source="#source-104713-104731"><rb>醤</rb><rt>もろみ</rt></ruby>のかびをかき分けて」を付けているところを見ると、岱水の頭には何かしら醤油のようなものと帷子との中間にまたがる観念群があるのではないかと疑わせる。もちろんこれも一つの<ruby type="furigana" rend="right" source="#source-104977-105001"><rb>臆測</rb><rt>おくそく</rt></ruby><seg source="#source-105001-105015">である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-105015-105506">やはり岱水で「二階はしごのうすき裏板」の次に「手細工に<ruby type="furigana" rend="right" source="#source-105099-105123"><rb>雑箸</rb><rt>ぞうばし</rt></ruby>ふときかんなくず」があり、しばらく後に「引き割りし<ruby type="furigana" rend="right" source="#source-105198-105216"><rb>土佐</rb><rt>とさ</rt></ruby>材木のかたおもい」がある、これらも一つの群と見られる。また「梅の枝おろしかねたる暮れの月」と「かれし柳を今におしみて」の二つもこの二つで一群をなし、なおまた前の三つの一群と合しそうな気もする。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-105506-106170"><seg source="#source-105506-105518">最後に</seg><ruby type="furigana" rend="right" source="#source-105518-105545"><rb>涼葉</rb><rt>りょうよう</rt></ruby>十七句を調べてみた。「牛」が二頭いる。「<ruby type="furigana" rend="right" source="#source-105605-105626"><rb>草鞋</rb><rt>わらじ</rt></ruby>」と「<ruby type="furigana" rend="right" source="#source-105635-105653"><rb>蓆</rb><rt>むしろ</rt></ruby>」と「<ruby type="furigana" rend="right" source="#source-105662-105677"><rb>藁</rb><rt>わら</rt></ruby>」、それから少しちがった意味としても「<ruby type="furigana" rend="right" source="#source-105734-105749"><rb>籠</rb><rt>かご</rt></ruby>」と「<ruby type="furigana" rend="right" source="#source-105758-105773"><rb>駕</rb><rt>かご</rt></ruby>」がある。それから「文」、「日記」の「紙」、それから「<ruby type="furigana" rend="right" source="#source-105854-105913"><rb><g ref="#gaiji-4-2-84-21" source="#source-105854-105901">𥿻</g></rb><rt>きぬ</rt></ruby>」と「<ruby type="furigana" rend="right" source="#source-105922-105937"><rb>縞</rb><rt>しま</rt></ruby>」がある。これらのものは、少なくも私には一つの観念群を形成しうるものである。これが全体十七句の五割以上を占領しているのは、よもや全くの偶然とは言われまい。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-106170-106678"><seg source="#source-106170-106308">ここで以上にあげた作家のために一言弁じておかなければならないことは、これらの後世に伝わった</seg><ruby type="furigana" rend="right" source="#source-106308-106335"><rb>僅少</rb><rt>きんしょう</rt></ruby><seg source="#source-106335-106449">な句だけを見て、これからこれらの作家の頭の幅員を論じてはならないことである。</seg><ruby type="furigana" rend="right" source="#source-106449-106476"><rb>涼葉</rb><rt>りょうよう</rt></ruby><seg source="#source-106476-106678">にしたところが何もいつまでもこの、私がかりに texture complex とでも名づけるものばかりの周囲をぐるぐる回ってばかりいたわけではないであろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-106678-107241"><seg source="#source-106678-106717">以上のような方法を芭蕉や</seg><ruby type="furigana" rend="right" source="#source-106717-106738"><rb>蕪村</rb><rt>ぶそん</rt></ruby><seg source="#source-106738-106969">に及ぼして分析と統計とを試みてみたらあるいはおもしろい結果が得られはしないかと思うのであるが、自分で今それを遂行するだけの余裕のないことを遺憾とする。もし</seg><ruby type="furigana" rend="right" source="#source-106969-106993"><rb>渋柿</rb><rt>しぶかき</rt></ruby><seg source="#source-106993-107241">同人中でこれを試みようという篤志家を見いだすことができれば大幸である。以上はただそういう方面の研究をする場合に役に立ちそうだと思われる方法の暗示に過ぎないのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-107241-108569"><seg source="#source-107241-107460">こういうふうに、連句というものの文学的芸術的価値ということを全然念頭から駆逐してしまって統計的心理的に分析を試みることによって連句の芸術的価値に</seg><ruby type="furigana" rend="right" source="#source-107460-107484"><rb>寸毫</rb><rt>すんごう</rt></ruby><seg source="#source-107484-107544">も損失をきたすような恐れのないことは別に</seg><ruby type="furigana" rend="right" source="#source-107544-107574"><rb>喋々</rb><rt>ちょうちょう</rt></ruby><seg source="#source-107574-108312">する必要はないであろうと思われる。繰り返して言ったように創作の心理と鑑賞の心理は別だからである。しかし全く別々で縁がないかと言うとそう簡単でもない。それは意識の限界以上で別々になっているだけで、その下ではやはり連絡していると思われるからである。この点についてはさらに深く考究してみたいと思っている。ともかくも一度こういうふうに創作心理を分析した上で連句の鑑賞に心を転じてみると、おのずからそうする以前とはいくらかちがった心持ちをもって同じ作品を見直すことができはしないか。そうして付け合わせの</seg><ruby type="furigana" rend="right" source="#source-108312-108333"><rb>玩味</rb><rt>がんみ</rt></ruby><seg source="#source-108333-108569">に際してしいて普遍的論理的につじつまを合わせようとするような徒労を避け、そのかわりに正真な連句進行の旋律を認識し享楽することができはしないかと思うのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-108569-108922"><seg source="#source-108569-108922">専門の心理学者ことに精神分析学者の目で連句の世界を見渡せばまだまだおもしろい問題や材料は数限りもなく得られるであろうと想像される。そういう方面の学者でこの日本独特の芸術の分析的研究に手を着ける人が一人でもできれば喜ばしいことである。</seg></p>
+      </div>
+      <div type="layout" source="#source-108922-108995" style="padding-inline-end: 3em; text-align: right">
+        <p source="#source-108952-108995"><seg source="#source-108952-108995">（昭和六年八―十月、渋柿）</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 5em" rend="first-line-indent(5)" source="#source-108995-109044"><seg source="#source-108995-109044">六　月花の定座の意義</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-109044-110099"><seg source="#source-109044-109116">連句の進行の途上ところどころに月や花のいわゆる</seg><ruby type="furigana" rend="right" source="#source-109116-109140"><rb>定座</rb><rt>じょうざ</rt></ruby><seg source="#source-109140-109179">が設定されていて、これらが</seg><ruby type="furigana" rend="right" source="#source-109179-109209"><rb>一里塚</rb><rt>いちりづか</rt></ruby><seg source="#source-109209-109236">のごとく、あるいは</seg><ruby type="furigana" rend="right" source="#source-109236-109263"><rb>澪標</rb><rt>みおつくし</rt></ruby><seg source="#source-109263-109503">のごとく、あるいは関所のごとく、また緑門のごとく樹立している。これは連句というものの形式的要素の中でもかなり重要なものであって、全体の構造上の締めくくりをつける</seg><ruby type="furigana" rend="right" source="#source-109503-109527"><rb>留釘</rb><rt>リベット</rt></ruby><seg source="#source-109527-109650">のような役目をつとめているようである。いつごろからだれらが規定したものか、そういう</seg><ruby type="furigana" rend="right" source="#source-109650-109674"><rb>由緒</rb><rt>ゆいしょ</rt></ruby><seg source="#source-109674-109845">来歴については自分はまだなんらの知識をも持たないのであるが、ただ自分で連句の制作に当面している場合にこれらの定座に</seg><ruby type="furigana" rend="right" source="#source-109845-109872"><rb>逢着</rb><rt>ほうちゃく</rt></ruby><seg source="#source-109872-110099">するごとに経験するいろいろな体験の内省からこれら定座の意義に関するいくらかの分析を試みることはできるので、その考察の一端を述べてみたいと思うのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-110099-112078"><seg source="#source-110099-111140">前に連句の付け合わせの心理的機巧を述べたときに詳説しておいたように、前句と付け句とは二つの個性の部分的重合によって連結されたものであって、連句の全体はそういうものの連鎖の一系列を形成している。従ってその連鎖のつながり方を規定するものは作者各自の個性のアンサンブルである。ところがそういう集団の組織は時と場合により多種多様であるから、もしそこになんらか外側から人工的に加えられた制限がないとしたら、その結果はどこへどうそれて行くか見きわめがつかないものになってしまうであろう。そういうものもまた一つの自由な詩形として成立しうるかもしれないが、しかしそれでは、それ自身としての存在を有するきまった足場の上に立つところの、従って一つのきまった名によって呼ばるべき詩形は成立し得ない。気ままにピアノの</seg><ruby type="furigana" rend="right" source="#source-111140-111164"><rb>鍵盤</rb><rt>けんばん</rt></ruby><seg source="#source-111164-111458">をたたきまわっても一つの音楽であるかもしれないがソナタにはならないと同様である。そういう意味における統制的要素としての定座が勤めるいろいろの役割のうちで特に注目すべき点は、やはり前述のごとき個性の</seg><ruby type="furigana" rend="right" source="#source-111458-111479"><rb>放恣</rb><rt>ほうし</rt></ruby><seg source="#source-111479-111563">なる狂奔を制御するために個性を超越した外界から投げかける</seg><ruby type="furigana" rend="right" source="#source-111563-111590"><rb>縛繩</rb><rt>ばくじょう</rt></ruby><seg source="#source-111590-111704">のようなものであるかと思われる。個性だけでは知らず知らずの間に落ち込みやすい</seg><ruby type="furigana" rend="right" source="#source-111704-111743"><rb>苟安自適</rb><rt>こうあんじてき</rt></ruby><seg source="#source-111743-111746">の</seg><ruby type="furigana" rend="right" source="#source-111746-111770"><rb>泥沼</rb><rt>どろぬま</rt></ruby><seg source="#source-111770-111881">から引きずり出して、再び目をこすって新しい目で世界を見直し、そうして新しい</seg><ruby type="furigana" rend="right" source="#source-111881-111902"><rb>甦生</rb><rt>そせい</rt></ruby><seg source="#source-111902-111911">の道へ</seg><ruby type="furigana" rend="right" source="#source-111911-111926"><rb>駒</rb><rt>こま</rt></ruby><seg source="#source-111926-112078">の頭を向け直させるような指導者としての役目をつとめるのがまさにこの定座であるように思われるのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-112078-113829"><seg source="#source-112078-112162">もっとも連句におけるいっさいの他の規約、たとえば季題や</seg><ruby type="furigana" rend="right" source="#source-112162-112174"><rb>去</rb><rt>さ</rt></ruby><seg source="#source-112174-112177">り</seg><ruby type="furigana" rend="right" source="#source-112177-112192"><rb>嫌</rb><rt>きら</rt></ruby><seg source="#source-112192-112402">いの定めなどもある程度まではやはり前述のごとき統制的の役目をつとめることはもちろんであるが、しかしこれらの制限と月花の定座の制限とでは言わば</seg><ruby type="furigana" rend="right" source="#source-112402-112441"><rb>次元的</rb><rt>ディメンショナル</rt></ruby><seg source="#source-112441-112765">に大きな差別がある。前者の拘束範囲が一つの面であるとすれば、後者はその面内にただ一つの線を画するような感じがある。もしこういう拘束がなかったとすると各自の個性はその最も安易な出入り口にのみ目を向けるであろうが、定座の</seg><ruby type="furigana" rend="right" source="#source-112765-112783"><rb>掟</rb><rt>おきて</rt></ruby><seg source="#source-112783-113092">によってそれらのわがままの戸口をふさがれてしまうので、そこでどうにかそこから抜け出しうべく許されたただ一筋の困難な活路をたどるほかはないことになる。しかしそこをくぐることによって、もしそうでなかったら決して</seg><ruby type="furigana" rend="right" source="#source-113092-113119"><rb>生涯</rb><rt>しょうがい</rt></ruby>見ることのなかったはずの珍しく新しい国を遍歴する第一歩を踏み出すことができるのである。もっともこのようなことは何も連句に限らず他の百般の事がらに通有ないわゆる「転機」の妙用に過ぎないので、われわれ人間の生涯の行路についても似よったことが言われるであろうが、そういう<ruby type="furigana" rend="right" source="#source-113515-113542"><rb>範疇</rb><rt>はんちゅう</rt></ruby><seg source="#source-113542-113683">の適切なる一例として見らるるという点に興味があるであろう。またそう見ることによって定座の意義が</seg><ruby type="furigana" rend="right" source="#source-113683-113710"><rb>明瞭</rb><rt>めいりょう</rt></ruby><seg source="#source-113710-113829">となり、また制作に当たっての一つの指針を得ることができるであろうかと思われる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-113829-115703"><seg source="#source-113829-114609">そういう役目を月と花との二つに負わせた事にも興味がある。これは一つには古来の伝統による雪月花の組み合わせにもよる事であろうが、しかし月花の定座に雪を加えてはたしかに多すぎてかえって統率が乱れる。しかしいずれか一つではまたあまりに単調になる。だいたいにおいて春の花のほがらかさと、秋の月の清らかさとを正と負、陽と陰の両極として対立させたものであるに相違ない。音楽で言わば長音階と短音階との対立を連想させるものもある。もちろん定座には必ず同季の句が別に二句以上結合して三協和音のごとき一群をなすのであって、結局は春秋季題の</seg><ruby type="furigana" rend="right" source="#source-114609-114636"><rb>插入</rb><rt>そうにゅう</rt></ruby><ruby type="furigana" rend="right" source="#source-114636-114654"><rb>位置</rb><rt>いち</rt></ruby><seg source="#source-114654-115703">を規定する、その代表者として花と月とが選ばれているとも言われる。そうしてこの二つのものが他の季題に比べて最も広い連想範囲をもちうるために代表者に選ばれたことも事実であろう。しかし自分のおもしろいと思うのは、この定座の月と花とが往々具体的な自然現象としてではなくむしろ非常に抽象的な正と負の概念としてこの定座の位置に君臨している観があるということである。もちろんそうでない場合もまたはなはだ多いようであるがだいたいにおいては自然にそうなるべきはずのものではないかと思われ、そういう意識をもって作句してもしかるべきではないかと思うのである。しかしこれについては、古来の作例について具体的に系統的な調べをした上でなければ確定的な議論はできないので、ここにはただ一つの研究題目として提出するにとどめておく。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-115703-117313"><seg source="#source-115703-116060">定座の配置のしかたもまたはなはだ興味あるものである。表六句の中に月が置かれているのはこの一ページのうわずるのを押える鎮静剤のようなきき目をもっている。裏十二の中に月と花が一つずつあってこの一楽章に複雑な美しさを与える一方ではまたあまりに</seg><ruby type="furigana" rend="right" source="#source-116060-116081"><rb>放恣</rb><rt>ほうし</rt></ruby><seg source="#source-116081-116327">な運動をしないような規律を制定している。月が七句目のへんに来ているのは、表の月に照応してもう一度同じテーマを繰り返すことによって表の気分を継承した形である。そうして</seg><ruby type="furigana" rend="right" source="#source-116327-116348"><rb>名残</rb><rt>なごり</rt></ruby><seg source="#source-116348-116534">の表に移らんとする二句前に花が現われて、それがまさにきたらんとするほがらかな活躍を予想させるようにも思われる。さて、いよいよ</seg><ruby type="furigana" rend="right" source="#source-116534-116555"><rb>名残</rb><rt>なごり</rt></ruby><seg source="#source-116555-116888">十二句のスケルツォの一楽章においては奔放自在なる跳躍を可能ならしむるため、最後から一つ前の十一句目までは定座のような邪魔な目付け役は一つも置かないことにしてある。しかしこの十一句目に至ってそこで始めて次にきたるべき沈静への</seg><ruby type="furigana" rend="right" source="#source-116888-116918"><rb>導音</rb><rt>ライトトーン</rt></ruby><seg source="#source-116918-117313">ででもあるかのように月の座が出現する。そうしてその後につづく秋季結びが裏へその余韻を送るのである。かくしていよいよ最後の花の座が、あたかも静寂な暮れ方の空をいろどる夕ばえのごとき明るくはなやかなさびしさをもって全巻のカデンツァをかなでることになっているのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-117313-117798"><seg source="#source-117313-117798">以上のごとく考えて来るとこの一見任意的であるかのごとき定座の定数やその位置がなかなか任意ではなくて容易には変更を許さないような必然性をもっているように思われて来るのである。それでこの規定はもちろん絶対ユニークなものではないまでも種々な可能なものの中から選ばるべき最良なるものの一つであることだけは確実であろうと思われる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-117798-118367"><seg source="#source-117798-118041">以上ははなはだ未熟な分析の試みであったが、このような見方を一つの作業仮説として実際の古人の連句中の代表的なものに応用してみることは、連句の研究上に一つの新断面を</seg><ruby type="furigana" rend="right" source="#source-118041-118065"><rb>劈開</rb><rt>へきかい</rt></ruby><seg source="#source-118065-118367">するだけの効果はありはしないかと思われる。ここで実例について詳説することのできないのを遺憾とするが、読者のうちでもし上記の暗示を採用されていっそう具体的に詳細な研究を試みらるるかたがあれば大幸である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-118367-119083"><seg source="#source-118367-119083">なお、ここでは定座の標準位置のみについて論じたのであるが、実例についてこの定位からの偏差が実際いかなる範囲にいかなる様式で行なわれているかを研究してみるのもまた興味あり有益なる仕事であろうと思われる。また一方ではこの定座の発生進化に関する歴史的研究もはなはだ必要であるが、これについてはその方面の学者たちの示教を仰ぐほかはないのである。そうして単なる文献考証だけではなくして、そういう進化径路の有機的な系統に関する分析的な研究が遂げられる日の来るのを期待したく思うのである。</seg></p>
+      </div>
+      <div type="layout" source="#source-119083-119150" style="padding-inline-end: 3em; text-align: right">
+        <p source="#source-119113-119150"><seg source="#source-119113-119150">（昭和六年十一月渋柿）</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 5em" rend="first-line-indent(5)" source="#source-119150-119199"><seg source="#source-119150-119199">七　短歌の連作と連句</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-119199-119912">近ごろ岩波文庫の「<ruby type="furigana" rend="right" source="#source-119229-119280"><rb>左千夫歌論抄</rb><rt>さちおかろんしょう</rt></ruby>」の巻頭にある「連作論」を読んで少なからざる興味を感じたのであるが、同時に連作短歌と連句との比較研究という一つの新しい題目が頭に浮かんで来るのであった。ところが、自分はまだ短歌連作というものについてはきわめて浅薄な知識しか持ち合わせていないから研究などというほどのまとまったことは到底できないであろうが、しかし取りあえず自分の感じたことだけを後日の参考としてここにしるしておくのも必ずしも無用のわざではあるまいと考える。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-119912-121507">右の「連作論」においていわゆる連作の最始のものとして引用されている<ruby type="furigana" rend="right" source="#source-120014-120032"><rb>子規</rb><rt>しき</rt></ruby>の十首、庭前の松に雨が降りかかるを見て作ったものを点検してみると、「松の葉」という言葉が六回、「松葉」が一つ、「葉」が七、「露」が九、「雨」が三、「玉」が六、「こぼれ」という三字が五回、「落ち」「落つ」が合わせて三、「おく」が七、「枝」が四回繰り返されている。これをかなの数にして合計すると百十字で、全体三百十字の三分の一を超過している。それでこの十首より成る一群の内容は「松の葉に雨の露が玉のごとくにおいて、それがこぼれ落ちる」というだけのことを繰り返し繰り返し<ruby type="furigana" rend="right" source="#source-120728-120752"><rb>諷詠</rb><rt>ふうえい</rt></ruby>したものであって、連作としてはおそらく最も単純な形式に属するものであろうと思われる。そうして、たとえば「松の葉」の現われる位置がほとんど初五字かその次の七字の中かにきまっており、「露」はだいたい一首の中ごろの位置に現われ、「玉」は多く一首の終わりに近く現われている。それでこれはたとえて言わば簡単な唱歌の同じ旋律を繰り返し繰り返し歌うようなものであって、同じものが繰り返さるることによって生ずる一種の味はなくはないであろうが、しかしこういうものばかりが続いてはおそらく<ruby type="furigana" rend="right" source="#source-121454-121478"><rb>倦怠</rb><rt>けんたい</rt></ruby><seg source="#source-121478-121507">を招くに相違ない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-121507-122361">次に「連作論」に引用された「<ruby type="furigana" rend="right" source="#source-121552-121597"><rb>病牀即事</rb><rt>びょうしょうそくじ</rt></ruby>」を詠じた十首は、もう少し複雑になっている。「月」は毎句にあり、「ガラス戸」が六、「鳥かごの屋根」と「森」と「ランプ」が各二あるが、そのほかにもいろいろの景物が<ruby type="furigana" rend="right" source="#source-121837-121861"><rb>点綴</rb><rt>てんてつ</rt></ruby><seg source="#source-121861-121924">され、ほととぎすや白雲や汽車やブリキや紙や</seg><ruby type="furigana" rend="right" source="#source-121924-121951"><rb>杉木立</rb><rt>すぎこだ</rt></ruby>ちやそういうものの実感が少しずつ印象され、また動作や感覚の上でもだいぶ変化が見えている。また毎句にある「月」でも一首の頭からおわりまでいろいろの位置に分配されているのに気がつく。この場合では、一つの場所の光景をいろいろな角度に見たスケッチを総合したような形式になっている。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-122361-122846">その次に引用された十首は春秋の草花に対して自分の病の悲しみを詠じたものであるが、これには異種の植物名が八つとほかに「秋草花」という言葉が現われ、「春」の字が三、「秋」が二、そうして十首のおのおのにいろいろな形で病者の感慨が<ruby type="furigana" rend="right" source="#source-122697-122709"><rb>詠</rb><rt>よ</rt></ruby><seg source="#source-122709-122846">み込まれている。これは共通な感じを糸にしていろいろの景物を貫ぬいた念珠のような形式である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-122846-124162">以上は連作というものの初期の作例であるが、その後の発達の歴史がどうであったか自分はまだそれについて充分に調べてみるだけの余裕がない。しかし座右にある最近の「アララギ」や「<ruby type="furigana" rend="right" source="#source-123104-123131"><rb>潮音</rb><rt>ちょうおん</rt></ruby>」その他を手当たり次第に見ていると、中にはほとんど前記の第一例に近いものも、第二例に近いものも、また第三例に近いものもあるが、また中には形式においてずっと変わった特徴の見られるものも少なくはない。たとえば、身近い人の臨終を題としたもので病中の状況から最期の光景、葬列、墓参というふうに事件を進行的に順々に<ruby type="furigana" rend="right" source="#source-123587-123599"><rb>詠</rb><rt>よ</rt></ruby><seg source="#source-123599-123788">んで行ってあるが、その中に一見それらの事件とは直接なんら論理的に必然な交渉はないような景物を詠んだ歌をいわゆるモンタージュ的に</seg><ruby type="furigana" rend="right" source="#source-123788-123815"><rb>插入</rb><rt>そうにゅう</rt></ruby><seg source="#source-123815-124112">したものがある。またこれとは逆にある一つの光景を子規の第一例もしくは第二例のように取り扱っているうちに、その光景とは一見直接には関係しない純主観の一首を漢詩の転句とでもいったふうにモンタージュとして</seg><ruby type="furigana" rend="right" source="#source-124112-124139"><rb>嵌入</rb><rt>かんにゅう</rt></ruby><seg source="#source-124139-124162">したのもある。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-124162-124592">ところが最近に寄贈を受けた「アララギ」の十一月号を開いて見ると、<ruby type="furigana" rend="right" source="#source-124261-124300"><rb>斎藤茂吉</rb><rt>さいとうもきち</rt></ruby>氏の「<ruby type="furigana" rend="right" source="#source-124309-124348"><rb>大沢禅寺</rb><rt>だいたくぜんじ</rt></ruby>」と題した五首の歌がある。これを一つの連作と見なして点検してみると、これは著しく他と異なった特徴をもっていることに気がつく。その五首というのは次のとおりである。</p>
+      </div>
+      <div type="layout" source="#source-124592-125153" style="padding-inline-start: 3em">
+        <p source="#source-124627-124740"><seg source="#source-124627-124684">木原よりふく風のおとのきこえくるここの</seg><ruby type="furigana" rend="right" source="#source-124684-124705"><rb>臥所</rb><rt>ふしど</rt></ruby><seg source="#source-124705-124708">に</seg><ruby type="furigana" rend="right" source="#source-124708-124723"><rb>蚤</rb><rt>のみ</rt></ruby><seg source="#source-124723-124740">ひとついず</seg></p>
+        <p source="#source-124740-124832"><seg source="#source-124740-124832">罪をもつ人もひそみておりしとううつしみのことはなべてかなしき</seg></p>
+        <p source="#source-124832-124921"><seg source="#source-124832-124921">この寺も火に燃えはてしときありき山の木立ちの燃えのまにまに</seg></p>
+        <p source="#source-124921-125004"><seg source="#source-124921-125004">おのずから年ふりてある山寺は昼をかわほりくろく飛ぶみゆ</seg></p>
+        <p source="#source-125004-125117"><seg source="#source-125004-125010">いま</seg><ruby type="furigana" rend="right" source="#source-125010-125022"><rb>搗</rb><rt>つ</rt></ruby><seg source="#source-125022-125049">きしもちいを見むと</seg><ruby type="furigana" rend="right" source="#source-125049-125064"><rb>煤</rb><rt>すす</rt></ruby><seg source="#source-125064-125117">たりしいろりのふちに身をかがめつつ</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-125157-125999">この五首の短歌連結のぐあいを見ると、これは以上に述べて来た子規の例やまた近ごろの他の例に比べて著しく動的であり進行的であり旋律的であり、しかもその進行のしかたが、われわれの目で見ると著しく連句の進行し方と似たところがあるように思われるのである。ことに、たとえば初めの二首のごとき試みにこれを長句短句に分解してそれらをさらにある連句中の一部分として考えてみても実に立派な一連をなしているように思われる。この特徴はすでに同じ作者の昔の「<ruby type="furigana" rend="right" source="#source-125808-125835"><rb>赤光</rb><rt>しゃっこう</rt></ruby>」集中の一首一首の歌にも見られるだれにも気のつく特徴と密接に連関しているものではないかと考えられるのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-125999-126379"><seg source="#source-125999-126011">以上の</seg><ruby type="furigana" rend="right" source="#source-126011-126035"><rb>匆卒</rb><rt>そうそつ</rt></ruby><seg source="#source-126035-126041">なる</seg><ruby type="furigana" rend="right" source="#source-126041-126065"><rb>瞥見</rb><rt>べっけん</rt></ruby><seg source="#source-126065-126379">によっても、いわゆる短歌の連作と見らるべきものの中には非常に多様な型式が実存し、極端に単純な輪唱ふうのものから、非常に複雑で進行のテンポの急なものまでいろいろの段階のあることだけはうかがわれると思うのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-126379-127269"><ruby type="furigana" rend="right" source="#source-126382-126406"><rb>左千夫</rb><rt>さちお</rt></ruby>氏が連作の趣味を形容して「植え込み的趣味」と言っているのはなかなかおもしろいと思われる。実際多くの連作は一つの植え込みをいろいろな角度から飽かずいつまでもながめているような趣があって、この点ではどうしても静的であり絵画的である。しかし近来の連作と見らるるものの中には事件の進行を時間的に順次に描いて行く点で、たとえば活動映画的とでもいうべきものもある。そうして最後にあげた一例になると、もはや事件の報告的進行ではなくて、印象や感覚の旋律的な進行になっていて、そうしてまさにこの点で従来自分の述べて来た連句の旋律的進行とかなりまで共通な要素を備えているように思われるのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-127269-127673"><seg source="#source-127269-127560">こういうふうに考えて来ると短歌連作と称するものの世界と連句の世界とは必ずしも一見そう思われるように全然かけ離れたものではなくて、ある一つの大きな全体の二つの部分であってその両者の間をつなぐべき</seg><ruby type="furigana" rend="right" source="#source-127560-127590"><rb>橋梁</rb><rt>きょうりょう</rt></ruby><seg source="#source-127590-127673">の存在が可能であるということが想像されて来るのである。</seg></p>
+        <p source="#source-127673-130009">「連作論」中に、<ruby type="furigana" rend="right" source="#source-127697-127721"><rb>左千夫</rb><rt>さちお</rt></ruby>の問いに答えて子規が「俳句は総合的で複雑なものだから連作の必要がないが、短歌は連続的で単純なものであるから連作ができる」というような意味のことを言ったとある。これも後に述べるように解釈次第では一面の真をうがっていると思われるが、ただこの問答の中で子規があたかも連句というものの存在を全然忘却あるいは無視しているように見えるのが不思議である。（もっともこの問答の記事は左千夫氏が聞いたのを覚え書きにしたので多少の誤りがあるかもしれぬと断わってある）。しかしわれわれ初心の者が連句を作る際に往々一句の長句あるいは短句の内にあまりたくさんの材料を詰め込むためにかえって連句の体を失し、その結果付け句を困難ならしめることがあるのは、<ruby type="furigana" rend="right" source="#source-128657-128684"><rb>畢竟</rb><rt>ひっきょう</rt></ruby><seg source="#source-128684-130009">俳句と連句との区別を忘れるためであると感じることがしばしばある。こういう自分の体験と思い合わせて考えてみるとこの子規の言ったという言葉にも味わうべき点があるようにも思われて来るのである。実際俳句を並べただけでは決して連句はできないのである。そうかと言ってまた短歌連作の多数のものは連句とあまりに距離が大きい。しかし短歌連作をいろいろと開拓して行くうちにはあるいは一方ではおのずからいわゆる連歌の領域に接近し、したがってまた自然に連句とも形式ならびに内容において次第に接近して行くという事も充分可能である。他方ではまた、少なくも現在では連句とは全く別物と思われる連作の型式から進化して行って、そうして現在の歌仙などとはかなりちがった別種の連句形式が生ずるという可能性も想像されなくはない。われわれ連句を研究するものの興味は実に主としてこの点にかかるのである。それでわれわれにとっては、こういう目をもっている短歌連作の進化の歴史を追跡することも決して無用ではあるまいと思われるのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-130009-130431"><seg source="#source-130009-130431">以上は一時の思いつきのようなものに過ぎないのであるが、一つの研究題目を提出するような意味で、思ったままをここにしるしてあえて読者の教えをこうことにした。もしさらに短歌の研究者の側から見たこの問題に対する意見を聞くことができれば教えられるところが少なくないであろうと思うのである。</seg></p>
+      </div>
+      <div type="layout" source="#source-130431-130501" style="padding-inline-end: 3em; text-align: right">
+        <p source="#source-130461-130501"><seg source="#source-130461-130501">（昭和六年十二月、渋柿）</seg></p>
+      </div>
+      <div type="layout" source="#source-130501-130946" style="padding-inline-start: 2em">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-130536-130910"><seg source="#source-130536-130910">以上に続いてまだいろいろ書くつもりであったのが都合で一時中止したままになっている。他日機会があったらもう少し補充してまとめたいと思っているが、本書所載の他の論文にしばしば引き合いに出ている関係上参照の便宜のためにこのままここに採録した次第である。</seg></p>
+      </div>
+    </body>
+    <back>
+      <div type="source">
+        <note type="source-attribution" source="#source-130954-131217"><seg type="source-line">底本：「寺田寅彦随筆集　第三巻」小宮豊隆編、岩波文庫、岩波書店</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1948（昭和23）年5月15日第1刷発行</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1963（昭和38）年4月16日第20刷改版発行</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1997（平成9）年9月5日第64刷発行</seg></note>
+        <note type="transcriber-note" source="#source-131217-131675"><seg type="source-line">※作品末の一節は、随筆集「蒸発皿」（1933（昭和8）年）刊行にあたって、追記されたものです。</seg><lb/><seg type="source-line">入力：(株)モモ</seg><lb/><seg type="source-line">校正：かとうかおり</seg><lb/><seg type="source-line">2003年6月25日作成</seg><lb/><seg type="source-line">青空文庫作成ファイル：</seg><lb/><seg type="source-line">このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。</seg></note>
+        <note type="source-span" xml:id="source-100753-101226" n="121"/>
+        <note type="source-span" xml:id="source-101226-101313" n="122"/>
+        <note type="source-span" xml:id="source-101226-102557" n="122"/>
+        <note type="source-span" xml:id="source-101313-101337" n="122"/>
+        <note type="source-span" xml:id="source-10139-10163" n="28"/>
+        <note type="source-span" xml:id="source-101397-101418" n="122"/>
+        <note type="source-span" xml:id="source-101418-101421" n="122"/>
+        <note type="source-span" xml:id="source-101421-101436" n="122"/>
+        <note type="source-span" xml:id="source-101436-101448" n="122"/>
+        <note type="source-span" xml:id="source-101448-101472" n="122"/>
+        <note type="source-span" xml:id="source-101622-101634" n="122"/>
+        <note type="source-span" xml:id="source-101694-101715" n="122"/>
+        <note type="source-span" xml:id="source-101886-101901" n="122"/>
+        <note type="source-span" xml:id="source-101934-101967" n="122"/>
+        <note type="source-span" xml:id="source-102432-102456" n="122"/>
+        <note type="source-span" xml:id="source-10244-10259" n="28"/>
+        <note type="source-span" xml:id="source-102456-102557" n="122"/>
+        <note type="source-span" xml:id="source-102557-102560" n="123"/>
+        <note type="source-span" xml:id="source-102557-103594" n="123"/>
+        <note type="source-span" xml:id="source-102560-102584" n="123"/>
+        <note type="source-span" xml:id="source-102827-102842" n="123"/>
+        <note type="source-span" xml:id="source-102968-102989" n="123"/>
+        <note type="source-span" xml:id="source-10322-10343" n="28"/>
+        <note type="source-span" xml:id="source-103319-103334" n="123"/>
+        <note type="source-span" xml:id="source-103406-103421" n="123"/>
+        <note type="source-span" xml:id="source-103421-103433" n="123"/>
+        <note type="source-span" xml:id="source-10343-10697" n="28"/>
+        <note type="source-span" xml:id="source-103594-103597" n="124"/>
+        <note type="source-span" xml:id="source-103594-105015" n="124"/>
+        <note type="source-span" xml:id="source-103597-103621" n="124"/>
+        <note type="source-span" xml:id="source-103621-103924" n="124"/>
+        <note type="source-span" xml:id="source-103924-103948" n="124"/>
+        <note type="source-span" xml:id="source-104233-104251" n="124"/>
+        <note type="source-span" xml:id="source-104338-104365" n="124"/>
+        <note type="source-span" xml:id="source-104365-104368" n="124"/>
+        <note type="source-span" xml:id="source-104368-104383" n="124"/>
+        <note type="source-span" xml:id="source-104434-104458" n="124"/>
+        <note type="source-span" xml:id="source-104548-104572" n="124"/>
+        <note type="source-span" xml:id="source-104596-104611" n="124"/>
+        <note type="source-span" xml:id="source-104611-104614" n="124"/>
+        <note type="source-span" xml:id="source-104614-104629" n="124"/>
+        <note type="source-span" xml:id="source-104689-104704" n="124"/>
+        <note type="source-span" xml:id="source-104704-104713" n="124"/>
+        <note type="source-span" xml:id="source-104713-104731" n="124"/>
+        <note type="source-span" xml:id="source-104977-105001" n="124"/>
+        <note type="source-span" xml:id="source-105001-105015" n="124"/>
+        <note type="source-span" xml:id="source-105015-105506" n="125"/>
+        <note type="source-span" xml:id="source-105099-105123" n="125"/>
+        <note type="source-span" xml:id="source-105198-105216" n="125"/>
+        <note type="source-span" xml:id="source-105506-105518" n="126"/>
+        <note type="source-span" xml:id="source-105506-106170" n="126"/>
+        <note type="source-span" xml:id="source-105518-105545" n="126"/>
+        <note type="source-span" xml:id="source-105605-105626" n="126"/>
+        <note type="source-span" xml:id="source-105635-105653" n="126"/>
+        <note type="source-span" xml:id="source-105662-105677" n="126"/>
+        <note type="source-span" xml:id="source-105734-105749" n="126"/>
+        <note type="source-span" xml:id="source-105758-105773" n="126"/>
+        <note type="source-span" xml:id="source-105854-105901" n="126"/>
+        <note type="source-span" xml:id="source-105854-105913" n="126"/>
+        <note type="source-span" xml:id="source-105922-105937" n="126"/>
+        <note type="source-span" xml:id="source-106170-106308" n="127"/>
+        <note type="source-span" xml:id="source-106170-106678" n="127"/>
+        <note type="source-span" xml:id="source-106308-106335" n="127"/>
+        <note type="source-span" xml:id="source-106335-106449" n="127"/>
+        <note type="source-span" xml:id="source-106449-106476" n="127"/>
+        <note type="source-span" xml:id="source-106476-106678" n="127"/>
+        <note type="source-span" xml:id="source-106678-106717" n="128"/>
+        <note type="source-span" xml:id="source-106678-107241" n="128"/>
+        <note type="source-span" xml:id="source-106717-106738" n="128"/>
+        <note type="source-span" xml:id="source-106738-106969" n="128"/>
+        <note type="source-span" xml:id="source-106969-106993" n="128"/>
+        <note type="source-span" xml:id="source-10697-10712" n="28"/>
+        <note type="source-span" xml:id="source-106993-107241" n="128"/>
+        <note type="source-span" xml:id="source-10712-10778" n="28"/>
+        <note type="source-span" xml:id="source-107241-107460" n="129"/>
+        <note type="source-span" xml:id="source-107241-108569" n="129"/>
+        <note type="source-span" xml:id="source-107460-107484" n="129"/>
+        <note type="source-span" xml:id="source-107484-107544" n="129"/>
+        <note type="source-span" xml:id="source-107544-107574" n="129"/>
+        <note type="source-span" xml:id="source-107574-108312" n="129"/>
+        <note type="source-span" xml:id="source-10778-10793" n="28"/>
+        <note type="source-span" xml:id="source-10793-10829" n="28"/>
+        <note type="source-span" xml:id="source-10829-10847" n="28"/>
+        <note type="source-span" xml:id="source-108312-108333" n="129"/>
+        <note type="source-span" xml:id="source-108333-108569" n="129"/>
+        <note type="source-span" xml:id="source-10847-10850" n="28"/>
+        <note type="source-span" xml:id="source-10850-10862" n="28"/>
+        <note type="source-span" xml:id="source-108569-108922" n="130"/>
+        <note type="source-span" xml:id="source-10862-10868" n="28"/>
+        <note type="source-span" xml:id="source-10868-10889" n="28"/>
+        <note type="source-span" xml:id="source-10889-10922" n="28"/>
+        <note type="source-span" xml:id="source-108922-108995" n="131"/>
+        <note type="source-span" xml:id="source-108952-108995" n="131"/>
+        <note type="source-span" xml:id="source-108995-109044" n="133"/>
+        <note type="source-span" xml:id="source-109044-109116" n="135"/>
+        <note type="source-span" xml:id="source-109044-110099" n="135"/>
+        <note type="source-span" xml:id="source-109116-109140" n="135"/>
+        <note type="source-span" xml:id="source-109140-109179" n="135"/>
+        <note type="source-span" xml:id="source-109179-109209" n="135"/>
+        <note type="source-span" xml:id="source-109209-109236" n="135"/>
+        <note type="source-span" xml:id="source-10922-10952" n="28"/>
+        <note type="source-span" xml:id="source-109236-109263" n="135"/>
+        <note type="source-span" xml:id="source-109263-109503" n="135"/>
+        <note type="source-span" xml:id="source-109503-109527" n="135"/>
+        <note type="source-span" xml:id="source-10952-10993" n="28"/>
+        <note type="source-span" xml:id="source-109527-109650" n="135"/>
+        <note type="source-span" xml:id="source-109650-109674" n="135"/>
+        <note type="source-span" xml:id="source-109674-109845" n="135"/>
+        <note type="source-span" xml:id="source-109845-109872" n="135"/>
+        <note type="source-span" xml:id="source-109872-110099" n="135"/>
+        <note type="source-span" xml:id="source-10993-11280" n="29"/>
+        <note type="source-span" xml:id="source-110099-111140" n="136"/>
+        <note type="source-span" xml:id="source-110099-112078" n="136"/>
+        <note type="source-span" xml:id="source-111140-111164" n="136"/>
+        <note type="source-span" xml:id="source-111164-111458" n="136"/>
+        <note type="source-span" xml:id="source-111458-111479" n="136"/>
+        <note type="source-span" xml:id="source-111479-111563" n="136"/>
+        <note type="source-span" xml:id="source-111563-111590" n="136"/>
+        <note type="source-span" xml:id="source-111590-111704" n="136"/>
+        <note type="source-span" xml:id="source-111704-111743" n="136"/>
+        <note type="source-span" xml:id="source-111743-111746" n="136"/>
+        <note type="source-span" xml:id="source-111746-111770" n="136"/>
+        <note type="source-span" xml:id="source-111770-111881" n="136"/>
+        <note type="source-span" xml:id="source-111881-111902" n="136"/>
+        <note type="source-span" xml:id="source-111902-111911" n="136"/>
+        <note type="source-span" xml:id="source-111911-111926" n="136"/>
+        <note type="source-span" xml:id="source-111926-112078" n="136"/>
+        <note type="source-span" xml:id="source-112078-112162" n="137"/>
+        <note type="source-span" xml:id="source-112078-113829" n="137"/>
+        <note type="source-span" xml:id="source-112162-112174" n="137"/>
+        <note type="source-span" xml:id="source-112174-112177" n="137"/>
+        <note type="source-span" xml:id="source-112177-112192" n="137"/>
+        <note type="source-span" xml:id="source-112192-112402" n="137"/>
+        <note type="source-span" xml:id="source-112402-112441" n="137"/>
+        <note type="source-span" xml:id="source-112441-112765" n="137"/>
+        <note type="source-span" xml:id="source-112765-112783" n="137"/>
+        <note type="source-span" xml:id="source-112783-113092" n="137"/>
+        <note type="source-span" xml:id="source-11280-11667" n="30"/>
+        <note type="source-span" xml:id="source-11280-11807" n="30"/>
+        <note type="source-span" xml:id="source-113092-113119" n="137"/>
+        <note type="source-span" xml:id="source-113515-113542" n="137"/>
+        <note type="source-span" xml:id="source-113542-113683" n="137"/>
+        <note type="source-span" xml:id="source-113683-113710" n="137"/>
+        <note type="source-span" xml:id="source-113710-113829" n="137"/>
+        <note type="source-span" xml:id="source-113829-114609" n="138"/>
+        <note type="source-span" xml:id="source-113829-115703" n="138"/>
+        <note type="source-span" xml:id="source-114609-114636" n="138"/>
+        <note type="source-span" xml:id="source-114636-114654" n="138"/>
+        <note type="source-span" xml:id="source-114654-115703" n="138"/>
+        <note type="source-span" xml:id="source-115703-116060" n="139"/>
+        <note type="source-span" xml:id="source-115703-117313" n="139"/>
+        <note type="source-span" xml:id="source-116060-116081" n="139"/>
+        <note type="source-span" xml:id="source-116081-116327" n="139"/>
+        <note type="source-span" xml:id="source-116327-116348" n="139"/>
+        <note type="source-span" xml:id="source-116348-116534" n="139"/>
+        <note type="source-span" xml:id="source-116534-116555" n="139"/>
+        <note type="source-span" xml:id="source-116555-116888" n="139"/>
+        <note type="source-span" xml:id="source-11667-11688" n="30"/>
+        <note type="source-span" xml:id="source-11688-11807" n="30"/>
+        <note type="source-span" xml:id="source-116888-116918" n="139"/>
+        <note type="source-span" xml:id="source-116918-117313" n="139"/>
+        <note type="source-span" xml:id="source-117313-117798" n="140"/>
+        <note type="source-span" xml:id="source-117798-118041" n="141"/>
+        <note type="source-span" xml:id="source-117798-118367" n="141"/>
+        <note type="source-span" xml:id="source-118041-118065" n="141"/>
+        <note type="source-span" xml:id="source-118065-118367" n="141"/>
+        <note type="source-span" xml:id="source-11807-11874" n="31"/>
+        <note type="source-span" xml:id="source-118367-119083" n="142"/>
+        <note type="source-span" xml:id="source-11837-11874" n="31"/>
+        <note type="source-span" xml:id="source-11874-11914" n="33"/>
+        <note type="source-span" xml:id="source-119083-119150" n="143"/>
+        <note type="source-span" xml:id="source-119113-119150" n="143"/>
+        <note type="source-span" xml:id="source-11914-12234" n="35"/>
+        <note type="source-span" xml:id="source-119150-119199" n="145"/>
+        <note type="source-span" xml:id="source-119199-119912" n="147"/>
+        <note type="source-span" xml:id="source-119229-119280" n="147"/>
+        <note type="source-span" xml:id="source-119912-121507" n="148"/>
+        <note type="source-span" xml:id="source-120014-120032" n="148"/>
+        <note type="source-span" xml:id="source-120728-120752" n="148"/>
+        <note type="source-span" xml:id="source-121454-121478" n="148"/>
+        <note type="source-span" xml:id="source-121478-121507" n="148"/>
+        <note type="source-span" xml:id="source-121507-122361" n="149"/>
+        <note type="source-span" xml:id="source-121552-121597" n="149"/>
+        <note type="source-span" xml:id="source-121837-121861" n="149"/>
+        <note type="source-span" xml:id="source-121861-121924" n="149"/>
+        <note type="source-span" xml:id="source-121924-121951" n="149"/>
+        <note type="source-span" xml:id="source-12234-13064" n="36"/>
+        <note type="source-span" xml:id="source-122361-122846" n="150"/>
+        <note type="source-span" xml:id="source-122697-122709" n="150"/>
+        <note type="source-span" xml:id="source-122709-122846" n="150"/>
+        <note type="source-span" xml:id="source-122846-124162" n="151"/>
+        <note type="source-span" xml:id="source-123104-123131" n="151"/>
+        <note type="source-span" xml:id="source-123587-123599" n="151"/>
+        <note type="source-span" xml:id="source-123599-123788" n="151"/>
+        <note type="source-span" xml:id="source-123788-123815" n="151"/>
+        <note type="source-span" xml:id="source-123815-124112" n="151"/>
+        <note type="source-span" xml:id="source-124112-124139" n="151"/>
+        <note type="source-span" xml:id="source-124139-124162" n="151"/>
+        <note type="source-span" xml:id="source-124162-124592" n="152"/>
+        <note type="source-span" xml:id="source-124261-124300" n="152"/>
+        <note type="source-span" xml:id="source-124309-124348" n="152"/>
+        <note type="source-span" xml:id="source-124592-125153" n="154"/>
+        <note type="source-span" xml:id="source-124627-124627" n="155"/>
+        <note type="source-span" xml:id="source-124627-124684" n="155"/>
+        <note type="source-span" xml:id="source-124627-124740" n="155"/>
+        <note type="source-span" xml:id="source-124684-124705" n="155"/>
+        <note type="source-span" xml:id="source-124705-124708" n="155"/>
+        <note type="source-span" xml:id="source-124708-124723" n="155"/>
+        <note type="source-span" xml:id="source-124723-124740" n="155"/>
+        <note type="source-span" xml:id="source-124740-124832" n="156"/>
+        <note type="source-span" xml:id="source-124832-124921" n="157"/>
+        <note type="source-span" xml:id="source-124921-125004" n="158"/>
+        <note type="source-span" xml:id="source-125004-125010" n="159"/>
+        <note type="source-span" xml:id="source-125004-125117" n="159"/>
+        <note type="source-span" xml:id="source-125010-125022" n="159"/>
+        <note type="source-span" xml:id="source-125022-125049" n="159"/>
+        <note type="source-span" xml:id="source-125049-125064" n="159"/>
+        <note type="source-span" xml:id="source-125064-125117" n="159"/>
+        <note type="source-span" xml:id="source-125155-125157" n="161"/>
+        <note type="source-span" xml:id="source-125157-125999" n="162"/>
+        <note type="source-span" xml:id="source-125808-125835" n="162"/>
+        <note type="source-span" xml:id="source-125999-126011" n="163"/>
+        <note type="source-span" xml:id="source-125999-126379" n="163"/>
+        <note type="source-span" xml:id="source-126011-126035" n="163"/>
+        <note type="source-span" xml:id="source-126035-126041" n="163"/>
+        <note type="source-span" xml:id="source-126041-126065" n="163"/>
+        <note type="source-span" xml:id="source-126065-126379" n="163"/>
+        <note type="source-span" xml:id="source-126379-126382" n="164"/>
+        <note type="source-span" xml:id="source-126379-127269" n="164"/>
+        <note type="source-span" xml:id="source-126382-126406" n="164"/>
+        <note type="source-span" xml:id="source-127269-127560" n="165"/>
+        <note type="source-span" xml:id="source-127269-127673" n="165"/>
+        <note type="source-span" xml:id="source-127560-127590" n="165"/>
+        <note type="source-span" xml:id="source-127590-127673" n="165"/>
+        <note type="source-span" xml:id="source-127673-130009" n="166"/>
+        <note type="source-span" xml:id="source-127697-127721" n="166"/>
+        <note type="source-span" xml:id="source-128657-128684" n="166"/>
+        <note type="source-span" xml:id="source-128684-130009" n="166"/>
+        <note type="source-span" xml:id="source-130009-130431" n="167"/>
+        <note type="source-span" xml:id="source-130431-130501" n="168"/>
+        <note type="source-span" xml:id="source-130461-130501" n="168"/>
+        <note type="source-span" xml:id="source-130501-130946" n="170"/>
+        <note type="source-span" xml:id="source-130536-130536" n="171"/>
+        <note type="source-span" xml:id="source-130536-130910" n="171"/>
+        <note type="source-span" xml:id="source-13064-16237" n="37"/>
+        <note type="source-span" xml:id="source-130954-131217" n="176"/>
+        <note type="source-span" xml:id="source-131217-131675" n="180"/>
+        <note type="source-span" xml:id="source-1459-1486" n="20"/>
+        <note type="source-span" xml:id="source-16237-16303" n="38"/>
+        <note type="source-span" xml:id="source-16237-17550" n="38"/>
+        <note type="source-span" xml:id="source-16303-16339" n="38"/>
+        <note type="source-span" xml:id="source-16339-17500" n="38"/>
+        <note type="source-span" xml:id="source-17500-17527" n="38"/>
+        <note type="source-span" xml:id="source-17527-17550" n="38"/>
+        <note type="source-span" xml:id="source-17550-17976" n="39"/>
+        <note type="source-span" xml:id="source-17550-18926" n="39"/>
+        <note type="source-span" xml:id="source-17976-18006" n="39"/>
+        <note type="source-span" xml:id="source-18006-18018" n="39"/>
+        <note type="source-span" xml:id="source-18018-18045" n="39"/>
+        <note type="source-span" xml:id="source-18926-19777" n="40"/>
+        <note type="source-span" xml:id="source-19439-19472" n="40"/>
+        <note type="source-span" xml:id="source-19472-19777" n="40"/>
+        <note type="source-span" xml:id="source-19777-20089" n="41"/>
+        <note type="source-span" xml:id="source-19777-20904" n="41"/>
+        <note type="source-span" xml:id="source-20089-20110" n="41"/>
+        <note type="source-span" xml:id="source-20110-20683" n="41"/>
+        <note type="source-span" xml:id="source-20683-20704" n="41"/>
+        <note type="source-span" xml:id="source-20704-20904" n="41"/>
+        <note type="source-span" xml:id="source-20904-22223" n="42"/>
+        <note type="source-span" xml:id="source-21483-21522" n="42"/>
+        <note type="source-span" xml:id="source-21522-22223" n="42"/>
+        <note type="source-span" xml:id="source-2184-2397" n="21"/>
+        <note type="source-span" xml:id="source-2184-2792" n="21"/>
+        <note type="source-span" xml:id="source-22223-22361" n="43"/>
+        <note type="source-span" xml:id="source-22223-24586" n="43"/>
+        <note type="source-span" xml:id="source-22361-22382" n="43"/>
+        <note type="source-span" xml:id="source-22382-22922" n="43"/>
+        <note type="source-span" xml:id="source-22922-22934" n="43"/>
+        <note type="source-span" xml:id="source-22922-22970" n="43"/>
+        <note type="source-span" xml:id="source-22934-22970" n="43"/>
+        <note type="source-span" xml:id="source-22970-22997" n="43"/>
+        <note type="source-span" xml:id="source-22997-23021" n="43"/>
+        <note type="source-span" xml:id="source-22997-23069" n="43"/>
+        <note type="source-span" xml:id="source-23021-23069" n="43"/>
+        <note type="source-span" xml:id="source-23069-23114" n="43"/>
+        <note type="source-span" xml:id="source-23114-23141" n="43"/>
+        <note type="source-span" xml:id="source-2397-2436" n="21"/>
+        <note type="source-span" xml:id="source-24107-24131" n="43"/>
+        <note type="source-span" xml:id="source-24131-24586" n="43"/>
+        <note type="source-span" xml:id="source-2436-2493" n="21"/>
+        <note type="source-span" xml:id="source-24586-25008" n="44"/>
+        <note type="source-span" xml:id="source-2493-2523" n="21"/>
+        <note type="source-span" xml:id="source-25008-25454" n="45"/>
+        <note type="source-span" xml:id="source-2523-2688" n="21"/>
+        <note type="source-span" xml:id="source-25454-27427" n="46"/>
+        <note type="source-span" xml:id="source-26036-26057" n="46"/>
+        <note type="source-span" xml:id="source-26840-26861" n="46"/>
+        <note type="source-span" xml:id="source-26861-27311" n="46"/>
+        <note type="source-span" xml:id="source-2688-2706" n="21"/>
+        <note type="source-span" xml:id="source-2706-2792" n="21"/>
+        <note type="source-span" xml:id="source-27311-27341" n="46"/>
+        <note type="source-span" xml:id="source-27341-27427" n="46"/>
+        <note type="source-span" xml:id="source-27427-27520" n="47"/>
+        <note type="source-span" xml:id="source-27427-30618" n="47"/>
+        <note type="source-span" xml:id="source-27520-27550" n="47"/>
+        <note type="source-span" xml:id="source-27550-27988" n="47"/>
+        <note type="source-span" xml:id="source-2792-3436" n="22"/>
+        <note type="source-span" xml:id="source-27988-28018" n="47"/>
+        <note type="source-span" xml:id="source-28018-28132" n="47"/>
+        <note type="source-span" xml:id="source-28132-28153" n="47"/>
+        <note type="source-span" xml:id="source-28153-28744" n="47"/>
+        <note type="source-span" xml:id="source-28744-28771" n="47"/>
+        <note type="source-span" xml:id="source-28771-30181" n="47"/>
+        <note type="source-span" xml:id="source-30181-30205" n="47"/>
+        <note type="source-span" xml:id="source-30205-30538" n="47"/>
+        <note type="source-span" xml:id="source-30538-30562" n="47"/>
+        <note type="source-span" xml:id="source-30562-30618" n="47"/>
+        <note type="source-span" xml:id="source-30618-30885" n="48"/>
+        <note type="source-span" xml:id="source-30618-31595" n="48"/>
+        <note type="source-span" xml:id="source-30885-30915" n="48"/>
+        <note type="source-span" xml:id="source-31059-31095" n="48"/>
+        <note type="source-span" xml:id="source-31251-31275" n="48"/>
+        <note type="source-span" xml:id="source-31275-31287" n="48"/>
+        <note type="source-span" xml:id="source-31287-31314" n="48"/>
+        <note type="source-span" xml:id="source-31314-31595" n="48"/>
+        <note type="source-span" xml:id="source-31595-31750" n="49"/>
+        <note type="source-span" xml:id="source-31750-32256" n="50"/>
+        <note type="source-span" xml:id="source-31783-31813" n="50"/>
+        <note type="source-span" xml:id="source-32256-33095" n="51"/>
+        <note type="source-span" xml:id="source-32340-32361" n="51"/>
+        <note type="source-span" xml:id="source-32370-32397" n="51"/>
+        <note type="source-span" xml:id="source-32406-32433" n="51"/>
+        <note type="source-span" xml:id="source-32634-32658" n="51"/>
+        <note type="source-span" xml:id="source-33095-33544" n="52"/>
+        <note type="source-span" xml:id="source-33544-33787" n="53"/>
+        <note type="source-span" xml:id="source-33544-33843" n="53"/>
+        <note type="source-span" xml:id="source-33787-33811" n="53"/>
+        <note type="source-span" xml:id="source-33811-33843" n="53"/>
+        <note type="source-span" xml:id="source-33843-35132" n="54"/>
+        <note type="source-span" xml:id="source-34194-34227" n="54"/>
+        <note type="source-span" xml:id="source-34329-34353" n="54"/>
+        <note type="source-span" xml:id="source-3436-3544" n="23"/>
+        <note type="source-span" xml:id="source-3436-5613" n="23"/>
+        <note type="source-span" xml:id="source-34644-34668" n="54"/>
+        <note type="source-span" xml:id="source-34668-34671" n="54"/>
+        <note type="source-span" xml:id="source-34671-34698" n="54"/>
+        <note type="source-span" xml:id="source-34698-35132" n="54"/>
+        <note type="source-span" xml:id="source-35132-36535" n="55"/>
+        <note type="source-span" xml:id="source-3544-3553" n="23"/>
+        <note type="source-span" xml:id="source-3544-3586" n="23"/>
+        <note type="source-span" xml:id="source-3553-3586" n="23"/>
+        <note type="source-span" xml:id="source-35681-35705" n="55"/>
+        <note type="source-span" xml:id="source-35705-35819" n="55"/>
+        <note type="source-span" xml:id="source-35819-35837" n="55"/>
+        <note type="source-span" xml:id="source-35837-35846" n="55"/>
+        <note type="source-span" xml:id="source-35846-35870" n="55"/>
+        <note type="source-span" xml:id="source-35870-35873" n="55"/>
+        <note type="source-span" xml:id="source-35873-35897" n="55"/>
+        <note type="source-span" xml:id="source-36323-36347" n="55"/>
+        <note type="source-span" xml:id="source-36347-36535" n="55"/>
+        <note type="source-span" xml:id="source-36535-37411" n="56"/>
+        <note type="source-span" xml:id="source-36535-38379" n="56"/>
+        <note type="source-span" xml:id="source-37411-37432" n="56"/>
+        <note type="source-span" xml:id="source-37432-37468" n="56"/>
+        <note type="source-span" xml:id="source-37468-37483" n="56"/>
+        <note type="source-span" xml:id="source-37483-38074" n="56"/>
+        <note type="source-span" xml:id="source-38074-38098" n="56"/>
+        <note type="source-span" xml:id="source-38098-38101" n="56"/>
+        <note type="source-span" xml:id="source-38101-38125" n="56"/>
+        <note type="source-span" xml:id="source-38125-38379" n="56"/>
+        <note type="source-span" xml:id="source-38379-38792" n="57"/>
+        <note type="source-span" xml:id="source-3862-3880" n="23"/>
+        <note type="source-span" xml:id="source-38792-38865" n="58"/>
+        <note type="source-span" xml:id="source-38822-38865" n="58"/>
+        <note type="source-span" xml:id="source-38865-38905" n="60"/>
+        <note type="source-span" xml:id="source-38905-39336" n="62"/>
+        <note type="source-span" xml:id="source-39336-40299" n="63"/>
+        <note type="source-span" xml:id="source-39336-41090" n="63"/>
+        <note type="source-span" xml:id="source-40299-40317" n="63"/>
+        <note type="source-span" xml:id="source-40878-40899" n="63"/>
+        <note type="source-span" xml:id="source-40899-41090" n="63"/>
+        <note type="source-span" xml:id="source-41090-41708" n="64"/>
+        <note type="source-span" xml:id="source-41090-41947" n="64"/>
+        <note type="source-span" xml:id="source-41708-41735" n="64"/>
+        <note type="source-span" xml:id="source-41947-42043" n="65"/>
+        <note type="source-span" xml:id="source-41947-44085" n="65"/>
+        <note type="source-span" xml:id="source-42043-42070" n="65"/>
+        <note type="source-span" xml:id="source-42070-42112" n="65"/>
+        <note type="source-span" xml:id="source-42112-42139" n="65"/>
+        <note type="source-span" xml:id="source-42139-42436" n="65"/>
+        <note type="source-span" xml:id="source-42436-42463" n="65"/>
+        <note type="source-span" xml:id="source-42463-42868" n="65"/>
+        <note type="source-span" xml:id="source-42868-42892" n="65"/>
+        <note type="source-span" xml:id="source-43753-43777" n="65"/>
+        <note type="source-span" xml:id="source-43777-43780" n="65"/>
+        <note type="source-span" xml:id="source-43780-43810" n="65"/>
+        <note type="source-span" xml:id="source-43810-43813" n="65"/>
+        <note type="source-span" xml:id="source-43813-43846" n="65"/>
+        <note type="source-span" xml:id="source-43846-43918" n="65"/>
+        <note type="source-span" xml:id="source-43918-43948" n="65"/>
+        <note type="source-span" xml:id="source-43948-44085" n="65"/>
+        <note type="source-span" xml:id="source-44085-47348" n="66"/>
+        <note type="source-span" xml:id="source-44232-44253" n="66"/>
+        <note type="source-span" xml:id="source-44373-44397" n="66"/>
+        <note type="source-span" xml:id="source-44685-44712" n="66"/>
+        <note type="source-span" xml:id="source-44790-44805" n="66"/>
+        <note type="source-span" xml:id="source-44901-44916" n="66"/>
+        <note type="source-span" xml:id="source-45075-45096" n="66"/>
+        <note type="source-span" xml:id="source-45132-45156" n="66"/>
+        <note type="source-span" xml:id="source-4519-4531" n="23"/>
+        <note type="source-span" xml:id="source-4531-4627" n="23"/>
+        <note type="source-span" xml:id="source-45372-45390" n="66"/>
+        <note type="source-span" xml:id="source-45528-45555" n="66"/>
+        <note type="source-span" xml:id="source-45804-45822" n="66"/>
+        <note type="source-span" xml:id="source-46125-46149" n="66"/>
+        <note type="source-span" xml:id="source-46149-46179" n="66"/>
+        <note type="source-span" xml:id="source-46179-46206" n="66"/>
+        <note type="source-span" xml:id="source-4627-4645" n="23"/>
+        <note type="source-span" xml:id="source-46299-46320" n="66"/>
+        <note type="source-span" xml:id="source-46320-46341" n="66"/>
+        <note type="source-span" xml:id="source-4645-4939" n="23"/>
+        <note type="source-span" xml:id="source-46482-46494" n="66"/>
+        <note type="source-span" xml:id="source-46494-46497" n="66"/>
+        <note type="source-span" xml:id="source-46497-46512" n="66"/>
+        <note type="source-span" xml:id="source-46551-46575" n="66"/>
+        <note type="source-span" xml:id="source-46812-46833" n="66"/>
+        <note type="source-span" xml:id="source-47010-47034" n="66"/>
+        <note type="source-span" xml:id="source-47046-47073" n="66"/>
+        <note type="source-span" xml:id="source-47073-47100" n="66"/>
+        <note type="source-span" xml:id="source-47100-47103" n="66"/>
+        <note type="source-span" xml:id="source-47103-47127" n="66"/>
+        <note type="source-span" xml:id="source-47127-47348" n="66"/>
+        <note type="source-span" xml:id="source-47348-47881" n="67"/>
+        <note type="source-span" xml:id="source-47881-48307" n="68"/>
+        <note type="source-span" xml:id="source-47881-49251" n="68"/>
+        <note type="source-span" xml:id="source-48307-48331" n="68"/>
+        <note type="source-span" xml:id="source-49251-49719" n="69"/>
+        <note type="source-span" xml:id="source-49251-51401" n="69"/>
+        <note type="source-span" xml:id="source-4939-4960" n="23"/>
+        <note type="source-span" xml:id="source-49719-49746" n="69"/>
+        <note type="source-span" xml:id="source-49746-50616" n="69"/>
+        <note type="source-span" xml:id="source-50616-50643" n="69"/>
+        <note type="source-span" xml:id="source-51401-52238" n="70"/>
+        <note type="source-span" xml:id="source-51401-52300" n="70"/>
+        <note type="source-span" xml:id="source-52238-52262" n="70"/>
+        <note type="source-span" xml:id="source-52262-52300" n="70"/>
+        <note type="source-span" xml:id="source-52300-52819" n="71"/>
+        <note type="source-span" xml:id="source-52300-52995" n="71"/>
+        <note type="source-span" xml:id="source-5269-5290" n="23"/>
+        <note type="source-span" xml:id="source-52819-52840" n="71"/>
+        <note type="source-span" xml:id="source-52840-52903" n="71"/>
+        <note type="source-span" xml:id="source-5290-5613" n="23"/>
+        <note type="source-span" xml:id="source-52903-52924" n="71"/>
+        <note type="source-span" xml:id="source-52924-52995" n="71"/>
+        <note type="source-span" xml:id="source-52995-54386" n="72"/>
+        <note type="source-span" xml:id="source-53727-53742" n="72"/>
+        <note type="source-span" xml:id="source-54386-55160" n="73"/>
+        <note type="source-span" xml:id="source-54386-55666" n="73"/>
+        <note type="source-span" xml:id="source-55160-55187" n="73"/>
+        <note type="source-span" xml:id="source-55187-55666" n="73"/>
+        <note type="source-span" xml:id="source-55666-55891" n="74"/>
+        <note type="source-span" xml:id="source-55666-58656" n="74"/>
+        <note type="source-span" xml:id="source-55891-55915" n="74"/>
+        <note type="source-span" xml:id="source-55915-56311" n="74"/>
+        <note type="source-span" xml:id="source-5613-6137" n="24"/>
+        <note type="source-span" xml:id="source-56311-56335" n="74"/>
+        <note type="source-span" xml:id="source-57418-57433" n="74"/>
+        <note type="source-span" xml:id="source-57433-57436" n="74"/>
+        <note type="source-span" xml:id="source-57436-57460" n="74"/>
+        <note type="source-span" xml:id="source-57460-57871" n="74"/>
+        <note type="source-span" xml:id="source-57871-57901" n="74"/>
+        <note type="source-span" xml:id="source-57901-58363" n="74"/>
+        <note type="source-span" xml:id="source-58363-58390" n="74"/>
+        <note type="source-span" xml:id="source-58390-58405" n="74"/>
+        <note type="source-span" xml:id="source-58405-58429" n="74"/>
+        <note type="source-span" xml:id="source-58429-58656" n="74"/>
+        <note type="source-span" xml:id="source-58656-58726" n="75"/>
+        <note type="source-span" xml:id="source-58686-58726" n="75"/>
+        <note type="source-span" xml:id="source-58726-58781" n="77"/>
+        <note type="source-span" xml:id="source-58781-59416" n="79"/>
+        <note type="source-span" xml:id="source-59416-59755" n="80"/>
+        <note type="source-span" xml:id="source-59416-59838" n="80"/>
+        <note type="source-span" xml:id="source-59755-59779" n="80"/>
+        <note type="source-span" xml:id="source-59779-59838" n="80"/>
+        <note type="source-span" xml:id="source-59838-61139" n="81"/>
+        <note type="source-span" xml:id="source-60006-60024" n="81"/>
+        <note type="source-span" xml:id="source-60024-60036" n="81"/>
+        <note type="source-span" xml:id="source-60036-60054" n="81"/>
+        <note type="source-span" xml:id="source-60054-60297" n="81"/>
+        <note type="source-span" xml:id="source-60297-60309" n="81"/>
+        <note type="source-span" xml:id="source-60309-60552" n="81"/>
+        <note type="source-span" xml:id="source-60552-60579" n="81"/>
+        <note type="source-span" xml:id="source-61139-63898" n="82"/>
+        <note type="source-span" xml:id="source-6137-6503" n="25"/>
+        <note type="source-span" xml:id="source-6137-8239" n="25"/>
+        <note type="source-span" xml:id="source-61427-61442" n="82"/>
+        <note type="source-span" xml:id="source-618-661" n="18"/>
+        <note type="source-span" xml:id="source-61826-61847" n="82"/>
+        <note type="source-span" xml:id="source-61847-61997" n="82"/>
+        <note type="source-span" xml:id="source-61997-62021" n="82"/>
+        <note type="source-span" xml:id="source-62786-62804" n="82"/>
+        <note type="source-span" xml:id="source-63266-63287" n="82"/>
+        <note type="source-span" xml:id="source-63839-63863" n="82"/>
+        <note type="source-span" xml:id="source-63863-63898" n="82"/>
+        <note type="source-span" xml:id="source-63898-65013" n="83"/>
+        <note type="source-span" xml:id="source-65013-65079" n="84"/>
+        <note type="source-span" xml:id="source-65013-65582" n="84"/>
+        <note type="source-span" xml:id="source-6503-6533" n="25"/>
+        <note type="source-span" xml:id="source-65079-65103" n="84"/>
+        <note type="source-span" xml:id="source-65103-65582" n="84"/>
+        <note type="source-span" xml:id="source-6533-6782" n="25"/>
+        <note type="source-span" xml:id="source-65582-65654" n="85"/>
+        <note type="source-span" xml:id="source-65582-66577" n="85"/>
+        <note type="source-span" xml:id="source-65654-65678" n="85"/>
+        <note type="source-span" xml:id="source-65678-66577" n="85"/>
+        <note type="source-span" xml:id="source-661-2184" n="20"/>
+        <note type="source-span" xml:id="source-66577-67788" n="86"/>
+        <note type="source-span" xml:id="source-67087-67108" n="86"/>
+        <note type="source-span" xml:id="source-67108-67126" n="86"/>
+        <note type="source-span" xml:id="source-67126-67159" n="86"/>
+        <note type="source-span" xml:id="source-67489-67513" n="86"/>
+        <note type="source-span" xml:id="source-67513-67788" n="86"/>
+        <note type="source-span" xml:id="source-67788-70618" n="87"/>
+        <note type="source-span" xml:id="source-6782-6812" n="25"/>
+        <note type="source-span" xml:id="source-6812-6866" n="25"/>
+        <note type="source-span" xml:id="source-6866-6893" n="25"/>
+        <note type="source-span" xml:id="source-68679-68706" n="87"/>
+        <note type="source-span" xml:id="source-6893-6932" n="25"/>
+        <note type="source-span" xml:id="source-69156-69203" n="87"/>
+        <note type="source-span" xml:id="source-69156-69224" n="87"/>
+        <note type="source-span" xml:id="source-69203-69206" n="87"/>
+        <note type="source-span" xml:id="source-6932-6956" n="25"/>
+        <note type="source-span" xml:id="source-6956-7145" n="25"/>
+        <note type="source-span" xml:id="source-70223-70247" n="87"/>
+        <note type="source-span" xml:id="source-70618-71098" n="88"/>
+        <note type="source-span" xml:id="source-70618-71670" n="88"/>
+        <note type="source-span" xml:id="source-71098-71125" n="88"/>
+        <note type="source-span" xml:id="source-71125-71530" n="88"/>
+        <note type="source-span" xml:id="source-7145-7163" n="25"/>
+        <note type="source-span" xml:id="source-71530-71542" n="88"/>
+        <note type="source-span" xml:id="source-71542-71670" n="88"/>
+        <note type="source-span" xml:id="source-7163-7217" n="25"/>
+        <note type="source-span" xml:id="source-71670-72236" n="89"/>
+        <note type="source-span" xml:id="source-7217-7241" n="25"/>
+        <note type="source-span" xml:id="source-72236-72814" n="90"/>
+        <note type="source-span" xml:id="source-7241-7286" n="25"/>
+        <note type="source-span" xml:id="source-72814-73080" n="91"/>
+        <note type="source-span" xml:id="source-7286-7310" n="25"/>
+        <note type="source-span" xml:id="source-73080-73147" n="92"/>
+        <note type="source-span" xml:id="source-7310-7526" n="25"/>
+        <note type="source-span" xml:id="source-73110-73147" n="92"/>
+        <note type="source-span" xml:id="source-73147-73196" n="94"/>
+        <note type="source-span" xml:id="source-73196-75076" n="96"/>
+        <note type="source-span" xml:id="source-75076-76647" n="97"/>
+        <note type="source-span" xml:id="source-7526-7547" n="25"/>
+        <note type="source-span" xml:id="source-75385-75409" n="97"/>
+        <note type="source-span" xml:id="source-7547-7964" n="25"/>
+        <note type="source-span" xml:id="source-76219-76240" n="97"/>
+        <note type="source-span" xml:id="source-76240-76647" n="97"/>
+        <note type="source-span" xml:id="source-76647-77163" n="98"/>
+        <note type="source-span" xml:id="source-76647-77720" n="98"/>
+        <note type="source-span" xml:id="source-77163-77187" n="98"/>
+        <note type="source-span" xml:id="source-77187-77720" n="98"/>
+        <note type="source-span" xml:id="source-77720-77723" n="99"/>
+        <note type="source-span" xml:id="source-77720-79360" n="99"/>
+        <note type="source-span" xml:id="source-77723-77750" n="99"/>
+        <note type="source-span" xml:id="source-77816-77837" n="99"/>
+        <note type="source-span" xml:id="source-78539-78566" n="99"/>
+        <note type="source-span" xml:id="source-78857-78884" n="99"/>
+        <note type="source-span" xml:id="source-79127-79154" n="99"/>
+        <note type="source-span" xml:id="source-79217-79232" n="99"/>
+        <note type="source-span" xml:id="source-79232-79235" n="99"/>
+        <note type="source-span" xml:id="source-79235-79256" n="99"/>
+        <note type="source-span" xml:id="source-79360-79752" n="100"/>
+        <note type="source-span" xml:id="source-79561-79588" n="100"/>
+        <note type="source-span" xml:id="source-7964-7991" n="25"/>
+        <note type="source-span" xml:id="source-79752-79934" n="101"/>
+        <note type="source-span" xml:id="source-79794-79821" n="101"/>
+        <note type="source-span" xml:id="source-79836-79851" n="101"/>
+        <note type="source-span" xml:id="source-79851-79854" n="101"/>
+        <note type="source-span" xml:id="source-79854-79872" n="101"/>
+        <note type="source-span" xml:id="source-7991-7997" n="25"/>
+        <note type="source-span" xml:id="source-79934-79937" n="102"/>
+        <note type="source-span" xml:id="source-79934-80485" n="102"/>
+        <note type="source-span" xml:id="source-79937-79955" n="102"/>
+        <note type="source-span" xml:id="source-79955-79964" n="102"/>
+        <note type="source-span" xml:id="source-79964-79979" n="102"/>
+        <note type="source-span" xml:id="source-7997-8024" n="25"/>
+        <note type="source-span" xml:id="source-80015-80033" n="102"/>
+        <note type="source-span" xml:id="source-80090-80111" n="102"/>
+        <note type="source-span" xml:id="source-8024-8239" n="25"/>
+        <note type="source-span" xml:id="source-80261-80276" n="102"/>
+        <note type="source-span" xml:id="source-80276-80300" n="102"/>
+        <note type="source-span" xml:id="source-80300-80315" n="102"/>
+        <note type="source-span" xml:id="source-80321-80336" n="102"/>
+        <note type="source-span" xml:id="source-80485-80947" n="103"/>
+        <note type="source-span" xml:id="source-80485-81066" n="103"/>
+        <note type="source-span" xml:id="source-80947-80971" n="103"/>
+        <note type="source-span" xml:id="source-80971-81066" n="103"/>
+        <note type="source-span" xml:id="source-81066-82142" n="104"/>
+        <note type="source-span" xml:id="source-81330-81351" n="104"/>
+        <note type="source-span" xml:id="source-82142-82610" n="105"/>
+        <note type="source-span" xml:id="source-82142-83704" n="105"/>
+        <note type="source-span" xml:id="source-8239-9294" n="26"/>
+        <note type="source-span" xml:id="source-82610-82634" n="105"/>
+        <note type="source-span" xml:id="source-82634-82712" n="105"/>
+        <note type="source-span" xml:id="source-82712-82733" n="105"/>
+        <note type="source-span" xml:id="source-83054-83087" n="105"/>
+        <note type="source-span" xml:id="source-83102-83105" n="105"/>
+        <note type="source-span" xml:id="source-83102-83138" n="105"/>
+        <note type="source-span" xml:id="source-83105-83138" n="105"/>
+        <note type="source-span" xml:id="source-83138-83147" n="105"/>
+        <note type="source-span" xml:id="source-83147-83150" n="105"/>
+        <note type="source-span" xml:id="source-83147-83183" n="105"/>
+        <note type="source-span" xml:id="source-83150-83183" n="105"/>
+        <note type="source-span" xml:id="source-83183-83201" n="105"/>
+        <note type="source-span" xml:id="source-83201-83207" n="105"/>
+        <note type="source-span" xml:id="source-83201-83243" n="105"/>
+        <note type="source-span" xml:id="source-83207-83243" n="105"/>
+        <note type="source-span" xml:id="source-83267-83273" n="105"/>
+        <note type="source-span" xml:id="source-83267-83309" n="105"/>
+        <note type="source-span" xml:id="source-83273-83309" n="105"/>
+        <note type="source-span" xml:id="source-83333-83345" n="105"/>
+        <note type="source-span" xml:id="source-83333-83387" n="105"/>
+        <note type="source-span" xml:id="source-83345-83387" n="105"/>
+        <note type="source-span" xml:id="source-83402-83414" n="105"/>
+        <note type="source-span" xml:id="source-83402-83456" n="105"/>
+        <note type="source-span" xml:id="source-83414-83456" n="105"/>
+        <note type="source-span" xml:id="source-83704-84735" n="106"/>
+        <note type="source-span" xml:id="source-84735-85625" n="107"/>
+        <note type="source-span" xml:id="source-84912-84936" n="107"/>
+        <note type="source-span" xml:id="source-85625-85828" n="108"/>
+        <note type="source-span" xml:id="source-85828-86044" n="109"/>
+        <note type="source-span" xml:id="source-85828-87345" n="109"/>
+        <note type="source-span" xml:id="source-86044-86071" n="109"/>
+        <note type="source-span" xml:id="source-87345-88685" n="110"/>
+        <note type="source-span" xml:id="source-87813-87840" n="110"/>
+        <note type="source-span" xml:id="source-87840-88326" n="110"/>
+        <note type="source-span" xml:id="source-8794-8815" n="26"/>
+        <note type="source-span" xml:id="source-8830-8857" n="26"/>
+        <note type="source-span" xml:id="source-88326-88341" n="110"/>
+        <note type="source-span" xml:id="source-88341-88359" n="110"/>
+        <note type="source-span" xml:id="source-88359-88386" n="110"/>
+        <note type="source-span" xml:id="source-88386-88685" n="110"/>
+        <note type="source-span" xml:id="source-88685-88796" n="111"/>
+        <note type="source-span" xml:id="source-88685-91261" n="111"/>
+        <note type="source-span" xml:id="source-88796-88814" n="111"/>
+        <note type="source-span" xml:id="source-88964-88991" n="111"/>
+        <note type="source-span" xml:id="source-8899-8929" n="26"/>
+        <note type="source-span" xml:id="source-89111-89132" n="111"/>
+        <note type="source-span" xml:id="source-89453-89480" n="111"/>
+        <note type="source-span" xml:id="source-89480-89561" n="111"/>
+        <note type="source-span" xml:id="source-89561-89585" n="111"/>
+        <note type="source-span" xml:id="source-89585-89612" n="111"/>
+        <note type="source-span" xml:id="source-89612-89639" n="111"/>
+        <note type="source-span" xml:id="source-89639-89915" n="111"/>
+        <note type="source-span" xml:id="source-89915-89939" n="111"/>
+        <note type="source-span" xml:id="source-89939-90299" n="111"/>
+        <note type="source-span" xml:id="source-90299-90323" n="111"/>
+        <note type="source-span" xml:id="source-91261-91848" n="112"/>
+        <note type="source-span" xml:id="source-91420-91432" n="112"/>
+        <note type="source-span" xml:id="source-91447-91471" n="112"/>
+        <note type="source-span" xml:id="source-91501-91519" n="112"/>
+        <note type="source-span" xml:id="source-91570-91588" n="112"/>
+        <note type="source-span" xml:id="source-91633-91651" n="112"/>
+        <note type="source-span" xml:id="source-91651-91654" n="112"/>
+        <note type="source-span" xml:id="source-91654-91675" n="112"/>
+        <note type="source-span" xml:id="source-91675-91678" n="112"/>
+        <note type="source-span" xml:id="source-91678-91702" n="112"/>
+        <note type="source-span" xml:id="source-91848-93233" n="113"/>
+        <note type="source-span" xml:id="source-92346-92373" n="113"/>
+        <note type="source-span" xml:id="source-92400-92415" n="113"/>
+        <note type="source-span" xml:id="source-92415-92418" n="113"/>
+        <note type="source-span" xml:id="source-92418-92439" n="113"/>
+        <note type="source-span" xml:id="source-92472-92496" n="113"/>
+        <note type="source-span" xml:id="source-92643-92658" n="113"/>
+        <note type="source-span" xml:id="source-92715-92730" n="113"/>
+        <note type="source-span" xml:id="source-92838-92862" n="113"/>
+        <note type="source-span" xml:id="source-92862-92898" n="113"/>
+        <note type="source-span" xml:id="source-92898-92922" n="113"/>
+        <note type="source-span" xml:id="source-9294-9624" n="27"/>
+        <note type="source-span" xml:id="source-9294-9740" n="27"/>
+        <note type="source-span" xml:id="source-93233-93643" n="114"/>
+        <note type="source-span" xml:id="source-93643-94039" n="115"/>
+        <note type="source-span" xml:id="source-93643-95313" n="115"/>
+        <note type="source-span" xml:id="source-94039-94060" n="115"/>
+        <note type="source-span" xml:id="source-94060-94603" n="115"/>
+        <note type="source-span" xml:id="source-94603-94636" n="115"/>
+        <note type="source-span" xml:id="source-94636-94672" n="115"/>
+        <note type="source-span" xml:id="source-94672-94693" n="115"/>
+        <note type="source-span" xml:id="source-95008-95023" n="115"/>
+        <note type="source-span" xml:id="source-95313-95397" n="116"/>
+        <note type="source-span" xml:id="source-95313-96935" n="116"/>
+        <note type="source-span" xml:id="source-95397-95433" n="116"/>
+        <note type="source-span" xml:id="source-95532-95559" n="116"/>
+        <note type="source-span" xml:id="source-95619-95637" n="116"/>
+        <note type="source-span" xml:id="source-95775-95799" n="116"/>
+        <note type="source-span" xml:id="source-95820-95847" n="116"/>
+        <note type="source-span" xml:id="source-95913-95937" n="116"/>
+        <note type="source-span" xml:id="source-95952-95970" n="116"/>
+        <note type="source-span" xml:id="source-96060-96078" n="116"/>
+        <note type="source-span" xml:id="source-96078-96081" n="116"/>
+        <note type="source-span" xml:id="source-96081-96102" n="116"/>
+        <note type="source-span" xml:id="source-9624-9645" n="27"/>
+        <note type="source-span" xml:id="source-96288-96300" n="116"/>
+        <note type="source-span" xml:id="source-9645-9740" n="27"/>
+        <note type="source-span" xml:id="source-96935-97294" n="117"/>
+        <note type="source-span" xml:id="source-97294-97450" n="118"/>
+        <note type="source-span" xml:id="source-97294-97503" n="118"/>
+        <note type="source-span" xml:id="source-9740-10993" n="28"/>
+        <note type="source-span" xml:id="source-9740-9902" n="28"/>
+        <note type="source-span" xml:id="source-97450-97474" n="118"/>
+        <note type="source-span" xml:id="source-97474-97503" n="118"/>
+        <note type="source-span" xml:id="source-97503-97677" n="119"/>
+        <note type="source-span" xml:id="source-97503-99053" n="119"/>
+        <note type="source-span" xml:id="source-97677-97695" n="119"/>
+        <note type="source-span" xml:id="source-97695-97716" n="119"/>
+        <note type="source-span" xml:id="source-97716-97734" n="119"/>
+        <note type="source-span" xml:id="source-97734-97749" n="119"/>
+        <note type="source-span" xml:id="source-97749-97767" n="119"/>
+        <note type="source-span" xml:id="source-97767-98292" n="119"/>
+        <note type="source-span" xml:id="source-98292-98325" n="119"/>
+        <note type="source-span" xml:id="source-98325-98403" n="119"/>
+        <note type="source-span" xml:id="source-98403-98430" n="119"/>
+        <note type="source-span" xml:id="source-98430-99053" n="119"/>
+        <note type="source-span" xml:id="source-9902-9926" n="28"/>
+        <note type="source-span" xml:id="source-99053-100753" n="120"/>
+        <note type="source-span" xml:id="source-99053-99473" n="120"/>
+        <note type="source-span" xml:id="source-9926-10139" n="28"/>
+        <note type="source-span" xml:id="source-99473-99488" n="120"/>
+        <note type="source-span" xml:id="source-99488-99512" n="120"/>
+        <note type="source-span" xml:id="source-99512-99527" n="120"/>
+        <note type="source-span" xml:id="source-99527-99596" n="120"/>
+        <note type="source-span" xml:id="source-99596-99617" n="120"/>
+        <note type="source-span" xml:id="source-99617-99620" n="120"/>
+        <note type="source-span" xml:id="source-99620-99650" n="120"/>
+        <note type="source-span" xml:id="source-99650-99752" n="120"/>
+        <note type="source-span" xml:id="source-99752-99767" n="120"/>
+        <note type="source-span" xml:id="source-99767-99770" n="120"/>
+        <note type="source-span" xml:id="source-99770-99785" n="120"/>
+        <note type="source-span" xml:id="source-99785-99863" n="120"/>
+        <note type="source-span" xml:id="source-99863-99887" n="120"/>
+      </div>
+      <note type="parser-completion" n="true">The n attribute is true when no parser diagnostic of error severity was raised for this source. What the converter could not interpret is recorded in the interpretation-problem and parser-diagnostic notes.</note>
+      <note type="source-decoding">windows-31j</note>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:snh="https://w3id.org/soranoha/ns/tei" xmlns="http://www.tei-c.org/ns/1.0" snh:vocab-version="3">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ja">孔子と管仲</title>
+        <title type="reading" xml:lang="ja-Hira">こうしとかんちゅう</title>
+        <author><persName xml:lang="ja"><surname>狩野</surname><forename>直喜</forename><idno type="aozora-person-id">001127</idno></persName><persName xml:lang="ja-Hira"><surname>かの</surname><forename>なおき</forename></persName><persName xml:lang="ja-Latn"><surname>Kano</surname><forename>Naoki</forename></persName></author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://w3id.org/soranoha/">Soranoha</publisher>
+        <idno type="soranoha-work-identifier">050702_001127</idno>
+        <idno type="aozora-work-id">050702</idno>
+        <idno type="aozora-card-url">https://www.aozora.gr.jp/cards/001127/card50702.html</idno>
+        <date when="2022-03-16">2022-03-16</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">The underlying work is in the public domain; Soranoha asserts no rights over it.</licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Soranoha's encoding of this work and the artifacts derived from it are dedicated to the public domain under CC0-1.0. Attribution is requested, not required. Full rights statement: <ptr target="https://w3id.org/soranoha/rights"/></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>支那學文藪</title><publisher>みすず書房</publisher><date>1973（昭和48）年4月2日</date><note type="input-edition">1973（昭和48）年4月2日</note><note type="proof-edition">1973（昭和48）年4月2日</note></bibl>
+        <bibl type="first-publication">「支那學　第三卷第二號」1922（大正11）年11月</bibl>
+        <bibl><idno type="source-content-hash">sha256:fccb190a9f1bb64fa7838bd648cd054d37da23c4a3a5d3ab4046cda3e0a4b376</idno></bibl>
+        <bibl><idno type="primary-text-hash">sha256:4faed3f787346da84e23e81a28a29afcbf133c4beb8f10ddedc5bdff2537418b</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css"/>
+      <classDecl><taxonomy xml:id="ndc"><bibl>分類番号 as recorded by <title>青空文庫</title>, read as a class of 日本十進分類法 新訂9版. Category labels are from <title>NDC9 Linked Data</title> (日本図書館協会, CC BY); a category's IRI is <ref target="http://jla.or.jp/data/ndc9">http://jla.or.jp/data/ndc9</ref> followed by # and its n.</bibl><category xml:id="ndc123" n="123"><catDesc xml:lang="ja">経書</catDesc><catDesc xml:lang="en">Chinese classics</catDesc></category></taxonomy><taxonomy xml:id="aozora-orthography"><bibl><title>青空文庫</title> 文字遣い種別: the orthographic style Aozora Bunko records for the transcription.</bibl></taxonomy></classDecl>
+      <refsDecl xml:id="source-spans"><p>A note of type source-span has an xml:id of the form source-START-END, giving the extent in UTF-8 bytes of the decoded primary text identified in sourceDesc, after the emendations declared in editorialDecl/correction are applied; each emendation replaces its sic text by its corr text at its own extent. <ptr target="https://w3id.org/soranoha/ns/tei"/></p></refsDecl>
+      <charDecl>
+        <char xml:id="gaiji-3-1-14-20">
+          <mapping type="unicode">佾</mapping>
+          <localProp name="rawMarker" value="にんべん＋（八がしら／月）"/>
+          <localProp name="sourceReference" value="第3水準1-14-20"/>
+          <snh:gaiji-reference original="第3水準1-14-20" cell="20" plane="1" kind="jis-code" row="14"/>
+        </char>
+        <char xml:id="gaiji-4-2-85-33">
+          <mapping type="unicode">脞</mapping>
+          <localProp name="rawMarker" value="月＋坐"/>
+          <localProp name="sourceReference" value="第4水準2-85-33"/>
+          <snh:gaiji-reference original="第4水準2-85-33" cell="33" plane="2" kind="jis-code" row="85"/>
+        </char>
+        <char xml:id="gaiji-3-1-90-32">
+          <mapping type="unicode">翟</mapping>
+          <localProp name="rawMarker" value="櫂のつくり"/>
+          <localProp name="sourceReference" value="第3水準1-90-32"/>
+          <snh:gaiji-reference original="第3水準1-90-32" cell="32" plane="1" kind="jis-code" row="90"/>
+        </char>
+        <char xml:id="gaiji-3-1-87-32">
+          <mapping type="unicode">灝</mapping>
+          <localProp name="rawMarker" value="さんずい＋景＋頁"/>
+          <localProp name="sourceReference" value="第3水準1-87-32"/>
+          <snh:gaiji-reference original="第3水準1-87-32" cell="32" plane="1" kind="jis-code" row="87"/>
+        </char>
+        <char xml:id="gaiji-3-1-94-53">
+          <mapping type="unicode">鱣</mapping>
+          <localProp name="rawMarker" value="魚＋亶"/>
+          <localProp name="sourceReference" value="第3水準1-94-53"/>
+          <snh:gaiji-reference original="第3水準1-94-53" cell="53" plane="1" kind="jis-code" row="94"/>
+        </char>
+        <char xml:id="gaiji-1-2-22">
+          <mapping type="unicode">〻</mapping>
+          <localProp name="rawMarker" value="二の字点"/>
+          <localProp name="sourceReference" value="1-2-22"/>
+          <snh:gaiji-reference original="1-2-22" cell="22" plane="1" kind="jis-code" row="2"/>
+        </char>
+        <char xml:id="gaiji-3-1-86-11">
+          <mapping type="unicode">樾</mapping>
+          <localProp name="rawMarker" value="木＋越"/>
+          <localProp name="sourceReference" value="第3水準1-86-11"/>
+          <snh:gaiji-reference original="第3水準1-86-11" cell="11" plane="1" kind="jis-code" row="86"/>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ja">日本語</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#ndc">123</classCode>
+        <catRef scheme="#ndc" target="#ndc123"/>
+        <classCode scheme="#aozora-orthography">旧字旧仮名</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-835-3639">儒家の政治に關する理想は、君主其仁義の徳を修め、推して之を四海に擴むるにある。所謂人に忍びざるの心を以て、人に忍びざるの政を行ひ、教養並待ちて、天下の民、匹夫匹婦まで其澤を被らざるものなきに至るを以て王道の極功として居る。覇者の政は即ち之に異り、或場合には、仁義道徳を云々するけれども、是れ其美名を假るに過ぎない。又其政治は時としては人民に幸福を與へ、顯著なる事功を生ずることもあれど、其實彼等には其自身の目的があつて、人民を以て其目的を遂行するに必要なる機械と見、專ら法に任じ、人民を驅りて之に赴かしめ、以て役使の用に供する。即ち儒家が政治を以て人民の爲めの政治となすに反し、法家にありては人民を以て政治を遂行する一の機械とする。是の如く兩者の主義主張同じからざりしを以て、孟子の如きは儒家の立場より、春秋の世、覇者として有名なりし齊桓晉文、若しくは齊桓の覇業を輔けて功ありし管仲、同じく齊の政治家にして法家の思想を抱きし晏子等に對しては不滿の意を表はして居る。其齊宣王の問に答へて「仲尼之徒。無<note type="kunten" subtype="return-mark" rend="subscript" source="#source-2185-2197">下</note><seg source="#source-2197-2200">道</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-2200-2212">二</note><seg source="#source-2212-2224">桓文之事</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-2224-2236">一</note><seg source="#source-2236-2239">者</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-2239-2251">上</note><seg source="#source-2251-2269">。是以後世無</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-2269-2281">レ</note>傳焉。」といひ（<seg type="warichu" rend="two-line" source="#source-2305-2362"><seg source="#source-2323-2335">梁惠王上</seg></seg>）公孫丑が「夫子當<note type="kunten" subtype="return-mark" rend="subscript" source="#source-2389-2401">二</note><seg source="#source-2401-2410">路於齊</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-2410-2422">一</note><seg source="#source-2422-2449">。管仲晏子之功。可</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-2449-2461">二</note><seg source="#source-2461-2467">復許</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-2467-2479">一</note>乎。」といひしとき、「子誠齊人也。知<note type="kunten" subtype="return-mark" rend="subscript" source="#source-2533-2545">二</note><seg source="#source-2545-2557">管仲晏子</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-2557-2569">一</note>而已矣。」と答へて、己を管晏の徒に比するの不平を列らべ（<seg type="warichu" rend="two-line" source="#source-2653-2710"><seg source="#source-2671-2683">公孫丑上</seg></seg>）又た「湯之於<note type="kunten" subtype="return-mark" rend="subscript" source="#source-2731-2743">二</note><seg source="#source-2743-2749">伊尹</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-2749-2761">一</note><seg source="#source-2761-2776">。桓公之於</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-2776-2788">二</note><seg source="#source-2788-2794">管仲</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-2794-2806">一</note><seg source="#source-2806-2815">。則不</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-2815-2827">二</note><seg source="#source-2827-2833">敢召</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-2833-2845">一</note><seg source="#source-2845-2863">。管仲且猶不</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-2863-2875">レ</note><seg source="#source-2875-2878">可</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-2878-2890">レ</note><seg source="#source-2890-2905">召。而況不</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-2905-2917">レ</note><seg source="#source-2917-2920">爲</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-2920-2932">二</note><seg source="#source-2932-2947">管仲一者乎</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-2947-2959">一</note>。」（<seg type="warichu" rend="two-line" source="#source-2968-3025"><seg source="#source-2986-2998">公孫丑下</seg></seg>）といひし孟子の言葉により何如に其管仲を眼下に見しかを知ることができる。其他荀子が「仲尼之門人。五尺之豎子。言羞<note type="kunten" subtype="return-mark" rend="subscript" source="#source-3193-3205">レ</note><seg source="#source-3205-3208">稱</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-3208-3220">二</note><seg source="#source-3220-3229">乎五伯</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-3229-3241">一</note>。」（<seg type="warichu" rend="two-line" source="#source-3250-3304"><seg source="#source-3268-3277">仲尼篇</seg></seg><seg source="#source-3304-3639">）といひし言に徴すれば、當時孟子に限らず、凡そ儒家に屬せしものは、五伯若しくは之を輔けし人物を非難し、又彼等の政治に學術的理窟をつけたる法家學派と互ひに相爭ひ、王覇の別を嚴にして孔子の道を明にせんと務めた有樣が察せられる。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-3639-3962"><seg source="#source-3639-3962">然らば儒家の祖とする孔子自身は此等の覇者と之を輔けて其業を成さしめたる人物、例へば管仲の如きものにつき何如に之を批評せしか、孟荀と同じき峻嚴なる態度を取りて之に向はれしか。是れ此文に於いて論ぜんと欲する所である。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-3962-4328"><seg source="#source-3962-4061">さて孔子の管仲に對する批評は論語に散見するが、申迄もなく第一は八</seg><g ref="#gaiji-3-1-14-20" source="#source-4061-4138">佾</g>篇の『管仲之器小哉』の一章、それから憲問篇『或問子産』章に管仲の評語あり、又外に猶二章あり。今説明の爲めに、其全文を擧げん。</p>
+      <div type="layout" source="#source-4328-5381" style="padding-inline-start: 2em">
+        <p source="#source-4363-4701"><seg source="#source-4363-4384">子路曰。桓公殺</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4384-4396">二</note><seg source="#source-4396-4405">公子糾</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4405-4417">一</note><seg source="#source-4417-4429">。召忽死</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4429-4441">レ</note><seg source="#source-4441-4456">之。管仲不</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4456-4468">レ</note><seg source="#source-4468-4483">死。曰。未</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4483-4495">レ</note><seg source="#source-4495-4522">仁乎。子曰。桓公九</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4522-4534">二</note><seg source="#source-4534-4543">合諸侯</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4543-4555">一</note><seg source="#source-4555-4561">。不</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4561-4573">レ</note><seg source="#source-4573-4576">以</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4576-4588">二</note><seg source="#source-4588-4594">兵車</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4594-4606">一</note><seg source="#source-4606-4630">。管仲之力也。如</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4630-4642">二</note><seg source="#source-4642-4648">其仁</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4648-4660">一</note><seg source="#source-4660-4666">。如</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4666-4678">二</note><seg source="#source-4678-4684">其仁</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4684-4696">一</note><seg source="#source-4696-4701">。</seg></p>
+        <p source="#source-4701-5345"><seg source="#source-4701-4722">子貢曰。管仲非</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4722-4734">二</note><seg source="#source-4734-4740">仁者</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4740-4752">一</note><seg source="#source-4752-4767">與。桓公殺</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4767-4779">二</note><seg source="#source-4779-4788">公子糾</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4788-4800">一</note><seg source="#source-4800-4806">。不</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4806-4818">レ</note><seg source="#source-4818-4821">能</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4821-4833">レ</note><seg source="#source-4833-4845">死。又相</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4845-4857">レ</note><seg source="#source-4857-4881">之。子曰。管仲相</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4881-4893">二</note><seg source="#source-4893-4899">桓公</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4899-4911">一</note><seg source="#source-4911-4914">覇</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4914-4926">二</note><seg source="#source-4926-4932">諸侯</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4932-4944">一</note><seg source="#source-4944-4950">。一</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4950-4962">二</note><seg source="#source-4962-4971">匡天下</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4971-4983">一</note><seg source="#source-4983-4992">。民到</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-4992-5004">二</note><seg source="#source-5004-5010">于今</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-5010-5022">一</note><seg source="#source-5022-5025">受</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-5025-5037">二</note><seg source="#source-5037-5043">其賜</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-5043-5055">一</note><seg source="#source-5055-5058">。</seg><ruby type="furigana" rend="right" source="#source-5058-5082"><rb>微</rb><rt>ナカリセバ</rt></ruby><note type="kunten" subtype="return-mark" rend="subscript" source="#source-5082-5094">二</note><seg source="#source-5094-5100">管仲</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-5100-5112">一</note><seg source="#source-5112-5124">。吾其被</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-5124-5136">レ</note><seg source="#source-5136-5142">髮左</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-5142-5154">レ</note><seg source="#source-5154-5169">衽矣。豈若</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-5169-5181">下</note><seg source="#source-5181-5199">匹夫匹婦之爲</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-5199-5211">レ</note><ruby type="furigana" rend="right" source="#source-5211-5232"><rb>諒</rb><rt>マコトヲ</rt></ruby><seg source="#source-5232-5244">也。自經</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-5244-5256">二</note><seg source="#source-5256-5265">於溝涜</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-5265-5277">一</note><seg source="#source-5277-5283">而莫</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-5283-5295">中</note><seg source="#source-5295-5301">之知</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-5301-5325">ラルヲ</note><note type="kunten" subtype="return-mark" rend="subscript" source="#source-5325-5337">上</note><seg source="#source-5337-5345">也。</seg></p>
+      </div>
+      <div>
+        <p source="#source-5385-6646"><seg source="#source-5385-5730">以上は子路子貢共に管仲が其君の爲めに死すること能はず、却つて讎に事へたる不義の行を指斥し、かくては仁者といはれまじと思ひ、孔子に問ひしが、孔子は管仲功業の顯著なりしことを稱し、孔子が容易に人に許るされざりし仁を管仲に許るし、しかも</seg><ruby type="furigana" rend="right" source="#source-5730-5751"><rb>如</rb><rt>シカムヤ</rt></ruby><note type="kunten" subtype="return-mark" rend="subscript" source="#source-5751-5763">二</note><seg source="#source-5763-5769">其仁</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-5769-5787">ニ</note><note type="kunten" subtype="return-mark" rend="subscript" source="#source-5787-5799">一</note><ruby type="furigana" rend="right" source="#source-5799-5823"><rb>如</rb><rt>ニシカムヤ</rt></ruby><note type="kunten" subtype="return-mark" rend="subscript" source="#source-5823-5835">二</note><seg source="#source-5835-5841">其仁</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-5841-5859">ニ</note><note type="kunten" subtype="return-mark" rend="subscript" source="#source-5859-5871">一</note><seg source="#source-5871-6069">と繰返へして歎美されたることゝなる。然るに之に對して疑問の起るのは、孔子の管仲に對してなされた批評が一貫して居ないことである。即ち八</seg><g ref="#gaiji-3-1-14-20" source="#source-6069-6146">佾</g>篇では管仲を評して『器小哉』といひ、終りには『然則管仲知<note type="kunten" subtype="return-mark" rend="subscript" source="#source-6230-6242">レ</note>禮乎』との問に對し『管氏而知<note type="kunten" subtype="return-mark" rend="subscript" source="#source-6284-6296">レ</note><seg source="#source-6296-6308">禮。孰不</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-6308-6320">レ</note><seg source="#source-6320-6323">知</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-6323-6335">レ</note>禮。』といつて其非禮を責めながら、何故に一方に於てあれ程までに管仲を美め、其弟子中顏淵に對してすら僅に「三月不違仁」を許したる大徳を管仲に許し、しかも其仁に如かむやと二度までも繰返へして之を歎美せられしか。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-6646-7563"><seg source="#source-6646-7563">是に就いて從來の學者は二つの見方をして居る。即其一は孔子の道は非常に大にして一の學派學説として見るべきものにあらず、孔子の仁も必竟長人安民の徳に過ぎないから、管仲の功業を美められても少しも差支ない。管仲の器を小なりといはれしは備はらんことを賢者に求めてかく言はれしもので、其實斯の如き功業を立て國家人民を利したるものを仁者と云はれぬ筈はない。後世孟子の如きは自ら儒家と云ふ狹き立場に我身を置き、己れの宗旨を尊くするの念に驅られて管晏等の覇者の輔たりしものを罵れども、それは孟子以後のことで、孔子にはかゝる考はなかつたといつて居るが、此等の學者の見方によると孔子の管仲に對する批評が別に矛盾せぬといふのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-7563-8174">又是れに反して或學者は「管仲之器小哉」の章に於ける孔子の評論と前に擧げた孔子が管仲を美めて仁を許るされた章とは一致しないものとする。然らば何故論語中にかくの如く一致を缺ぐものがあるかといふに、一體論語には古論魯論齊論など種々の本文があつたが、恐らく此章は孟子が惡口をいつた通り管仲晏子のみを天下の大人物と心得たりし齊人が勝手に其論語即ち齊論に入れしもので、他の古論や魯論になかつたかも知れぬといつて居る。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-8174-10413"><seg source="#source-8174-8297">前に擧げた一説は徂徠等のいふ所がつまりさうであるし、又後の一説は清の孫志祖の讀書</seg><g ref="#gaiji-4-2-85-33" source="#source-8297-8344">脞</g>録などに「後世學者。遂疑<note type="kunten" subtype="return-mark" rend="subscript" source="#source-8380-8392">下</note><seg source="#source-8392-8416">聖人立論之偏。與</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-8416-8428">二</note><seg source="#source-8428-8437">器小章</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-8437-8449">一</note><seg source="#source-8449-8461">抑揚懸絶</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-8461-8473">上</note><seg source="#source-8473-8482">。而欲</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-8482-8494">レ</note><seg source="#source-8494-8497">置</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-8497-8509">二</note><seg source="#source-8509-8533">此二章於齊論之内</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-8533-8545">一</note>。」とあるが如き即ち是れである。この兩説は均しく尤と思はるれども、詳に之を察すれば疑ふべきものがないではない。第一孔子が管仲の功業を美められしは論者のいふ通りなれど、何故に人間の到達し得べき最上至極の徳にして、孔子自らも敢て之に居らず又何人にも容易に許されぬ仁を以て管仲に許されしか。顏淵が仁を問ひしとき、孔子は『非禮勿<note type="kunten" subtype="return-mark" rend="subscript" source="#source-9025-9037">レ</note><seg source="#source-9037-9052">視。非禮勿</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-9052-9064">レ</note><seg source="#source-9064-9079">聽。非禮勿</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-9079-9091">レ</note><seg source="#source-9091-9106">言。非禮勿</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-9106-9118">レ</note>動。』を以て之に答へられた。若し管仲が『管子而知<note type="kunten" subtype="return-mark" rend="subscript" source="#source-9190-9202">レ</note><seg source="#source-9202-9214">禮。孰不</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-9214-9226">レ</note><seg source="#source-9226-9229">知</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-9229-9241">レ</note>禮。』といはれし如き非禮の人であつたら、之に對し其仁を許されたことは譯が解らぬ、又た孔子仁を許すの章を以て齊人の加筆に成り、齊論にのみあつたものとするは、面白き見方の樣にも聞ゆれど、是れは全く想像説にして何等の證據なし。如何となれば論語に古論齊論魯論の別ありしことは魏何晏集解の序に詳にして、序には明に三者編次の同じからざるを述べ、齊論凡そ二十二篇にして其内魯論よりも問王知道の二篇多き由をいつてゐる。即ち問王知道の二篇以外に齊論と其他の論語との異同あるよしを云はざれば、間接に憲問の或章を以て齊論にのみありしとなすの説は根據なきことゝなるであらう。又今一つの點は此章に孔安國の注を引いてあるが、孔安國は何晏の序によれば古論語に訓説を書いた人となつて居る。若し孔安國の注が果してあつたものとせば其注が齊論のみにある章に入つて居る譯はないのである。要するに齊人加筆の説も成立たない。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-10413-10811">然らばこの孔子の管仲評に關する前後不一致を如何に見るべきかといふに、第一には前に擧げたる憲問篇孔子管仲の仁を許るされし文句中、『<hi rend="bouten 傍点 right" source="#source-10608-10650" corresp="#source-10617-10650"><seg source="#source-10608-10617">如其仁</seg></hi>』の意味で、この三字の解釋如何によりて孔子の管仲評が前後一致せぬことにも、又一致することにもなるのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-10811-10884"><seg source="#source-10811-10884">この解釋に就いて何晏集解には孔安國の注を擧げ</seg></p>
+      </div>
+      <div type="layout" source="#source-10884-11011" style="padding-inline-start: 2em">
+        <p source="#source-10919-10975"><seg source="#source-10919-10931">孔曰誰如</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-10931-10943">二</note><seg source="#source-10943-10955">管仲之仁</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-10955-10967">一</note><seg source="#source-10967-10975">矣。</seg></p>
+      </div>
+      <div>
+        <p source="#source-11015-11124"><seg source="#source-11015-11124">とあり。結局管仲程の仁者は他に比類なかるべしとの意味にて、鄭玄もまた、</seg></p>
+      </div>
+      <div type="layout" source="#source-11124-11452" style="padding-inline-start: 2em">
+        <p source="#source-11159-11416"><seg source="#source-11159-11165">重言</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-11165-11177">レ</note><seg source="#source-11177-11180">如</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-11180-11192">二</note><seg source="#source-11192-11198">其仁</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-11198-11210">一</note><seg source="#source-11210-11219">者。九</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-11219-11231">二</note><seg source="#source-11231-11240">合諸侯</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-11240-11252">一</note><seg source="#source-11252-11261">。功濟</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-11261-11273">二</note><seg source="#source-11273-11279">天下</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-11279-11291">一</note><seg source="#source-11291-11294">。</seg><hi rend="bouten 傍点 right" source="#source-11294-11336" corresp="#source-11303-11336"><seg source="#source-11294-11303">此仁爲</seg></hi><note type="kunten" subtype="return-mark" rend="subscript" source="#source-11336-11348">レ</note><hi rend="bouten 傍点 right" source="#source-11348-11378" corresp="#source-11351-11378"><seg source="#source-11348-11351">大</seg></hi><seg source="#source-11378-11384">。死</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-11384-11396">レ</note><seg source="#source-11396-11416">節仁小者也。</seg></p>
+      </div>
+      <div>
+        <p source="#source-11456-11772"><seg source="#source-11456-11468">といひ（</seg><seg type="warichu" rend="two-line" source="#source-11468-11624"><seg source="#source-11486-11597">太平御覽卷四百十九に見ゆ、孔廣林の輯本論語鄭氏注に鄭注として之を收めたり。</seg></seg><seg source="#source-11624-11772">）朱子は流石に其王覇の分、義利の別を嚴にする學説よりして、孔子が仁を許せしことに囘護の辭をなし、</seg></p>
+      </div>
+      <div type="layout" source="#source-11772-12013" style="padding-inline-start: 2em">
+        <p source="#source-11807-11977"><seg source="#source-11807-11819">葢管仲雖</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-11819-11831">レ</note><seg source="#source-11831-11834">未</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-11834-11846">レ</note><seg source="#source-11846-11849">得</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-11849-11861">レ</note><seg source="#source-11861-11864">爲</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-11864-11876">二</note><seg source="#source-11876-11882">仁人</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-11882-11894">一</note><seg source="#source-11894-11912">。而其利澤及</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-11912-11924">レ</note><seg source="#source-11924-11936">人。則有</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-11936-11948">二</note><seg source="#source-11948-11957">仁之功</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-11957-11969">一</note><seg source="#source-11969-11977">矣。</seg></p>
+      </div>
+      <div>
+        <p source="#source-12017-12259"><seg source="#source-12017-12086">といつてゐる。頗る窮した語であるが。結局安國が</seg><ruby type="furigana" rend="right" source="#source-12086-12107"><rb>誰如</rb><rt>シカム</rt></ruby><note type="kunten" subtype="return-mark" rend="subscript" source="#source-12107-12119">二</note><seg source="#source-12119-12259">管仲之仁一矣の注を下してより以後の注家は多く之を承け、孔子が管仲に許したものとするのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-12259-14376">然るにかくては前に述べたる如く孔子の言葉に矛盾を生ずるを以て、清の宋翔鳳は『如<note type="kunten" subtype="return-mark" rend="subscript" source="#source-12379-12391">二</note><seg source="#source-12391-12397">其仁</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-12397-12409">一</note>』の一句を『其仁の如し』と讀み、孟子が『以<note type="kunten" subtype="return-mark" rend="subscript" source="#source-12472-12484">レ</note><seg source="#source-12484-12490">力假</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-12490-12502">レ</note>仁者覇』といひしが如く、覇者は眞に仁心を以て仁を行ふにあらず、唯其美名を假るに過ぎず、管中の功業も其動機は必ずしも善ならざれども、其事（結果）は仁の事に相違なければ、其仁の如しといへりとなし（<seg type="warichu" rend="two-line" source="#source-12790-12931"><seg source="#source-12808-12904">論語説義、我國冢田虎も全く同一の説をなせり。其著冢注論語に見ゆ。</seg></seg>）、又た孫志祖は『如<note type="kunten" subtype="return-mark" rend="subscript" source="#source-12961-12973">二</note><seg source="#source-12973-12979">其仁</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-12979-12991">一</note><seg source="#source-12991-12997">。如</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-12997-13009">二</note><seg source="#source-13009-13015">其仁</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-13015-13027">一</note>。』を以て葢疑而不<note type="kunten" subtype="return-mark" rend="subscript" source="#source-13054-13066">レ</note><seg source="#source-13066-13081">許之詞。非</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-13081-13093">二</note><seg source="#source-13093-13108">重言以深許</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-13108-13120">一</note><note type="kunten" subtype="return-mark" rend="subscript" source="#source-13120-13132">レ</note><seg source="#source-13132-13162">之也。といつてゐる（</seg><seg type="warichu" rend="two-line" source="#source-13162-13263"><seg source="#source-13180-13186">讀書</seg><g ref="#gaiji-4-2-85-33" source="#source-13186-13233">脞</g><seg source="#source-13233-13236">録</seg></seg><seg source="#source-13263-13281">）。葢疑而不</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-13281-13293">レ</note><seg source="#source-13293-13317">許之詞といへば如</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-13317-13338">キハ</note><note type="kunten" subtype="return-mark" rend="subscript" source="#source-13338-13350">二</note><seg source="#source-13350-13356">其仁</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-13356-13374">ノ</note><note type="kunten" subtype="return-mark" rend="subscript" source="#source-13374-13386">一</note><seg source="#source-13386-13389">如</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-13389-13410">キハ</note><note type="kunten" subtype="return-mark" rend="subscript" source="#source-13410-13422">二</note><seg source="#source-13422-13428">其仁</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-13428-13446">ノ</note><note type="kunten" subtype="return-mark" rend="subscript" source="#source-13446-13458">一</note><seg source="#source-13458-13512">と讀み、歇後の辭となすものに似たり（</seg><seg type="warichu" rend="two-line" source="#source-13512-13936"><g ref="#gaiji-3-1-90-32" source="#source-13530-13583">翟</g><g ref="#gaiji-3-1-87-32" source="#source-13583-13645">灝</g><seg source="#source-13645-13909">の四書考異には「如其仁」の其を召忽の代名詞となし、召忽身を殺して仁を成す管仲の功亦之に匹敵す共に仁となすべしとの意に解せり。如をゴトシと讀むことは同一なれども其義は自ら別なり。</seg></seg><seg source="#source-13936-13963">）。人或は王引之の</seg><hi rend="bouten 白丸傍点 right" source="#source-13963-14017" corresp="#source-13975-14017"><seg source="#source-13963-13975">經傳釋詞</seg></hi>に『如猶乃也』となるに據り『如其仁』を『乃<note type="kunten" subtype="okurigana" rend="superscript" source="#source-14080-14098">チ</note>其仁』の意に解し、孰如<note type="kunten" subtype="return-mark" rend="subscript" source="#source-14131-14143">二</note><seg source="#source-14143-14149">其仁</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-14149-14161">一</note><seg source="#source-14161-14269">といふ如き極力賞讚の辭となさず以て孔子の語勢を緩和せんとするものもある（</seg><seg type="warichu" rend="two-line" source="#source-14269-14368"><seg source="#source-14287-14341">潘維城論語古注集箋、黄式三論語後案等</seg></seg><seg source="#source-14368-14376">）。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-14376-14828">此等の説も一應尤なりと雖、如其仁を以て『其仁の如し』若しくは『其仁の如きは』と讀むは文理に於て未だ協はざるに似たり。又『如』を以て乃となすも、如乃の二字相通ぜしことは古書に例あれば穴勝不可となさず。併是れ唯孔子仁を許す語勢の強きものを緩和したるまでにて前に擧げたる矛盾を去ることは出來ないのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-14828-15855">余思ふに何晏集解に漢以來諸家の説を收めたるが、其前漢にあつては則ち一の孔安國あるのみ。而して孔安國已に『誰如<note type="kunten" subtype="return-mark" rend="subscript" source="#source-14993-15005">二</note><seg source="#source-15005-15017">管仲之仁</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-15017-15029">一</note>矣』の注をなせしとすれば孔子仁を許るすの説は前漢傳來のもので相當に其權威を認めねばならぬが、集解所收の孔安國注の信ずるに足らず、其後人の贋鼎たることは、劉端臨、陳<g ref="#gaiji-3-1-94-53" source="#source-15272-15319">鱣</g><seg source="#source-15319-15448">、臧庸の諸人之を前に疑ひ、沈濤論語孔注辨僞を著はし、丁晏孔注證僞を著はすに至り、其僞彌</seg><g ref="#gaiji-1-2-22" source="#source-15448-15481">〻</g><seg source="#source-15481-15499">明となつた（</seg><seg type="warichu" rend="two-line" source="#source-15499-15619"><seg source="#source-15517-15592">丁晏の書は予未だ之を見ず、今劉寳楠論語正義に據る。</seg></seg><seg source="#source-15619-15855">）。それで、縱令孔注にさうなつて居るからといつて、其れが前漢經師の説であるとするに足らぬ。余はそれよりも楊雄の法言の方がもつと論語を解する材料となると思ふ。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-15855-16258"><seg source="#source-15855-15978">申す迄もなく楊雄は易に擬して太玄を作り、論語に擬して法言を作つたといはるゝだけ（</seg><seg type="warichu" rend="two-line" source="#source-15978-16038"><seg source="#source-15996-16011">漢書楊雄傳</seg></seg>）法言を見ると其或章は論語と全く同一の句法を用ひて居るが、前に擧げた「如其仁」と同一の句法を用ひ、然かも論語に於けるが如く之を疊言した例がある。</p>
+      </div>
+      <div type="layout" source="#source-16258-17414" style="padding-inline-start: 2em">
+        <p source="#source-16293-16649"><seg source="#source-16293-16311">或謂。子之治</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-16311-16323">レ</note><seg source="#source-16323-16332">産。不</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-16332-16344">レ</note><seg source="#source-16344-16347">如</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-16347-16359">二</note><seg source="#source-16359-16371">丹圭之富</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-16371-16383">一</note><seg source="#source-16383-16422">。曰。吾聞先生相與言。則以</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-16422-16434">二</note><seg source="#source-16434-16440">仁與</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-16440-16452">一</note><note type="kunten" subtype="return-mark" rend="subscript" source="#source-16452-16464">レ</note><seg source="#source-16464-16494">義。市井相與言。則以</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-16494-16506">二</note><seg source="#source-16506-16512">財與</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-16512-16524">一</note><note type="kunten" subtype="return-mark" rend="subscript" source="#source-16524-16536">レ</note><seg source="#source-16536-16542">利。</seg><hi rend="bouten 傍点 right" source="#source-16542-16584" corresp="#source-16551-16584"><seg source="#source-16542-16551">如其富</seg></hi><seg source="#source-16584-16587">。</seg><hi rend="bouten 傍点 right" source="#source-16587-16629" corresp="#source-16596-16629"><seg source="#source-16587-16596">如其富</seg></hi><seg source="#source-16629-16649">。（學行篇）</seg></p>
+        <p source="#source-16649-16861"><seg source="#source-16649-16679">或問屈原智乎。曰。如</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-16679-16691">レ</note><seg source="#source-16691-16697">玉如</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-16697-16709">レ</note><seg source="#source-16709-16721">瑩。爰變</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-16721-16733">二</note><seg source="#source-16733-16739">丹青</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-16739-16751">一</note><seg source="#source-16751-16754">。</seg><hi rend="bouten 傍点 right" source="#source-16754-16796" corresp="#source-16763-16796"><seg source="#source-16754-16763">如其智</seg></hi><seg source="#source-16796-16799">。</seg><hi rend="bouten 傍点 right" source="#source-16799-16841" corresp="#source-16808-16841"><seg source="#source-16799-16808">如其智</seg></hi><seg source="#source-16841-16861">。（吾子篇）</seg></p>
+        <p source="#source-16861-17163"><seg source="#source-16861-16882">或曰。淵騫曷不</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-16882-16894">レ</note><seg source="#source-16894-16909">寢。曰。攀</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-16909-16921">二</note><seg source="#source-16921-16927">龍鱗</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-16927-16939">一</note><seg source="#source-16939-16945">。附</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-16945-16957">二</note><seg source="#source-16957-16963">鳳翼</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-16963-16975">一</note><seg source="#source-16975-16987">。巽以揚</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-16987-16999">レ</note><seg source="#source-16999-17020">之。勃勃乎其不</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-17020-17032">レ</note><seg source="#source-17032-17035">可</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-17035-17047">レ</note><seg source="#source-17047-17056">及也。</seg><hi rend="bouten 傍点 right" source="#source-17056-17098" corresp="#source-17065-17098"><seg source="#source-17056-17065">如其寢</seg></hi><seg source="#source-17098-17101">。</seg><hi rend="bouten 傍点 right" source="#source-17101-17143" corresp="#source-17110-17143"><seg source="#source-17101-17110">如其寢</seg></hi><seg source="#source-17143-17163">。（淵騫篇）</seg></p>
+        <p source="#source-17163-17378"><seg source="#source-17163-17187">或曰。申韓之法非</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-17187-17199">レ</note><seg source="#source-17199-17223">法與。曰。法者謂</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-17223-17235">二</note><seg source="#source-17235-17253">唐虞成周之法</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-17253-17265">一</note><seg source="#source-17265-17271">也。</seg><hi rend="bouten 傍点 right" source="#source-17271-17313" corresp="#source-17280-17313"><seg source="#source-17271-17280">如申韓</seg></hi><seg source="#source-17313-17316">。</seg><hi rend="bouten 傍点 right" source="#source-17316-17358" corresp="#source-17325-17358"><seg source="#source-17316-17325">如申韓</seg></hi><seg source="#source-17358-17378">。（問道篇）</seg></p>
+      </div>
+      <div>
+        <p source="#source-17418-18608">以上の例に於いて、如其富、如其智、如其寢、如申韓、を各疊用して居るのは疑もなく論語の『如其仁』を重言したのを學んだものである。然るに若し論語の如其仁が孔安國の解釋の通りとし、是れを法言に應用し、<ruby type="furigana" rend="right" source="#source-17709-17730"><rb>如</rb><rt>シカンヤ</rt></ruby><note type="kunten" subtype="return-mark" rend="subscript" source="#source-17730-17742">二</note><seg source="#source-17742-17748">其富</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-17748-17766">ニ</note><note type="kunten" subtype="return-mark" rend="subscript" source="#source-17766-17778">一</note><seg source="#source-17778-17781">、</seg><ruby type="furigana" rend="right" source="#source-17781-17802"><rb>如</rb><rt>シカンヤ</rt></ruby><note type="kunten" subtype="return-mark" rend="subscript" source="#source-17802-17814">二</note><seg source="#source-17814-17820">其智</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-17820-17838">ニ</note><note type="kunten" subtype="return-mark" rend="subscript" source="#source-17838-17850">一</note><seg source="#source-17850-17853">、</seg><ruby type="furigana" rend="right" source="#source-17853-17874"><rb>如</rb><rt>シカンヤ</rt></ruby><note type="kunten" subtype="return-mark" rend="subscript" source="#source-17874-17886">二</note><seg source="#source-17886-17892">其寢</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-17892-17910">ニ</note><note type="kunten" subtype="return-mark" rend="subscript" source="#source-17910-17922">一</note><seg source="#source-17922-17925">、</seg><ruby type="furigana" rend="right" source="#source-17925-17946"><rb>如</rb><rt>シカンヤ</rt></ruby><note type="kunten" subtype="return-mark" rend="subscript" source="#source-17946-17958">二</note><seg source="#source-17958-17964">申韓</seg><note type="kunten" subtype="okurigana" rend="superscript" source="#source-17964-17982">ニ</note><note type="kunten" subtype="return-mark" rend="subscript" source="#source-17982-17994">一</note>と讀んだら丸で意味が分らぬことゝなる。此れは前の句から推して『何如んぞ富まむや』『如何ぞ智ならむや』『何如ぞ<ruby type="furigana" rend="right" source="#source-18156-18171"><rb>寢</rb><rt>かく</rt></ruby>れんや』『申韓を如何にせむ』と讀まなくてはならぬことは明らかで、又間接に楊雄が論語の「如其仁」をどんな風に讀んだかが想像さるゝのである。前にも申した通り何晏集解に引ける孔安國の注が、後人の僞作で、信ずべからざるものであつたならば、この楊雄の解釋は前漢經師の説とし頗る貴いものとせねばならぬ。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18608-18785"><seg source="#source-18608-18620">近時兪</seg><g ref="#gaiji-3-1-86-11" source="#source-18620-18667">樾</g><seg source="#source-18667-18703">は楊雄法言の文から論語の</seg><hi rend="bouten 傍点 right" source="#source-18703-18745" corresp="#source-18712-18745"><seg source="#source-18703-18712">如其仁</seg></hi><seg source="#source-18745-18785">の義を推定すべきをいひ、</seg></p>
+      </div>
+      <div type="layout" source="#source-18785-19395" style="padding-inline-start: 2em">
+        <p source="#source-18820-19359"><seg source="#source-18820-18823">以</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-18823-18835">二</note><seg source="#source-18835-18847">楊子之意</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-18847-18859">一</note><seg source="#source-18859-18862">推</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-18862-18874">レ</note><seg source="#source-18874-18886">之。則如</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-18886-18898">二</note><seg source="#source-18898-18904">其仁</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-18904-18916">一</note><seg source="#source-18916-18922">者不</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-18922-18934">レ</note><seg source="#source-18934-18937">許</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-18937-18949">レ</note><seg source="#source-18949-18967">之也。孔子於</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-18967-18979">二</note><seg source="#source-18979-18985">管仲</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-18985-18997">一</note><seg source="#source-18997-19006">。但許</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-19006-19018">二</note><seg source="#source-19018-19033">其事功之盛</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-19033-19045">一</note><seg source="#source-19045-19054">。而未</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-19054-19066">二</note><seg source="#source-19066-19072">嘗予</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-19072-19084">レ</note><seg source="#source-19084-19090">之以</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-19090-19102">一</note><note type="kunten" subtype="return-mark" rend="subscript" source="#source-19102-19114">レ</note><seg source="#source-19114-19132">仁。故其意若</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-19132-19144">レ</note><seg source="#source-19144-19147">曰</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-19147-19159">下</note><seg source="#source-19159-19162">論</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-19162-19174">二</note><seg source="#source-19174-19180">管仲</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-19180-19192">一</note><seg source="#source-19192-19204">者。但以</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-19204-19216">二</note><seg source="#source-19216-19222">事功</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-19222-19234">一</note><seg source="#source-19234-19237">論</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-19237-19249">レ</note><seg source="#source-19249-19273">之足矣。如何其以</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-19273-19285">レ</note><seg source="#source-19285-19306">仁也。如何其以</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-19306-19318">上</note><note type="kunten" subtype="return-mark" rend="subscript" source="#source-19318-19330">レ</note><seg source="#source-19330-19359">仁也。（諸子平議）</seg></p>
+      </div>
+      <div>
+        <p source="#source-19399-19850"><seg source="#source-19399-19462">と論じて居るが、是れは面白き見方と思ふ。兪</seg><g ref="#gaiji-3-1-86-11" source="#source-19462-19509">樾</g>は「如」の上に「何」字を加へて<hi rend="bouten 白丸傍点 right" source="#source-19554-19596" corresp="#source-19560-19596"><seg source="#source-19554-19560">何如</seg></hi><seg source="#source-19596-19656">の意味に解し、又た王引之は經傳釋詞に如猶</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-19656-19668">レ</note>奈也といひ如と奈とを同一に使つたことを注意して居るが、此を「如其仁」の場合に應用しても、つまり同一の結果となるのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-19850-21105"><seg source="#source-19850-19892">要するに前に述べたる通り、</seg><hi rend="bouten 白丸傍点 right" source="#source-19892-19934" corresp="#source-19898-19934"><seg source="#source-19892-19898">法言</seg></hi>の例より推せば、『如其仁』『如其仁』と二度までも繰返へしたのは、其仁を許さゞるの意を示したとすれば、前に擧げた孔子の管仲に對する評語が前後一致せぬといふ非難はなくなる譯である。而してかく解しても憲問篇の二章其文理に於て聊かも不都合はない。即ち前に於て管仲の功業を稱し、最後にそれでも仁者とはいはれぬと轉語を下したものと見る。『子貢曰。管仲非<note type="kunten" subtype="return-mark" rend="subscript" source="#source-20444-20456">二</note><seg source="#source-20456-20462">仁者</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-20462-20474">一</note>與』章と子貢が仁者たらざる理由として管仲が公子糾の爲めに死すること能はず、却つて其讎に事へた事實を擧げたから、此に對し孔子が管仲を辯護したまでゞ、孔子が仁を許さゞる譯は、管仲の理想が低く、僅かに覇者の佐たるに過ぎざりしに由る所以を言外に含ませたものと見れば何の差支もない。<hi rend="bouten 白丸傍点 right" source="#source-20882-20924" corresp="#source-20888-20924"><seg source="#source-20882-20888">論語</seg></hi><seg source="#source-20924-21105">の中には孔子が人物を評論して、初めに其美點を擧げ、最後にそれでも仁者とまでは言はれぬと之を抑ゆる樣な言辭をなした例は、</seg></p>
+      </div>
+      <div type="layout" source="#source-21105-21328" style="padding-inline-start: 2em">
+        <p source="#source-21140-21292"><seg source="#source-21140-21170">子曰。由也千乘之國可</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-21170-21182">レ</note><seg source="#source-21182-21185">使</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-21185-21197">レ</note><seg source="#source-21197-21200">治</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-21200-21212">二</note><seg source="#source-21212-21218">其賦</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-21218-21230">一</note><seg source="#source-21230-21239">也。不</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-21239-21251">レ</note><seg source="#source-21251-21254">知</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-21254-21266">二</note><seg source="#source-21266-21272">其仁</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-21272-21284">一</note><seg source="#source-21284-21292">也。</seg></p>
+      </div>
+      <div>
+        <p source="#source-21332-21844">又は令尹子文、陳文子などを評して其忠若しくは其清を美しながら、然らば「仁<ruby type="furigana" rend="right" source="#source-21440-21464"><rb>矣乎</rb><rt>ナルカ</rt></ruby>」と問はれて「曰。未<note type="kunten" subtype="return-mark" rend="subscript" source="#source-21494-21506">レ</note><seg source="#source-21506-21518">知。焉得</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-21518-21530">レ</note>仁。」などゝいつたのも矢張り同じことである。孔子の王道と覇者の道とは根本的に異り、氷炭相容れざるものであつて、孔子が管仲の仁を許したと見るは、學者が所謂孔安國の注なるものに誤まられた結果であると思ふのである。</p>
+      </div>
+      <div type="layout" source="#source-21844-21934" style="padding-inline-end: 1em; text-align: right">
+        <p source="#source-21874-21934"><seg source="#source-21874-21934">（大正十一年十一月、支那學第三卷第二號）</seg></p>
+      </div>
+    </body>
+    <back>
+      <div type="source">
+        <note type="source-attribution" source="#source-21942-22220"><seg type="source-line">底本：「支那學文藪」みすず書房</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1973（昭和48）年4月2日発行</seg><lb/><seg type="source-line">底本の親本：「支那學文藪」弘文堂書房</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1927（昭和2）年3月1日発行</seg><lb/><seg type="source-line">初出：「支那學　第三卷第二號」</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1922（大正11）年11月</seg></note>
+        <note type="transcriber-note" source="#source-22220-22574"><seg type="source-line">入力：はまなかひとし</seg><lb/><seg type="source-line">校正：染川隆俊</seg><lb/><seg type="source-line">2010年5月29日作成</seg><lb/><seg type="source-line">2022年3月16日修正</seg><lb/><seg type="source-line">青空文庫作成ファイル：</seg><lb/><seg type="source-line">このファイルは、インターネットの図書館、青空文庫（https://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。</seg></note>
+        <note type="source-span" xml:id="source-10413-10811" n="37"/>
+        <note type="source-span" xml:id="source-10608-10617" n="37"/>
+        <note type="source-span" xml:id="source-10608-10650" n="37"/>
+        <note type="source-span" xml:id="source-10617-10650" n="37"/>
+        <note type="source-span" xml:id="source-10811-10884" n="38"/>
+        <note type="source-span" xml:id="source-10884-11011" n="40"/>
+        <note type="source-span" xml:id="source-10919-10919" n="41"/>
+        <note type="source-span" xml:id="source-10919-10931" n="41"/>
+        <note type="source-span" xml:id="source-10919-10975" n="41"/>
+        <note type="source-span" xml:id="source-10931-10943" n="41"/>
+        <note type="source-span" xml:id="source-10943-10955" n="41"/>
+        <note type="source-span" xml:id="source-10955-10967" n="41"/>
+        <note type="source-span" xml:id="source-10967-10975" n="41"/>
+        <note type="source-span" xml:id="source-11013-11015" n="43"/>
+        <note type="source-span" xml:id="source-11015-11124" n="44"/>
+        <note type="source-span" xml:id="source-11124-11452" n="46"/>
+        <note type="source-span" xml:id="source-11159-11159" n="47"/>
+        <note type="source-span" xml:id="source-11159-11165" n="47"/>
+        <note type="source-span" xml:id="source-11159-11416" n="47"/>
+        <note type="source-span" xml:id="source-11165-11177" n="47"/>
+        <note type="source-span" xml:id="source-11177-11180" n="47"/>
+        <note type="source-span" xml:id="source-11180-11192" n="47"/>
+        <note type="source-span" xml:id="source-11192-11198" n="47"/>
+        <note type="source-span" xml:id="source-11198-11210" n="47"/>
+        <note type="source-span" xml:id="source-11210-11219" n="47"/>
+        <note type="source-span" xml:id="source-11219-11231" n="47"/>
+        <note type="source-span" xml:id="source-11231-11240" n="47"/>
+        <note type="source-span" xml:id="source-11240-11252" n="47"/>
+        <note type="source-span" xml:id="source-11252-11261" n="47"/>
+        <note type="source-span" xml:id="source-11261-11273" n="47"/>
+        <note type="source-span" xml:id="source-11273-11279" n="47"/>
+        <note type="source-span" xml:id="source-11279-11291" n="47"/>
+        <note type="source-span" xml:id="source-11291-11294" n="47"/>
+        <note type="source-span" xml:id="source-11294-11303" n="47"/>
+        <note type="source-span" xml:id="source-11294-11336" n="47"/>
+        <note type="source-span" xml:id="source-11303-11336" n="47"/>
+        <note type="source-span" xml:id="source-11336-11348" n="47"/>
+        <note type="source-span" xml:id="source-11348-11351" n="47"/>
+        <note type="source-span" xml:id="source-11348-11378" n="47"/>
+        <note type="source-span" xml:id="source-11351-11378" n="47"/>
+        <note type="source-span" xml:id="source-11378-11384" n="47"/>
+        <note type="source-span" xml:id="source-11384-11396" n="47"/>
+        <note type="source-span" xml:id="source-11396-11416" n="47"/>
+        <note type="source-span" xml:id="source-11454-11456" n="49"/>
+        <note type="source-span" xml:id="source-11456-11468" n="50"/>
+        <note type="source-span" xml:id="source-11456-11772" n="50"/>
+        <note type="source-span" xml:id="source-11468-11624" n="50"/>
+        <note type="source-span" xml:id="source-11486-11597" n="50"/>
+        <note type="source-span" xml:id="source-11624-11772" n="50"/>
+        <note type="source-span" xml:id="source-11772-12013" n="52"/>
+        <note type="source-span" xml:id="source-11807-11807" n="53"/>
+        <note type="source-span" xml:id="source-11807-11819" n="53"/>
+        <note type="source-span" xml:id="source-11807-11977" n="53"/>
+        <note type="source-span" xml:id="source-11819-11831" n="53"/>
+        <note type="source-span" xml:id="source-11831-11834" n="53"/>
+        <note type="source-span" xml:id="source-11834-11846" n="53"/>
+        <note type="source-span" xml:id="source-11846-11849" n="53"/>
+        <note type="source-span" xml:id="source-11849-11861" n="53"/>
+        <note type="source-span" xml:id="source-11861-11864" n="53"/>
+        <note type="source-span" xml:id="source-11864-11876" n="53"/>
+        <note type="source-span" xml:id="source-11876-11882" n="53"/>
+        <note type="source-span" xml:id="source-11882-11894" n="53"/>
+        <note type="source-span" xml:id="source-11894-11912" n="53"/>
+        <note type="source-span" xml:id="source-11912-11924" n="53"/>
+        <note type="source-span" xml:id="source-11924-11936" n="53"/>
+        <note type="source-span" xml:id="source-11936-11948" n="53"/>
+        <note type="source-span" xml:id="source-11948-11957" n="53"/>
+        <note type="source-span" xml:id="source-11957-11969" n="53"/>
+        <note type="source-span" xml:id="source-11969-11977" n="53"/>
+        <note type="source-span" xml:id="source-12015-12017" n="55"/>
+        <note type="source-span" xml:id="source-12017-12086" n="56"/>
+        <note type="source-span" xml:id="source-12017-12259" n="56"/>
+        <note type="source-span" xml:id="source-12086-12107" n="56"/>
+        <note type="source-span" xml:id="source-12107-12119" n="56"/>
+        <note type="source-span" xml:id="source-12119-12259" n="56"/>
+        <note type="source-span" xml:id="source-12259-14376" n="57"/>
+        <note type="source-span" xml:id="source-12379-12391" n="57"/>
+        <note type="source-span" xml:id="source-12391-12397" n="57"/>
+        <note type="source-span" xml:id="source-12397-12409" n="57"/>
+        <note type="source-span" xml:id="source-12472-12484" n="57"/>
+        <note type="source-span" xml:id="source-12484-12490" n="57"/>
+        <note type="source-span" xml:id="source-12490-12502" n="57"/>
+        <note type="source-span" xml:id="source-12790-12931" n="57"/>
+        <note type="source-span" xml:id="source-12808-12904" n="57"/>
+        <note type="source-span" xml:id="source-12961-12973" n="57"/>
+        <note type="source-span" xml:id="source-12973-12979" n="57"/>
+        <note type="source-span" xml:id="source-12979-12991" n="57"/>
+        <note type="source-span" xml:id="source-12991-12997" n="57"/>
+        <note type="source-span" xml:id="source-12997-13009" n="57"/>
+        <note type="source-span" xml:id="source-13009-13015" n="57"/>
+        <note type="source-span" xml:id="source-13015-13027" n="57"/>
+        <note type="source-span" xml:id="source-13054-13066" n="57"/>
+        <note type="source-span" xml:id="source-13066-13081" n="57"/>
+        <note type="source-span" xml:id="source-13081-13093" n="57"/>
+        <note type="source-span" xml:id="source-13093-13108" n="57"/>
+        <note type="source-span" xml:id="source-13108-13120" n="57"/>
+        <note type="source-span" xml:id="source-13120-13132" n="57"/>
+        <note type="source-span" xml:id="source-13132-13162" n="57"/>
+        <note type="source-span" xml:id="source-13162-13263" n="57"/>
+        <note type="source-span" xml:id="source-13180-13186" n="57"/>
+        <note type="source-span" xml:id="source-13186-13233" n="57"/>
+        <note type="source-span" xml:id="source-13233-13236" n="57"/>
+        <note type="source-span" xml:id="source-13263-13281" n="57"/>
+        <note type="source-span" xml:id="source-13281-13293" n="57"/>
+        <note type="source-span" xml:id="source-13293-13317" n="57"/>
+        <note type="source-span" xml:id="source-13317-13338" n="57"/>
+        <note type="source-span" xml:id="source-13338-13350" n="57"/>
+        <note type="source-span" xml:id="source-13350-13356" n="57"/>
+        <note type="source-span" xml:id="source-13356-13374" n="57"/>
+        <note type="source-span" xml:id="source-13374-13386" n="57"/>
+        <note type="source-span" xml:id="source-13386-13389" n="57"/>
+        <note type="source-span" xml:id="source-13389-13410" n="57"/>
+        <note type="source-span" xml:id="source-13410-13422" n="57"/>
+        <note type="source-span" xml:id="source-13422-13428" n="57"/>
+        <note type="source-span" xml:id="source-13428-13446" n="57"/>
+        <note type="source-span" xml:id="source-13446-13458" n="57"/>
+        <note type="source-span" xml:id="source-13458-13512" n="57"/>
+        <note type="source-span" xml:id="source-13512-13936" n="57"/>
+        <note type="source-span" xml:id="source-13530-13583" n="57"/>
+        <note type="source-span" xml:id="source-13583-13645" n="57"/>
+        <note type="source-span" xml:id="source-13645-13909" n="57"/>
+        <note type="source-span" xml:id="source-13936-13963" n="57"/>
+        <note type="source-span" xml:id="source-13963-13975" n="57"/>
+        <note type="source-span" xml:id="source-13963-14017" n="57"/>
+        <note type="source-span" xml:id="source-13975-14017" n="57"/>
+        <note type="source-span" xml:id="source-14080-14098" n="57"/>
+        <note type="source-span" xml:id="source-14131-14143" n="57"/>
+        <note type="source-span" xml:id="source-14143-14149" n="57"/>
+        <note type="source-span" xml:id="source-14149-14161" n="57"/>
+        <note type="source-span" xml:id="source-14161-14269" n="57"/>
+        <note type="source-span" xml:id="source-14269-14368" n="57"/>
+        <note type="source-span" xml:id="source-14287-14341" n="57"/>
+        <note type="source-span" xml:id="source-14368-14376" n="57"/>
+        <note type="source-span" xml:id="source-14376-14828" n="58"/>
+        <note type="source-span" xml:id="source-14828-15855" n="59"/>
+        <note type="source-span" xml:id="source-14993-15005" n="59"/>
+        <note type="source-span" xml:id="source-15005-15017" n="59"/>
+        <note type="source-span" xml:id="source-15017-15029" n="59"/>
+        <note type="source-span" xml:id="source-15272-15319" n="59"/>
+        <note type="source-span" xml:id="source-15319-15448" n="59"/>
+        <note type="source-span" xml:id="source-15448-15481" n="59"/>
+        <note type="source-span" xml:id="source-15481-15499" n="59"/>
+        <note type="source-span" xml:id="source-15499-15619" n="59"/>
+        <note type="source-span" xml:id="source-15517-15592" n="59"/>
+        <note type="source-span" xml:id="source-15619-15855" n="59"/>
+        <note type="source-span" xml:id="source-15855-15978" n="60"/>
+        <note type="source-span" xml:id="source-15855-16258" n="60"/>
+        <note type="source-span" xml:id="source-15978-16038" n="60"/>
+        <note type="source-span" xml:id="source-15996-16011" n="60"/>
+        <note type="source-span" xml:id="source-16258-17414" n="62"/>
+        <note type="source-span" xml:id="source-16293-16293" n="63"/>
+        <note type="source-span" xml:id="source-16293-16311" n="63"/>
+        <note type="source-span" xml:id="source-16293-16649" n="63"/>
+        <note type="source-span" xml:id="source-16311-16323" n="63"/>
+        <note type="source-span" xml:id="source-16323-16332" n="63"/>
+        <note type="source-span" xml:id="source-16332-16344" n="63"/>
+        <note type="source-span" xml:id="source-16344-16347" n="63"/>
+        <note type="source-span" xml:id="source-16347-16359" n="63"/>
+        <note type="source-span" xml:id="source-16359-16371" n="63"/>
+        <note type="source-span" xml:id="source-16371-16383" n="63"/>
+        <note type="source-span" xml:id="source-16383-16422" n="63"/>
+        <note type="source-span" xml:id="source-16422-16434" n="63"/>
+        <note type="source-span" xml:id="source-16434-16440" n="63"/>
+        <note type="source-span" xml:id="source-16440-16452" n="63"/>
+        <note type="source-span" xml:id="source-16452-16464" n="63"/>
+        <note type="source-span" xml:id="source-16464-16494" n="63"/>
+        <note type="source-span" xml:id="source-16494-16506" n="63"/>
+        <note type="source-span" xml:id="source-16506-16512" n="63"/>
+        <note type="source-span" xml:id="source-16512-16524" n="63"/>
+        <note type="source-span" xml:id="source-16524-16536" n="63"/>
+        <note type="source-span" xml:id="source-16536-16542" n="63"/>
+        <note type="source-span" xml:id="source-16542-16551" n="63"/>
+        <note type="source-span" xml:id="source-16542-16584" n="63"/>
+        <note type="source-span" xml:id="source-16551-16584" n="63"/>
+        <note type="source-span" xml:id="source-16584-16587" n="63"/>
+        <note type="source-span" xml:id="source-16587-16596" n="63"/>
+        <note type="source-span" xml:id="source-16587-16629" n="63"/>
+        <note type="source-span" xml:id="source-16596-16629" n="63"/>
+        <note type="source-span" xml:id="source-16629-16649" n="63"/>
+        <note type="source-span" xml:id="source-16649-16679" n="64"/>
+        <note type="source-span" xml:id="source-16649-16861" n="64"/>
+        <note type="source-span" xml:id="source-16679-16691" n="64"/>
+        <note type="source-span" xml:id="source-16691-16697" n="64"/>
+        <note type="source-span" xml:id="source-16697-16709" n="64"/>
+        <note type="source-span" xml:id="source-16709-16721" n="64"/>
+        <note type="source-span" xml:id="source-16721-16733" n="64"/>
+        <note type="source-span" xml:id="source-16733-16739" n="64"/>
+        <note type="source-span" xml:id="source-16739-16751" n="64"/>
+        <note type="source-span" xml:id="source-16751-16754" n="64"/>
+        <note type="source-span" xml:id="source-16754-16763" n="64"/>
+        <note type="source-span" xml:id="source-16754-16796" n="64"/>
+        <note type="source-span" xml:id="source-16763-16796" n="64"/>
+        <note type="source-span" xml:id="source-16796-16799" n="64"/>
+        <note type="source-span" xml:id="source-16799-16808" n="64"/>
+        <note type="source-span" xml:id="source-16799-16841" n="64"/>
+        <note type="source-span" xml:id="source-16808-16841" n="64"/>
+        <note type="source-span" xml:id="source-16841-16861" n="64"/>
+        <note type="source-span" xml:id="source-16861-16882" n="65"/>
+        <note type="source-span" xml:id="source-16861-17163" n="65"/>
+        <note type="source-span" xml:id="source-16882-16894" n="65"/>
+        <note type="source-span" xml:id="source-16894-16909" n="65"/>
+        <note type="source-span" xml:id="source-16909-16921" n="65"/>
+        <note type="source-span" xml:id="source-16921-16927" n="65"/>
+        <note type="source-span" xml:id="source-16927-16939" n="65"/>
+        <note type="source-span" xml:id="source-16939-16945" n="65"/>
+        <note type="source-span" xml:id="source-16945-16957" n="65"/>
+        <note type="source-span" xml:id="source-16957-16963" n="65"/>
+        <note type="source-span" xml:id="source-16963-16975" n="65"/>
+        <note type="source-span" xml:id="source-16975-16987" n="65"/>
+        <note type="source-span" xml:id="source-16987-16999" n="65"/>
+        <note type="source-span" xml:id="source-16999-17020" n="65"/>
+        <note type="source-span" xml:id="source-17020-17032" n="65"/>
+        <note type="source-span" xml:id="source-17032-17035" n="65"/>
+        <note type="source-span" xml:id="source-17035-17047" n="65"/>
+        <note type="source-span" xml:id="source-17047-17056" n="65"/>
+        <note type="source-span" xml:id="source-17056-17065" n="65"/>
+        <note type="source-span" xml:id="source-17056-17098" n="65"/>
+        <note type="source-span" xml:id="source-17065-17098" n="65"/>
+        <note type="source-span" xml:id="source-17098-17101" n="65"/>
+        <note type="source-span" xml:id="source-17101-17110" n="65"/>
+        <note type="source-span" xml:id="source-17101-17143" n="65"/>
+        <note type="source-span" xml:id="source-17110-17143" n="65"/>
+        <note type="source-span" xml:id="source-17143-17163" n="65"/>
+        <note type="source-span" xml:id="source-17163-17187" n="66"/>
+        <note type="source-span" xml:id="source-17163-17378" n="66"/>
+        <note type="source-span" xml:id="source-17187-17199" n="66"/>
+        <note type="source-span" xml:id="source-17199-17223" n="66"/>
+        <note type="source-span" xml:id="source-17223-17235" n="66"/>
+        <note type="source-span" xml:id="source-17235-17253" n="66"/>
+        <note type="source-span" xml:id="source-17253-17265" n="66"/>
+        <note type="source-span" xml:id="source-17265-17271" n="66"/>
+        <note type="source-span" xml:id="source-17271-17280" n="66"/>
+        <note type="source-span" xml:id="source-17271-17313" n="66"/>
+        <note type="source-span" xml:id="source-17280-17313" n="66"/>
+        <note type="source-span" xml:id="source-17313-17316" n="66"/>
+        <note type="source-span" xml:id="source-17316-17325" n="66"/>
+        <note type="source-span" xml:id="source-17316-17358" n="66"/>
+        <note type="source-span" xml:id="source-17325-17358" n="66"/>
+        <note type="source-span" xml:id="source-17358-17378" n="66"/>
+        <note type="source-span" xml:id="source-17416-17418" n="68"/>
+        <note type="source-span" xml:id="source-17418-18608" n="69"/>
+        <note type="source-span" xml:id="source-17709-17730" n="69"/>
+        <note type="source-span" xml:id="source-17730-17742" n="69"/>
+        <note type="source-span" xml:id="source-17742-17748" n="69"/>
+        <note type="source-span" xml:id="source-17748-17766" n="69"/>
+        <note type="source-span" xml:id="source-17766-17778" n="69"/>
+        <note type="source-span" xml:id="source-17778-17781" n="69"/>
+        <note type="source-span" xml:id="source-17781-17802" n="69"/>
+        <note type="source-span" xml:id="source-17802-17814" n="69"/>
+        <note type="source-span" xml:id="source-17814-17820" n="69"/>
+        <note type="source-span" xml:id="source-17820-17838" n="69"/>
+        <note type="source-span" xml:id="source-17838-17850" n="69"/>
+        <note type="source-span" xml:id="source-17850-17853" n="69"/>
+        <note type="source-span" xml:id="source-17853-17874" n="69"/>
+        <note type="source-span" xml:id="source-17874-17886" n="69"/>
+        <note type="source-span" xml:id="source-17886-17892" n="69"/>
+        <note type="source-span" xml:id="source-17892-17910" n="69"/>
+        <note type="source-span" xml:id="source-17910-17922" n="69"/>
+        <note type="source-span" xml:id="source-17922-17925" n="69"/>
+        <note type="source-span" xml:id="source-17925-17946" n="69"/>
+        <note type="source-span" xml:id="source-17946-17958" n="69"/>
+        <note type="source-span" xml:id="source-17958-17964" n="69"/>
+        <note type="source-span" xml:id="source-17964-17982" n="69"/>
+        <note type="source-span" xml:id="source-17982-17994" n="69"/>
+        <note type="source-span" xml:id="source-18156-18171" n="69"/>
+        <note type="source-span" xml:id="source-18608-18620" n="70"/>
+        <note type="source-span" xml:id="source-18608-18785" n="70"/>
+        <note type="source-span" xml:id="source-18620-18667" n="70"/>
+        <note type="source-span" xml:id="source-18667-18703" n="70"/>
+        <note type="source-span" xml:id="source-18703-18712" n="70"/>
+        <note type="source-span" xml:id="source-18703-18745" n="70"/>
+        <note type="source-span" xml:id="source-18712-18745" n="70"/>
+        <note type="source-span" xml:id="source-18745-18785" n="70"/>
+        <note type="source-span" xml:id="source-18785-19395" n="72"/>
+        <note type="source-span" xml:id="source-18820-18820" n="73"/>
+        <note type="source-span" xml:id="source-18820-18823" n="73"/>
+        <note type="source-span" xml:id="source-18820-19359" n="73"/>
+        <note type="source-span" xml:id="source-18823-18835" n="73"/>
+        <note type="source-span" xml:id="source-18835-18847" n="73"/>
+        <note type="source-span" xml:id="source-18847-18859" n="73"/>
+        <note type="source-span" xml:id="source-18859-18862" n="73"/>
+        <note type="source-span" xml:id="source-18862-18874" n="73"/>
+        <note type="source-span" xml:id="source-18874-18886" n="73"/>
+        <note type="source-span" xml:id="source-18886-18898" n="73"/>
+        <note type="source-span" xml:id="source-18898-18904" n="73"/>
+        <note type="source-span" xml:id="source-18904-18916" n="73"/>
+        <note type="source-span" xml:id="source-18916-18922" n="73"/>
+        <note type="source-span" xml:id="source-18922-18934" n="73"/>
+        <note type="source-span" xml:id="source-18934-18937" n="73"/>
+        <note type="source-span" xml:id="source-18937-18949" n="73"/>
+        <note type="source-span" xml:id="source-18949-18967" n="73"/>
+        <note type="source-span" xml:id="source-18967-18979" n="73"/>
+        <note type="source-span" xml:id="source-18979-18985" n="73"/>
+        <note type="source-span" xml:id="source-18985-18997" n="73"/>
+        <note type="source-span" xml:id="source-18997-19006" n="73"/>
+        <note type="source-span" xml:id="source-19006-19018" n="73"/>
+        <note type="source-span" xml:id="source-19018-19033" n="73"/>
+        <note type="source-span" xml:id="source-19033-19045" n="73"/>
+        <note type="source-span" xml:id="source-19045-19054" n="73"/>
+        <note type="source-span" xml:id="source-19054-19066" n="73"/>
+        <note type="source-span" xml:id="source-19066-19072" n="73"/>
+        <note type="source-span" xml:id="source-19072-19084" n="73"/>
+        <note type="source-span" xml:id="source-19084-19090" n="73"/>
+        <note type="source-span" xml:id="source-19090-19102" n="73"/>
+        <note type="source-span" xml:id="source-19102-19114" n="73"/>
+        <note type="source-span" xml:id="source-19114-19132" n="73"/>
+        <note type="source-span" xml:id="source-19132-19144" n="73"/>
+        <note type="source-span" xml:id="source-19144-19147" n="73"/>
+        <note type="source-span" xml:id="source-19147-19159" n="73"/>
+        <note type="source-span" xml:id="source-19159-19162" n="73"/>
+        <note type="source-span" xml:id="source-19162-19174" n="73"/>
+        <note type="source-span" xml:id="source-19174-19180" n="73"/>
+        <note type="source-span" xml:id="source-19180-19192" n="73"/>
+        <note type="source-span" xml:id="source-19192-19204" n="73"/>
+        <note type="source-span" xml:id="source-19204-19216" n="73"/>
+        <note type="source-span" xml:id="source-19216-19222" n="73"/>
+        <note type="source-span" xml:id="source-19222-19234" n="73"/>
+        <note type="source-span" xml:id="source-19234-19237" n="73"/>
+        <note type="source-span" xml:id="source-19237-19249" n="73"/>
+        <note type="source-span" xml:id="source-19249-19273" n="73"/>
+        <note type="source-span" xml:id="source-19273-19285" n="73"/>
+        <note type="source-span" xml:id="source-19285-19306" n="73"/>
+        <note type="source-span" xml:id="source-19306-19318" n="73"/>
+        <note type="source-span" xml:id="source-19318-19330" n="73"/>
+        <note type="source-span" xml:id="source-19330-19359" n="73"/>
+        <note type="source-span" xml:id="source-19397-19399" n="75"/>
+        <note type="source-span" xml:id="source-19399-19462" n="76"/>
+        <note type="source-span" xml:id="source-19399-19850" n="76"/>
+        <note type="source-span" xml:id="source-19462-19509" n="76"/>
+        <note type="source-span" xml:id="source-19554-19560" n="76"/>
+        <note type="source-span" xml:id="source-19554-19596" n="76"/>
+        <note type="source-span" xml:id="source-19560-19596" n="76"/>
+        <note type="source-span" xml:id="source-19596-19656" n="76"/>
+        <note type="source-span" xml:id="source-19656-19668" n="76"/>
+        <note type="source-span" xml:id="source-19850-19892" n="77"/>
+        <note type="source-span" xml:id="source-19850-21105" n="77"/>
+        <note type="source-span" xml:id="source-19892-19898" n="77"/>
+        <note type="source-span" xml:id="source-19892-19934" n="77"/>
+        <note type="source-span" xml:id="source-19898-19934" n="77"/>
+        <note type="source-span" xml:id="source-20444-20456" n="77"/>
+        <note type="source-span" xml:id="source-20456-20462" n="77"/>
+        <note type="source-span" xml:id="source-20462-20474" n="77"/>
+        <note type="source-span" xml:id="source-20882-20888" n="77"/>
+        <note type="source-span" xml:id="source-20882-20924" n="77"/>
+        <note type="source-span" xml:id="source-20888-20924" n="77"/>
+        <note type="source-span" xml:id="source-20924-21105" n="77"/>
+        <note type="source-span" xml:id="source-21105-21328" n="79"/>
+        <note type="source-span" xml:id="source-21140-21140" n="80"/>
+        <note type="source-span" xml:id="source-21140-21170" n="80"/>
+        <note type="source-span" xml:id="source-21140-21292" n="80"/>
+        <note type="source-span" xml:id="source-21170-21182" n="80"/>
+        <note type="source-span" xml:id="source-21182-21185" n="80"/>
+        <note type="source-span" xml:id="source-21185-21197" n="80"/>
+        <note type="source-span" xml:id="source-21197-21200" n="80"/>
+        <note type="source-span" xml:id="source-21200-21212" n="80"/>
+        <note type="source-span" xml:id="source-21212-21218" n="80"/>
+        <note type="source-span" xml:id="source-21218-21230" n="80"/>
+        <note type="source-span" xml:id="source-21230-21239" n="80"/>
+        <note type="source-span" xml:id="source-21239-21251" n="80"/>
+        <note type="source-span" xml:id="source-21251-21254" n="80"/>
+        <note type="source-span" xml:id="source-21254-21266" n="80"/>
+        <note type="source-span" xml:id="source-21266-21272" n="80"/>
+        <note type="source-span" xml:id="source-21272-21284" n="80"/>
+        <note type="source-span" xml:id="source-21284-21292" n="80"/>
+        <note type="source-span" xml:id="source-21330-21332" n="82"/>
+        <note type="source-span" xml:id="source-21332-21844" n="83"/>
+        <note type="source-span" xml:id="source-21440-21464" n="83"/>
+        <note type="source-span" xml:id="source-21494-21506" n="83"/>
+        <note type="source-span" xml:id="source-21506-21518" n="83"/>
+        <note type="source-span" xml:id="source-21518-21530" n="83"/>
+        <note type="source-span" xml:id="source-21844-21934" n="84"/>
+        <note type="source-span" xml:id="source-2185-2197" n="24"/>
+        <note type="source-span" xml:id="source-21874-21934" n="84"/>
+        <note type="source-span" xml:id="source-21942-22220" n="88"/>
+        <note type="source-span" xml:id="source-2197-2200" n="24"/>
+        <note type="source-span" xml:id="source-2200-2212" n="24"/>
+        <note type="source-span" xml:id="source-2212-2224" n="24"/>
+        <note type="source-span" xml:id="source-22220-22574" n="94"/>
+        <note type="source-span" xml:id="source-2224-2236" n="24"/>
+        <note type="source-span" xml:id="source-2236-2239" n="24"/>
+        <note type="source-span" xml:id="source-2239-2251" n="24"/>
+        <note type="source-span" xml:id="source-2251-2269" n="24"/>
+        <note type="source-span" xml:id="source-2269-2281" n="24"/>
+        <note type="source-span" xml:id="source-2305-2362" n="24"/>
+        <note type="source-span" xml:id="source-2323-2335" n="24"/>
+        <note type="source-span" xml:id="source-2389-2401" n="24"/>
+        <note type="source-span" xml:id="source-2401-2410" n="24"/>
+        <note type="source-span" xml:id="source-2410-2422" n="24"/>
+        <note type="source-span" xml:id="source-2422-2449" n="24"/>
+        <note type="source-span" xml:id="source-2449-2461" n="24"/>
+        <note type="source-span" xml:id="source-2461-2467" n="24"/>
+        <note type="source-span" xml:id="source-2467-2479" n="24"/>
+        <note type="source-span" xml:id="source-2533-2545" n="24"/>
+        <note type="source-span" xml:id="source-2545-2557" n="24"/>
+        <note type="source-span" xml:id="source-2557-2569" n="24"/>
+        <note type="source-span" xml:id="source-2653-2710" n="24"/>
+        <note type="source-span" xml:id="source-2671-2683" n="24"/>
+        <note type="source-span" xml:id="source-2731-2743" n="24"/>
+        <note type="source-span" xml:id="source-2743-2749" n="24"/>
+        <note type="source-span" xml:id="source-2749-2761" n="24"/>
+        <note type="source-span" xml:id="source-2761-2776" n="24"/>
+        <note type="source-span" xml:id="source-2776-2788" n="24"/>
+        <note type="source-span" xml:id="source-2788-2794" n="24"/>
+        <note type="source-span" xml:id="source-2794-2806" n="24"/>
+        <note type="source-span" xml:id="source-2806-2815" n="24"/>
+        <note type="source-span" xml:id="source-2815-2827" n="24"/>
+        <note type="source-span" xml:id="source-2827-2833" n="24"/>
+        <note type="source-span" xml:id="source-2833-2845" n="24"/>
+        <note type="source-span" xml:id="source-2845-2863" n="24"/>
+        <note type="source-span" xml:id="source-2863-2875" n="24"/>
+        <note type="source-span" xml:id="source-2875-2878" n="24"/>
+        <note type="source-span" xml:id="source-2878-2890" n="24"/>
+        <note type="source-span" xml:id="source-2890-2905" n="24"/>
+        <note type="source-span" xml:id="source-2905-2917" n="24"/>
+        <note type="source-span" xml:id="source-2917-2920" n="24"/>
+        <note type="source-span" xml:id="source-2920-2932" n="24"/>
+        <note type="source-span" xml:id="source-2932-2947" n="24"/>
+        <note type="source-span" xml:id="source-2947-2959" n="24"/>
+        <note type="source-span" xml:id="source-2968-3025" n="24"/>
+        <note type="source-span" xml:id="source-2986-2998" n="24"/>
+        <note type="source-span" xml:id="source-3193-3205" n="24"/>
+        <note type="source-span" xml:id="source-3205-3208" n="24"/>
+        <note type="source-span" xml:id="source-3208-3220" n="24"/>
+        <note type="source-span" xml:id="source-3220-3229" n="24"/>
+        <note type="source-span" xml:id="source-3229-3241" n="24"/>
+        <note type="source-span" xml:id="source-3250-3304" n="24"/>
+        <note type="source-span" xml:id="source-3268-3277" n="24"/>
+        <note type="source-span" xml:id="source-3304-3639" n="24"/>
+        <note type="source-span" xml:id="source-3639-3962" n="25"/>
+        <note type="source-span" xml:id="source-3962-4061" n="26"/>
+        <note type="source-span" xml:id="source-3962-4328" n="26"/>
+        <note type="source-span" xml:id="source-4061-4138" n="26"/>
+        <note type="source-span" xml:id="source-4328-5381" n="28"/>
+        <note type="source-span" xml:id="source-4363-4363" n="29"/>
+        <note type="source-span" xml:id="source-4363-4384" n="29"/>
+        <note type="source-span" xml:id="source-4363-4701" n="29"/>
+        <note type="source-span" xml:id="source-4384-4396" n="29"/>
+        <note type="source-span" xml:id="source-4396-4405" n="29"/>
+        <note type="source-span" xml:id="source-4405-4417" n="29"/>
+        <note type="source-span" xml:id="source-4417-4429" n="29"/>
+        <note type="source-span" xml:id="source-4429-4441" n="29"/>
+        <note type="source-span" xml:id="source-4441-4456" n="29"/>
+        <note type="source-span" xml:id="source-4456-4468" n="29"/>
+        <note type="source-span" xml:id="source-4468-4483" n="29"/>
+        <note type="source-span" xml:id="source-4483-4495" n="29"/>
+        <note type="source-span" xml:id="source-4495-4522" n="29"/>
+        <note type="source-span" xml:id="source-4522-4534" n="29"/>
+        <note type="source-span" xml:id="source-4534-4543" n="29"/>
+        <note type="source-span" xml:id="source-4543-4555" n="29"/>
+        <note type="source-span" xml:id="source-4555-4561" n="29"/>
+        <note type="source-span" xml:id="source-4561-4573" n="29"/>
+        <note type="source-span" xml:id="source-4573-4576" n="29"/>
+        <note type="source-span" xml:id="source-4576-4588" n="29"/>
+        <note type="source-span" xml:id="source-4588-4594" n="29"/>
+        <note type="source-span" xml:id="source-4594-4606" n="29"/>
+        <note type="source-span" xml:id="source-4606-4630" n="29"/>
+        <note type="source-span" xml:id="source-4630-4642" n="29"/>
+        <note type="source-span" xml:id="source-4642-4648" n="29"/>
+        <note type="source-span" xml:id="source-4648-4660" n="29"/>
+        <note type="source-span" xml:id="source-4660-4666" n="29"/>
+        <note type="source-span" xml:id="source-4666-4678" n="29"/>
+        <note type="source-span" xml:id="source-4678-4684" n="29"/>
+        <note type="source-span" xml:id="source-4684-4696" n="29"/>
+        <note type="source-span" xml:id="source-4696-4701" n="29"/>
+        <note type="source-span" xml:id="source-4701-4722" n="30"/>
+        <note type="source-span" xml:id="source-4701-5345" n="30"/>
+        <note type="source-span" xml:id="source-4722-4734" n="30"/>
+        <note type="source-span" xml:id="source-4734-4740" n="30"/>
+        <note type="source-span" xml:id="source-4740-4752" n="30"/>
+        <note type="source-span" xml:id="source-4752-4767" n="30"/>
+        <note type="source-span" xml:id="source-4767-4779" n="30"/>
+        <note type="source-span" xml:id="source-4779-4788" n="30"/>
+        <note type="source-span" xml:id="source-4788-4800" n="30"/>
+        <note type="source-span" xml:id="source-4800-4806" n="30"/>
+        <note type="source-span" xml:id="source-4806-4818" n="30"/>
+        <note type="source-span" xml:id="source-4818-4821" n="30"/>
+        <note type="source-span" xml:id="source-4821-4833" n="30"/>
+        <note type="source-span" xml:id="source-4833-4845" n="30"/>
+        <note type="source-span" xml:id="source-4845-4857" n="30"/>
+        <note type="source-span" xml:id="source-4857-4881" n="30"/>
+        <note type="source-span" xml:id="source-4881-4893" n="30"/>
+        <note type="source-span" xml:id="source-4893-4899" n="30"/>
+        <note type="source-span" xml:id="source-4899-4911" n="30"/>
+        <note type="source-span" xml:id="source-4911-4914" n="30"/>
+        <note type="source-span" xml:id="source-4914-4926" n="30"/>
+        <note type="source-span" xml:id="source-4926-4932" n="30"/>
+        <note type="source-span" xml:id="source-4932-4944" n="30"/>
+        <note type="source-span" xml:id="source-4944-4950" n="30"/>
+        <note type="source-span" xml:id="source-4950-4962" n="30"/>
+        <note type="source-span" xml:id="source-4962-4971" n="30"/>
+        <note type="source-span" xml:id="source-4971-4983" n="30"/>
+        <note type="source-span" xml:id="source-4983-4992" n="30"/>
+        <note type="source-span" xml:id="source-4992-5004" n="30"/>
+        <note type="source-span" xml:id="source-5004-5010" n="30"/>
+        <note type="source-span" xml:id="source-5010-5022" n="30"/>
+        <note type="source-span" xml:id="source-5022-5025" n="30"/>
+        <note type="source-span" xml:id="source-5025-5037" n="30"/>
+        <note type="source-span" xml:id="source-5037-5043" n="30"/>
+        <note type="source-span" xml:id="source-5043-5055" n="30"/>
+        <note type="source-span" xml:id="source-5055-5058" n="30"/>
+        <note type="source-span" xml:id="source-5058-5082" n="30"/>
+        <note type="source-span" xml:id="source-5082-5094" n="30"/>
+        <note type="source-span" xml:id="source-5094-5100" n="30"/>
+        <note type="source-span" xml:id="source-5100-5112" n="30"/>
+        <note type="source-span" xml:id="source-5112-5124" n="30"/>
+        <note type="source-span" xml:id="source-5124-5136" n="30"/>
+        <note type="source-span" xml:id="source-5136-5142" n="30"/>
+        <note type="source-span" xml:id="source-5142-5154" n="30"/>
+        <note type="source-span" xml:id="source-5154-5169" n="30"/>
+        <note type="source-span" xml:id="source-5169-5181" n="30"/>
+        <note type="source-span" xml:id="source-5181-5199" n="30"/>
+        <note type="source-span" xml:id="source-5199-5211" n="30"/>
+        <note type="source-span" xml:id="source-5211-5232" n="30"/>
+        <note type="source-span" xml:id="source-5232-5244" n="30"/>
+        <note type="source-span" xml:id="source-5244-5256" n="30"/>
+        <note type="source-span" xml:id="source-5256-5265" n="30"/>
+        <note type="source-span" xml:id="source-5265-5277" n="30"/>
+        <note type="source-span" xml:id="source-5277-5283" n="30"/>
+        <note type="source-span" xml:id="source-5283-5295" n="30"/>
+        <note type="source-span" xml:id="source-5295-5301" n="30"/>
+        <note type="source-span" xml:id="source-5301-5325" n="30"/>
+        <note type="source-span" xml:id="source-5325-5337" n="30"/>
+        <note type="source-span" xml:id="source-5337-5345" n="30"/>
+        <note type="source-span" xml:id="source-5383-5385" n="32"/>
+        <note type="source-span" xml:id="source-5385-5730" n="33"/>
+        <note type="source-span" xml:id="source-5385-6646" n="33"/>
+        <note type="source-span" xml:id="source-5730-5751" n="33"/>
+        <note type="source-span" xml:id="source-5751-5763" n="33"/>
+        <note type="source-span" xml:id="source-5763-5769" n="33"/>
+        <note type="source-span" xml:id="source-5769-5787" n="33"/>
+        <note type="source-span" xml:id="source-5787-5799" n="33"/>
+        <note type="source-span" xml:id="source-5799-5823" n="33"/>
+        <note type="source-span" xml:id="source-5823-5835" n="33"/>
+        <note type="source-span" xml:id="source-5835-5841" n="33"/>
+        <note type="source-span" xml:id="source-5841-5859" n="33"/>
+        <note type="source-span" xml:id="source-5859-5871" n="33"/>
+        <note type="source-span" xml:id="source-5871-6069" n="33"/>
+        <note type="source-span" xml:id="source-6069-6146" n="33"/>
+        <note type="source-span" xml:id="source-6230-6242" n="33"/>
+        <note type="source-span" xml:id="source-6284-6296" n="33"/>
+        <note type="source-span" xml:id="source-6296-6308" n="33"/>
+        <note type="source-span" xml:id="source-6308-6320" n="33"/>
+        <note type="source-span" xml:id="source-6320-6323" n="33"/>
+        <note type="source-span" xml:id="source-6323-6335" n="33"/>
+        <note type="source-span" xml:id="source-6646-7563" n="34"/>
+        <note type="source-span" xml:id="source-7563-8174" n="35"/>
+        <note type="source-span" xml:id="source-8174-10413" n="36"/>
+        <note type="source-span" xml:id="source-8174-8297" n="36"/>
+        <note type="source-span" xml:id="source-8297-8344" n="36"/>
+        <note type="source-span" xml:id="source-835-3639" n="24"/>
+        <note type="source-span" xml:id="source-8380-8392" n="36"/>
+        <note type="source-span" xml:id="source-8392-8416" n="36"/>
+        <note type="source-span" xml:id="source-8416-8428" n="36"/>
+        <note type="source-span" xml:id="source-8428-8437" n="36"/>
+        <note type="source-span" xml:id="source-8437-8449" n="36"/>
+        <note type="source-span" xml:id="source-8449-8461" n="36"/>
+        <note type="source-span" xml:id="source-8461-8473" n="36"/>
+        <note type="source-span" xml:id="source-8473-8482" n="36"/>
+        <note type="source-span" xml:id="source-8482-8494" n="36"/>
+        <note type="source-span" xml:id="source-8494-8497" n="36"/>
+        <note type="source-span" xml:id="source-8497-8509" n="36"/>
+        <note type="source-span" xml:id="source-8509-8533" n="36"/>
+        <note type="source-span" xml:id="source-8533-8545" n="36"/>
+        <note type="source-span" xml:id="source-9025-9037" n="36"/>
+        <note type="source-span" xml:id="source-9037-9052" n="36"/>
+        <note type="source-span" xml:id="source-9052-9064" n="36"/>
+        <note type="source-span" xml:id="source-9064-9079" n="36"/>
+        <note type="source-span" xml:id="source-9079-9091" n="36"/>
+        <note type="source-span" xml:id="source-9091-9106" n="36"/>
+        <note type="source-span" xml:id="source-9106-9118" n="36"/>
+        <note type="source-span" xml:id="source-9190-9202" n="36"/>
+        <note type="source-span" xml:id="source-9202-9214" n="36"/>
+        <note type="source-span" xml:id="source-9214-9226" n="36"/>
+        <note type="source-span" xml:id="source-9226-9229" n="36"/>
+        <note type="source-span" xml:id="source-9229-9241" n="36"/>
+      </div>
+      <note type="parser-completion" n="true">The n attribute is true when no parser diagnostic of error severity was raised for this source. What the converter could not interpret is recorded in the interpretation-problem and parser-diagnostic notes.</note>
+      <note type="source-decoding">windows-31j</note>
+    </back>
+  </text>
+</TEI>

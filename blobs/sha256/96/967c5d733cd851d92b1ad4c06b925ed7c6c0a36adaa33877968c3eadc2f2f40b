@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:snh="https://w3id.org/soranoha/ns/tei" xmlns="http://www.tei-c.org/ns/1.0" snh:vocab-version="3">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ja">赤い土の壺</title>
+        <title type="reading" xml:lang="ja-Hira">あかいつちのつぼ</title>
+        <author><persName xml:lang="ja"><surname>田中</surname><forename>貢太郎</forename><idno type="aozora-person-id">000154</idno></persName><persName xml:lang="ja-Hira"><surname>たなか</surname><forename>こうたろう</forename></persName><persName xml:lang="ja-Latn"><surname>Tanaka</surname><forename>Kotaro</forename></persName></author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://w3id.org/soranoha/">Soranoha</publisher>
+        <idno type="soranoha-work-identifier">052248_000154</idno>
+        <idno type="aozora-work-id">052248</idno>
+        <idno type="aozora-card-url">https://www.aozora.gr.jp/cards/000154/card52248.html</idno>
+        <date when="2014-09-16">2014-09-16</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">The underlying work is in the public domain; Soranoha asserts no rights over it.</licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Soranoha's encoding of this work and the artifacts derived from it are dedicated to the public domain under CC0-1.0. Attribution is requested, not required. Full rights statement: <ptr target="https://w3id.org/soranoha/rights"/></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>日本怪談大全　第一巻　女怪の館</title><publisher>国書刊行会</publisher><date>1995（平成7）年7月10日</date><note type="input-edition">1995（平成7）年7月10日初版第1刷</note><note type="proof-edition">1995（平成7）年7月10日初版第1刷</note></bibl>
+        <bibl><idno type="source-content-hash">sha256:fc9832111e12ca23b80ab1e373d4d0361582fa732cceb8e3a76f2b28e90c7c3c</idno></bibl>
+        <bibl><idno type="primary-text-hash">sha256:d22f71e0ffc936e901005bb18e2f3fb18f2b0e44f5f4631d5da45431740a60ec</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css"/>
+      <classDecl><taxonomy xml:id="ndc"><bibl>分類番号 as recorded by <title>青空文庫</title>, read as a class of 日本十進分類法 新訂9版. Category labels are from <title>NDC9 Linked Data</title> (日本図書館協会, CC BY); a category's IRI is <ref target="http://jla.or.jp/data/ndc9">http://jla.or.jp/data/ndc9</ref> followed by # and its n.</bibl><category xml:id="ndc913" n="913"><catDesc xml:lang="ja">小説．物語</catDesc><catDesc xml:lang="en">Fiction.Romance.Novel</catDesc></category></taxonomy><taxonomy xml:id="aozora-orthography"><bibl><title>青空文庫</title> 文字遣い種別: the orthographic style Aozora Bunko records for the transcription.</bibl></taxonomy></classDecl>
+      <refsDecl xml:id="source-spans"><p>A note of type source-span has an xml:id of the form source-START-END, giving the extent in UTF-8 bytes of the decoded primary text identified in sourceDesc, after the emendations declared in editorialDecl/correction are applied; each emendation replaces its sic text by its corr text at its own extent. <ptr target="https://w3id.org/soranoha/ns/tei"/></p></refsDecl>
+      <charDecl>
+        <char xml:id="gaiji-3-1-89-70">
+          <mapping type="unicode">篙</mapping>
+          <localProp name="rawMarker" value="竹かんむり／高"/>
+          <localProp name="sourceReference" value="第3水準1-89-70"/>
+          <snh:gaiji-reference original="第3水準1-89-70" cell="70" plane="1" kind="jis-code" row="89"/>
+        </char>
+        <char xml:id="gaiji-3-1-88-85">
+          <mapping type="unicode">睜</mapping>
+          <localProp name="rawMarker" value="目＋爭"/>
+          <localProp name="sourceReference" value="第3水準1-88-85"/>
+          <snh:gaiji-reference original="第3水準1-88-85" cell="85" plane="1" kind="jis-code" row="88"/>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ja">日本語</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#ndc">913</classCode>
+        <catRef scheme="#ndc" target="#ndc913"/>
+        <classCode scheme="#aozora-orthography">新字新仮名</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-616-1491"><ruby type="furigana" rend="right" source="#source-619-643"><rb>永禄</rb><rt>えいろく</rt></ruby><seg source="#source-643-709">四年の夏のことであった。夕陽の落ちたばかりの</seg><ruby type="furigana" rend="right" source="#source-709-739"><rb>長良川</rb><rt>ながらがわ</rt></ruby><seg source="#source-739-742">の</seg><ruby type="furigana" rend="right" source="#source-742-760"><rb>磧</rb><rt>かわら</rt></ruby><seg source="#source-760-769">へ四人</seg><ruby type="furigana" rend="right" source="#source-769-787"><rb>伴</rb><rt>づれ</rt></ruby><seg source="#source-787-790">の</seg><ruby type="furigana" rend="right" source="#source-790-811"><rb>鵜飼</rb><rt>うかい</rt></ruby><seg source="#source-811-886">が出て来たが、そのうちの二人は二羽ずつの鵜を左右の</seg><ruby type="furigana" rend="right" source="#source-886-907"><rb>手端</rb><rt>てさき</rt></ruby><seg source="#source-907-925">にとまらし、</seg><ruby type="furigana" rend="right" source="#source-925-940"><rb>後</rb><rt>あと</rt></ruby><seg source="#source-940-970">の二人のうちの一人は</seg><ruby type="furigana" rend="right" source="#source-970-982"><rb>艪</rb><rt>ろ</rt></ruby><seg source="#source-982-1009">を肩にして、それに</seg><ruby type="furigana" rend="right" source="#source-1009-1030"><rb>徳利</rb><rt>とくり</rt></ruby><seg source="#source-1030-1033">や</seg><ruby type="furigana" rend="right" source="#source-1033-1048"><rb>椀</rb><rt>わん</rt></ruby><seg source="#source-1048-1066">などを入れた</seg><ruby type="furigana" rend="right" source="#source-1066-1084"><rb>魚籃</rb><rt>びく</rt></ruby><seg source="#source-1084-1105">を掛け、一人は</seg><ruby type="furigana" rend="right" source="#source-1105-1135"><rb>莚包</rb><rt>むしろづつみ</rt></ruby><seg source="#source-1135-1144">を右の</seg><ruby type="furigana" rend="right" source="#source-1144-1165"><rb>小脇</rb><rt>こわき</rt></ruby><seg source="#source-1165-1192">に抱え、左の小脇に</seg><ruby type="furigana" rend="right" source="#source-1192-1216"><rb>焼明</rb><rt>たいまつ</rt></ruby><seg source="#source-1216-1261">の束を抱えていた。皆同じように</seg><ruby type="furigana" rend="right" source="#source-1261-1297"><rb>襤褸襦袢</rb><rt>ぼろじゅばん</rt></ruby><seg source="#source-1297-1312">を一枚着て</seg><ruby type="furigana" rend="right" source="#source-1312-1336"><rb>腰簔</rb><rt>こしみの</rt></ruby><seg source="#source-1336-1491">をつけていたが、どこか体のこなしにきりっとしたところがあって、ぬらくらした土地の漁師のようでなかった。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-1491-2894"><seg source="#source-1491-1539">そこは長良川の西岸で、東岸には</seg><ruby type="furigana" rend="right" source="#source-1539-1569"><rb>稲葉山</rb><rt>いなばやま</rt></ruby><seg source="#source-1569-1572">が</seg><ruby type="furigana" rend="right" source="#source-1572-1596"><rb>黄昏</rb><rt>ゆうぐれ</rt></ruby><seg source="#source-1596-1611">の暗い影を</seg><ruby type="furigana" rend="right" source="#source-1611-1623"><rb>曳</rb><rt>ひ</rt></ruby><seg source="#source-1623-1665">いてそそり立っていたが、その</seg><ruby type="furigana" rend="right" source="#source-1665-1686"><rb>頂</rb><rt>いただき</rt></ruby><seg source="#source-1686-1689">の</seg><ruby type="furigana" rend="right" source="#source-1689-1716"><rb>城櫓</rb><rt>しろやぐら</rt></ruby><seg source="#source-1716-1977">の白壁には、夕陽の光がちらちらと動いていた。長良川の水はそのあたりで東岸に迫って流れ、西岸には広びろとした磧を見せていた。四人の鵜飼のうちで鵜を持ったほうの一人は、四十前後の</seg><ruby type="furigana" rend="right" source="#source-1977-1989"><rb>痩</rb><rt>や</rt></ruby><seg source="#source-1989-2034">せぎすな男で、一人は三十五六の</seg><ruby type="furigana" rend="right" source="#source-2034-2058"><rb>角顔</rb><rt>かくがお</rt></ruby><seg source="#source-2058-2190">の体のがっしりした男であった。そして、莚包と焼明を持っているのは、三十前後の背の高い鋭い</seg><ruby type="furigana" rend="right" source="#source-2190-2208"><rb>眼</rb><rt>まなこ</rt></ruby><seg source="#source-2208-2226">をした男で、</seg><ruby type="furigana" rend="right" source="#source-2226-2238"><rb>艪</rb><rt>ろ</rt></ruby><seg source="#source-2238-2304">を持っているのは、五十前後の背のずんぐりした</seg><ruby type="furigana" rend="right" source="#source-2304-2325"><rb>白髪</rb><rt>しらが</rt></ruby><seg source="#source-2325-2409">の目だつ男であった。四人は昼の暑さのために葉を巻いていた</seg><ruby type="furigana" rend="right" source="#source-2409-2436"><rb>川柳</rb><rt>かわやなぎ</rt></ruby><seg source="#source-2436-2478">がだらりと葉を延ばして、ひと</seg><ruby type="furigana" rend="right" source="#source-2478-2496"><rb>呼吸</rb><rt>いき</rt></ruby><seg source="#source-2496-2565">つこうとでもしているように思われる処を通って、</seg><ruby type="furigana" rend="right" source="#source-2565-2586"><rb>下手</rb><rt>しもて</rt></ruby><seg source="#source-2586-2613">の方へ往った。暑い</seg><ruby type="furigana" rend="right" source="#source-2613-2625"><rb>陽</rb><rt>ひ</rt></ruby><seg source="#source-2625-2643">を吸うていた</seg><ruby type="furigana" rend="right" source="#source-2643-2661"><rb>磧</rb><rt>かわら</rt></ruby><seg source="#source-2661-2664">の</seg><ruby type="furigana" rend="right" source="#source-2664-2679"><rb>沙</rb><rt>すな</rt></ruby><seg source="#source-2679-2682">は</seg><ruby type="furigana" rend="right" source="#source-2682-2700"><rb>鬼魅</rb><rt>きみ</rt></ruby><seg source="#source-2700-2742">悪くほかほかしていた。その時</seg><ruby type="furigana" rend="right" source="#source-2742-2775"><rb>莚包</rb><rt>むしろづつみ</rt></ruby><seg source="#source-2775-2778">と</seg><ruby type="furigana" rend="right" source="#source-2778-2802"><rb>焼明</rb><rt>たいまつ</rt></ruby><seg source="#source-2802-2835">を持って背の高い男が、</seg><ruby type="furigana" rend="right" source="#source-2835-2847"><rb>鵜</rb><rt>う</rt></ruby><seg source="#source-2847-2894">を持った角顔の男のほうを見て、</seg></p>
+      <p source="#source-2894-2956"><seg source="#source-2894-2897">「</seg><ruby type="furigana" rend="right" source="#source-2897-2912"><rb>鮎</rb><rt>あゆ</rt></ruby><seg source="#source-2912-2915">を</seg><ruby type="furigana" rend="right" source="#source-2915-2927"><rb>獲</rb><rt>と</rt></ruby>りたいものじゃが」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2956-3069"><seg source="#source-2956-2998">と云った。すると角顔の男は</seg><ruby type="furigana" rend="right" source="#source-2998-3022"><rb>前岸</rb><rt>ぜんがん</rt></ruby><seg source="#source-3022-3069">の樹木の茂みの方をちらと見て、</seg></p>
+      <p source="#source-3069-3128">「獲れるとも、この鵜さえうまく使えば」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-3128-3343"><seg source="#source-3128-3343">と、云って顔で笑った。その拍子に右の手にとまった鵜が飛びたつように羽ばたきをした。莚包と焼明を持った背の高い男も前岸の方へちらと眼をやって、</seg></p>
+      <p source="#source-3343-3486">「そうじゃ、鵜さえうまく使えば、鮎は獲れるに<ruby type="furigana" rend="right" source="#source-3409-3424"><rb>定</rb><rt>きま</rt></ruby>っておる、鵜をうまく使うがかんじんじゃ」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-3486-3788"><seg source="#source-3486-3576">と、これも顔で笑った。前岸の樹木の間には黒い大きな瓦屋根が</seg><ruby type="furigana" rend="right" source="#source-3576-3594"><rb>微</rb><rt>かすか</rt></ruby><seg source="#source-3594-3639">に黒く見えていた。それは日蓮宗</seg><ruby type="furigana" rend="right" source="#source-3639-3672"><rb>法国寺</rb><rt>ほうこくじ</rt></ruby><seg source="#source-3672-3684">に属する</seg><ruby type="furigana" rend="right" source="#source-3684-3711"><rb>法華寺</rb><rt>ほっけじ</rt></ruby><seg source="#source-3711-3788">の別院であった。他の二人の眼もちらとそれに往った。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-3788-4228"><seg source="#source-3788-3803">本流から</seg><ruby type="furigana" rend="right" source="#source-3803-3818"><rb>岐</rb><rt>わか</rt></ruby><seg source="#source-3818-3824">れた</seg><ruby type="furigana" rend="right" source="#source-3824-3848"><rb>一条</rb><rt>ひとすじ</rt></ruby><seg source="#source-3848-3860">の流れが</seg><ruby type="furigana" rend="right" source="#source-3860-3878"><rb>斜</rb><rt>ななめ</rt></ruby><seg source="#source-3878-3887">に来て</seg><ruby type="furigana" rend="right" source="#source-3887-3905"><rb>磧</rb><rt>かわら</rt></ruby><seg source="#source-3905-3908">の</seg><ruby type="furigana" rend="right" source="#source-3908-3923"><rb>裾</rb><rt>すそ</rt></ruby><seg source="#source-3923-3932">で岸の</seg><ruby type="furigana" rend="right" source="#source-3932-3956"><rb>竹藪</rb><rt>たけやぶ</rt></ruby><seg source="#source-3956-3998">に迫っていたが、そこには二三</seg><ruby type="furigana" rend="right" source="#source-3998-4016"><rb>艘</rb><rt>そう</rt></ruby><seg source="#source-4016-4028">の小舟が</seg><ruby type="furigana" rend="right" source="#source-4028-4043"><rb>飛</rb><rt>とび</rt></ruby><seg source="#source-4043-4052">とびに</seg><ruby type="furigana" rend="right" source="#source-4052-4067"><rb>繋</rb><rt>つな</rt></ruby><seg source="#source-4067-4228">いであった。四人はその小舟の方へ往った。莚包と焼明を持った背の高い男は、また鵜を持った角顔の男の方を見て、</seg></p>
+      <p source="#source-4228-4419">「寺へ入って<ruby type="furigana" rend="right" source="#source-4246-4270"><rb>和尚</rb><rt>おしょう</rt></ruby><seg source="#source-4270-4282">のような</seg><ruby type="furigana" rend="right" source="#source-4282-4300"><rb>真似</rb><rt>まね</rt></ruby><seg source="#source-4300-4327">をしておるが、あの</seg><ruby type="furigana" rend="right" source="#source-4327-4351"><rb>痴漢</rb><rt>しれもの</rt></ruby>のことじゃ、どんな用心をしておるかも判らん」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4419-4520"><seg source="#source-4419-4455">と云いかけたところで、</seg><ruby type="furigana" rend="right" source="#source-4455-4467"><rb>艪</rb><rt>ろ</rt></ruby><seg source="#source-4467-4491">を持っていた男が</seg><ruby type="furigana" rend="right" source="#source-4491-4509"><rb>遮</rb><rt>さえぎ</rt></ruby><seg source="#source-4509-4520">って、</seg></p>
+      <p source="#source-4520-4627">「鮎の用心なら知れたものじゃ、鮎の話は、まあ、舟へ乗ってからにしよう」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4627-4920"><seg source="#source-4627-4663">と云った。それを聞くと</seg><ruby type="furigana" rend="right" source="#source-4663-4693"><rb>莚包</rb><rt>むしろづつみ</rt></ruby><seg source="#source-4693-4696">と</seg><ruby type="furigana" rend="right" source="#source-4696-4720"><rb>焼明</rb><rt>たいまつ</rt></ruby><seg source="#source-4720-4759">を持った背の高い男は、首を</seg><ruby type="furigana" rend="right" source="#source-4759-4774"><rb>縮</rb><rt>すく</rt></ruby><seg source="#source-4774-4867">めるようにして口をつぐんでしまった。そして、一行は無言になって</seg><ruby type="furigana" rend="right" source="#source-4867-4885"><rb>磧</rb><rt>かわら</rt></ruby><seg source="#source-4885-4888">の</seg><ruby type="furigana" rend="right" source="#source-4888-4903"><rb>裾</rb><rt>すそ</rt></ruby><seg source="#source-4903-4920">へ往った。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4920-5153"><seg source="#source-4920-4956">そこにはもう他に一組の</seg><ruby type="furigana" rend="right" source="#source-4956-4977"><rb>鵜飼</rb><rt>うかい</rt></ruby><seg source="#source-4977-5022">がいて、がやがやと云いながら一</seg><ruby type="furigana" rend="right" source="#source-5022-5040"><rb>艘</rb><rt>そう</rt></ruby><seg source="#source-5040-5088">の舟をだしているところであった。</seg><ruby type="furigana" rend="right" source="#source-5088-5109"><rb>四方</rb><rt>あたり</rt></ruby><seg source="#source-5109-5153">はもうすっかりと暮れていた。</seg></p>
+      <p source="#source-5153-5245">「もう舟を出している者がある、<ruby type="furigana" rend="right" source="#source-5198-5213"><rb>後</rb><rt>おく</rt></ruby>れないように出そう」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5245-5421"><ruby type="furigana" rend="right" source="#source-5248-5260"><rb>艪</rb><rt>ろ</rt></ruby><seg source="#source-5260-5421">を持っていた男がそう云い云い艪を舟の中へ入れた。すると莚包と焼明を持った男が、その手荷物を舟の中へ入れて、</seg></p>
+      <p source="#source-5421-5456">「それでは舟を出そう」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5456-5647"><seg source="#source-5456-5647">と、云って竹藪の竹の根本を縛ってある縄のほうへ往った。底の浅い川舟は、やがてその底をざらざらと小石に当てながら流れに浮んだ。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5647-5913"><seg source="#source-5647-5737">星がまばらに見えだした。莚包と焼明を持っていた背の高い男の</seg><ruby type="furigana" rend="right" source="#source-5737-5749"><rb>点</rb><rt>つ</rt></ruby><seg source="#source-5749-5770">けた焼明の火が</seg><ruby type="furigana" rend="right" source="#source-5770-5788"><rb>舳</rb><rt>へさき</rt></ruby><seg source="#source-5788-5913">にとろとろと燃えだした。小舟は本流へ入って法華寺の別院の前を上流の方へ向っていた。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5913-7153"><seg source="#source-5913-6018">焼明の火は川のそこここに燃えだした。もう鵜飼がはじまったのであった。</seg><ruby type="furigana" rend="right" source="#source-6018-6030"><rb>彼</rb><rt>か</rt></ruby><seg source="#source-6030-6114">の鵜飼の一行も鵜を水に入れた。角顔の体のがっしりした男が</seg><ruby type="furigana" rend="right" source="#source-6114-6132"><rb>舳</rb><rt>へさき</rt></ruby><seg source="#source-6132-6135">の</seg><ruby type="furigana" rend="right" source="#source-6135-6159"><rb>鵜匠</rb><rt>うじょう</rt></ruby><seg source="#source-6159-6171">になり、</seg><ruby type="furigana" rend="right" source="#source-6171-6183"><rb>痩</rb><rt>や</rt></ruby><seg source="#source-6183-6255">せぎすな男が中の鵜匠になり、背の高い眼の鋭い男が</seg><ruby type="furigana" rend="right" source="#source-6255-6335"><rb><g ref="#gaiji-3-1-89-70" source="#source-6255-6314">篙</g><seg source="#source-6314-6317">工</seg></rb><rt>さおとり</rt></ruby><seg source="#source-6335-6371">となり、背のずんぐりした</seg><ruby type="furigana" rend="right" source="#source-6371-6392"><rb>白髪</rb><rt>しらが</rt></ruby><seg source="#source-6392-6419">の眼立っていた男が</seg><ruby type="furigana" rend="right" source="#source-6419-6440"><rb>舟乗</rb><rt>ふなの</rt></ruby><seg source="#source-6440-6455">りとなって</seg><ruby type="furigana" rend="right" source="#source-6455-6467"><rb>艪</rb><rt>ろ</rt></ruby><seg source="#source-6467-6470">を</seg><ruby type="furigana" rend="right" source="#source-6470-6482"><rb>漕</rb><rt>こ</rt></ruby><seg source="#source-6482-6560">いでいた。二人の鵜匠にあやつられている鵜は、水の中に</seg><ruby type="furigana" rend="right" source="#source-6560-6575"><rb>潜</rb><rt>もぐ</rt></ruby><seg source="#source-6575-6632">っては浮きあがり、浮きあがっては潜って</seg><ruby type="furigana" rend="right" source="#source-6632-6647"><rb>魚</rb><rt>うお</rt></ruby><seg source="#source-6647-6650">を</seg><ruby type="furigana" rend="right" source="#source-6650-6662"><rb>獲</rb><rt>と</rt></ruby><seg source="#source-6662-6791">った。鵜の口を逃れた魚はきらきらと腹をかえして、中には飛ぶのもあった。そして、鵜が四五</seg><ruby type="furigana" rend="right" source="#source-6791-6809"><rb>尾</rb><rt>ひき</rt></ruby><seg source="#source-6809-6818">の魚を</seg><ruby type="furigana" rend="right" source="#source-6818-6833"><rb>喉</rb><rt>のど</rt></ruby><seg source="#source-6833-6854">に入れたと思う</seg><ruby type="furigana" rend="right" source="#source-6854-6869"><rb>比</rb><rt>ころ</rt></ruby><seg source="#source-6869-6902">を見はからって、鵜匠は</seg><ruby type="furigana" rend="right" source="#source-6902-6923"><rb>手縄</rb><rt>てなわ</rt></ruby><seg source="#source-6923-6926">を</seg><ruby type="furigana" rend="right" source="#source-6926-6938"><rb>曳</rb><rt>ひ</rt></ruby><seg source="#source-6938-6995">いて舟に曳き寄せ、ぐいとその喉を絞って</seg><ruby type="furigana" rend="right" source="#source-6995-7010"><rb>魚</rb><rt>うお</rt></ruby><seg source="#source-7010-7013">を</seg><ruby type="furigana" rend="right" source="#source-7013-7025"><rb>執</rb><rt>と</rt></ruby><seg source="#source-7025-7079">るのであった。魚を吐かされてまた魚を</seg><ruby type="furigana" rend="right" source="#source-7079-7094"><rb>覘</rb><rt>ねら</rt></ruby><seg source="#source-7094-7106">って往く</seg><ruby type="furigana" rend="right" source="#source-7106-7118"><rb>鵜</rb><rt>う</rt></ruby><seg source="#source-7118-7153">の眼は青く澄んでいた。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-7153-7305"><seg source="#source-7153-7162">五六</seg><ruby type="furigana" rend="right" source="#source-7162-7180"><rb>艘</rb><rt>そう</rt></ruby><seg source="#source-7180-7305">の鵜飼舟が云いあわしたように一列になった。舟乗りとなっている男は大きな声で云った。</seg></p>
+      <p source="#source-7305-7496">「もうよかろう、それ位ありゃ、<ruby type="furigana" rend="right" source="#source-7350-7368"><rb>肴</rb><rt>さかな</rt></ruby><seg source="#source-7368-7410">にゃ十分じゃ、いいかげんに、</seg><ruby type="furigana" rend="right" source="#source-7410-7431"><rb>無益</rb><rt>むえき</rt></ruby><seg source="#source-7431-7434">な</seg><ruby type="furigana" rend="right" source="#source-7434-7461"><rb>殺生</rb><rt>せっしょう</rt></ruby>はやめようじゃないか」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-7496-7638"><seg source="#source-7496-7508">すると</seg><ruby type="furigana" rend="right" source="#source-7508-7588"><rb><g ref="#gaiji-3-1-89-70" source="#source-7508-7567">篙</g><seg source="#source-7567-7570">工</seg></rb><rt>さおとり</rt></ruby><seg source="#source-7588-7638">となっていた背の高い男が云った。</seg></p>
+      <p source="#source-7638-7739">「そうじゃ、そうじゃ、無益な殺生はやめよう、やめて早う一杯やろう」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-7739-7846"><ruby type="furigana" rend="right" source="#source-7742-7760"><rb>舳</rb><rt>へさき</rt></ruby><seg source="#source-7760-7763">の</seg><ruby type="furigana" rend="right" source="#source-7763-7787"><rb>鵜匠</rb><rt>うじょう</rt></ruby><seg source="#source-7787-7846">はちょとふり返って中の鵜匠の顔を見て、</seg></p>
+      <p source="#source-7846-7914">「そうじゃなあ、これ位ありゃ、肴は十分ある」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-7914-7967"><seg source="#source-7914-7967">と云った。中の鵜匠はすぐ応じた。</seg></p>
+      <p source="#source-7967-8098">「やめてもよかろう、やめて別院の下の<ruby type="furigana" rend="right" source="#source-8021-8036"><rb>涼</rb><rt>すず</rt></ruby>しいところへ往って、一杯やるとしょうか」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-8098-8136"><seg source="#source-8098-8136">舳の鵜匠はまた云った。</seg></p>
+      <p source="#source-8136-8192">「よかろう、別院の下なら涼しかろう」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-8192-8416"><seg source="#source-8192-8222">二人の鵜匠は手縄を</seg><ruby type="furigana" rend="right" source="#source-8222-8234"><rb>曳</rb><rt>ひ</rt></ruby><seg source="#source-8234-8264">いて鵜を舟にあげた。</seg><ruby type="furigana" rend="right" source="#source-8264-8288"><rb>労役</rb><rt>ろうえき</rt></ruby><seg source="#source-8288-8366">を終った鵜は嬉しそうにそれぞれ羽ばたきをして、大きな</seg><ruby type="furigana" rend="right" source="#source-8366-8381"><rb>喉</rb><rt>のど</rt></ruby><seg source="#source-8381-8416">を川風にふくらました。</seg></p>
+      <p source="#source-8416-8472">「それでは別院の下へ往くとしょうか」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-8472-8588"><seg source="#source-8472-8588">舟乗りとなっている男はそう云って舟の方向をぐるりとかえ、別院の方へ向けた。</seg></p>
+      <p source="#source-8588-8677">「この<ruby type="furigana" rend="right" source="#source-8597-8624"><rb>世智辛</rb><rt>せちがら</rt></ruby>い世の中に、皆、いい気なものじゃ」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-8677-8766"><seg source="#source-8677-8766">右隣の舟から笑う声が舟乗りとなっている男の耳にはいった。</seg></p>
+      <p source="#source-8766-8801">「隣の舟で笑っている」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-8801-9058"><seg source="#source-8801-8813">流れに</seg><ruby type="furigana" rend="right" source="#source-8813-8831"><rb>随</rb><rt>したが</rt></ruby><seg source="#source-8831-9058">って下る舟は早かった。舟はみるみる別院の下へ往った。そこは断崖になって樹木の根が処どころに垂れていた。舟はその断崖の下へ流れかかるように寄って往った。</seg></p>
+      <p source="#source-9058-9210"><seg source="#source-9058-9061">「</seg><ruby type="furigana" rend="right" source="#source-9061-9079"><rb>磧</rb><rt>かわら</rt></ruby><seg source="#source-9079-9085">なら</seg><ruby type="furigana" rend="right" source="#source-9085-9109"><rb>焼鮎</rb><rt>やきあゆ</rt></ruby><seg source="#source-9109-9142">ができるが、ここじゃ、</seg><ruby type="furigana" rend="right" source="#source-9142-9160"><rb>膾</rb><rt>なます</rt></ruby>より他にはできない、膾でやろう」</p>
+      <p source="#source-9210-9251">「それでは料理をしようか」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-9251-9418"><seg source="#source-9251-9266">舟の火は</seg><ruby type="furigana" rend="right" source="#source-9266-9284"><rb>何時</rb><rt>いつ</rt></ruby><seg source="#source-9284-9418">の間にか消えてしまった。それと共に舟の中もしんとなったが、しばらくして小さな声が起った。</seg></p>
+      <p source="#source-9418-9579">「これで<ruby type="furigana" rend="right" source="#source-9430-9451"><rb>門出</rb><rt>かどで</rt></ruby><seg source="#source-9451-9454">の</seg><ruby type="furigana" rend="right" source="#source-9454-9475"><rb>杯</rb><rt>さかずき</rt></ruby><seg source="#source-9475-9520">はすんだ、出かけよう、油断して</seg><ruby type="furigana" rend="right" source="#source-9520-9544"><rb>痴漢</rb><rt>しれもの</rt></ruby><seg source="#source-9544-9547">を</seg><ruby type="furigana" rend="right" source="#source-9547-9562"><rb>討</rb><rt>うち</rt></ruby>もらすな」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-9579-9748"><seg source="#source-9579-9748">それは舟乗りとなっていた男の声であった。舟の中ではもそもそと物の気配がしはじめたが、やがてひっそりとなった。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-9748-10212"><seg source="#source-9748-9769">稲葉山の城主</seg><ruby type="furigana" rend="right" source="#source-9769-9814"><rb>斎藤義竜</rb><rt>さいとうよしたつ</rt></ruby><seg source="#source-9814-9841">は、法華寺の別院で</seg><ruby type="furigana" rend="right" source="#source-9841-9859"><rb>涼</rb><rt>りょう</rt></ruby><seg source="#source-9859-9880">をとっていた。</seg><ruby type="furigana" rend="right" source="#source-9880-9907"><rb>小肥満</rb><rt>こぶとり</rt></ruby><seg source="#source-9907-9922">のした体を</seg><ruby type="furigana" rend="right" source="#source-9922-9949"><rb>脇息</rb><rt>きょうそく</rt></ruby><seg source="#source-9949-9976">にもたして、わざと</seg><ruby type="furigana" rend="right" source="#source-9976-9988"><rb>燈</rb><rt>ひ</rt></ruby><seg source="#source-9988-10042">を遠くの方へ置きながら、二人の少女に</seg><ruby type="furigana" rend="right" source="#source-10042-10060"><rb>後</rb><rt>うしろ</rt></ruby><seg source="#source-10060-10066">から</seg><ruby type="furigana" rend="right" source="#source-10066-10081"><rb>煽</rb><rt>あお</rt></ruby><seg source="#source-10081-10123">がし、庭の樹木の間から見える</seg><ruby type="furigana" rend="right" source="#source-10123-10144"><rb>鵜飼</rb><rt>うかい</rt></ruby><seg source="#source-10144-10212">の火を見るともなしに見ているところであった。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-10212-10835"><seg source="#source-10212-10224">義竜は</seg><ruby type="furigana" rend="right" source="#source-10224-10245"><rb>弘治</rb><rt>こうじ</rt></ruby><seg source="#source-10245-10260">二年の春、</seg><ruby type="furigana" rend="right" source="#source-10260-10284"><rb>庶腹</rb><rt>しょふく</rt></ruby><seg source="#source-10284-10293">の兄弟</seg><ruby type="furigana" rend="right" source="#source-10293-10323"><rb>喜平次</rb><rt>きへいじ</rt></ruby><seg source="#source-10323-10326">、</seg><ruby type="furigana" rend="right" source="#source-10326-10356"><rb>孫四郎</rb><rt>まごしろう</rt></ruby><seg source="#source-10356-10389">の二人を殺し、続いて父</seg><ruby type="furigana" rend="right" source="#source-10389-10416"><rb>道三</rb><rt>どうさん</rt></ruby><seg source="#source-10416-10419">と</seg><ruby type="furigana" rend="right" source="#source-10419-10443"><rb>鷺山</rb><rt>さぎやま</rt></ruby><seg source="#source-10443-10446">に</seg><ruby type="furigana" rend="right" source="#source-10446-10464"><rb>戦</rb><rt>たたこ</rt></ruby><seg source="#source-10464-10476">うて父を</seg><ruby type="furigana" rend="right" source="#source-10476-10494"><rb>滅</rb><rt>ほろぼ</rt></ruby><seg source="#source-10494-10512">してからは、</seg><ruby type="furigana" rend="right" source="#source-10512-10530"><rb>美濃</rb><rt>みの</rt></ruby><seg source="#source-10530-10689">の守護として得意の絶頂に立っていたが、夏の間は水浴を一日も欠かすことができないので、この数年来、夏が来ると</seg><ruby type="furigana" rend="right" source="#source-10689-10707"><rb>密</rb><rt>ひそか</rt></ruby><seg source="#source-10707-10755">にこの別院に隠れて、冷たい清水の</seg><ruby type="furigana" rend="right" source="#source-10755-10767"><rb>湧</rb><rt>わ</rt></ruby><seg source="#source-10767-10770">く</seg><ruby type="furigana" rend="right" source="#source-10770-10794"><rb>庭前</rb><rt>ていぜん</rt></ruby><seg source="#source-10794-10835">の池に水浴するのであった。</seg></p>
+      <p source="#source-10835-10885"><seg source="#source-10835-10838">「</seg><ruby type="furigana" rend="right" source="#source-10838-10859"><rb>小萩</rb><rt>こはぎ</rt></ruby>は来て肩を打て」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-10885-11007"><seg source="#source-10885-10969">義竜がちょと体をずらして云ったので、左の後にいた少女が</seg><ruby type="furigana" rend="right" source="#source-10969-10990"><rb>団扇</rb><rt>うちわ</rt></ruby><seg source="#source-10990-11007">を置いて、</seg></p>
+      <p source="#source-11007-11018">「は」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-11018-11353"><seg source="#source-11018-11036">と、云って</seg><ruby type="furigana" rend="right" source="#source-11036-11048"><rb>起</rb><rt>た</rt></ruby><seg source="#source-11048-11099">ちながら、そのまま傍へ寄って小さな</seg><ruby type="furigana" rend="right" source="#source-11099-11117"><rb>拳</rb><rt>こぶし</rt></ruby><seg source="#source-11117-11126">を右の</seg><ruby type="furigana" rend="right" source="#source-11126-11150"><rb>肩端</rb><rt>かたさき</rt></ruby><seg source="#source-11150-11192">へ持って往った。と、そのとき</seg><ruby type="furigana" rend="right" source="#source-11192-11210"><rb>微</rb><rt>かすか</rt></ruby><seg source="#source-11210-11288">な物の気配がした。義竜が不思議に思って顔をあげた時、</seg><ruby type="furigana" rend="right" source="#source-11288-11312"><rb>庭前</rb><rt>ていぜん</rt></ruby><seg source="#source-11312-11353">にちらちらと人影が動いた。</seg></p>
+      <p source="#source-11353-11370">「何者だ」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-11370-11591"><seg source="#source-11370-11451">同時に縁側にどかどかとあがった者があった。それはかの</seg><ruby type="furigana" rend="right" source="#source-11451-11472"><rb>鵜飼</rb><rt>うかい</rt></ruby><seg source="#source-11472-11544">の四人であった。皆さっきのままのなりで、手に手に</seg><ruby type="furigana" rend="right" source="#source-11544-11568"><rb>白刃</rb><rt>はくじん</rt></ruby><seg source="#source-11568-11591">を持っていた。</seg></p>
+      <p source="#source-11591-11824"><seg source="#source-11591-11594">「</seg><ruby type="furigana" rend="right" source="#source-11594-11636"><rb>悪逆無道</rb><rt>あくぎゃくむどう</rt></ruby><seg source="#source-11636-11639">の</seg><ruby type="furigana" rend="right" source="#source-11639-11666"><rb>親殺</rb><rt>おやごろし</rt></ruby><seg source="#source-11666-11708">を討ちとりにまいった者じゃ、</seg><ruby type="furigana" rend="right" source="#source-11708-11756"><rb>道家孫八郎</rb><rt>どうけまごはちろう</rt></ruby><seg source="#source-11756-11759">の</seg><ruby type="furigana" rend="right" source="#source-11759-11777"><rb>伜</rb><rt>せがれ</rt></ruby><ruby type="furigana" rend="right" source="#source-11777-11807"><rb>孫太郎</rb><rt>まごたろう</rt></ruby>でござる」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-11824-11880"><seg source="#source-11824-11880">それは背の高い眼の鋭い男であった。</seg></p>
+      <p source="#source-11880-11972"><seg source="#source-11880-11883">「</seg><ruby type="furigana" rend="right" source="#source-11883-11907"><rb>拙者</rb><rt>せっしゃ</rt></ruby><seg source="#source-11907-11910">は</seg><ruby type="furigana" rend="right" source="#source-11910-11955"><rb>長井与右衛門</rb><rt>ながいよえもん</rt></ruby>でござる」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-11972-12028"><seg source="#source-11972-11984">それは</seg><ruby type="furigana" rend="right" source="#source-11984-11999"><rb>痩</rb><rt>やせ</rt></ruby><seg source="#source-11999-12028">ぎすな男であった。</seg></p>
+      <p source="#source-12028-12084"><seg source="#source-12028-12031">「</seg><ruby type="furigana" rend="right" source="#source-12031-12079"><rb>篠山七五郎</rb><rt>しのやましちごろう</rt></ruby>」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-12084-12125"><seg source="#source-12084-12125">それは角顔の男であった。</seg></p>
+      <p source="#source-12125-12421">「拙者は<ruby type="furigana" rend="right" source="#source-12137-12188"><rb>竹腰藤九郎</rb><rt>たけのこしとうくろう</rt></ruby><seg source="#source-12188-12206">でござる、お</seg><ruby type="furigana" rend="right" source="#source-12206-12224"><rb>首</rb><rt>しるし</rt></ruby><seg source="#source-12224-12227">を</seg><ruby type="furigana" rend="right" source="#source-12227-12254"><rb>頂戴</rb><rt>ちょうだい</rt></ruby><seg source="#source-12254-12263">して、</seg><ruby type="furigana" rend="right" source="#source-12263-12287"><rb>先君</rb><rt>せんくん</rt></ruby><seg source="#source-12287-12293">道三</seg><ruby type="furigana" rend="right" source="#source-12293-12332"><rb>入道殿</rb><rt>にゅうどうどの</rt></ruby><seg source="#source-12332-12335">の</seg><ruby type="furigana" rend="right" source="#source-12335-12356"><rb>修羅</rb><rt>しゅら</rt></ruby><seg source="#source-12356-12359">の</seg><ruby type="furigana" rend="right" source="#source-12359-12386"><rb>妄執</rb><rt>もうしゅう</rt></ruby>を晴らす存念でござる」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-12421-13419"><seg source="#source-12421-12457">それは背のずんぐりした</seg><ruby type="furigana" rend="right" source="#source-12457-12478"><rb>白髪</rb><rt>しらが</rt></ruby><seg source="#source-12478-12523">の眼だった男であった。皆道三の</seg><ruby type="furigana" rend="right" source="#source-12523-12538"><rb>臣</rb><rt>しん</rt></ruby><seg source="#source-12538-12631">で悪逆無道の義竜を殺しに来たところであった。皆きっさきを集めて</seg><ruby type="furigana" rend="right" source="#source-12631-12646"><rb>躍</rb><rt>おど</rt></ruby><seg source="#source-12646-12742">りかかろうとした。二人の少女は叫んで逃げて往った。と、義竜の姿が</seg><ruby type="furigana" rend="right" source="#source-12742-12766"><rb>忽然</rb><rt>こつぜん</rt></ruby><seg source="#source-12766-12790">と消えて、怪しい</seg><ruby type="furigana" rend="right" source="#source-12790-12814"><rb>白刃</rb><rt>はくじん</rt></ruby><seg source="#source-12814-12817">が</seg><ruby type="furigana" rend="right" source="#source-12817-12832"><rb>室</rb><rt>へや</rt></ruby><seg source="#source-12832-12874">の中に電光のようにきらきらと</seg><ruby type="furigana" rend="right" source="#source-12874-12892"><rb>閃</rb><rt>ひらめ</rt></ruby><seg source="#source-12892-12940">くと共に、長井と篠山がばたばたと</seg><ruby type="furigana" rend="right" source="#source-12940-12955"><rb>斃</rb><rt>たお</rt></ruby><seg source="#source-12955-13027">れた。竹腰は驚いて横に刀を払ったが、払った拍子に</seg><ruby type="furigana" rend="right" source="#source-13027-13045"><rb>己</rb><rt>じぶん</rt></ruby><seg source="#source-13045-13189">の刀が眼に見えない金属に触れてかちりと鳴った。それと同時に室の中に銀色の眼をきろきろと光らした一</seg><ruby type="furigana" rend="right" source="#source-13189-13207"><rb>疋</rb><rt>ぴき</rt></ruby><seg source="#source-13207-13219">の大きな</seg><ruby type="furigana" rend="right" source="#source-13219-13234"><rb>蟇</rb><rt>がま</rt></ruby><seg source="#source-13234-13321">が見えて、それがぴょんぴょんと飛んで縁側から飛びおり、暗い</seg><ruby type="furigana" rend="right" source="#source-13321-13345"><rb>庭前</rb><rt>ていぜん</rt></ruby><seg source="#source-13345-13419">の池の中へどぼんと云う重い音をさして飛び込んだ。</seg></p>
+      <p source="#source-13419-13430">「や」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-13430-13678"><seg source="#source-13430-13523">竹腰が怪しい蟇に注意の眼を向けた時、次の室に詰めていた義竜の</seg><ruby type="furigana" rend="right" source="#source-13523-13544"><rb>近侍</rb><rt>きんじ</rt></ruby><seg source="#source-13544-13678">が十人ばかり、ばらばらと飛び込んで来た。道家と竹腰は近侍の中にとり込められそうになった。</seg></p>
+      <p source="#source-13678-13713">「道家、時節を待とう」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-13713-13937"><seg source="#source-13713-13764">竹腰はそう云い云い己に向って来た</seg><ruby type="furigana" rend="right" source="#source-13764-13779"><rb>壮</rb><rt>わか</rt></ruby><seg source="#source-13779-13800">い近侍の一人を</seg><ruby type="furigana" rend="right" source="#source-13800-13812"><rb>斬</rb><rt>き</rt></ruby><seg source="#source-13812-13815">り</seg><ruby type="furigana" rend="right" source="#source-13815-13830"><rb>斃</rb><rt>たお</rt></ruby><seg source="#source-13830-13937">して、ひらりと庭に飛びおり、池の傍から崖の木立の方へ逃げて姿を消した。</seg></p>
+      <p source="#source-13937-13960">「それ逃すな」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-13960-14103"><seg source="#source-13960-14062">道家も二人の近侍と斬り結んでいた刀を不意に引いて庭に逃げおり、崖の</seg><ruby type="furigana" rend="right" source="#source-14062-14077"><rb>端</rb><rt>はし</rt></ruby><seg source="#source-14077-14103">に往くやいなや、</seg></p>
+      <p source="#source-14103-14117">「えい」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-14117-14202"><seg source="#source-14117-14171">と、云う懸声と共に暗い川の中へ身を</seg><ruby type="furigana" rend="right" source="#source-14171-14186"><rb>躍</rb><rt>おど</rt></ruby><seg source="#source-14186-14202">らした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-14202-14522"><ruby type="furigana" rend="right" source="#source-14205-14220"><rb>藪</rb><rt>やぶ</rt></ruby><seg source="#source-14220-14253">だたみの中にある小さな</seg><ruby type="furigana" rend="right" source="#source-14253-14271"><rb>祠</rb><rt>ほこら</rt></ruby><seg source="#source-14271-14343">の前に竹腰と道家が姿をあらわした。竹腰は木の根に</seg><ruby type="furigana" rend="right" source="#source-14343-14358"><rb>縋</rb><rt>すが</rt></ruby><seg source="#source-14358-14522">って舟をおり、河の中に飛び込んだ道家を救いあげて、二人で舟を下流にやり、それからあがってきたところであった。</seg></p>
+      <p source="#source-14522-14566">「これからどこへ身を隠そう」</p>
+      <p source="#source-14566-14661"><seg source="#source-14566-14569">「</seg><ruby type="furigana" rend="right" source="#source-14569-14593"><rb>尾州</rb><rt>びしゅう</rt></ruby><seg source="#source-14593-14596">へ</seg><ruby type="furigana" rend="right" source="#source-14596-14608"><rb>往</rb><rt>い</rt></ruby>って、織田殿に身を寄せてもよいが」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-14661-14840"><seg source="#source-14661-14691">二人は身のふり方に</seg><ruby type="furigana" rend="right" source="#source-14691-14703"><rb>就</rb><rt>つ</rt></ruby><seg source="#source-14703-14733">いて相談しはじめた。</seg><ruby type="furigana" rend="right" source="#source-14733-14748"><rb>竹</rb><rt>たけ</rt></ruby><seg source="#source-14748-14751">の</seg><ruby type="furigana" rend="right" source="#source-14751-14772"><rb>葉越</rb><rt>はごし</rt></ruby><seg source="#source-14772-14840">には二つ三つの星が淋しそうにまたたいていた。</seg></p>
+      <p source="#source-14840-14875">「は、は、は、は、は」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-14875-15218"><seg source="#source-14875-14935">腹の底をさらけだしたような笑い声が鼻の</seg><ruby type="furigana" rend="right" source="#source-14935-14950"><rb>前</rb><rt>さき</rt></ruby><seg source="#source-14950-14998">で起った。二人はびっくりして眼を</seg><ruby type="furigana" rend="right" source="#source-14998-15057"><rb><g ref="#gaiji-3-1-88-85" source="#source-14998-15045">睜</g></rb><rt>みは</rt></ruby><seg source="#source-15057-15132">った。そこにはよぼよぼした老人の姿があった。老人は</seg><ruby type="furigana" rend="right" source="#source-15132-15150"><rb>己</rb><rt>じぶん</rt></ruby><seg source="#source-15150-15177">の背たけよりも長い</seg><ruby type="furigana" rend="right" source="#source-15177-15192"><rb>杖</rb><rt>つえ</rt></ruby><seg source="#source-15192-15218">にすがっていた。</seg></p>
+      <p source="#source-15218-15541">「魔者を<ruby type="furigana" rend="right" source="#source-15230-15245"><rb>討</rb><rt>うち</rt></ruby><seg source="#source-15245-15347">もらしたか、あれは、お前さん達の手にはちょと合わないよ、眼に見えない</seg><ruby type="furigana" rend="right" source="#source-15347-15371"><rb>電光</rb><rt>いなずま</rt></ruby><seg source="#source-15371-15374">が</seg><ruby type="furigana" rend="right" source="#source-15374-15392"><rb>閃</rb><rt>ひらめ</rt></ruby><seg source="#source-15392-15503">いて、二人は殺されてしまったな、かあいそうに、だが、銀色の眼のきろきろ光る</seg><ruby type="furigana" rend="right" source="#source-15503-15518"><rb>蟇</rb><rt>がま</rt></ruby>は見たろうな」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-15541-15588"><seg source="#source-15541-15588">と、云って老人はまた笑って、</seg></p>
+      <p source="#source-15588-15950">「しかし、魔者は<ruby type="furigana" rend="right" source="#source-15612-15630"><rb>何時</rb><rt>いつ</rt></ruby><seg source="#source-15630-15681">までも増長することはできない、月に</seg><ruby type="furigana" rend="right" source="#source-15681-15696"><rb>暈</rb><rt>かさ</rt></ruby><seg source="#source-15696-15714">がかかって、</seg><ruby type="furigana" rend="right" source="#source-15714-15735"><rb>北斗</rb><rt>ほくと</rt></ruby><seg source="#source-15735-15738">の</seg><ruby type="furigana" rend="right" source="#source-15738-15762"><rb>七星</rb><rt>しちせい</rt></ruby><seg source="#source-15762-15765">に</seg><ruby type="furigana" rend="right" source="#source-15765-15789"><rb>白蛇</rb><rt>はくじゃ</rt></ruby><seg source="#source-15789-15846">のような光がかかったのを見たら、翌朝、</seg><ruby type="furigana" rend="right" source="#source-15846-15858"><rb>陽</rb><rt>ひ</rt></ruby>の出ないうちにここへ来るがよい、きっと思いをとげさしてやる」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-15950-16012"><seg source="#source-15950-16012">道家と竹腰は思わず地べたにつッぷした。</seg></p>
+      <p source="#source-16012-16023">「は」</p>
+      <p source="#source-16023-16034">「は」</p>
+      <p source="#source-16034-16117">「しかし、竹腰には縁がない、道家一人が来るがよかろう」</p>
+      <p source="#source-16117-16128">「は」</p>
+      <p source="#source-16128-16139">「は」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-16139-16308"><seg source="#source-16139-16151">二人は</seg><ruby type="furigana" rend="right" source="#source-16151-16169"><rb>暫</rb><rt>しばら</rt></ruby><seg source="#source-16169-16308">くつッぷしていたが、それっきり老人の声がしないので、顔をあげてみるともうその姿はなかった。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-16308-16589"><seg source="#source-16308-16341">竹腰と道家はそこから</seg><ruby type="furigana" rend="right" source="#source-16341-16359"><rb>己</rb><rt>じぶん</rt></ruby><seg source="#source-16359-16362">の</seg><ruby type="furigana" rend="right" source="#source-16362-16377"><rb>隠</rb><rt>かく</rt></ruby><seg source="#source-16377-16380">れ</seg><ruby type="furigana" rend="right" source="#source-16380-16392"><rb>家</rb><rt>が</rt></ruby><seg source="#source-16392-16503">に帰って、不思議な老人に教えられた時機の来るのを待っていた。二人はその間の</seg><ruby type="furigana" rend="right" source="#source-16503-16524"><rb>生計</rb><rt>たつき</rt></ruby><seg source="#source-16524-16539">に野へ出て</seg><ruby type="furigana" rend="right" source="#source-16539-16557"><rb>獣</rb><rt>けもの</rt></ruby><seg source="#source-16557-16560">を</seg><ruby type="furigana" rend="right" source="#source-16560-16572"><rb>狩</rb><rt>か</rt></ruby><seg source="#source-16572-16589">っていた。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-16589-16888"><seg source="#source-16589-16888">その日も二人は弓を持って朝から出て、広い野の中をあちらこちらとあさっていたが、夕方、一匹の鹿を見つけたので、それを追っかけて往ったが、そのうちに鹿は逃げてしまって、どこへ往ったのか判らなくなった。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-16888-17076"><seg source="#source-16888-16897">気が</seg><ruby type="furigana" rend="right" source="#source-16897-16909"><rb>注</rb><rt>つ</rt></ruby><seg source="#source-16909-17017">いてみると道家は己一人になっていて、竹腰の姿は見えなかった。彼はもと来た</seg><ruby type="furigana" rend="right" source="#source-17017-17032"><rb>径</rb><rt>みち</rt></ruby><seg source="#source-17032-17076">と思われる林の下を引返して、</seg></p>
+      <p source="#source-17076-17105">「竹腰殿、竹腰殿」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-17105-17392"><seg source="#source-17105-17156">と、声をあげて呼んでみたが、林の</seg><ruby type="furigana" rend="right" source="#source-17156-17177"><rb>枝葉</rb><rt>えだは</rt></ruby><seg source="#source-17177-17207">を吹く風の音ばかりで</seg><ruby type="furigana" rend="right" source="#source-17207-17231"><rb>人声</rb><rt>ひとごえ</rt></ruby><seg source="#source-17231-17264">はしなかった。そして、</seg><ruby type="furigana" rend="right" source="#source-17264-17285"><rb>幾等</rb><rt>いくら</rt></ruby><seg source="#source-17285-17392">呼んでも返事がないので、隠れ家へ帰ろうと思って呼ぶことをよして歩いた。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-17392-17757"><seg source="#source-17392-17485">林の下は暗かった。道家は早く林の下を出ようと思って歩いたが、</seg><ruby type="furigana" rend="right" source="#source-17485-17497"><rb>朽</rb><rt>く</rt></ruby><seg source="#source-17497-17509">ち落ちた</seg><ruby type="furigana" rend="right" source="#source-17509-17533"><rb>下枝</rb><rt>したえだ</rt></ruby><seg source="#source-17533-17665">が重なっていて足をとるので早くは歩けなかった。そして、やっとの思いで林を出てみると、広い</seg><ruby type="furigana" rend="right" source="#source-17665-17689"><rb>草原</rb><rt>くさはら</rt></ruby><seg source="#source-17689-17710">のむこうに円い</seg><ruby type="furigana" rend="right" source="#source-17710-17731"><rb>真紅</rb><rt>まっか</rt></ruby><seg source="#source-17731-17757">な月が出ていた。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-17757-18140"><seg source="#source-17757-17802">月を見ると道家は、すぐ老人の</seg><ruby type="furigana" rend="right" source="#source-17802-17820"><rb>詞</rb><rt>ことば</rt></ruby><seg source="#source-17820-17838">を思いだして</seg><ruby type="furigana" rend="right" source="#source-17838-17853"><rb>暈</rb><rt>かさ</rt></ruby><seg source="#source-17853-17892">に注意したが、うっすらした</seg><ruby type="furigana" rend="right" source="#source-17892-17907"><rb>靄</rb><rt>もや</rt></ruby><seg source="#source-17907-17964">はあったが暈はなかった。道家はまたその</seg><ruby type="furigana" rend="right" source="#source-17964-17988"><rb>草原</rb><rt>くさはら</rt></ruby><seg source="#source-17988-18021">の中を歩いた。草原には</seg><ruby type="furigana" rend="right" source="#source-18021-18042"><rb>荊棘</rb><rt>いばら</rt></ruby><seg source="#source-18042-18054">が閉じ、</seg><ruby type="furigana" rend="right" source="#source-18054-18075"><rb>雑木</rb><rt>ぞうき</rt></ruby><seg source="#source-18075-18084">の枝が</seg><ruby type="furigana" rend="right" source="#source-18084-18102"><rb>横</rb><rt>よこた</rt></ruby><seg source="#source-18102-18140">わっていて歩けなかった。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18140-18514"><seg source="#source-18140-18194">道家はひどく疲労を感じて来た。腰の</seg><ruby type="furigana" rend="right" source="#source-18194-18218"><rb>皮籠</rb><rt>かわかご</rt></ruby><seg source="#source-18218-18233">には用意の</seg><ruby type="furigana" rend="right" source="#source-18233-18254"><rb>獣</rb><rt>けだもの</rt></ruby><seg source="#source-18254-18257">の</seg><ruby type="furigana" rend="right" source="#source-18257-18281"><rb>乾肉</rb><rt>ほしにく</rt></ruby><seg source="#source-18281-18347">があるので空腹は気にしなかった。道家はどこか</seg><ruby type="furigana" rend="right" source="#source-18347-18365"><rb>祠</rb><rt>ほこら</rt></ruby><seg source="#source-18365-18514">でもあれば一と眠りして帰ろうと思いだした。彼は眠れるような場所はないかと思って注意しいしい歩いた。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18514-19062"><seg source="#source-18514-18583">草の中から流れ出た小さな清水の流れがあった。</seg><ruby type="furigana" rend="right" source="#source-18583-18598"><rb>喉</rb><rt>のど</rt></ruby><seg source="#source-18598-18640">のかわいている道家はいきなり</seg><ruby type="furigana" rend="right" source="#source-18640-18658"><rb>蹲</rb><rt>しゃが</rt></ruby><seg source="#source-18658-18799">んで流れに口をつけた。そして、思うさま飲んで顔をあげたところで、すぐ眼のまえの樹木の陰に一軒の</seg><ruby type="furigana" rend="right" source="#source-18799-18817"><rb>小家</rb><rt>こや</rt></ruby><seg source="#source-18817-18844">があって、そこから</seg><ruby type="furigana" rend="right" source="#source-18844-18865"><rb>焚火</rb><rt>たきび</rt></ruby><seg source="#source-18865-18910">の光がもれていた。道家はひどく</seg><ruby type="furigana" rend="right" source="#source-18910-18931"><rb>懐</rb><rt>なつかし</rt></ruby><seg source="#source-18931-19062">いのでそのほうへ歩いて往った。彼はべつにその家の中へ泊めてもらおうとは思わなかったが。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-19062-19289"><seg source="#source-19062-19083">一人の老婆が</seg><ruby type="furigana" rend="right" source="#source-19083-19101"><rb>炉</rb><rt>いろり</rt></ruby><seg source="#source-19101-19104">の</seg><ruby type="furigana" rend="right" source="#source-19104-19119"><rb>側</rb><rt>そば</rt></ruby><seg source="#source-19119-19158">へ坐って炉にかけた鍋の下を</seg><ruby type="furigana" rend="right" source="#source-19158-19170"><rb>焚</rb><rt>た</rt></ruby><seg source="#source-19170-19212">いていた。そして、その老婆の</seg><ruby type="furigana" rend="right" source="#source-19212-19230"><rb>後</rb><rt>うしろ</rt></ruby><seg source="#source-19230-19289">の方には顔の白い一人の女が坐っていた。</seg></p>
+      <p source="#source-19289-19447">「そつじながらお尋ねする、<ruby type="furigana" rend="right" source="#source-19328-19352"><rb>拙者</rb><rt>せっしゃ</rt></ruby><seg source="#source-19352-19370">は猟に往って</seg><ruby type="furigana" rend="right" source="#source-19370-19385"><rb>路</rb><rt>みち</rt></ruby>に迷った者じゃが、ここは何と云う処じゃ」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-19447-19506"><seg source="#source-19447-19506">道家が声をかけると老婆は顔をあげた。</seg></p>
+      <p source="#source-19506-19823">「それはさぞ、<ruby type="furigana" rend="right" source="#source-19527-19554"><rb>御難儀</rb><rt>ごなんぎ</rt></ruby><seg source="#source-19554-19590">でございましょう、ここは</seg><hi rend="bouten 傍点 right" source="#source-19590-19632" corresp="#source-19599-19632"><seg source="#source-19590-19599">かがみ</seg></hi>と云う処でございます、むさくろしい処でおかまいなければ、野の中の一軒家で、夜は涼しゅうございます、お泊りになってくださいませ」</p>
+      <p source="#source-19823-19918">「それでは休ましてもらいたい、<ruby type="furigana" rend="right" source="#source-19868-19892"><rb>食物</rb><rt>たべもの</rt></ruby>は持参しておる」</p>
+      <p source="#source-19918-19962">「どうぞお入りくださいませ」</p>
+      <p source="#source-19962-20030">「しからば、一<ruby type="furigana" rend="right" source="#source-19983-20001"><rb>時</rb><rt>とき</rt></ruby>休ましてもらおう」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-20030-20233"><seg source="#source-20030-20060">道家は土間へ入って</seg><ruby type="furigana" rend="right" source="#source-20060-20081"><rb>草鞋</rb><rt>わらじ</rt></ruby><seg source="#source-20081-20099">を脱ぎ、弓と</seg><ruby type="furigana" rend="right" source="#source-20099-20120"><rb>矢筒</rb><rt>やづつ</rt></ruby><seg source="#source-20120-20132">を持って</seg><ruby type="furigana" rend="right" source="#source-20132-20144"><rb>脊</rb><rt>せ</rt></ruby><seg source="#source-20144-20192">をかがめるようにして、老婆の傍の</seg><ruby type="furigana" rend="right" source="#source-20192-20210"><rb>莚</rb><rt>むしろ</rt></ruby><seg source="#source-20210-20233">の上に坐った。</seg></p>
+      <p source="#source-20233-20409">「それでは、今、お<ruby type="furigana" rend="right" source="#source-20260-20275"><rb>粥</rb><rt>かゆ</rt></ruby><seg source="#source-20275-20311">をさしあげますから、次の</seg><ruby type="furigana" rend="right" source="#source-20311-20326"><rb>室</rb><rt>へや</rt></ruby><seg source="#source-20326-20362">でお休みくださいませ、お</seg><ruby type="furigana" rend="right" source="#source-20362-20377"><rb>道</rb><rt>みち</rt></ruby><seg source="#source-20377-20383">、お</seg><ruby type="furigana" rend="right" source="#source-20383-20395"><rb>伴</rb><rt>つ</rt></ruby>れ申せ」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-20409-20468"><seg source="#source-20409-20421">老婆は</seg><ruby type="furigana" rend="right" source="#source-20421-20439"><rb>後</rb><rt>うしろ</rt></ruby><seg source="#source-20439-20468">にいた女に云った。</seg></p>
+      <p source="#source-20468-20575">「いや、<ruby type="furigana" rend="right" source="#source-20480-20504"><rb>食物</rb><rt>たべもの</rt></ruby>は持っておる、どうか一と休みさしてもらいたい」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-20575-20691"><seg source="#source-20575-20644">道家は立ったままで女の案内を待っていた。女は</seg><ruby type="furigana" rend="right" source="#source-20644-20656"><rb>起</rb><rt>た</rt></ruby><seg source="#source-20656-20691">って恥かしそうにして、</seg></p>
+      <p source="#source-20691-20711">「それでは」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-20711-20935"><seg source="#source-20711-20801">と云って、見つけに垂れた莚をまくった。そこにはほっかりした</seg><ruby type="furigana" rend="right" source="#source-20801-20819"><rb>燈</rb><rt>あかり</rt></ruby><seg source="#source-20819-20828">のある</seg><ruby type="furigana" rend="right" source="#source-20828-20843"><rb>室</rb><rt>へや</rt></ruby><seg source="#source-20843-20935">があった。道家はやはり脊をかがめるようにしてその室へ入った。</seg></p>
+      <p source="#source-20935-21030">「そこに枕もございますから、<ruby type="furigana" rend="right" source="#source-20977-20989"><rb>御</rb><rt>ご</rt></ruby>ゆっくりお休みなさいませ」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-21030-21146"><seg source="#source-21030-21093">と、云って女は莚をおろした。ほんのりした</seg><ruby type="furigana" rend="right" source="#source-21093-21111"><rb>匂</rb><rt>におい</rt></ruby><seg source="#source-21111-21146">が室の中にただようた。</seg></p>
+      <p source="#source-21146-21202">「はからずご<ruby type="furigana" rend="right" source="#source-21164-21188"><rb>厄介</rb><rt>やっかい</rt></ruby>に……」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-21202-21717"><seg source="#source-21202-21343">道家は先ず矢と矢筒を壁に立てかけ、それから腰の刀をとって坐った。その室の一方は窓になって月が</seg><ruby type="furigana" rend="right" source="#source-21343-21355"><rb>射</rb><rt>さ</rt></ruby><seg source="#source-21355-21370">していた。</seg><ruby type="furigana" rend="right" source="#source-21370-21382"><rb>燈</rb><rt>ひ</rt></ruby><seg source="#source-21382-21460">と思ったのはその月の光であった。道家はそこで腰から皮</seg><ruby type="furigana" rend="right" source="#source-21460-21478"><rb>籠</rb><rt>かご</rt></ruby><seg source="#source-21478-21481">を</seg><ruby type="furigana" rend="right" source="#source-21481-21493"><rb>解</rb><rt>と</rt></ruby><seg source="#source-21493-21514">いて、その中の</seg><ruby type="furigana" rend="right" source="#source-21514-21538"><rb>乾肉</rb><rt>ほしにく</rt></ruby><seg source="#source-21538-21541">を</seg><ruby type="furigana" rend="right" source="#source-21541-21553"><rb>執</rb><rt>と</rt></ruby><seg source="#source-21553-21559">って</seg><ruby type="furigana" rend="right" source="#source-21559-21571"><rb>喫</rb><rt>く</rt></ruby><seg source="#source-21571-21595">い、それが終ると</seg><ruby type="furigana" rend="right" source="#source-21595-21616"><rb>傍</rb><rt>かたわら</rt></ruby><seg source="#source-21616-21717">の木の根の枕を引寄せて寝たが、疲労しているのですぐ眠ってしまった。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-21717-22370"><seg source="#source-21717-21762">そして、眠っているうちに何か</seg><ruby type="furigana" rend="right" source="#source-21762-21789"><rb>枕頭</rb><rt>まくらもと</rt></ruby><seg source="#source-21789-21834">で物の気配がするので、ふと気が</seg><ruby type="furigana" rend="right" source="#source-21834-21846"><rb>注</rb><rt>つ</rt></ruby><seg source="#source-21846-21897">いて眼をうすめに開けてみた。道家は</seg><ruby type="furigana" rend="right" source="#source-21897-21924"><rb>右枕</rb><rt>みぎまくら</rt></ruby><seg source="#source-21924-21960">になって寝ていた。大きな</seg><ruby type="furigana" rend="right" source="#source-21960-21975"><rb>蟇</rb><rt>がま</rt></ruby><seg source="#source-21975-22146">のようなものがこちら向きに坐って、口をぱくりと開けて眼をぎろぎろとさしているところであった。道家ははっとした。彼は</seg><ruby type="furigana" rend="right" source="#source-22146-22173"><rb>枕頭</rb><rt>まくらもと</rt></ruby><seg source="#source-22173-22370">においてある刀に手をかけるなり、飛び起きざまに切りつけた。と、大きな地響のような音がした。彼はそのまま一方の窓から飛び出て走った。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-22370-22852"><ruby type="furigana" rend="right" source="#source-22373-22394"><rb>雑木</rb><rt>ぞうき</rt></ruby><seg source="#source-22394-22430">に突きあたり草の根に足を</seg><ruby type="furigana" rend="right" source="#source-22430-22442"><rb>執</rb><rt>と</rt></ruby><seg source="#source-22442-22568">られたりして、しばらく走ったが、べつに追って来る者もないようであるから、立ちどまって</seg><ruby type="furigana" rend="right" source="#source-22568-22586"><rb>後</rb><rt>うしろ</rt></ruby><seg source="#source-22586-22643">をふりかえった。そこは見覚えのある村の</seg><ruby type="furigana" rend="right" source="#source-22643-22661"><rb>径</rb><rt>こみち</rt></ruby><seg source="#source-22661-22772">であった。道家はほっとしてやるともなしに眼を月にやった。西に落ちかけた月の</seg><ruby type="furigana" rend="right" source="#source-22772-22793"><rb>周囲</rb><rt>まわり</rt></ruby><seg source="#source-22793-22811">にぼうとした</seg><ruby type="furigana" rend="right" source="#source-22811-22826"><rb>暈</rb><rt>かさ</rt></ruby><seg source="#source-22826-22852">がかかっていた。</seg></p>
+      <p source="#source-22852-22863">「や」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-22863-23110"><seg source="#source-22863-22881">道家は気が</seg><ruby type="furigana" rend="right" source="#source-22881-22893"><rb>注</rb><rt>つ</rt></ruby><seg source="#source-22893-22974">くと共に北の空に眼をやった。雲の間になった北斗の七星に</seg><ruby type="furigana" rend="right" source="#source-22974-22995"><rb>白気</rb><rt>はっき</rt></ruby><seg source="#source-22995-23067">のようなものがうねうねとかかっていた。道家は刀を</seg><ruby type="furigana" rend="right" source="#source-23067-23082"><rb>鞘</rb><rt>さや</rt></ruby><seg source="#source-23082-23110">に収めて立った。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-23110-23433"><seg source="#source-23110-23164">道家は隠れ家に帰らずにそのまま川の</seg><ruby type="furigana" rend="right" source="#source-23164-23182"><rb>堤</rb><rt>つつみ</rt></ruby><seg source="#source-23182-23185">の</seg><ruby type="furigana" rend="right" source="#source-23185-23209"><rb>竹藪</rb><rt>たけやぶ</rt></ruby><seg source="#source-23209-23230">の中へ往って、</seg><ruby type="furigana" rend="right" source="#source-23230-23242"><rb>彼</rb><rt>か</rt></ruby><seg source="#source-23242-23245">の</seg><ruby type="furigana" rend="right" source="#source-23245-23263"><rb>祠</rb><rt>ほこら</rt></ruby><seg source="#source-23263-23272">の前で</seg><ruby type="furigana" rend="right" source="#source-23272-23284"><rb>夜</rb><rt>よ</rt></ruby><seg source="#source-23284-23314">の明けるのを待った。</seg><ruby type="furigana" rend="right" source="#source-23314-23329"><rb>髯</rb><rt>ひげ</rt></ruby><seg source="#source-23329-23433">の白いよぼよぼした老人がどこから来るともなしに来て道家の前に立った。</seg></p>
+      <p source="#source-23433-23732">「来たか、<ruby type="furigana" rend="right" source="#source-23448-23469"><rb>昨夜</rb><rt>ゆうべ</rt></ruby><seg source="#source-23469-23487">お前が魔者の</seg><ruby type="furigana" rend="right" source="#source-23487-23502"><rb>呪</rb><rt>のろ</rt></ruby><seg source="#source-23502-23508">いを</seg><ruby type="furigana" rend="right" source="#source-23508-23520"><rb>斬</rb><rt>き</rt></ruby><seg source="#source-23520-23547">り払ったから、もう</seg><ruby type="furigana" rend="right" source="#source-23547-23571"><rb>通力</rb><rt>つうりき</rt></ruby><seg source="#source-23571-23574">を</seg><ruby type="furigana" rend="right" source="#source-23574-23592"><rb>失</rb><rt>うしの</rt></ruby><seg source="#source-23592-23652">うた、これを持って往って、見つけたなら、</seg><ruby type="furigana" rend="right" source="#source-23652-23667"><rb>蓋</rb><rt>ふた</rt></ruby>を開けろ、それまでは蓋を開けてはならんぞ」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-23732-23800"><seg source="#source-23732-23800">老人の左の手には小さな赤い土の壺があった。</seg></p>
+      <p source="#source-23800-24024">「今日の<ruby type="furigana" rend="right" source="#source-23812-23827"><rb>丑</rb><rt>うし</rt></ruby><seg source="#source-23827-23830">の</seg><ruby type="furigana" rend="right" source="#source-23830-23845"><rb>刻</rb><rt>こく</rt></ruby>、あの寺の正門からずかずか入って往け、それにはここの祠の中を開けると、お前の着て往く物がある、それ、これを持って往け」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-24024-24110"><seg source="#source-24024-24110">老人は壺をさしだした。道家はうやうやしくそれを受けた。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-24110-24565"><seg source="#source-24110-24182">そして、眼をやると老人はもういなかった。そこで</seg><ruby type="furigana" rend="right" source="#source-24182-24200"><rb>祠</rb><rt>ほこら</rt></ruby><seg source="#source-24200-24230">の扉を開けた。中には</seg><ruby type="furigana" rend="right" source="#source-24230-24248"><rb>袈裟</rb><rt>けさ</rt></ruby><seg source="#source-24248-24251">、</seg><ruby type="furigana" rend="right" source="#source-24251-24281"><rb>頭陀袋</rb><rt>ずだぶくろ</rt></ruby><seg source="#source-24281-24284">、</seg><ruby type="furigana" rend="right" source="#source-24284-24299"><rb>笠</rb><rt>かさ</rt></ruby><seg source="#source-24299-24302">、</seg><ruby type="furigana" rend="right" source="#source-24302-24323"><rb>手甲</rb><rt>てこう</rt></ruby><seg source="#source-24323-24326">、</seg><ruby type="furigana" rend="right" source="#source-24326-24350"><rb>脚絆</rb><rt>きゃはん</rt></ruby><seg source="#source-24350-24398">の一切が入っていた。道家は老人の</seg><ruby type="furigana" rend="right" source="#source-24398-24416"><rb>詞</rb><rt>ことば</rt></ruby><seg source="#source-24416-24443">に従ってそれを着て</seg><ruby type="furigana" rend="right" source="#source-24443-24467"><rb>旅僧</rb><rt>たびそう</rt></ruby><seg source="#source-24467-24485">の姿になり、</seg><ruby type="furigana" rend="right" source="#source-24485-24500"><rb>丑</rb><rt>うし</rt></ruby><seg source="#source-24500-24503">の</seg><ruby type="furigana" rend="right" source="#source-24503-24518"><rb>刻</rb><rt>こく</rt></ruby><seg source="#source-24518-24565">になって法華寺の別院へ往った。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-24565-25338"><seg source="#source-24565-24640">別院の門のうちには十人ばかりの護衛の武士がいたが</seg><ruby type="furigana" rend="right" source="#source-24640-24655"><rb>咎</rb><rt>とが</rt></ruby><seg source="#source-24655-24697">めなかった。彼はずんずん左の</seg><ruby type="furigana" rend="right" source="#source-24697-24712"><rb>厨</rb><rt>くり</rt></ruby><seg source="#source-24712-24841">の方へ往って、書院と厨の間になった植込の中へ入り、そこから裏庭の方へ往くと二人の武士が</seg><ruby type="furigana" rend="right" source="#source-24841-24865"><rb>床几</rb><rt>しょうぎ</rt></ruby><seg source="#source-24865-24895">に眠っていた。庭には</seg><ruby type="furigana" rend="right" source="#source-24895-24907"><rb>彼</rb><rt>か</rt></ruby><seg source="#source-24907-24925">の池があって</seg><ruby type="furigana" rend="right" source="#source-24925-24943"><rb>何時</rb><rt>いつ</rt></ruby><seg source="#source-24943-24952">か見た</seg><ruby type="furigana" rend="right" source="#source-24952-24967"><rb>蟇</rb><rt>がま</rt></ruby><seg source="#source-24967-24973">が一</seg><ruby type="furigana" rend="right" source="#source-24973-24991"><rb>疋</rb><rt>ぴき</rt></ruby><seg source="#source-24991-25063">浮んでいた。道家はここぞと思って手にしていた壺の</seg><ruby type="furigana" rend="right" source="#source-25063-25078"><rb>蓋</rb><rt>ふた</rt></ruby><seg source="#source-25078-25144">をとった。と、壺の口から煙のようにひらひらと</seg><ruby type="furigana" rend="right" source="#source-25144-25162"><rb>閃</rb><rt>ひらめ</rt></ruby><seg source="#source-25162-25222">いて出た白い蛇が、みるみる池の上に浮んで</seg><ruby type="furigana" rend="right" source="#source-25222-25234"><rb>彼</rb><rt>か</rt></ruby><seg source="#source-25234-25270">の蟇に迫り、蟇が水の中に</seg><ruby type="furigana" rend="right" source="#source-25270-25285"><rb>潜</rb><rt>もぐ</rt></ruby><seg source="#source-25285-25294">らない</seg><ruby type="furigana" rend="right" source="#source-25294-25309"><rb>中</rb><rt>うち</rt></ruby><seg source="#source-25309-25338">に巻いてしまった。</seg></p>
+      <p source="#source-25338-25367">「殿様が大変じゃ」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-25367-25955"><seg source="#source-25367-25457">書院の方では口ぐちに騒ぎだした。二三日熱病をわずらっていた</seg><ruby type="furigana" rend="right" source="#source-25457-25481"><rb>義竜</rb><rt>よしたつ</rt></ruby>は、その時急にもがきだしてそのまま死んで往った。「織田軍記」には義竜のことを<ruby type="furigana" rend="right" source="#source-25595-25610"><rb>記</rb><rt>しる</rt></ruby>して、「今はあらそふ者もなければ、義竜自ら<ruby type="furigana" rend="right" source="#source-25673-25700"><rb>濃州</rb><rt>のうしゅう</rt></ruby><seg source="#source-25700-25781">の守護となつて、悪人ながら威勢ありしに、ためしすくなき</seg><ruby type="furigana" rend="right" source="#source-25781-25814"><rb>大罪人</rb><rt>だいざいにん</rt></ruby><seg source="#source-25814-25889">のむくいにや、幾程なく永禄四年に義竜たちまち悪病を</seg><ruby type="furigana" rend="right" source="#source-25889-25907"><rb>煩</rb><rt>わずら</rt></ruby>ひ、死去しけり」と、云ってある。</p>
+    </body>
+    <back>
+      <div type="source">
+        <note type="source-attribution" source="#source-25963-26195"><seg type="source-line">底本：「日本怪談大全　第一巻　女怪の館」国書刊行会</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1995（平成7）年7月10日初版第1刷発行</seg><lb/><seg type="source-line">底本の親本：「日本怪談全集　第一巻」改造社</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1934（昭和9）年</seg></note>
+        <note type="transcriber-note" source="#source-26195-26511"><seg type="source-line">入力：川山隆</seg><lb/><seg type="source-line">校正：門田裕志</seg><lb/><seg type="source-line">2012年3月8日作成</seg><lb/><seg type="source-line">青空文庫作成ファイル：</seg><lb/><seg type="source-line">このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。</seg></note>
+        <note type="source-span" xml:id="source-10042-10060" n="61"/>
+        <note type="source-span" xml:id="source-10060-10066" n="61"/>
+        <note type="source-span" xml:id="source-10066-10081" n="61"/>
+        <note type="source-span" xml:id="source-10081-10123" n="61"/>
+        <note type="source-span" xml:id="source-1009-1030" n="18"/>
+        <note type="source-span" xml:id="source-10123-10144" n="61"/>
+        <note type="source-span" xml:id="source-10144-10212" n="61"/>
+        <note type="source-span" xml:id="source-10212-10224" n="62"/>
+        <note type="source-span" xml:id="source-10212-10835" n="62"/>
+        <note type="source-span" xml:id="source-10224-10245" n="62"/>
+        <note type="source-span" xml:id="source-10245-10260" n="62"/>
+        <note type="source-span" xml:id="source-10260-10284" n="62"/>
+        <note type="source-span" xml:id="source-10284-10293" n="62"/>
+        <note type="source-span" xml:id="source-10293-10323" n="62"/>
+        <note type="source-span" xml:id="source-1030-1033" n="18"/>
+        <note type="source-span" xml:id="source-10323-10326" n="62"/>
+        <note type="source-span" xml:id="source-10326-10356" n="62"/>
+        <note type="source-span" xml:id="source-1033-1048" n="18"/>
+        <note type="source-span" xml:id="source-10356-10389" n="62"/>
+        <note type="source-span" xml:id="source-10389-10416" n="62"/>
+        <note type="source-span" xml:id="source-10416-10419" n="62"/>
+        <note type="source-span" xml:id="source-10419-10443" n="62"/>
+        <note type="source-span" xml:id="source-10443-10446" n="62"/>
+        <note type="source-span" xml:id="source-10446-10464" n="62"/>
+        <note type="source-span" xml:id="source-10464-10476" n="62"/>
+        <note type="source-span" xml:id="source-10476-10494" n="62"/>
+        <note type="source-span" xml:id="source-1048-1066" n="18"/>
+        <note type="source-span" xml:id="source-10494-10512" n="62"/>
+        <note type="source-span" xml:id="source-10512-10530" n="62"/>
+        <note type="source-span" xml:id="source-10530-10689" n="62"/>
+        <note type="source-span" xml:id="source-1066-1084" n="18"/>
+        <note type="source-span" xml:id="source-10689-10707" n="62"/>
+        <note type="source-span" xml:id="source-10707-10755" n="62"/>
+        <note type="source-span" xml:id="source-10755-10767" n="62"/>
+        <note type="source-span" xml:id="source-10767-10770" n="62"/>
+        <note type="source-span" xml:id="source-10770-10794" n="62"/>
+        <note type="source-span" xml:id="source-10794-10835" n="62"/>
+        <note type="source-span" xml:id="source-10835-10838" n="63"/>
+        <note type="source-span" xml:id="source-10835-10885" n="63"/>
+        <note type="source-span" xml:id="source-10838-10859" n="63"/>
+        <note type="source-span" xml:id="source-1084-1105" n="18"/>
+        <note type="source-span" xml:id="source-10885-10969" n="64"/>
+        <note type="source-span" xml:id="source-10885-11007" n="64"/>
+        <note type="source-span" xml:id="source-10969-10990" n="64"/>
+        <note type="source-span" xml:id="source-10990-11007" n="64"/>
+        <note type="source-span" xml:id="source-11007-11018" n="65"/>
+        <note type="source-span" xml:id="source-11018-11036" n="66"/>
+        <note type="source-span" xml:id="source-11018-11353" n="66"/>
+        <note type="source-span" xml:id="source-11036-11048" n="66"/>
+        <note type="source-span" xml:id="source-11048-11099" n="66"/>
+        <note type="source-span" xml:id="source-1105-1135" n="18"/>
+        <note type="source-span" xml:id="source-11099-11117" n="66"/>
+        <note type="source-span" xml:id="source-11117-11126" n="66"/>
+        <note type="source-span" xml:id="source-11126-11150" n="66"/>
+        <note type="source-span" xml:id="source-11150-11192" n="66"/>
+        <note type="source-span" xml:id="source-11192-11210" n="66"/>
+        <note type="source-span" xml:id="source-11210-11288" n="66"/>
+        <note type="source-span" xml:id="source-11288-11312" n="66"/>
+        <note type="source-span" xml:id="source-11312-11353" n="66"/>
+        <note type="source-span" xml:id="source-1135-1144" n="18"/>
+        <note type="source-span" xml:id="source-11353-11370" n="67"/>
+        <note type="source-span" xml:id="source-11370-11451" n="68"/>
+        <note type="source-span" xml:id="source-11370-11591" n="68"/>
+        <note type="source-span" xml:id="source-1144-1165" n="18"/>
+        <note type="source-span" xml:id="source-11451-11472" n="68"/>
+        <note type="source-span" xml:id="source-11472-11544" n="68"/>
+        <note type="source-span" xml:id="source-11544-11568" n="68"/>
+        <note type="source-span" xml:id="source-11568-11591" n="68"/>
+        <note type="source-span" xml:id="source-11591-11594" n="69"/>
+        <note type="source-span" xml:id="source-11591-11824" n="69"/>
+        <note type="source-span" xml:id="source-11594-11636" n="69"/>
+        <note type="source-span" xml:id="source-11636-11639" n="69"/>
+        <note type="source-span" xml:id="source-11639-11666" n="69"/>
+        <note type="source-span" xml:id="source-1165-1192" n="18"/>
+        <note type="source-span" xml:id="source-11666-11708" n="69"/>
+        <note type="source-span" xml:id="source-11708-11756" n="69"/>
+        <note type="source-span" xml:id="source-11756-11759" n="69"/>
+        <note type="source-span" xml:id="source-11759-11777" n="69"/>
+        <note type="source-span" xml:id="source-11777-11807" n="69"/>
+        <note type="source-span" xml:id="source-11824-11880" n="70"/>
+        <note type="source-span" xml:id="source-11880-11883" n="71"/>
+        <note type="source-span" xml:id="source-11880-11972" n="71"/>
+        <note type="source-span" xml:id="source-11883-11907" n="71"/>
+        <note type="source-span" xml:id="source-11907-11910" n="71"/>
+        <note type="source-span" xml:id="source-11910-11955" n="71"/>
+        <note type="source-span" xml:id="source-1192-1216" n="18"/>
+        <note type="source-span" xml:id="source-11972-11984" n="72"/>
+        <note type="source-span" xml:id="source-11972-12028" n="72"/>
+        <note type="source-span" xml:id="source-11984-11999" n="72"/>
+        <note type="source-span" xml:id="source-11999-12028" n="72"/>
+        <note type="source-span" xml:id="source-12028-12031" n="73"/>
+        <note type="source-span" xml:id="source-12028-12084" n="73"/>
+        <note type="source-span" xml:id="source-12031-12079" n="73"/>
+        <note type="source-span" xml:id="source-12084-12125" n="74"/>
+        <note type="source-span" xml:id="source-12125-12421" n="75"/>
+        <note type="source-span" xml:id="source-12137-12188" n="75"/>
+        <note type="source-span" xml:id="source-1216-1261" n="18"/>
+        <note type="source-span" xml:id="source-12188-12206" n="75"/>
+        <note type="source-span" xml:id="source-12206-12224" n="75"/>
+        <note type="source-span" xml:id="source-12224-12227" n="75"/>
+        <note type="source-span" xml:id="source-12227-12254" n="75"/>
+        <note type="source-span" xml:id="source-12254-12263" n="75"/>
+        <note type="source-span" xml:id="source-12263-12287" n="75"/>
+        <note type="source-span" xml:id="source-12287-12293" n="75"/>
+        <note type="source-span" xml:id="source-12293-12332" n="75"/>
+        <note type="source-span" xml:id="source-12332-12335" n="75"/>
+        <note type="source-span" xml:id="source-12335-12356" n="75"/>
+        <note type="source-span" xml:id="source-12356-12359" n="75"/>
+        <note type="source-span" xml:id="source-12359-12386" n="75"/>
+        <note type="source-span" xml:id="source-12421-12457" n="76"/>
+        <note type="source-span" xml:id="source-12421-13419" n="76"/>
+        <note type="source-span" xml:id="source-12457-12478" n="76"/>
+        <note type="source-span" xml:id="source-12478-12523" n="76"/>
+        <note type="source-span" xml:id="source-12523-12538" n="76"/>
+        <note type="source-span" xml:id="source-12538-12631" n="76"/>
+        <note type="source-span" xml:id="source-1261-1297" n="18"/>
+        <note type="source-span" xml:id="source-12631-12646" n="76"/>
+        <note type="source-span" xml:id="source-12646-12742" n="76"/>
+        <note type="source-span" xml:id="source-12742-12766" n="76"/>
+        <note type="source-span" xml:id="source-12766-12790" n="76"/>
+        <note type="source-span" xml:id="source-12790-12814" n="76"/>
+        <note type="source-span" xml:id="source-12814-12817" n="76"/>
+        <note type="source-span" xml:id="source-12817-12832" n="76"/>
+        <note type="source-span" xml:id="source-12832-12874" n="76"/>
+        <note type="source-span" xml:id="source-12874-12892" n="76"/>
+        <note type="source-span" xml:id="source-12892-12940" n="76"/>
+        <note type="source-span" xml:id="source-12940-12955" n="76"/>
+        <note type="source-span" xml:id="source-12955-13027" n="76"/>
+        <note type="source-span" xml:id="source-1297-1312" n="18"/>
+        <note type="source-span" xml:id="source-13027-13045" n="76"/>
+        <note type="source-span" xml:id="source-13045-13189" n="76"/>
+        <note type="source-span" xml:id="source-1312-1336" n="18"/>
+        <note type="source-span" xml:id="source-13189-13207" n="76"/>
+        <note type="source-span" xml:id="source-13207-13219" n="76"/>
+        <note type="source-span" xml:id="source-13219-13234" n="76"/>
+        <note type="source-span" xml:id="source-13234-13321" n="76"/>
+        <note type="source-span" xml:id="source-13321-13345" n="76"/>
+        <note type="source-span" xml:id="source-13345-13419" n="76"/>
+        <note type="source-span" xml:id="source-1336-1491" n="18"/>
+        <note type="source-span" xml:id="source-13419-13430" n="77"/>
+        <note type="source-span" xml:id="source-13430-13523" n="78"/>
+        <note type="source-span" xml:id="source-13430-13678" n="78"/>
+        <note type="source-span" xml:id="source-13523-13544" n="78"/>
+        <note type="source-span" xml:id="source-13544-13678" n="78"/>
+        <note type="source-span" xml:id="source-13678-13713" n="79"/>
+        <note type="source-span" xml:id="source-13713-13764" n="80"/>
+        <note type="source-span" xml:id="source-13713-13937" n="80"/>
+        <note type="source-span" xml:id="source-13764-13779" n="80"/>
+        <note type="source-span" xml:id="source-13779-13800" n="80"/>
+        <note type="source-span" xml:id="source-13800-13812" n="80"/>
+        <note type="source-span" xml:id="source-13812-13815" n="80"/>
+        <note type="source-span" xml:id="source-13815-13830" n="80"/>
+        <note type="source-span" xml:id="source-13830-13937" n="80"/>
+        <note type="source-span" xml:id="source-13937-13960" n="81"/>
+        <note type="source-span" xml:id="source-13960-14062" n="82"/>
+        <note type="source-span" xml:id="source-13960-14103" n="82"/>
+        <note type="source-span" xml:id="source-14062-14077" n="82"/>
+        <note type="source-span" xml:id="source-14077-14103" n="82"/>
+        <note type="source-span" xml:id="source-14103-14117" n="83"/>
+        <note type="source-span" xml:id="source-14117-14171" n="84"/>
+        <note type="source-span" xml:id="source-14117-14202" n="84"/>
+        <note type="source-span" xml:id="source-14171-14186" n="84"/>
+        <note type="source-span" xml:id="source-14186-14202" n="84"/>
+        <note type="source-span" xml:id="source-14202-14205" n="86"/>
+        <note type="source-span" xml:id="source-14202-14522" n="86"/>
+        <note type="source-span" xml:id="source-14205-14220" n="86"/>
+        <note type="source-span" xml:id="source-14220-14253" n="86"/>
+        <note type="source-span" xml:id="source-14253-14271" n="86"/>
+        <note type="source-span" xml:id="source-14271-14343" n="86"/>
+        <note type="source-span" xml:id="source-14343-14358" n="86"/>
+        <note type="source-span" xml:id="source-14358-14522" n="86"/>
+        <note type="source-span" xml:id="source-14522-14566" n="87"/>
+        <note type="source-span" xml:id="source-14566-14569" n="88"/>
+        <note type="source-span" xml:id="source-14566-14661" n="88"/>
+        <note type="source-span" xml:id="source-14569-14593" n="88"/>
+        <note type="source-span" xml:id="source-14593-14596" n="88"/>
+        <note type="source-span" xml:id="source-14596-14608" n="88"/>
+        <note type="source-span" xml:id="source-14661-14691" n="89"/>
+        <note type="source-span" xml:id="source-14661-14840" n="89"/>
+        <note type="source-span" xml:id="source-14691-14703" n="89"/>
+        <note type="source-span" xml:id="source-14703-14733" n="89"/>
+        <note type="source-span" xml:id="source-14733-14748" n="89"/>
+        <note type="source-span" xml:id="source-14748-14751" n="89"/>
+        <note type="source-span" xml:id="source-14751-14772" n="89"/>
+        <note type="source-span" xml:id="source-14772-14840" n="89"/>
+        <note type="source-span" xml:id="source-14840-14875" n="90"/>
+        <note type="source-span" xml:id="source-14875-14935" n="91"/>
+        <note type="source-span" xml:id="source-14875-15218" n="91"/>
+        <note type="source-span" xml:id="source-1491-1539" n="19"/>
+        <note type="source-span" xml:id="source-1491-2894" n="19"/>
+        <note type="source-span" xml:id="source-14935-14950" n="91"/>
+        <note type="source-span" xml:id="source-14950-14998" n="91"/>
+        <note type="source-span" xml:id="source-14998-15045" n="91"/>
+        <note type="source-span" xml:id="source-14998-15057" n="91"/>
+        <note type="source-span" xml:id="source-15057-15132" n="91"/>
+        <note type="source-span" xml:id="source-15132-15150" n="91"/>
+        <note type="source-span" xml:id="source-15150-15177" n="91"/>
+        <note type="source-span" xml:id="source-15177-15192" n="91"/>
+        <note type="source-span" xml:id="source-15192-15218" n="91"/>
+        <note type="source-span" xml:id="source-15218-15541" n="92"/>
+        <note type="source-span" xml:id="source-15230-15245" n="92"/>
+        <note type="source-span" xml:id="source-15245-15347" n="92"/>
+        <note type="source-span" xml:id="source-15347-15371" n="92"/>
+        <note type="source-span" xml:id="source-15371-15374" n="92"/>
+        <note type="source-span" xml:id="source-15374-15392" n="92"/>
+        <note type="source-span" xml:id="source-1539-1569" n="19"/>
+        <note type="source-span" xml:id="source-15392-15503" n="92"/>
+        <note type="source-span" xml:id="source-15503-15518" n="92"/>
+        <note type="source-span" xml:id="source-15541-15588" n="93"/>
+        <note type="source-span" xml:id="source-15588-15950" n="94"/>
+        <note type="source-span" xml:id="source-15612-15630" n="94"/>
+        <note type="source-span" xml:id="source-15630-15681" n="94"/>
+        <note type="source-span" xml:id="source-15681-15696" n="94"/>
+        <note type="source-span" xml:id="source-1569-1572" n="19"/>
+        <note type="source-span" xml:id="source-15696-15714" n="94"/>
+        <note type="source-span" xml:id="source-15714-15735" n="94"/>
+        <note type="source-span" xml:id="source-1572-1596" n="19"/>
+        <note type="source-span" xml:id="source-15735-15738" n="94"/>
+        <note type="source-span" xml:id="source-15738-15762" n="94"/>
+        <note type="source-span" xml:id="source-15762-15765" n="94"/>
+        <note type="source-span" xml:id="source-15765-15789" n="94"/>
+        <note type="source-span" xml:id="source-15789-15846" n="94"/>
+        <note type="source-span" xml:id="source-15846-15858" n="94"/>
+        <note type="source-span" xml:id="source-15950-16012" n="95"/>
+        <note type="source-span" xml:id="source-1596-1611" n="19"/>
+        <note type="source-span" xml:id="source-16012-16023" n="96"/>
+        <note type="source-span" xml:id="source-16023-16034" n="97"/>
+        <note type="source-span" xml:id="source-16034-16117" n="98"/>
+        <note type="source-span" xml:id="source-1611-1623" n="19"/>
+        <note type="source-span" xml:id="source-16117-16128" n="99"/>
+        <note type="source-span" xml:id="source-16128-16139" n="100"/>
+        <note type="source-span" xml:id="source-16139-16151" n="101"/>
+        <note type="source-span" xml:id="source-16139-16308" n="101"/>
+        <note type="source-span" xml:id="source-16151-16169" n="101"/>
+        <note type="source-span" xml:id="source-16169-16308" n="101"/>
+        <note type="source-span" xml:id="source-1623-1665" n="19"/>
+        <note type="source-span" xml:id="source-16308-16341" n="103"/>
+        <note type="source-span" xml:id="source-16308-16589" n="103"/>
+        <note type="source-span" xml:id="source-16341-16359" n="103"/>
+        <note type="source-span" xml:id="source-16359-16362" n="103"/>
+        <note type="source-span" xml:id="source-16362-16377" n="103"/>
+        <note type="source-span" xml:id="source-16377-16380" n="103"/>
+        <note type="source-span" xml:id="source-16380-16392" n="103"/>
+        <note type="source-span" xml:id="source-16392-16503" n="103"/>
+        <note type="source-span" xml:id="source-16503-16524" n="103"/>
+        <note type="source-span" xml:id="source-16524-16539" n="103"/>
+        <note type="source-span" xml:id="source-16539-16557" n="103"/>
+        <note type="source-span" xml:id="source-16557-16560" n="103"/>
+        <note type="source-span" xml:id="source-16560-16572" n="103"/>
+        <note type="source-span" xml:id="source-16572-16589" n="103"/>
+        <note type="source-span" xml:id="source-16589-16888" n="104"/>
+        <note type="source-span" xml:id="source-1665-1686" n="19"/>
+        <note type="source-span" xml:id="source-1686-1689" n="19"/>
+        <note type="source-span" xml:id="source-16888-16897" n="105"/>
+        <note type="source-span" xml:id="source-16888-17076" n="105"/>
+        <note type="source-span" xml:id="source-1689-1716" n="19"/>
+        <note type="source-span" xml:id="source-16897-16909" n="105"/>
+        <note type="source-span" xml:id="source-16909-17017" n="105"/>
+        <note type="source-span" xml:id="source-17017-17032" n="105"/>
+        <note type="source-span" xml:id="source-17032-17076" n="105"/>
+        <note type="source-span" xml:id="source-17076-17105" n="106"/>
+        <note type="source-span" xml:id="source-17105-17156" n="107"/>
+        <note type="source-span" xml:id="source-17105-17392" n="107"/>
+        <note type="source-span" xml:id="source-17156-17177" n="107"/>
+        <note type="source-span" xml:id="source-1716-1977" n="19"/>
+        <note type="source-span" xml:id="source-17177-17207" n="107"/>
+        <note type="source-span" xml:id="source-17207-17231" n="107"/>
+        <note type="source-span" xml:id="source-17231-17264" n="107"/>
+        <note type="source-span" xml:id="source-17264-17285" n="107"/>
+        <note type="source-span" xml:id="source-17285-17392" n="107"/>
+        <note type="source-span" xml:id="source-17392-17485" n="108"/>
+        <note type="source-span" xml:id="source-17392-17757" n="108"/>
+        <note type="source-span" xml:id="source-17485-17497" n="108"/>
+        <note type="source-span" xml:id="source-17497-17509" n="108"/>
+        <note type="source-span" xml:id="source-17509-17533" n="108"/>
+        <note type="source-span" xml:id="source-17533-17665" n="108"/>
+        <note type="source-span" xml:id="source-17665-17689" n="108"/>
+        <note type="source-span" xml:id="source-17689-17710" n="108"/>
+        <note type="source-span" xml:id="source-17710-17731" n="108"/>
+        <note type="source-span" xml:id="source-17731-17757" n="108"/>
+        <note type="source-span" xml:id="source-17757-17802" n="109"/>
+        <note type="source-span" xml:id="source-17757-18140" n="109"/>
+        <note type="source-span" xml:id="source-17802-17820" n="109"/>
+        <note type="source-span" xml:id="source-17820-17838" n="109"/>
+        <note type="source-span" xml:id="source-17838-17853" n="109"/>
+        <note type="source-span" xml:id="source-17853-17892" n="109"/>
+        <note type="source-span" xml:id="source-17892-17907" n="109"/>
+        <note type="source-span" xml:id="source-17907-17964" n="109"/>
+        <note type="source-span" xml:id="source-17964-17988" n="109"/>
+        <note type="source-span" xml:id="source-17988-18021" n="109"/>
+        <note type="source-span" xml:id="source-18021-18042" n="109"/>
+        <note type="source-span" xml:id="source-18042-18054" n="109"/>
+        <note type="source-span" xml:id="source-18054-18075" n="109"/>
+        <note type="source-span" xml:id="source-18075-18084" n="109"/>
+        <note type="source-span" xml:id="source-18084-18102" n="109"/>
+        <note type="source-span" xml:id="source-18102-18140" n="109"/>
+        <note type="source-span" xml:id="source-18140-18194" n="110"/>
+        <note type="source-span" xml:id="source-18140-18514" n="110"/>
+        <note type="source-span" xml:id="source-18194-18218" n="110"/>
+        <note type="source-span" xml:id="source-18218-18233" n="110"/>
+        <note type="source-span" xml:id="source-18233-18254" n="110"/>
+        <note type="source-span" xml:id="source-18254-18257" n="110"/>
+        <note type="source-span" xml:id="source-18257-18281" n="110"/>
+        <note type="source-span" xml:id="source-18281-18347" n="110"/>
+        <note type="source-span" xml:id="source-18347-18365" n="110"/>
+        <note type="source-span" xml:id="source-18365-18514" n="110"/>
+        <note type="source-span" xml:id="source-18514-18583" n="111"/>
+        <note type="source-span" xml:id="source-18514-19062" n="111"/>
+        <note type="source-span" xml:id="source-18583-18598" n="111"/>
+        <note type="source-span" xml:id="source-18598-18640" n="111"/>
+        <note type="source-span" xml:id="source-18640-18658" n="111"/>
+        <note type="source-span" xml:id="source-18658-18799" n="111"/>
+        <note type="source-span" xml:id="source-18799-18817" n="111"/>
+        <note type="source-span" xml:id="source-18817-18844" n="111"/>
+        <note type="source-span" xml:id="source-18844-18865" n="111"/>
+        <note type="source-span" xml:id="source-18865-18910" n="111"/>
+        <note type="source-span" xml:id="source-18910-18931" n="111"/>
+        <note type="source-span" xml:id="source-18931-19062" n="111"/>
+        <note type="source-span" xml:id="source-19062-19083" n="112"/>
+        <note type="source-span" xml:id="source-19062-19289" n="112"/>
+        <note type="source-span" xml:id="source-19083-19101" n="112"/>
+        <note type="source-span" xml:id="source-19101-19104" n="112"/>
+        <note type="source-span" xml:id="source-19104-19119" n="112"/>
+        <note type="source-span" xml:id="source-19119-19158" n="112"/>
+        <note type="source-span" xml:id="source-19158-19170" n="112"/>
+        <note type="source-span" xml:id="source-19170-19212" n="112"/>
+        <note type="source-span" xml:id="source-19212-19230" n="112"/>
+        <note type="source-span" xml:id="source-19230-19289" n="112"/>
+        <note type="source-span" xml:id="source-19289-19447" n="113"/>
+        <note type="source-span" xml:id="source-19328-19352" n="113"/>
+        <note type="source-span" xml:id="source-19352-19370" n="113"/>
+        <note type="source-span" xml:id="source-19370-19385" n="113"/>
+        <note type="source-span" xml:id="source-19447-19506" n="114"/>
+        <note type="source-span" xml:id="source-19506-19823" n="115"/>
+        <note type="source-span" xml:id="source-19527-19554" n="115"/>
+        <note type="source-span" xml:id="source-19554-19590" n="115"/>
+        <note type="source-span" xml:id="source-19590-19599" n="115"/>
+        <note type="source-span" xml:id="source-19590-19632" n="115"/>
+        <note type="source-span" xml:id="source-19599-19632" n="115"/>
+        <note type="source-span" xml:id="source-1977-1989" n="19"/>
+        <note type="source-span" xml:id="source-19823-19918" n="116"/>
+        <note type="source-span" xml:id="source-19868-19892" n="116"/>
+        <note type="source-span" xml:id="source-1989-2034" n="19"/>
+        <note type="source-span" xml:id="source-19918-19962" n="117"/>
+        <note type="source-span" xml:id="source-19962-20030" n="118"/>
+        <note type="source-span" xml:id="source-19983-20001" n="118"/>
+        <note type="source-span" xml:id="source-20030-20060" n="119"/>
+        <note type="source-span" xml:id="source-20030-20233" n="119"/>
+        <note type="source-span" xml:id="source-20060-20081" n="119"/>
+        <note type="source-span" xml:id="source-20081-20099" n="119"/>
+        <note type="source-span" xml:id="source-20099-20120" n="119"/>
+        <note type="source-span" xml:id="source-20120-20132" n="119"/>
+        <note type="source-span" xml:id="source-20132-20144" n="119"/>
+        <note type="source-span" xml:id="source-20144-20192" n="119"/>
+        <note type="source-span" xml:id="source-20192-20210" n="119"/>
+        <note type="source-span" xml:id="source-20210-20233" n="119"/>
+        <note type="source-span" xml:id="source-20233-20409" n="120"/>
+        <note type="source-span" xml:id="source-20260-20275" n="120"/>
+        <note type="source-span" xml:id="source-20275-20311" n="120"/>
+        <note type="source-span" xml:id="source-20311-20326" n="120"/>
+        <note type="source-span" xml:id="source-20326-20362" n="120"/>
+        <note type="source-span" xml:id="source-2034-2058" n="19"/>
+        <note type="source-span" xml:id="source-20362-20377" n="120"/>
+        <note type="source-span" xml:id="source-20377-20383" n="120"/>
+        <note type="source-span" xml:id="source-20383-20395" n="120"/>
+        <note type="source-span" xml:id="source-20409-20421" n="121"/>
+        <note type="source-span" xml:id="source-20409-20468" n="121"/>
+        <note type="source-span" xml:id="source-20421-20439" n="121"/>
+        <note type="source-span" xml:id="source-20439-20468" n="121"/>
+        <note type="source-span" xml:id="source-20468-20575" n="122"/>
+        <note type="source-span" xml:id="source-20480-20504" n="122"/>
+        <note type="source-span" xml:id="source-20575-20644" n="123"/>
+        <note type="source-span" xml:id="source-20575-20691" n="123"/>
+        <note type="source-span" xml:id="source-2058-2190" n="19"/>
+        <note type="source-span" xml:id="source-20644-20656" n="123"/>
+        <note type="source-span" xml:id="source-20656-20691" n="123"/>
+        <note type="source-span" xml:id="source-20691-20711" n="124"/>
+        <note type="source-span" xml:id="source-20711-20801" n="125"/>
+        <note type="source-span" xml:id="source-20711-20935" n="125"/>
+        <note type="source-span" xml:id="source-20801-20819" n="125"/>
+        <note type="source-span" xml:id="source-20819-20828" n="125"/>
+        <note type="source-span" xml:id="source-20828-20843" n="125"/>
+        <note type="source-span" xml:id="source-20843-20935" n="125"/>
+        <note type="source-span" xml:id="source-20935-21030" n="126"/>
+        <note type="source-span" xml:id="source-20977-20989" n="126"/>
+        <note type="source-span" xml:id="source-21030-21093" n="127"/>
+        <note type="source-span" xml:id="source-21030-21146" n="127"/>
+        <note type="source-span" xml:id="source-21093-21111" n="127"/>
+        <note type="source-span" xml:id="source-21111-21146" n="127"/>
+        <note type="source-span" xml:id="source-21146-21202" n="128"/>
+        <note type="source-span" xml:id="source-21164-21188" n="128"/>
+        <note type="source-span" xml:id="source-21202-21343" n="129"/>
+        <note type="source-span" xml:id="source-21202-21717" n="129"/>
+        <note type="source-span" xml:id="source-21343-21355" n="129"/>
+        <note type="source-span" xml:id="source-21355-21370" n="129"/>
+        <note type="source-span" xml:id="source-21370-21382" n="129"/>
+        <note type="source-span" xml:id="source-21382-21460" n="129"/>
+        <note type="source-span" xml:id="source-21460-21478" n="129"/>
+        <note type="source-span" xml:id="source-21478-21481" n="129"/>
+        <note type="source-span" xml:id="source-21481-21493" n="129"/>
+        <note type="source-span" xml:id="source-21493-21514" n="129"/>
+        <note type="source-span" xml:id="source-21514-21538" n="129"/>
+        <note type="source-span" xml:id="source-21538-21541" n="129"/>
+        <note type="source-span" xml:id="source-21541-21553" n="129"/>
+        <note type="source-span" xml:id="source-21553-21559" n="129"/>
+        <note type="source-span" xml:id="source-21559-21571" n="129"/>
+        <note type="source-span" xml:id="source-21571-21595" n="129"/>
+        <note type="source-span" xml:id="source-21595-21616" n="129"/>
+        <note type="source-span" xml:id="source-21616-21717" n="129"/>
+        <note type="source-span" xml:id="source-21717-21762" n="130"/>
+        <note type="source-span" xml:id="source-21717-22370" n="130"/>
+        <note type="source-span" xml:id="source-21762-21789" n="130"/>
+        <note type="source-span" xml:id="source-21789-21834" n="130"/>
+        <note type="source-span" xml:id="source-21834-21846" n="130"/>
+        <note type="source-span" xml:id="source-21846-21897" n="130"/>
+        <note type="source-span" xml:id="source-21897-21924" n="130"/>
+        <note type="source-span" xml:id="source-2190-2208" n="19"/>
+        <note type="source-span" xml:id="source-21924-21960" n="130"/>
+        <note type="source-span" xml:id="source-21960-21975" n="130"/>
+        <note type="source-span" xml:id="source-21975-22146" n="130"/>
+        <note type="source-span" xml:id="source-2208-2226" n="19"/>
+        <note type="source-span" xml:id="source-22146-22173" n="130"/>
+        <note type="source-span" xml:id="source-22173-22370" n="130"/>
+        <note type="source-span" xml:id="source-2226-2238" n="19"/>
+        <note type="source-span" xml:id="source-22370-22373" n="131"/>
+        <note type="source-span" xml:id="source-22370-22852" n="131"/>
+        <note type="source-span" xml:id="source-22373-22394" n="131"/>
+        <note type="source-span" xml:id="source-2238-2304" n="19"/>
+        <note type="source-span" xml:id="source-22394-22430" n="131"/>
+        <note type="source-span" xml:id="source-22430-22442" n="131"/>
+        <note type="source-span" xml:id="source-22442-22568" n="131"/>
+        <note type="source-span" xml:id="source-22568-22586" n="131"/>
+        <note type="source-span" xml:id="source-22586-22643" n="131"/>
+        <note type="source-span" xml:id="source-22643-22661" n="131"/>
+        <note type="source-span" xml:id="source-22661-22772" n="131"/>
+        <note type="source-span" xml:id="source-22772-22793" n="131"/>
+        <note type="source-span" xml:id="source-22793-22811" n="131"/>
+        <note type="source-span" xml:id="source-22811-22826" n="131"/>
+        <note type="source-span" xml:id="source-22826-22852" n="131"/>
+        <note type="source-span" xml:id="source-22852-22863" n="132"/>
+        <note type="source-span" xml:id="source-22863-22881" n="133"/>
+        <note type="source-span" xml:id="source-22863-23110" n="133"/>
+        <note type="source-span" xml:id="source-22881-22893" n="133"/>
+        <note type="source-span" xml:id="source-22893-22974" n="133"/>
+        <note type="source-span" xml:id="source-22974-22995" n="133"/>
+        <note type="source-span" xml:id="source-22995-23067" n="133"/>
+        <note type="source-span" xml:id="source-2304-2325" n="19"/>
+        <note type="source-span" xml:id="source-23067-23082" n="133"/>
+        <note type="source-span" xml:id="source-23082-23110" n="133"/>
+        <note type="source-span" xml:id="source-23110-23164" n="135"/>
+        <note type="source-span" xml:id="source-23110-23433" n="135"/>
+        <note type="source-span" xml:id="source-23164-23182" n="135"/>
+        <note type="source-span" xml:id="source-23182-23185" n="135"/>
+        <note type="source-span" xml:id="source-23185-23209" n="135"/>
+        <note type="source-span" xml:id="source-23209-23230" n="135"/>
+        <note type="source-span" xml:id="source-23230-23242" n="135"/>
+        <note type="source-span" xml:id="source-23242-23245" n="135"/>
+        <note type="source-span" xml:id="source-23245-23263" n="135"/>
+        <note type="source-span" xml:id="source-2325-2409" n="19"/>
+        <note type="source-span" xml:id="source-23263-23272" n="135"/>
+        <note type="source-span" xml:id="source-23272-23284" n="135"/>
+        <note type="source-span" xml:id="source-23284-23314" n="135"/>
+        <note type="source-span" xml:id="source-23314-23329" n="135"/>
+        <note type="source-span" xml:id="source-23329-23433" n="135"/>
+        <note type="source-span" xml:id="source-23433-23732" n="136"/>
+        <note type="source-span" xml:id="source-23448-23469" n="136"/>
+        <note type="source-span" xml:id="source-23469-23487" n="136"/>
+        <note type="source-span" xml:id="source-23487-23502" n="136"/>
+        <note type="source-span" xml:id="source-23502-23508" n="136"/>
+        <note type="source-span" xml:id="source-23508-23520" n="136"/>
+        <note type="source-span" xml:id="source-23520-23547" n="136"/>
+        <note type="source-span" xml:id="source-23547-23571" n="136"/>
+        <note type="source-span" xml:id="source-23571-23574" n="136"/>
+        <note type="source-span" xml:id="source-23574-23592" n="136"/>
+        <note type="source-span" xml:id="source-23592-23652" n="136"/>
+        <note type="source-span" xml:id="source-23652-23667" n="136"/>
+        <note type="source-span" xml:id="source-23732-23800" n="137"/>
+        <note type="source-span" xml:id="source-23800-24024" n="138"/>
+        <note type="source-span" xml:id="source-23812-23827" n="138"/>
+        <note type="source-span" xml:id="source-23827-23830" n="138"/>
+        <note type="source-span" xml:id="source-23830-23845" n="138"/>
+        <note type="source-span" xml:id="source-24024-24110" n="139"/>
+        <note type="source-span" xml:id="source-2409-2436" n="19"/>
+        <note type="source-span" xml:id="source-24110-24182" n="140"/>
+        <note type="source-span" xml:id="source-24110-24565" n="140"/>
+        <note type="source-span" xml:id="source-24182-24200" n="140"/>
+        <note type="source-span" xml:id="source-24200-24230" n="140"/>
+        <note type="source-span" xml:id="source-24230-24248" n="140"/>
+        <note type="source-span" xml:id="source-24248-24251" n="140"/>
+        <note type="source-span" xml:id="source-24251-24281" n="140"/>
+        <note type="source-span" xml:id="source-24281-24284" n="140"/>
+        <note type="source-span" xml:id="source-24284-24299" n="140"/>
+        <note type="source-span" xml:id="source-24299-24302" n="140"/>
+        <note type="source-span" xml:id="source-24302-24323" n="140"/>
+        <note type="source-span" xml:id="source-24323-24326" n="140"/>
+        <note type="source-span" xml:id="source-24326-24350" n="140"/>
+        <note type="source-span" xml:id="source-24350-24398" n="140"/>
+        <note type="source-span" xml:id="source-2436-2478" n="19"/>
+        <note type="source-span" xml:id="source-24398-24416" n="140"/>
+        <note type="source-span" xml:id="source-24416-24443" n="140"/>
+        <note type="source-span" xml:id="source-24443-24467" n="140"/>
+        <note type="source-span" xml:id="source-24467-24485" n="140"/>
+        <note type="source-span" xml:id="source-24485-24500" n="140"/>
+        <note type="source-span" xml:id="source-24500-24503" n="140"/>
+        <note type="source-span" xml:id="source-24503-24518" n="140"/>
+        <note type="source-span" xml:id="source-24518-24565" n="140"/>
+        <note type="source-span" xml:id="source-24565-24640" n="141"/>
+        <note type="source-span" xml:id="source-24565-25338" n="141"/>
+        <note type="source-span" xml:id="source-24640-24655" n="141"/>
+        <note type="source-span" xml:id="source-24655-24697" n="141"/>
+        <note type="source-span" xml:id="source-24697-24712" n="141"/>
+        <note type="source-span" xml:id="source-24712-24841" n="141"/>
+        <note type="source-span" xml:id="source-2478-2496" n="19"/>
+        <note type="source-span" xml:id="source-24841-24865" n="141"/>
+        <note type="source-span" xml:id="source-24865-24895" n="141"/>
+        <note type="source-span" xml:id="source-24895-24907" n="141"/>
+        <note type="source-span" xml:id="source-24907-24925" n="141"/>
+        <note type="source-span" xml:id="source-24925-24943" n="141"/>
+        <note type="source-span" xml:id="source-24943-24952" n="141"/>
+        <note type="source-span" xml:id="source-24952-24967" n="141"/>
+        <note type="source-span" xml:id="source-2496-2565" n="19"/>
+        <note type="source-span" xml:id="source-24967-24973" n="141"/>
+        <note type="source-span" xml:id="source-24973-24991" n="141"/>
+        <note type="source-span" xml:id="source-24991-25063" n="141"/>
+        <note type="source-span" xml:id="source-25063-25078" n="141"/>
+        <note type="source-span" xml:id="source-25078-25144" n="141"/>
+        <note type="source-span" xml:id="source-25144-25162" n="141"/>
+        <note type="source-span" xml:id="source-25162-25222" n="141"/>
+        <note type="source-span" xml:id="source-25222-25234" n="141"/>
+        <note type="source-span" xml:id="source-25234-25270" n="141"/>
+        <note type="source-span" xml:id="source-25270-25285" n="141"/>
+        <note type="source-span" xml:id="source-25285-25294" n="141"/>
+        <note type="source-span" xml:id="source-25294-25309" n="141"/>
+        <note type="source-span" xml:id="source-25309-25338" n="141"/>
+        <note type="source-span" xml:id="source-25338-25367" n="142"/>
+        <note type="source-span" xml:id="source-25367-25457" n="143"/>
+        <note type="source-span" xml:id="source-25367-25955" n="143"/>
+        <note type="source-span" xml:id="source-25457-25481" n="143"/>
+        <note type="source-span" xml:id="source-25595-25610" n="143"/>
+        <note type="source-span" xml:id="source-2565-2586" n="19"/>
+        <note type="source-span" xml:id="source-25673-25700" n="143"/>
+        <note type="source-span" xml:id="source-25700-25781" n="143"/>
+        <note type="source-span" xml:id="source-25781-25814" n="143"/>
+        <note type="source-span" xml:id="source-25814-25889" n="143"/>
+        <note type="source-span" xml:id="source-2586-2613" n="19"/>
+        <note type="source-span" xml:id="source-25889-25907" n="143"/>
+        <note type="source-span" xml:id="source-25963-26195" n="147"/>
+        <note type="source-span" xml:id="source-2613-2625" n="19"/>
+        <note type="source-span" xml:id="source-26195-26511" n="151"/>
+        <note type="source-span" xml:id="source-2625-2643" n="19"/>
+        <note type="source-span" xml:id="source-2643-2661" n="19"/>
+        <note type="source-span" xml:id="source-2661-2664" n="19"/>
+        <note type="source-span" xml:id="source-2664-2679" n="19"/>
+        <note type="source-span" xml:id="source-2679-2682" n="19"/>
+        <note type="source-span" xml:id="source-2682-2700" n="19"/>
+        <note type="source-span" xml:id="source-2700-2742" n="19"/>
+        <note type="source-span" xml:id="source-2742-2775" n="19"/>
+        <note type="source-span" xml:id="source-2775-2778" n="19"/>
+        <note type="source-span" xml:id="source-2778-2802" n="19"/>
+        <note type="source-span" xml:id="source-2802-2835" n="19"/>
+        <note type="source-span" xml:id="source-2835-2847" n="19"/>
+        <note type="source-span" xml:id="source-2847-2894" n="19"/>
+        <note type="source-span" xml:id="source-2894-2897" n="20"/>
+        <note type="source-span" xml:id="source-2894-2956" n="20"/>
+        <note type="source-span" xml:id="source-2897-2912" n="20"/>
+        <note type="source-span" xml:id="source-2912-2915" n="20"/>
+        <note type="source-span" xml:id="source-2915-2927" n="20"/>
+        <note type="source-span" xml:id="source-2956-2998" n="21"/>
+        <note type="source-span" xml:id="source-2956-3069" n="21"/>
+        <note type="source-span" xml:id="source-2998-3022" n="21"/>
+        <note type="source-span" xml:id="source-3022-3069" n="21"/>
+        <note type="source-span" xml:id="source-3069-3128" n="22"/>
+        <note type="source-span" xml:id="source-3128-3343" n="23"/>
+        <note type="source-span" xml:id="source-3343-3486" n="24"/>
+        <note type="source-span" xml:id="source-3409-3424" n="24"/>
+        <note type="source-span" xml:id="source-3486-3576" n="25"/>
+        <note type="source-span" xml:id="source-3486-3788" n="25"/>
+        <note type="source-span" xml:id="source-3576-3594" n="25"/>
+        <note type="source-span" xml:id="source-3594-3639" n="25"/>
+        <note type="source-span" xml:id="source-3639-3672" n="25"/>
+        <note type="source-span" xml:id="source-3672-3684" n="25"/>
+        <note type="source-span" xml:id="source-3684-3711" n="25"/>
+        <note type="source-span" xml:id="source-3711-3788" n="25"/>
+        <note type="source-span" xml:id="source-3788-3803" n="26"/>
+        <note type="source-span" xml:id="source-3788-4228" n="26"/>
+        <note type="source-span" xml:id="source-3803-3818" n="26"/>
+        <note type="source-span" xml:id="source-3818-3824" n="26"/>
+        <note type="source-span" xml:id="source-3824-3848" n="26"/>
+        <note type="source-span" xml:id="source-3848-3860" n="26"/>
+        <note type="source-span" xml:id="source-3860-3878" n="26"/>
+        <note type="source-span" xml:id="source-3878-3887" n="26"/>
+        <note type="source-span" xml:id="source-3887-3905" n="26"/>
+        <note type="source-span" xml:id="source-3905-3908" n="26"/>
+        <note type="source-span" xml:id="source-3908-3923" n="26"/>
+        <note type="source-span" xml:id="source-3923-3932" n="26"/>
+        <note type="source-span" xml:id="source-3932-3956" n="26"/>
+        <note type="source-span" xml:id="source-3956-3998" n="26"/>
+        <note type="source-span" xml:id="source-3998-4016" n="26"/>
+        <note type="source-span" xml:id="source-4016-4028" n="26"/>
+        <note type="source-span" xml:id="source-4028-4043" n="26"/>
+        <note type="source-span" xml:id="source-4043-4052" n="26"/>
+        <note type="source-span" xml:id="source-4052-4067" n="26"/>
+        <note type="source-span" xml:id="source-4067-4228" n="26"/>
+        <note type="source-span" xml:id="source-4228-4419" n="27"/>
+        <note type="source-span" xml:id="source-4246-4270" n="27"/>
+        <note type="source-span" xml:id="source-4270-4282" n="27"/>
+        <note type="source-span" xml:id="source-4282-4300" n="27"/>
+        <note type="source-span" xml:id="source-4300-4327" n="27"/>
+        <note type="source-span" xml:id="source-4327-4351" n="27"/>
+        <note type="source-span" xml:id="source-4419-4455" n="28"/>
+        <note type="source-span" xml:id="source-4419-4520" n="28"/>
+        <note type="source-span" xml:id="source-4455-4467" n="28"/>
+        <note type="source-span" xml:id="source-4467-4491" n="28"/>
+        <note type="source-span" xml:id="source-4491-4509" n="28"/>
+        <note type="source-span" xml:id="source-4509-4520" n="28"/>
+        <note type="source-span" xml:id="source-4520-4627" n="29"/>
+        <note type="source-span" xml:id="source-4627-4663" n="30"/>
+        <note type="source-span" xml:id="source-4627-4920" n="30"/>
+        <note type="source-span" xml:id="source-4663-4693" n="30"/>
+        <note type="source-span" xml:id="source-4693-4696" n="30"/>
+        <note type="source-span" xml:id="source-4696-4720" n="30"/>
+        <note type="source-span" xml:id="source-4720-4759" n="30"/>
+        <note type="source-span" xml:id="source-4759-4774" n="30"/>
+        <note type="source-span" xml:id="source-4774-4867" n="30"/>
+        <note type="source-span" xml:id="source-4867-4885" n="30"/>
+        <note type="source-span" xml:id="source-4885-4888" n="30"/>
+        <note type="source-span" xml:id="source-4888-4903" n="30"/>
+        <note type="source-span" xml:id="source-4903-4920" n="30"/>
+        <note type="source-span" xml:id="source-4920-4956" n="31"/>
+        <note type="source-span" xml:id="source-4920-5153" n="31"/>
+        <note type="source-span" xml:id="source-4956-4977" n="31"/>
+        <note type="source-span" xml:id="source-4977-5022" n="31"/>
+        <note type="source-span" xml:id="source-5022-5040" n="31"/>
+        <note type="source-span" xml:id="source-5040-5088" n="31"/>
+        <note type="source-span" xml:id="source-5088-5109" n="31"/>
+        <note type="source-span" xml:id="source-5109-5153" n="31"/>
+        <note type="source-span" xml:id="source-5153-5245" n="32"/>
+        <note type="source-span" xml:id="source-5198-5213" n="32"/>
+        <note type="source-span" xml:id="source-5245-5248" n="33"/>
+        <note type="source-span" xml:id="source-5245-5421" n="33"/>
+        <note type="source-span" xml:id="source-5248-5260" n="33"/>
+        <note type="source-span" xml:id="source-5260-5421" n="33"/>
+        <note type="source-span" xml:id="source-5421-5456" n="34"/>
+        <note type="source-span" xml:id="source-5456-5647" n="35"/>
+        <note type="source-span" xml:id="source-5647-5737" n="36"/>
+        <note type="source-span" xml:id="source-5647-5913" n="36"/>
+        <note type="source-span" xml:id="source-5737-5749" n="36"/>
+        <note type="source-span" xml:id="source-5749-5770" n="36"/>
+        <note type="source-span" xml:id="source-5770-5788" n="36"/>
+        <note type="source-span" xml:id="source-5788-5913" n="36"/>
+        <note type="source-span" xml:id="source-5913-6018" n="37"/>
+        <note type="source-span" xml:id="source-5913-7153" n="37"/>
+        <note type="source-span" xml:id="source-6018-6030" n="37"/>
+        <note type="source-span" xml:id="source-6030-6114" n="37"/>
+        <note type="source-span" xml:id="source-6114-6132" n="37"/>
+        <note type="source-span" xml:id="source-6132-6135" n="37"/>
+        <note type="source-span" xml:id="source-6135-6159" n="37"/>
+        <note type="source-span" xml:id="source-6159-6171" n="37"/>
+        <note type="source-span" xml:id="source-616-1491" n="18"/>
+        <note type="source-span" xml:id="source-616-619" n="18"/>
+        <note type="source-span" xml:id="source-6171-6183" n="37"/>
+        <note type="source-span" xml:id="source-6183-6255" n="37"/>
+        <note type="source-span" xml:id="source-619-643" n="18"/>
+        <note type="source-span" xml:id="source-6255-6314" n="37"/>
+        <note type="source-span" xml:id="source-6255-6335" n="37"/>
+        <note type="source-span" xml:id="source-6314-6317" n="37"/>
+        <note type="source-span" xml:id="source-6335-6371" n="37"/>
+        <note type="source-span" xml:id="source-6371-6392" n="37"/>
+        <note type="source-span" xml:id="source-6392-6419" n="37"/>
+        <note type="source-span" xml:id="source-6419-6440" n="37"/>
+        <note type="source-span" xml:id="source-643-709" n="18"/>
+        <note type="source-span" xml:id="source-6440-6455" n="37"/>
+        <note type="source-span" xml:id="source-6455-6467" n="37"/>
+        <note type="source-span" xml:id="source-6467-6470" n="37"/>
+        <note type="source-span" xml:id="source-6470-6482" n="37"/>
+        <note type="source-span" xml:id="source-6482-6560" n="37"/>
+        <note type="source-span" xml:id="source-6560-6575" n="37"/>
+        <note type="source-span" xml:id="source-6575-6632" n="37"/>
+        <note type="source-span" xml:id="source-6632-6647" n="37"/>
+        <note type="source-span" xml:id="source-6647-6650" n="37"/>
+        <note type="source-span" xml:id="source-6650-6662" n="37"/>
+        <note type="source-span" xml:id="source-6662-6791" n="37"/>
+        <note type="source-span" xml:id="source-6791-6809" n="37"/>
+        <note type="source-span" xml:id="source-6809-6818" n="37"/>
+        <note type="source-span" xml:id="source-6818-6833" n="37"/>
+        <note type="source-span" xml:id="source-6833-6854" n="37"/>
+        <note type="source-span" xml:id="source-6854-6869" n="37"/>
+        <note type="source-span" xml:id="source-6869-6902" n="37"/>
+        <note type="source-span" xml:id="source-6902-6923" n="37"/>
+        <note type="source-span" xml:id="source-6923-6926" n="37"/>
+        <note type="source-span" xml:id="source-6926-6938" n="37"/>
+        <note type="source-span" xml:id="source-6938-6995" n="37"/>
+        <note type="source-span" xml:id="source-6995-7010" n="37"/>
+        <note type="source-span" xml:id="source-7010-7013" n="37"/>
+        <note type="source-span" xml:id="source-7013-7025" n="37"/>
+        <note type="source-span" xml:id="source-7025-7079" n="37"/>
+        <note type="source-span" xml:id="source-7079-7094" n="37"/>
+        <note type="source-span" xml:id="source-709-739" n="18"/>
+        <note type="source-span" xml:id="source-7094-7106" n="37"/>
+        <note type="source-span" xml:id="source-7106-7118" n="37"/>
+        <note type="source-span" xml:id="source-7118-7153" n="37"/>
+        <note type="source-span" xml:id="source-7153-7162" n="38"/>
+        <note type="source-span" xml:id="source-7153-7305" n="38"/>
+        <note type="source-span" xml:id="source-7162-7180" n="38"/>
+        <note type="source-span" xml:id="source-7180-7305" n="38"/>
+        <note type="source-span" xml:id="source-7305-7496" n="39"/>
+        <note type="source-span" xml:id="source-7350-7368" n="39"/>
+        <note type="source-span" xml:id="source-7368-7410" n="39"/>
+        <note type="source-span" xml:id="source-739-742" n="18"/>
+        <note type="source-span" xml:id="source-7410-7431" n="39"/>
+        <note type="source-span" xml:id="source-742-760" n="18"/>
+        <note type="source-span" xml:id="source-7431-7434" n="39"/>
+        <note type="source-span" xml:id="source-7434-7461" n="39"/>
+        <note type="source-span" xml:id="source-7496-7508" n="40"/>
+        <note type="source-span" xml:id="source-7496-7638" n="40"/>
+        <note type="source-span" xml:id="source-7508-7567" n="40"/>
+        <note type="source-span" xml:id="source-7508-7588" n="40"/>
+        <note type="source-span" xml:id="source-7567-7570" n="40"/>
+        <note type="source-span" xml:id="source-7588-7638" n="40"/>
+        <note type="source-span" xml:id="source-760-769" n="18"/>
+        <note type="source-span" xml:id="source-7638-7739" n="41"/>
+        <note type="source-span" xml:id="source-769-787" n="18"/>
+        <note type="source-span" xml:id="source-7739-7742" n="42"/>
+        <note type="source-span" xml:id="source-7739-7846" n="42"/>
+        <note type="source-span" xml:id="source-7742-7760" n="42"/>
+        <note type="source-span" xml:id="source-7760-7763" n="42"/>
+        <note type="source-span" xml:id="source-7763-7787" n="42"/>
+        <note type="source-span" xml:id="source-7787-7846" n="42"/>
+        <note type="source-span" xml:id="source-7846-7914" n="43"/>
+        <note type="source-span" xml:id="source-787-790" n="18"/>
+        <note type="source-span" xml:id="source-790-811" n="18"/>
+        <note type="source-span" xml:id="source-7914-7967" n="44"/>
+        <note type="source-span" xml:id="source-7967-8098" n="45"/>
+        <note type="source-span" xml:id="source-8021-8036" n="45"/>
+        <note type="source-span" xml:id="source-8098-8136" n="46"/>
+        <note type="source-span" xml:id="source-811-886" n="18"/>
+        <note type="source-span" xml:id="source-8136-8192" n="47"/>
+        <note type="source-span" xml:id="source-8192-8222" n="48"/>
+        <note type="source-span" xml:id="source-8192-8416" n="48"/>
+        <note type="source-span" xml:id="source-8222-8234" n="48"/>
+        <note type="source-span" xml:id="source-8234-8264" n="48"/>
+        <note type="source-span" xml:id="source-8264-8288" n="48"/>
+        <note type="source-span" xml:id="source-8288-8366" n="48"/>
+        <note type="source-span" xml:id="source-8366-8381" n="48"/>
+        <note type="source-span" xml:id="source-8381-8416" n="48"/>
+        <note type="source-span" xml:id="source-8416-8472" n="49"/>
+        <note type="source-span" xml:id="source-8472-8588" n="50"/>
+        <note type="source-span" xml:id="source-8588-8677" n="51"/>
+        <note type="source-span" xml:id="source-8597-8624" n="51"/>
+        <note type="source-span" xml:id="source-8677-8766" n="52"/>
+        <note type="source-span" xml:id="source-8766-8801" n="53"/>
+        <note type="source-span" xml:id="source-8801-8813" n="54"/>
+        <note type="source-span" xml:id="source-8801-9058" n="54"/>
+        <note type="source-span" xml:id="source-8813-8831" n="54"/>
+        <note type="source-span" xml:id="source-8831-9058" n="54"/>
+        <note type="source-span" xml:id="source-886-907" n="18"/>
+        <note type="source-span" xml:id="source-9058-9061" n="55"/>
+        <note type="source-span" xml:id="source-9058-9210" n="55"/>
+        <note type="source-span" xml:id="source-9061-9079" n="55"/>
+        <note type="source-span" xml:id="source-907-925" n="18"/>
+        <note type="source-span" xml:id="source-9079-9085" n="55"/>
+        <note type="source-span" xml:id="source-9085-9109" n="55"/>
+        <note type="source-span" xml:id="source-9109-9142" n="55"/>
+        <note type="source-span" xml:id="source-9142-9160" n="55"/>
+        <note type="source-span" xml:id="source-9210-9251" n="56"/>
+        <note type="source-span" xml:id="source-925-940" n="18"/>
+        <note type="source-span" xml:id="source-9251-9266" n="57"/>
+        <note type="source-span" xml:id="source-9251-9418" n="57"/>
+        <note type="source-span" xml:id="source-9266-9284" n="57"/>
+        <note type="source-span" xml:id="source-9284-9418" n="57"/>
+        <note type="source-span" xml:id="source-940-970" n="18"/>
+        <note type="source-span" xml:id="source-9418-9579" n="58"/>
+        <note type="source-span" xml:id="source-9430-9451" n="58"/>
+        <note type="source-span" xml:id="source-9451-9454" n="58"/>
+        <note type="source-span" xml:id="source-9454-9475" n="58"/>
+        <note type="source-span" xml:id="source-9475-9520" n="58"/>
+        <note type="source-span" xml:id="source-9520-9544" n="58"/>
+        <note type="source-span" xml:id="source-9544-9547" n="58"/>
+        <note type="source-span" xml:id="source-9547-9562" n="58"/>
+        <note type="source-span" xml:id="source-9579-9748" n="59"/>
+        <note type="source-span" xml:id="source-970-982" n="18"/>
+        <note type="source-span" xml:id="source-9748-10212" n="61"/>
+        <note type="source-span" xml:id="source-9748-9769" n="61"/>
+        <note type="source-span" xml:id="source-9769-9814" n="61"/>
+        <note type="source-span" xml:id="source-9814-9841" n="61"/>
+        <note type="source-span" xml:id="source-982-1009" n="18"/>
+        <note type="source-span" xml:id="source-9841-9859" n="61"/>
+        <note type="source-span" xml:id="source-9859-9880" n="61"/>
+        <note type="source-span" xml:id="source-9880-9907" n="61"/>
+        <note type="source-span" xml:id="source-9907-9922" n="61"/>
+        <note type="source-span" xml:id="source-9922-9949" n="61"/>
+        <note type="source-span" xml:id="source-9949-9976" n="61"/>
+        <note type="source-span" xml:id="source-9976-9988" n="61"/>
+        <note type="source-span" xml:id="source-9988-10042" n="61"/>
+      </div>
+      <note type="parser-completion" n="true">The n attribute is true when no parser diagnostic of error severity was raised for this source. What the converter could not interpret is recorded in the interpretation-problem and parser-diagnostic notes.</note>
+      <note type="source-decoding">windows-31j</note>
+    </back>
+  </text>
+</TEI>

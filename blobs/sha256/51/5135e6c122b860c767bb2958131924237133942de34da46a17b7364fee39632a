@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:snh="https://w3id.org/soranoha/ns/tei" xmlns="http://www.tei-c.org/ns/1.0" snh:vocab-version="3">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ja">アラビヤンナイト</title>
+        <title type="reading" xml:lang="ja-Hira">アラビヤンナイト</title>
+        <title type="sub" xml:lang="ja">01 一、アラジンとふしぎなランプ</title>
+        <title type="sub-reading" xml:lang="ja-Hira">01 いち、アラジンとふしぎなランプ</title>
+        <title type="original">ALADDIN AND THE WONDERFUL LAMP</title>
+        <author><persName xml:lang="ja"><surname>菊池</surname><forename>寛</forename><idno type="aozora-person-id">000083</idno></persName><persName xml:lang="ja-Hira"><surname>きくち</surname><forename>かん</forename></persName><persName xml:lang="ja-Latn"><surname>Kikuchi</surname><forename>Kan</forename></persName></author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://w3id.org/soranoha/">Soranoha</publisher>
+        <idno type="soranoha-work-identifier">043122_000083</idno>
+        <idno type="aozora-work-id">043122</idno>
+        <idno type="aozora-card-url">https://www.aozora.gr.jp/cards/000083/card43122.html</idno>
+        <date when="2014-09-18">2014-09-18</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">The underlying work is in the public domain; Soranoha asserts no rights over it.</licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Soranoha's encoding of this work and the artifacts derived from it are dedicated to the public domain under CC0-1.0. Attribution is requested, not required. Full rights statement: <ptr target="https://w3id.org/soranoha/rights"/></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>アラビヤンナイト</title><publisher>主婦之友社</publisher><date>1948（昭和23）年7月10日</date><note type="input-edition">1948（昭和23）年7月10日初版</note><note type="proof-edition">1948（昭和23）年7月10日初版</note></bibl>
+        <bibl><idno type="source-content-hash">sha256:639fb15aa577e43906c5748a98591c42d58d8d6a87818f2ae133d503f5d73994</idno></bibl>
+        <bibl><idno type="primary-text-hash">sha256:3ecb5126fcdc988f77dd77e1d79f36a56483d84845d4f7cb5b5320f5a9df3b22</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css"/>
+      <classDecl><taxonomy xml:id="ndc"><bibl>分類番号 as recorded by <title>青空文庫</title>, read as a class of 日本十進分類法 新訂9版. Category labels are from <title>NDC9 Linked Data</title> (日本図書館協会, CC BY); a category's IRI is <ref target="http://jla.or.jp/data/ndc9">http://jla.or.jp/data/ndc9</ref> followed by # and its n.</bibl><category xml:id="ndc929" n="929"><catDesc xml:lang="ja">その他の東洋文学</catDesc><catDesc xml:lang="en">Other Oriental literatures</catDesc></category></taxonomy><taxonomy xml:id="aozora-shelf"><bibl>分類番号 as recorded by <title>青空文庫</title>: the prefix K (児童図書記号) is placed before the NDC code for children's books.</bibl><category xml:id="shelf-k" n="K"><catDesc xml:lang="ja">児童書</catDesc><catDesc xml:lang="en">Children's material</catDesc></category></taxonomy><taxonomy xml:id="aozora-orthography"><bibl><title>青空文庫</title> 文字遣い種別: the orthographic style Aozora Bunko records for the transcription.</bibl></taxonomy></classDecl>
+      <refsDecl xml:id="source-spans"><p>A note of type source-span has an xml:id of the form source-START-END, giving the extent in UTF-8 bytes of the decoded primary text identified in sourceDesc, after the emendations declared in editorialDecl/correction are applied; each emendation replaces its sic text by its corr text at its own extent. <ptr target="https://w3id.org/soranoha/ns/tei"/></p></refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ja">日本語</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#ndc">K929</classCode>
+        <catRef scheme="#ndc" target="#ndc929"/>
+        <catRef scheme="#aozora-shelf" target="#shelf-k"/>
+        <classCode scheme="#aozora-orthography">新字新仮名</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-531-806"><seg source="#source-531-540">昔、</seg><hi rend="bouten 傍点 right" source="#source-540-576" corresp="#source-546-576"><seg source="#source-540-546">しな</seg></hi><seg source="#source-576-609">の都に、ムスタフという</seg><ruby type="furigana" rend="right" source="#source-609-633"><rb>貧乏</rb><rt>びんぼう</rt></ruby><seg source="#source-633-759">な仕立屋が住んでいました。このムスタフには、おかみさんと、アラジンと呼ぶたった一人の</seg><ruby type="furigana" rend="right" source="#source-759-780"><rb>息子</rb><rt>むすこ</rt></ruby><seg source="#source-780-806">とがありました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-806-1360"><seg source="#source-806-950">この仕立屋は大へん心がけのよい人で、一生けんめいに働きました。けれども、悲しいことには、息子が</seg><ruby type="furigana" rend="right" source="#source-950-965"><rb>大</rb><rt>だい</rt></ruby><seg source="#source-965-1360">のなまけ者で、年が年じゅう、町へ行って、なまけ者の子供たちと遊びくらしていました。何か仕事をおぼえなければならない年頃になっても、そんなことはまっぴらだと言ってはねつけますので、ほんとうにこの子のことをどうしたらいいのか、両親もとほうにくれているありさまでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-1360-1989"><seg source="#source-1360-1549">それでも、お父さんのムスタフは、せめて仕立屋にでもしようと思いました。それである日、アラジンを仕事場へつれて入って、仕立物を</seg><ruby type="furigana" rend="right" source="#source-1549-1564"><rb>教</rb><rt>おし</rt></ruby><seg source="#source-1564-1989">えようとしましたが、アラジンは、ばかにして笑っているばかりでした。そして、お父さんのゆだんを見すまして、いち早くにげ出してしまいました。お父さんとお母さんは、すぐに追っかけて出たのですけれど、アラジンの走り方があんまり早いので、もうどこへ行ったのか、かいもく、姿は見えませんでした。</seg></p>
+      <p source="#source-1989-2084">「ああ、わしには、このなまけ者をどうすることもできないのか。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2084-2458"><seg source="#source-2084-2336">ムスタフは、なげきました。そして、まもなく、子供のことを心配のあまり、病気になって、死んでしまいました。こうなると、アラジンのお母さんは、少しばかりあった仕立物に使う</seg><ruby type="furigana" rend="right" source="#source-2336-2357"><rb>道具</rb><rt>どうぐ</rt></ruby><seg source="#source-2357-2458">を売りはらって、それから後は、糸をつむいでくらしを立てていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2458-2955"><seg source="#source-2458-2560">さて、ある日、アラジンが、いつものように、町のなまけ者と一しょに、</seg><hi rend="bouten 傍点 right" source="#source-2560-2602" corresp="#source-2569-2602"><seg source="#source-2560-2569">めんこ</seg></hi><seg source="#source-2602-2677">をして遊んでいました。ところがそこへ、いつのまにか</seg><ruby type="furigana" rend="right" source="#source-2677-2692"><rb>背</rb><rt>せい</rt></ruby>の高い、色の黒いおじいさんがやって来て、じっとアラジンを見つめていました。やがて、めんこが一しょうぶ終った時、そのおじいさんがアラジンに「おいで、おいで」をしました。そして、</p>
+      <p source="#source-2955-3194">「お前の名は何と言うのかね。」と、たずねました。この人は大へんしんせつそうなふうをしていましたが、ほんとうは、アフリカの<hi rend="bouten 傍点 right" source="#source-3135-3177" corresp="#source-3144-3177"><seg source="#source-3135-3144">まほう</seg></hi><seg source="#source-3177-3194">使でした。</seg></p>
+      <p source="#source-3194-3235">「私の名はアラジンです。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-3235-3357"><seg source="#source-3235-3357">アラジンは、いったい、このおじいさんはだれだろうと思いながら、こう答えました。</seg></p>
+      <p source="#source-3357-3455">「それから、お前のお父さんの名は。」また、まほう使が聞きました。</p>
+      <p source="#source-3455-3580">「お父さんの名はムスタフと言って、仕立屋でした。でも、とっくの昔に死にましたよ。」</p>
+      <p source="#source-3580-3666"><seg source="#source-3580-3666">と、アラジンは答えました。すると、この悪者のまほう使は、</seg></p>
+      <p source="#source-3666-3866">「ああ、それは私の弟だ。お前は、まあ、私の<ruby type="furigana" rend="right" source="#source-3729-3744"><rb>甥</rb><rt>おい</rt></ruby><seg source="#source-3744-3822">だったんだね。私は、しばらく外国へ行っていた、お前の</seg><ruby type="furigana" rend="right" source="#source-3822-3840"><rb>伯父</rb><rt>おじ</rt></ruby>さんなんだよ。」</p>
+      <p source="#source-3866-3946"><seg source="#source-3866-3946">と言って、いきなりアラジンをだきしめました。そして、</seg></p>
+      <p source="#source-3946-4236">「早く家へ帰って、お母さんに、私が会いに行きますから、と言っておくれ。それから、ほんの少しですが、と言って、これをあげておくれ。」と言って、アラジンの手に、<ruby type="furigana" rend="right" source="#source-4180-4201"><rb>金貨</rb><rt>きんか</rt></ruby><seg source="#source-4201-4236">を五枚にぎらせました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4236-4394"><seg source="#source-4236-4394">アラジンは、大いそぎで家へ帰って、お母さんに、この伯父さんだという人の話をしました。するとお母さんは、</seg></p>
+      <p source="#source-4394-4546">「そりゃあ、きっと、何かのまちがいだろう。お前に伯父さんなんか、ありゃあしないよ。」と、言いました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4546-4842"><seg source="#source-4546-4842">しかし、お母さんは、その人がくれたという金貨を見て、ひょっとしたら、そのおじいさんはしんるいの人かもしれない、と思いました。それで、できるかぎりのごちそうをして、その人が来るのを待っていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4842-5018"><seg source="#source-4842-5018">まもなくアフリカのまほう使は、いろいろめずらしい果物や、おいしいお菓子をどっさりおみやげに持って、やって来ました。</seg></p>
+      <p source="#source-5018-5179">「なくなった、かわいそうな弟の話をしてください。いつも弟がどこに<ruby type="furigana" rend="right" source="#source-5114-5129"><rb>腰</rb><rt>こし</rt></ruby>かけていたか、教えてください。」</p>
+      <p source="#source-5179-5253"><seg source="#source-5179-5253">と、まほう使は、お母さんとアラジンに聞きました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5253-5801"><seg source="#source-5253-5322">お母さんは、いつもムスタフが腰かけていた、長</seg><hi rend="bouten 傍点 right" source="#source-5322-5358" corresp="#source-5328-5358"><seg source="#source-5322-5328">いす</seg></hi><seg source="#source-5358-5801">を教えてやりました。すると、まほう使は、その前にひざまずいて、泣きながらその長いすにキッスしました。それで、お母さんは、この男はなくなった主人の兄さんにちがいない、と思うようになりました。ことに、このまほう使が、アラジンをなめるようにかわいがるのを見て、なおさら、そうときめてしまったのでした。</seg></p>
+      <p source="#source-5801-5899">「何か、仕事をしているかね。」まほう使がアラジンにたずねました。</p>
+      <p source="#source-5899-6117">「まあ、ほんとうに、おはずかしゅうございますわ。この子は、しょっちゅう町へ行って、遊んでばかりいまして、まだ何にもしていないのでございますよ。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-6117-6185"><seg source="#source-6117-6185">お母さんが手をもみながら、そう答えました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-6185-6340"><seg source="#source-6185-6340">アラジンは、伯父さんだという人が、じっと自分を見つめているので、はずかしそうに、うつむいていました。</seg></p>
+      <p source="#source-6340-6399">「何か仕事をしなきゃあいけませんな。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-6399-6503"><seg source="#source-6399-6503">まほう使は、こうお母さんに言っておいて、さて、こんどはアラジンに、</seg></p>
+      <p source="#source-6503-6706">「お前はいったい、どんな商売がしてみたいのかね。私はお前に<ruby type="furigana" rend="right" source="#source-6590-6620"><rb>呉服店</rb><rt>ごふくみせ</rt></ruby>を出させてあげようと思っているのだが。」と、言いました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-6706-6804"><seg source="#source-6706-6804">アラジンは、これを聞くと、うちょうてんになってよろこびました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-6804-7076"><seg source="#source-6804-7076">あくる日、伯父さんだという人は、アラジンに、りっぱな着物を一そろい買って来てくれました。アラジンは、それを着て、この伯父さんだという人につれられて、町じゅうを見物して歩きました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-7076-7777"><seg source="#source-7076-7196">その次の日もまた、まほう使はアラジンをつれ出しました。そして、こんどは、美しい</seg><ruby type="furigana" rend="right" source="#source-7196-7220"><rb>花園</rb><rt>はなぞの</rt></ruby><seg source="#source-7220-7247">の中を通りぬけて、</seg><ruby type="furigana" rend="right" source="#source-7247-7268"><rb>田舎</rb><rt>いなか</rt></ruby><seg source="#source-7268-7777">へ出ました。二人はずいぶん歩きました。アラジンは、そろそろくたびれはじめました。けれども、まほう使がおいしいお菓子や果物をくれたり、めずらしい話を次から次と話して聞かせてくれたりするものですから、大してくたびれもしませんでした。そんなにして、とうとう二人は山と山との間の深い谷まで来てしまいました。そこでやっと、まほう使が足をとめました。</seg></p>
+      <p source="#source-7777-7974">「ああ、とうとうやって来たな。まず、たき火をしようじゃあないか。かれ枝を少し<ruby type="furigana" rend="right" source="#source-7891-7906"><rb>拾</rb><rt>ひろ</rt></ruby>って来ておくれ。」と、アラジンに言いました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-7974-8669"><seg source="#source-7974-8259">アラジンはさっそく、かれ枝を拾いに行きました。そして、すぐ両手にいっぱいかかえて、帰って来ました。まほう使は、それに火をつけました。かれ枝は、どんどんもえはじめました。おじいさんはふしぎな</seg><ruby type="furigana" rend="right" source="#source-8259-8274"><rb>粉</rb><rt>こな</rt></ruby><seg source="#source-8274-8625">を、ポケットから出しました。それから、口の中で何かぶつぶつ言いながら、火の上にふりかけました。すると、たちまち大地がゆれはじめました。そして、目の前の地面がぱっとわれて、大きな、まっ四角な平たい石があらわれてきました。その石の上には、</seg><ruby type="furigana" rend="right" source="#source-8625-8637"><rb>輪</rb><rt>わ</rt></ruby><seg source="#source-8637-8669">がはまっていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-8669-8887"><seg source="#source-8669-8887">アラジンはこわがって、家へ走って帰ろうとしました。けれども、まほう使はそうはさせませんでした。アラジンのえりがみをつかんで、引きもどしました。</seg></p>
+      <p source="#source-8887-9030">「伯父さん、どうしてこんなひどいことをするんです。」アラジンは泣きじゃくりながら見上げました。</p>
+      <p source="#source-9030-9284">「だまって、私の言う通りにすればいい。この石の下には<ruby type="furigana" rend="right" source="#source-9108-9135"><rb>宝物</rb><rt>たからもの</rt></ruby>があるのだ。それをお前に分けてやろうというのだ。だから私の言う通りにおし。すぐに出て来るからな。」</p>
+      <p source="#source-9284-9325"><seg source="#source-9284-9325">と、まほう使が言いました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-9325-9579"><seg source="#source-9325-9579">宝物と聞くと、アラジンは今までのこわさはすっかり忘れて、よろこんでしまいました。そして、まほう使の言う通りに、石の上の輪に手をかけると、石はぞうさなく持ち上りました。</seg></p>
+      <p source="#source-9579-10367">「アラジンや、ごらん。そこに下へおりて行く石段が見えるだろう。お前が、その石段をおりきるとね、<ruby type="furigana" rend="right" source="#source-9720-9750"><rb>大広間</rb><rt>おおひろま</rt></ruby><seg source="#source-9750-9846">が三つならんでいるんだよ。その大広間を通って行くのだが、その時、</seg><ruby type="furigana" rend="right" source="#source-9846-9870"><rb>外套</rb><rt>がいとう</rt></ruby><seg source="#source-9870-10080">がかべにさわらないように気をつけなきゃあいけないよ。もしさわったが最後、お前はすぐに死んでしまうからね。そうして、その大広間を通りぬけると、</seg><ruby type="furigana" rend="right" source="#source-10080-10116"><rb>果物畠</rb><rt>くだものばたけ</rt></ruby><seg source="#source-10116-10323">があるのだよ。その中をまた通りすぎると、つきあたりに穴ぐらがある。その中に一つのランプがとぼっているからね、そのランプをおろして、中の油を</seg><ruby type="furigana" rend="right" source="#source-10323-10335"><rb>捨</rb><rt>す</rt></ruby>てて持ってお帰り。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-10367-10609"><seg source="#source-10367-10451">まほう使はこう言いながら、おまもりだといって、まほうの</seg><ruby type="furigana" rend="right" source="#source-10451-10472"><rb>指輪</rb><rt>ゆびわ</rt></ruby><seg source="#source-10472-10568">をアラジンの指にはめてくれました。そして、すぐに出かけるようにと</seg><ruby type="furigana" rend="right" source="#source-10568-10592"><rb>命令</rb><rt>めいれい</rt></ruby><seg source="#source-10592-10609">しました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-10609-11016"><seg source="#source-10609-11016">アラジンは、まほう使の言った通りにおりて行きました。何もかも、まほう使が言った通りのものがありました。アラジンは三つの大広間と果物畠を通りぬけて、ランプのあるところまで来ました。そこで、ランプをとって油を捨てて、だいじにふところにしまってから、あたりを見まわしました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-11016-11993"><seg source="#source-11016-11232">アラジンは、ゆめにさえこんな見事な果物畠は見たことがありませんでした。なっている果物がいろいろさまざまの美しい色をしていて、まるでそこら一面、</seg><hi rend="bouten 傍点 right" source="#source-11232-11268" corresp="#source-11238-11268"><seg source="#source-11232-11238">にじ</seg></hi><seg source="#source-11268-11334">が立ちこめたように見えるのです。すきとおって</seg><ruby type="furigana" rend="right" source="#source-11334-11361"><rb>水晶</rb><rt>すいしょう</rt></ruby><seg source="#source-11361-11403">のようなのもありました。まっ</seg><ruby type="furigana" rend="right" source="#source-11403-11415"><rb>赤</rb><rt>か</rt></ruby><seg source="#source-11415-11751">な色をしていて、ぱちぱちと火花をちらしているのもありました。そのほか緑、青、むらさき、だいだい色なんどで、葉はみんな金と銀とでできていました。この果物は、ほんとうはダイヤモンドや、ルビーや、エメラルドや、サファイヤなどという</seg><ruby type="furigana" rend="right" source="#source-11751-11775"><rb>宝石</rb><rt>ほうせき</rt></ruby><seg source="#source-11775-11993">だったのですが、アラジンには気がつきませんでした。けれども、あんまり見事だったものですから、帰りにこの果物をとって、ポケットに入れておきました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-11993-12211"><seg source="#source-11993-12211">アラジンがやっと石段の下までたどりついた時、地の上では、まほう使が一心に下の方を見つめて待っていました。そしてアラジンが石段をのぼりかけると、</seg></p>
+      <p source="#source-12211-12297">「早く、ランプをおよこし。」と言って、手をのばしました。</p>
+      <p source="#source-12297-12488">「私が持って出るまで待ってくださいな。出たらすぐにあげますから。ここからじゃとどかないんですもの。」と、アラジンは答えました。</p>
+      <p source="#source-12488-12577">「もっと手を持ち上げたらとどくじゃないか。さあ、早くさ。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-12577-12666"><seg source="#source-12577-12613">おじいさんは、おこった</seg><ruby type="furigana" rend="right" source="#source-12613-12628"><rb>顔</rb><rt>かお</rt></ruby><seg source="#source-12628-12666">をしてどなりつけました。</seg></p>
+      <p source="#source-12666-12779">「すっかり外へ出てから渡しますよ。」アラジンは同じようなことを言いました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-12779-13216"><seg source="#source-12779-13216">すると、まほう使は、はがゆがってじだんだをふみました。そして、ふしぎな粉をたき火の中へ投げこみました。口の中で何かぶつぶつ言いながら。そうすると、たちまち石がずるずるとふたをしてしまい、地面の上へかえる道がふさがってしまったのでした。アラジンはまっ暗な地の下へとじこめられてしまいました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-13216-14058"><seg source="#source-13216-13978">これで、そのおじんさんは、アラジンの伯父さんではないということがはっきりとわかりました。このまほう使は、まほうの力によって遠いアフリカで、このランプのことをかぎつけたのでした。このランプは大へんふしぎなランプなのです。そのことは、読んでゆくにしたがって、だんだん皆さんにわかってくるでしょう。しかし、このまほう使は、自分でこのランプをとりに行くことはできないのでした。だれかほかの人がとって来てやらなければ、だめなのでした。それで、アラジンにつきまとったわけです。そして、ランプさえ手に入ったら、アラジンを</seg><ruby type="furigana" rend="right" source="#source-13978-13993"><rb>殺</rb><rt>ころ</rt></ruby><seg source="#source-13993-14058">してしまおう、と思っていたのでありました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-14058-14303"><seg source="#source-14058-14223">けれども、すっかりあてがはずれてしまいましたので、まほう使はアフリカへ帰ってしまいました。そして長い長い間、</seg><hi rend="bouten 傍点 right" source="#source-14223-14259" corresp="#source-14229-14259"><seg source="#source-14223-14229">しな</seg></hi><seg source="#source-14259-14303">へは、やって来ませんでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-14303-14872"><seg source="#source-14303-14543">さて、地の下へとじこめられたアラジンは、どこかにげ道はないかと、あの大広間や果物畠の方へ行ってみましたが、地面の上へかえって行く道はどこにもありませんでした。</seg><ruby type="furigana" rend="right" source="#source-14543-14564"><rb>二日</rb><rt>ふつか</rt></ruby><seg source="#source-14564-14872">の間アラジンは泣きくらしました。そして、どうしても地の下で死んでしまわなきゃならないのだと思いました。そして、両方の手をしっかりとにぎりあわせました。その時、まほう使がはめてくれた指輪にさわったのでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-14872-15045"><seg source="#source-14872-14923">すると、たちまち大きなおばけが、</seg><ruby type="furigana" rend="right" source="#source-14923-14938"><rb>床</rb><rt>ゆか</rt></ruby><seg source="#source-14938-15045">からむくむくとあらわれ出て、アラジンの前に立ちはだかりました。そして、</seg></p>
+      <p source="#source-15045-15416"><seg source="#source-15045-15048">「</seg><ruby type="furigana" rend="right" source="#source-15048-15063"><rb>坊</rb><rt>ぼっ</rt></ruby><seg source="#source-15063-15135">ちゃん、何かご用でございますか。私は、その指輪の</seg><ruby type="furigana" rend="right" source="#source-15135-15156"><rb>家来</rb><rt>けらい</rt></ruby>でございます。ですから、その指輪をはめていらっしゃる方のおっしゃる通りに、しなければならないのでございます。」と、言うのです。アラジンはとび上るほどよろこびました。そして、</p>
+      <p source="#source-15416-15625">「私の言うことなら、どんなことでも聞いてくれるんだね。よし、じゃ、こんなおそろしいところからすぐつれ出しておくれ。」と、こうたのみました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-15625-16113"><seg source="#source-15625-16069">そうすると、すぐに地面へ上る道が開きました。そして、あっというまに、もう自分の家の戸口まで帰っていました。お母さんがアラジンが帰ったので、涙を流してよろこびました。アラジンもお母さんにだきついて、何度も何度もキッスしました。それから、お母さんにこの間からのいちぶしじゅうを話そうとしましたが、お</seg><ruby type="furigana" rend="right" source="#source-16069-16084"><rb>腹</rb><rt>なか</rt></ruby><seg source="#source-16084-16113">がぺこぺこでした。</seg></p>
+      <p source="#source-16113-16271">「お母さん、何かたべさせてくださいな。私はお腹がぺこぺこで死にそうなんです。」と、アラジンが言いました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-16271-16294"><seg source="#source-16271-16294">お母さんは、</seg></p>
+      <p source="#source-16294-16602">「ああ、そうだろうとも、ねえ。だがこまったよ、もう家の中には、少しぽっちの<ruby type="furigana" rend="right" source="#source-16405-16420"><rb>綿</rb><rt>わた</rt></ruby>よりほかには何にもないんだよ。ちょっとお待ち、この綿を売りに行って、そのお金で何か買って来てあげよう。」と、言いました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-16602-16634"><seg source="#source-16602-16634">するとアラジンは、</seg></p>
+      <p source="#source-16634-16855">「お母さん、待ってください。いいことがあります。綿を売るよりも、この、私の持って帰ったランプをお売りなさいな。」と言って、あのランプを出しました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-16855-17091"><seg source="#source-16855-17091">けれども、ランプは大へん古ぼけていて、ほこりまみれでした。少しでもきれいになったら、少しでも高く売れるだろうと思って、お母さんはそれをみがこうとしました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-17091-17444"><seg source="#source-17091-17217">しかし、お母さんが、そのランプをこするかこすらないうちに、大きなまっ黒いおばけが、</seg><ruby type="furigana" rend="right" source="#source-17217-17232"><rb>床</rb><rt>ゆか</rt></ruby><seg source="#source-17232-17444">からむくむくと出て来ました。ちょうど、けむりのように、ゆらゆらとからだをゆすりながら、頭が天じょうへとどくと、そこから二人を見おろしました。</seg></p>
+      <p source="#source-17444-17677">「ご用は何でございますか。私はランプの家来でございます。そして私はランプを持っている方の言いつけ通りになるものでございます。」と、そのおばけが言いました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-17677-17964"><seg source="#source-17677-17964">アラジンのお母さんは、このおばけを見た時、こわさのあまり気をうしなってしまいました。アラジンは、すぐお母さんの手からランプを引ったくりました。そしてふるえながら、自分の手に持っていました。</seg></p>
+      <p source="#source-17964-18047">「ほんの少しでもいいから、たべるものを持っておいで。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18047-18466"><seg source="#source-18047-18374">アラジンは、やっぱりふるえながら、こう言いました。おそろしいおばけが、やっぱり天じょうからにらみつけていたものですから。が、その時、ランプの家来は、しゅっとけむりを立てて消えてゆきました。けれども、またすぐに、金のお</seg><ruby type="furigana" rend="right" source="#source-18374-18389"><rb>皿</rb><rt>さら</rt></ruby><seg source="#source-18389-18466">の上に上等のごちそうをのせて、あらわれて来ました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18466-19197"><seg source="#source-18466-18940">この時、アラジンのお母さんは、やっと気がつきました。けれども、このごちそうをたべるのを、大へんこわがりました。そして、すぐにランプを売ってくれと、アラジンにたのみました。あのおばけが、きっと何か悪いことをするにちがいないと考えたものですから。けれどもアラジンは、お母さんのこわがっているのを笑いました。そして、この</seg><hi rend="bouten 傍点 right" source="#source-18940-18982" corresp="#source-18949-18982"><seg source="#source-18940-18949">まほう</seg></hi><seg source="#source-18982-19012">のランプと、ふしぎな</seg><ruby type="furigana" rend="right" source="#source-19012-19033"><rb>指輪</rb><rt>ゆびわ</rt></ruby><seg source="#source-19033-19197">の使い方がわかったから、これからは、この二つをうまく使って、くらしむきのたすけにしようと思う、と言いました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-19197-19528"><seg source="#source-19197-19528">二人は金のお皿を売って、ほしいと思っていたお金を手に入れました。そして、それをみんな使ってしまった時、アラジンはランプのおばけに、もっと持って来いと言いつけました。こうして、親子は何年も何年も楽しくくらしていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-19528-20478"><seg source="#source-19528-19585">さて、アラジンの住んでいる町にあるお</seg><ruby type="furigana" rend="right" source="#source-19585-19600"><rb>城</rb><rt>しろ</rt></ruby><seg source="#source-19600-19618">の王さまのお</seg><ruby type="furigana" rend="right" source="#source-19618-19633"><rb>姫</rb><rt>ひめ</rt></ruby><seg source="#source-19633-20260">さまは、大へん美しい方だということでした。アラジンも、このうわさを聞いていましたので、どうにかしてお姫さまを一度おがみたいと思っていました。それで、いろいろお姫さまをおがむ方法を考えてみましたけれど、どれもこれもみんなだめらしく思われるのでした。なぜかというと、お姫さまは、いつも外へお出ましになる時は、きまったように、深々とベールをかぶっていらっしゃったからであります。けれども、とうとう、ある日、アラジンは王さまの</seg><ruby type="furigana" rend="right" source="#source-20260-20281"><rb>御殿</rb><rt>ごてん</rt></ruby><seg source="#source-20281-20350">の中へ入ることができました。そして、お姫さまが</seg><hi rend="bouten 傍点 right" source="#source-20350-20392" corresp="#source-20359-20392"><seg source="#source-20350-20359">ゆどの</seg></hi><seg source="#source-20392-20478">へおいでになるところを、戸のすきまからのぞいてみました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-20478-20783"><seg source="#source-20478-20783">それからアラジンは、お姫さまの美しいお顔が忘れられませんでした。そしてお姫さまがすきですきでたまらなくなりました。お姫さまは夏の夜のあけ方のように美しい方でした。アラジンは家へ帰って来て、お母さんに、</seg></p>
+      <p source="#source-20783-21115">「お母さん、私はとうとうお姫さまを見て来ましたよ。お母さん、私はお姫さまをおよめさんにしたくなりました。お母さん、すぐに王さまのお城へ行って、お姫さまをくださるようにお<ruby type="furigana" rend="right" source="#source-21035-21050"><rb>願</rb><rt>ねが</rt></ruby>いしてください。」と言って、せがみました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-21115-21414">お母さんは、息子のとほうもない望みを聞いて笑いました。そしてまた、アラジンが気ちがいになったのではないかと思って、心配もしました。しかし、アラジンはお母さんが「うん」と言うまではせがみ通しました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-21414-22103"><seg source="#source-21414-22071">それで、お母さんは、あくる日、王さまへのおみやげに、あのまほうの果物をナフキンにつつんで、ふしょうぶしょうにお城へ出かけて行きました。お城には、たくさんの人たちがつめかけて、うったえごとを申し出ておりました。お母さんは何だかいじけてしまって、進み出て自分のお願いを申し上げることができませんでした。だれもまた、お母さんに気がつきませんでした。そうして、毎日々々、お城へ出かけて行って、やっと一週間めに王さまのお目にとまりました。王さまは</seg><ruby type="furigana" rend="right" source="#source-22071-22095"><rb>大臣</rb><rt>だいじん</rt></ruby><seg source="#source-22095-22103">に、</seg></p>
+      <p source="#source-22103-22246">「あの女は何者だな。毎日々々、白いつつみを持って、来てるようだが。」と、おたずねになりました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-22246-22425"><seg source="#source-22246-22425">それで大臣は、お母さんに王さまの前へ進むように申しました。お母さんは、少し進んで、地面の上へひれふしてしまいました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-22425-22733"><seg source="#source-22425-22605">お母さんは、あんまりおそれ多いので、何も言うことができませんでした。けれども、王さまが大そうおやさしそうなので、やっと</seg><ruby type="furigana" rend="right" source="#source-22605-22626"><rb>勇気</rb><rt>ゆうき</rt></ruby><seg source="#source-22626-22733">を出して、アラジンにお姫さまをいただきたいとお願いしました。それから、</seg></p>
+      <p source="#source-22733-22900">「これはアラジンが王さまへのささげ物でございます。」と言って、まほうの果物をつつみから出して、さし上げました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-22900-23190"><seg source="#source-22900-23190">あたりにいた人々は、こんなりっぱな果物を生れて一度も見たことがなかったものですから、びっくりして声を立てました。果物はいろいろさまざまに光りかがやいて、見ている人たちがまぶしがるほどでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-23190-23300"><seg source="#source-23190-23300">王さまもおおどろきになりました。そして大臣を別のへやへお呼びになって、</seg></p>
+      <p source="#source-23300-23497">「あんなすばらしいささげ物をすることができる男なら、姫をやってもいいと思うが、どうだろうな。」と、ご<ruby type="furigana" rend="right" source="#source-23450-23474"><rb>相談</rb><rt>そうだん</rt></ruby><seg source="#source-23474-23497">なさいました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-23497-23646"><seg source="#source-23497-23646">ところが大臣は、ずっと前から、お姫さまを自分の息子のおよめさんにしたいと思っていたものですから、</seg></p>
+      <p source="#source-23646-23771">「そんなにいそいで約束をあそばないで、もう<ruby type="furigana" rend="right" source="#source-23709-23730"><rb>三月</rb><rt>みつき</rt></ruby>ほど、待たせなさいまし。」</p>
+      <p source="#source-23771-23992"><seg source="#source-23771-23992">と、申し上げました。王さまも、なるほどそうだとお思いになりました。それで、アラジンのお母さんに、もう三月待ったら、姫をやろう、とおっしゃいました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-23992-24540"><seg source="#source-23992-24540">アラジンは、お姫さまがいただけると聞いて、自分くらい仕合せ者はないと思いました。それからは、一日々々が矢のように早くすぎてゆきました。ところが、それから二月もすぎたある夕方、町じゅうが大そうにぎやかなことがありました。アラジンは何事かと思って人にたずねました。するとその人は、今晩、お姫さまが、大臣の息子のところへおよめにいらっしゃるからだ、と教えてくれました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-24540-24809"><seg source="#source-24540-24564">アラジンはまっ</seg><ruby type="furigana" rend="right" source="#source-24564-24576"><rb>赤</rb><rt>か</rt></ruby><seg source="#source-24576-24809">になっておこりました。そしてすぐ家へ帰って、まほうのランプをとり出してこすりました。すると、じきにあのおばけが出て来て、何をいたしましょうかと聞きました。</seg></p>
+      <p source="#source-24809-24940">「王さまのお城へ行って、お姫さまと、大臣の息子をすぐつれて来い。」と、言いつけました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-24940-25056"><seg source="#source-24940-25056">たちまちおばけは御殿へ行って、二人をつれて帰って来ました。そしてこんどは、</seg></p>
+      <p source="#source-25056-25196">「大臣の息子をこの家からつれ出して、朝まで外で待たしておけ。」と、<ruby type="furigana" rend="right" source="#source-25155-25179"><rb>命令</rb><rt>めいれい</rt></ruby><seg source="#source-25179-25196">しました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-25196-25450"><seg source="#source-25196-25450">お姫さまはこわがって、ふるえていました。けれども、アラジンは、けっしてこわがらないでください、私こそはあなたのほんとうのおむこさんなのでございます、と申し上げました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-25450-25671"><seg source="#source-25450-25671">あくる朝早く、アラジンの言いつけた通りに、おばけは、大臣の息子をつれて家の中へ入って来ました。そして、お姫さまと一しょにお城へつれて帰りました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-25671-25715"><seg source="#source-25671-25715">それからまもなく王さまが、</seg></p>
+      <p source="#source-25715-25969">「お早う。」と言って、お姫さまのおへやへ入っていらっしゃいますと、お姫さまは涙をぽろぽろこぼして泣いていらっしゃいました。そして大臣の息子は、ぶるぶるふるえていました。</p>
+      <p source="#source-25969-26145">「どうしたのかね。」と、王さまがおたずねになりました。けれども、お姫さまは泣いていて、何にもおっしゃいませんでした。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-26145-26354"><seg source="#source-26145-26354">その晩もまた、同じようにアラジンはおばけに言いつけて、二人をつれて来させました。そしてもう一度、大臣の息子を家の外に立たせておきました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-26354-26650"><seg source="#source-26354-26650">次の日もやはり、お姫さまが泣いていらっしゃるのを見て、王さまは大そうおおこりになりました。そして、お姫さまが何を聞いても、やっぱりだまっていらっしゃるので、なおなおおこっておしまいになりました。</seg></p>
+      <p source="#source-26650-26796">「泣くのをおやめ、そして早くわけをお話し。話さないと殺してしまうよ。」と、おしかりになりました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-26796-27167"><seg source="#source-26796-27167">それで、やっとお姫さまは、おとといの晩からの出来事を、すっかりお話しになりました。大臣の息子はふるえながら、どうぞおむこさんになるのをやめさせてくださいまし、とお願いしました。もうもう一晩だって、あんな目にあうのは、いやだと思ったものですから。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-27167-27328"><seg source="#source-27167-27197">そういうわけで、ご</seg><ruby type="furigana" rend="right" source="#source-27197-27221"><rb>婚礼</rb><rt>こんれい</rt></ruby><seg source="#source-27221-27328">はおとりやめになりました。そしていろんなお祝いもないことになりました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-27328-27618"><seg source="#source-27328-27618">さて、いよいよ約束の三月の月日がたってから、アラジンのお母さんは、王さまの前へ出ました。それで、やっと王さまは、お姫さまをこの女の息子にやると、お約束なすったことを、お思い出しになりました。</seg></p>
+      <p source="#source-27618-28109">「それでは、わしが言った通りにすることにしよう。だが、わしの<ruby type="furigana" rend="right" source="#source-27708-27726"><rb>娘</rb><rt>むすめ</rt></ruby><seg source="#source-27726-27774">をおよめさんにする者は、四十枚の</seg><ruby type="furigana" rend="right" source="#source-27774-27789"><rb>皿</rb><rt>さら</rt></ruby><seg source="#source-27789-27855">に宝石を山もりにして、それを四十人の黒んぼの</seg><hi rend="bouten 傍点 right" source="#source-27855-27897" corresp="#source-27864-27897"><seg source="#source-27855-27864">どれい</seg></hi>に持たせてよこさなければいけない。そして王さまの召使らしい、りっぱな着物を着た西洋人のどれいが、その黒んぼのどれいの手を引いて来るのだぞ。」</p>
+      <p source="#source-28109-28144"><seg source="#source-28109-28144">と、おっしゃいました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-28144-28314"><seg source="#source-28144-28314">アラジンのお母さんは、こまったことになったと思いながら家へ帰って来て、アラジンに王さまのお言葉をつたえました。</seg></p>
+      <p source="#source-28314-28409">「アラジンや、そんなことは、とてもできないことじゃないかね。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-28409-28498"><seg source="#source-28409-28433">そう言ってため</seg><ruby type="furigana" rend="right" source="#source-28433-28448"><rb>息</rb><rt>いき</rt></ruby><seg source="#source-28448-28498">をつきました。するとアラジンは、</seg></p>
+      <p source="#source-28498-28683">「いいえ、お母さん、だめじゃありませんよ。王さまにはすぐおおせの通りにしてごらんに入れますよ。」と、いさぎよく言いました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-28683-28925"><seg source="#source-28683-28925">それから、まほうのランプをこすりました。そしておばけが出て来た時、宝石を山もりにした四十枚のお皿と、王さまが言われただけのどれいをつれて来いと言いつけました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-28925-29557"><seg source="#source-28925-28970">さて、それから、このりっぱな</seg><ruby type="furigana" rend="right" source="#source-28970-28997"><rb>行列</rb><rt>ぎょうれつ</rt></ruby><seg source="#source-28997-29557">が町を通ってお城へ向いました。町じゅうの人々はぞろぞろと見物に出て来ました。そしてみんな、黒んぼのどれいが頭の上にのせている、宝石を山もりにした金のお皿を見て、びっくりしました。お城へついて、どれいたちは王さまに宝石をさし上げました。王さまはずいぶんおおどろきになりましたけれど、また大そうおよろこびになって、アラジンとお姫さまとがすぐに婚礼するようにとおっしゃいました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-29557-30192"><seg source="#source-29557-29764">お母さんが帰って、このことをアラジンにつげますと、アラジンは、すぐにはお城へ行かれないと言いました。そして、まずランプのおばけを呼んで、</seg><ruby type="furigana" rend="right" source="#source-29764-29788"><rb>香水</rb><rt>こうすい</rt></ruby><seg source="#source-29788-29845">ぶろと、王さまがお召しになるような金の</seg><hi rend="bouten 傍点 right" source="#source-29845-29893" corresp="#source-29857-29893"><seg source="#source-29845-29857">ぬいとり</seg></hi><seg source="#source-29893-30106">のある着物と、自分のお供をする四十人のどれいと、お母さんのお供をする六人のどれいと、王さまのお馬よりもっと美しい馬と、そして、一万枚の金貨を十</seg><ruby type="furigana" rend="right" source="#source-30106-30121"><rb>箇</rb><rt>こ</rt></ruby><seg source="#source-30121-30192">のさいふに分けて入れて持って来いと命じました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-30192-30941"><seg source="#source-30192-30941">さて、これらのものがみんなととのってから、アラジンは着物を着かえてお城へ向いました。そして、りっぱな馬に乗って四十人のどれいを召しつれて行くみちみち、両がわに見物しているたくさんの人たちに、十箇のさいふから金貨をつかみ出しては、ばらばらとまいてやりました。見物人たちは、きゃっきゃっと言って大よろこびで、それを拾いました。しかし、その中のだれにだって、昔、町でのらくらと遊んでばかりいたなまけ者が、こんなになったとは気がつきませんでした。これはきっと、どこかの国の王子さまだろうと思っていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-30941-31297"><seg source="#source-30941-31175">こんなものものしいありさまで、アラジンがお城へつきますと、王さまはさっそくお出迎えになって、アラジンをおだきになりました。それから家来たちに、すぐお祝いの</seg><ruby type="furigana" rend="right" source="#source-31175-31199"><rb>宴会</rb><rt>えんかい</rt></ruby><seg source="#source-31199-31297">と、婚礼の用意をするようにとおっしゃいました。するとアラジンは、</seg></p>
+      <p source="#source-31297-31530"><seg source="#source-31297-31300">「</seg><ruby type="furigana" rend="right" source="#source-31300-31321"><rb>陛下</rb><rt>へいか</rt></ruby><seg source="#source-31321-31405">、しばらくお待ちくださいまし。私はお姫さまがお住みになる</seg><ruby type="furigana" rend="right" source="#source-31405-31426"><rb>御殿</rb><rt>ごてん</rt></ruby>を立てますまでは、婚礼はできません。」と、申し上げたのでありました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-31530-31640"><seg source="#source-31530-31640">そうして、家へ帰って、もう一度ランプのおばけを呼びよせました。そして、</seg></p>
+      <p source="#source-31640-32365">「世界一のりっぱな御殿を作れ。その御殿は、<ruby type="furigana" rend="right" source="#source-31703-31733"><rb>大理石</rb><rt>だいりせき</rt></ruby>と、緑色の石と、宝石とで作らなければいけない。そしてまん中に、金と銀とのかべとまどが二十四ついている大広間を作るのだ。それからそのまどは、ダイヤモンドだの、ルビーだの、そのほかの宝石でかざらなければいけない。けれども、たった一つだけは何にもかざりをしないで、そのままにしておけ。それから、また馬やも作らなければいけない。そして、御殿の中には、たくさんのどれいもいなければいけない。さあ、これだけのことを早くやってくれ。」</p>
+      <p source="#source-32365-32397"><seg source="#source-32365-32397">と、言いつけました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-32397-32681"><seg source="#source-32397-32681">あくる朝、アラジンは、世界一かと思われるほどの御殿が立っているのに気がつきました。御殿の大理石のかべは、朝日の光を受けて、うすもも色にそまっていました。まどには宝石がきらめいていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-32681-33043"><seg source="#source-32681-32924">アラジンはさっそく、お母さんと一しょにお城へまいりました。そして、きょう婚礼をさせていただきたいと申し入れました。お姫さまはアラジンをごらんになって、アラジンと</seg><ruby type="furigana" rend="right" source="#source-32924-32939"><rb>仲</rb><rt>なか</rt></ruby><seg source="#source-32939-33043">よくしようとお思いになりました。町じゅうはお祝いで大にぎわいでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-33043-33363"><seg source="#source-33043-33304">そのあくる日は、王さまの方からアラジンの新御殿をおたずねになりました。そしてまず大広間へお通りになって、金の銀とのかべと、宝石をかざりつけたまどとをごらんになって、大へんご</seg><ruby type="furigana" rend="right" source="#source-33304-33328"><rb>感服</rb><rt>かんぷく</rt></ruby><seg source="#source-33328-33363">なさいました。そして、</seg></p>
+      <p source="#source-33363-33677">「これは世界で一ばん美しい御殿にちがいない。わしには、この御殿の中にあるたった一つのものでさえ、世界第一の宝物のように思われる。だが、ここにたった一つ、かざりつけをしてないまどがあるのは、どういうわけだね。」</p>
+      <p source="#source-33677-33745"><seg source="#source-33677-33745">と、おたずねになりました。するとアラジンは、</seg></p>
+      <p source="#source-33745-33924">「陛下、それは、陛下のとうといお手で、かざりつけをしていただきたいと存じまして、わざわざ残しておいたのでございます。」</p>
+      <p source="#source-33924-33956"><seg source="#source-33924-33956">と、お答えしました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-33956-34216"><seg source="#source-33956-34046">王さまは、大へんおよろこびになりました。そしてすぐにお城の</seg><ruby type="furigana" rend="right" source="#source-34046-34073"><rb>装飾</rb><rt>そうしょく</rt></ruby><seg source="#source-34073-34216">がかりの人たちに、このまどをほかのまどと同じようにかざりつけるように、お言いつけになりました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-34216-34671"><seg source="#source-34216-34671">装飾がかりの人たちは、何日も何日も働きました。そして、まだ、まどのかざりつけが半分もできないうちに、持っていた宝石をすっかり使ってしまいました。王さまにこのことを申し上げますと、それでは自分の宝石をみんなやるから使うように、とおっしゃいました。それを、使いはたしても、なおまどは出来上りませんでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-34671-35039"><seg source="#source-34671-35039">それで、アラジンは、かかりの人たちに仕事をやめさせて、王さまの宝石を全部返してしまいました。そして、その晩もう一度ランプのおばけを呼びました。それで、まどは夜のあける前に出来上りました。王さまと、装飾がかりの人たちは、おどろいてしまいました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-35039-35568"><seg source="#source-35039-35183">けれども、アラジンはけっして自分のお金持であることをじまんしませんでした。だれにでもやさしく、</seg><ruby type="furigana" rend="right" source="#source-35183-35204"><rb>礼儀</rb><rt>れいぎ</rt></ruby><seg source="#source-35204-35568">ただしくつきあっていました。そして貧乏人にはしんせつにしてやりました。それでだれもかれもアラジンになつきました。アラジンは、また王さまのために、何度も何度も、戦争に行っててがらを立てました。それで、王さまの一番お気に入りの家来になりました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-35568-36074"><seg source="#source-35568-36074">けれども、遠いアフリカでは、アラジンをいじめる悪だくみが、ずっと考えつづけられていました。あの伯父さんだといってだました悪者のおじいさんのまほう使は、まほうの力によって、自分が地の下へとじこめてしまった男の子が、あれから助かって、大へんな金持になったということを知ったからであります。そして、おこって自分のかみの毛を引きむしりながら、</seg></p>
+      <p source="#source-36074-36313">「あいつめ、きっとランプの使い方をさとったのにちがいない。おれは、ランプをとり返す方法を考えつくまでは、いまいましくって、夜もおちおちねむることができない。」</p>
+      <p source="#source-36313-36363"><seg source="#source-36313-36363">と、どなっていたのでありました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-36363-36863"><seg source="#source-36363-36399">それから、やがてまた、</seg><hi rend="bouten 傍点 right" source="#source-36399-36435" corresp="#source-36405-36435"><seg source="#source-36399-36405">しな</seg></hi><seg source="#source-36435-36651">へやって来ました。そしてアラジンの住んでいる町へ来て、すばらしい御殿を見ました。御殿があんまり美しいのと、アラジンがお金持らしいのに腹が立って、</seg><ruby type="furigana" rend="right" source="#source-36651-36666"><rb>息</rb><rt>いき</rt></ruby><seg source="#source-36666-36735">がとまってしまうほどでした。そこで、まほう使は</seg><ruby type="furigana" rend="right" source="#source-36735-36762"><rb>商人</rb><rt>しょうにん</rt></ruby><seg source="#source-36762-36810">にばけました。そして、たくさんの</seg><ruby type="furigana" rend="right" source="#source-36810-36825"><rb>銅</rb><rt>どう</rt></ruby><seg source="#source-36825-36863">で作ったランプを持って、</seg></p>
+      <p source="#source-36863-36949">「ええ、新しいランプを古いランプととりかえてあげます。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-36949-37011"><seg source="#source-36949-37011">町から町へ、こう言いながら歩きました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-37011-37280"><seg source="#source-37011-37280">この呼び声を聞いて、町の人たちは、ばかげたことだと笑いながらも、めずらしそうにまほう使のそばへたかって来ました。こんなことを言う男は、気ちがいかもしれないと思ったものですから。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-37280-37675"><seg source="#source-37280-37322">ちょうどこの時、アラジンは</seg><hi rend="bouten 傍点 right" source="#source-37322-37358" corresp="#source-37328-37358"><seg source="#source-37322-37328">かり</seg></hi><seg source="#source-37358-37466">に出て、るすでした。お姫さまはただ一人、大広間のまどによりかかって、外の</seg><ruby type="furigana" rend="right" source="#source-37466-37487"><rb>景色</rb><rt>けしき</rt></ruby><seg source="#source-37487-37675">をながめていらっしゃいました。町から聞えてくる呼び声が、耳に入ったものですから、さっそくどれいをお呼びになりました。そして、</seg></p>
+      <p source="#source-37675-37773">「あれは何と言っているのか聞いておいで。」と、おっしゃいました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-37773-37922"><seg source="#source-37773-37922">すぐにどれいは聞いて帰って来ました。そして、さもさもおかしくてたまらないというふうに笑いながら、</seg></p>
+      <p source="#source-37922-38239">「ずいぶん、へんなおじいさんなのでございますよ。新しいランプを古いランプととりかえてあげます、と申すのでございます。そんなばかげたあきないがございますでしょうかねえ。ほほほ……」と、申し上げたのでございました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-38239-38427"><seg source="#source-38239-38427">お姫さまも、これをお聞きになって、大そうお笑いになりました。そして、すみの方のかべにかかっていたランプを、指さしになって、</seg></p>
+      <p source="#source-38427-38672">「そこにずいぶん古ぼけたランプがあるじゃないか、あれを持って行って、そのおじいさんが、ほんとうにとりかえてくれるかどうか、ためしてごらん。」と、おっしゃいました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-38672-38842"><seg source="#source-38672-38842">どれいはランプをとりおろして、町へ走って行きました。まほう使は、まほうのランプを両手でしっかり受けとってから、</seg></p>
+      <p source="#source-38842-38907">「どれでも、おすきなのをお持ちください。」</p>
+      <p source="#source-38907-39266"><seg source="#source-38907-39096">と言って、新しい銅のランプをたくさんならべたてました。そして古いランプをだいじそうにだきしめて、ほかのことは何にも気がつかない</seg><ruby type="furigana" rend="right" source="#source-39096-39117"><rb>様子</rb><rt>ようす</rt></ruby><seg source="#source-39117-39266">でありました。このどれいが、新しいランプをみんな持って行ったって、きっと気がつかなかったでしょう。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-39266-39643">それからまほう使は、少し歩いて、町はずれへ出ました。そして、だれも通っている人がないのを見すまして、まほうのランプをとり出しました。そしてしずかにこすりました。するとたちまち、あのおばけが、目の前へ立ちはだかって、「何のご用ですか。」と聞きました。</p>
+      <p source="#source-39643-39828">「お姫さまを入れたまんま、アラジンの御殿を、アフリカのさびしいところへ持って行って立ててくれ。」と、まほう使が言いました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-39828-40154"><seg source="#source-39828-40154">すると、またたくまにアラジンの御殿は、お姫さまや、家来たちを入れたまんま、見えなくなってしまいました。まもなく、王さまが、お城のまどから外をおながめになって、アラジンの御殿がなくなっているのにお気づきになりました。</seg></p>
+      <p source="#source-40154-40225">「しまった。アラジンはまほう使だったのだな。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-40225-40803"><seg source="#source-40225-40405">王さまはこうおっしゃって、すぐに家来を召して、アラジンをくさりでしばってつれて来い、とお命じになりました。家来たちは、</seg><hi rend="bouten 傍点 right" source="#source-40405-40441" corresp="#source-40411-40441"><seg source="#source-40405-40411">かり</seg></hi><seg source="#source-40441-40803">から帰って来るアラジンに行きあいましたので、すぐにつかまえて、王さまの前へつれて来ました。町の人々は、アラジンになついていたものですから、アラジンが引かれて行くそばへよって来て、どうか、ひどい目にあわないようにと、おいのりをしてくれました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-40803-41264"><seg source="#source-40803-41264">王さまはアラジンをごらんになって、大へんおしかりになりました。そして家来に、すぐアラジンの首を切れとおっしゃいました。けれども、町の人たちがお城へおしかけて来て、そんなことをなすったら、しょうちしません、と行って王さまをおどかしました。それで仕方なく王さまは、アラジンのくさりをといておやりになりました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-41264-41404"><seg source="#source-41264-41404">アラジンは、どうしてこんな目におあわせになったのかと、王さまにおたずねしました。王さまは、</seg></p>
+      <p source="#source-41404-41532">「かわいそうに、何にも知らないのか。まあここへ来てごらん。」と、おおせになりました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-41532-41738"><seg source="#source-41532-41738">そしてアラジンをまどのところへつれて来て、アラジンの御殿が立っていたところが原っぱになっているのを、指さして教えておやりになりました。</seg></p>
+      <p source="#source-41738-41947">「お前の御殿はともかく、姫はどこへ行ったのだろう。わしのだいじなだいじな娘はどこへ行ったのだろう。」と言って、王さまはお泣きになりました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-41947-42189"><seg source="#source-41947-42189">アラジンはおどろきのあまり、しばらくは口がきけませんでした。どこへ御殿が行ってしまったのだろうかと、原っぱを見つめたまんま、だまって、ぼんやり立っていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-42189-42260"><seg source="#source-42189-42260">しかし、しばらくして、やっと口をきりました。</seg></p>
+      <p source="#source-42260-42526">「陛下、どうか私に<ruby type="furigana" rend="right" source="#source-42287-42311"><rb>一月</rb><rt>ひとつき</rt></ruby>のおひまをくださいませ。そして、もしもその間に私がお姫さまをつれもどすことができませんでしたならば、その時、私をお殺しになってくださいませ。」</p>
+      <p source="#source-42526-42570"><seg source="#source-42526-42570">と、申し上げたのであります。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-42570-43364"><seg source="#source-42570-43050">王さまはおゆるしになりました。アラジンはそれから三日の間は、気ちがいのようになって、御殿はどこへ行ったのでしょうか、とあう人ごとにたずねてみました。けれども、だれも知りませんでした。かえって、アラジンが悲しんでいるのを笑ったりしました。それでアラジンは、いっそ身を投げて死のうと思って、川のほとりへ行きました。そして、</seg><ruby type="furigana" rend="right" source="#source-43050-43068"><rb>土手</rb><rt>どて</rt></ruby><seg source="#source-43068-43230">にひざまずいて、死ぬ前のおいのりをしようとして、両手をしっかりとにぎりあわせました。その時、知らずにまほうの</seg><ruby type="furigana" rend="right" source="#source-43230-43251"><rb>指輪</rb><rt>ゆびわ</rt></ruby><seg source="#source-43251-43364">をこすったのでした。するとたちまち、指輪のおばけが目の前につっ立ちました。</seg></p>
+      <p source="#source-43364-43492">「どんなご用でございます。」と、言うのです。アラジンは大そうよろこびました。そして、</p>
+      <p source="#source-43492-43608">「お姫さまと、御殿を、すぐにとり返して来てくれ、そして私の命を助けてくれ。」</p>
+      <p source="#source-43608-43673"><seg source="#source-43608-43673">と、たのみました。ところが、指輪の家来は、</seg></p>
+      <p source="#source-43673-43900">「それは、あいにく、私にはできないことでございます。ただ、ランプの家来だけが、御殿をとりもどす力を持っているのでございます。」と、答えたのであります。</p>
+      <p source="#source-43900-44058">「それでは、御殿があるところまで私をつれて行ってくれ。そして、お姫さまのへやのまどの下へ立たせてくれ。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-44058-44285"><seg source="#source-44058-44285">アラジンは仕方がないので、こうたのみました。この言葉を、言いきってしまわないうちに、もうアラジンはアフリカについて、御殿のまどの下に立っていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-44285-44839"><seg source="#source-44285-44375">アラジンは大へんくたびれていたものですから、そこでぐっすり</seg><ruby type="furigana" rend="right" source="#source-44375-44387"><rb>寝</rb><rt>ね</rt></ruby><seg source="#source-44387-44798">こんでしまいました。しかし、ほどなく夜があけて、小鳥の鳴く声で目をさましました。その時は、もうすっかり、もとのような元気になっていました。そして、こんな悲しい目にあうのは、きっとまほうのランプがなくなったせいにちがいない、だれがぬすんだかを見とどけなければならぬ、と、かたく</seg><ruby type="furigana" rend="right" source="#source-44798-44822"><rb>決心</rb><rt>けっしん</rt></ruby><seg source="#source-44822-44839">しました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-44839-45408"><seg source="#source-44839-44989">さて、お姫さまは、この朝は、ここへつれて来られてからはじめて、きげんよくお目ざめになったのでした。</seg><ruby type="furigana" rend="right" source="#source-44989-45013"><rb>太陽</rb><rt>たいよう</rt></ruby><seg source="#source-45013-45127">はうらうらとかがやいて、小鳥は楽しそうにさえずっていました。お姫さまは、外の</seg><ruby type="furigana" rend="right" source="#source-45127-45148"><rb>景色</rb><rt>けしき</rt></ruby><seg source="#source-45148-45408">でもながめようと思って、まどの方へ歩いておいでになりました。そして、まどの下にだれか立っている者があるのを、ごらんになりました。よくよく見ると、それはアラジンでありました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-45408-45605"><seg source="#source-45408-45605">お姫さまは声を立てておよろこびになって、いそいで、まどをお開きになりました。この音でアラジンは、ふっと上を見上げたのであります。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-45605-45880"><seg source="#source-45605-45880">それから、アラジンは、いくつもいくつもの戸をうまく通りぬけて、お姫さまのへやへ入って行きました。そして、うれしさのあまり、お姫さまをしばらくだきしめていましたが、やがて顔を上げて、</seg></p>
+      <p source="#source-45880-46062">「お姫さま、あの大広間のすみのかべにかけてあった、古いランプがどうなったか、ご存じではございませんか。」と、申しました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-46062-46094"><seg source="#source-46062-46094">するとお姫さまは、</seg></p>
+      <p source="#source-46094-46498">「ああ、だんなさま、私どうしましょう。私がうっかりしていたので、こんな悲しいことになってしまったんです。」と言って、あのおじいさんのまほう使が、商人の風をして来て、新しいランプと古いランプととりかえてあげると言って、こんなことをしてしまったお話をなさいました。そして、</p>
+      <p source="#source-46498-46662">「今も持っていますよ。いつだって、<ruby type="furigana" rend="right" source="#source-46549-46570"><rb>上着</rb><rt>うわぎ</rt></ruby>の中へかくして、持ち歩いていますよ。」と、おっしゃいました。</p>
+      <p source="#source-46662-47351">「お姫さま、私はそのランプをとり返さなきゃなりません。ですから、あなたもどうか私にかせいしてくださいませ。今晩、まほう使があなたとご一しょに、ごはんをたべる時、あなたは一番いい着物を着て、そしてしんせつそうなふうをして、おせじを言ってやってくださいまし。それから、アフリカのお<ruby type="furigana" rend="right" source="#source-47076-47091"><rb>酒</rb><rt>さけ</rt></ruby>が少し飲みたいとおっしゃいませ。するとあの男が、それをとりに行きますからね。その時が来たら、私がまたあなたのおそばへ行って、こうこうしてくださいませ、と申し上げますから。」</p>
+      <p source="#source-47351-47392"><seg source="#source-47351-47392">と、アラジンが申しました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-47392-47934"><seg source="#source-47392-47934">さてその晩、お姫さまは一番いい着物をお召しになりました。そして、まほう使が入って来た時、にこにこして、いかにもしんせうそうなふうをなさいました。まほう使が、これはゆめではないかと思ったほどでした。なぜかというと、お姫さまは、ここへつれて来られてからというものは、いつもいつも悲しそうな顔をしているか、そうでない時は、おこった顔をしていらっしゃるかでしたから。</seg></p>
+      <p source="#source-47934-48380">「私、たぶん、アラジンは死んでしまったのだろうと思いますの。ですから、私、あなたのおよめさんになりたいと思っています。まあ、それはともかく、さあ、ごはんにしましょう。おや、きょうもやっぱり、しなのお酒ですのね。私、しなのお酒にはもうあいてしまいましたから、アフリカのお酒を持って来てくださいな。」</p>
+      <p source="#source-48380-48430"><seg source="#source-48380-48430">と、お姫さまがおっしゃいました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-48430-49128"><seg source="#source-48430-49060">アラジンは、そのまに、粉を用意して来て、お姫さまに、ご自分のおさかずきの中へ入れてください、とたのみました。そして、まほう使がアフリカのお酒を持って帰って来た時、お姫さまは、粉を入れたおさかずきに、そのお酒をなみなみとおつぎになりました。そして、これから仲よくなるしるしですから飲んでください、と言って、まほう使におさしになりました。まほう使はよろこんで、それに口をつけました。しかし、それをみんな飲みほさないうちに、</seg><ruby type="furigana" rend="right" source="#source-49060-49075"><rb>床</rb><rt>ゆか</rt></ruby><seg source="#source-49075-49128">の上にたおれて死んでしまいました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-49128-49373"><seg source="#source-49128-49373">アラジンは、かくれていた次のへやからとんで出て来て、まほう使の上着の中をさがしまわしました。そして、まほうのランプをとり出して、大よろこびでそれをこすりました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-49373-49522"><seg source="#source-49373-49522">おばけが出て来ますと、すぐに御殿をしなへ持って帰って、もとの場所に立てるようにと言いつけました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-49522-50025"><seg source="#source-49522-50025">次の朝、王さまは大そう早く目をおさましになりました。王さまは悲しくておねむりになることができなかったのです。そして、まどのところへ行ってごらんになると、アラジンの御殿が、もとのところに立っているではありませんか。王さまは、うそではないかとお思いになりました。それで何べんも何べんも目をこすっては、じっと御殿の方をごらんになりました。</seg></p>
+      <p source="#source-50025-50159">「ゆめではないのかしら。朝の光を受けて前よりももっと美しく見える。」とおっしゃいました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-50159-50548"><seg source="#source-50159-50548">それからまもなく、馬に乗って、アラジンの御殿をさして、走っていらっしゃいました。そして、アラジンとお姫さまとを両手にだきしめて、およろこびになりました。二人はアフリカのまほう使の話をしてお聞かせしました。アラジンはまた、まほう使の死がいもお目にかけました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-50548-50627"><seg source="#source-50548-50627">それからまた、昔のような楽しい日がつづきました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-50627-50926"><seg source="#source-50627-50750">しかし、まだもう一つアラジンに心配が残っていました。それは、アフリカのまほう使の</seg><ruby type="furigana" rend="right" source="#source-50750-50771"><rb>弟</rb><rt>おとうと</rt></ruby><seg source="#source-50771-50926">も、やっぱりまほうを使っていたからです。そして、その弟は、兄さんよりももっと悪者だったからであります。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-50926-51510"><seg source="#source-50926-51241">はたして、その弟がかたきうちのために、しなへやって来ました。アラジンをひどい目にあわせて、まほうのランプをぶんどって来ようと決心して来たのであります。そして、しなへつくとすぐに、こっそり、まずファティマという</seg><ruby type="furigana" rend="right" source="#source-51241-51256"><rb>尼</rb><rt>あま</rt></ruby><seg source="#source-51256-51510">さんをたずねて行きました。そして、上着とベールとを、むりやりにかしてもらいました。それから、このことがほかの人に知られてはいけないと思って、尼さんを殺してしまいました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-51510-51779"><seg source="#source-51510-51779">さて、この悪者のまほう使は、尼さんの上着とベールとをつけて、アラジンの御殿の近くの町を通りました。町の人々は、ほんとうの尼さんだと思って、ひざまずいてその上着にキッスしました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-51779-52330"><seg source="#source-51779-52256">まもなく、お姫さまは、ファティマが町を通っているということをお聞きになりました。それで、すぐ御殿へ来てくれるようにと、使をおやりになりました。お姫さまは、ファティマをしじゅう見たい見たいと思っていらっしたものですから、尼さんが来た時、大へんていねいにおもてなしなさいました。そして大広間へつれておいでになって、同じ長</seg><hi rend="bouten 傍点 right" source="#source-52256-52292" corresp="#source-52262-52292"><seg source="#source-52256-52262">いす</seg></hi><seg source="#source-52292-52295">に</seg><ruby type="furigana" rend="right" source="#source-52295-52310"><rb>腰</rb><rt>こし</rt></ruby><seg source="#source-52310-52330">かけながら、</seg></p>
+      <p source="#source-52330-52416">「このへやがお気に召しまして。」と、お聞きになりました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-52416-52478"><seg source="#source-52416-52478">まほう使はベールを深くかぶったままで、</seg></p>
+      <p source="#source-52478-52897">「ほんとうに、目がさめるほどおきれいでございますこと。ですけれども、私このおへやに、たった一つほしいと思うものがございますのよ。それはほかでもございません、ロック<ruby type="furigana" rend="right" source="#source-52721-52739"><rb>鳥</rb><rt>ちょう</rt></ruby>の卵が、あの高い天じょうのまん中からぶらさがっていたら、もう申し分なしだと思いますわ。」と、答えました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-52897-53256"><seg source="#source-52897-53256">これをお聞きになってお姫さまは、何だか急に、この大広間がものたりないように思いはじめになりました。そして、アラジンが入って来た時、大へん悲しそうな顔をしていらっしゃいました。アラジンは、何事が起ったのですか、とたずねました。お姫さまは、</seg></p>
+      <p source="#source-53256-53423">「私、この天じょうから、ロック鳥の卵がぶらさがっていなきゃあ、何だか悲しいんですもの。」と、おっしゃいました。</p>
+      <p source="#source-53423-53641">「そんなことなら、ぞうさないじゃございませんか。」と、アラジンはこともなげに言ってランプをおろして、<ruby type="furigana" rend="right" source="#source-53573-53594"><rb>廊下</rb><rt>ろうか</rt></ruby><seg source="#source-53594-53641">へ出てあのおばけを呼びました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-53641-53829"><seg source="#source-53641-53829">けれども、ランプのおばけは、その命令を聞くと、大へんおこりました。顔をぶるぶるふるわせながら、アラジンをしかりつけました。</seg></p>
+      <p source="#source-53829-54071">「大ばか者、そんなものを私がやられると思っているのか。お前は私のご主人を殺して、あの天じょうからぶらさげてくれというのか。そんなばかは、死んでしまうがいいや。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-54071-54232"><seg source="#source-54071-54232">おばけの目は、まるで石炭がもえている時のように、まっ赤になっていました。しかし、やがて言葉をやわらげて、</seg></p>
+      <p source="#source-54232-54477">「だけれども、それはお前の心から出た願いでないということを、私はよーっく知っているのだよ。それは<ruby type="furigana" rend="right" source="#source-54376-54391"><rb>尼</rb><rt>あま</rt></ruby>さんの風をしている、悪者のまほう使が言わせたのだろう。」</p>
+      <p source="#source-54477-54647"><seg source="#source-54477-54647">と、言いました。そして、おばけは消えました。アラジンは、お姫さまが待っているへやへ、いそいで行きました。そして、</seg></p>
+      <p source="#source-54647-54886">「私は、ずつうがしてなりません。尼さんを呼んでくださいませんか。あの方のお手でさすっていただいたら、きっとなおるだろうと思います。」と、お姫さまに申しました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-54886-55044"><seg source="#source-54886-54991">すぐに、にせのファティマが来ました。アラジンはとびついて、その胸へ、</seg><ruby type="furigana" rend="right" source="#source-54991-55015"><rb>短刀</rb><rt>たんとう</rt></ruby><seg source="#source-55015-55044">をつきさしました。</seg></p>
+      <p source="#source-55044-55136">「どうなすったのです。まあ、あなたは尼さんを殺すのですか。」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-55136-55189"><seg source="#source-55136-55189">お姫さまは泣き声でとがめました。</seg></p>
+      <p source="#source-55189-55341">「これは、尼さんではございません。これは私たちを殺しに来たまほう使です。」と、アラジンが申しました。</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-55341-55577"><seg source="#source-55341-55577">こんなにして、アラジンは二人の悪いまほう使の悪だくみからのがれました。そして、もうこの世の中には、だれもアラジンの仕合せのじゃまをする者はなくなりました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-55577-55913"><seg source="#source-55577-55913">アラジンとお姫さまは、長い間たのしくくらしました。そして、王さまがおかくれになった時、二人はとうとう、王さまとおきさきさまになりました。そして国をよくおさめました。いつまでもいつまでもその国はさかえたということであります。</seg></p>
+    </body>
+    <back>
+      <div type="source">
+        <note type="source-attribution" source="#source-55921-56030"><seg type="source-line">底本：「アラビヤンナイト」主婦之友社</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1948（昭和23）年7月10日初版発行</seg></note>
+        <note type="transcriber-note" source="#source-56030-56535"><seg type="source-line">※「旧字、旧仮名で書かれた作品を、現代表記にあらためる際の作業指針」に基づいて、底本の表記をあらためました。</seg><lb/><seg type="source-line">入力：大久保ゆう</seg><lb/><seg type="source-line">校正：京都大学点訳サークル</seg><lb/><seg type="source-line">2004年11月2日作成</seg><lb/><seg type="source-line">青空文庫作成ファイル：</seg><lb/><seg type="source-line">このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。</seg></note>
+        <note type="source-span" xml:id="source-10080-10116" n="57"/>
+        <note type="source-span" xml:id="source-10116-10323" n="57"/>
+        <note type="source-span" xml:id="source-10323-10335" n="57"/>
+        <note type="source-span" xml:id="source-10367-10451" n="58"/>
+        <note type="source-span" xml:id="source-10367-10609" n="58"/>
+        <note type="source-span" xml:id="source-10451-10472" n="58"/>
+        <note type="source-span" xml:id="source-10472-10568" n="58"/>
+        <note type="source-span" xml:id="source-10568-10592" n="58"/>
+        <note type="source-span" xml:id="source-10592-10609" n="58"/>
+        <note type="source-span" xml:id="source-10609-11016" n="59"/>
+        <note type="source-span" xml:id="source-11016-11232" n="60"/>
+        <note type="source-span" xml:id="source-11016-11993" n="60"/>
+        <note type="source-span" xml:id="source-11232-11238" n="60"/>
+        <note type="source-span" xml:id="source-11232-11268" n="60"/>
+        <note type="source-span" xml:id="source-11238-11268" n="60"/>
+        <note type="source-span" xml:id="source-11268-11334" n="60"/>
+        <note type="source-span" xml:id="source-11334-11361" n="60"/>
+        <note type="source-span" xml:id="source-11361-11403" n="60"/>
+        <note type="source-span" xml:id="source-11403-11415" n="60"/>
+        <note type="source-span" xml:id="source-11415-11751" n="60"/>
+        <note type="source-span" xml:id="source-11751-11775" n="60"/>
+        <note type="source-span" xml:id="source-11775-11993" n="60"/>
+        <note type="source-span" xml:id="source-11993-12211" n="61"/>
+        <note type="source-span" xml:id="source-12211-12297" n="62"/>
+        <note type="source-span" xml:id="source-12297-12488" n="63"/>
+        <note type="source-span" xml:id="source-12488-12577" n="64"/>
+        <note type="source-span" xml:id="source-12577-12613" n="65"/>
+        <note type="source-span" xml:id="source-12577-12666" n="65"/>
+        <note type="source-span" xml:id="source-12613-12628" n="65"/>
+        <note type="source-span" xml:id="source-12628-12666" n="65"/>
+        <note type="source-span" xml:id="source-12666-12779" n="66"/>
+        <note type="source-span" xml:id="source-12779-13216" n="67"/>
+        <note type="source-span" xml:id="source-13216-13978" n="68"/>
+        <note type="source-span" xml:id="source-13216-14058" n="68"/>
+        <note type="source-span" xml:id="source-1360-1549" n="20"/>
+        <note type="source-span" xml:id="source-1360-1989" n="20"/>
+        <note type="source-span" xml:id="source-13978-13993" n="68"/>
+        <note type="source-span" xml:id="source-13993-14058" n="68"/>
+        <note type="source-span" xml:id="source-14058-14223" n="69"/>
+        <note type="source-span" xml:id="source-14058-14303" n="69"/>
+        <note type="source-span" xml:id="source-14223-14229" n="69"/>
+        <note type="source-span" xml:id="source-14223-14259" n="69"/>
+        <note type="source-span" xml:id="source-14229-14259" n="69"/>
+        <note type="source-span" xml:id="source-14259-14303" n="69"/>
+        <note type="source-span" xml:id="source-14303-14543" n="70"/>
+        <note type="source-span" xml:id="source-14303-14872" n="70"/>
+        <note type="source-span" xml:id="source-14543-14564" n="70"/>
+        <note type="source-span" xml:id="source-14564-14872" n="70"/>
+        <note type="source-span" xml:id="source-14872-14923" n="71"/>
+        <note type="source-span" xml:id="source-14872-15045" n="71"/>
+        <note type="source-span" xml:id="source-14923-14938" n="71"/>
+        <note type="source-span" xml:id="source-14938-15045" n="71"/>
+        <note type="source-span" xml:id="source-15045-15048" n="72"/>
+        <note type="source-span" xml:id="source-15045-15416" n="72"/>
+        <note type="source-span" xml:id="source-15048-15063" n="72"/>
+        <note type="source-span" xml:id="source-15063-15135" n="72"/>
+        <note type="source-span" xml:id="source-15135-15156" n="72"/>
+        <note type="source-span" xml:id="source-15416-15625" n="73"/>
+        <note type="source-span" xml:id="source-1549-1564" n="20"/>
+        <note type="source-span" xml:id="source-15625-16069" n="74"/>
+        <note type="source-span" xml:id="source-15625-16113" n="74"/>
+        <note type="source-span" xml:id="source-1564-1989" n="20"/>
+        <note type="source-span" xml:id="source-16069-16084" n="74"/>
+        <note type="source-span" xml:id="source-16084-16113" n="74"/>
+        <note type="source-span" xml:id="source-16113-16271" n="75"/>
+        <note type="source-span" xml:id="source-16271-16294" n="76"/>
+        <note type="source-span" xml:id="source-16294-16602" n="77"/>
+        <note type="source-span" xml:id="source-16405-16420" n="77"/>
+        <note type="source-span" xml:id="source-16602-16634" n="78"/>
+        <note type="source-span" xml:id="source-16634-16855" n="79"/>
+        <note type="source-span" xml:id="source-16855-17091" n="80"/>
+        <note type="source-span" xml:id="source-17091-17217" n="81"/>
+        <note type="source-span" xml:id="source-17091-17444" n="81"/>
+        <note type="source-span" xml:id="source-17217-17232" n="81"/>
+        <note type="source-span" xml:id="source-17232-17444" n="81"/>
+        <note type="source-span" xml:id="source-17444-17677" n="82"/>
+        <note type="source-span" xml:id="source-17677-17964" n="83"/>
+        <note type="source-span" xml:id="source-17964-18047" n="84"/>
+        <note type="source-span" xml:id="source-18047-18374" n="85"/>
+        <note type="source-span" xml:id="source-18047-18466" n="85"/>
+        <note type="source-span" xml:id="source-18374-18389" n="85"/>
+        <note type="source-span" xml:id="source-18389-18466" n="85"/>
+        <note type="source-span" xml:id="source-18466-18940" n="86"/>
+        <note type="source-span" xml:id="source-18466-19197" n="86"/>
+        <note type="source-span" xml:id="source-18940-18949" n="86"/>
+        <note type="source-span" xml:id="source-18940-18982" n="86"/>
+        <note type="source-span" xml:id="source-18949-18982" n="86"/>
+        <note type="source-span" xml:id="source-18982-19012" n="86"/>
+        <note type="source-span" xml:id="source-19012-19033" n="86"/>
+        <note type="source-span" xml:id="source-19033-19197" n="86"/>
+        <note type="source-span" xml:id="source-19197-19528" n="87"/>
+        <note type="source-span" xml:id="source-19528-19585" n="89"/>
+        <note type="source-span" xml:id="source-19528-20478" n="89"/>
+        <note type="source-span" xml:id="source-19585-19600" n="89"/>
+        <note type="source-span" xml:id="source-19600-19618" n="89"/>
+        <note type="source-span" xml:id="source-19618-19633" n="89"/>
+        <note type="source-span" xml:id="source-19633-20260" n="89"/>
+        <note type="source-span" xml:id="source-1989-2084" n="21"/>
+        <note type="source-span" xml:id="source-20260-20281" n="89"/>
+        <note type="source-span" xml:id="source-20281-20350" n="89"/>
+        <note type="source-span" xml:id="source-20350-20359" n="89"/>
+        <note type="source-span" xml:id="source-20350-20392" n="89"/>
+        <note type="source-span" xml:id="source-20359-20392" n="89"/>
+        <note type="source-span" xml:id="source-20392-20478" n="89"/>
+        <note type="source-span" xml:id="source-20478-20783" n="90"/>
+        <note type="source-span" xml:id="source-20783-21115" n="91"/>
+        <note type="source-span" xml:id="source-2084-2336" n="22"/>
+        <note type="source-span" xml:id="source-2084-2458" n="22"/>
+        <note type="source-span" xml:id="source-21035-21050" n="91"/>
+        <note type="source-span" xml:id="source-21115-21414" n="92"/>
+        <note type="source-span" xml:id="source-21414-22071" n="93"/>
+        <note type="source-span" xml:id="source-21414-22103" n="93"/>
+        <note type="source-span" xml:id="source-22071-22095" n="93"/>
+        <note type="source-span" xml:id="source-22095-22103" n="93"/>
+        <note type="source-span" xml:id="source-22103-22246" n="94"/>
+        <note type="source-span" xml:id="source-22246-22425" n="95"/>
+        <note type="source-span" xml:id="source-22425-22605" n="96"/>
+        <note type="source-span" xml:id="source-22425-22733" n="96"/>
+        <note type="source-span" xml:id="source-22605-22626" n="96"/>
+        <note type="source-span" xml:id="source-22626-22733" n="96"/>
+        <note type="source-span" xml:id="source-22733-22900" n="97"/>
+        <note type="source-span" xml:id="source-22900-23190" n="98"/>
+        <note type="source-span" xml:id="source-23190-23300" n="99"/>
+        <note type="source-span" xml:id="source-23300-23497" n="100"/>
+        <note type="source-span" xml:id="source-2336-2357" n="22"/>
+        <note type="source-span" xml:id="source-23450-23474" n="100"/>
+        <note type="source-span" xml:id="source-23474-23497" n="100"/>
+        <note type="source-span" xml:id="source-23497-23646" n="101"/>
+        <note type="source-span" xml:id="source-2357-2458" n="22"/>
+        <note type="source-span" xml:id="source-23646-23771" n="102"/>
+        <note type="source-span" xml:id="source-23709-23730" n="102"/>
+        <note type="source-span" xml:id="source-23771-23992" n="103"/>
+        <note type="source-span" xml:id="source-23992-24540" n="104"/>
+        <note type="source-span" xml:id="source-24540-24564" n="105"/>
+        <note type="source-span" xml:id="source-24540-24809" n="105"/>
+        <note type="source-span" xml:id="source-24564-24576" n="105"/>
+        <note type="source-span" xml:id="source-24576-24809" n="105"/>
+        <note type="source-span" xml:id="source-2458-2560" n="23"/>
+        <note type="source-span" xml:id="source-2458-2955" n="23"/>
+        <note type="source-span" xml:id="source-24809-24940" n="106"/>
+        <note type="source-span" xml:id="source-24940-25056" n="107"/>
+        <note type="source-span" xml:id="source-25056-25196" n="108"/>
+        <note type="source-span" xml:id="source-25155-25179" n="108"/>
+        <note type="source-span" xml:id="source-25179-25196" n="108"/>
+        <note type="source-span" xml:id="source-25196-25450" n="109"/>
+        <note type="source-span" xml:id="source-25450-25671" n="110"/>
+        <note type="source-span" xml:id="source-2560-2569" n="23"/>
+        <note type="source-span" xml:id="source-2560-2602" n="23"/>
+        <note type="source-span" xml:id="source-25671-25715" n="111"/>
+        <note type="source-span" xml:id="source-2569-2602" n="23"/>
+        <note type="source-span" xml:id="source-25715-25969" n="112"/>
+        <note type="source-span" xml:id="source-25969-26145" n="113"/>
+        <note type="source-span" xml:id="source-2602-2677" n="23"/>
+        <note type="source-span" xml:id="source-26145-26354" n="114"/>
+        <note type="source-span" xml:id="source-26354-26650" n="115"/>
+        <note type="source-span" xml:id="source-26650-26796" n="116"/>
+        <note type="source-span" xml:id="source-2677-2692" n="23"/>
+        <note type="source-span" xml:id="source-26796-27167" n="117"/>
+        <note type="source-span" xml:id="source-27167-27197" n="118"/>
+        <note type="source-span" xml:id="source-27167-27328" n="118"/>
+        <note type="source-span" xml:id="source-27197-27221" n="118"/>
+        <note type="source-span" xml:id="source-27221-27328" n="118"/>
+        <note type="source-span" xml:id="source-27328-27618" n="119"/>
+        <note type="source-span" xml:id="source-27618-28109" n="120"/>
+        <note type="source-span" xml:id="source-27708-27726" n="120"/>
+        <note type="source-span" xml:id="source-27726-27774" n="120"/>
+        <note type="source-span" xml:id="source-27774-27789" n="120"/>
+        <note type="source-span" xml:id="source-27789-27855" n="120"/>
+        <note type="source-span" xml:id="source-27855-27864" n="120"/>
+        <note type="source-span" xml:id="source-27855-27897" n="120"/>
+        <note type="source-span" xml:id="source-27864-27897" n="120"/>
+        <note type="source-span" xml:id="source-28109-28144" n="121"/>
+        <note type="source-span" xml:id="source-28144-28314" n="122"/>
+        <note type="source-span" xml:id="source-28314-28409" n="123"/>
+        <note type="source-span" xml:id="source-28409-28433" n="124"/>
+        <note type="source-span" xml:id="source-28409-28498" n="124"/>
+        <note type="source-span" xml:id="source-28433-28448" n="124"/>
+        <note type="source-span" xml:id="source-28448-28498" n="124"/>
+        <note type="source-span" xml:id="source-28498-28683" n="125"/>
+        <note type="source-span" xml:id="source-28683-28925" n="126"/>
+        <note type="source-span" xml:id="source-28925-28970" n="127"/>
+        <note type="source-span" xml:id="source-28925-29557" n="127"/>
+        <note type="source-span" xml:id="source-28970-28997" n="127"/>
+        <note type="source-span" xml:id="source-28997-29557" n="127"/>
+        <note type="source-span" xml:id="source-2955-3194" n="24"/>
+        <note type="source-span" xml:id="source-29557-29764" n="128"/>
+        <note type="source-span" xml:id="source-29557-30192" n="128"/>
+        <note type="source-span" xml:id="source-29764-29788" n="128"/>
+        <note type="source-span" xml:id="source-29788-29845" n="128"/>
+        <note type="source-span" xml:id="source-29845-29857" n="128"/>
+        <note type="source-span" xml:id="source-29845-29893" n="128"/>
+        <note type="source-span" xml:id="source-29857-29893" n="128"/>
+        <note type="source-span" xml:id="source-29893-30106" n="128"/>
+        <note type="source-span" xml:id="source-30106-30121" n="128"/>
+        <note type="source-span" xml:id="source-30121-30192" n="128"/>
+        <note type="source-span" xml:id="source-30192-30941" n="129"/>
+        <note type="source-span" xml:id="source-30941-31175" n="130"/>
+        <note type="source-span" xml:id="source-30941-31297" n="130"/>
+        <note type="source-span" xml:id="source-31175-31199" n="130"/>
+        <note type="source-span" xml:id="source-31199-31297" n="130"/>
+        <note type="source-span" xml:id="source-31297-31300" n="131"/>
+        <note type="source-span" xml:id="source-31297-31530" n="131"/>
+        <note type="source-span" xml:id="source-31300-31321" n="131"/>
+        <note type="source-span" xml:id="source-31321-31405" n="131"/>
+        <note type="source-span" xml:id="source-3135-3144" n="24"/>
+        <note type="source-span" xml:id="source-3135-3177" n="24"/>
+        <note type="source-span" xml:id="source-31405-31426" n="131"/>
+        <note type="source-span" xml:id="source-3144-3177" n="24"/>
+        <note type="source-span" xml:id="source-31530-31640" n="132"/>
+        <note type="source-span" xml:id="source-31640-32365" n="133"/>
+        <note type="source-span" xml:id="source-31703-31733" n="133"/>
+        <note type="source-span" xml:id="source-3177-3194" n="24"/>
+        <note type="source-span" xml:id="source-3194-3235" n="25"/>
+        <note type="source-span" xml:id="source-3235-3357" n="26"/>
+        <note type="source-span" xml:id="source-32365-32397" n="134"/>
+        <note type="source-span" xml:id="source-32397-32681" n="135"/>
+        <note type="source-span" xml:id="source-32681-32924" n="136"/>
+        <note type="source-span" xml:id="source-32681-33043" n="136"/>
+        <note type="source-span" xml:id="source-32924-32939" n="136"/>
+        <note type="source-span" xml:id="source-32939-33043" n="136"/>
+        <note type="source-span" xml:id="source-33043-33304" n="137"/>
+        <note type="source-span" xml:id="source-33043-33363" n="137"/>
+        <note type="source-span" xml:id="source-33304-33328" n="137"/>
+        <note type="source-span" xml:id="source-33328-33363" n="137"/>
+        <note type="source-span" xml:id="source-33363-33677" n="138"/>
+        <note type="source-span" xml:id="source-3357-3455" n="27"/>
+        <note type="source-span" xml:id="source-33677-33745" n="139"/>
+        <note type="source-span" xml:id="source-33745-33924" n="140"/>
+        <note type="source-span" xml:id="source-33924-33956" n="141"/>
+        <note type="source-span" xml:id="source-33956-34046" n="142"/>
+        <note type="source-span" xml:id="source-33956-34216" n="142"/>
+        <note type="source-span" xml:id="source-34046-34073" n="142"/>
+        <note type="source-span" xml:id="source-34073-34216" n="142"/>
+        <note type="source-span" xml:id="source-34216-34671" n="143"/>
+        <note type="source-span" xml:id="source-3455-3580" n="28"/>
+        <note type="source-span" xml:id="source-34671-35039" n="144"/>
+        <note type="source-span" xml:id="source-35039-35183" n="145"/>
+        <note type="source-span" xml:id="source-35039-35568" n="145"/>
+        <note type="source-span" xml:id="source-35183-35204" n="145"/>
+        <note type="source-span" xml:id="source-35204-35568" n="145"/>
+        <note type="source-span" xml:id="source-35568-36074" n="147"/>
+        <note type="source-span" xml:id="source-3580-3666" n="29"/>
+        <note type="source-span" xml:id="source-36074-36313" n="148"/>
+        <note type="source-span" xml:id="source-36313-36363" n="149"/>
+        <note type="source-span" xml:id="source-36363-36399" n="150"/>
+        <note type="source-span" xml:id="source-36363-36863" n="150"/>
+        <note type="source-span" xml:id="source-36399-36405" n="150"/>
+        <note type="source-span" xml:id="source-36399-36435" n="150"/>
+        <note type="source-span" xml:id="source-36405-36435" n="150"/>
+        <note type="source-span" xml:id="source-36435-36651" n="150"/>
+        <note type="source-span" xml:id="source-36651-36666" n="150"/>
+        <note type="source-span" xml:id="source-3666-3866" n="30"/>
+        <note type="source-span" xml:id="source-36666-36735" n="150"/>
+        <note type="source-span" xml:id="source-36735-36762" n="150"/>
+        <note type="source-span" xml:id="source-36762-36810" n="150"/>
+        <note type="source-span" xml:id="source-36810-36825" n="150"/>
+        <note type="source-span" xml:id="source-36825-36863" n="150"/>
+        <note type="source-span" xml:id="source-36863-36949" n="151"/>
+        <note type="source-span" xml:id="source-36949-37011" n="152"/>
+        <note type="source-span" xml:id="source-37011-37280" n="153"/>
+        <note type="source-span" xml:id="source-37280-37322" n="154"/>
+        <note type="source-span" xml:id="source-37280-37675" n="154"/>
+        <note type="source-span" xml:id="source-3729-3744" n="30"/>
+        <note type="source-span" xml:id="source-37322-37328" n="154"/>
+        <note type="source-span" xml:id="source-37322-37358" n="154"/>
+        <note type="source-span" xml:id="source-37328-37358" n="154"/>
+        <note type="source-span" xml:id="source-37358-37466" n="154"/>
+        <note type="source-span" xml:id="source-3744-3822" n="30"/>
+        <note type="source-span" xml:id="source-37466-37487" n="154"/>
+        <note type="source-span" xml:id="source-37487-37675" n="154"/>
+        <note type="source-span" xml:id="source-37675-37773" n="155"/>
+        <note type="source-span" xml:id="source-37773-37922" n="156"/>
+        <note type="source-span" xml:id="source-37922-38239" n="157"/>
+        <note type="source-span" xml:id="source-3822-3840" n="30"/>
+        <note type="source-span" xml:id="source-38239-38427" n="158"/>
+        <note type="source-span" xml:id="source-38427-38672" n="159"/>
+        <note type="source-span" xml:id="source-3866-3946" n="31"/>
+        <note type="source-span" xml:id="source-38672-38842" n="160"/>
+        <note type="source-span" xml:id="source-38842-38907" n="161"/>
+        <note type="source-span" xml:id="source-38907-39096" n="162"/>
+        <note type="source-span" xml:id="source-38907-39266" n="162"/>
+        <note type="source-span" xml:id="source-39096-39117" n="162"/>
+        <note type="source-span" xml:id="source-39117-39266" n="162"/>
+        <note type="source-span" xml:id="source-39266-39643" n="163"/>
+        <note type="source-span" xml:id="source-3946-4236" n="32"/>
+        <note type="source-span" xml:id="source-39643-39828" n="164"/>
+        <note type="source-span" xml:id="source-39828-40154" n="165"/>
+        <note type="source-span" xml:id="source-40154-40225" n="166"/>
+        <note type="source-span" xml:id="source-40225-40405" n="167"/>
+        <note type="source-span" xml:id="source-40225-40803" n="167"/>
+        <note type="source-span" xml:id="source-40405-40411" n="167"/>
+        <note type="source-span" xml:id="source-40405-40441" n="167"/>
+        <note type="source-span" xml:id="source-40411-40441" n="167"/>
+        <note type="source-span" xml:id="source-40441-40803" n="167"/>
+        <note type="source-span" xml:id="source-40803-41264" n="168"/>
+        <note type="source-span" xml:id="source-41264-41404" n="169"/>
+        <note type="source-span" xml:id="source-41404-41532" n="170"/>
+        <note type="source-span" xml:id="source-41532-41738" n="171"/>
+        <note type="source-span" xml:id="source-41738-41947" n="172"/>
+        <note type="source-span" xml:id="source-4180-4201" n="32"/>
+        <note type="source-span" xml:id="source-41947-42189" n="173"/>
+        <note type="source-span" xml:id="source-4201-4236" n="32"/>
+        <note type="source-span" xml:id="source-42189-42260" n="174"/>
+        <note type="source-span" xml:id="source-42260-42526" n="175"/>
+        <note type="source-span" xml:id="source-42287-42311" n="175"/>
+        <note type="source-span" xml:id="source-4236-4394" n="33"/>
+        <note type="source-span" xml:id="source-42526-42570" n="176"/>
+        <note type="source-span" xml:id="source-42570-43050" n="177"/>
+        <note type="source-span" xml:id="source-42570-43364" n="177"/>
+        <note type="source-span" xml:id="source-43050-43068" n="177"/>
+        <note type="source-span" xml:id="source-43068-43230" n="177"/>
+        <note type="source-span" xml:id="source-43230-43251" n="177"/>
+        <note type="source-span" xml:id="source-43251-43364" n="177"/>
+        <note type="source-span" xml:id="source-43364-43492" n="178"/>
+        <note type="source-span" xml:id="source-43492-43608" n="179"/>
+        <note type="source-span" xml:id="source-43608-43673" n="180"/>
+        <note type="source-span" xml:id="source-43673-43900" n="181"/>
+        <note type="source-span" xml:id="source-43900-44058" n="182"/>
+        <note type="source-span" xml:id="source-4394-4546" n="34"/>
+        <note type="source-span" xml:id="source-44058-44285" n="183"/>
+        <note type="source-span" xml:id="source-44285-44375" n="184"/>
+        <note type="source-span" xml:id="source-44285-44839" n="184"/>
+        <note type="source-span" xml:id="source-44375-44387" n="184"/>
+        <note type="source-span" xml:id="source-44387-44798" n="184"/>
+        <note type="source-span" xml:id="source-44798-44822" n="184"/>
+        <note type="source-span" xml:id="source-44822-44839" n="184"/>
+        <note type="source-span" xml:id="source-44839-44989" n="185"/>
+        <note type="source-span" xml:id="source-44839-45408" n="185"/>
+        <note type="source-span" xml:id="source-44989-45013" n="185"/>
+        <note type="source-span" xml:id="source-45013-45127" n="185"/>
+        <note type="source-span" xml:id="source-45127-45148" n="185"/>
+        <note type="source-span" xml:id="source-45148-45408" n="185"/>
+        <note type="source-span" xml:id="source-45408-45605" n="186"/>
+        <note type="source-span" xml:id="source-4546-4842" n="35"/>
+        <note type="source-span" xml:id="source-45605-45880" n="187"/>
+        <note type="source-span" xml:id="source-45880-46062" n="188"/>
+        <note type="source-span" xml:id="source-46062-46094" n="189"/>
+        <note type="source-span" xml:id="source-46094-46498" n="190"/>
+        <note type="source-span" xml:id="source-46498-46662" n="191"/>
+        <note type="source-span" xml:id="source-46549-46570" n="191"/>
+        <note type="source-span" xml:id="source-46662-47351" n="192"/>
+        <note type="source-span" xml:id="source-47076-47091" n="192"/>
+        <note type="source-span" xml:id="source-47351-47392" n="193"/>
+        <note type="source-span" xml:id="source-47392-47934" n="194"/>
+        <note type="source-span" xml:id="source-47934-48380" n="195"/>
+        <note type="source-span" xml:id="source-48380-48430" n="196"/>
+        <note type="source-span" xml:id="source-4842-5018" n="36"/>
+        <note type="source-span" xml:id="source-48430-49060" n="197"/>
+        <note type="source-span" xml:id="source-48430-49128" n="197"/>
+        <note type="source-span" xml:id="source-49060-49075" n="197"/>
+        <note type="source-span" xml:id="source-49075-49128" n="197"/>
+        <note type="source-span" xml:id="source-49128-49373" n="198"/>
+        <note type="source-span" xml:id="source-49373-49522" n="199"/>
+        <note type="source-span" xml:id="source-49522-50025" n="200"/>
+        <note type="source-span" xml:id="source-50025-50159" n="201"/>
+        <note type="source-span" xml:id="source-50159-50548" n="202"/>
+        <note type="source-span" xml:id="source-5018-5179" n="37"/>
+        <note type="source-span" xml:id="source-50548-50627" n="203"/>
+        <note type="source-span" xml:id="source-50627-50750" n="205"/>
+        <note type="source-span" xml:id="source-50627-50926" n="205"/>
+        <note type="source-span" xml:id="source-50750-50771" n="205"/>
+        <note type="source-span" xml:id="source-50771-50926" n="205"/>
+        <note type="source-span" xml:id="source-50926-51241" n="206"/>
+        <note type="source-span" xml:id="source-50926-51510" n="206"/>
+        <note type="source-span" xml:id="source-5114-5129" n="37"/>
+        <note type="source-span" xml:id="source-51241-51256" n="206"/>
+        <note type="source-span" xml:id="source-51256-51510" n="206"/>
+        <note type="source-span" xml:id="source-51510-51779" n="207"/>
+        <note type="source-span" xml:id="source-51779-52256" n="208"/>
+        <note type="source-span" xml:id="source-51779-52330" n="208"/>
+        <note type="source-span" xml:id="source-5179-5253" n="38"/>
+        <note type="source-span" xml:id="source-52256-52262" n="208"/>
+        <note type="source-span" xml:id="source-52256-52292" n="208"/>
+        <note type="source-span" xml:id="source-52262-52292" n="208"/>
+        <note type="source-span" xml:id="source-52292-52295" n="208"/>
+        <note type="source-span" xml:id="source-52295-52310" n="208"/>
+        <note type="source-span" xml:id="source-52310-52330" n="208"/>
+        <note type="source-span" xml:id="source-52330-52416" n="209"/>
+        <note type="source-span" xml:id="source-52416-52478" n="210"/>
+        <note type="source-span" xml:id="source-52478-52897" n="211"/>
+        <note type="source-span" xml:id="source-5253-5322" n="39"/>
+        <note type="source-span" xml:id="source-5253-5801" n="39"/>
+        <note type="source-span" xml:id="source-52721-52739" n="211"/>
+        <note type="source-span" xml:id="source-52897-53256" n="212"/>
+        <note type="source-span" xml:id="source-531-540" n="18"/>
+        <note type="source-span" xml:id="source-531-806" n="18"/>
+        <note type="source-span" xml:id="source-5322-5328" n="39"/>
+        <note type="source-span" xml:id="source-5322-5358" n="39"/>
+        <note type="source-span" xml:id="source-53256-53423" n="213"/>
+        <note type="source-span" xml:id="source-5328-5358" n="39"/>
+        <note type="source-span" xml:id="source-53423-53641" n="214"/>
+        <note type="source-span" xml:id="source-53573-53594" n="214"/>
+        <note type="source-span" xml:id="source-5358-5801" n="39"/>
+        <note type="source-span" xml:id="source-53594-53641" n="214"/>
+        <note type="source-span" xml:id="source-53641-53829" n="215"/>
+        <note type="source-span" xml:id="source-53829-54071" n="216"/>
+        <note type="source-span" xml:id="source-540-546" n="18"/>
+        <note type="source-span" xml:id="source-540-576" n="18"/>
+        <note type="source-span" xml:id="source-54071-54232" n="217"/>
+        <note type="source-span" xml:id="source-54232-54477" n="218"/>
+        <note type="source-span" xml:id="source-54376-54391" n="218"/>
+        <note type="source-span" xml:id="source-54477-54647" n="219"/>
+        <note type="source-span" xml:id="source-546-576" n="18"/>
+        <note type="source-span" xml:id="source-54647-54886" n="220"/>
+        <note type="source-span" xml:id="source-54886-54991" n="221"/>
+        <note type="source-span" xml:id="source-54886-55044" n="221"/>
+        <note type="source-span" xml:id="source-54991-55015" n="221"/>
+        <note type="source-span" xml:id="source-55015-55044" n="221"/>
+        <note type="source-span" xml:id="source-55044-55136" n="222"/>
+        <note type="source-span" xml:id="source-55136-55189" n="223"/>
+        <note type="source-span" xml:id="source-55189-55341" n="224"/>
+        <note type="source-span" xml:id="source-55341-55577" n="225"/>
+        <note type="source-span" xml:id="source-55577-55913" n="226"/>
+        <note type="source-span" xml:id="source-55921-56030" n="230"/>
+        <note type="source-span" xml:id="source-56030-56535" n="232"/>
+        <note type="source-span" xml:id="source-576-609" n="18"/>
+        <note type="source-span" xml:id="source-5801-5899" n="40"/>
+        <note type="source-span" xml:id="source-5899-6117" n="41"/>
+        <note type="source-span" xml:id="source-609-633" n="18"/>
+        <note type="source-span" xml:id="source-6117-6185" n="42"/>
+        <note type="source-span" xml:id="source-6185-6340" n="43"/>
+        <note type="source-span" xml:id="source-633-759" n="18"/>
+        <note type="source-span" xml:id="source-6340-6399" n="44"/>
+        <note type="source-span" xml:id="source-6399-6503" n="45"/>
+        <note type="source-span" xml:id="source-6503-6706" n="46"/>
+        <note type="source-span" xml:id="source-6590-6620" n="46"/>
+        <note type="source-span" xml:id="source-6706-6804" n="47"/>
+        <note type="source-span" xml:id="source-6804-7076" n="48"/>
+        <note type="source-span" xml:id="source-7076-7196" n="49"/>
+        <note type="source-span" xml:id="source-7076-7777" n="49"/>
+        <note type="source-span" xml:id="source-7196-7220" n="49"/>
+        <note type="source-span" xml:id="source-7220-7247" n="49"/>
+        <note type="source-span" xml:id="source-7247-7268" n="49"/>
+        <note type="source-span" xml:id="source-7268-7777" n="49"/>
+        <note type="source-span" xml:id="source-759-780" n="18"/>
+        <note type="source-span" xml:id="source-7777-7974" n="50"/>
+        <note type="source-span" xml:id="source-780-806" n="18"/>
+        <note type="source-span" xml:id="source-7891-7906" n="50"/>
+        <note type="source-span" xml:id="source-7974-8259" n="51"/>
+        <note type="source-span" xml:id="source-7974-8669" n="51"/>
+        <note type="source-span" xml:id="source-806-1360" n="19"/>
+        <note type="source-span" xml:id="source-806-950" n="19"/>
+        <note type="source-span" xml:id="source-8259-8274" n="51"/>
+        <note type="source-span" xml:id="source-8274-8625" n="51"/>
+        <note type="source-span" xml:id="source-8625-8637" n="51"/>
+        <note type="source-span" xml:id="source-8637-8669" n="51"/>
+        <note type="source-span" xml:id="source-8669-8887" n="52"/>
+        <note type="source-span" xml:id="source-8887-9030" n="53"/>
+        <note type="source-span" xml:id="source-9030-9284" n="54"/>
+        <note type="source-span" xml:id="source-9108-9135" n="54"/>
+        <note type="source-span" xml:id="source-9284-9325" n="55"/>
+        <note type="source-span" xml:id="source-9325-9579" n="56"/>
+        <note type="source-span" xml:id="source-950-965" n="19"/>
+        <note type="source-span" xml:id="source-9579-10367" n="57"/>
+        <note type="source-span" xml:id="source-965-1360" n="19"/>
+        <note type="source-span" xml:id="source-9720-9750" n="57"/>
+        <note type="source-span" xml:id="source-9750-9846" n="57"/>
+        <note type="source-span" xml:id="source-9846-9870" n="57"/>
+        <note type="source-span" xml:id="source-9870-10080" n="57"/>
+      </div>
+      <note type="parser-completion" n="true">The n attribute is true when no parser diagnostic of error severity was raised for this source. What the converter could not interpret is recorded in the interpretation-problem and parser-diagnostic notes.</note>
+      <note type="source-decoding">windows-31j</note>
+    </back>
+  </text>
+</TEI>

@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:snh="https://w3id.org/soranoha/ns/tei" xmlns="http://www.tei-c.org/ns/1.0" snh:vocab-version="3">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ja">ルクレチウスと科学</title>
+        <title type="reading" xml:lang="ja-Hira">ルクレチウスとかがく</title>
+        <author><persName xml:lang="ja"><surname>寺田</surname><forename>寅彦</forename><idno type="aozora-person-id">000042</idno></persName><persName xml:lang="ja-Hira"><surname>てらだ</surname><forename>とらひこ</forename></persName><persName xml:lang="ja-Latn"><surname>Terada</surname><forename>Torahiko</forename></persName></author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://w3id.org/soranoha/">Soranoha</publisher>
+        <idno type="soranoha-work-identifier">002347_000042</idno>
+        <idno type="aozora-work-id">002347</idno>
+        <idno type="aozora-card-url">https://www.aozora.gr.jp/cards/000042/card2347.html</idno>
+        <date when="2014-09-17">2014-09-17</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">The underlying work is in the public domain; Soranoha asserts no rights over it.</licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Soranoha's encoding of this work and the artifacts derived from it are dedicated to the public domain under CC0-1.0. Attribution is requested, not required. Full rights statement: <ptr target="https://w3id.org/soranoha/rights"/></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>寺田寅彦随筆集　第二巻</title><publisher>岩波文庫、岩波書店</publisher><date>1947（昭和22）年9月10日、1964（昭和39）年1月16日第22刷改版</date><note type="input-edition">1997（平成9）年5月6日第70刷</note><note type="proof-edition">1997（平成9）年5月6日第70刷</note></bibl>
+        <bibl type="first-publication">「世界思潮」1929（昭和4）年9月</bibl>
+        <bibl><idno type="source-content-hash">sha256:ad040de918118092ff946d2237ebeaec136e9db53499d8d1ed177703e862800b</idno></bibl>
+        <bibl><idno type="primary-text-hash">sha256:2add83684b862d115541977b72f1c82547fd1f08252a5cd115a001f7e63b965e</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css"/>
+      <classDecl><taxonomy xml:id="ndc"><bibl>分類番号 as recorded by <title>青空文庫</title>, read as a class of 日本十進分類法 新訂9版. Category labels are from <title>NDC9 Linked Data</title> (日本図書館協会, CC BY); a category's IRI is <ref target="http://jla.or.jp/data/ndc9">http://jla.or.jp/data/ndc9</ref> followed by # and its n.</bibl><category xml:id="ndc914" n="914"><catDesc xml:lang="ja">評論．エッセイ．随筆</catDesc><catDesc xml:lang="en">Essays.Prose</catDesc></category><category xml:id="ndc420" n="420"><catDesc xml:lang="ja">物理学</catDesc><catDesc xml:lang="en">Physics</catDesc></category></taxonomy><taxonomy xml:id="aozora-orthography"><bibl><title>青空文庫</title> 文字遣い種別: the orthographic style Aozora Bunko records for the transcription.</bibl></taxonomy></classDecl>
+      <refsDecl xml:id="source-spans"><p>A note of type source-span has an xml:id of the form source-START-END, giving the extent in UTF-8 bytes of the decoded primary text identified in sourceDesc, after the emendations declared in editorialDecl/correction are applied; each emendation replaces its sic text by its corr text at its own extent. <ptr target="https://w3id.org/soranoha/ns/tei"/></p></refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ja">日本語</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#ndc">914 420</classCode>
+        <catRef scheme="#ndc" target="#ndc914 #ndc420"/>
+        <classCode scheme="#aozora-orthography">新字新仮名</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p style="text-indent: 5em" rend="first-line-indent(5)" source="#source-770-795"><seg source="#source-770-795">緒言</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-795-1541"><seg source="#source-795-909">今からもう十余年も前のことである。私はだれかの物理学史を読んでいるうちに、</seg><ruby type="furigana" rend="right" source="#source-909-942"><rb>耶蘇紀元</rb><rt>やそきげん</rt></ruby><seg source="#source-942-1092">前一世紀のころローマの詩人哲学者ルクレチウス（紀元前九八―五四）が、暗室にさし入る日光の中に舞踊する</seg><ruby type="furigana" rend="right" source="#source-1092-1113"><rb>微塵</rb><rt>みじん</rt></ruby><seg source="#source-1113-1155">の混乱状態を例示して物質元子</seg><seg type="annotated-text" source="#source-1164-1203"><seg source="#source-1155-1164">（１）</seg><note type="source-role" subtype="annotation-number"><seg source="#source-1188-1200">注釈番号</seg></note></seg><seg source="#source-1203-1254">の無秩序運動を説明したという記事に</seg><ruby type="furigana" rend="right" source="#source-1254-1281"><rb>逢着</rb><rt>ほうちゃく</rt></ruby><seg source="#source-1281-1383">して驚嘆の念に打たれたことがあった。実に天下に新しき何物もないという</seg><ruby type="furigana" rend="right" source="#source-1383-1404"><rb>諺</rb><rt>ことわざ</rt></ruby><seg source="#source-1404-1541">を思い出すと同時に、また地上には古い何物もないということを痛切に感じさせられたのであった。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-1541-2410"><seg source="#source-1541-1568">その後に私は友人</seg><ruby type="furigana" rend="right" source="#source-1568-1607"><rb>安倍能成</rb><rt>あべよししげ</rt></ruby>君の「西洋哲学史」を読んで、ロイキッポス、デモクリトス、エピクロスを経てルクレチウスに伝わった元子論の<ruby type="furigana" rend="right" source="#source-1760-1784"><rb>梗概</rb><rt>こうがい</rt></ruby><seg source="#source-1784-2410">や、その説の哲学的の意義、他学派に対する関係等について多少の概念を得る事ができた、と同時にこの元子説に対する科学者としての強い興味を刺激された。しかしてこの説の内容についてもう少し詳しい知識を得たいという希望をもっていたが、われわれのような職業科学者にとっては、読まなければならない新しい専門的の書物があまりに多いために、どうも二千年前の物理学を復習する暇がないような気がして、ついついそのままになっていたのである。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2410-2595"><seg source="#source-2410-2467">ところが、昨年の夏であったか、ある日</seg><ruby type="furigana" rend="right" source="#source-2467-2494"><rb>丸善</rb><rt>まるぜん</rt></ruby><seg source="#source-2494-2595">の二階であてもなくエヴリーマンス・ライブラリーをあさっているうちに</seg></p>
+      <div type="layout" source="#source-2595-2753" style="padding-inline-start: 3em">
+        <p source="#source-2630-2717"><seg source="#source-2630-2717">Lucretius: Of the Nature of Things. A Metrical Translation by William Ellery Leonard.</seg></p>
+      </div>
+      <div>
+        <p source="#source-2755-3336"><seg source="#source-2755-3336">というのが目についた。そうして旧知の人にめぐりあったような気がしてさっそく一本を求め、帰りの電車の中でところどころ拾い読みにしてみると、予想以上におもしろい事がらが満載されてあるように感ぜられた。それからあちらこちらの往復に電車で費やす時間を利用してともかくも一度読了した。その後ある物理学者の集会の席上で私はこの書の内容の梗概を紹介して、多くの若い学者たちに一読を勧めたこともあった。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-3336-3449"><seg source="#source-3336-3449">ことし（一九二八）になって雑誌ネチュアー（四月十四日発行）の巻頭紹介欄に</seg></p>
+      </div>
+      <div type="layout" source="#source-3449-3573" style="padding-inline-start: 3em">
+        <p source="#source-3484-3537"><seg source="#source-3484-3537">Munro's Lucretius. Fourth Edition, finally revised.</seg></p>
+      </div>
+      <div>
+        <p source="#source-3575-4181"><seg source="#source-3575-4181">に関するダルシー・タムソンの紹介文が現われた。それによると、この書の第二巻目はマンローの詳細なる評注に加うるに、物理学者のダ・アンドラデ（E. N. da C. Andrade）の筆に成るルクレチウスの科学的意義に関する解説を収録してあるということであった。それでこれを取り寄せてその解説を読むと同時に、また評注の中の摘要をたよりにしてもう一度詳しく読み返してみた。しかして読めば読むほどおもしろい本であるという考えを深くした。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4181-4522"><seg source="#source-4181-4522">マンローの注は、もちろんラチンの原文を読まんとする人のために作られたものであって、自分のような古典の知識のないものにとっては大部分はいわゆるねこに小判である。しかし原詩の十行あるいは三十行ごとに掲げた摘要は便利なものである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4522-4737"><seg source="#source-4522-4737">マンローの第三巻はこの人の対語訳で、同じものがボーンのポピュラー・ライブラリーの中にも出ているそうであるが、自分はまだこの訳を読んでいない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4737-5039"><seg source="#source-4737-5039">思うにルクレチウスを読み破る事ができたら、今までのルクレチウス研究者が発見し得なかった意外なものを掘り出す事ができはしないかと疑う。それほどにルクレチウスの中には多くの未来が黙示されているのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5039-5545"><seg source="#source-5039-5132">アンドラデの解説によると、近代物理学の大家であったケルヴィン</seg><ruby type="furigana" rend="right" source="#source-5132-5150"><rb>卿</rb><rt>きょう</rt></ruby>もまたルクレチウスの愛読者であった。すなわち卿の一八九五年のある手紙の一節に「このごろ、マンロー訳の助けをかりてルクレチウスを読んでいた。そして原子の衝突についてなんとか自分流儀の解釈をしてみようと思ってだいぶ骨折ってみたが、どうもうまくできない」と言っている。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5545-7517"><seg source="#source-5545-5761">ルクレチウスの黙示からなんらかの大きな啓示を受けた学者の数は、おそらく少なくはなかったであろう。アンドラデによると、ニウトンの原子に関する説明</seg><seg type="annotated-text" source="#source-5770-5809"><seg source="#source-5761-5770">（２）</seg><note type="source-role" subtype="annotation-number"><seg source="#source-5794-5806">注釈番号</seg></note></seg><seg source="#source-5809-6173">を読めば、彼がルクレチウスを知らなかったと想像する事はできないということである。ロバート・ボイルも直接に、またガッセンディを通じて間接にルクレチウスに親しんだ事が明らかである。また微粒子の雨によって重力を説明せんとしたル・サージュはその論文に </seg><seg source="#source-6176-6180">Lucr</seg><hi rend="accent" snh:accent-code="1-09-62" snh:source-marker="e`" source="#source-6180-6182" corresp="#source-6173-6176 #source-6194-6197">è</hi><seg source="#source-6182-6194">ce newtonien</seg><seg source="#source-6197-7029"> という表題をつけたくらいである。この説が後にケルヴィンによってさらに追求された事はよく知られた事である。ケルヴィンのほかにクラーク・マクスウェルやティンダルのごとき大家もまたルクレチウスに注意を払ったという事実があるそうである。それはとにかく、このような形跡を物理学史上に残さないで、しかも実際ルクレチウスから大きな何物かを感得した物理学者化学者生物学者がどれだけあったかもしれないということは、この一巻を読了したすべての人の所感でなければならない。それだけ多くの未来に対する黙示が含まれているのである。今から百年前にこの書を読んだ人にはおそらく無意味な</seg><ruby type="furigana" rend="right" source="#source-7029-7053"><rb>囈語</rb><rt>たわごと</rt></ruby><seg source="#source-7053-7517">のように思われたであろうと思うような章句で、五十年前の読者にはやっと始めてその当時の科学的の言葉で翻訳されたであろうと思われるのがある。それどころか十年前の物理学者ならばなんの気なしに読過したであろうと思う一句が、最新学説の光に照らして見ると意外な予言者としてわれわれの目に飛び込んで来るのもあるようである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-7517-8770"><seg source="#source-7517-8770">私がルクレチウスを紹介した集会の席上で、今どきそういうかび臭いものを読んで、実際に現在の物理学の研究上に何かの具体的の啓示を受けるという事がはたして有りうるであろうかという疑いをもらした人もあった。この疑いはあるいは現代の多くの科学者の疑いを代表するものであるかもしれない。しかし私は確かにそれが可能であると信じる一人である。もちろん科学者の中にはいろいろの種類の性質の人がある。暗示に対する感受性の鋭敏なたちの人と鈍感なたちの人とがある。解析型クラシカル型の人は多く後者に属し、幾何型ロマンチック型の学者は前者に属するのは周知の事実である。暗示に対して耳と目を閉じないタイプの学者ならば、ルクレチウスのこの黙示録から、おそらく数限りない可能性の源泉をくみ取る事ができるであろう。少なくもあるところまで進んで来て行き詰まりになっている考えに新しい光を投げ、新たな衝動を与える何物かを発見する事は決して珍しくはあるまいと思うのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-8770-9378"><seg source="#source-8770-8836">要するにルクレチウスは一つの偉大な科学的の</seg><ruby type="furigana" rend="right" source="#source-8836-8869"><rb>黙示録</rb><rt>アポカリプス</rt></ruby><seg source="#source-8869-9130">である。そのままで現代の意味における科学書ではもちろんありうるはずがない。もしこの書の内容を逐次に点検して、これを現在の知識に照らして科学的批判を試み、いろいろな事実や論理の</seg><ruby type="furigana" rend="right" source="#source-9130-9154"><rb>誤謬</rb><rt>ごびゅう</rt></ruby><seg source="#source-9154-9378">を指摘して、いい気持ちになろうとすれば、それは赤ん坊の腕をねじ上げるよりも容易であると同時にまたそれ以上におとなげないばかげた事でなければならない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-9378-10796"><seg source="#source-9378-9423">近着の雑誌リリュストラシオン</seg><seg type="annotated-text" source="#source-9432-9471"><seg source="#source-9423-9432">（３）</seg><note type="source-role" subtype="annotation-number"><seg source="#source-9456-9468">注釈番号</seg></note></seg>に「黙示録に現われたる飛行機と科学戦」と題する珍奇な絵入りの読み物がある。ヨハネの黙示録の第九章に示された恐ろしい<ruby type="furigana" rend="right" source="#source-9642-9660"><rb>蝗</rb><rt>いなご</rt></ruby><seg source="#source-9660-10796">の災いを欧州大戦における飛行機にうまく当てはめておもしろく書いてある。これもやはり一種の黙示である。しかしいかほどまでに蝗の記述が戦闘飛行機に当てはまってもそれは決して科学的の予言とは名づけ難いであろう。しからばルクレチウスの黙示もまたこれと同じような意味の黙示に過ぎないであろうかと考えてみると、自分には決してそうは思われないのである。ヨハネは目的の上からすでに全然宗教的の幻想であるのに反して、ルクレチウスのほうは始めから科学的の対象を科学的精神によって取り扱ったものである。彼の描き出した元子の影像がたとえ現在の原子の模型とどれほど違っていようとも、彼の元子の目的とするところはやはり物質の究極組成分としての元子であり、これの結合や運動によって説明せんと試みた諸現象はまさしく現在われわれの原子によって説明しようと試みつつある物理的化学的現象である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-10796-11569"><seg source="#source-10796-10910">意味のわからない言葉の中からはあらゆる意味が導き出されることは事実である。</seg><ruby type="furigana" rend="right" source="#source-10910-10934"><rb>狡猾</rb><rt>こうかつ</rt></ruby><seg source="#source-10934-10940">なる</seg><ruby type="furigana" rend="right" source="#source-10940-10961"><rb>似而非</rb><rt>えせ</rt></ruby><seg source="#source-10961-11156">予言者らは巧みにこの定型を応用する事を知っている。しかしルクレチウスは彼の知れる限りを記述するに当たって、意識的にことさらに言語を</seg><ruby type="furigana" rend="right" source="#source-11156-11183"><rb>晦渋</rb><rt>かいじゅう</rt></ruby><seg source="#source-11183-11569">にしているものとは思われない。少なくとも訳文を見ただけではそうは思われない。多くの場合にわれわれは彼の言わんと欲するところをかなりの程度まで確かに具体的に捕えうるように思う。こういう点でもルクレチウスの書は決して偶然的予言と混同さるべき性質のものではない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-11569-12084"><seg source="#source-11569-11695">私は今ルクレチウスを紹介せんとするに当たってまずこの点に誤解のないように、わざわざ</seg><ruby type="furigana" rend="right" source="#source-11695-11719"><rb>贅言</rb><rt>ぜいげん</rt></ruby><seg source="#source-11719-11998">を費やす必要を感じる。しかしルクレチウスの書の内容を科学的と名づけるということについては多くの異論があるに相違ない。特に現在のいわゆる精密科学の学徒から見れば到底彼らの考える科学の領域に</seg><ruby type="furigana" rend="right" source="#source-11998-12010"><rb>容</rb><rt>い</rt></ruby><seg source="#source-12010-12084">れることを承認し難いものと考えられるに相違ない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-12084-14102"><seg source="#source-12084-12096">問題は</seg><ruby type="furigana" rend="right" source="#source-12096-12123"><rb>畢竟</rb><rt>ひっきょう</rt></ruby><seg source="#source-12123-14102">科学とはなんぞや、精密科学とはなんぞやということに帰着する。しかしこの問題は明らかに科学の問題ではなく従って科学者自身だけでは容易に答えられない問題である。私も今ここでこのむつかしい問題の考察を試みる考えはないのであるが、ただ現在の精密科学の学生たちの多くが、この問題にあまりにはなはだしく無関心であることは事実である。彼らは高等学校から大学へ来て各自専門の科学の部門の豊富な課程に食傷するほどの教育を受けるのであるが、いまだかつてどこでも科学とかなんとかいう事についての考察の端緒をも授けられないのである。その結果はどうであるか。たとえば物理学の課程を立派に修得し、さらに大学院に入り五年間の研究の成果によって学位を得た後においても、何が物理学であるかについて夢想だもしないという事が可能となるわけである。もっともこれはその人が立派な一人前の物理学者となるためには少しも妨げとはならない事も事実である。それは日本人とはいかなるものかを少しも考えてみることなしに立派な日本人でありうると同じ事である。それでこの学者が自分の題目だけを追究している間は少しの不都合も起こらないのであるが、一度こういう学者たちが寄り合って、互いに科学というものの本質や目的や範囲に関する各自の考えを開陳し合ってみたら、その考えがいかに区々なものであるかを発見して驚くことであろうと思う。甲が最も科学的と思う事が乙には工業的に思われたり、乙が最も科学的と考えることが甲には最も非科学的な遊戯と思われたりするという意外な事実に気がつくであろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-14102-14725"><seg source="#source-14102-14660">丙は数理の応用が最高の科学的の仕事だと考えている間に、丁は実験や測定こそ真に貴重な科学の本筋であると考えているのを発見するであろう。もっともこのようにめいめいの見解の相違する事は、必ずしも科学の進歩に妨げを生じないのみならず、あるいはかえってむしろ必要な事であるかもしれない。しかし今ルクレチウスに科学の名を与えるか与えないかという問題となると、前述の見解の相違の結果が</seg><ruby type="furigana" rend="right" source="#source-14660-14687"><rb>明瞭</rb><rt>めいりょう</rt></ruby><seg source="#source-14687-14725">に現われて来るのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-14725-15543"><seg source="#source-14725-14809">現在の精密科学の方法の重要な目標は高級な数理の応用と、</seg><ruby type="furigana" rend="right" source="#source-14809-14830"><rb>精緻</rb><rt>せいち</rt></ruby><seg source="#source-14830-14929">な器械を用いる測定である。これが百年前の物理学と今の物理学との間に</seg><ruby type="furigana" rend="right" source="#source-14929-14953"><rb>截然</rb><rt>せつぜん</rt></ruby><seg source="#source-14953-15490">たる区別の目標を与えるのである。それで考え方によっては物理的科学の進歩すなわち応用数学と器械の進歩であるかのごとき感じを与えるのである。今もしこの二つの目標に準拠してルクレチウスを批判し採点するとすればどうであろう。これはいうまでもなく全然落第でありゼロである。なんとなれば全巻を通じて簡単な代数式一つなく、またなんらの簡易な器械を用いていかなる量を測定した</seg><ruby type="furigana" rend="right" source="#source-15490-15514"><rb>痕跡</rb><rt>こんせき</rt></ruby><seg source="#source-15514-15543">もないからである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-15543-16064"><seg source="#source-15543-15600">しかし、今一方に数理と器械を持たない</seg><ruby type="furigana" rend="right" source="#source-15600-15624"><rb>赤手</rb><rt>せきしゅ</rt></ruby><seg source="#source-15624-15732">のルクレチウスを立たせ、これと並べて他方に数学書と器械を山ほど積み上げた</seg><ruby type="furigana" rend="right" source="#source-15732-15753"><rb>戸棚</rb><rt>とだな</rt></ruby><seg source="#source-15753-15999">を並立させてよくよくながめて見るのもおもしろい。ルクレチウスは素手でともかくも後代の物理的科学の基礎を置いたことは事実であるのに、頭脳のない書物と器械だけでは科学は</seg><ruby type="furigana" rend="right" source="#source-15999-16026"><rb>秋毫</rb><rt>しゅうごう</rt></ruby><seg source="#source-16026-16064">も進められないのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-16064-18133"><seg source="#source-16064-16670">この明白なる事実は不幸にして往々忘れられる。数学と器械が、それを駆使する目に見えぬ魂の力によって初めて現わし得た偉大な効果に対する感嘆の念は、いつのまにか数学と器械そのものに対する偶像的礼拝の心に推移しようとする傾向を生ずる。そういう傾向は特に現代のアカデミックな教育を受けた若い学生の間に多いのみならず、また西洋でも二三流以下の学者の中にかなりに存在するように見える。この迷信の結果は往々はなはだしく</seg><ruby type="furigana" rend="right" source="#source-16670-16694"><rb>滑稽</rb><rt>こっけい</rt></ruby><seg source="#source-16694-16937">な事になって来る。きわめて不適当あるいは誤った考えを前提としてそして恐ろしくめんどうな高等数学の数式を取り扱い、その解式が得られると、その数式の神秘な力によって、</seg><ruby type="furigana" rend="right" source="#source-16937-16958"><rb>瓦礫</rb><rt>がれき</rt></ruby><seg source="#source-16958-17270">の前提から宝玉の結果が生まれるかのような気がしたり、またその計算がむつかしくめんどうであればあるほど、その結果の物理的価値が高められるかのごとき幻覚を生ぜしめることもまれではないようである。しかし数学の応用は</seg><ruby type="furigana" rend="right" source="#source-17270-17297"><rb>畢竟</rb><rt>ひっきょう</rt></ruby><seg source="#source-17297-17501">前提の分析である。鉛を化して金とする魔力はないのである。同じように立派な高価な器械を使えば使うほど何かしらいい結果が得られるというような</seg><ruby type="furigana" rend="right" source="#source-17501-17525"><rb>漠然</rb><rt>ばくぜん</rt></ruby><seg source="#source-17525-17621">たる予感もやはり器械に対する一つの迷信である。いかに良い器械でも</seg><ruby type="furigana" rend="right" source="#source-17621-17639"><rb>下手</rb><rt>へた</rt></ruby><seg source="#source-17639-17669">に使えば、悪い器械を</seg><ruby type="furigana" rend="right" source="#source-17669-17693"><rb>上手</rb><rt>じょうず</rt></ruby><seg source="#source-17693-18133">に使うよりも悪い結果を得る例も少なくない。もっとも有りきたりの陳腐な方法を追求する場合には、器械の良いほど良い結果を得られるのは普通である。しかしほんとうな意味での新しい独創的の研究をするのに市場に売り古されて保証の付いているほど陳腐な器械ばかり寄せ集めてできたためしはおそらくないであろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18133-18564"><seg source="#source-18133-18505">もっともこう言ったからとて私は、定石的数学応用の理論や既成的の方法器械によるルーティン的の実験測定の仕事の価値を少しでもけなそうとするものではない。そういうのが無数に寄り集まってこそ、初めて現在のごとき科学の壮麗な殿堂が築き上げられたということは</seg><ruby type="furigana" rend="right" source="#source-18505-18520"><rb>毫</rb><rt>ごう</rt></ruby><seg source="#source-18520-18564">も疑う余地のないことである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18564-18776"><seg source="#source-18564-18615">しかしいかに建築材料だけが立派に</seg><ruby type="furigana" rend="right" source="#source-18615-18639"><rb>堆積</rb><rt>たいせき</rt></ruby><seg source="#source-18639-18776">されてあってもそれだけでは殿堂はできない。殿堂の建設には設計者のファンタジーが必要である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18776-19969"><seg source="#source-18776-18962">科学の殿堂と言っても、その建設はもちろん家屋の建築とはわけがちがう。家屋の建築は設計者の気随になる。必要な建築学上の規則に</seg><ruby type="furigana" rend="right" source="#source-18962-18989"><rb>牴触</rb><rt>ていしょく</rt></ruby><seg source="#source-18989-19877">しない限りはあらゆる好きな格好のものを設計してもよいはずである。しかるに科学のシステムの設計はそう勝手にできるものではない。相手がすでに与えられた自然界である。たとえば空中を落下する石塊をわれらの意志の力で止めるわけには行かない。それで、しいて科学の系統の建設を建築にたとえようとすれば、それは数限りもない種々な所定条件のどれにもうまく適合するような家を造り上げるという事である。そういう建築、そういう系統が究極的にはたしてできうるかどうか。それはルクレチウスの時代にもよくわからなかったと同様に現在においてもわからないことである。しかしそれができるという信念のもとに努力して来た代々の学者の</seg><ruby type="furigana" rend="right" source="#source-19877-19901"><rb>莫大</rb><rt>ばくだい</rt></ruby><seg source="#source-19901-19969">な努力の結果がすなわち現在の科学の塔である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-19969-20421"><seg source="#source-19969-20421">科学の高塔はいまだかつて完成した事がないバベルの塔である。これでもうだいたいできあがったと思うと、実はできあがっていないという証拠が足元から発見される。職工たちの言葉が混乱してわからなくなる。しかし、すべての時代の学者はその完成を近き将来に夢みて来た。現在がそうであり、未来もおそらくそうであろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-20421-21887"><seg source="#source-20421-21162">このおそらく永遠に未完成であるべき物理的科学の殿堂の基礎はだれが置いたか。これはもちろん一人や二人の業績ではない。しかしその最初のプランを置き最初の大黒柱を立てたものは、おそらくルクレチウスの書物の内容を寄与したエピキュリアンの哲学者でなければならない。人はアリストテレスやピタゴラスをあげるかもしれない。前者は多くの科学的素材と問題を供し後者は自然の研究に数の観念を導入したというような点で彼らもまた科学者の祖先でないとは言われない。しかし彼らの立っていた地盤は今の自然科学のそれとはむしろ</seg><ruby type="furigana" rend="right" source="#source-21162-21195"><rb>対蹠的</rb><rt>たいせきてき</rt></ruby><seg source="#source-21195-21246">に反対なものであったように見える。</seg><ruby type="furigana" rend="right" source="#source-21246-21297"><rb>形而上学的</rb><rt>けいじじょうがくてき</rt></ruby><seg source="#source-21297-21887">の骨格に自然科学の肉を着けたものという批評を免れることはむつかしい。しかしそういう目的論的形而上学的のにおいをきれいに脱却して、ほとんど現在の意味における物理的科学の根本方針を定めたものはおそらくエピクロス派の人々でなければならない。彼らは少なくも現在の科学の筋道あるいは骨格をほとんど決定的に定めてしまったとも言われる。後代の学者はこれに肉を着け皮を着せる事に努力して来たようにも見られる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-21887-22345"><seg source="#source-21887-22103">この大設計は決して数学や器械の力でできるものではなくて、ただ哲人の直観の力によってできうるものである。古代の哲学者が元子の考えを導き出したのは</seg><ruby type="furigana" rend="right" source="#source-22103-22130"><rb>畢竟</rb><rt>ひっきょう</rt></ruby>ただ元子の存在を「かぎつけた」に過ぎない。そして彼らが目を閉じてかぎつけた事がらがいよいよ説明されるまでには実に二千年の歳月を要したのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-22345-22758"><seg source="#source-22345-22594">真理をかぎつける事の天才はファラデーであった。しかし彼の直観の能力に富んでいたという事は少しも彼の科学者としての面目を傷つけるものではなかった。彼がもし真理に対する</seg><ruby type="furigana" rend="right" source="#source-22594-22621"><rb>嗅覚</rb><rt>きゅうかく</rt></ruby><seg source="#source-22621-22758">を恥としたのであったら、十九世紀の物理学の進歩はたぶん少なからず渋滞をきたしたに相違ない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-22758-23390"><seg source="#source-22758-23390">ファラデーはしかし彼の直観を周到厳重な実験の吟味にかける事を忘れなかった。この事がなかったら彼はおそらく十九世紀の科学者であり得なかったに相違ない、ところでデモクリトス、エピクロス、ルクレチウスはたしかにファラデーのような実験はしなかった。そういう意味では彼らは明らかに科学者ではあるまい。しかしもし彼らがその驚くべき直観の力を具有してしかしてガリレー以後に生まれ、ファラデーの時代に生まれたと仮定したらどうであろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-23390-23968"><seg source="#source-23390-23968">もっともルクレチウスを科学者と名づけるか、名づけないかというような事は実はどうでもよい事で、またどうでも言える事である。しかし私のここで問題とするところは、現代の精密科学にとってルクレチウスの内容もしくはその思想精神がなんらかの役に立ちうるかということである。ルクレチウスの内容そのものよりはむしろ、ルクレチウス流の方法や精神が現在の科学の追究に有用であるかどうかということである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-23968-25305"><seg source="#source-23968-24157">科学上ではなんらかの画紀元的の進展を与えた新しい観念や学説がほとんど皆すぐれた頭脳の直観に基づくものであるという事は今さらに</seg><ruby type="furigana" rend="right" source="#source-24157-24181"><rb>贅言</rb><rt>ぜいげん</rt></ruby><seg source="#source-24181-24538">を要しない事であるにかかわらず、昔も今も通有な一種の偏狭なアカデミックの学風は、無差別的に直観そのものを軽んじあるいは避忌するような傾向を生じている。これは日本やドイツばかりには限らないと見えて米国の学者でこの事を痛切に論じたものもあった</seg><seg type="annotated-text" source="#source-24547-24586"><seg source="#source-24538-24547">（４）</seg><note type="source-role" subtype="annotation-number"><seg source="#source-24571-24583">注釈番号</seg></note></seg><seg source="#source-24586-25305">。これは科学にとって自殺的な偏見である。近代物理学に新紀元を画した相対的原理にしても、素量力学や波動力学にしても、直観なしの推理や解析だけで組み立てられると考える事がどうしてできよう。私はアインシュタインやド・ブローリーがルクレチウスを読んだであろうとまでは思わないが、彼らの仕事に最初の衝動を与え幾度か行き詰まりがちの考えに常に新しい活路を与えたのは、私に言わせれば彼らの頭の中にいるルクレチウスのしわざである。決して彼らの図書室に満載された中のどの物理学書でもないのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-25305-25901">しかし何もアインシュタインやブローリーらのごとき第一流の大家だけには限らない。ほとんどいかなる理論的あるいは実験的の仕事でも、少しでも独創的と名のつく仕事が全然直観なしにできようとは到底考えられない。「見当をつける」ことなしに何事が始め得られよう。「かぐ」ことなしにはいかなる実験も一歩も<ruby type="furigana" rend="right" source="#source-25740-25767"><rb>進捗</rb><rt>しんちょく</rt></ruby><seg source="#source-25767-25901">することはあり得ない。うそだと思う人があらば世界の学界を一目でも見ればわかることである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-25901-26716"><seg source="#source-25901-26270">ケルヴィンやマクスウェルがルクレチウスを読んだのはなんのためであるかはよくわからない。しかし彼らがこの書の中に彼らに親しい何物かを感じたには相違ないと想像される。実際ルクレチウスに現われた科学者魂といったようなものにはそれだけでも近代の科学者の</seg><ruby type="furigana" rend="right" source="#source-26270-26291"><rb>肺腑</rb><rt>はいふ</rt></ruby><seg source="#source-26291-26432">に強い共鳴を感じさせないではおかないものがある。のみならず、たとえ具体的にはいかに現在の科学と</seg><ruby type="furigana" rend="right" source="#source-26432-26450"><rb>齟齬</rb><rt>そご</rt></ruby><seg source="#source-26450-26716">しても、考えの方向において多くの場合にねらいをはずれていないこの書物の内容からいかに多くの暗示が得られるであろうかという事はだれでも自然に思い及ばないわけには行かないであろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-26716-27876"><seg source="#source-26716-26998">原子素量の存在、その結合による物質の構成機巧、物質総量の不滅、原子の運動衝突と物性の関係、そういうようなものが予想されているばかりでなく、見方によっては電子のようなものも考えられており、</seg><ruby type="furigana" rend="right" source="#source-26998-27019"><rb>分子</rb><rt>ぶんし</rt></ruby><ruby type="furigana" rend="right" source="#source-27019-27040"><rb>格子</rb><rt>こうし</rt></ruby><seg source="#source-27040-27876">のごときものも考えられている。またおそらくニウトンが直接あるいは間接に受けついだと思われる光微粒子説でも一時全く忘れられていたのが、最近にまた新しい形で復活して来たのは著しい事である。また彼が生物の母体から子孫に伝わると考えた遺伝の元子のようなものが近代の生物学者の考える遺伝素といかによく似たものであるか。そういう事を考えてみる。十九世紀二十世紀を予言した彼がどうしてきたるべき第二十一世紀を予言していないと保証する事ができようか。今われわれがルクレチウスを読んで一笑に付し去るような考えが、百年の後に新たな意味で復活しないとだれが断言しうるであろうか。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-27876-28439">私は自分の頭になんらの「考え」をもたない科学者がかりにあるとして、そういう人がルクレチウスを百ぺん読んでもなんの役にも立とうと思わない。女学校上がりの若い細君が料理法の書物を読むような気でこの詩編のすみずみまで捜したところで、すぐ昼食の間に合いそうな材料は到底見つからない。そういう目的ならば、ざらにある安い職業的料理書を見て、完全なる総菜料理を捜したほうがいいのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-28439-29536"><seg source="#source-28439-28676">しかし多くの科学の探究者はそれでは飽き足らないであろう。その当代のその科学の前線まで進んで来て、そこでなんらかの自分の仕事をしようとしている人たちは、眼前の</seg><ruby type="furigana" rend="right" source="#source-28676-28700"><rb>闇黒</rb><rt>あんこく</rt></ruby><seg source="#source-28700-28805">な霧の中にある何物かの影を認めようとあせっているのである。そうしてその</seg><ruby type="furigana" rend="right" source="#source-28805-28820"><rb>闇</rb><rt>やみ</rt></ruby><seg source="#source-28820-29447">の底に何かしら名状のできない動くものの影か幻のようなものを認めるように思う。しかしそれが何であるかははっきりわからない。そういう状態が続いているうちに突然天の一方から稲妻のような光がひらめいて瞬間に眼前のものの正体が見える。それからいよいよその目的物を確実につかむまでにはもちろん石橋をたたいてそこまで歩いて行かなければならない。行ってみると、それは実体のない幻影であって失望する事ももちろん往々ある。しかしこの天来の</seg><ruby type="furigana" rend="right" source="#source-29447-29471"><rb>閃光</rb><rt>せんこう</rt></ruby><seg source="#source-29471-29536">なしには彼らは一歩も踏み出す事はできない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-29536-30150"><seg source="#source-29536-29785">今もしルクレチウスが現代の科学者にとって有効に役立ちうるとすれば、それはまさにこの稲妻の役目をつとめうる点である。たとえば化学的分子の立体的構造を考えていた化学者や</seg><ruby type="furigana" rend="right" source="#source-29785-29821"><rb>渦動原子</rb><rt>かどうげんし</rt></ruby><seg source="#source-29821-29902">の結合を夢みていた物理学者にはルクレチウスの曲がったり</seg><ruby type="furigana" rend="right" source="#source-29902-29923"><rb>角立</rb><rt>かどだ</rt></ruby><seg source="#source-29923-30100">ったりした元子は必ずなんらかの暗示を与え得たであろうと思われる。のみならずたとえば最近にボーアがネチュアー誌上に出した</seg><seg type="annotated-text" source="#source-30109-30148"><seg source="#source-30100-30109">（５）</seg><note type="source-role" subtype="annotation-number"><seg source="#source-30133-30145">注釈番号</seg></note></seg></p>
+      </div>
+      <div type="layout" source="#source-30150-30263" style="padding-inline-start: 2em">
+        <p source="#source-30185-30227"><seg source="#source-30185-30227">The Quantum Postulate and Atomic Theory.</seg></p>
+      </div>
+      <div>
+        <p source="#source-30265-30363"><seg source="#source-30265-30363">と題する興味ある論文を読んだ後に、ルクレチウスの第一巻を開いて、</seg></p>
+      </div>
+      <div type="layout" source="#source-30363-30658" style="padding-inline-start: 3em">
+        <p source="#source-30398-30441"><seg source="#source-30398-30441">Even time exists not of itself; but sense</seg></p>
+        <p source="#source-30441-30486"><seg source="#source-30441-30486">Reads out of things what happened long ago,</seg></p>
+        <p source="#source-30486-30534"><seg source="#source-30486-30534">What presses now, and what shall follow after:</seg></p>
+        <p source="#source-30534-30577"><seg source="#source-30534-30577">No man, we must admit, feels time itself,</seg></p>
+        <p source="#source-30577-30622"><seg source="#source-30577-30622">Disjoined from motion and repose of things.</seg></p>
+      </div>
+      <div>
+        <p source="#source-30660-31752"><seg source="#source-30660-30678">という詩句を</seg><ruby type="furigana" rend="right" source="#source-30678-30699"><rb>玩味</rb><rt>がんみ</rt></ruby>してみると、いかに最新の学説に含まれた偉大な考えがその深い根底においてこの言葉の内容と接近しているかに驚かざるを得ない。もしルクレチウスの sense を「実験観測」と置換し、また彼の motion and repose を ΔE 等で置換すればこれはまさにボーアの所説となるのである。もちろん私はボーア、ハイゼンベルヒらがルクレチウスを読んで暗示を得たとは思わない。しかし彼らの考えが識域の下においてまさに発酵しようとしている際に彼らがもし偶然この詩句に<ruby type="furigana" rend="right" source="#source-31324-31351"><rb>逢着</rb><rt>ほうちゃく</rt></ruby>したとしたら、そして彼らの心の窓が啓示の光に対して開放されていたとしたら、おそらく彼はデスクをたたいて立ち上がり、「ユーレーカ」を叫んだのではあるまいか。これはもちろん私の想像でありドラマであるが、そういう場面が、いつかどこかで起こり得ないとは保証し難いことである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-31752-32573"><seg source="#source-31752-31764">暗示の</seg><ruby type="furigana" rend="right" source="#source-31764-31788"><rb>閃光</rb><rt>せんこう</rt></ruby><seg source="#source-31788-31971">が役に立つためにはもちろん見るべきものに直面して両眼をあけていなければならないのである。それで科学の既得の領土に隠居して、</seg><ruby type="furigana" rend="right" source="#source-31971-31986"><rb>虎</rb><rt>とら</rt></ruby>の子の勘定でもして楽しんでいるような人にはこの書はなんにもならない。また戦線の夜の野原の中を四つんばいになってしかも目かくしされたままで手探りで遺利を拾得しようとしている「落ち穂拾い」にもこれは足しにならない。要するに私がかりに、「科学学者」と名づける部類の人々には役に立たないが、「科学研究者」と名づけるべき階級の人々には、このルクレチウスは充分に何かの役に立つであろうと信じるのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-32573-33420"><seg source="#source-32573-32825">一方において私は若い科学の学生にこの書の一読をすすめてもよいと思うものである。学生たちは到底消化しきれないほどの栄養を詰め込まれて知識的胃病にかかっている。人は決して</seg><ruby type="furigana" rend="right" source="#source-32825-32849"><rb>澱粉</rb><rt>でんぷん</rt></ruby><ruby type="furigana" rend="right" source="#source-32849-32873"><rb>蛋白</rb><rt>たんぱく</rt></ruby><ruby type="furigana" rend="right" source="#source-32873-32894"><rb>脂肪</rb><rt>しぼう</rt></ruby><seg source="#source-32894-33104">だけで生きて行かれるものではない。ヴィタミンが必要である。ヴィタミンだけでは生きて行かれないが、しかしヴィタミンを欠いだ栄養は壊血病を起こし</seg><ruby type="furigana" rend="right" source="#source-33104-33137"><rb>脚気症</rb><rt>かっけしょう</rt></ruby><seg source="#source-33137-33420">を誘発する。実際現代の多くの科学の学生はこれとよく似た境遇にありはしないかと心配される。そういう学生にとってルクレチウスが確かに一種のヴィタミンの作用を生じうるであろうと考えるのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-33420-33932"><seg source="#source-33420-33486">以上長々しい前置きによって私は多くの読者の</seg><ruby type="furigana" rend="right" source="#source-33486-33510"><rb>倦怠</rb><rt>けんたい</rt></ruby><seg source="#source-33510-33639">を招いたであろうと思う。しかし多数の読者を導いてこのルクレチウスの花園に入るべき小径の</seg><ruby type="furigana" rend="right" source="#source-33639-33666"><rb>荊棘</rb><rt>けいきょく</rt></ruby><seg source="#source-33666-33932">を開くにはぜひともこれだけの露払いの労力が必要であると思った。それほどに現代科学のバベルの塔の頂上に住むわれわれは、その脚下にはるかな地上の事を忘れていると思ったからであった。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-33932-34054"><seg source="#source-33932-34054">これから私はルクレチウスの内容についてきわめて概略ながら紹介を試みようと思う。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-34054-34827"><seg source="#source-34054-34366">もちろん私は哲学史については何も知らないものであるからこの書の所説の哲学史的の意義などはよくわからない。またどこまでがデモクリトス、エピクロスの説で、どこからがルクレチウスの独創によるか、そういう考証も私の</seg><ruby type="furigana" rend="right" source="#source-34366-34381"><rb>柄</rb><rt>がら</rt></ruby><seg source="#source-34381-34519">ではない。私はただ現代に生まれた一人の科学の修業者として偶然ルクレチウスを読んだ、その読後の</seg><ruby type="furigana" rend="right" source="#source-34519-34540"><rb>素朴</rb><rt>そぼく</rt></ruby><seg source="#source-34540-34827">な感想を幼稚な言葉で述べるに過ぎない。この厚顔の所行をあえてするについての唯一の申し訳は、ただルクレチウスがまだおそらく一度も日本の科学者の間にこの程度にすら紹介されなかったという事である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-34827-34958"><seg source="#source-34827-34958">ルクレチウスに関するあらゆる文献、内容に関する詳細の考証、注釈はマンローに譲りたい。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-34958-35286"><seg source="#source-34958-35286">以下ルクレチウスと私の呼ぶものは、必ずしもローマの詩人ルクレチウス・カールスをさすのではなくて、かの書に示された学説の代表者を抽象してそれをさすものである事を承知した上で以下の解説を読んでもらいたいと思うのである。</seg></p>
+        <p style="text-indent: 7em" rend="first-line-indent(7)" source="#source-35286-35314"><seg source="#source-35286-35314">一</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-35314-36135">ルクレチウスの第一編は女神ヴィナスに呼びかけた祈りの言葉で始まっている。これはあらゆる神と宗教とを無視し否定せんとする彼にふさわしからぬようであるが、実はこの彼のヴィナスは「自然」とその「生成の方則」をさしているように思われる。そう思って読むと彼の言葉が生きて来るようである。それからヴィナスに訴えて、どうかその愛人たる軍神マルスが、自分のこの詩を書く邪魔をしないように心配してくれと頼んでいる。これもシーザーやポンペイの活躍していた恐怖時代のローマの片すみで静かに科学の<ruby type="furigana" rend="right" source="#source-36025-36049"><rb>揺籃</rb><rt>ようらん</rt></ruby><seg source="#source-36049-36135">をつづっていたこの人の心境をうかがわせるに足るのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-36135-36353"><seg source="#source-36135-36353">要するにこの冒頭は詩編の形式を踏襲するために置かれた装飾のようであるが、これもまた彼の全巻をおおう情調の前奏曲として見るとおもしろいのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-36353-37096"><seg source="#source-36353-36434">次に名はさしてないがロイキッポスあるいはエピクロスの</seg><ruby type="furigana" rend="right" source="#source-36434-36458"><rb>礼賛</rb><rt>らいさん</rt></ruby>の言葉が出て来る。そしてこのギリシアの賢人が宗教の抑圧のために理知の光をおおわれていた人類に始めて物の成立とその方則を明示した功績をたたえている。そうして今自分がこのギリシア人の発見した真理の教えを伝えんとするに当たって、自分の母語ラテンがあまりに貧しいものであるとこぼしている。しかしせいぜい骨折って「物の中心の隠れた心核を見るためのかなたよりの光」を伝え、物の最初の<ruby type="furigana" rend="right" source="#source-37013-37034"><rb>胚芽</rb><rt>はいが</rt></ruby><seg source="#source-37034-37096">たる元子について物語ろうというのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-37096-38286"><seg source="#source-37096-37147">そういう事を自分が論ずるのは神を</seg><ruby type="furigana" rend="right" source="#source-37147-37171"><rb>冒涜</rb><rt>ぼうとく</rt></ruby><seg source="#source-37171-37528">するものと思われるかもしれない。しかしそれよりももっと冒涜的な事をしばしば犯すものは実は宗教自身である。そう言って、イフィゲニアの犠牲の悲惨な例をあげ、犠牲の罪悪である事、その罪悪を犯させるものはすなわち宗教である事、そういう事になるのは</seg><ruby type="furigana" rend="right" source="#source-37528-37555"><rb>畢竟</rb><rt>ひっきょう</rt></ruby><seg source="#source-37555-38286">人間が死を恐れるためであるが、死が何物であるかをほんとうによく知りさえすれば、そんな恐怖もなくなり、従って宗教が罪を犯す事もなくなる。こう言って後に論ぜんとする霊魂非不滅論の伏線をおいている。わずかにこれだけ読んでも彼がいかにはえ抜きの徹底した自然科学者であるかがわかっておもしろい。現代の職業的科学者のうちには科学者の着物を着た迷信家がたくさんあるのに、二十世紀前に生まれて、エレクトロンの何であるかも知らなかったローマの詩人に、この徹底した科学者魂を発見するのはいささか皮肉である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-38286-38333"><seg source="#source-38286-38333">そうして彼は次の数句を歌う。</seg></p>
+      </div>
+      <div type="layout" source="#source-38333-38585" style="padding-inline-start: 3em">
+        <p source="#source-38368-38415"><seg source="#source-38368-38415">This terror, then, this darkness of the mind,</seg></p>
+        <p source="#source-38415-38462"><seg source="#source-38415-38462">Not sunrise with its flaring spokes of light,</seg></p>
+        <p source="#source-38462-38510"><seg source="#source-38462-38510">Nor glittering arrows of morning can disperse,</seg></p>
+        <p source="#source-38510-38549"><seg source="#source-38510-38549">But only Nature's aspect and her law,</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-38587-38808"><seg source="#source-38587-38808">この句は後にもしばしばリフレインとして繰り返さるる。私はこの四句をどこかの科学研究所の喫煙室の壁にでも記銘しておいてふさわしいものであると思う。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-38808-38834"><seg source="#source-38808-38834">この次の二句は</seg></p>
+      </div>
+      <div type="layout" source="#source-38834-39070" style="padding-inline-start: 3em">
+        <p source="#source-38869-38910"><seg source="#source-38869-38910">Which, teaching us, hath this exordium:</seg></p>
+        <p source="#source-38910-38949"><hi rend="italic" source="#source-38910-38948" corresp="#source-38949-39032"><seg source="#source-38910-38948">Nothing from nothing ever yet was born</seg></hi><seg source="#source-38948-38949">.</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-39072-39593">迷信から来る精神の不安を除くべき魔よけの護符はすなわち「物質不滅の方則」である、というのである。もちろん彼は彼の物質元子論から出発して、結局それから霊魂の可死を論ぜんとするのではあるが、彼のここに言うエキソルディアムは、おそらくもう少し一般化して「自然科学的世界観」をさすものと解釈しても、たぶん彼の真意を離れる恐れはあるまいと考えるのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-39593-40507"><seg source="#source-39593-40211">現在の物理学における物質不滅則、原子の実在はだれも信ずるごとく実験によって帰納的に確かめられたものである。二千年前のルクレチウスの用いた方法はこれとはちがう。彼はただ目を眠りふところ手をして考えただけであった。それにかかわらず彼の考えが後代の学者の長い間の非常の労力の結果によって、だいたいにおいて確かめられた。これははたして偶然であろうか。私はここに物理学なるものの認識論的の意義についてきわめて重要な問題に</seg><ruby type="furigana" rend="right" source="#source-40211-40238"><rb>逢着</rb><rt>ほうちゃく</rt></ruby><seg source="#source-40238-40507">する。約言すれば物理学その他物理的科学の系統はユニークであるや否やということである。しかし私は今ここでそういう岐路に立ち入るべきではない。ただルクレチウスの筆法を紹介すればよい。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-40507-42210">今日の科学の方法に照らして見れば、彼が「無より有は生じない」という宣言は、要するに彼の前提であり作業仮説であると見られる。もっとも、無から有ができるとすれば、ある母体からちがった子が生まれるはずだといったような議論はしているが、これらは決して証明ではあり得ない事は明らかである。さて、有から有が生じるとすれば、そこに有の種子を仮定する必要を生じて来るのであるが、この種子の考え方においてエピキュリアンはその先輩同輩に対して実に比較にならぬほど進歩している、あるいはむしろ現代の原子観に肉薄した考え方をしている。これも厳密な推理から得た結果ではなくて、結局は直観で透視したものであろう。ルクレチウスは正直な態度で <hi rend="italic" source="#source-41426-41503" corresp="#source-41442-41503"><seg source="#source-41426-41442">Thus easier 'tis</seg></hi><seg source="#source-41503-42210"> to hold that many things have primal bodies in common（as we see the single letters common to many words）than aught exists without its origin. と言っている。そしてここに述べられたアルファベットが寄り集まっていろいろな語を作るように、若干の異種の原子がいろいろに結合していろいろのものを作るという彼の考えはほとんど現在の考え方と同様である。のみならずおもしろい事には現在われわれは原子の符号にアルファベットを用い、しかもまたいろいろの物質をこれら符号の組み合わせで表わすのである。これは全然ルクレチウスの直伝である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-42210-43049">そういう元子を人間が目で見る事ができないからといって、その実在を疑ってはいけない。たとえば、風は目に見えないけれどもあらゆる作用をするではないかと論じている。すなわち作用によって物理的実在を規定するのである。この数行を読んで私は十九世紀末に行なわれた原子の実在に関するはげしい論争を思い浮かべざるを得なかった。また物理学における「アンスロポモーフィズムからの解放」を唱えたプランク一派の主張や、また一方最近に至って、直接可測的のもの以外の実在性を否定しようとする新素量力学の先駆者らの叫びを思いくらべて、いかにこの問題が古いものであるかを知り得たのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-43049-43288"><seg source="#source-43049-43169">目に見えぬ実在の他の例としては彼はなお、香気や湿気などをあげている。また物体の</seg><ruby type="furigana" rend="right" source="#source-43169-43190"><rb>磨滅</rb><rt>まめつ</rt></ruby><seg source="#source-43190-43288">の現象からも、目に見えぬ微小部分が存するゆえんが引証されている。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-43288-43684">元子によって自然を説明しようとするのに、第一に必要となって来るものは空間である。彼はわれわれの空間を「空虚」（void）と名づけた。「空間がなければ物は動けない」のである。彼の空間は真の空虚であってエーテルのごときものでない。この点もむしろ近代的であると言われよう。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-43684-44679"><seg source="#source-43684-44452">物質原子の空間における配置と運動によってすべての物理的化学的現象を説明せんとするのが実に近代の少なくも十九世紀末までの物理学の理想であった。そうして二十世紀の初めに至るまでこの原子と空間に関するわれわれの考えはルクレチウスの考えから、本質的にはおそらく一歩も進んでいないものであった。近年に至って原子は電子とプロトーンによって置き換えられ、ごくごく最近に波動力学の出現によってこれら物質的素量に関する観念に始めて目立った変化をきたしつつある。また一方相対性理論の発展によって、いわゆる空間に属する考えもまたこの</seg><ruby type="furigana" rend="right" source="#source-44452-44473"><rb>素朴</rb><rt>そぼく</rt></ruby><seg source="#source-44473-44679">な状態を離れて来たのである。しかし現在においても普通の大多数の具体的の問題は依然として昔のままの空間および原子で間に合っているのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-44679-45584"><seg source="#source-44679-44949">さて、次に、物質は原子と空虚の混合であるという考えから物の有孔性や、比重の差違の生じる事を述べている。音響もまた原子の発散によるものと考えるから、音が壁を通過するのも壁の原子間に</seg><ruby type="furigana" rend="right" source="#source-44949-44973"><rb>空隙</rb><rt>くうげき</rt></ruby><seg source="#source-44973-45072">があるからだと言って説明している。これは今の学生の答案として見れば</seg><ruby type="furigana" rend="right" source="#source-45072-45096"><rb>誤謬</rb><rt>ごびゅう</rt></ruby><seg source="#source-45096-45141">である。しかし実際壁の元子間に</seg><ruby type="furigana" rend="right" source="#source-45141-45165"><rb>空隙</rb><rt>くうげき</rt></ruby><seg source="#source-45165-45584">が少しもなく、従って完全剛体であったら、音のエネルギーは通過し得ないであろう。そういう意味ではこれもやはりほんとうである。ルクレチウスはその次に水中における魚の運動や、また物体の衝突反発の例をあげて空虚の説明に用いているが、この解説は遺憾ながら今の言葉に翻訳し難いように見える。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-45584-46456">次には、空間と物質とが「それ自身に存在する」ただ二つのものであって、それ以外に第三のものはないという事を宣言している。その意味はすでに前述のごとく器械的力学的自然観の基礎として現代に保存されたものと同義である。これは物の作用や性質やまでも物体視せんとするストア派の学者に対する手ごわい論難として書かれたものであるらしい。そしてそれはまた今の物理の学生たちがあたかもあたりまえの事であるように教わり、またそう思ってかつて一度も疑ってみる事すらしなかった事である。これも皮肉な事である。今の学生の頭が二千年前の詩人よりも劣っているのか、それとも今の教育法が悪いのかそれはわからない。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-46456-48174">ここで注意すべきもう一つの事は、「時間」なるものがやはりそれ自身の存在を否定されて、物性や作用などと同部類のいわゆる偶然的な、非永存的のものと見なされている事である。これも一つのおもしろい考え方である。十九世紀物理学の力学的自然観は、すべての現象を空間における質点の運動によって記載しようとした。そのために空間座標三つと時間座標一つと、この四つの変数を含む方程式をもってあらゆる自然現象の表現とした。後に相対性理論が成立してからは、時もまた空間座標と同様に見なされ取り扱われるようになったが、時というものの根本的な位地を全然奪おうとした物理学者はなかった。しかしもともと相対性理論の存在を必要とするに至った根原は、<ruby type="furigana" rend="right" source="#source-47380-47407"><rb>畢竟</rb><rt>ひっきょう</rt></ruby><seg source="#source-47407-47440">時に関する従来の考えの</seg><ruby type="furigana" rend="right" source="#source-47440-47464"><rb>曖昧</rb><rt>あいまい</rt></ruby><seg source="#source-47464-47470">さに</seg><ruby type="furigana" rend="right" source="#source-47470-47494"><rb>胚胎</rb><rt>はいたい</rt></ruby>しているのではないかと考えられる。時間もそれ自身の存在を持たないと言ったルクレチウスの言葉がそこになんらかの関係をもつように思われる。「物の運動と静止を離れて時間を感ずる事はできない」という言葉も、深く深く考えてみる価値のある一つの啓示である。彼は「運動」あるいは速度加速度にともかくも確実なる物理的現象、可測的現象としての存在を許容して、時間のほうをむしろ従属的のものと考えているかのように見える。この考えははたしてそれほど価値のないものであろうか。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-48174-49508"><seg source="#source-48174-48411">普通力学の問題において、運動方程式が完全に解かれた場合には、すべての質点の各位置における速度、加速度、運動量、あるいはエネルギーのごときものが、それぞれ時の</seg><ruby type="furigana" rend="right" source="#source-48411-48435"><rb>函数</rb><rt>かんすう</rt></ruby>として与えられる。逆に、たとえ常に単義的ではないまでも、この後者の数値が与えられれば、それから時間がこれらの函数として与えられうるのである。またおもしろい事には可逆的週期運動の場合にはかくして得られる「時」は単義的に決定されない。しかして実際そういう運動のみの世界には物理学的に非可逆の時は存在しないのである。そこで私は一つの夢のようなものを考えさせられる。われわれは時の代わりに<ruby type="furigana" rend="right" source="#source-49005-49017"><rb>或</rb><rt>あ</rt></ruby>る何かのエネルギーあるいは「<ruby type="furigana" rend="right" source="#source-49059-49089"><rb>作用</rb><rt>ウィルクング</rt></ruby>」のごとき量を基本的のものとしてこれを空間と対立させる事によって、新しき力学的系統を立て直す事は不可能であろうか。そうする事によっていろいろの現代の物理学当面の困難が解決されうる見込みはないものであろうか。少なくもルクレチウスの言葉はこういう問題を示唆するもののように思われる。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-49508-50524"><seg source="#source-49508-49568">次に彼は論じて言う。元子からいろいろの</seg><ruby type="furigana" rend="right" source="#source-49568-49583"><rb>硬</rb><rt>かた</rt></ruby>さのものが造られるが、元子自身は完全に剛体であると考えなければならない。なんとならば、元子が柔らかいものであれば、これはその中に空虚を含んでいる。しかるに空虚と元子と対立すべきその元子の中に空虚が含まれているわけには行かない。where'er be empty space, there body's not; and so where body bides, there not at all exists the void inane. である。ここで私は思い出す。かつて分子や原子の「弾性」という事が問題になった事がある。可触的物体の「弾性」を説明するために持ち出された分子や原子に、可触的物体と同じような「弾性」を考えようとすることの方法論的の錯誤あるいは拙劣さが、今このルクレチウスの言葉によって<ruby type="furigana" rend="right" source="#source-50426-50450"><rb>辛辣</rb><rt>しんらつ</rt></ruby><seg source="#source-50450-50453">に</seg><ruby type="furigana" rend="right" source="#source-50453-50468"><rb>諷</rb><rt>ふう</rt></ruby><seg source="#source-50468-50524">せられているとも見られない事はない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-50524-51309">ともかくも物質元子に、物体と同様な第二次的属性を与える事を拒み、ただその幾何学的性質すなわちその形状と空間的排列とその運動とのみによって偶然的なる「無常」の現象を説明しようとしたのが、驚くべく近代的である。そしてまさにこの点で彼が、彼の<ruby type="furigana" rend="right" source="#source-50881-50905"><rb>駁撃</rb><rt>ばくげき</rt></ruby><seg source="#source-50905-50995">を加えているヘラクリトス、エンペドクレース、アナクサゴラスの</seg><ruby type="furigana" rend="right" source="#source-50995-51013"><rb>輩</rb><rt>やから</rt></ruby><seg source="#source-51013-51037">をいかにはるかに</seg><ruby type="furigana" rend="right" source="#source-51037-51061"><rb>凌駕</rb><rt>りょうが</rt></ruby><seg source="#source-51061-51190">しているかを見る事ができよう。そして現在においても科学者と称するものの中に、この三者の</seg><ruby type="furigana" rend="right" source="#source-51190-51214"><rb>後裔</rb><rt>こうえい</rt></ruby><seg source="#source-51214-51309">が、なおまれには存在している事を彼によって教えられるのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-51309-52273"><seg source="#source-51309-52273">元子は恒久的な剛単体 solid singleness でなければならない。そして微小ではあるが有限の大きさをもたなければならないという事を証明しようと試みている。剛体でなければ、それから剛体が作り得られないであろう。恒久なものでなければ、恒久に無常なこの世界を補充 replenish する事ができないであろう。またもし大きさが有限でなければ、物質は無限に分裂しうる、従って過去無限の年月の間に破壊し分解されたものが再び合成し復旧されるためには無限大の時を要し、結局何物も成立し得ないというのである。これは明らかにボルツマンの学説の提供する宇宙進化の大問題に触れていることを見のがす事はできない。なおこの議論の根底には後に述べる時の無窮性の仮定が置いてある事はもちろんである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-52273-53196"><seg source="#source-52273-52771">私は近代物理学によって設立された物質やエネルギーの素量の存在がいわゆる経験によった科学の事実である事を疑わないと同時に、またかくのごとき素量の存在の仮定が物理学の根本仮定のどこかにそもそもの初めから暗黙のうちに包含されているのではないかということをしばしば疑ってみる事がある。われわれが自然を系統化するために用いきたった思考形式の</seg><ruby type="furigana" rend="right" source="#source-52771-52798"><rb>機巧</rb><rt>メカニズム</rt></ruby><seg source="#source-52798-53196">の中に最初から与えられたものの必然的な表象を近ごろになっておいおい認識しつつあるのではないかという気がするのである。ルクレチウスは別にこの疑問に対してなんらの明答を与えるものではないが、少なくも彼は私のこの疑いをもう少し深く追究する事を奨励するもののように見える。</seg></p>
+      </div>
+      <div type="layout" source="#source-53196-53317" style="padding-inline-start: 3em">
+        <p source="#source-53231-53281"><seg source="#source-53231-53281">For, lo, each thing is quicker marred than made;</seg></p>
+      </div>
+      <div>
+        <p source="#source-53319-53450"><seg source="#source-53319-53450">という句がある。これを試みに熱力学第二方則の最初の宣告と見るのも興味がありはしないか。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-53450-54193"><seg source="#source-53450-53939">彼はなお、もし物質に最小限がなければ、最小なものでも無限を包蔵し、従って微分と総和の区別がなくなるという哲学者流の議論をしている。このあたりの議論はおそらく科学者にはあまり興味がないであろう。哲学的のスケプチシズムに対しては何かの意味はあるかもしれないが、われわれにはたいして直接の必要のない議論である。なんとならば、科学は</seg><ruby type="furigana" rend="right" source="#source-53939-53966"><rb>畢竟</rb><rt>ひっきょう</rt></ruby>「経験によって確かめられた<ruby type="furigana" rend="right" source="#source-54005-54029"><rb>臆断</rb><rt>おくだん</rt></ruby>」に過ぎないからである。われわれはここではただエピキュリアンのこれらの驚くべき偉大なる臆断を嘆美すればよい。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-54193-55230"><seg source="#source-54193-54370">ルクレチウスは、かようにして、彼のいわゆる元子の何物であるかを説明した後に、エピキュリアンに対立した他の学説に対して</seg><ruby type="furigana" rend="right" source="#source-54370-54397"><rb>峻烈</rb><rt>しゅんれつ</rt></ruby><seg source="#source-54397-55230">な攻撃を加えているのである。万物が火より成るとか、地水火風から成るとか、また金は金、骨は骨と、いわゆるホメオメリアより成るとか、そういう考えから来る困難を列挙し、また一方では自説に対するこれら他学派の持ち出すべき論難に対して勇敢に応戦している。しかし、要するに、これは、彼の元子説特に元子に第二次的属性を付与する事が不穏当であるという前提の延長であるが、しかしそれはまた今の物理学が当然の事として採用しているところである。この条を読んでいると、今の物理学者がもし昔のギリシアの学者たちと議論したとしたならば、必ず言いそうな事が数々見いだされておもしろい。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-55230-55436"><seg source="#source-55230-55436">この論議の中に、熱は元子の衝突運動であるという考えや、元子排列の順序の相違だけで物の変化が生じるというような近代的の考えも見えている。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-55436-55891">そこで、ルクレチウスは言葉を改めていう。自分はミューズの神のインスピレーションによって、以下さらに深く真理の解説をしようとする。しかしこういうめんどうなむつかしい事がらを説くには、「詩」の助けをかりなければならない。<ruby type="furigana" rend="right" source="#source-55763-55778"><rb>苦</rb><rt>にが</rt></ruby><seg source="#source-55778-55817">い薬を飲ませるには杯の縁に</seg><ruby type="furigana" rend="right" source="#source-55817-55832"><rb>蜜</rb><rt>みつ</rt></ruby><seg source="#source-55832-55891">を塗らなければならない、と言っている。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-55891-56283">さて、それから、空間には際限がないという事を論ずるのであるが、これは、「先には先がある」というだけの事であって、これはアインシュタインの一般相対性理論の出るまでは、<ruby type="furigana" rend="right" source="#source-56140-56164"><rb>素人</rb><rt>しろうと</rt></ruby><seg source="#source-56164-56203">も科学者も同様に考えて来た</seg><ruby type="furigana" rend="right" source="#source-56203-56233"><rb>素朴的</rb><rt>そぼくてき</rt></ruby><seg source="#source-56233-56283">観念であって別に珍しい事はない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-56283-57953">次には物質総量が無限大である事を説いている。もし無限大の空間にただ有限の物質があるとしたら、物質はすべてその組成元子に分解し尽くして、もはや何物も合成され得ず、従って何物も存在し得ない。なんとならば、物質世界の保存には「かなた」からの不断の補充を要する。それには無限の物質素材を要するというのである。これは、後に述べるように、彼の考える「元子の雨」が<ruby type="furigana" rend="right" source="#source-56811-56841"><rb>無際涯</rb><rt>むさいがい</rt></ruby>の空間の果てから地上に落下しつつある、という前提が頭にあるからの議論である。ルクレチウスが今の科学に照らして最も不利益な地位に置かれるのは、彼がここで地を平面的に考え、「上」と「下」とを重力と離れて絶対的なものに考えている事である。それで彼はこの条下で地の球形説に対して、コロンバス時代の坊さんの唱えそうな反対説を唱えている。しかし無限の空虚の中にいかにしてある「中心」が存在し、かつ支持されうるかという論難は、ニウトン以前の当時の学者には答えられなかったであろうのみならず、現在においても実は決して徹底的には<ruby type="furigana" rend="right" source="#source-57606-57633"><rb>明瞭</rb><rt>めいりょう</rt></ruby><seg source="#source-57633-57953">に答え難いものである。それほどにこれらの問題は宇宙の構造に関する科学上の問題の急所に触れている。物質的宇宙の限界、その進化の諸問題について、われわれが知り得たと思っている事は今日でも実はまだきわめてわずかである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-57953-58948">この物質量の無限大を論ずる条下に現われているもう一つの重要な考えがある。元子が集合して物を生ずるのは、元子の混乱した衝突の間に偶然の機会でできあがるものであって、何物の命令や意志によるのでもない。そういう偶然によって物が合成されうるためには無限の物質元子の供給を要するというのである。この「偶然」の考えも実に近代の原子説の根底たる統計力学の内容を暗示するように見える。偶然のみ支配する宇宙ではエントロピーは無際限に増大して死滅への道をたどる。これを呼び帰して回生の喜びを与えるべき別の「理」はないものであろうか。ボルツマンやアーレニウスは、そういうプリンシプルの夢を書き残した。しかしこの夢はまだだれも実現し得ない。この問題に対してなんらかの示唆を与えるものは</p>
+      </div>
+      <div type="layout" source="#source-58948-59286" style="padding-inline-start: 3em">
+        <p source="#source-58983-59042"><seg source="#source-58983-59042">…………………………………………………</seg></p>
+        <p source="#source-59042-59143"><seg source="#source-59042-59048">It is </seg><hi rend="italic" source="#source-59048-59057" corresp="#source-59087-59141"><seg source="#source-59048-59057">preserved</seg></hi><seg source="#source-59057-59087">, when once it has been thrown</seg></p>
+        <p source="#source-59143-59189"><seg source="#source-59143-59152">Into the </seg><hi rend="italic" source="#source-59152-59166" corresp="#source-59189-59248"><seg source="#source-59152-59166">proper motions</seg></hi><seg source="#source-59166-59189">, …………………</seg></p>
+      </div>
+      <div>
+        <p source="#source-59288-59769"><seg source="#source-59288-59363">という言葉である。これは言い換えると、偶然の産物に</seg><ruby type="furigana" rend="right" source="#source-59363-59375"><rb>或</rb><rt>あ</rt></ruby>る「選択の原理」が作用する事を意味する。この選択を行なう魔物は何であるか。これについては彼は何も述べていない。しかしそういうものの存在をここで暗示しているものと見るのははたして不倫であろうか。マクスウェルのデモンはあるいはまさにその一つの魔物ではあり得ないか。</p>
+        <p style="text-indent: 7em" rend="first-line-indent(7)" source="#source-59769-59797"><seg source="#source-59769-59797">二</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-59797-59976"><seg source="#source-59797-59976">第二巻においてルクレチウスは元子の運動の状況や、その形状や結合の機巧等を前よりも詳しく具体的に記述しているのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-59976-60293"><seg source="#source-59976-60293">例によって冒頭には、富貴権勢は幸福の源泉でなくて、かえって不幸の種である。ただ理知による真理の探究が真の心の平静を与えるものだという意味の前置きがある。そして前にあげた四行のリフレインが再び繰り返されている。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-60293-60776"><seg source="#source-60293-60776">元子は結合するが、その結合は固定的ではなく、不断に入れ代わり、離れまた捕われる。eternal give and take である。しかしその物質の総和は恒久不変であると考える。ここの考えは後代の物質不滅説を思わせる事はだれも認めるであろうが、また見方によっては、たとえば溶液分子のようなものの化学的平衡を思わせる何物かを含んでいるからおもしろい。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-60776-61255"><seg source="#source-60776-61043">元子は互いに衝突する。その速度は一部は固有のものであり、一部は衝突によって得るものである。衝突の結果はいろいろである。ある元子はその複雑な形状のために互いに引っ掛かって結合して</seg><ruby type="furigana" rend="right" source="#source-61043-61058"><rb>剛</rb><rt>かた</rt></ruby><seg source="#source-61058-61255">い物を造るが、あるものは反発して柔らかい物質となりあるいは全然離れ合ってしまう。これは言わば固液気三態の原子構造の説明と見られる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-61255-61611"><seg source="#source-61255-61611">元子が集まって微小な物体を作り、それが集まって、またそれより大きいものを作り、順次に目に見える物ができあがるというのである。これも原子から微晶、微晶から多晶金属の組成、あるいはまたコロイドから有機体の生成等の機巧と相通じる考えである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-61611-62036"><seg source="#source-61611-61629">日光に踊る</seg><ruby type="furigana" rend="right" source="#source-61629-61650"><rb>微塵</rb><rt>みじん</rt></ruby><seg source="#source-61650-61662">の有名な</seg><ruby type="furigana" rend="right" source="#source-61662-61680"><rb>譬喩</rb><rt>ひゆ</rt></ruby><seg source="#source-61680-62036">の出て来るのはこの条である。私のおもしろいと思ったのは、元子の寄り合ってできる細粒が、不可視的元子の衝動によって動かされて、粒全体としての運動を生ずるという考えが述べてあることである。それがちょうどブラウン運動の記述に相当する事である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-62036-62569">元子が動いているのにその組成物体が静止しているように見える事のあるのは何ゆえか。それはわれわれの「知覚には限界がある」からである、と言って、遠い小山に緑草をあさる羊の群れがただ<ruby type="furigana" rend="right" source="#source-62303-62327"><rb>一抹</rb><rt>いちまつ</rt></ruby><seg source="#source-62327-62336">の白い</seg><ruby type="furigana" rend="right" source="#source-62336-62354"><rb>斑</rb><rt>まだら</rt></ruby>にしか見えないという、詩人らしい例証をあげている。この知覚の限界という事を延長させれば、「観測の限界」という最近の物理学の標語になるのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-62569-62955"><seg source="#source-62569-62955">元子の速度はいかに大きいものであるか。太陽が出ると一瞬時に世界は光に包まれる。この光の元子は空虚を通るのではなく、物質の中を通って来るのにかかわらず、これほどに早いものであるとすれば、空虚を飛び行く場合の速度はさらに大きなものでなければならないと論じる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-62955-63101"><seg source="#source-62955-63101">ここで光の速度という観念、また真空と物質の中とでの速度の相違という事が想像され意識されている。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-63101-63655">次に元子説の反対者が「神の意志」を持ち出すのに対する<ruby type="furigana" rend="right" source="#source-63182-63206"><rb>弁駁</rb><rt>べんばく</rt></ruby><seg source="#source-63206-63209">が</seg><ruby type="furigana" rend="right" source="#source-63209-63236"><rb>插入</rb><rt>そうにゅう</rt></ruby>されているが、これと本文との連絡がよくわからないとマンローも述べている。しかしあるいは元子が一種の自然方則に支配されている、その記述に移らんとするための前置きとも見られない事はない。すなわちその次に彼はすべての物質は自分の力では「上方」には上らないという方則を持ち出すのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-63655-63855">見かけの上から「上」に浮かぶものはいろいろあるが、それは別に働力のためであると考えている。これもストア派に対する反対だそうである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-63855-64334">この考えからすると、すべての元子は皆「下」にまっすぐに落ちる。その場合いかにして元子相互間の衝突が可能となるか。この困難を切り抜けるために持ち出された一つの今から見て奇抜な考えは、この元子のおのおのはその直線的並行落下の途中で、ある不定な時、不定な場所において、おりおり、きわめて少しその経路を曲げるというのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-64334-65074"><seg source="#source-64334-64877">しかし各種元子の中で、重いのと軽いのとで各自の落下速度がちがうとすれば相対距離が変化するから相互の衝突が起こりうるではないかという人があるだろう。しかしそれは誤っている。なんとならば、真空中では抵抗がないから、すべての元子は同速度で落下するからである、とルクレチウスは断言している。彼がおそらくなんの実験にもよらずしていかにしてこの落体に関するアリストテレスの</seg><ruby type="furigana" rend="right" source="#source-64877-64901"><rb>誤謬</rb><rt>ごびゅう</rt></ruby><seg source="#source-64901-65074">を認め得たかはわからない。しいて想像すれば空気中と水中とにおける落体の偶然な観察が彼の直覚を誘発したかもしれない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-65074-65442">元子が互いに衝突するために物が生成し変転するという考えと元子が同速度で並行に動くという考えとの矛盾を融和するために持ち出されたこの原子の偶然的任意的偏向を一転して「自由意志」の存在と結び付けようとしている。これがはなはだ注目すべき考えである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-65442-66296">彼は人間や動物に自由意志なるものの存在を無条件に容認する。さて彼の元子論に従ってすべての元子が自然方則によって直線落下をつづけるか、あるいは少なくもなんらかの確定的の方則によって支配されているならば、すべての世界の現象は全然予定的に進行するのみであって、その間になんら「自由」なる意志の現われうべき余地はないのである。しかし一方で意志の存在を許すとすれば、これはどこからはいり込んで来るか。徹底的物質論者である彼はそういうものを物質以外の世界から借用して来るという二元論的態度はどうしてもとれなかった。従って当然の必要から彼は意志の根元を彼の元子に付与したのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-66296-67318"><seg source="#source-66296-66626">この考えは一見はなはだ非科学的に見えるであろう。当時でもキケロによって児戯視されたものである。しかし今の科学のねらいどころをどこまでも徹底させて生物界の現象にまでも物理学の領土を拡張しようとする場合には、だれでも当然に</seg><ruby type="furigana" rend="right" source="#source-66626-66653"><rb>逢着</rb><rt>ほうちゃく</rt></ruby>すべき一つの観念である。私はかつて雑誌「思想」の昭和二年九月号に出した「備忘録」の中で、生命の起元に関する未熟な私見を述べた際に、生命の<ruby type="furigana" rend="right" source="#source-66857-66878"><rb>胚子</rb><rt>はいし</rt></ruby><seg source="#source-66878-67318">は結局原子そのものに付与するのが合理的であるという考えを述べておいた。これは、数年前、同種元素の原子に個性の存在を暗示したウィリアム・ソディの説に示唆されてから考えた事であったが、今になって考えてみるとこの私の考え方は全然ルクレチウスのここの考えを、知らずに踏襲したものとも言われるのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-67318-67674">自然の漸進的死滅を救いうべき「選択原理」の有無について前章に述べた事をここで再び繰り返し考えてみると、私はこのルクレチウスの元子の任意志的偏向のうちに、その求むる原理の<ruby type="furigana" rend="right" source="#source-67573-67597"><rb>片鱗</rb><rt>へんりん</rt></ruby><seg source="#source-67597-67674">のごときものを認めうるのではないかと思うのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-67674-68963"><seg source="#source-67674-68963">さて元子の形状や大きさはどんなものかという説明に移る前に、これらの元子の種別の多種多様である事を述べている。この種別に関しては、現今では有限数の元素を区別するが、同一元素のすべての原子はすべて同等であるごとく考える。もっとも化学の方面では炭素原子の種々の化合価を有するものを区別し、またスペクトルの物理では同元素原子の種々の素量的状態を区別するが、そういう変態はどの原子にも共通に可能と考えるから、結局同元素原子には個性を認容していないことになる。しかるにルクレチウスの言葉から判断すると、人間がめいめいに異なるごとく、羊と羊とが異なるごとく、全く同一なる元子は一つもないと考えているらしい。すなわちウィリアム・ソディの暗示したごとく原子の個性を認める事に相当する。この現代科学の考え方とちがった考え方をしたのは、いかなる必要もしくは動機によるかわからないが、しかし前述の元子の自由意志の考えとは、かなりまでよく融合しうるものであることを注意しておきたい。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-68963-69331"><seg source="#source-68963-69137">元子には大きさの種類がある。たとえば雷電の火の元子は薪炭の火の元子よりも微小であるから、よく物を透す力がある。光は</seg><ruby type="furigana" rend="right" source="#source-69137-69164"><rb>提灯</rb><rt>ちょうちん</rt></ruby><seg source="#source-69164-69167">の</seg><ruby type="furigana" rend="right" source="#source-69167-69191"><rb>羊角</rb><rt>ようかく</rt></ruby><seg source="#source-69191-69331">を透るが雨ははね返される。これも光と水の元子の大きさの差による、というような例があげてある。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-69331-69813">次には元子の形状の差違を述べている。酒は流れやすいのに油が流動しにくいのは、後者の元子が「曲がりもつれ合っている」ためであると考えている。すなわち液体粘度の差を原子の形状から説明しようというのであるが、この問題は現在においても実はまだ充分には解決されていないものである以上、われわれは軽卒に彼の所説を笑う事はできない。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-69813-71765"><seg source="#source-69813-70152">われわれの官能を刺激する光、音、香、味は、いずれもおのおの目的物から飛来する元子による一種の触覚であるという考えである。そして、すべてわれわれに快い感覚を与える光音香味の元子は丸くなめらかであり、不快に感ぜらるるものの元子は</seg><ruby type="furigana" rend="right" source="#source-70152-70167"><rb>角</rb><rt>かど</rt></ruby><seg source="#source-70167-70176">があり</seg><ruby type="furigana" rend="right" source="#source-70176-70200"><rb>粗鬆</rb><rt>そしょう</rt></ruby><seg source="#source-70200-70263">であると考える。暑さと寒さの元子はいずれも</seg><ruby type="furigana" rend="right" source="#source-70263-70278"><rb>刺</rb><rt>とげ</rt></ruby><seg source="#source-70278-70446">がある。その刺のある様子がちがうというような考えである。これらはもちろんかなり勝手な想像ではある。しかしたとえば</seg><ruby type="furigana" rend="right" source="#source-70446-70482"><rb>芳香属</rb><rt>アロマティック</rt></ruby><seg source="#source-70482-70584">の有機化合物に共通なる環状分子構造のことなどを考えてみると、少なくも</seg><ruby type="furigana" rend="right" source="#source-70584-70611"><rb>嗅覚</rb><rt>きゅうかく</rt></ruby><seg source="#source-70611-71058">味覚のごとき方面で、将来このような考えがなんらかの意味で確かめられないとは保証し難いように思われる。音や光でさえも、音波の形が音色を与え、光波の波長の大小が色彩を与える事を考えると、今より百年後の生理学の立場から見てあるいはルクレチウスの言葉を適当に翻訳する事ができるようになりはしないか。不規則に</seg><ruby type="furigana" rend="right" source="#source-71058-71079"><rb>角立</rb><rt>かどだ</rt></ruby><seg source="#source-71079-71094">った音波は</seg><ruby type="furigana" rend="right" source="#source-71094-71118"><rb>噪音</rb><rt>そうおん</rt></ruby><seg source="#source-71118-71385">として聞かれ、振動急速な紫外線は目に白内障をひき起こす。その何ゆえであるかは完全には説明されていないではないか。いわんや光の量子説の将来は未知数である。現に光の網膜に対する作用が</seg><ruby type="furigana" rend="right" source="#source-71385-71427"><rb>光電</rb><rt>フォトエリクトリック</rt></ruby>現象であるとかないとかいう議論が行なわれつつある。もしそうであるとすれば、その場合の光は結局素量的であって、すなわち光の元子である。その波の量子エネルギーを定める振動数はある意味での量子の「形」とも見られるのではあるまいか。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-71765-71995"><seg source="#source-71765-71995">それはとにかくすべての感覚を、器械的現象に引きならしてしまおうとしているところに、われわれはルクレチウスの近代科学的精神の発現を認めなければならない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-71995-72813"><seg source="#source-71995-72175">次には、固体元子は曲がりあるいは分岐しているのに対して液体の元子は丸くなめらかであるとしている。これも、一方に結晶体の</seg><ruby type="furigana" rend="right" source="#source-72175-72211"><rb>原子格子</rb><rt>げんしごうし</rt></ruby><seg source="#source-72211-72271">の一小部分を考え、他方に液体の分子集合の</seg><ruby type="furigana" rend="right" source="#source-72271-72295"><rb>緩舒</rb><rt>かんじょ</rt></ruby><seg source="#source-72295-72397">な状態を考えれば、ある度まではあたっていると言われる。煙や火の元子は</seg><ruby type="furigana" rend="right" source="#source-72397-72421"><rb>尖鋭</rb><rt>せんえい</rt></ruby><seg source="#source-72421-72646">な形をもっているが、もつれ合ってはいないと言っているのはよくわからない。また海水のごときは水の円滑な元子の間に塩の粗面的な元子が混合しているが、地下で</seg><ruby type="furigana" rend="right" source="#source-72646-72664"><rb>濾過</rb><rt>ろか</rt></ruby><seg source="#source-72664-72813">されれば、水だけが通過すると言っている。これらもおもしろい、一概に笑ってしまわれないところがある。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-72813-74318">元子の形状は多種多様であるが、しかしその種類の数は有限である。もし無限の種類があるとすれば、その一種としてわれわれは無限に大きな形態をもった元子もあるとしなければならないという議論が述べてある。この議論はそのままでは科学者には了解し難いものである。しかし今かりに次のような言葉に翻訳してみると彼の言葉がいくぶんか生きて来るように思う。すなわち彼は形の変化は、形を定める「部分」の<ruby type="furigana" rend="right" source="#source-73383-73422"><rb>錯列</rb><rt>パーミュテーション</rt></ruby>によって生ずると考える。そしてその「部分」に有限な大きさを考えるとすれば、無限の種類を生ずるためには結局無限大の大きさのものの生ずる事を許容しなければならないことになるのである。この考えはある点において現代の原子内部構造の予想として見る時に興味が深い。すなわち原子はその核の周囲をめぐる電子を一つずつ増すことによって一つの物質から他の物質に移って行く。すなわち<ruby type="furigana" rend="right" source="#source-73962-74004"><rb>原子数</rb><rt>アトミックナンバー</rt></ruby>を増して行く。もしも元素の種類が無限に多様にあるとすれば、原子数、あるいは原子量の無限大な物質原子が存在する事になるはずである。しかし実際にそんなものはない。すなわち原子の「形」の種類には制限があるのである。</p>
+      </div>
+      <div type="layout" source="#source-74318-74524" style="padding-inline-start: 3em">
+        <p source="#source-74353-74379"><seg source="#source-74353-74379">……these primal germs</seg></p>
+        <p source="#source-74379-74420"><seg source="#source-74379-74398">Vary yet only with </seg><hi rend="italic" source="#source-74398-74419" corresp="#source-74420-74486"><seg source="#source-74398-74419">finite tale of shapes</seg></hi><seg source="#source-74419-74420">.</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-74526-74630"><seg source="#source-74526-74630">この言葉が現代の原子模型をいかに適切に表わすものであるか。また言う</seg></p>
+      </div>
+      <div type="layout" source="#source-74630-74855" style="padding-inline-start: 3em">
+        <p source="#source-74665-74697"><seg source="#source-74665-74697">…………………………</seg></p>
+        <p source="#source-74697-74742"><seg source="#source-74697-74742">Betwixt the two extremes: the things create</seg></p>
+        <p source="#source-74742-74787"><seg source="#source-74742-74787">Must differ, therefore, by a finite change,</seg></p>
+        <p source="#source-74787-74819"><seg source="#source-74787-74819">…………………………</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-74857-75297"><seg source="#source-74857-75121">これは寒と熱との間の段階の素量的推移を述べた言葉で、言わば温度の素量説として述べた言葉である。しかしこれはまたきわめて徹底的な一般的素量説の標語としても見られる。しかして現在</seg><ruby type="furigana" rend="right" source="#source-75121-75148"><rb>洪水</rb><rt>こうずい</rt></ruby><seg source="#source-75148-75181">のごとく物理学の領土を</seg><ruby type="furigana" rend="right" source="#source-75181-75205"><rb>汎濫</rb><rt>はんらん</rt></ruby><seg source="#source-75205-75297">しつつある素量の観念の黙示のごとくにも響くのではあるまいか。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-75297-75683"><seg source="#source-75297-75683">元子の種類が有限であるという考えと、最初の元子個性説とは一見矛盾するように見える。しかしこの矛盾ははなはだ貴重なる矛盾であり、実に無機界の科学と生物界の科学との矛盾である。そうしてこの矛盾を融和することこそ、未来の科学の最も重大な任務でなければならない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-75683-75853"><seg source="#source-75683-75853">元子の種類は有限であるが、各種元子の数は無限である。これは物質総量の無限大という前提から来る当然の帰結である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-75853-76221">これら無数の元子はその運動の結果として不断に物を生成し、また生じた物は不断に破壊され、生成と破壊の戦いによって世界は進行する。生のそばには死、死のそばには生があるのである。この考えにはいわゆる「<ruby type="furigana" rend="right" source="#source-76147-76183"><rb>平衡</rb><rt>イクイリブリアム</rt></ruby>」の観念が包まれている。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-76221-76676"><seg source="#source-76221-76587">物の性能が複雑であればあるほど、その物の組成元子は多種多様である。われらの母なる地のごときものはその最も著しいものである。彼女はあらゆるものの母であるからである。そのために昔のギリシア人はこの地を人格化して神と祭り上げてしまった。しかしそれは</seg><ruby type="furigana" rend="right" source="#source-76587-76605"><rb>譬喩</rb><rt>ひゆ</rt></ruby><seg source="#source-76605-76676">である。地はただの無生の物質の集合に過ぎない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-76676-77038"><seg source="#source-76676-77038">動植物は地から食物をとって生長する。従って彼らの中には共通な元子が多分に包まれている。しかし共通な元子からできても、その元子の結合のしかたや順序によって異種の物ができる。あたかも種々に異なる語に共通なアルファベットがあるようなものである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-77038-77337"><seg source="#source-77038-77227">しかし元子の結合のしかたにある定則があって、勝手放題なものはできない。そのために生物はその祖先の定型を保存し、できそこないの</seg><ruby type="furigana" rend="right" source="#source-77227-77251"><rb>妖怪</rb><rt>ようかい</rt></ruby><seg source="#source-77251-77337">はできない。すなわちここで初めて遺伝の問題に触れている。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-77337-77966">そういう事がどうしてできるか。それは動植物が摂取する食物の中で、各自に適当なものは残存し、不適当なものは排出されるからである。すなわちここにも「選択の原理」の存在を持ち出している。これと同じ事は無機界にも行なわれている。すなわち元子の結合にはある定まった方則が支配している。そのおかげで個々の一定の物質が区別されると考えるのである。これも化学におけるあらゆる方則全体の存在を必要とする根本原理を述べたものと見られる。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-77966-78406"><seg source="#source-77966-78406">次にはすでに前にも述べたごとく、元子に可触的物体と同じような二次的属性を付与する事の不都合を詳述している。たとえば元子に色があるとしては、同じものの色の変化することを説明し難い。色の変化は元子の排列順序の変化あるいは元子の交代によって説明せられうると言っている。これもはなはだ近代的である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-78406-79017"><seg source="#source-78406-78652">色は光あって始めて生じるものであると言っているのも正しい。暗中では色の見えぬ事、照らす光によって色のちがって見える事が引証されている。有色物質を粉末にすると次第に</seg><ruby type="furigana" rend="right" source="#source-78652-78679"><rb>褪色</rb><rt>たいしょく</rt></ruby><seg source="#source-78679-79017">するという事実が引用されているのもおもしろい。つまり、彼の考えではいっそう細かく分割して元子まで行けば無色になると言うつもりらしく読まれる。しかしここにいう色彩とそれが目を刺激する元子との関係はよくわからないのが遺憾である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-79017-79271"><seg source="#source-79017-79271">光が当たって色を生ずるのは光の元子の衝突し方によるもので、そのしかたの差は物質元子の形状によると述べてある。これはある程度まで近代的に翻訳する余地があるかと思われる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-79271-79489"><seg source="#source-79271-79489">同様に元子は香も味もなく、声も発せず、また熱くも冷たくもない。そういう変わりやすい無常的なる二次的属性が永遠不変なるべき元子にあるはずがない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-79489-80727"><seg source="#source-79489-79567">色のないものから色が生じるように、感覚のない土から</seg><ruby type="furigana" rend="right" source="#source-79567-79588"><rb>蚯蚓</rb><rt>みみず</rt></ruby>が生まれる。草や水が牛馬に変わる。同じ元子が混合排列のしかたや運動のしかたによっていろいろのものができる。ここで彼は生物がいかにして無機物から生じうるかを説明せんと試みている。後条で精神の元子を論ずるのであるからここでそういう議論は必要がなさそうにも思われるが、しかしここでは心や精神と切り離して感覚を考えているらしい。それはとにかく、感覚を有するものの素成元子は感覚を有すべきだとする事は必要としない。むしろありとするほうが不合理だとする彼の所説にはかなり重要な意義を含蓄しているように思われる。結局はこれもやはり前にたびたび繰り返した、物質と生命との間の「見失われた鎖環」に関する考察の一端である。平たく言えば、もし元子が生物のごときまとまった感覚をもつとしたら、それの集合したものがいかにして一つのまとまった感覚を持ちうるかという考えであると読まれる。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-80727-81170"><seg source="#source-80727-80844">その次に、生物がはげしい衝撃を受けると肉体と精神との結合が破れて後者が前者の</seg><ruby type="furigana" rend="right" source="#source-80844-80859"><rb>孔</rb><rt>あな</rt></ruby>から逃げ出すというような考えから、苦痛や快楽の物質的説明を試み、「笑いの元子」などというものはないと言ったりしている。このへんの所説はしかし私の今の立場から詳説すべき範囲外にあるからすべて省略する事とする。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-81170-81382"><seg source="#source-81170-81194">これらの所説は</seg><ruby type="furigana" rend="right" source="#source-81194-81221"><rb>畢竟</rb><rt>ひっきょう</rt></ruby><seg source="#source-81221-81382">するに人間霊魂非不滅論に導くべき前提としてルクレチウスのかなり力こぶを入れているところであるらしく見える。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-81382-81888"><seg source="#source-81382-81796">以上の所説のごとくにして造られた世界には、同じようなものがたくさん共存するという考えから、われわれのと同じ世界が、他にもいくつも存在するであろうという考えが述べてある。これも一つの卓見であると言われよう。さように限りなき宇宙を一人の力で支配する神様はないはずだというところへ</seg><ruby type="furigana" rend="right" source="#source-81796-81820"><rb>鋒先</rb><rt>ほこさき</rt></ruby><seg source="#source-81820-81888">を向け、そして例の宗教の否定が繰り返される。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-81888-82060"><seg source="#source-81888-82060">この条下にこの世界の誕生、生長、老衰、死滅に関することも述べられている。これらを省略して直ちに第三巻に移ろう。</seg></p>
+        <p style="text-indent: 7em" rend="first-line-indent(7)" source="#source-82060-82088"><seg source="#source-82060-82088">三</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-82088-82396">第三巻の要項とするところは、人間精神の本性を論じこれもまた物質的なる元子より成るものであることを論じ、それから霊魂は死滅するものであるという事を「証明し」最後に死の恐るるに足りない事を結論するのにある。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-82396-83160"><seg source="#source-82396-83160">これらの所論はルクレチウスの哲学的の立場からすれば最も重要な役目を務めるものであろうが、今の私の立場から見るとあまりに現在の科学の領域を逸出した問題である事はやむを得ない。もっとも今から百年二百年後の精神物理学者が今の私のような立場でこの巻を読めばあるいは、この巻において最も興味ある発見に出会うかもわからないという事は想像し得られる。しかし私としてはこの巻をきわめて概括的な、主としてマンローの摘要による紹介だけで通過しなければならない。これらの所説の哲学史的の意義については他の哲学書に譲るほかはない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-83160-83561"><seg source="#source-83160-83220">冒頭には例によってエピクロスにささげた</seg><ruby type="furigana" rend="right" source="#source-83220-83244"><rb>礼賛</rb><rt>らいさん</rt></ruby><seg source="#source-83244-83561">の言葉がある。そうして、あらゆる罪悪を生むものは死の恐怖である。もし、精神というものの本性を明らかにさえすれば、死は決して恐ろしいものではなくなるであろうから、これからその説明を試みようというのが前置きである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-83561-84076"><seg source="#source-83561-83582">まず心（mind, </seg><hi rend="italic" source="#source-83582-83588" corresp="#source-83596-83660"><seg source="#source-83582-83588">animus</seg></hi><seg source="#source-83588-83592"> or </seg><hi rend="italic" source="#source-83592-83596" corresp="#source-83596-83660"><seg source="#source-83592-83596">mens</seg></hi>）は他の学者の説くごとく人体の調和原理でもなく生命原理でもなく、ちょうど頭や足が人体の部分であると同様の意味において人体の「部分」であるに過ぎない。その証拠には肉体が病気でも心は幸福でありうるし、心が悪くても健康でありうる。ちょうど足が痛んでも頭は平気でありうると同じである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-84076-84616"><seg source="#source-84076-84103">同様に精神（soul, </seg><hi rend="italic" source="#source-84103-84158" corresp="#source-84108-84158"><seg source="#source-84103-84108">anima</seg></hi>）もやはり人体の一部で全体の調和ではない。からだの部分を取り去っても、生命は持続する。これに反して「熱と空気の粒子」がほんのわずか逸出すると死んでしまう。これから考えると生命持続のためにはある特別な要素が必要だという事がわかる。しかしそれは人体に含まれている元素であって、全体の調和原理でもなんでもない。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-84616-85179"><seg source="#source-84616-85179">ここで心と精神 animus と anima をルクレチウスがどう考えているかというと、両者は相互に連関したものであるが、心は支配者として胸の中枢なる心臓に座し、精神は全身に分布して心の命令に従うものとしている。私の読み得たところが誤りでなければ、彼のいわゆる心は脳に相当し、精神は全身に広がれる知覚ならびに運動神経に相当するように見える。そう思って読むと彼の言葉が了解しやすくなるのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-85179-85628"><seg source="#source-85179-85628">心の衝動によって精神が刺激され、これが肉体を動かす。物質的肉体を動かすものはまた、物質でなければならない。ゆえに精神、従って心もまた物質的のものでなければならないと論ずる。これは彼の唯物観の当然の帰結であり、またおそらく現代の多くの物理的生理学者の暗黙のうちに仮定しつつある事でなければならない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-85628-86314"><seg source="#source-85628-86138">精神は物質であるとすれば、それはやはり物質的原子より成るはずである。ただし心や精神の元子は非常に微細でその速度は非常に大なるものでなければならない。なんとなれば考えの速さは何よりも早い。そして人が死んでも、少なくも見かけの上で、大きさも重量も変わらない。あたかも酒の気の抜けたようなものである、というのである。ルクレチウスはもちろん神経の</seg><ruby type="furigana" rend="right" source="#source-86138-86174"><rb>伝播速度</rb><rt>でんぱそくど</rt></ruby><seg source="#source-86174-86314">の実際などは知らなかったが、ともかくも考えの速さという事を物質的なるある物の速度で置換した。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-86314-86625"><seg source="#source-86314-86625">人間の息を引き取る前とあととにおける体重を比較しようとする学者は今おそらく一人もないであろう。しかし徹底的なる現代科学的精神からすれば、この実験を遂行せずして始めから結果を断定する事は許されないであろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-86625-87065">精神を組成するものは、「<ruby type="furigana" rend="right" source="#source-86664-86688"><rb>精</rb><rt>スピリット</rt></ruby>」、「熱」、「空気」、とそれに第四のある「名のない者」とである。この第四の者は最細最微にしてかつ最も急速度のもので、これが感覚の基になるものであり、これが害せられると生命はなくなると説き、またこの四つのものが混合してある一つの全体を成すと言っている。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-87065-87319"><seg source="#source-87065-87197">人間や動物の性情性質の相違はこの熱と精気と、空気との含有の割合によって生ずる。たとえば</seg><ruby type="furigana" rend="right" source="#source-87197-87215"><rb>獅子</rb><rt>しし</rt></ruby><seg source="#source-87215-87227">は熱を、</seg><ruby type="furigana" rend="right" source="#source-87227-87242"><rb>鹿</rb><rt>しか</rt></ruby><seg source="#source-87242-87319">は空気また精気を多く持っている、という筆法である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-87319-87765"><seg source="#source-87319-87592">精神は肉体によって結合され、さらに肉体を生かす。両者いずれか一を引きはなせば両者は破壊され生命は滅びる、また両者の相対的運動によって感覚が生じる。肉体の元子と精神の元子とが一つずつ</seg><ruby type="furigana" rend="right" source="#source-87592-87607"><rb>対</rb><rt>つい</rt></ruby><seg source="#source-87607-87765">になっているというデモクリトスの説は誤りである。後者の数は前者に比してはるかに小さい、と論じる条がある。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-87765-88844">これらの考えを基にしてルクレチウスは、精神は肉体の死とともに死滅するものであるという彼の信条を「説明」するためにおよそ二十八箇条をあげて彼の雄弁を発揮するのである。しかしこれを逐条ここで述べることは私の任務でないのみならず、いたずらに読者の<ruby type="furigana" rend="right" source="#source-88128-88152"><rb>倦怠</rb><rt>けんたい</rt></ruby>を買うに過ぎないであろう。ただその一箇条として各種の生物に特有な性状の親から子へ遺伝する事実に論及し、そして心もまた「定まれる種子」を有する事を仮定しなければこの現象は説明し難いと言っているのは注目すべきである。またもし霊魂なるものが肉体へ突然入り込んで来るものであるとすると、一人の子供がまさに出産しようとする際には、いくつもの霊魂が産婦の<ruby type="furigana" rend="right" source="#source-88665-88683"><rb>枕</rb><rt>まくら</rt></ruby><seg source="#source-88683-88844">もとに詰めかけて、おれがおれがと争うであろうと言っているのは読者をしておのずから破顔微笑させるものがある。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-88844-89602">さて、霊魂が母体とともに死滅してしまうとすれば、死は少しも恐ろしくなくなってしまう。ローマが勝とうがカルタゴが勝とうが、霊肉飛散した後の我れにはなんのかかわりもない。たとえわが精神の元子は元子として世界のどこかに存在していても、肉を離れて分解した元子はもはや「我れ」ではない。もっとも、現に我れを構成していたすべての元子が、測るべからざる未来において、偶然に再び元のとおりに結合して今の我れと同じものも作るような事はありうるかもしれないが、その再生した我れが、前生の我れを記憶していようとは思われない。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-89602-89979"><seg source="#source-89602-89979">死後に自分の死を悲しむべき第二の我れは存しないからわが死は我れにとって悲しみでない。死とともに欲望も死ぬるから、だれも、満たされなかった望みに未練を感ずるものはない。そしてたとえせいぜい幾年生き延びたところで永遠の死に対してはその余命は無に等しい。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-89979-90137"><seg source="#source-89979-90137">死後に行くと言われる地獄は、実は目前の欲の世界である。これをのがるる唯一の道は万物の物理の研究である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-90137-90514"><seg source="#source-90137-90514">私はこのエゴイストの哲学についてはなんらの批評の言葉も持ち合わせない。しかし私は、現代においてもしも腹わたの奥底までも科学的にできあがった科学者がいたとしたら、少なくも彼の死に対する観念だけは、よほどこれと似たものでありはしないかを疑うものである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-90514-91182"><seg source="#source-90514-91182">以上彼の所説中で今の物理学者にとって最も興味あるものと思わるるのは、いったん成立して後に分解し離散した多数元子のある特定の集団が、たとえほとんど無限の時間の後であるとしても、再び元どおりに復活しうる機会を持つという考え、しかもそれはなんらの神の意志にもよらずして単に統計学的偶然の所産として起こりうるという考えである。これを読んだ多くの物理学者はボルツマンがそのガス論の第九十章に書き残した意味深きなぞを思い出さないわけには行かないであろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-91182-91757"><seg source="#source-91182-91611">もう一つの注目すべき事は、この巻のみに限らないが、一般に元子の大きさが小さければ小さいほどその速度が大きいという考えが黙認されているらしく見えることである。いかなる根拠あるいは機縁によってこういう観念が生じたかはもちろん不明であるが、ともかくもこれは後代のガス論に現われたエネルギーの</seg><ruby type="furigana" rend="right" source="#source-91611-91656"><rb>等分配</rb><rt>エクイパーテイション</rt></ruby><seg source="#source-91656-91757">の方則を少なくも質的に予想するものと見れば見られるという事である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-91757-92158"><seg source="#source-91757-91835">私は思う。直観と夢とは別物である。科学というものは</seg><ruby type="furigana" rend="right" source="#source-91835-91862"><rb>畢竟</rb><rt>ひっきょう</rt></ruby>「わかりやすい言葉に書き直した直観」であり、直観は「人間に読めない国語でしるされた科学書の最後の結論」ではないか。ルクレチウスを読みながら私はしばしばこのような<ruby type="furigana" rend="right" source="#source-92102-92126"><rb>妄想</rb><rt>もうそう</rt></ruby><seg source="#source-92126-92158">に襲われるのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-92158-92771">ちなみにわが国の神官の間に伝わる言い伝えに、人間の霊魂は「<ruby type="furigana" rend="right" source="#source-92248-92263"><rb>妙</rb><rt>たえ</rt></ruby><seg source="#source-92263-92266">に</seg><ruby type="furigana" rend="right" source="#source-92266-92281"><rb>円</rb><rt>まろ</rt></ruby>き」<hi rend="bouten 傍点 right" source="#source-92287-92323" corresp="#source-92293-92323"><seg source="#source-92287-92293">たま</seg></hi><seg source="#source-92323-92392">であるという考えがあるそうである。この事を私は</seg><ruby type="furigana" rend="right" source="#source-92392-92428"><rb>幸田露伴</rb><rt>こうだろはん</rt></ruby><seg source="#source-92428-92771">博士から聞いて、この条の心や精神の元子と多少でも似た考えがわが民族の間に存した事を知り奇異の感に打たれたのである。これはギリシア語のテュモスが国語のタマシイに似ていると同じく、はたして偶然であるか、そうでないか全くわからない。</seg></p>
+        <p style="text-indent: 7em" rend="first-line-indent(7)" source="#source-92771-92799"><seg source="#source-92771-92799">四</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-92799-92966"><seg source="#source-92799-92966">第四巻に移るに当たって、私は以上の三巻を取り扱って来た私の紹介の態度と方法に多少の変更を加える必要を感じる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-92966-93409"><seg source="#source-92966-93356">以上紹介したところによって、私はルクレチウスの根底に存する科学的精神の一般的諸相と、彼の元子説のおもなる前提ならびにその運用方法の概念だけを不完全ながら伝えることができたように思う。以下の三巻に現われるこれらの根本的なものは、多く述べきたったものの変形であり</seg><ruby type="furigana" rend="right" source="#source-93356-93377"><rb>敷衍</rb><rt>ふえん</rt></ruby><seg source="#source-93377-93409">であるとも見られる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-93409-93621"><seg source="#source-93409-93621">また一方、以下各巻に現わるる具体的の自然現象の具体的説明となれば、これらはそのままでは当然現在の科学に照らした批判に堪えうるものではない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-93621-94058"><seg source="#source-93621-93843">そういうわけであるから、これ以後も従前のごとく逐条的詳細の紹介解説をするとすれば、それはあまりにしばしば無用な重複に陥り、またあまりにわずらわしき</seg><ruby type="furigana" rend="right" source="#source-93843-93864"><rb>些末</rb><rt>さまつ</rt></ruby><seg source="#source-93864-93867">の</seg><ruby type="furigana" rend="right" source="#source-93867-93891"><rb>詮索</rb><rt>せんさく</rt></ruby><seg source="#source-93891-94058">に堕するほかはないであろう。たとえそれは読者の寛容を得るとしても、編集者から私に与えられた紙数には限りがある。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-94058-94252"><seg source="#source-94058-94252">それで、私は、以下にはなるべく重複を避けながら、主として科学的に興味あるべき事がらを、やや随意に摘出しながら進行しようと思う。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-94252-95516"><seg source="#source-94252-94309">第四巻の初めにおける重要題目は物体が</seg><ruby type="furigana" rend="right" source="#source-94309-94330"><rb>吾人</rb><rt>ごじん</rt></ruby>の視官によって知覚さるる機巧に関するものである。アリストテレスやピタゴラスらは、目から発射するある物が物体を打つために物が見えると考えたのに反して、この著者が物体から飛来する何物かが目を刺激するのであると考えた点は、ともかくも一歩だけ真に近い。しかしその物体から来るものは今日の光線でも光波でもなくて「像」（image）と名づける薄膜状の物質である。これはあたかも<ruby type="furigana" rend="right" source="#source-94866-94881"><rb>蛇</rb><rt>へび</rt></ruby><seg source="#source-94881-95013">の皮を脱するごとく、物体の表面からはがれて、あとからあとからと八方に飛び出す。その速度は</seg><ruby type="furigana" rend="right" source="#source-95013-95037"><rb>莫大</rb><rt>ばくだい</rt></ruby>なものである。これが目を打つと同時にわれわれはその物体の形と色を知覚する。この像が鏡に衝突すると、反射し、そして「裏返し」になって帰って来る。物の距離の感ぜられるのは、像が飛んで来る時に前面の空気を押して目におしつけるためである。そのために鏡に映ったものは、鏡の後ろにあるように距離が感ぜられるというような解説がある。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-95516-95857"><seg source="#source-95516-95597">反射角と入射角と等しいという意味の言葉もある。水中に</seg><ruby type="furigana" rend="right" source="#source-95597-95624"><rb>插入</rb><rt>そうにゅう</rt></ruby><seg source="#source-95624-95630">した</seg><ruby type="furigana" rend="right" source="#source-95630-95645"><rb>櫂</rb><rt>かい</rt></ruby><seg source="#source-95645-95759">の曲がって見える事は述べてあるが、屈折の方則らしいものは見いだされない。また</seg><ruby type="furigana" rend="right" source="#source-95759-95780"><rb>数多</rb><rt>あまた</rt></ruby><seg source="#source-95780-95857">の鏡による重複反射の事実にもともかくも触れてある。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-95857-96303">表面の粗なる物体にこの「像」が衝突した場合には、この薄膜の像が破れてしまうから、映像を生じないという説明や、また遠方の物体が不鮮明に見えるのは長く、空中を飛行する間に無数の衝突を受けて、像のとがった<ruby type="furigana" rend="right" source="#source-96157-96172"><rb>角</rb><rt>かど</rt></ruby><seg source="#source-96172-96303">が次第につぶれてしまうからであるという光の拡乱の説明は、やや近代的なものを含んでいる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-96303-97178"><seg source="#source-96303-96543">知覚が与えるものは常に正しくても、その判断の誤りから錯覚を生ずると言っていろいろの例もあげてある。そしてこれに続いて自然の認識の基礎となるべきものはしかし結局</seg><ruby type="furigana" rend="right" source="#source-96543-96567"><rb>吾人</rb><rt>ごじん</rt></ruby>の感覚にほかならないという感覚論的方法論の宣言がある。これは後にマッハの一派によって展開されたものの先駆をなすものと見られる。そしてプランクらの「感覚からの開放」という言葉が彼らの意味では正当であるとしても、われわれはこのルクレチウスの所説もまた同時に真理として認容しなければならない。いかに人間が思い上がってみたところで、五官を封じられてしまって、そうして物理学の課程を学ぶ事がどうしてできるであろうか。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-97178-97774">音響はやはり一種の放射物であるが「像」のようなものとは考えられていないらしい。そして音の散乱、反射というようなものも、どうにか論じてある。おもしろいのは音の回折の事実を述べてある所に、ホイゲンスの原理に似た考えが認められる。すなわち一つの音から次の音が生まれる。ちょうど一つの火花から多くの火花が生まれるようだと言っているのである。そして、光は影を作るが音は影を作らない事実に注意を向けている。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-97774-98445"><seg source="#source-97774-98445">私は昔ある場所の入学試験の問題として、音波と光波の見かけの上の回折の差を証明する事を求めたが、正解らしい要点に触れたものはまれであった。多くの学生らは教科書に書いてない眼前の問題はあまり考えてみないものと思われる。そして教わったものなら、どんなめんどうな数式でも暗記していて、所問に当たろうが当たるまいが、そのままに答案用紙に書き並べるのである。二千年前のルクレチウスのほうがよりよき科学者であるのか、今の教育方針が悪いのか、これも問題である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-98445-98819"><seg source="#source-98445-98819">香や味の問題その他生理学的の問題の所説は全部略する。ただこの条に連関して人間の生活官能は人間の用途のために設計して作られたものではなくて、官能があって後にその用が生まれるものであると言って、目的論的自然観に反対する所論のある事を注意しておきたい。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-98819-99177"><seg source="#source-98819-99062">巻末に性愛を論じた部分の中に遺伝素に関する考えが見いだされる。この考えはよほどまで具体的に現代の遺伝学説に近似するものであって、この事はすでに近ごろのネチュアー</seg><seg type="annotated-text" source="#source-99071-99110"><seg source="#source-99062-99071">（６）</seg><note type="source-role" subtype="annotation-number"><seg source="#source-99095-99107">注釈番号</seg></note></seg><seg source="#source-99110-99177">の寄書欄で注意した人もあったくらいである。</seg></p>
+        <p style="text-indent: 7em" rend="first-line-indent(7)" source="#source-99177-99205"><seg source="#source-99177-99205">五</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-99205-99897"><seg source="#source-99205-99274">第五巻の初めにおいて、ルクレチウスは、さらに</seg><ruby type="furigana" rend="right" source="#source-99274-99298"><rb>鋒先</rb><rt>ほこさき</rt></ruby><seg source="#source-99298-99748">を取り直して彼の敵手たる目的論的学説に反抗している。そうして神を敬遠して世界と没交渉な天の一方に持ち込んでいる。世界が神の所産でないことは世界の欠点だらけなことからもわかると論じている。これをソクラテスが神は善なるゆえに世に悪はない、と言ったのと比較すると、両者の立場の相違がよくわかる。一は公理から</seg><ruby type="furigana" rend="right" source="#source-99748-99772"><rb>演繹</rb><rt>えんえき</rt></ruby><seg source="#source-99772-99897">し一は事実から帰納するのである。この点からもルクレチウスのほうが自然科学的である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-99897-100181"><seg source="#source-99897-99969">そうして世界の可死を論じるために水や空気や火の</seg><ruby type="furigana" rend="right" source="#source-99969-99990"><rb>輪廻</rb><rt>りんね</rt></ruby><seg source="#source-99990-100181">を引用して種々の地文学的の問題に触れている。また地質学上の輪廻にも暗示を投げている。その記述の中には当然地震や津波も出て来る。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-100181-100570"><seg source="#source-100181-100232">最も興味あるは宇宙の生成に関する</seg><ruby type="furigana" rend="right" source="#source-100232-100271"><rb>開闢論的</rb><rt>コスモゴニカル</rt></ruby><seg source="#source-100271-100298">考察である。元子的</seg><ruby type="furigana" rend="right" source="#source-100298-100325"><rb>渾沌</rb><rt>こんとん</rt></ruby><seg source="#source-100325-100570">の中から偶然の結合で分離析出が起こるという考えは、日本その他多くの国々の伝説と同様であるが、それを元子論的に見た点がはなはだ近代的であることは前述のとおりである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-100570-100689"><seg source="#source-100570-100689">地が静止しているというための彼の説明は遺憾ながら有利に翻訳し難いものである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-100689-101618">次には星の運行の原因を説明するものとして、四つばかりの可能なオルターネティヴを列挙している。この説明の内容はとにかくとして、この後においても彼はしばしば当面の問題に対して可能であるべき説明をできうる限り列挙せんと努めているのは注意すべき彼の科学的方法である。彼は言う。これらのもののいずれが、この「われわれの世界」で原因となっているかは確実にはわからない。しかし宇宙間に存する「種々の世界」は種々に作られているから、これらの原因のいずれもが、どこかの世界には行なわれているかもしれない。ただこの世界でその中のどれが行なわれているかを断言する事は、自分のように「要心深く歩を進める人間」のすべき事ではないと言っている。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-101618-102541"><seg source="#source-101618-101708">この方法論は、実は、はなはだ科学的なものである。彼の考えを</seg><ruby type="furigana" rend="right" source="#source-101708-101729"><rb>敷衍</rb><rt>ふえん</rt></ruby><seg source="#source-101729-102476">して言えば、経験によって明確に否定されないすべての可能性は、すべて真でありうることを認容してかからねばならないというのである。この事は意外にもかえって往々にして現時の科学者によって忘却される。精密という言葉、量的という標語を持ち出す前にまず考えなければならない出発点の質的のオルターネティヴが案外にしばしば粗略に取り扱われる。その結果は、はなはだしく独断的に誤れる仮定に基づいためんどうな数学的理論がひねり出されたりするような現象が起こる。そういう意味でルクレチウスのこの態度は、むしろ今の科学者に</seg><ruby type="furigana" rend="right" source="#source-102476-102497"><rb>必須</rb><rt>ひっす</rt></ruby><seg source="#source-102497-102541">なものと考えなければならぬ。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-102541-103611"><seg source="#source-102541-102649">この態度で彼は太陰太陽の週期の異なる理由、昼夜の長短の生ずる理由、月の</seg><ruby type="furigana" rend="right" source="#source-102649-102673"><rb>盈虚</rb><rt>えいきょ</rt></ruby><seg source="#source-102673-102685">、日月の</seg><ruby type="furigana" rend="right" source="#source-102685-102703"><rb>蝕</rb><rt>しょく</rt></ruby>の原因等に関する説明の可能なものを多数に列挙している。これらの説明はそのままには今日適用されないとしても、彼のいうごとく「どこかの他の世界」では適用しうるものを包有している。たとえば盈虚や蝕の説明の中に、近代に至って変光星の光度の週期的変化の説明として提出された模型が明示されてあったりするのは、決して偶然ではなくて、むしろ当然の事である。すなわちこの世界で適用しなかった一つのものが他の世界で適用されるにほかならない。将来においても、このへんの彼の所説の中のある物が、前衛に立って戦う天体物理学者のある行き詰まった考えの中に、なんらかの暗示の<ruby type="furigana" rend="right" source="#source-103519-103543"><rb>閃光</rb><rt>せんこう</rt></ruby><seg source="#source-103543-103611">を投げ込むこともありうるであろうと思われる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-103611-104669"><ruby type="furigana" rend="right" source="#source-103614-103650"><rb>開闢論</rb><rt>かいびゃくろん</rt></ruby><seg source="#source-103650-103848">、天体論の次には、この世界における生物の発生進化の解説が展開されている。まず植物が現われ、次に現われた最初の動物は鳥であった。これは</seg><ruby type="furigana" rend="right" source="#source-103848-103872"><rb>天涯</rb><rt>てんがい</rt></ruby><seg source="#source-103872-104319">から飛来したものではなくやはり地から生まれた。それはちょうど現に雨や太陽の熱によって肥土から虫が生まれるように生まれたものであると説く。これは近代物理学の大家が、生命の種子を天来の発生物に帰せようとしたつたない説をあざけるようにも聞こえる。人間も初めのうちはやはり地から生まれ、そうして地の細孔から</seg><ruby type="furigana" rend="right" source="#source-104319-104346"><rb>滲出</rb><rt>しんしゅつ</rt></ruby><seg source="#source-104346-104352">する</seg><ruby type="furigana" rend="right" source="#source-104352-104382"><rb>乳汁</rb><rt>にゅうじゅう</rt></ruby><seg source="#source-104382-104669">によって養われていた。しかしその後に地がだんだん老衰して来たから、もう産む事をとうにやめてしまったというのである。これは確かに奇説である。しかし彼の学説から見ればそれほど不都合ではあるまい。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-104669-104713"><seg source="#source-104669-104713">ここで地の老衰を説いた後に</seg></p>
+      </div>
+      <div type="layout" source="#source-104713-105047" style="padding-inline-start: 3em">
+        <p source="#source-104751-104795"><seg source="#source-104751-104763">For lapsing </seg><hi rend="accent" snh:accent-code="1-09-60" snh:source-marker="ae&amp;" source="#source-104763-104766" corresp="#source-104748-104751 #source-104790-104793">æ</hi><seg source="#source-104766-104790">ons change the nature of</seg></p>
+        <p source="#source-104795-104849"><seg source="#source-104795-104849">The whole wide world, and all things needs must take</seg></p>
+        <p source="#source-104849-104960"><hi rend="italic" source="#source-104849-104871" corresp="#source-104891-104958"><seg source="#source-104849-104871">One status after other</seg></hi><seg source="#source-104871-104891">, nor aught persists</seg></p>
+        <p source="#source-104960-105011"><seg source="#source-104960-105011">For ever like itself. ………………………</seg></p>
+      </div>
+      <div>
+        <p source="#source-105049-105690"><seg source="#source-105049-105199">と歌っている。これは、ある意味から、自然方則の変遷を考えているものとも見られる。科学の方則ははたして</seg><ruby type="furigana" rend="right" source="#source-105199-105223"><rb>永劫</rb><rt>えいごう</rt></ruby><seg source="#source-105223-105427">不変のものであるか。これはきわめてまれにしか持ち出されなかった問題である。私の知る限りではただアンリー・ポアンカレーがその晩年のエッセー</seg><seg type="annotated-text" source="#source-105436-105475"><seg source="#source-105427-105436">（７）</seg><note type="source-role" subtype="annotation-number"><seg source="#source-105460-105472">注釈番号</seg></note></seg><seg source="#source-105475-105690">において論じたものである。これはもちろんわれわれの科学だけからは決定し難いものであるが、しかしまた科学者の全然忘却してはならない問題であろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-105690-106175">最初のうちはいろいろの片輪者や化け物が生まれた。しかしそれらは栄養生殖に不適当であるためにまもなく絶滅したと言って、ここに明らかに「適者生存の理」を述べている。残存し繁栄した種族は自衛の能力あるものか、しからざれば人間の保護によるものであると付け加えている。そして半人半獣の怪物が現存し得ざるゆえんを説いているのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-106175-106699"><seg source="#source-106175-106699">次には原始人類の生活状態から人文の発達の歴史をかなり詳しく論じている。これらの所説を現在学者の所説と比較してみてもおそらく根本的にはいくらも違わないのではないかと思われる。たとえば火の発明の記事は現に私の机上にある科学者の火に関する著書の内容そのままであり、言語の起源に関する考えは、近代言語学者中の最も非常識なる説よりも、もう少し要を得ている。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-106699-107078"><ruby type="furigana" rend="right" source="#source-106702-106723"><rb>冶金</rb><rt>やきん</rt></ruby><seg source="#source-106723-106774">、紡織、園芸の起源や、音楽、舞踊の</seg><ruby type="furigana" rend="right" source="#source-106774-106801"><rb>濫觴</rb><rt>らんしょう</rt></ruby><seg source="#source-106801-107078">までもおもしろく述べてある。神の観念が夢から示唆され、それが不可解不可能なるすべての事情の持ち込み所に進化するという考えももらされている。そして結局宗教の否定が繰り返さるるのである。</seg></p>
+        <p style="text-indent: 7em" rend="first-line-indent(7)" source="#source-107078-107106"><seg source="#source-107078-107106">六</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-107106-107642">第六巻では主として地球物理学的の現象が取り扱われている。これは現在の気象学者や地震学者、地質学者にとってかなりに興味あるものを多分に包有し提供している。しかしここでこれらの詳細にわたって紹介し評注を加えることはできない。私はもし機会があったら、他日特に「ルクレチウスの地球物理学的所説」だけを取り出してどこかで紹介したいという希望をもっているだけである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-107642-108940"><seg source="#source-107642-107699">彼が雷電や地震噴火を詳説した目的は、</seg><ruby type="furigana" rend="right" source="#source-107699-107726"><rb>畢竟</rb><rt>ひっきょう</rt></ruby><seg source="#source-107726-108200">これら現象の物質的解説によって、これらが神の所業でない事を明らかにし、同時にこれらに対する恐怖を除去するにあるらしい。これはまたそのままに現代の科学教育なるものの一つの目的であろう。しかし不幸にして二十世紀の民衆の大多数は紀元前一世紀の大多数と比較してこの点いくらも進歩していない。たとえば今のわが国の地震学者が口を</seg><ruby type="furigana" rend="right" source="#source-108200-108212"><rb>酸</rb><rt>す</rt></ruby>くして説くことに人は耳をかそうとしない。そうして大正十二年の関東地震はあれだけの災害を及ぼすに至った。あの地震は実はたいした災害を生ずべきはずのものではなかった。災害の生じたおもなる原因は、東京市民の地震に対する非科学的恐怖であったのである。科学は進歩するが人間は昔も今も同じであるという事を痛切に感じないではいられない。同時に今の科学者がルクレチウスから科学そのものは教わらなくても、科学者というものの「人」について多くを教わりうるゆえんをここにも明らかに認めうると考えるのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-108940-109467"><seg source="#source-108940-109081">雷電の現象についてもやはり種々の可能な原因を列挙している。その中に雷雨の生因と、雲および風の</seg><ruby type="furigana" rend="right" source="#source-109081-109102"><rb>渦動</rb><rt>かどう</rt></ruby><seg source="#source-109102-109467">との関係が予想されているのがおもしろい。また雷鳴の音響の生因について種々の考えがあげてあるが、この問題については現在でもまだ種々の異説があるくらいである。この方面の研究に没頭せる気象学者にとっては、この一節は尽きざる示唆の泉を与えるであろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-109467-109712"><seg source="#source-109467-109712">また風が速度のために熱するということも考えられている。圧縮によって熱の種子が絞り出されるという言葉もおもしろい。これらはガス体の熱力学の一部の予言とも見られる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-109712-110026"><seg source="#source-109712-109772">雷電の熱効果、器械的効果を述べる中に、</seg><ruby type="furigana" rend="right" source="#source-109772-109796"><rb>酒壺</rb><rt>さかつぼ</rt></ruby><seg source="#source-109796-110026">に落雷すると酒は蒸発してしまって壺は無事だというような例があげてある。これなどは普通の気象学書には見えないことであるが、事実はどうだか私にはわからない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-110026-110181"><seg source="#source-110026-110119">雷電の火の種子が一部は太陽から借りられたものであるとの考えも</seg><ruby type="furigana" rend="right" source="#source-110119-110143"><rb>正鵠</rb><rt>せいこく</rt></ruby><seg source="#source-110143-110181">を得ていると言われうる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-110181-110699"><seg source="#source-110181-110271">電火の驚くべき器械的効果は、きわめて微細なる粒子が物質間の</seg><ruby type="furigana" rend="right" source="#source-110271-110295"><rb>空隙</rb><rt>くうげき</rt></ruby><seg source="#source-110295-110538">を大なる速度で突進するによるとの考えは、近年のドルセーの電撃の仮説に似ている。またここのルクレチウスの記述には、今の電子を思わせるある物もある。電火によって金属の</seg><ruby type="furigana" rend="right" source="#source-110538-110562"><rb>熔融</rb><rt>ようゆう</rt></ruby><seg source="#source-110562-110699">するのは、これら粒子の進入のために金属元子の結合がゆるめらるるといっているのも興味がある。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-110699-110857"><seg source="#source-110699-110857">雷雨の季節的分布を論ずる条において、寒暑の接触を雷雨の成立条件と考えているのも見のがすことができない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-110857-110961"><ruby type="furigana" rend="right" source="#source-110860-110884"><rb>竜巻</rb><rt>たつまき</rt></ruby><seg source="#source-110884-110961">についてもかなり正しい観察と、真に近い考察がある。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-110961-111200"><seg source="#source-110961-111102">雲の生成に凝縮心核を考えているのは卓見である。そして天外より飛来する粒子の考えなどは、現在の</seg><ruby type="furigana" rend="right" source="#source-111102-111144"><rb>宇宙微塵</rb><rt>コスミカルダスト</rt></ruby><seg source="#source-111144-111200">や太陽からの放射粒子線を連想させる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-111200-111910"><seg source="#source-111200-111239">次に地震の問題に移って、</seg><ruby type="furigana" rend="right" source="#source-111239-111260"><rb>地殻</rb><rt>ちかく</rt></ruby><seg source="#source-111260-111338">内部構造に論及するのは今も同じである。ただ彼は地下に</seg><ruby type="furigana" rend="right" source="#source-111338-111362"><rb>空洞</rb><rt>くうどう</rt></ruby>の存在を仮定し、その空洞を満たすに「風」をもってしたのは困るようであるが、この「風」を<ruby type="furigana" rend="right" source="#source-111491-111515"><rb>熔岩</rb><rt>ようがん</rt></ruby>と翻訳すれば現在の考えに近くなる。彼はまた地下に「川」や「水たまり」を考えている。これは熔岩の脈やポケットをさすと見られる。この空洞の壁の墜落が地震を起こすと考える。このままの考えは近年まで残存した。重いものの墜落の衝動が地に波及するという考えも暗示されている。</p>
+        <p source="#source-111910-112086">「地下の風」の圧力が地の傾動を起こし震動を起こすという考えが、最近のマグマ運動と地震の関係に関する学説を連想させる。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-112086-112235"><seg source="#source-112086-112235">津波の記事の加えられているのは地震国たるギリシア・ローマの学者にして始めてありうるものであろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-112235-112381"><seg source="#source-112235-112295">次には大洋の水量の恒久と関係して蒸発や</seg><ruby type="furigana" rend="right" source="#source-112295-112319"><rb>土壌</rb><rt>どじょう</rt></ruby><seg source="#source-112319-112322">の</seg><ruby type="furigana" rend="right" source="#source-112322-112355"><rb>滲透性</rb><rt>しんとうせい</rt></ruby><seg source="#source-112355-112381">が説かれている。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-112381-112545"><seg source="#source-112381-112545">火山を人体の病気にたとえた後に、物の大きさの相対性に論及し、何物も全和に対しては無に等しいと宣言している。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-112545-112808"><seg source="#source-112545-112596">また火山の生因として海水が地下に</seg><ruby type="furigana" rend="right" source="#source-112596-112620"><rb>滲透</rb><rt>しんとう</rt></ruby><seg source="#source-112620-112808">し、それが噴火山の根を養うという現代でもしばしば繰り返される仮説もまたその端緒をルクレチウスに見いだすことができるのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-112808-113101"><seg source="#source-112808-112823">ナイルの</seg><ruby type="furigana" rend="right" source="#source-112823-112847"><rb>洪水</rb><rt>こうずい</rt></ruby><seg source="#source-112847-113101">の問題についても四箇条のオルターネティヴがあげてある。この四箇条などは、おそらく今でもどこかの川について地文学者のだれかが月並みに繰り返しつつあるものと全然同様である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-113101-113220"><seg source="#source-113101-113220">次には毒ガス泉や井戸水の問題がある。井水の温度に関する彼の説明は奇抜である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-113220-113504">その次に磁石の説が来るのは今の科学書の体裁と比較して見れば唐突の感がある。ただし著者のつもりは、あらゆる「不思議」を解説するにあるのであって、科学の系統を述べているのでないと思えばよい。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-113504-113815">磁石の作用を考えている中に「感応」の観念の<ruby type="furigana" rend="right" source="#source-113570-113591"><rb>胚子</rb><rt>はいし</rt></ruby>、「力の場」「指力線」などの考えの<ruby type="furigana" rend="right" source="#source-113642-113663"><rb>萌芽</rb><rt>ほうが</rt></ruby><seg source="#source-113663-113815">らしいものも見られる。しかし全体としての説明は不幸にして今の言葉には容易に書き直されないものである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-113815-114036">終わりには「病気」に関する一節があって、そこには風土病と気候の関係が論ぜられ、また伝染病の種子としての<ruby type="furigana" rend="right" source="#source-113971-113995"><rb>黴菌</rb><rt>ばいきん</rt></ruby><seg source="#source-113995-114036">のごときものが認められる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-114036-114620"><seg source="#source-114036-114267">最後にアゼンスにおける疫病流行当時の状況がリアルな恐ろしさをもって描き出されている。マンローによればこれはおもにツキジデスを訳したものだそうであり中には</seg><ruby type="furigana" rend="right" source="#source-114267-114291"><rb>誤謬</rb><rt>ごびゅう</rt></ruby><seg source="#source-114291-114620">もあるそうである。これは医者が読んだらさだめておもしろいものであろうと思う。この中には種々多様の悪疫の症状が混合してしるされているそうである。この一節はいわゆる空気伝染をなす病気の実例として付け加えられたものであろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-114620-115109"><seg source="#source-114620-115109">この疫病の記述によってルクレチウスの De Rerum Natura は終わっている。これはわれわれになんとなく物足りない感じを与える。ルクレチウスはおそらく、この後にさらに何物かを付加する考えがあったのではないか。私はこの書に結末らしい結末のない事をかえっておもしろくも思うものである。実際科学の巻物には始めはあっても終わりはないはずである。</seg></p>
+        <p style="text-indent: 5em" rend="first-line-indent(5)" source="#source-115109-115134"><seg source="#source-115109-115134">後記</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-115134-115769"><seg source="#source-115134-115769">ルクレチウスの書によってわれわれの学ぶべきものは、その中の具体的事象の知識でもなくまたその論理でもなく、ただその中に貫流する科学的精神である。この意味でこの書は一部の貴重なる経典である。もし時代に応じて適当に釈注を加えさえすれば、これは永久に適用さるべき科学方法論の解説書である。またわれわれの科学的想像力の枯渇した場合に啓示の霊水をくむべき不死の泉である。また知識の中毒によって起こった壊血症を治するヴィタミンである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-115769-116116"><seg source="#source-115769-116116">現代科学の花や実の美しさを賛美するわれわれは、往々にしてその根幹を忘却しがちである。ルクレチウスは実にわれわれにこの科学系統の根幹を思い出させる。そうする事によってのみわれわれは科学の幹に新しい枝を発見する機会を得るのであろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-116116-116556"><seg source="#source-116116-116275">実際昔も今も、科学の前衛線に立って何か一つの新しき道を開いた第一流の学者たちは、ある意味でルクレチウスの</seg><ruby type="furigana" rend="right" source="#source-116275-116299"><rb>後裔</rb><rt>こうえい</rt></ruby><seg source="#source-116299-116556">であった。現在でもニエルス・ボーアやド・ブローリーのごときは明らかにその子孫である。彼らはただ現時の最高のアカデミックの課程を修得したルクレチウスにほかならないのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-116556-117065"><seg source="#source-116556-116667">エネルギー不滅論の祖とせらるるロベルト・マイアーは最もよくルクレチウスの</seg><ruby type="furigana" rend="right" source="#source-116667-116688"><rb>衣鉢</rb><rt>えはつ</rt></ruby><seg source="#source-116688-117065">を伝えた後裔であった。しかし彼は不幸にしてその当代の物理学に精通しなかったために、その偉大なる論文は当時の物理学界からしりぞけられた。しかして当時の学界へのパッスを所有していた他のルクレチウスの子孫ヘルムホルツによって始めて明るみに出るようになった。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-117065-117295"><seg source="#source-117065-117295">現代の科学がルクレチウスだけで進められようとは思われない。しかしルクレチウスなしにいかなる科学の部門でも未知の領域に一歩も踏み出すことは困難であろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-117295-117978"><seg source="#source-117295-117826">今かりに現代科学者が科学者として持つべき要素として三つのものを抽出する。一つはルクレチウス的直観能力の要素であってこれをＬと名づける。次は数理的分析の能力でこれをＳと名づける。第三は器械的実験によって現象を系統化し、帰納する能力である。これをＫと名づける。今もしこの三つの能力が測定の可能な量であると仮定すれば、ＬＳＫの三つのものを座標として、三次元の</seg><ruby type="furigana" rend="right" source="#source-117826-117856"><rb>八分一</rb><rt>オクタント</rt></ruby><seg source="#source-117856-117978">空間を考え、その空間の中の種々の領域に種々の科学者を配当する事ができるであろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-117978-118722"><seg source="#source-117978-118722">ヘルムホルツや、ケルヴィンやレイノルズのごときはＬＳＫいずれも多分に併有していたものの例である。現存の学者ではジェー・ジェー・タムソンがこのタイプの人であろう。ファラデーや現代のラザフォードやウードのごときはＬＫ軸の面に近く位している。ボルツマン、プランク、ボーア、アインシュタイン、ハイゼンベルク、ディラックらはＬＳ面に近い各点に相当する。ただ L = 0 すなわちＳＫの面内に座する著名の大家を物色する事が困難である。あるいはレーリー卿のごときは少なくもこの座標軸面に近い大家であったかもしれない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-118722-119087"><seg source="#source-118722-118878">ゾンマーフェルトやその他の数理物理学者はＳ軸の上近くに座するものであり、純実験、純測定の大家らはＫ軸に</seg><ruby type="furigana" rend="right" source="#source-118878-118899"><rb>羅列</rb><rt>られつ</rt></ruby><seg source="#source-118899-119087">される。これらは科学の成果に仕上げをかける人々である。そうして科学上のピュリタニズムから見て最も尊敬すべき種類の学者である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-119087-119662"><seg source="#source-119087-119222">しかるにＬ軸の真上に座する人はもはや科学者ではない。彼らは詩人である。最善の場合において</seg><ruby type="furigana" rend="right" source="#source-119222-119273"><rb>形而上学者</rb><rt>けいじじょうがくしゃ</rt></ruby><seg source="#source-119273-119306">であるが最悪の場合には</seg><ruby type="furigana" rend="right" source="#source-119306-119339"><rb>妄想者</rb><rt>もうそうしゃ</rt></ruby><seg source="#source-119339-119662">であり狂者であるかもしれない。こういう人は西洋でも日本でも時々あって科学者を困らせる。しかしたいていの場合彼らの言う事は科学者の参考になるあるものを持っている。すなわち彼らはわれわれにＬの要素を供給しうるのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-119662-119838"><seg source="#source-119662-119770">もちろん座標中心の付近には科学者の多数が群集していて、中心から遠い所に</seg><ruby type="furigana" rend="right" source="#source-119770-119797"><rb>僅少</rb><rt>きんしょう</rt></ruby><seg source="#source-119797-119838">の星が輝いているのである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-119838-120008"><seg source="#source-119838-119850">以上の</seg><ruby type="furigana" rend="right" source="#source-119850-119868"><rb>譬喩</rb><rt>ひゆ</rt></ruby><seg source="#source-119868-120008">は拙ではあるが、ルクレチウスが現代科学に対して占める独特の位地を説明する一助となるであろう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-120008-120223"><seg source="#source-120008-120223">誤解のないために繰り返して言う。ルクレチウスのみでは科学は成立しない。しかしまたルクレチウスなしには科学はなんら本質的なる進展を遂げ得ない。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-120223-120573"><seg source="#source-120223-120460">私は科学の学生がただいたずらにＬ軸の上にのみ進む事を戒めたく思うと同時に、また科学教育に従事する権威者があまりにＳＫ面の中にのみ学生を拘束して、Ｌ軸の方向に</seg><ruby type="furigana" rend="right" source="#source-120460-120484"><rb>飛翔</rb><rt>ひしょう</rt></ruby><seg source="#source-120484-120573">せんとする翼を盲目的に切断せざらん事を切望するものである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-120573-120851"><seg source="#source-120573-120851">最後に私はこの一編の未熟な解説が、ルクレチウスの面影の一側面をも充分正確に鮮明に描出することを得なかったであろうことを恐れる。そうしてこの点について読者の寛容をこいねがうものである。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-120851-121770"><seg source="#source-120851-121568">ルクレチウスを読み、そうしてその解説を筆にしている間に、しばしば私は一種の興奮を感じないではいられなかった。従って私の冷静なるべき客観的紹介の態度は、往々にしてはなはだしく取り乱され、私の筆端は強い主観的のにおいを発散していることに気がつく。また一方私はルクレチウスをかりて自分の年来培養して来た科学観のあるものを読者に押し売りしつつあるのではないかと反省してみなければならない。しかし私がもしそういう罪を犯す危険が少しもないくらいであったら、私はおそらくルクレチウスの一巻を</seg><ruby type="furigana" rend="right" source="#source-121568-121592"><rb>塵溜</rb><rt>ごみため</rt></ruby><seg source="#source-121592-121709">の中に投げ込んでしまったであろう。そうしてこの紹介のごときものに筆を執る機会は</seg><ruby type="furigana" rend="right" source="#source-121709-121736"><rb>生涯</rb><rt>しょうがい</rt></ruby><seg source="#source-121736-121770">来なかったであろう。</seg></p>
+      </div>
+      <div type="layout" source="#source-121770-123859" style="padding-inline-start: 3em; text-indent: -1em">
+        <p source="#source-121835-121946"><seg source="#source-121835-121946">（１）　ルクレチウスの atom. 現代の原子と区別するためにかりに元子と訳する。</seg></p>
+        <p source="#source-121946-122012"><seg source="#source-121946-122012">（２）　Newton, Opticks, pp. 375, 376, Second edition, 1718.</seg></p>
+        <p source="#source-122012-122058"><seg source="#source-122012-122058">（３）　L'Illustration, 7 Juillet, 1928.</seg></p>
+        <p source="#source-122058-122118"><seg source="#source-122058-122118">（４）　Daly, Igneous Rocks and their Origin, p. xxii.</seg></p>
+        <p source="#source-122118-122249"><seg source="#source-122118-122249">（５）　N. Bohr, Nature, April 14, 1928, Supplement. ドイツ語で同じものが Naturwissenschaften にも出ている。</seg></p>
+        <p style="text-indent: 0em" rend="first-line-indent(1)" source="#source-122249-123662"><seg source="#source-122249-122267">ちなみに故</seg><ruby type="furigana" rend="right" source="#source-122267-122318"><rb>日下部四郎太</rb><rt>くさかべしろうた</rt></ruby>博士が十年ほど前に「時の素量について」という意味の題目で一つのおもしろい論文を東京数学物理学会に提出した事があった。私は今その内容を記憶しないのを遺憾とする。この論文はしかしなぜか学会の記事には載らなかった。あまり変なものだというのでどこかで握りつぶされたといううわさもある。そういううわさのありうるほどにオリジナルなものであったのである。しかし今読んでみたら案外変ではないかもしれないと思う。日下部博士はルクレチウス的要素を多分に持った学者であったのである。なおエピキュリアンが時を素量的のものと考えたという事を何かで読んだことがあるが、ルクレチウスの中で明白にそう言ってあるのは私には見当たらなかった。またラスウィッツの「原子論史」（I, S. 140）によると、アラビアのムタカリムン（<seg source="#source-123341-123351">Mutakallim</seg><hi rend="accent" snh:accent-code="1-09-92" snh:source-marker="u_" source="#source-123351-123353" corresp="#source-123338-123341 #source-123354-123357">ū</hi><seg source="#source-123353-123354">n</seg><seg source="#source-123357-123662">）と称する一派の学者は時を連続的と考えないで、個々不連続な時点の列と考えている。しかしてやはり人間感覚に限界のあるという事で、この説の見かけ上の不都合を弁護しているそうである。これも注意すべき事である。</seg></p>
+        <p source="#source-123662-123719"><seg source="#source-123662-123719">（６）　R. C. McLean, Nature, May 12, 1928, p. 749.</seg></p>
+        <p source="#source-123719-123823"><seg source="#source-123719-123731">（７）　</seg><seg source="#source-123734-123744">H. Poincar</seg><hi rend="accent" snh:accent-code="1-09-63" snh:source-marker="e'" source="#source-123744-123746" corresp="#source-123731-123734 #source-123763-123766">é</hi><seg source="#source-123746-123763">, Letzte Gedanken</seg> の最初の論文「自然方則は変化するか」</p>
+      </div>
+      <div type="layout" source="#source-123861-123934" style="padding-inline-end: 3em; text-align: right">
+        <p source="#source-123891-123934"><seg source="#source-123891-123934">（昭和四年九月、世界思潮）</seg></p>
+      </div>
+      <div type="layout" source="#source-123934-124154" style="padding-inline-start: 2em">
+        <p source="#source-123969-124118">（「物質と言葉」への追記）以上のルクレチウス紹介を書いた後に入手した関係文献を参考のためにしるす。</p>
+      </div>
+      <div type="layout" source="#source-124156-124709" style="padding-inline-start: 3em; text-indent: -1em">
+        <p source="#source-124221-124365"><seg source="#source-124221-124365">1)　T. Lucretius Carus, Von der Nature der Dinge, nach der Uebersetzung von K. L. v. Knebel. (Reclams Universal-Bibliothek, Nr. 4257―4259.)</seg></p>
+        <p source="#source-124365-124460"><seg source="#source-124365-124370">2)　</seg><seg source="#source-124373-124377">Lucr</seg><hi rend="accent" snh:accent-code="1-09-62" snh:source-marker="e`" source="#source-124377-124379" corresp="#source-124370-124373 #source-124455-124458">è</hi><seg source="#source-124379-124455">ce, De la Nature, Traduction nouvelle de Henri Clouard. (Classique Garnier.)</seg></p>
+        <p source="#source-124460-124567"><seg source="#source-124460-124567">3)　Lucretius, De Rerum Natura, with an English Translation by W. H. D. Rouse. (Loeb Classical Library.)</seg></p>
+        <p source="#source-124567-124668"><seg source="#source-124567-124572">4)　</seg><seg source="#source-124575-124576">X</seg><hi rend="accent" snh:accent-code="1-09-63" snh:source-marker="e'" source="#source-124576-124578" corresp="#source-124572-124575 #source-124668-124671">é</hi><seg source="#source-124578-124590">nia Atanassi</seg><hi rend="accent" snh:accent-code="1-09-63" snh:source-marker="e'" source="#source-124590-124592" corresp="#source-124572-124575 #source-124668-124671">é</hi><seg source="#source-124592-124612">vitch, L'Atomisme d'</seg><hi rend="accent" snh:accent-code="1-09-32" snh:source-marker="E'" source="#source-124612-124614" corresp="#source-124572-124575 #source-124668-124671">É</hi><seg source="#source-124614-124668">picure. (Paris, Les Presses Universitaires de France.)</seg></p>
+      </div>
+    </body>
+    <back>
+      <div type="source">
+        <note type="source-attribution" source="#source-124717-124980"><seg type="source-line">底本：「寺田寅彦随筆集　第二巻」小宮豊隆編、岩波文庫、岩波書店</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1947（昭和22）年9月10日第1刷発行</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1964（昭和39）年1月16日第22刷改版発行</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1997（平成9）年5月6日第70刷発行</seg></note>
+        <note type="transcriber-note" source="#source-124980-125544"><seg type="source-line">※底本の誤記等を確認するにあたり、「寺田寅彦全集」（岩波書店）を参照しました。</seg><lb/><seg type="source-line">※底本では、注釈番号は、本文の右脇にルビのように組まれている。</seg><lb/><seg type="source-line">入力：(株)モモ</seg><lb/><seg type="source-line">校正：かとうかおり</seg><lb/><seg type="source-line">2000年10月3日公開</seg><lb/><seg type="source-line">2003年10月30日修正</seg><lb/><seg type="source-line">青空文庫作成ファイル：</seg><lb/><seg type="source-line">このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。</seg></note>
+        <note type="source-span" xml:id="source-100181-100232" n="239"/>
+        <note type="source-span" xml:id="source-100181-100570" n="239"/>
+        <note type="source-span" xml:id="source-100232-100271" n="239"/>
+        <note type="source-span" xml:id="source-100271-100298" n="239"/>
+        <note type="source-span" xml:id="source-100298-100325" n="239"/>
+        <note type="source-span" xml:id="source-100325-100570" n="239"/>
+        <note type="source-span" xml:id="source-100570-100689" n="240"/>
+        <note type="source-span" xml:id="source-100689-101618" n="241"/>
+        <note type="source-span" xml:id="source-101618-101708" n="242"/>
+        <note type="source-span" xml:id="source-101618-102541" n="242"/>
+        <note type="source-span" xml:id="source-101708-101729" n="242"/>
+        <note type="source-span" xml:id="source-101729-102476" n="242"/>
+        <note type="source-span" xml:id="source-102476-102497" n="242"/>
+        <note type="source-span" xml:id="source-102497-102541" n="242"/>
+        <note type="source-span" xml:id="source-102541-102649" n="243"/>
+        <note type="source-span" xml:id="source-102541-103611" n="243"/>
+        <note type="source-span" xml:id="source-102649-102673" n="243"/>
+        <note type="source-span" xml:id="source-102673-102685" n="243"/>
+        <note type="source-span" xml:id="source-102685-102703" n="243"/>
+        <note type="source-span" xml:id="source-103519-103543" n="243"/>
+        <note type="source-span" xml:id="source-103543-103611" n="243"/>
+        <note type="source-span" xml:id="source-103611-103614" n="244"/>
+        <note type="source-span" xml:id="source-103611-104669" n="244"/>
+        <note type="source-span" xml:id="source-103614-103650" n="244"/>
+        <note type="source-span" xml:id="source-103650-103848" n="244"/>
+        <note type="source-span" xml:id="source-103848-103872" n="244"/>
+        <note type="source-span" xml:id="source-103872-104319" n="244"/>
+        <note type="source-span" xml:id="source-104319-104346" n="244"/>
+        <note type="source-span" xml:id="source-104346-104352" n="244"/>
+        <note type="source-span" xml:id="source-104352-104382" n="244"/>
+        <note type="source-span" xml:id="source-104382-104669" n="244"/>
+        <note type="source-span" xml:id="source-104669-104713" n="245"/>
+        <note type="source-span" xml:id="source-104713-105047" n="246"/>
+        <note type="source-span" xml:id="source-104748-104748" n="247"/>
+        <note type="source-span" xml:id="source-104748-104751" n="247"/>
+        <note type="source-span" xml:id="source-104751-104763" n="247"/>
+        <note type="source-span" xml:id="source-104751-104795" n="247"/>
+        <note type="source-span" xml:id="source-104763-104766" n="247"/>
+        <note type="source-span" xml:id="source-104766-104790" n="247"/>
+        <note type="source-span" xml:id="source-104790-104793" n="247"/>
+        <note type="source-span" xml:id="source-104793-104795" n="247"/>
+        <note type="source-span" xml:id="source-104795-104849" n="248"/>
+        <note type="source-span" xml:id="source-104849-104871" n="249"/>
+        <note type="source-span" xml:id="source-104849-104960" n="249"/>
+        <note type="source-span" xml:id="source-104871-104891" n="249"/>
+        <note type="source-span" xml:id="source-104891-104958" n="249"/>
+        <note type="source-span" xml:id="source-104958-104960" n="249"/>
+        <note type="source-span" xml:id="source-104960-105011" n="250"/>
+        <note type="source-span" xml:id="source-105049-105199" n="252"/>
+        <note type="source-span" xml:id="source-105049-105690" n="252"/>
+        <note type="source-span" xml:id="source-105199-105223" n="252"/>
+        <note type="source-span" xml:id="source-105223-105427" n="252"/>
+        <note type="source-span" xml:id="source-105427-105436" n="252"/>
+        <note type="source-span" xml:id="source-105436-105475" n="252"/>
+        <note type="source-span" xml:id="source-105460-105472" n="252"/>
+        <note type="source-span" xml:id="source-105475-105690" n="252"/>
+        <note type="source-span" xml:id="source-105690-106175" n="253"/>
+        <note type="source-span" xml:id="source-106175-106699" n="254"/>
+        <note type="source-span" xml:id="source-106699-106702" n="255"/>
+        <note type="source-span" xml:id="source-106699-107078" n="255"/>
+        <note type="source-span" xml:id="source-106702-106723" n="255"/>
+        <note type="source-span" xml:id="source-106723-106774" n="255"/>
+        <note type="source-span" xml:id="source-106774-106801" n="255"/>
+        <note type="source-span" xml:id="source-106801-107078" n="255"/>
+        <note type="source-span" xml:id="source-107078-107106" n="257"/>
+        <note type="source-span" xml:id="source-107106-107642" n="259"/>
+        <note type="source-span" xml:id="source-107642-107699" n="260"/>
+        <note type="source-span" xml:id="source-107642-108940" n="260"/>
+        <note type="source-span" xml:id="source-107699-107726" n="260"/>
+        <note type="source-span" xml:id="source-107726-108200" n="260"/>
+        <note type="source-span" xml:id="source-10796-10910" n="44"/>
+        <note type="source-span" xml:id="source-10796-11569" n="44"/>
+        <note type="source-span" xml:id="source-108200-108212" n="260"/>
+        <note type="source-span" xml:id="source-108940-109081" n="261"/>
+        <note type="source-span" xml:id="source-108940-109467" n="261"/>
+        <note type="source-span" xml:id="source-109081-109102" n="261"/>
+        <note type="source-span" xml:id="source-10910-10934" n="44"/>
+        <note type="source-span" xml:id="source-109102-109467" n="261"/>
+        <note type="source-span" xml:id="source-1092-1113" n="24"/>
+        <note type="source-span" xml:id="source-10934-10940" n="44"/>
+        <note type="source-span" xml:id="source-10940-10961" n="44"/>
+        <note type="source-span" xml:id="source-109467-109712" n="262"/>
+        <note type="source-span" xml:id="source-10961-11156" n="44"/>
+        <note type="source-span" xml:id="source-109712-109772" n="263"/>
+        <note type="source-span" xml:id="source-109712-110026" n="263"/>
+        <note type="source-span" xml:id="source-109772-109796" n="263"/>
+        <note type="source-span" xml:id="source-109796-110026" n="263"/>
+        <note type="source-span" xml:id="source-110026-110119" n="264"/>
+        <note type="source-span" xml:id="source-110026-110181" n="264"/>
+        <note type="source-span" xml:id="source-110119-110143" n="264"/>
+        <note type="source-span" xml:id="source-110143-110181" n="264"/>
+        <note type="source-span" xml:id="source-110181-110271" n="265"/>
+        <note type="source-span" xml:id="source-110181-110699" n="265"/>
+        <note type="source-span" xml:id="source-110271-110295" n="265"/>
+        <note type="source-span" xml:id="source-110295-110538" n="265"/>
+        <note type="source-span" xml:id="source-110538-110562" n="265"/>
+        <note type="source-span" xml:id="source-110562-110699" n="265"/>
+        <note type="source-span" xml:id="source-110699-110857" n="266"/>
+        <note type="source-span" xml:id="source-110857-110860" n="267"/>
+        <note type="source-span" xml:id="source-110857-110961" n="267"/>
+        <note type="source-span" xml:id="source-110860-110884" n="267"/>
+        <note type="source-span" xml:id="source-110884-110961" n="267"/>
+        <note type="source-span" xml:id="source-110961-111102" n="268"/>
+        <note type="source-span" xml:id="source-110961-111200" n="268"/>
+        <note type="source-span" xml:id="source-111102-111144" n="268"/>
+        <note type="source-span" xml:id="source-111144-111200" n="268"/>
+        <note type="source-span" xml:id="source-111200-111239" n="269"/>
+        <note type="source-span" xml:id="source-111200-111910" n="269"/>
+        <note type="source-span" xml:id="source-111239-111260" n="269"/>
+        <note type="source-span" xml:id="source-111260-111338" n="269"/>
+        <note type="source-span" xml:id="source-1113-1155" n="24"/>
+        <note type="source-span" xml:id="source-111338-111362" n="269"/>
+        <note type="source-span" xml:id="source-111491-111515" n="269"/>
+        <note type="source-span" xml:id="source-11156-11183" n="44"/>
+        <note type="source-span" xml:id="source-11183-11569" n="44"/>
+        <note type="source-span" xml:id="source-111910-112086" n="270"/>
+        <note type="source-span" xml:id="source-112086-112235" n="271"/>
+        <note type="source-span" xml:id="source-112235-112295" n="272"/>
+        <note type="source-span" xml:id="source-112235-112381" n="272"/>
+        <note type="source-span" xml:id="source-112295-112319" n="272"/>
+        <note type="source-span" xml:id="source-112319-112322" n="272"/>
+        <note type="source-span" xml:id="source-112322-112355" n="272"/>
+        <note type="source-span" xml:id="source-112355-112381" n="272"/>
+        <note type="source-span" xml:id="source-112381-112545" n="273"/>
+        <note type="source-span" xml:id="source-112545-112596" n="274"/>
+        <note type="source-span" xml:id="source-112545-112808" n="274"/>
+        <note type="source-span" xml:id="source-112596-112620" n="274"/>
+        <note type="source-span" xml:id="source-112620-112808" n="274"/>
+        <note type="source-span" xml:id="source-112808-112823" n="275"/>
+        <note type="source-span" xml:id="source-112808-113101" n="275"/>
+        <note type="source-span" xml:id="source-112823-112847" n="275"/>
+        <note type="source-span" xml:id="source-112847-113101" n="275"/>
+        <note type="source-span" xml:id="source-113101-113220" n="276"/>
+        <note type="source-span" xml:id="source-113220-113504" n="277"/>
+        <note type="source-span" xml:id="source-113504-113815" n="278"/>
+        <note type="source-span" xml:id="source-113570-113591" n="278"/>
+        <note type="source-span" xml:id="source-113642-113663" n="278"/>
+        <note type="source-span" xml:id="source-113663-113815" n="278"/>
+        <note type="source-span" xml:id="source-113815-114036" n="279"/>
+        <note type="source-span" xml:id="source-113971-113995" n="279"/>
+        <note type="source-span" xml:id="source-113995-114036" n="279"/>
+        <note type="source-span" xml:id="source-114036-114267" n="280"/>
+        <note type="source-span" xml:id="source-114036-114620" n="280"/>
+        <note type="source-span" xml:id="source-114267-114291" n="280"/>
+        <note type="source-span" xml:id="source-114291-114620" n="280"/>
+        <note type="source-span" xml:id="source-114620-115109" n="281"/>
+        <note type="source-span" xml:id="source-115109-115134" n="283"/>
+        <note type="source-span" xml:id="source-115134-115769" n="285"/>
+        <note type="source-span" xml:id="source-1155-1164" n="24"/>
+        <note type="source-span" xml:id="source-11569-11695" n="45"/>
+        <note type="source-span" xml:id="source-11569-12084" n="45"/>
+        <note type="source-span" xml:id="source-115769-116116" n="286"/>
+        <note type="source-span" xml:id="source-116116-116275" n="287"/>
+        <note type="source-span" xml:id="source-116116-116556" n="287"/>
+        <note type="source-span" xml:id="source-116275-116299" n="287"/>
+        <note type="source-span" xml:id="source-116299-116556" n="287"/>
+        <note type="source-span" xml:id="source-1164-1203" n="24"/>
+        <note type="source-span" xml:id="source-116556-116667" n="288"/>
+        <note type="source-span" xml:id="source-116556-117065" n="288"/>
+        <note type="source-span" xml:id="source-116667-116688" n="288"/>
+        <note type="source-span" xml:id="source-116688-117065" n="288"/>
+        <note type="source-span" xml:id="source-11695-11719" n="45"/>
+        <note type="source-span" xml:id="source-117065-117295" n="289"/>
+        <note type="source-span" xml:id="source-11719-11998" n="45"/>
+        <note type="source-span" xml:id="source-117295-117826" n="290"/>
+        <note type="source-span" xml:id="source-117295-117978" n="290"/>
+        <note type="source-span" xml:id="source-117826-117856" n="290"/>
+        <note type="source-span" xml:id="source-117856-117978" n="290"/>
+        <note type="source-span" xml:id="source-117978-118722" n="291"/>
+        <note type="source-span" xml:id="source-118722-118878" n="292"/>
+        <note type="source-span" xml:id="source-118722-119087" n="292"/>
+        <note type="source-span" xml:id="source-1188-1200" n="24"/>
+        <note type="source-span" xml:id="source-118878-118899" n="292"/>
+        <note type="source-span" xml:id="source-118899-119087" n="292"/>
+        <note type="source-span" xml:id="source-119087-119222" n="293"/>
+        <note type="source-span" xml:id="source-119087-119662" n="293"/>
+        <note type="source-span" xml:id="source-119222-119273" n="293"/>
+        <note type="source-span" xml:id="source-119273-119306" n="293"/>
+        <note type="source-span" xml:id="source-119306-119339" n="293"/>
+        <note type="source-span" xml:id="source-119339-119662" n="293"/>
+        <note type="source-span" xml:id="source-119662-119770" n="294"/>
+        <note type="source-span" xml:id="source-119662-119838" n="294"/>
+        <note type="source-span" xml:id="source-119770-119797" n="294"/>
+        <note type="source-span" xml:id="source-119797-119838" n="294"/>
+        <note type="source-span" xml:id="source-119838-119850" n="295"/>
+        <note type="source-span" xml:id="source-119838-120008" n="295"/>
+        <note type="source-span" xml:id="source-119850-119868" n="295"/>
+        <note type="source-span" xml:id="source-119868-120008" n="295"/>
+        <note type="source-span" xml:id="source-11998-12010" n="45"/>
+        <note type="source-span" xml:id="source-120008-120223" n="296"/>
+        <note type="source-span" xml:id="source-12010-12084" n="45"/>
+        <note type="source-span" xml:id="source-120223-120460" n="297"/>
+        <note type="source-span" xml:id="source-120223-120573" n="297"/>
+        <note type="source-span" xml:id="source-1203-1254" n="24"/>
+        <note type="source-span" xml:id="source-120460-120484" n="297"/>
+        <note type="source-span" xml:id="source-120484-120573" n="297"/>
+        <note type="source-span" xml:id="source-120573-120851" n="298"/>
+        <note type="source-span" xml:id="source-12084-12096" n="46"/>
+        <note type="source-span" xml:id="source-12084-14102" n="46"/>
+        <note type="source-span" xml:id="source-120851-121568" n="299"/>
+        <note type="source-span" xml:id="source-120851-121770" n="299"/>
+        <note type="source-span" xml:id="source-12096-12123" n="46"/>
+        <note type="source-span" xml:id="source-12123-14102" n="46"/>
+        <note type="source-span" xml:id="source-121568-121592" n="299"/>
+        <note type="source-span" xml:id="source-121592-121709" n="299"/>
+        <note type="source-span" xml:id="source-121709-121736" n="299"/>
+        <note type="source-span" xml:id="source-121736-121770" n="299"/>
+        <note type="source-span" xml:id="source-121770-123859" n="301"/>
+        <note type="source-span" xml:id="source-121835-121835" n="302"/>
+        <note type="source-span" xml:id="source-121835-121946" n="302"/>
+        <note type="source-span" xml:id="source-121946-122012" n="303"/>
+        <note type="source-span" xml:id="source-122012-122058" n="304"/>
+        <note type="source-span" xml:id="source-122058-122118" n="305"/>
+        <note type="source-span" xml:id="source-122118-122249" n="306"/>
+        <note type="source-span" xml:id="source-122249-122267" n="307"/>
+        <note type="source-span" xml:id="source-122249-123662" n="307"/>
+        <note type="source-span" xml:id="source-122267-122318" n="307"/>
+        <note type="source-span" xml:id="source-123338-123341" n="307"/>
+        <note type="source-span" xml:id="source-123341-123351" n="307"/>
+        <note type="source-span" xml:id="source-123351-123353" n="307"/>
+        <note type="source-span" xml:id="source-123353-123354" n="307"/>
+        <note type="source-span" xml:id="source-123354-123357" n="307"/>
+        <note type="source-span" xml:id="source-123357-123662" n="307"/>
+        <note type="source-span" xml:id="source-123662-123719" n="308"/>
+        <note type="source-span" xml:id="source-123719-123731" n="309"/>
+        <note type="source-span" xml:id="source-123719-123823" n="309"/>
+        <note type="source-span" xml:id="source-123731-123734" n="309"/>
+        <note type="source-span" xml:id="source-123734-123744" n="309"/>
+        <note type="source-span" xml:id="source-123744-123746" n="309"/>
+        <note type="source-span" xml:id="source-123746-123763" n="309"/>
+        <note type="source-span" xml:id="source-123763-123766" n="309"/>
+        <note type="source-span" xml:id="source-123861-123934" n="311"/>
+        <note type="source-span" xml:id="source-123891-123934" n="311"/>
+        <note type="source-span" xml:id="source-123934-124154" n="313"/>
+        <note type="source-span" xml:id="source-123969-123969" n="314"/>
+        <note type="source-span" xml:id="source-123969-124118" n="314"/>
+        <note type="source-span" xml:id="source-124156-124709" n="316"/>
+        <note type="source-span" xml:id="source-124221-124221" n="317"/>
+        <note type="source-span" xml:id="source-124221-124365" n="317"/>
+        <note type="source-span" xml:id="source-124365-124370" n="318"/>
+        <note type="source-span" xml:id="source-124365-124460" n="318"/>
+        <note type="source-span" xml:id="source-124370-124373" n="318"/>
+        <note type="source-span" xml:id="source-124373-124377" n="318"/>
+        <note type="source-span" xml:id="source-124377-124379" n="318"/>
+        <note type="source-span" xml:id="source-124379-124455" n="318"/>
+        <note type="source-span" xml:id="source-124455-124458" n="318"/>
+        <note type="source-span" xml:id="source-124458-124460" n="318"/>
+        <note type="source-span" xml:id="source-124460-124567" n="319"/>
+        <note type="source-span" xml:id="source-124567-124572" n="320"/>
+        <note type="source-span" xml:id="source-124567-124668" n="320"/>
+        <note type="source-span" xml:id="source-124572-124575" n="320"/>
+        <note type="source-span" xml:id="source-124575-124576" n="320"/>
+        <note type="source-span" xml:id="source-124576-124578" n="320"/>
+        <note type="source-span" xml:id="source-124578-124590" n="320"/>
+        <note type="source-span" xml:id="source-124590-124592" n="320"/>
+        <note type="source-span" xml:id="source-124592-124612" n="320"/>
+        <note type="source-span" xml:id="source-124612-124614" n="320"/>
+        <note type="source-span" xml:id="source-124614-124668" n="320"/>
+        <note type="source-span" xml:id="source-124668-124671" n="320"/>
+        <note type="source-span" xml:id="source-124671-124673" n="320"/>
+        <note type="source-span" xml:id="source-124717-124980" n="325"/>
+        <note type="source-span" xml:id="source-124980-125544" n="329"/>
+        <note type="source-span" xml:id="source-1254-1281" n="24"/>
+        <note type="source-span" xml:id="source-1281-1383" n="24"/>
+        <note type="source-span" xml:id="source-1383-1404" n="24"/>
+        <note type="source-span" xml:id="source-1404-1541" n="24"/>
+        <note type="source-span" xml:id="source-14102-14660" n="47"/>
+        <note type="source-span" xml:id="source-14102-14725" n="47"/>
+        <note type="source-span" xml:id="source-14660-14687" n="47"/>
+        <note type="source-span" xml:id="source-14687-14725" n="47"/>
+        <note type="source-span" xml:id="source-14725-14809" n="48"/>
+        <note type="source-span" xml:id="source-14725-15543" n="48"/>
+        <note type="source-span" xml:id="source-14809-14830" n="48"/>
+        <note type="source-span" xml:id="source-14830-14929" n="48"/>
+        <note type="source-span" xml:id="source-14929-14953" n="48"/>
+        <note type="source-span" xml:id="source-14953-15490" n="48"/>
+        <note type="source-span" xml:id="source-1541-1568" n="25"/>
+        <note type="source-span" xml:id="source-1541-2410" n="25"/>
+        <note type="source-span" xml:id="source-15490-15514" n="48"/>
+        <note type="source-span" xml:id="source-15514-15543" n="48"/>
+        <note type="source-span" xml:id="source-15543-15600" n="49"/>
+        <note type="source-span" xml:id="source-15543-16064" n="49"/>
+        <note type="source-span" xml:id="source-15600-15624" n="49"/>
+        <note type="source-span" xml:id="source-15624-15732" n="49"/>
+        <note type="source-span" xml:id="source-1568-1607" n="25"/>
+        <note type="source-span" xml:id="source-15732-15753" n="49"/>
+        <note type="source-span" xml:id="source-15753-15999" n="49"/>
+        <note type="source-span" xml:id="source-15999-16026" n="49"/>
+        <note type="source-span" xml:id="source-16026-16064" n="49"/>
+        <note type="source-span" xml:id="source-16064-16670" n="50"/>
+        <note type="source-span" xml:id="source-16064-18133" n="50"/>
+        <note type="source-span" xml:id="source-16670-16694" n="50"/>
+        <note type="source-span" xml:id="source-16694-16937" n="50"/>
+        <note type="source-span" xml:id="source-16937-16958" n="50"/>
+        <note type="source-span" xml:id="source-16958-17270" n="50"/>
+        <note type="source-span" xml:id="source-17270-17297" n="50"/>
+        <note type="source-span" xml:id="source-17297-17501" n="50"/>
+        <note type="source-span" xml:id="source-17501-17525" n="50"/>
+        <note type="source-span" xml:id="source-17525-17621" n="50"/>
+        <note type="source-span" xml:id="source-1760-1784" n="25"/>
+        <note type="source-span" xml:id="source-17621-17639" n="50"/>
+        <note type="source-span" xml:id="source-17639-17669" n="50"/>
+        <note type="source-span" xml:id="source-17669-17693" n="50"/>
+        <note type="source-span" xml:id="source-17693-18133" n="50"/>
+        <note type="source-span" xml:id="source-1784-2410" n="25"/>
+        <note type="source-span" xml:id="source-18133-18505" n="51"/>
+        <note type="source-span" xml:id="source-18133-18564" n="51"/>
+        <note type="source-span" xml:id="source-18505-18520" n="51"/>
+        <note type="source-span" xml:id="source-18520-18564" n="51"/>
+        <note type="source-span" xml:id="source-18564-18615" n="52"/>
+        <note type="source-span" xml:id="source-18564-18776" n="52"/>
+        <note type="source-span" xml:id="source-18615-18639" n="52"/>
+        <note type="source-span" xml:id="source-18639-18776" n="52"/>
+        <note type="source-span" xml:id="source-18776-18962" n="53"/>
+        <note type="source-span" xml:id="source-18776-19969" n="53"/>
+        <note type="source-span" xml:id="source-18962-18989" n="53"/>
+        <note type="source-span" xml:id="source-18989-19877" n="53"/>
+        <note type="source-span" xml:id="source-19877-19901" n="53"/>
+        <note type="source-span" xml:id="source-19901-19969" n="53"/>
+        <note type="source-span" xml:id="source-19969-20421" n="54"/>
+        <note type="source-span" xml:id="source-20421-21162" n="55"/>
+        <note type="source-span" xml:id="source-20421-21887" n="55"/>
+        <note type="source-span" xml:id="source-21162-21195" n="55"/>
+        <note type="source-span" xml:id="source-21195-21246" n="55"/>
+        <note type="source-span" xml:id="source-21246-21297" n="55"/>
+        <note type="source-span" xml:id="source-21297-21887" n="55"/>
+        <note type="source-span" xml:id="source-21887-22103" n="56"/>
+        <note type="source-span" xml:id="source-21887-22345" n="56"/>
+        <note type="source-span" xml:id="source-22103-22130" n="56"/>
+        <note type="source-span" xml:id="source-22345-22594" n="57"/>
+        <note type="source-span" xml:id="source-22345-22758" n="57"/>
+        <note type="source-span" xml:id="source-22594-22621" n="57"/>
+        <note type="source-span" xml:id="source-22621-22758" n="57"/>
+        <note type="source-span" xml:id="source-22758-23390" n="58"/>
+        <note type="source-span" xml:id="source-23390-23968" n="59"/>
+        <note type="source-span" xml:id="source-23968-24157" n="60"/>
+        <note type="source-span" xml:id="source-23968-25305" n="60"/>
+        <note type="source-span" xml:id="source-2410-2467" n="26"/>
+        <note type="source-span" xml:id="source-2410-2595" n="26"/>
+        <note type="source-span" xml:id="source-24157-24181" n="60"/>
+        <note type="source-span" xml:id="source-24181-24538" n="60"/>
+        <note type="source-span" xml:id="source-24538-24547" n="60"/>
+        <note type="source-span" xml:id="source-24547-24586" n="60"/>
+        <note type="source-span" xml:id="source-24571-24583" n="60"/>
+        <note type="source-span" xml:id="source-24586-25305" n="60"/>
+        <note type="source-span" xml:id="source-2467-2494" n="26"/>
+        <note type="source-span" xml:id="source-2494-2595" n="26"/>
+        <note type="source-span" xml:id="source-25305-25901" n="61"/>
+        <note type="source-span" xml:id="source-25740-25767" n="61"/>
+        <note type="source-span" xml:id="source-25767-25901" n="61"/>
+        <note type="source-span" xml:id="source-25901-26270" n="62"/>
+        <note type="source-span" xml:id="source-25901-26716" n="62"/>
+        <note type="source-span" xml:id="source-2595-2753" n="27"/>
+        <note type="source-span" xml:id="source-26270-26291" n="62"/>
+        <note type="source-span" xml:id="source-26291-26432" n="62"/>
+        <note type="source-span" xml:id="source-2630-2630" n="28"/>
+        <note type="source-span" xml:id="source-2630-2717" n="28"/>
+        <note type="source-span" xml:id="source-26432-26450" n="62"/>
+        <note type="source-span" xml:id="source-26450-26716" n="62"/>
+        <note type="source-span" xml:id="source-26716-26998" n="63"/>
+        <note type="source-span" xml:id="source-26716-27876" n="63"/>
+        <note type="source-span" xml:id="source-26998-27019" n="63"/>
+        <note type="source-span" xml:id="source-27019-27040" n="63"/>
+        <note type="source-span" xml:id="source-27040-27876" n="63"/>
+        <note type="source-span" xml:id="source-2755-3336" n="30"/>
+        <note type="source-span" xml:id="source-27876-28439" n="64"/>
+        <note type="source-span" xml:id="source-28439-28676" n="65"/>
+        <note type="source-span" xml:id="source-28439-29536" n="65"/>
+        <note type="source-span" xml:id="source-28676-28700" n="65"/>
+        <note type="source-span" xml:id="source-28700-28805" n="65"/>
+        <note type="source-span" xml:id="source-28805-28820" n="65"/>
+        <note type="source-span" xml:id="source-28820-29447" n="65"/>
+        <note type="source-span" xml:id="source-29447-29471" n="65"/>
+        <note type="source-span" xml:id="source-29471-29536" n="65"/>
+        <note type="source-span" xml:id="source-29536-29785" n="66"/>
+        <note type="source-span" xml:id="source-29536-30150" n="66"/>
+        <note type="source-span" xml:id="source-29785-29821" n="66"/>
+        <note type="source-span" xml:id="source-29821-29902" n="66"/>
+        <note type="source-span" xml:id="source-29902-29923" n="66"/>
+        <note type="source-span" xml:id="source-29923-30100" n="66"/>
+        <note type="source-span" xml:id="source-30100-30109" n="66"/>
+        <note type="source-span" xml:id="source-30109-30148" n="66"/>
+        <note type="source-span" xml:id="source-30133-30145" n="66"/>
+        <note type="source-span" xml:id="source-30148-30150" n="66"/>
+        <note type="source-span" xml:id="source-30150-30263" n="67"/>
+        <note type="source-span" xml:id="source-30185-30185" n="68"/>
+        <note type="source-span" xml:id="source-30185-30227" n="68"/>
+        <note type="source-span" xml:id="source-30265-30363" n="70"/>
+        <note type="source-span" xml:id="source-30363-30658" n="71"/>
+        <note type="source-span" xml:id="source-30398-30398" n="72"/>
+        <note type="source-span" xml:id="source-30398-30441" n="72"/>
+        <note type="source-span" xml:id="source-30441-30486" n="73"/>
+        <note type="source-span" xml:id="source-30486-30534" n="74"/>
+        <note type="source-span" xml:id="source-30534-30577" n="75"/>
+        <note type="source-span" xml:id="source-30577-30622" n="76"/>
+        <note type="source-span" xml:id="source-30660-30678" n="78"/>
+        <note type="source-span" xml:id="source-30660-31752" n="78"/>
+        <note type="source-span" xml:id="source-30678-30699" n="78"/>
+        <note type="source-span" xml:id="source-31324-31351" n="78"/>
+        <note type="source-span" xml:id="source-31752-31764" n="79"/>
+        <note type="source-span" xml:id="source-31752-32573" n="79"/>
+        <note type="source-span" xml:id="source-31764-31788" n="79"/>
+        <note type="source-span" xml:id="source-31788-31971" n="79"/>
+        <note type="source-span" xml:id="source-31971-31986" n="79"/>
+        <note type="source-span" xml:id="source-32573-32825" n="80"/>
+        <note type="source-span" xml:id="source-32573-33420" n="80"/>
+        <note type="source-span" xml:id="source-32825-32849" n="80"/>
+        <note type="source-span" xml:id="source-32849-32873" n="80"/>
+        <note type="source-span" xml:id="source-32873-32894" n="80"/>
+        <note type="source-span" xml:id="source-32894-33104" n="80"/>
+        <note type="source-span" xml:id="source-33104-33137" n="80"/>
+        <note type="source-span" xml:id="source-33137-33420" n="80"/>
+        <note type="source-span" xml:id="source-3336-3449" n="31"/>
+        <note type="source-span" xml:id="source-33420-33486" n="82"/>
+        <note type="source-span" xml:id="source-33420-33932" n="82"/>
+        <note type="source-span" xml:id="source-33486-33510" n="82"/>
+        <note type="source-span" xml:id="source-33510-33639" n="82"/>
+        <note type="source-span" xml:id="source-33639-33666" n="82"/>
+        <note type="source-span" xml:id="source-33666-33932" n="82"/>
+        <note type="source-span" xml:id="source-33932-34054" n="83"/>
+        <note type="source-span" xml:id="source-34054-34366" n="84"/>
+        <note type="source-span" xml:id="source-34054-34827" n="84"/>
+        <note type="source-span" xml:id="source-34366-34381" n="84"/>
+        <note type="source-span" xml:id="source-34381-34519" n="84"/>
+        <note type="source-span" xml:id="source-3449-3573" n="32"/>
+        <note type="source-span" xml:id="source-34519-34540" n="84"/>
+        <note type="source-span" xml:id="source-34540-34827" n="84"/>
+        <note type="source-span" xml:id="source-34827-34958" n="85"/>
+        <note type="source-span" xml:id="source-3484-3484" n="33"/>
+        <note type="source-span" xml:id="source-3484-3537" n="33"/>
+        <note type="source-span" xml:id="source-34958-35286" n="86"/>
+        <note type="source-span" xml:id="source-35286-35314" n="88"/>
+        <note type="source-span" xml:id="source-35314-36135" n="90"/>
+        <note type="source-span" xml:id="source-3575-4181" n="35"/>
+        <note type="source-span" xml:id="source-36025-36049" n="90"/>
+        <note type="source-span" xml:id="source-36049-36135" n="90"/>
+        <note type="source-span" xml:id="source-36135-36353" n="91"/>
+        <note type="source-span" xml:id="source-36353-36434" n="92"/>
+        <note type="source-span" xml:id="source-36353-37096" n="92"/>
+        <note type="source-span" xml:id="source-36434-36458" n="92"/>
+        <note type="source-span" xml:id="source-37013-37034" n="92"/>
+        <note type="source-span" xml:id="source-37034-37096" n="92"/>
+        <note type="source-span" xml:id="source-37096-37147" n="93"/>
+        <note type="source-span" xml:id="source-37096-38286" n="93"/>
+        <note type="source-span" xml:id="source-37147-37171" n="93"/>
+        <note type="source-span" xml:id="source-37171-37528" n="93"/>
+        <note type="source-span" xml:id="source-37528-37555" n="93"/>
+        <note type="source-span" xml:id="source-37555-38286" n="93"/>
+        <note type="source-span" xml:id="source-38286-38333" n="94"/>
+        <note type="source-span" xml:id="source-38333-38585" n="95"/>
+        <note type="source-span" xml:id="source-38368-38368" n="96"/>
+        <note type="source-span" xml:id="source-38368-38415" n="96"/>
+        <note type="source-span" xml:id="source-38415-38462" n="97"/>
+        <note type="source-span" xml:id="source-38462-38510" n="98"/>
+        <note type="source-span" xml:id="source-38510-38549" n="99"/>
+        <note type="source-span" xml:id="source-38587-38808" n="101"/>
+        <note type="source-span" xml:id="source-38808-38834" n="102"/>
+        <note type="source-span" xml:id="source-38834-39070" n="103"/>
+        <note type="source-span" xml:id="source-38869-38869" n="104"/>
+        <note type="source-span" xml:id="source-38869-38910" n="104"/>
+        <note type="source-span" xml:id="source-38910-38948" n="105"/>
+        <note type="source-span" xml:id="source-38910-38949" n="105"/>
+        <note type="source-span" xml:id="source-38948-38949" n="105"/>
+        <note type="source-span" xml:id="source-38949-39032" n="105"/>
+        <note type="source-span" xml:id="source-39032-39034" n="105"/>
+        <note type="source-span" xml:id="source-39072-39593" n="107"/>
+        <note type="source-span" xml:id="source-39593-40211" n="108"/>
+        <note type="source-span" xml:id="source-39593-40507" n="108"/>
+        <note type="source-span" xml:id="source-40211-40238" n="108"/>
+        <note type="source-span" xml:id="source-40238-40507" n="108"/>
+        <note type="source-span" xml:id="source-40507-42210" n="109"/>
+        <note type="source-span" xml:id="source-41426-41442" n="109"/>
+        <note type="source-span" xml:id="source-41426-41503" n="109"/>
+        <note type="source-span" xml:id="source-41442-41503" n="109"/>
+        <note type="source-span" xml:id="source-41503-42210" n="109"/>
+        <note type="source-span" xml:id="source-4181-4522" n="36"/>
+        <note type="source-span" xml:id="source-42210-43049" n="110"/>
+        <note type="source-span" xml:id="source-43049-43169" n="111"/>
+        <note type="source-span" xml:id="source-43049-43288" n="111"/>
+        <note type="source-span" xml:id="source-43169-43190" n="111"/>
+        <note type="source-span" xml:id="source-43190-43288" n="111"/>
+        <note type="source-span" xml:id="source-43288-43684" n="112"/>
+        <note type="source-span" xml:id="source-43684-44452" n="113"/>
+        <note type="source-span" xml:id="source-43684-44679" n="113"/>
+        <note type="source-span" xml:id="source-44452-44473" n="113"/>
+        <note type="source-span" xml:id="source-44473-44679" n="113"/>
+        <note type="source-span" xml:id="source-44679-44949" n="114"/>
+        <note type="source-span" xml:id="source-44679-45584" n="114"/>
+        <note type="source-span" xml:id="source-44949-44973" n="114"/>
+        <note type="source-span" xml:id="source-44973-45072" n="114"/>
+        <note type="source-span" xml:id="source-45072-45096" n="114"/>
+        <note type="source-span" xml:id="source-45096-45141" n="114"/>
+        <note type="source-span" xml:id="source-45141-45165" n="114"/>
+        <note type="source-span" xml:id="source-45165-45584" n="114"/>
+        <note type="source-span" xml:id="source-4522-4737" n="37"/>
+        <note type="source-span" xml:id="source-45584-46456" n="115"/>
+        <note type="source-span" xml:id="source-46456-48174" n="116"/>
+        <note type="source-span" xml:id="source-4737-5039" n="38"/>
+        <note type="source-span" xml:id="source-47380-47407" n="116"/>
+        <note type="source-span" xml:id="source-47407-47440" n="116"/>
+        <note type="source-span" xml:id="source-47440-47464" n="116"/>
+        <note type="source-span" xml:id="source-47464-47470" n="116"/>
+        <note type="source-span" xml:id="source-47470-47494" n="116"/>
+        <note type="source-span" xml:id="source-48174-48411" n="117"/>
+        <note type="source-span" xml:id="source-48174-49508" n="117"/>
+        <note type="source-span" xml:id="source-48411-48435" n="117"/>
+        <note type="source-span" xml:id="source-49005-49017" n="117"/>
+        <note type="source-span" xml:id="source-49059-49089" n="117"/>
+        <note type="source-span" xml:id="source-49508-49568" n="118"/>
+        <note type="source-span" xml:id="source-49508-50524" n="118"/>
+        <note type="source-span" xml:id="source-49568-49583" n="118"/>
+        <note type="source-span" xml:id="source-5039-5132" n="39"/>
+        <note type="source-span" xml:id="source-5039-5545" n="39"/>
+        <note type="source-span" xml:id="source-50426-50450" n="118"/>
+        <note type="source-span" xml:id="source-50450-50453" n="118"/>
+        <note type="source-span" xml:id="source-50453-50468" n="118"/>
+        <note type="source-span" xml:id="source-50468-50524" n="118"/>
+        <note type="source-span" xml:id="source-50524-51309" n="119"/>
+        <note type="source-span" xml:id="source-50881-50905" n="119"/>
+        <note type="source-span" xml:id="source-50905-50995" n="119"/>
+        <note type="source-span" xml:id="source-50995-51013" n="119"/>
+        <note type="source-span" xml:id="source-51013-51037" n="119"/>
+        <note type="source-span" xml:id="source-51037-51061" n="119"/>
+        <note type="source-span" xml:id="source-51061-51190" n="119"/>
+        <note type="source-span" xml:id="source-51190-51214" n="119"/>
+        <note type="source-span" xml:id="source-51214-51309" n="119"/>
+        <note type="source-span" xml:id="source-51309-52273" n="120"/>
+        <note type="source-span" xml:id="source-5132-5150" n="39"/>
+        <note type="source-span" xml:id="source-52273-52771" n="121"/>
+        <note type="source-span" xml:id="source-52273-53196" n="121"/>
+        <note type="source-span" xml:id="source-52771-52798" n="121"/>
+        <note type="source-span" xml:id="source-52798-53196" n="121"/>
+        <note type="source-span" xml:id="source-53196-53317" n="122"/>
+        <note type="source-span" xml:id="source-53231-53231" n="123"/>
+        <note type="source-span" xml:id="source-53231-53281" n="123"/>
+        <note type="source-span" xml:id="source-53319-53450" n="125"/>
+        <note type="source-span" xml:id="source-53450-53939" n="126"/>
+        <note type="source-span" xml:id="source-53450-54193" n="126"/>
+        <note type="source-span" xml:id="source-53939-53966" n="126"/>
+        <note type="source-span" xml:id="source-54005-54029" n="126"/>
+        <note type="source-span" xml:id="source-54193-54370" n="127"/>
+        <note type="source-span" xml:id="source-54193-55230" n="127"/>
+        <note type="source-span" xml:id="source-54370-54397" n="127"/>
+        <note type="source-span" xml:id="source-54397-55230" n="127"/>
+        <note type="source-span" xml:id="source-55230-55436" n="128"/>
+        <note type="source-span" xml:id="source-55436-55891" n="129"/>
+        <note type="source-span" xml:id="source-5545-5761" n="40"/>
+        <note type="source-span" xml:id="source-5545-7517" n="40"/>
+        <note type="source-span" xml:id="source-55763-55778" n="129"/>
+        <note type="source-span" xml:id="source-55778-55817" n="129"/>
+        <note type="source-span" xml:id="source-55817-55832" n="129"/>
+        <note type="source-span" xml:id="source-55832-55891" n="129"/>
+        <note type="source-span" xml:id="source-55891-56283" n="130"/>
+        <note type="source-span" xml:id="source-56140-56164" n="130"/>
+        <note type="source-span" xml:id="source-56164-56203" n="130"/>
+        <note type="source-span" xml:id="source-56203-56233" n="130"/>
+        <note type="source-span" xml:id="source-56233-56283" n="130"/>
+        <note type="source-span" xml:id="source-56283-57953" n="131"/>
+        <note type="source-span" xml:id="source-56811-56841" n="131"/>
+        <note type="source-span" xml:id="source-57606-57633" n="131"/>
+        <note type="source-span" xml:id="source-5761-5770" n="40"/>
+        <note type="source-span" xml:id="source-57633-57953" n="131"/>
+        <note type="source-span" xml:id="source-5770-5809" n="40"/>
+        <note type="source-span" xml:id="source-5794-5806" n="40"/>
+        <note type="source-span" xml:id="source-57953-58948" n="132"/>
+        <note type="source-span" xml:id="source-5809-6173" n="40"/>
+        <note type="source-span" xml:id="source-58948-59286" n="133"/>
+        <note type="source-span" xml:id="source-58983-58983" n="134"/>
+        <note type="source-span" xml:id="source-58983-59042" n="134"/>
+        <note type="source-span" xml:id="source-59042-59048" n="135"/>
+        <note type="source-span" xml:id="source-59042-59143" n="135"/>
+        <note type="source-span" xml:id="source-59048-59057" n="135"/>
+        <note type="source-span" xml:id="source-59057-59087" n="135"/>
+        <note type="source-span" xml:id="source-59087-59141" n="135"/>
+        <note type="source-span" xml:id="source-59141-59143" n="135"/>
+        <note type="source-span" xml:id="source-59143-59152" n="136"/>
+        <note type="source-span" xml:id="source-59143-59189" n="136"/>
+        <note type="source-span" xml:id="source-59152-59166" n="136"/>
+        <note type="source-span" xml:id="source-59166-59189" n="136"/>
+        <note type="source-span" xml:id="source-59189-59248" n="136"/>
+        <note type="source-span" xml:id="source-59248-59250" n="136"/>
+        <note type="source-span" xml:id="source-59288-59363" n="138"/>
+        <note type="source-span" xml:id="source-59288-59769" n="138"/>
+        <note type="source-span" xml:id="source-59363-59375" n="138"/>
+        <note type="source-span" xml:id="source-59769-59797" n="140"/>
+        <note type="source-span" xml:id="source-59797-59976" n="142"/>
+        <note type="source-span" xml:id="source-59976-60293" n="143"/>
+        <note type="source-span" xml:id="source-60293-60776" n="144"/>
+        <note type="source-span" xml:id="source-60776-61043" n="145"/>
+        <note type="source-span" xml:id="source-60776-61255" n="145"/>
+        <note type="source-span" xml:id="source-61043-61058" n="145"/>
+        <note type="source-span" xml:id="source-61058-61255" n="145"/>
+        <note type="source-span" xml:id="source-61255-61611" n="146"/>
+        <note type="source-span" xml:id="source-61611-61629" n="147"/>
+        <note type="source-span" xml:id="source-61611-62036" n="147"/>
+        <note type="source-span" xml:id="source-61629-61650" n="147"/>
+        <note type="source-span" xml:id="source-61650-61662" n="147"/>
+        <note type="source-span" xml:id="source-61662-61680" n="147"/>
+        <note type="source-span" xml:id="source-61680-62036" n="147"/>
+        <note type="source-span" xml:id="source-6173-6176" n="40"/>
+        <note type="source-span" xml:id="source-6176-6180" n="40"/>
+        <note type="source-span" xml:id="source-6180-6182" n="40"/>
+        <note type="source-span" xml:id="source-6182-6194" n="40"/>
+        <note type="source-span" xml:id="source-6194-6197" n="40"/>
+        <note type="source-span" xml:id="source-6197-7029" n="40"/>
+        <note type="source-span" xml:id="source-62036-62569" n="148"/>
+        <note type="source-span" xml:id="source-62303-62327" n="148"/>
+        <note type="source-span" xml:id="source-62327-62336" n="148"/>
+        <note type="source-span" xml:id="source-62336-62354" n="148"/>
+        <note type="source-span" xml:id="source-62569-62955" n="149"/>
+        <note type="source-span" xml:id="source-62955-63101" n="150"/>
+        <note type="source-span" xml:id="source-63101-63655" n="151"/>
+        <note type="source-span" xml:id="source-63182-63206" n="151"/>
+        <note type="source-span" xml:id="source-63206-63209" n="151"/>
+        <note type="source-span" xml:id="source-63209-63236" n="151"/>
+        <note type="source-span" xml:id="source-63655-63855" n="152"/>
+        <note type="source-span" xml:id="source-63855-64334" n="153"/>
+        <note type="source-span" xml:id="source-64334-64877" n="154"/>
+        <note type="source-span" xml:id="source-64334-65074" n="154"/>
+        <note type="source-span" xml:id="source-64877-64901" n="154"/>
+        <note type="source-span" xml:id="source-64901-65074" n="154"/>
+        <note type="source-span" xml:id="source-65074-65442" n="155"/>
+        <note type="source-span" xml:id="source-65442-66296" n="156"/>
+        <note type="source-span" xml:id="source-66296-66626" n="157"/>
+        <note type="source-span" xml:id="source-66296-67318" n="157"/>
+        <note type="source-span" xml:id="source-66626-66653" n="157"/>
+        <note type="source-span" xml:id="source-66857-66878" n="157"/>
+        <note type="source-span" xml:id="source-66878-67318" n="157"/>
+        <note type="source-span" xml:id="source-67318-67674" n="158"/>
+        <note type="source-span" xml:id="source-67573-67597" n="158"/>
+        <note type="source-span" xml:id="source-67597-67674" n="158"/>
+        <note type="source-span" xml:id="source-67674-68963" n="159"/>
+        <note type="source-span" xml:id="source-68963-69137" n="160"/>
+        <note type="source-span" xml:id="source-68963-69331" n="160"/>
+        <note type="source-span" xml:id="source-69137-69164" n="160"/>
+        <note type="source-span" xml:id="source-69164-69167" n="160"/>
+        <note type="source-span" xml:id="source-69167-69191" n="160"/>
+        <note type="source-span" xml:id="source-69191-69331" n="160"/>
+        <note type="source-span" xml:id="source-69331-69813" n="161"/>
+        <note type="source-span" xml:id="source-69813-70152" n="162"/>
+        <note type="source-span" xml:id="source-69813-71765" n="162"/>
+        <note type="source-span" xml:id="source-70152-70167" n="162"/>
+        <note type="source-span" xml:id="source-70167-70176" n="162"/>
+        <note type="source-span" xml:id="source-70176-70200" n="162"/>
+        <note type="source-span" xml:id="source-70200-70263" n="162"/>
+        <note type="source-span" xml:id="source-70263-70278" n="162"/>
+        <note type="source-span" xml:id="source-70278-70446" n="162"/>
+        <note type="source-span" xml:id="source-7029-7053" n="40"/>
+        <note type="source-span" xml:id="source-70446-70482" n="162"/>
+        <note type="source-span" xml:id="source-70482-70584" n="162"/>
+        <note type="source-span" xml:id="source-7053-7517" n="40"/>
+        <note type="source-span" xml:id="source-70584-70611" n="162"/>
+        <note type="source-span" xml:id="source-70611-71058" n="162"/>
+        <note type="source-span" xml:id="source-71058-71079" n="162"/>
+        <note type="source-span" xml:id="source-71079-71094" n="162"/>
+        <note type="source-span" xml:id="source-71094-71118" n="162"/>
+        <note type="source-span" xml:id="source-71118-71385" n="162"/>
+        <note type="source-span" xml:id="source-71385-71427" n="162"/>
+        <note type="source-span" xml:id="source-71765-71995" n="163"/>
+        <note type="source-span" xml:id="source-71995-72175" n="164"/>
+        <note type="source-span" xml:id="source-71995-72813" n="164"/>
+        <note type="source-span" xml:id="source-72175-72211" n="164"/>
+        <note type="source-span" xml:id="source-72211-72271" n="164"/>
+        <note type="source-span" xml:id="source-72271-72295" n="164"/>
+        <note type="source-span" xml:id="source-72295-72397" n="164"/>
+        <note type="source-span" xml:id="source-72397-72421" n="164"/>
+        <note type="source-span" xml:id="source-72421-72646" n="164"/>
+        <note type="source-span" xml:id="source-72646-72664" n="164"/>
+        <note type="source-span" xml:id="source-72664-72813" n="164"/>
+        <note type="source-span" xml:id="source-72813-74318" n="165"/>
+        <note type="source-span" xml:id="source-73383-73422" n="165"/>
+        <note type="source-span" xml:id="source-73962-74004" n="165"/>
+        <note type="source-span" xml:id="source-74318-74524" n="166"/>
+        <note type="source-span" xml:id="source-74353-74353" n="167"/>
+        <note type="source-span" xml:id="source-74353-74379" n="167"/>
+        <note type="source-span" xml:id="source-74379-74398" n="168"/>
+        <note type="source-span" xml:id="source-74379-74420" n="168"/>
+        <note type="source-span" xml:id="source-74398-74419" n="168"/>
+        <note type="source-span" xml:id="source-74419-74420" n="168"/>
+        <note type="source-span" xml:id="source-74420-74486" n="168"/>
+        <note type="source-span" xml:id="source-74486-74488" n="168"/>
+        <note type="source-span" xml:id="source-74526-74630" n="170"/>
+        <note type="source-span" xml:id="source-74630-74855" n="171"/>
+        <note type="source-span" xml:id="source-74665-74665" n="172"/>
+        <note type="source-span" xml:id="source-74665-74697" n="172"/>
+        <note type="source-span" xml:id="source-74697-74742" n="173"/>
+        <note type="source-span" xml:id="source-74742-74787" n="174"/>
+        <note type="source-span" xml:id="source-74787-74819" n="175"/>
+        <note type="source-span" xml:id="source-74857-75121" n="177"/>
+        <note type="source-span" xml:id="source-74857-75297" n="177"/>
+        <note type="source-span" xml:id="source-75121-75148" n="177"/>
+        <note type="source-span" xml:id="source-75148-75181" n="177"/>
+        <note type="source-span" xml:id="source-7517-8770" n="41"/>
+        <note type="source-span" xml:id="source-75181-75205" n="177"/>
+        <note type="source-span" xml:id="source-75205-75297" n="177"/>
+        <note type="source-span" xml:id="source-75297-75683" n="178"/>
+        <note type="source-span" xml:id="source-75683-75853" n="179"/>
+        <note type="source-span" xml:id="source-75853-76221" n="180"/>
+        <note type="source-span" xml:id="source-76147-76183" n="180"/>
+        <note type="source-span" xml:id="source-76221-76587" n="181"/>
+        <note type="source-span" xml:id="source-76221-76676" n="181"/>
+        <note type="source-span" xml:id="source-76587-76605" n="181"/>
+        <note type="source-span" xml:id="source-76605-76676" n="181"/>
+        <note type="source-span" xml:id="source-76676-77038" n="182"/>
+        <note type="source-span" xml:id="source-770-795" n="22"/>
+        <note type="source-span" xml:id="source-77038-77227" n="183"/>
+        <note type="source-span" xml:id="source-77038-77337" n="183"/>
+        <note type="source-span" xml:id="source-77227-77251" n="183"/>
+        <note type="source-span" xml:id="source-77251-77337" n="183"/>
+        <note type="source-span" xml:id="source-77337-77966" n="184"/>
+        <note type="source-span" xml:id="source-77966-78406" n="185"/>
+        <note type="source-span" xml:id="source-78406-78652" n="186"/>
+        <note type="source-span" xml:id="source-78406-79017" n="186"/>
+        <note type="source-span" xml:id="source-78652-78679" n="186"/>
+        <note type="source-span" xml:id="source-78679-79017" n="186"/>
+        <note type="source-span" xml:id="source-79017-79271" n="187"/>
+        <note type="source-span" xml:id="source-79271-79489" n="188"/>
+        <note type="source-span" xml:id="source-79489-79567" n="189"/>
+        <note type="source-span" xml:id="source-79489-80727" n="189"/>
+        <note type="source-span" xml:id="source-795-1541" n="24"/>
+        <note type="source-span" xml:id="source-795-909" n="24"/>
+        <note type="source-span" xml:id="source-79567-79588" n="189"/>
+        <note type="source-span" xml:id="source-80727-80844" n="190"/>
+        <note type="source-span" xml:id="source-80727-81170" n="190"/>
+        <note type="source-span" xml:id="source-80844-80859" n="190"/>
+        <note type="source-span" xml:id="source-81170-81194" n="191"/>
+        <note type="source-span" xml:id="source-81170-81382" n="191"/>
+        <note type="source-span" xml:id="source-81194-81221" n="191"/>
+        <note type="source-span" xml:id="source-81221-81382" n="191"/>
+        <note type="source-span" xml:id="source-81382-81796" n="192"/>
+        <note type="source-span" xml:id="source-81382-81888" n="192"/>
+        <note type="source-span" xml:id="source-81796-81820" n="192"/>
+        <note type="source-span" xml:id="source-81820-81888" n="192"/>
+        <note type="source-span" xml:id="source-81888-82060" n="193"/>
+        <note type="source-span" xml:id="source-82060-82088" n="195"/>
+        <note type="source-span" xml:id="source-82088-82396" n="197"/>
+        <note type="source-span" xml:id="source-82396-83160" n="198"/>
+        <note type="source-span" xml:id="source-83160-83220" n="199"/>
+        <note type="source-span" xml:id="source-83160-83561" n="199"/>
+        <note type="source-span" xml:id="source-83220-83244" n="199"/>
+        <note type="source-span" xml:id="source-83244-83561" n="199"/>
+        <note type="source-span" xml:id="source-83561-83582" n="200"/>
+        <note type="source-span" xml:id="source-83561-84076" n="200"/>
+        <note type="source-span" xml:id="source-83582-83588" n="200"/>
+        <note type="source-span" xml:id="source-83588-83592" n="200"/>
+        <note type="source-span" xml:id="source-83592-83596" n="200"/>
+        <note type="source-span" xml:id="source-83596-83660" n="200"/>
+        <note type="source-span" xml:id="source-84076-84103" n="201"/>
+        <note type="source-span" xml:id="source-84076-84616" n="201"/>
+        <note type="source-span" xml:id="source-84103-84108" n="201"/>
+        <note type="source-span" xml:id="source-84103-84158" n="201"/>
+        <note type="source-span" xml:id="source-84108-84158" n="201"/>
+        <note type="source-span" xml:id="source-84616-85179" n="202"/>
+        <note type="source-span" xml:id="source-85179-85628" n="203"/>
+        <note type="source-span" xml:id="source-85628-86138" n="204"/>
+        <note type="source-span" xml:id="source-85628-86314" n="204"/>
+        <note type="source-span" xml:id="source-86138-86174" n="204"/>
+        <note type="source-span" xml:id="source-86174-86314" n="204"/>
+        <note type="source-span" xml:id="source-86314-86625" n="205"/>
+        <note type="source-span" xml:id="source-86625-87065" n="206"/>
+        <note type="source-span" xml:id="source-86664-86688" n="206"/>
+        <note type="source-span" xml:id="source-87065-87197" n="207"/>
+        <note type="source-span" xml:id="source-87065-87319" n="207"/>
+        <note type="source-span" xml:id="source-87197-87215" n="207"/>
+        <note type="source-span" xml:id="source-87215-87227" n="207"/>
+        <note type="source-span" xml:id="source-87227-87242" n="207"/>
+        <note type="source-span" xml:id="source-87242-87319" n="207"/>
+        <note type="source-span" xml:id="source-87319-87592" n="208"/>
+        <note type="source-span" xml:id="source-87319-87765" n="208"/>
+        <note type="source-span" xml:id="source-87592-87607" n="208"/>
+        <note type="source-span" xml:id="source-87607-87765" n="208"/>
+        <note type="source-span" xml:id="source-8770-8836" n="42"/>
+        <note type="source-span" xml:id="source-8770-9378" n="42"/>
+        <note type="source-span" xml:id="source-87765-88844" n="209"/>
+        <note type="source-span" xml:id="source-88128-88152" n="209"/>
+        <note type="source-span" xml:id="source-8836-8869" n="42"/>
+        <note type="source-span" xml:id="source-88665-88683" n="209"/>
+        <note type="source-span" xml:id="source-88683-88844" n="209"/>
+        <note type="source-span" xml:id="source-8869-9130" n="42"/>
+        <note type="source-span" xml:id="source-88844-89602" n="210"/>
+        <note type="source-span" xml:id="source-89602-89979" n="211"/>
+        <note type="source-span" xml:id="source-89979-90137" n="212"/>
+        <note type="source-span" xml:id="source-90137-90514" n="213"/>
+        <note type="source-span" xml:id="source-90514-91182" n="214"/>
+        <note type="source-span" xml:id="source-909-942" n="24"/>
+        <note type="source-span" xml:id="source-91182-91611" n="215"/>
+        <note type="source-span" xml:id="source-91182-91757" n="215"/>
+        <note type="source-span" xml:id="source-9130-9154" n="42"/>
+        <note type="source-span" xml:id="source-9154-9378" n="42"/>
+        <note type="source-span" xml:id="source-91611-91656" n="215"/>
+        <note type="source-span" xml:id="source-91656-91757" n="215"/>
+        <note type="source-span" xml:id="source-91757-91835" n="216"/>
+        <note type="source-span" xml:id="source-91757-92158" n="216"/>
+        <note type="source-span" xml:id="source-91835-91862" n="216"/>
+        <note type="source-span" xml:id="source-92102-92126" n="216"/>
+        <note type="source-span" xml:id="source-92126-92158" n="216"/>
+        <note type="source-span" xml:id="source-92158-92771" n="217"/>
+        <note type="source-span" xml:id="source-92248-92263" n="217"/>
+        <note type="source-span" xml:id="source-92263-92266" n="217"/>
+        <note type="source-span" xml:id="source-92266-92281" n="217"/>
+        <note type="source-span" xml:id="source-92287-92293" n="217"/>
+        <note type="source-span" xml:id="source-92287-92323" n="217"/>
+        <note type="source-span" xml:id="source-92293-92323" n="217"/>
+        <note type="source-span" xml:id="source-92323-92392" n="217"/>
+        <note type="source-span" xml:id="source-92392-92428" n="217"/>
+        <note type="source-span" xml:id="source-92428-92771" n="217"/>
+        <note type="source-span" xml:id="source-92771-92799" n="219"/>
+        <note type="source-span" xml:id="source-92799-92966" n="221"/>
+        <note type="source-span" xml:id="source-92966-93356" n="222"/>
+        <note type="source-span" xml:id="source-92966-93409" n="222"/>
+        <note type="source-span" xml:id="source-93356-93377" n="222"/>
+        <note type="source-span" xml:id="source-93377-93409" n="222"/>
+        <note type="source-span" xml:id="source-93409-93621" n="223"/>
+        <note type="source-span" xml:id="source-93621-93843" n="224"/>
+        <note type="source-span" xml:id="source-93621-94058" n="224"/>
+        <note type="source-span" xml:id="source-9378-10796" n="43"/>
+        <note type="source-span" xml:id="source-9378-9423" n="43"/>
+        <note type="source-span" xml:id="source-93843-93864" n="224"/>
+        <note type="source-span" xml:id="source-93864-93867" n="224"/>
+        <note type="source-span" xml:id="source-93867-93891" n="224"/>
+        <note type="source-span" xml:id="source-93891-94058" n="224"/>
+        <note type="source-span" xml:id="source-94058-94252" n="225"/>
+        <note type="source-span" xml:id="source-942-1092" n="24"/>
+        <note type="source-span" xml:id="source-9423-9432" n="43"/>
+        <note type="source-span" xml:id="source-94252-94309" n="226"/>
+        <note type="source-span" xml:id="source-94252-95516" n="226"/>
+        <note type="source-span" xml:id="source-94309-94330" n="226"/>
+        <note type="source-span" xml:id="source-9432-9471" n="43"/>
+        <note type="source-span" xml:id="source-9456-9468" n="43"/>
+        <note type="source-span" xml:id="source-94866-94881" n="226"/>
+        <note type="source-span" xml:id="source-94881-95013" n="226"/>
+        <note type="source-span" xml:id="source-95013-95037" n="226"/>
+        <note type="source-span" xml:id="source-95516-95597" n="227"/>
+        <note type="source-span" xml:id="source-95516-95857" n="227"/>
+        <note type="source-span" xml:id="source-95597-95624" n="227"/>
+        <note type="source-span" xml:id="source-95624-95630" n="227"/>
+        <note type="source-span" xml:id="source-95630-95645" n="227"/>
+        <note type="source-span" xml:id="source-95645-95759" n="227"/>
+        <note type="source-span" xml:id="source-95759-95780" n="227"/>
+        <note type="source-span" xml:id="source-95780-95857" n="227"/>
+        <note type="source-span" xml:id="source-95857-96303" n="228"/>
+        <note type="source-span" xml:id="source-96157-96172" n="228"/>
+        <note type="source-span" xml:id="source-96172-96303" n="228"/>
+        <note type="source-span" xml:id="source-96303-96543" n="229"/>
+        <note type="source-span" xml:id="source-96303-97178" n="229"/>
+        <note type="source-span" xml:id="source-9642-9660" n="43"/>
+        <note type="source-span" xml:id="source-96543-96567" n="229"/>
+        <note type="source-span" xml:id="source-9660-10796" n="43"/>
+        <note type="source-span" xml:id="source-97178-97774" n="230"/>
+        <note type="source-span" xml:id="source-97774-98445" n="231"/>
+        <note type="source-span" xml:id="source-98445-98819" n="232"/>
+        <note type="source-span" xml:id="source-98819-99062" n="233"/>
+        <note type="source-span" xml:id="source-98819-99177" n="233"/>
+        <note type="source-span" xml:id="source-99062-99071" n="233"/>
+        <note type="source-span" xml:id="source-99071-99110" n="233"/>
+        <note type="source-span" xml:id="source-99095-99107" n="233"/>
+        <note type="source-span" xml:id="source-99110-99177" n="233"/>
+        <note type="source-span" xml:id="source-99177-99205" n="235"/>
+        <note type="source-span" xml:id="source-99205-99274" n="237"/>
+        <note type="source-span" xml:id="source-99205-99897" n="237"/>
+        <note type="source-span" xml:id="source-99274-99298" n="237"/>
+        <note type="source-span" xml:id="source-99298-99748" n="237"/>
+        <note type="source-span" xml:id="source-99748-99772" n="237"/>
+        <note type="source-span" xml:id="source-99772-99897" n="237"/>
+        <note type="source-span" xml:id="source-99897-100181" n="238"/>
+        <note type="source-span" xml:id="source-99897-99969" n="238"/>
+        <note type="source-span" xml:id="source-99969-99990" n="238"/>
+        <note type="source-span" xml:id="source-99990-100181" n="238"/>
+      </div>
+      <note type="parser-completion" n="true">The n attribute is true when no parser diagnostic of error severity was raised for this source. What the converter could not interpret is recorded in the interpretation-problem and parser-diagnostic notes.</note>
+      <note type="source-decoding">windows-31j</note>
+      <note type="interpretation-problem">{
+  "aspects": ["content"],
+  "code": "uninterpreted-notation",
+  "influence":
+  {
+    "kind": "document"
+  },
+  "kind": "uninterpreted-notation",
+  "raw": "L'",
+  "source_span":
+  {
+    "coordinate_system": "decoded_utf8",
+    "end": 124601,
+    "line": 320,
+    "start": 124599
+  }
+}</note>
+      <note type="interpretation-problem">{
+  "aspects": ["content"],
+  "code": "uninterpreted-notation",
+  "influence":
+  {
+    "kind": "document"
+  },
+  "kind": "uninterpreted-notation",
+  "raw": "s,",
+  "source_span":
+  {
+    "coordinate_system": "decoded_utf8",
+    "end": 124629,
+    "line": 320,
+    "start": 124627
+  }
+}</note>
+    </back>
+  </text>
+</TEI>

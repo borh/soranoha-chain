@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:snh="https://w3id.org/soranoha/ns/tei" xmlns="http://www.tei-c.org/ns/1.0" snh:vocab-version="3">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ja">妖怪玄談</title>
+        <title type="reading" xml:lang="ja-Hira">ようかいげんだん</title>
+        <author><persName xml:lang="ja"><surname>井上</surname><forename>円了</forename><idno type="aozora-person-id">001021</idno></persName><persName xml:lang="ja-Hira"><surname>いのうえ</surname><forename>えんりょう</forename></persName><persName xml:lang="ja-Latn"><surname>Inoue</surname><forename>Enryo</forename></persName></author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://w3id.org/soranoha/">Soranoha</publisher>
+        <idno type="soranoha-work-identifier">049375_001021</idno>
+        <idno type="aozora-work-id">049375</idno>
+        <idno type="aozora-card-url">https://www.aozora.gr.jp/cards/001021/card49375.html</idno>
+        <date when="2014-09-21">2014-09-21</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">The underlying work is in the public domain; Soranoha asserts no rights over it.</licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Soranoha's encoding of this work and the artifacts derived from it are dedicated to the public domain under CC0-1.0. Attribution is requested, not required. Full rights statement: <ptr target="https://w3id.org/soranoha/rights"/></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>井上円了　妖怪学全集　第4巻</title><publisher>柏書房</publisher><date>2000（平成12）年3月20日</date><note type="input-edition">2000（平成12）年3月20日第1刷</note><note type="proof-edition">2000（平成12）年3月20日第1刷</note></bibl>
+        <bibl><idno type="source-content-hash">sha256:0c83f6a13ea8daadf25be4711d62021642f4d9412b69105e88cc237e1463b14a</idno></bibl>
+        <bibl><idno type="primary-text-hash">sha256:475cc86601d30740fb6a8a4b0b63d35e0fdcc138277ab34ca21b5094708fe5fe</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css"/>
+      <classDecl><taxonomy xml:id="ndc"><bibl>分類番号 as recorded by <title>青空文庫</title>, read as a class of 日本十進分類法 新訂9版. Category labels are from <title>NDC9 Linked Data</title> (日本図書館協会, CC BY); a category's IRI is <ref target="http://jla.or.jp/data/ndc9">http://jla.or.jp/data/ndc9</ref> followed by # and its n.</bibl><category xml:id="ndc147" n="147"><catDesc xml:lang="ja">超心理学．心霊研究</catDesc><catDesc xml:lang="en">Parapsychology</catDesc></category></taxonomy><taxonomy xml:id="aozora-orthography"><bibl><title>青空文庫</title> 文字遣い種別: the orthographic style Aozora Bunko records for the transcription.</bibl></taxonomy></classDecl>
+      <refsDecl xml:id="source-spans"><p>A note of type source-span has an xml:id of the form source-START-END, giving the extent in UTF-8 bytes of the decoded primary text identified in sourceDesc, after the emendations declared in editorialDecl/correction are applied; each emendation replaces its sic text by its corr text at its own extent. <ptr target="https://w3id.org/soranoha/ns/tei"/></p></refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ja">日本語</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#ndc">147</classCode>
+        <catRef scheme="#ndc" target="#ndc147"/>
+        <classCode scheme="#aozora-orthography">新字新仮名</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="layout" source="#source-514-575" style="padding-inline-start: 5em">
+        <div>
+          <head n="1" source="#source-535-571"><seg source="#source-535-538">序</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-575-1789"><seg source="#source-575-776">余、幼にして妖怪を聞くことを好み、長じてその理を究めんと欲し、事実を収集すること、ここにすでに五年。その今日まで、地方の書信の机上に</seg><ruby type="furigana" rend="right" source="#source-776-800"><rb>堆積</rb><rt>たいせき</rt></ruby><seg source="#source-800-878">せるもの幾百通なるを知らずといえども、そのうち昨今、</seg><ruby type="furigana" rend="right" source="#source-878-896"><rb>都鄙</rb><rt>とひ</rt></ruby><seg source="#source-896-926">の別なく、上下ともに</seg><ruby type="furigana" rend="right" source="#source-926-956"><rb>喋々</rb><rt>ちょうちょう</rt></ruby><seg source="#source-956-971">するものは</seg><ruby type="furigana" rend="right" source="#source-971-998"><rb>狐狗狸</rb><rt>こっくり</rt></ruby><seg source="#source-998-1115">の一怪事なり。中等以下のものは、そのなんたるを知らざるをもって、ただ一にこれを</seg><ruby type="furigana" rend="right" source="#source-1115-1133"><rb>狐狸</rb><rt>こり</rt></ruby>、鬼神の所為に帰し、中等以上のものは、そのしからざるを信ずるも、これを解するゆえんを知らざるをもって、またこれを妖怪、不思議の一種に属す。これをもって、愚民のこれを妄信する、日一日よりはなはだしく、これより生ずるところの弊害、また決して少々にあらざるなり。ゆえに余は、学術上、その道理を明らかにして世人の惑いを開くは、方今文明の進歩上必要なることと信じ、ここに狐狗狸の原因事情を論明して、『妖怪玄談』第一集となす。その目次、左のごとし。</p>
+      </div>
+      <div type="layout" source="#source-1789-1985" style="padding-inline-start: 2em">
+        <p source="#source-1824-1844"><seg source="#source-1824-1844">第一段　総論</seg></p>
+        <p source="#source-1844-1879"><seg source="#source-1844-1879">第二段　コックリの仕方</seg></p>
+        <p source="#source-1879-1914"><seg source="#source-1879-1914">第三段　コックリの伝来</seg></p>
+        <p source="#source-1914-1949"><seg source="#source-1914-1949">第四段　コックリの原因</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-1989-2060"><seg source="#source-1989-2019">明治二十年五月上旬</seg><seg type="layout" source="#source-2019-2060" rend="chitsuki align(right) offset-from-end(2)" snh:layout-kind="chitsuki" snh:layout-params="align=right;offset-from-end=2"><seg source="#source-2049-2060">著者誌</seg></seg></p>
+        <p source="#source-2060-2085"><pb source="#source-2060-2081"/></p>
+      </div>
+      <div type="layout" source="#source-2085-2176" style="padding-inline-start: 5em">
+        <div>
+          <head n="1" source="#source-2106-2172"><seg source="#source-2106-2124">第一段　総論</seg></head>
+        </div>
+      </div>
+      <div type="layout" source="#source-2176-2247" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-2197-2245"><seg source="#source-2197-2206">第一節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2247-3053"><seg source="#source-2247-3053">洋の東西を論ぜず、世の古今を問わず、宇宙物心の諸象中、普通の道理をもって解釈すべからざるものあり。これを妖怪といい、あるいは不思議と称す。その妖怪、不思議と称するものにまたあまたの種類ありて、現今俗間に存するもの幾種あるを知らずといえども、しばらくこれを大別して二大種となす。すなわち、その第一種は内界より生ずるもの、第二種は外界に現ずるものこれなり。しかしてまた、内界より生ずるものに二種ありて、他人の媒介を経てことさらに行うものと、自己の身心の上に自然に発するものの別あり。ゆえに余は、妖怪の種類を分かちて、左の三種となさんとす。</seg></p>
+      </div>
+      <div type="layout" source="#source-3053-3138" style="padding-inline-start: 2em">
+        <p source="#source-3088-3138"><seg source="#source-3088-3138">第一種、すなわち外界に現ずるもの</seg></p>
+      </div>
+      <div type="layout" source="#source-3138-3277" style="padding-inline-start: 4em">
+        <p source="#source-3173-3277"><seg source="#source-3173-3182">幽霊、</seg><ruby type="furigana" rend="right" source="#source-3182-3200"><rb>狐狸</rb><rt>こり</rt></ruby><seg source="#source-3200-3203">、</seg><ruby type="furigana" rend="right" source="#source-3203-3224"><rb>天狗</rb><rt>てんぐ</rt></ruby><seg source="#source-3224-3236">、犬神、</seg><ruby type="furigana" rend="right" source="#source-3236-3254"><rb>祟</rb><rt>たたり</rt></ruby><seg source="#source-3254-3277">、その他諸怪異</seg></p>
+      </div>
+      <div type="layout" source="#source-3277-3377" style="padding-inline-start: 2em">
+        <p source="#source-3312-3377"><seg source="#source-3312-3377">第二種、すなわち他人の媒介によりて行うもの</seg></p>
+      </div>
+      <div type="layout" source="#source-3377-3588" style="padding-inline-start: 4em">
+        <p source="#source-3412-3588"><ruby type="furigana" rend="right" source="#source-3412-3433"><rb>巫覡</rb><rt>ふげき</rt></ruby><seg source="#source-3433-3463">、神降ろし、人相見、</seg><ruby type="furigana" rend="right" source="#source-3463-3487"><rb>墨色</rb><rt>すみいろ</rt></ruby><seg source="#source-3487-3490">、</seg><ruby type="furigana" rend="right" source="#source-3490-3514"><rb>卜筮</rb><rt>ぼくぜい</rt></ruby><seg source="#source-3514-3526">、予言、</seg><ruby type="furigana" rend="right" source="#source-3526-3547"><rb>祈祷</rb><rt>きとう</rt></ruby><seg source="#source-3547-3588">、察心、催眠、その他諸幻術</seg></p>
+      </div>
+      <div type="layout" source="#source-3588-3688" style="padding-inline-start: 2em">
+        <p source="#source-3623-3688"><seg source="#source-3623-3688">第三種、すなわち自己の身心の上に発するもの</seg></p>
+      </div>
+      <div type="layout" source="#source-3688-3881" style="padding-inline-start: 4em">
+        <p source="#source-3723-3845"><seg source="#source-3723-3747">夢、夜行、神知、</seg><ruby type="furigana" rend="right" source="#source-3747-3771"><rb>偶合</rb><rt>ぐうごう</rt></ruby><seg source="#source-3771-3792">、俗説、再生、</seg><ruby type="furigana" rend="right" source="#source-3792-3819"><rb>癲狂</rb><rt>てんきょう</rt></ruby><seg source="#source-3819-3845">、その他諸精神病</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-3883-3951"><seg source="#source-3883-3951">右の表を、あるいは左の図をもって示すべし。</seg></p>
+      </div>
+      <div type="layout" source="#source-3951-4186" style="padding-inline-start: 2em">
+        <p style="text-indent: 2em" rend="first-line-indent(2)" source="#source-3986-4027"><seg source="#source-3986-4027">┌外界（幽霊、狐狸等）</seg></p>
+        <p source="#source-4027-4083"><seg source="#source-4027-4083">妖怪┤　　┌他人（巫覡、神降ろし等）</seg></p>
+        <p style="text-indent: 2em" rend="first-line-indent(2)" source="#source-4083-4103"><seg source="#source-4083-4103">└内界┤</seg></p>
+        <p style="text-indent: 5em" rend="first-line-indent(5)" source="#source-4103-4150"><seg source="#source-4103-4150">└自身（夢、夜行等）</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4188-4525"><seg source="#source-4188-4525">今、この外界とはわが目前の物質世界をいい、内界とはわが体内の心性世界をいう。すなわち、夢、夜行等は心性の変動より生ずるはもちろん、巫覡、神降ろし等も心性作用の上に直接の関係を有するをもって、ここにこれを内界に属するなり。</seg></p>
+      </div>
+      <div type="layout" source="#source-4525-4596" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-4546-4594"><seg source="#source-4546-4555">第二節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4596-5426"><seg source="#source-4596-4965">この数種の妖怪の原因を解釈するの法、古今大いに異なるところあり。けだし、その異なるところあるは、人の賢愚、時代によりて同じからざるによる。古代の愚民は、万物おのおのその霊ありて奇異の作用を現ずるなりと信じ、あるいは一身重我といいて、一身に二様の</seg><ruby type="furigana" rend="right" source="#source-4965-4977"><rb>我</rb><rt>が</rt></ruby><seg source="#source-4977-5426">ありて、その一は一方に住止するも、他の一は他方に出入して奇異の作用を現ずるなりと信じて、さらにその原因を問わざるなり。人知ようやく進みて、はじめて万物のほかに一種霊妙の体の別に存するありて、その媒介または感通によりて奇怪の生ずるに至るというも、いまだ物理の規則に照らしてその原因を証明するに至らず。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5426-5740"><seg source="#source-5426-5740">しかるに今日にありては、物理、化学等の規則に照らしてその証明を与えざるを得ざるゆえんを知り、はじめて普通の道理に基づきて解釈を下すに至る。これを要するに、古今、妖怪を解釈するにおおよそ三時期あり。すなわち、</seg></p>
+      </div>
+      <div type="layout" source="#source-5740-6045" style="padding-inline-start: 2em">
+        <p source="#source-5775-5858"><seg source="#source-5775-5858">第一は、万物各体の内に存する他体にその原因を帰すること</seg></p>
+        <p source="#source-5858-5941"><seg source="#source-5858-5941">第二は、万物各体の外に存する天神にその原因を帰すること</seg></p>
+        <p source="#source-5941-6009"><seg source="#source-5941-6009">第三は、天地自然の規則にその原因を帰すること</seg></p>
+      </div>
+      <div>
+        <p source="#source-6047-6157"><seg source="#source-6047-6157">これなり。この第三時期の解釈法によりて定むるところの原因にまた三種あり。</seg></p>
+      </div>
+      <div type="layout" source="#source-6157-6384" style="padding-inline-start: 2em">
+        <p source="#source-6192-6242"><seg source="#source-6192-6242">第一種は、外界一方より起こる原因</seg></p>
+        <p source="#source-6242-6292"><seg source="#source-6242-6292">第二種は、内界一方より起こる原因</seg></p>
+        <p source="#source-6292-6348"><seg source="#source-6292-6348">第三種は、内外両界相合して起こる原因</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-6386-7701"><seg source="#source-6386-6428">まず第一種の例を挙ぐるに、</seg><ruby type="furigana" rend="right" source="#source-6428-6452"><rb>狐火</rb><rt>きつねび</rt></ruby><seg source="#source-6452-6455">、</seg><ruby type="furigana" rend="right" source="#source-6455-6476"><rb>鬼火</rb><rt>おにび</rt></ruby><seg source="#source-6476-6479">、</seg><ruby type="furigana" rend="right" source="#source-6479-6509"><rb>蜃気楼</rb><rt>しんきろう</rt></ruby><seg source="#source-6509-6689">、その他越後の七不思議とか称するの類にして、物理的または化学的の変化作用より生ずるものをいう。第二種の例を挙ぐるに、夢、</seg><ruby type="furigana" rend="right" source="#source-6689-6716"><rb>癲狂</rb><rt>てんきょう</rt></ruby><seg source="#source-6716-6842">、幽霊、催眠のごとき、人の精神作用より生ずるものをいう。つぎに第三種の例を挙ぐるに、</seg><ruby type="furigana" rend="right" source="#source-6842-6866"><rb>卜筮</rb><rt>ぼくぜい</rt></ruby><seg source="#source-6866-6887">、予言、神知、</seg><ruby type="furigana" rend="right" source="#source-6887-6911"><rb>偶合</rb><rt>ぐうごう</rt></ruby><seg source="#source-6911-7701">等の類にして、外界の事情と内界の精神作用の相合して生ずるものをいう。しかれどもこれ、ただ大体についてその別を立つるもののみ。もし、その細点を挙げてこれを考うるときは、世人の妖怪と称するもの、大抵みなこの第三種の、内外両界相合して生ずるものに属さざるべからず。すなわち、外界一方より起こる狐火、鬼火のごときも、人の精神作用のこれに加わるありて一層その奇怪を増し、内界一方より起こる夢のごときも、脳髄を組成せる物質の事情によるはもちろん、その他種々の外界の誘因ありて生ずるや疑いをいれず。これ、いわゆる外界の事情によるものなり。</seg></p>
+      </div>
+      <div type="layout" source="#source-7701-7772" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-7722-7770"><seg source="#source-7722-7731">第三節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-7772-9381"><seg source="#source-7772-7883">右のごとく、妖怪はたいてい内外両界相合して生ずるものなれども、なかんずく</seg><ruby type="furigana" rend="right" source="#source-7883-7907"><rb>卜筮</rb><rt>ぼくぜい</rt></ruby><seg source="#source-7907-8036">、予言のごときは、外界の事情と内界の作用の相関するものとす。例えば、ある人の将来の運を</seg><ruby type="furigana" rend="right" source="#source-8036-8051"><rb>卜</rb><rt>ぼく</rt></ruby><seg source="#source-8051-8279">するに当たり、その人の平素の性質、品行、学芸、名望、その一家の関係、その社会のありさま等の諸事情を考察すれば、おのずからその将来受くるところの吉凶禍福を</seg><ruby type="furigana" rend="right" source="#source-8279-8303"><rb>卜定</rb><rt>ぼくてい</rt></ruby><seg source="#source-8303-9381">すべきをもって、卜筮者または予言者は、この事情を酌量して将来の運を告ぐるに至る。これ、いわゆる外界の事情によるものなり。しかしてまたその人、卜筮者または予言者の告ぐるところのものを信ずること深ければ、信仰心の力をもって、ますますその卜定の誤らざるを見るに至るべし。これ、いわゆる内界の作用によるものなり。近ごろ、俗間に行わるるところの一種の幻術あり。その名をコックリと称し、これに配するに狐狗狸の字をもってす。あるいは告理の語を用うることありという。これ、いわゆる人の手をかりて行うものにして、もしその種類を論ずれば、第一節中に掲げたる第二種の部類に入るはもちろんなりといえども、その起こる原因を考うるときは、外界の事情と内界の作用と相合して生ずるものなり。ゆえにこれを、第二節中に掲げたる第三種の部類に入るるべし。</seg></p>
+      </div>
+      <div type="layout" source="#source-9381-9452" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-9402-9450"><seg source="#source-9402-9411">第四節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-9452-10654"><seg source="#source-9452-10202">コックリのはじめて俗間に行われたるは両三年以来のことなれども、今日にありては、いたるところこの法を試みざるはなく、これを試むるもの、吉凶禍福、細大のことに至るまで、ことごとくこれによりて卜見すべしと信ずるをもって、往々弊害を生ずるに至れり。余が聞くところによるに、大阪府下にては一時大いに流行したるも、その弊害したがって生ずるを見、警察署よりこれを禁じたりという。余がこのごろ各地方に流行する影響を察するに、またその弊害のすくなからざるを知る。今、その一例を挙ぐるに、伊豆下田近傍のもの、自身の妻に</seg><ruby type="furigana" rend="right" source="#source-10202-10229"><rb>情郎</rb><rt>いろおとこ</rt></ruby><seg source="#source-10229-10499">あるかなきかをコックリに向かってたずねたるに、情郎ありという答えを得たるをもって、ただちにその妻に離縁を命じたりという。かくのごときの類、もとより一、二にしてとどまるにあらず。過日</seg><ruby type="furigana" rend="right" source="#source-10499-10523"><rb>発兌</rb><rt>はつだ</rt></ruby>の『<ruby type="furigana" rend="right" source="#source-10529-10571"><rb>明教新誌</rb><rt>めいきょうしんし</rt></ruby>』上に、三田某氏の寄せられたる一書あり。その中に曰く、</p>
+      </div>
+      <div type="layout" source="#source-10654-11954" style="padding-inline-start: 2em">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-10689-11918"><seg source="#source-10689-10722">小生、一夕某氏の宅を</seg><ruby type="furigana" rend="right" source="#source-10722-10734"><rb>訪</rb><rt>と</rt></ruby>いしに、老幼男女相集まり、コックリ様の遊戯をなすを目撃せり。そのとき種々さまざまのことをうかがうに、十中六七は当たるもののごとし。しかれども、同席の一人曰く、「既往のことはたいがい誤らざるも、将来のことは当たり難し」と。それはともかくも、同家に一人の病者（別席に<ruby type="furigana" rend="right" source="#source-11127-11139"><rb>臥</rb><rt>ふ</rt></ruby>す）あり。その生死をうかがいしに、「本年某月某日に死す」と告げ、また同席の未婚女、その結婚の期日をうかがいしに、「本年中に結婚し、その夫は美なり」と。また他の一人、「地所を買い入れんとす。利益ありやいなや」と問えば、「あり」と答えり。その三、四名のもの将来の貧富を問いしに、「いずれも富む」と答え、しかして余もそのうちの一人なれども、もとよりこれを信ぜず。世人のこれを信じて盛んに流行するに至らば、その弊害挙げていうべからず。大方の君子、一日も早くこれが理を究めて、かの迷信者を諭されんことを切望の至りにたえざるなり。</p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-11956-12386"><seg source="#source-11956-12386">この言にても知らるるごとく、コックリは児女輩の遊戯同様のものにて、近ごろ当府下にて流行の景況を見るに、書生輩の下宿屋に休日の晩には数名相会し、種々さまざまのことを問いかけて一夕の遊戯となし、市中にては往々、歌舞音曲を交えてコックリとともにおどり戯むる等、実に笑うべきの至りならずや。</seg></p>
+      </div>
+      <div type="layout" source="#source-12386-12457" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-12407-12455"><seg source="#source-12407-12416">第五節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-12457-13194">余、あらかじめその弊害あるを察し、これを研究して愚民の惑いを解かんと欲し、昨年来各地の報道を請うてその情況を調べ、また自らこれを試みてその原因を考え、このごろようやく、世人のこれを信ずるゆえんを明らかにしたるをもって、ここにその道理を述べて、いささか愚民に諭すところあらんとす。これ、余がこのことをあつめて、『妖怪玄談』第一集となすゆえんなり。今、これを論述するに当たり、その順序次第を立てざるべからず。ゆえに余は、第一にその仕方を説き、第二にその伝来を述べ、第三にその原因を論ずるなり。</p>
+        <p source="#source-13194-13219"><pb source="#source-13194-13215"/></p>
+      </div>
+      <div type="layout" source="#source-13219-13358" style="padding-inline-start: 5em">
+        <div>
+          <head n="1" source="#source-13240-13354"><seg source="#source-13240-13282">第二段　コックリの仕方を論ず</seg></head>
+        </div>
+      </div>
+      <div type="layout" source="#source-13358-13429" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-13379-13427"><seg source="#source-13379-13388">第六節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-13429-13776"><seg source="#source-13429-13663">余が諸方より得たる報道によるに、コックリの仕方は、国々によりて不同ありて一定せざるもののごとし。今、左に二、三の報道を挙げて、その仕方を示さんとす。まず、</seg><ruby type="furigana" rend="right" source="#source-13663-13681"><rb>美濃</rb><rt>みの</rt></ruby><seg source="#source-13681-13776">国恵美郡中野方村、山田氏より昨年寄せられたる書状によるに曰く、</seg></p>
+      </div>
+      <div type="layout" source="#source-13776-16791" style="padding-inline-start: 2em">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-13811-16381"><seg source="#source-13811-13844">名古屋、岐阜をはじめ</seg><ruby type="furigana" rend="right" source="#source-13844-13865"><rb>尾濃</rb><rt>びのう</rt></ruby><seg source="#source-13865-13937">いたるところ、当春来一時流行せしものは、その称を</seg><ruby type="furigana" rend="right" source="#source-13937-13964"><rb>狐狗狸</rb><rt>こっくり</rt></ruby><seg source="#source-13964-13970">また</seg><ruby type="furigana" rend="right" source="#source-13970-13994"><rb>御傾</rb><rt>おかたぶ</rt></ruby><seg source="#source-13994-14102">きと名づくるものなり。その方、生竹の長さ一尺四寸五分なるもの三本を造り、</seg><ruby type="furigana" rend="right" source="#source-14102-14114"><rb>緒</rb><rt>お</rt></ruby><seg source="#source-14114-14141">をもって中央にて三</seg><ruby type="furigana" rend="right" source="#source-14141-14156"><rb>叉</rb><rt>さ</rt></ruby><seg source="#source-14156-14183">に結成し、その上に</seg><ruby type="furigana" rend="right" source="#source-14183-14207"><rb>飯櫃</rb><rt>めしびつ</rt></ruby><seg source="#source-14207-14210">の</seg><ruby type="furigana" rend="right" source="#source-14210-14225"><rb>蓋</rb><rt>ふた</rt></ruby>を載せ、三人各三方より相向かいて座し、おのおの隻手あるいは両手をもって櫃の蓋を緩くおさえ、そのうちの一人はしきりに反復「狐狗狸様、狐狗狸様、御移り下され、御移り下され、さあさあ御移り、早く御移り下され」と祈念し、およそ十分間も祈念したるとき、「御移りになりましたらば、なにとぞ甲某が方へ御傾き下され」といえば、蓋を載せたるまま甲某が方へ傾くとともに、反対の竹足をあぐるなり。そのときは三人ともに手を緩く浮かべ、蓋を離るること五分ほどとす。それより後は、三人のうちだれにても種々のことを問うことを得べし。すなわち、「彼が年齢は何歳なるか、<ruby type="furigana" rend="right" source="#source-15029-15053"><rb>一傾</rb><rt>いっけい</rt></ruby>を十年とし、乙某または丙某が方へ御傾き下され」というとき、目的の人三十代なれば三傾し、五十代なれば五傾すべし。端数を問うに、これと同じくただ一年を一傾となすのみ。また「あなたは<ruby type="furigana" rend="right" source="#source-15317-15338"><rb>甚句</rb><rt>じんく</rt></ruby>おどりは御好きか御嫌いか、御好きならば左回りを御願い申します」といえば、好きなれば回転し、嫌いなれば依然たり。このときもまた、手を浮かぶるなり。左右回りに代うるに、御傾き何べんと望むも、あえて効なきにあらず、かえって効あり。その他、なにの数を問うも、なにごとをたずぬるも、知りたることは必ず答えあり。甚句おどり、カッポレおどり、なににても好きなるものは、たとい三人は素人なるも、三<ruby type="furigana" rend="right" source="#source-15908-15923"><rb>叉</rb><rt>さ</rt></ruby><seg source="#source-15923-16381">足が芸人の調子に合わせておもしろくおどるべし。このときまた、手を緩く浮かぶるなり。傍観者にしてうかがいたきことあるときは、三人のうちへ申し願いすべし。また、傍観者自ら代わりておさえんとするも勝手次第なり。識者もこれを実験して、その理に黙するあり。たとい黙せざるも、名称によりて答うるのみ。取るべき説なし。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-16381-16755"><seg source="#source-16381-16755">生、これを研究せんと欲し、諸所に臨みて人の行うところを試むるに、信仰薄きものは、たとえ三十分間おさえおるも移ることなく、男女三人なればよく移り、空気流通して精神を爽快ならしむる場所にては移ること遅く、櫃の蓋の上に風呂敷を覆えば、なおよく移るなり。</seg></p>
+      </div>
+      <div type="layout" source="#source-16795-16866" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-16816-16864"><seg source="#source-16816-16825">第七節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-16866-16943"><seg source="#source-16866-16943">また、茨城県太田町、前島某氏の報知によるに曰く、</seg></p>
+      </div>
+      <div type="layout" source="#source-16943-18510" style="padding-inline-start: 2em">
+        <p source="#source-16978-18474"><seg source="#source-16978-17074">（前略）竹の長さを九寸三分か、あるいは七寸三分に切りて、三本とも</seg><ruby type="furigana" rend="right" source="#source-17074-17089"><rb>節</rb><rt>ふし</rt></ruby><seg source="#source-17089-17191">を中央に置き、その点を麻にて七巻き半巻きつけ、その上に金輪にあらざる</seg><ruby type="furigana" rend="right" source="#source-17191-17215"><rb>飯鉢</rb><rt>めしばち</rt></ruby>の蓋を載せ、その蓋の内には狐狗狸の三字を書し、その蓋の上には奇数の手を載するを規則とす。つぎにその使用法は、若干の人その周囲に座し、実に丁重なる言語をもって、「コックリ様、御寄りになりましたら、早く御回りを願います」という。そのとき、載せたる蓋およびその上に緩く載せたる手、ともにわれわれの請求に応じて、あるいは左、あるいは右へ回転するなり。例えば、人の年齢をたずぬるとせんか。「なにがしの年は何歳なるや御分かりになりますか、御分かりになるなら左に御回りを願います」というときは、すなわち蓋および手ともに左へ回る。そのときまた、「十代なるか二十代なるか、十代なれば右へ、二十代なれば左へ」といって問うときは、もし十代ならば右へ回るなり。もしまたそのとき、「十代にて十幾歳なるか、十一歳なるか」と問うに、十一歳なれば動き、十一歳にあらざれば動かず。この方法によりて吉凶禍福のいかんをうかがうときは、右または左へ回転して、その暗答を得るなり。</p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18512-18595"><seg source="#source-18512-18595">また、千葉県香取郡飯塚村、寺本氏の報知によるに曰く、</seg></p>
+      </div>
+      <div type="layout" source="#source-18595-19466" style="padding-inline-start: 2em">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18630-19430"><seg source="#source-18630-18813">近来、僻地においてコックリと称し、細き竹三本を一尺二寸ずつにきり、中央より少し下の方を麻にて七回り束ね、これに盆あるいは</seg><ruby type="furigana" rend="right" source="#source-18813-18837"><rb>飯櫃</rb><rt>めしびつ</rt></ruby><seg source="#source-18837-18840">の</seg><ruby type="furigana" rend="right" source="#source-18840-18855"><rb>蓋</rb><rt>ふた</rt></ruby><seg source="#source-18855-19401">を載せ、その上に布を加え、三人にて三方より手を掛け、暫時にして神の来臨ありと称し、それより禍福吉凶、その他いかなることがらにても、これにたずぬるに当たらざるなしと申して愚夫愚婦を迷わしめ、信ずるもの日に増し、ただいまにては真に神仏のなすところと妄想し、容易のことにてはその迷夢を覚破し難し。（中略）ある人の説に、これ電気の作用なりと申せども、これまた了解しがたし、</seg><ruby type="furigana" rend="right" source="#source-19401-19425"><rb>云云</rb><rt>うんぬん</rt></ruby><seg source="#source-19425-19430">。</seg></p>
+      </div>
+      <div type="layout" source="#source-19470-19541" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-19491-19539"><seg source="#source-19491-19500">第八節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-19541-20563">また、常州土浦町、五頭氏の報知によれば、「盆の裏へ狐狗狸の三字を指頭にて書き、それに風呂敷ようのものを掛け、これに<ruby type="furigana" rend="right" source="#source-19715-19736"><rb>燧火</rb><rt>ひうち</rt></ruby><seg source="#source-19736-19751">をいたす、</seg><ruby type="furigana" rend="right" source="#source-19751-19775"><rb>云云</rb><rt>うんぬん</rt></ruby>」とあり。信州高井郡、湯本氏の報知によれば、「竹の長さ各一尺五寸なるものを取り、その<ruby type="furigana" rend="right" source="#source-19901-19916"><rb>節</rb><rt>ふし</rt></ruby><seg source="#source-19916-19937">をそろえ、また</seg><ruby type="furigana" rend="right" source="#source-19937-19949"><rb>緒</rb><rt>お</rt></ruby>を一尺五寸に切り、前三本の竹を下より一尺ぐらいの所を結ぶ、云云」とあり。また、ある無名氏よりの報知によるに、「大阪辺りにて用うるものは、竹の長さ各一尺五寸にて、左よりの麻縄をもってこれを縛し、（中略）竹の足を『おコックリ様、おコックリ様』と三べん唱えながら摩するときは、種々奇怪なることを呈する由、云云」とあり。また、<ruby type="furigana" rend="right" source="#source-20426-20444"><rb>肥後</rb><rt>ひご</rt></ruby><seg source="#source-20444-20563">国益城郡、柴垣氏の報知によるに、やや以上の仕方と異なるところあれば、左に掲ぐ。</seg></p>
+      </div>
+      <div type="layout" source="#source-20563-21896" style="padding-inline-start: 2em">
+        <p source="#source-20598-21860"><seg source="#source-20598-20610">（前略）</seg><ruby type="furigana" rend="right" source="#source-20610-20631"><rb>女竹</rb><rt>めだけ</rt></ruby><seg source="#source-20631-20655">三本を節込みにて</seg><ruby type="furigana" rend="right" source="#source-20655-20685"><rb>鯨尺</rb><rt>くじらじゃく</rt></ruby><seg source="#source-20685-20790">一尺四寸四分にきり、これを上より全長の十分の三、下より十分の七の所にて</seg><ruby type="furigana" rend="right" source="#source-20790-20811"><rb>苧紐</rb><rt>おひも</rt></ruby><seg source="#source-20811-20907">にて結ぶ。その紐の長さも一尺四寸四分なり。しかして、この三本竹を</seg><ruby type="furigana" rend="right" source="#source-20907-20919"><rb>叉</rb><rt>さ</rt></ruby>字形となし、その上に盆を伏せ、また茶碗に水と酒とを盛り、これを二本の竹の下に置き、三人のものはおのおの三本の指にて盆の上をおさえ、またほかに一人ありて、その傍らにひざまずき、崇敬の状を呈し、「コックリ様、御たずね申したきことあれば、なにとぞ御出で下され」としきりに言うこと二十分ないし三十分にして、たちまち三人の手辺りに力を生じ、そのきたりしを覚う。そのときに至り、例えば「甲ならば右の竹をあげよ、乙ならば左の竹をあげよ」と言えば、従って応ず。かくのごとくにして過去、未来のことを問うも、その応答、たいてい適中せざるはなし。また、コックリ様は女子を好むなどと申して、三人のものも一人の崇敬者も、ともに童女を用うるをよしという。</p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-21898-22167"><seg source="#source-21898-21916">そのほか、</seg><ruby type="furigana" rend="right" source="#source-21916-21937"><rb>肥前</rb><rt>ひぜん</rt></ruby><seg source="#source-21937-21940">国</seg><ruby type="furigana" rend="right" source="#source-21940-21973"><rb>西彼杵</rb><rt>にしそのぎ</rt></ruby><seg source="#source-21973-22167">郡高島村、吉本氏より報知せられたる仕方は、前述のものと別に異なることなし。ただ少々他の国にてなすところと異なるは、左の一点なり。</seg></p>
+      </div>
+      <div type="layout" source="#source-22167-22516" style="padding-inline-start: 2em">
+        <p source="#source-22202-22480">（前略）コックリに向かって問答をなす前に、その座に居合わす人々の中において、「<ruby type="furigana" rend="right" source="#source-22319-22337"><rb>汝</rb><rt>なんじ</rt></ruby>はいずれの人を好むや」とたずね、その好める人の指を風呂敷の上に加うるを要す、<ruby type="furigana" rend="right" source="#source-22451-22475"><rb>云云</rb><rt>うんぬん</rt></ruby><seg source="#source-22475-22480">。</seg></p>
+      </div>
+      <div type="layout" source="#source-22520-22591" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-22541-22589"><seg source="#source-22541-22550">第九節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-22591-22866"><seg source="#source-22591-22615">このごろ宮城県</seg><ruby type="furigana" rend="right" source="#source-22615-22636"><rb>伊具</rb><rt>いぐ</rt></ruby><seg source="#source-22636-22866">郡川張村、山本氏より寄せられたる報知によるに、該地に行わるるところの仕方は、大いに他の地方のものと異なるところあるがごとし。ゆえに、その大略を左に掲ぐ。</seg></p>
+      </div>
+      <div type="layout" source="#source-22866-23713" style="padding-inline-start: 2em">
+        <p source="#source-22901-23677"><seg source="#source-22901-23021">（前略）一尺二寸ずつの竹三本を、左によりたる長さ三尺の麻縄にて、七回半にまといて</seg><ruby type="furigana" rend="right" source="#source-23021-23036"><rb>竪</rb><rt>たて</rt></ruby><seg source="#source-23036-23072">結びに結び付け、竹の中に</seg><ruby type="furigana" rend="right" source="#source-23072-23090"><rb>狐</rb><rt>きつね</rt></ruby><seg source="#source-23090-23093">、</seg><ruby type="furigana" rend="right" source="#source-23093-23114"><rb>天狗</rb><rt>てんぐ</rt></ruby><seg source="#source-23114-23117">、</seg><ruby type="furigana" rend="right" source="#source-23117-23135"><rb>狸</rb><rt>たぬき</rt></ruby><seg source="#source-23135-23444">と書きたる札を入れ、竹の口を火にてあたため、その上にまたあたためたる塗り盆をいただかせ、風呂敷にてこれを覆い、女児三人、左手を静かにその上に加え、その傍らにて、あるいは太鼓を打ち、あるいは唱歌して、いろいろ</seg><ruby type="furigana" rend="right" source="#source-23444-23459"><rb>囃</rb><rt>はや</rt></ruby><seg source="#source-23459-23612">し立つるときは、その盆が回り始むるなり。（中略）天井のある座敷にては、いかに囃し立つるも、一向に感覚を</seg><ruby type="furigana" rend="right" source="#source-23612-23624"><rb>惹</rb><rt>ひ</rt></ruby><seg source="#source-23624-23677">き起こさずして回ることなし、云云。</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-23715-24352"><seg source="#source-23715-23820">余が昨年伊豆国に遊び、その地にてなすところを見るに、竹の上に載せたる</seg><ruby type="furigana" rend="right" source="#source-23820-23844"><rb>飯櫃</rb><rt>めしびつ</rt></ruby><seg source="#source-23844-23847">の</seg><ruby type="furigana" rend="right" source="#source-23847-23862"><rb>蓋</rb><rt>ふた</rt></ruby>は、暫時の間、炉火にあぶりて用い、その蓋の周囲に座するものの中にて一人が導師となりて、しきりに「コックリ様、御移り下され、回りて下され」と唱え、他の者は謹みてその御移りを待ちおるなり。このとき用いたる竹は青竹一尺四寸五分にて、上より三、四寸の所を左よりの麻縄にて結び付け、その上に飯櫃の蓋を載せ、その上に風呂敷を載するなり。</p>
+      </div>
+      <div type="layout" source="#source-24352-24429" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-24373-24427"><seg source="#source-24373-24385">第一〇節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-24429-24698"><seg source="#source-24429-24698">また、東京および横浜などにて近日なすところを見るに、その仕方、大体同一なるも、多少異なるところなきにあらず。今、日本橋区長谷川町、増永氏よりの報知を挙げて示すこと、左のごとし。</seg></p>
+      </div>
+      <div type="layout" source="#source-24698-25374" style="padding-inline-start: 2em">
+        <p source="#source-24733-25338"><seg source="#source-24733-24874">（前略）丸竹の細さ人の指ぐらいのもの三本のうち、二本は長さ九寸、他の一本は九寸五分にきり、その</seg><ruby type="furigana" rend="right" source="#source-24874-24889"><rb>節</rb><rt>ふし</rt></ruby><seg source="#source-24889-24934">を抜き取り、麻糸を左によりたる</seg><ruby type="furigana" rend="right" source="#source-24934-24949"><rb>紐</rb><rt>ひも</rt></ruby><seg source="#source-24949-25066">にて、右三本の竹を七巻きに結びて一束となし、さらに他の白紙三片を取りて、これに</seg><ruby type="furigana" rend="right" source="#source-25066-25084"><rb>狐</rb><rt>きつね</rt></ruby><seg source="#source-25084-25087">、</seg><ruby type="furigana" rend="right" source="#source-25087-25105"><rb>狸</rb><rt>たぬき</rt></ruby><seg source="#source-25105-25108">、</seg><ruby type="furigana" rend="right" source="#source-25108-25129"><rb>天狗</rb><rt>てんぐ</rt></ruby><seg source="#source-25129-25309">の三字を別々に記し、まるめて一つずつその一束の竹の中に入れ、その入れたる方を下にし、これを机または畳の上に据え置くなり、</seg><ruby type="furigana" rend="right" source="#source-25309-25333"><rb>云云</rb><rt>うんぬん</rt></ruby><seg source="#source-25333-25338">。</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-25376-25554">府下牛込小石川辺りにてなすところを聞くに、「麻糸の中に婦人の髪の毛三筋入れ、その縄を<ruby type="furigana" rend="right" source="#source-25505-25526"><rb>七五三</rb><rt>しめ</rt></ruby>に結う」という。</p>
+      </div>
+      <div type="layout" source="#source-25554-25631" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-25575-25629"><seg source="#source-25575-25587">第一一節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-25631-27130"><seg source="#source-25631-25790">以上、諸国に行わるるところの仕方は種々まちまちにして、一定の規則なきは明らかなり。竹の寸法、縄の巻き方、</seg><ruby type="furigana" rend="right" source="#source-25790-25814"><rb>飯蓋</rb><rt>めしぶた</rt></ruby><seg source="#source-25814-25829">、風呂敷の</seg><ruby type="furigana" rend="right" source="#source-25829-25850"><rb>装置</rb><rt>しかけ</rt></ruby>等は、必ずしも前述の法式によらざるも、適宜に執り行ってしかるべし。また、これを試むるに当たりて、あるいは衆人一同に「コックリ様、御移り下され」というときと、衆人中一人のみ導師となりていうときと、衆人のほか別に崇敬者を立てていわしむるときとのいろいろの仕方あるも、これまたいずれの法式を用うるも不可なることなし。ただし、コックリは言語を有せざるをもって、問いを起こすときは、あらかじめその答えの方向を定めざるべからず。これを定むるの法、あるいは竹の足のあげ方を取り、あるいは飯蓋の回転の仕方を取るの別ありて、例えば明日の天気をたずねんとするときは、まず天気の吉なるときは足をあげよ、あるいは左右に回転せよと命じおくなり。かくのごとく、あらかじめ相定めてその告ぐるところの答えを見るに、事実に適合するもの十中八九ありという。これ実に奇怪といわざるべからず。さきごろ埼玉県北足立郡中野村、青木氏の報知を得たれば、氏の実験の始末を左に掲げて、その一例を示さん。</p>
+      </div>
+      <div type="layout" source="#source-27130-32674" style="padding-inline-start: 2em">
+        <p source="#source-27165-31817">（前略）座中の一人盆に向かい、よびて曰く、「<ruby type="furigana" rend="right" source="#source-27231-27258"><rb>狐狗狸</rb><rt>こっくり</rt></ruby><seg source="#source-27258-27279">よ、狐狗狸よ、</seg><ruby type="furigana" rend="right" source="#source-27279-27297"><rb>汝</rb><rt>なんじ</rt></ruby>の座をここに設けたり。速やかに来たれ」と。また曰く、「狐狗狸よ、狐狗狸よ、すでに来たらば、その兆しとして盆を右方にめぐらせ」と。また曰く、「この盆を右方にめぐらすをいとわば、なんぞ左方にめぐらさざるや」と。このとき、盆の徐々に運行するを見る。けだし、この動作たる、突然行わんと欲するもあたわず、少なくも三、四回以上これを試みざれば動かず。もっとも、一回この動作を呈せし家は、その後いずれの日にこれを行うも来たらざるなく、かつ、その来たるや迅速なり。また曰く、「その盆をして一周せしめよ」と。このとき、盆全く一周す。また曰く、「汝、狐なれば、この足（三本の竹のうち一本を指していう）をあげよ」と。このとき足あがらざるをもって、衆その狐にあらざるを知る。また曰く、「汝、天狗ならばこの足をあげよ」と。このときまた足あがらざるをもって、衆その天狗にあらざるを知る。また曰く、「しからば汝、猫ならんか。果たして猫ならばこの足をあげよ」と。このとき竹の足あがること一寸ばかりゆえに、猫の来たると仮定す。また曰く、「汝、この足を三寸ほどあげよ」と。このとき竹の足あがること三寸。また曰く、「汝は甲村より来たるや。もし、果たして甲村に住するものならばこの足をあげよ」と。このとき足あがらざるをもって、すなわち甲村より来たらざるを知る。また曰く、「もし乙村ならばこの足をあげよ」と。このとき足あがるゆえに、乙村より来たるものと断定す。また曰く、「<ruby type="furigana" rend="right" source="#source-29142-29160"><rb>汝</rb><rt>なんじ</rt></ruby><seg source="#source-29160-29163">は</seg><ruby type="furigana" rend="right" source="#source-29163-29184"><rb>楽戯</rb><rt>あそび</rt></ruby>に来たるや」と。このとき足あがらざるゆえ、楽戯にあらずと断定す。また曰く、「しからば、汝は<ruby type="furigana" rend="right" source="#source-29319-29334"><rb>物</rb><rt>もの</rt></ruby><ruby type="furigana" rend="right" source="#source-29334-29349"><rb>教</rb><rt>おし</rt></ruby>えに来たるか。物教えに来たるならばこの足をあげよ」と。このとき竹の足あがる。すなわち、その吉凶禍福を告ぐるために来たるを知る。また曰く、「某の家には出火等の<ruby type="furigana" rend="right" source="#source-29583-29604"><rb>禍</rb><rt>わざわい</rt></ruby>ありや」と。このとき足あがらず。すなわち、災いのなきを知る。また曰く、「しからば、某の家には幸福ありや。もし幸福あらばこの足をあげよ」と。このとき足あがらず。また曰く、「しからば、福きたらざるか」と。このときまた足あがらず。また曰く、「しからば、いまだ全く明らかならざるか」と。このとき足あがる。すなわち、禍福いまだ知れずと判断す。また曰く、「汝の年齢は幾歳なりや。一歳を一足としてこの足をあげよ」と。このとき竹の足あがること十回なるをもって、この猫の年齢十歳なるを知る。また曰く、「明日は晴天なればこの足をあげよ」と。このとき足あがらず。また曰く、「しからば、明日は雨天なりや」と。このときまた足あがらず。また曰く、「しからば、雪天なりや」と。このとき一本の足徐々としてあがる。衆、すなわち翌日は降雪と断定す。（中略）また、コックリに向かって問うて曰く、「汝は一本の足にておどるや」と。このとき足あがらず。また問う、「汝は三本の足にておどるや」と。このとき足あがらず。また問う、「汝二本の足にておどるや」と。このとき足あがる。すなわち、その二本の足にておどるべしと断定す。また問う、「軍歌にておどるや」と。このとき足あがらず。また問う、「<ruby type="furigana" rend="right" source="#source-31164-31200"><rb>情死節</rb><rt>しんじゅうぶし</rt></ruby>にておどるや」と。このとき足あがらず。また問う、「しからば相撲<ruby type="furigana" rend="right" source="#source-31293-31317"><rb>甚句</rb><rt>じんく</rt></ruby>にておどるや」と。このとき竹の足あがる。よって一人、相撲甚句を歌い、竹の足二本とその歌の調子に合わせ、こもごもその足を上下す。歌人の音声清らかにして調子熟すれば、その足の上下一層迅速にして、座中を縦横におどりあがる。すでにこのときに当たりては、これまで三人にてなしたるも、ただ一人にて、よくその足をして上下せしむることを得るに至る。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-31817-32638"><seg source="#source-31817-32216">以上はその一例の概略を記載せしものなり。その他、小生の実験するところによるに、晴雨、年齢のほかに時間、人数、文字等のことをたずぬるも、大抵みな適中すといえども、例えば一つの書籍を取りて、この紙数は幾枚ありと問うがごとき、綿密なることは確答を得ること難し。また、狐、</seg><ruby type="furigana" rend="right" source="#source-32216-32231"><rb>狗</rb><rt>いぬ</rt></ruby><seg source="#source-32231-32609">、狸、猫のほか種々の獣類至らざるなしといえども、なかんずく天狗と名づくるものの来たるときは、その予言もっともよく事実に適中し、衆人の最も信用を置くところなり。臼、木鉢、皿等の重量のものをめぐらして、よくその足をあぐるは、大抵この天狗の来たるときに限る、</seg><ruby type="furigana" rend="right" source="#source-32609-32633"><rb>云云</rb><rt>うんぬん</rt></ruby><seg source="#source-32633-32638">。</seg></p>
+      </div>
+      <div type="layout" source="#source-32678-32755" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-32699-32753"><seg source="#source-32699-32711">第一二節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-32755-34693"><seg source="#source-32755-32905">これによりてこれをみるも、コックリはよく未然のことを予言するの力あること明らかなり。このごろ近傍の</seg><ruby type="furigana" rend="right" source="#source-32905-32932"><rb>結髪師</rb><rt>かみゆい</rt></ruby>来たりて曰く、「私ども四、五日以前、ある家に至りコックリをなしたるに、その告ぐるところのもの、いちいち事実に合するに驚けり。まずその次第を申せば、はじめに、『あなたは狐か、狸か、春日大明神か』とたずねたれば、足にて『春日大明神』と答えたり。つぎに、『酒を御好みか、餅を御好みか、菓子を御好みか』とたずねたれば、『酒を好む』と答えたり。よって、酒をその前に供えていろいろのことを問い始めたり。まず、その隣家に重病のものと軽症のものとの二名の病人あり。その重病のものの死生をたずねたれば、『死すべし』と答え、軽症のものの全快をたずねたれば、『不日に平癒に帰すべし』と答えたり。そのつぎに、私もコックリにむかい、『自身の家に客ありやいなや』をたずねたるに、『あり』と答えたり。果たしてその言のごとく、迎えのもの宅より来たりて客あるを告ぐ。そのつぎに、『自分の道楽<ruby type="furigana" rend="right" source="#source-34066-34090"><rb>子息</rb><rt>むすこ</rt></ruby><seg source="#source-34090-34093">の</seg><ruby type="furigana" rend="right" source="#source-34093-34117"><rb>放蕩</rb><rt>ほうとう</rt></ruby>のやむかやまざるか』をたずねたるに、『やみます』と答えたり。また、その家の前にいる子供の中に、男の子何人ありやをたずねたるに、足を四回あげて四人あるを告ぐ。すなわちその子供を検するに、果たして四人の男子あり。終わりに、コックリに『御帰りになりませんかいなや』をたずねたるに、その答えなし。しばらくありて重ねてたずねたれば、三本足ことごとく舞い上がり、盆を転倒して去りたり」という。</p>
+      </div>
+      <div type="layout" source="#source-34693-34770" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-34714-34768"><seg source="#source-34714-34726">第一三節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-34770-37025"><seg source="#source-34770-35451">余、これを試みんと欲し、昨秋自宅において、前後数回試験を施したることあり。はじめに、ある学生四、五名とこれを試みしに、さらに要するところの成績を示さず。つぎに、いまだ学識に富まざる年少輩数名をその中に加えて試みしも、なおはかばかしき効験を見ず。つぎに、その年少輩と四十前後の婦人とをしてこれを験せしむるに、果たして要するところの成績を得たり。その後十余日を経て、再びその年少輩と婦人と余と数名相会して、大小、長短一定せざるいろいろの竹をとり、いろいろの</seg><ruby type="furigana" rend="right" source="#source-35451-35466"><rb>蓋</rb><rt>ふた</rt></ruby><seg source="#source-35466-35652">を用いてこれを試みしに、みなその成績を得たり。その後また、竹に代うるに他の器具をもってし、あるいはキセル三本を用い、あるいは</seg><ruby type="furigana" rend="right" source="#source-35652-35676"><rb>茶壺</rb><rt>ちゃつぼ</rt></ruby>のごときものを用い、蓋に代うるに平面の板を用うるも、多少その効験あるを見たり。これによりてこれをみるに、その装置に一定の方式を要せざること明らかなり。埼玉県青木氏の報知にも、「世人のコックリをなすに当たりて、あるいは竹の長さを奇数にきるべしといい、あるいはそのきり口へ狐狗狸の三字を記入せざれば不可なりといい、あるいは<ruby type="furigana" rend="right" source="#source-36153-36177"><rb>藁縄</rb><rt>わらなわ</rt></ruby>を左ひねりにない、五重半にこれを切り、左結びになさざれば不可なりというものあれども、必ずしもこの規則に従うを要せざるもののごとし」といえり。しかるに世間には、一定の方式を用い、婦人をその中に加え、はなはだしきに至りてはその人を選び、その家を選び、その日を選びてこれを行うがごときは、他に考うべき原因事情の別に存するによることなれども、愚民はその原因事情を知らざるをもって、これを行ってその要するところの成績を見ざるときは、これ不吉の日に行ったるによるなり、これ悪人のその中に加わりたるによるなりといって、<ruby type="furigana" rend="right" source="#source-36933-36948"><rb>毫</rb><rt>ごう</rt></ruby><seg source="#source-36948-37025">もその道理を怪しまざるは、実に愚の至りというべし。</seg></p>
+        <p source="#source-37025-37050"><pb source="#source-37025-37046"/></p>
+      </div>
+      <div type="layout" source="#source-37050-37189" style="padding-inline-start: 5em">
+        <div>
+          <head n="1" source="#source-37071-37185"><seg source="#source-37071-37113">第三段　コックリの伝来を論ず</seg></head>
+        </div>
+      </div>
+      <div type="layout" source="#source-37189-37266" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-37210-37264"><seg source="#source-37210-37222">第一四節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-37266-39676"><seg source="#source-37266-37737">今、コックリの原因事情を究明するに当たり、まずここに、その起源、伝来を叙述するを必要なりとす。余、そのいずれの地にはじめて起こり、たれびとの発明せしものなるやを究めんと欲し、諸国の有志にその流行のありさまを問い合わせたるに、今日まで余の手もとに達したる報知によるに、一昨明治十八年の秋より昨十九年の春にわたりて、</seg><ruby type="furigana" rend="right" source="#source-37737-37752"><rb>相</rb><rt>そう</rt></ruby><seg source="#source-37752-37755">、</seg><ruby type="furigana" rend="right" source="#source-37755-37767"><rb>豆</rb><rt>ず</rt></ruby><seg source="#source-37767-37770">、</seg><ruby type="furigana" rend="right" source="#source-37770-37785"><rb>駿</rb><rt>すん</rt></ruby><seg source="#source-37785-37788">、</seg><ruby type="furigana" rend="right" source="#source-37788-37803"><rb>遠</rb><rt>えん</rt></ruby><seg source="#source-37803-37806">、</seg><ruby type="furigana" rend="right" source="#source-37806-37818"><rb>尾</rb><rt>び</rt></ruby><seg source="#source-37818-37821">、</seg><ruby type="furigana" rend="right" source="#source-37821-37836"><rb>濃</rb><rt>のう</rt></ruby><seg source="#source-37836-37917">の間に流行し、昨年中は西は京阪より山陽、南海、西国まで</seg><ruby type="furigana" rend="right" source="#source-37917-37941"><rb>蔓延</rb><rt>まんえん</rt></ruby><seg source="#source-37941-37953">し、東は</seg><ruby type="furigana" rend="right" source="#source-37953-37968"><rb>房</rb><rt>ぼう</rt></ruby><seg source="#source-37968-37971">、</seg><ruby type="furigana" rend="right" source="#source-37971-37986"><rb>総</rb><rt>そう</rt></ruby><seg source="#source-37986-37989">、</seg><ruby type="furigana" rend="right" source="#source-37989-38007"><rb>常</rb><rt>じょう</rt></ruby><seg source="#source-38007-38010">、</seg><ruby type="furigana" rend="right" source="#source-38010-38022"><rb>野</rb><rt>や</rt></ruby><seg source="#source-38022-38025">、</seg><ruby type="furigana" rend="right" source="#source-38025-38037"><rb>武</rb><rt>ぶ</rt></ruby><seg source="#source-38037-38040">、</seg><ruby type="furigana" rend="right" source="#source-38040-38055"><rb>信</rb><rt>しん</rt></ruby><seg source="#source-38055-38070">の諸州にも</seg><ruby type="furigana" rend="right" source="#source-38070-38091"><rb>伝播</rb><rt>でんぱ</rt></ruby><seg source="#source-38091-38118">し、当年に至りては</seg><ruby type="furigana" rend="right" source="#source-38118-38133"><rb>奥</rb><rt>おう</rt></ruby><seg source="#source-38133-38646">州に漸入するを見る。ひとり北陸地方に、いまだその流行するを聞かざるなり。これによりてこれを推すに、このことは東海諸国に縁起せしを知るべし。しかるに、人の伝うるところによるに、この法は三百年前よりすでに日本に伝わり、信長公はじめてこれを試みられたること旧記に見えたりといい、あるいは徳川氏の代にこれを行ったること古老の言に存せりといい、あるいは</seg><ruby type="furigana" rend="right" source="#source-38646-38661"><rb>薩</rb><rt>さっ</rt></ruby><seg source="#source-38661-38748">州より起これりといい、あるいは外国より来たるというも、みな</seg><ruby type="furigana" rend="right" source="#source-38748-38772"><rb>坊間</rb><rt>ぼうかん</rt></ruby><seg source="#source-38772-39676">の風説にとどまりて、確固として信を置くべきものなし。しかれども、その法の本邦に起こるにあらずして、外国より入りきたりしことは疑うべからざるもののごとし。この説によるに、あるいは数百年前、キリシタン宗に混じて本邦に伝わりしといい、あるいは維新の際、日本人のアメリカにありしもの帰朝してその法を伝えたりというも、これまた信拠すべからざるを知る。なんとなれば、数年前すでに本邦に入りしもの、なんぞ久しく民間に伝わらずして、昨今はじめて流行するに至りしや、その理はなはだ解し難し。たとい維新前に本邦人中、一、二人のこれを知りしものありとするも、一昨年来諸州に流行せしものは、他の起源あるによるや疑いをいれず。</seg></p>
+      </div>
+      <div type="layout" source="#source-39676-39753" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-39697-39751"><seg source="#source-39697-39709">第一五節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-39753-41029"><seg source="#source-39753-39912">余が捜索せしところによるに、その流行の情況、あたかも波及の勢いをなせり。けだし、そのはじめて起こりし地は</seg><ruby type="furigana" rend="right" source="#source-39912-39924"><rb>豆</rb><rt>ず</rt></ruby><seg source="#source-39924-40113">州にして、その地よりコックリの報道を得たるは一昨年にあり。その後数カ月を経て、尾濃、京阪の間に行わるるを聞き、同時に房総諸州に</seg><ruby type="furigana" rend="right" source="#source-40113-40137"><rb>蔓延</rb><rt>まんえん</rt></ruby><seg source="#source-40137-40293">せるを見る。しかして、そのようやく進みて東京に入りしは昨秋のことなり。その後次第に波及して、埼玉、群馬、</seg><ruby type="furigana" rend="right" source="#source-40293-40314"><rb>信濃</rb><rt>しなの</rt></ruby><seg source="#source-40314-41029">地方に入る。これと同時に、九州地方に流行するの報を得たり。かくして今年に至り、奥州に入るの報道あり。余がさきに、そのはじめて東京に入りしの風説に接したるは昨夏のことにして、深川区をもって起源とす。その後、日本橋、京橋諸区を経て、今春に至り牛込、小石川辺りに流行するを見る。これ、余がコックリは東海諸国に起源せりというゆえんにして、はじめに豆州地方より起こるならんと想像せしゆえんなり。すでにして余、昨夏豆州に遊び、その地の流行の実況を捜索して、はじめてその説の真なるを知る。</seg></p>
+      </div>
+      <div type="layout" source="#source-41029-41106" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-41050-41104"><seg source="#source-41050-41062">第一六節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-41106-42521"><seg source="#source-41106-41706">一昨昨年ごろのこととかや、アメリカの帆走船、豆州下田近傍に来たりて破損したることあり。その破船の件に関して、アメリカ人中久しくその地に滞在せしものありて、この法を同地の人民に伝えたりという。そのとき、アメリカ人は英語をもってその名を呼びたるも、その地のもの英語を解せずして、その名の呼び難きをもって、コックリの名を与うるに至りたるなり。けだし、コックリとはコックリと傾くを義として、竹の上に載せたる</seg><ruby type="furigana" rend="right" source="#source-41706-41721"><rb>蓋</rb><rt>ふた</rt></ruby><seg source="#source-41721-42521">のコックリと傾くより起こるという。これより一般に伝えてコックリ様と呼び、その名に配するに狐狗狸の語を用うるに至りしなり。果たしてしからば、この法は西洋より伝来したるものにして、その流行は豆州下田より起こりしこと明らかなり。当時下田にありし船頭の輩、ひとたびこの怪事を実視し、その後東西の諸港に入りてこれを伝え、西は尾張または大阪に伝え、東は房総または京浜の間に伝えしや必然なり。ゆえに、その東京に入るも、深川、京橋等の海辺より始まる。これによりてこれをみるに、昨今流行のコックリは豆州下田に起縁せること、ほとんど疑うべからざるなり。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-42521-43845"><seg source="#source-42521-42854">かくのごとく定むるときは、さらに進みて、西洋にこの法の存するやいなやを考うるを必要なりとす。余が聞くところによるに、西洋に従来、テーブル・ターニングと称するものあり。この語、テーブルの回転を義として、その法、コックリ様と</seg><ruby type="furigana" rend="right" source="#source-42854-42869"><rb>毫</rb><rt>ごう</rt></ruby>も異なることなし。今、その使用法を述ぶるに、テーブルの周囲に数人相集まり、おのおの手を出だして軽くテーブルに触れ、暫時にしてその回転を見るに至るなり。また、テーブルに向かって種々のことを問答することあり。これをテーブル・トーキングと称す。すなわち、テーブルの談話の義なり。その法、すでに回転したるテーブルに向かい、「神様は存在せるものなるやいなや、もし存在せるものならば回転を止めよ」といいたるとき、テーブルこれに応じて回転をとどむることあり。あるいはまた、地獄、極楽の有無を問うて、その存在せざるときは床をうつべしというに、テーブルまたこれに応じて、自らその足をもって床をうつことあり。その状、あたかも人がその間に立ちて応答するに異ならずという。</p>
+      </div>
+      <div type="layout" source="#source-43845-43922" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-43866-43920"><seg source="#source-43866-43878">第一七節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-43922-45310">今、カーペンター氏の『心理書』中に挙ぐるところの一例を引きてこれを示すに、ジップシンと称するもの、その友人一名とともにテーブルに向かい、「当代の女王は王位に昇りて以来、幾年を経過せしや」と問いたるに、テーブルその床をうちて、「十六年なり」と答えたり。また、その太子の年齢をたずねたるに、「十一歳なり」と答えたり。しかるに両人ともに、当代の女王即位の年月と太子の年齢とを知らざるをもって、年表について験するに、果たしてその答えのごとし。またつぎに、その家の店に幾人仕事しておるかをたずねたるに、三回床をうち、二回足をあげて答えたり。しかるに、店頭に大人四名と童子二名ありというを聞き、その三回床をうちたるは誤りなりと考えしに、しばらくありて、その一人は府外に出でて店にあらざるを想出し、はじめてその告ぐるところの真なることを知りしという。これらの形情を聞くに、その法、わが国に行わるるところのものと同一なること明らかなり。ただその異なるは、一はテーブルを用い、一は三本の竹と<ruby type="furigana" rend="right" source="#source-45233-45257"><rb>飯櫃</rb><rt>めしびつ</rt></ruby><seg source="#source-45257-45260">の</seg><ruby type="furigana" rend="right" source="#source-45260-45275"><rb>蓋</rb><rt>ふた</rt></ruby><seg source="#source-45275-45310">を用うるの別あるのみ。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-45310-46029"><seg source="#source-45310-46029">これによりてこれをみるに、下田に来たりしアメリカ人は、かつてその本国にありしときこの法を知りたるものにして、その下田にあるの際、手もとに適宜のテーブルなきゆえ、臨時の思い付きにて、竹と蓋とをもってこれに代用したるならんと想像せらるるなり。しかして、そのアメリカ人はこの法を呼んでテーブル・ターニングとかいいて伝えたるも、その土地の者、洋語に慣れざるをもって、コックリの語を代用するに至りしなりと思わるるなり。ゆえに余は、コックリはすなわちテーブル・ターニングと同一なりと信ず。</seg></p>
+        <p source="#source-46029-46054"><pb source="#source-46029-46050"/></p>
+      </div>
+      <div type="layout" source="#source-46054-46193" style="padding-inline-start: 5em">
+        <div>
+          <head n="1" source="#source-46075-46189"><seg source="#source-46075-46117">第四段　コックリの原因を論ず</seg></head>
+        </div>
+      </div>
+      <div type="layout" source="#source-46193-46270" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-46214-46268"><seg source="#source-46214-46226">第一八節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-46270-48441"><seg source="#source-46270-46489">上段、すでにコックリの方法およびその伝来を述べたるをもって、これより道理上、その原因事情を説明せんと欲するなり。通常の人はその原因を考えて、これ</seg><ruby type="furigana" rend="right" source="#source-46489-46507"><rb>狐</rb><rt>きつね</rt></ruby><seg source="#source-46507-46510">か</seg><ruby type="furigana" rend="right" source="#source-46510-46528"><rb>狸</rb><rt>たぬき</rt></ruby><seg source="#source-46528-46642">の所為なりと信じ、または鬼神の所為なりと唱え、やや知識あるものは、これ決して</seg><ruby type="furigana" rend="right" source="#source-46642-46660"><rb>狐狸</rb><rt>こり</rt></ruby>、鬼神のなすところにあらずして電気の作用なりといい、あるいはまた妖怪を信ぜざるものに至りては、これ決して天然に起こるものにあらず、その中に加わりたるもの、故意をもってこれを動かすか、しからざれば、その実、動かざるも動くように見ゆるなりという。しかれども、余が実験するところによるに、その動くことは必然にして、これに加わるもの必ずしも故意をもって動かすにあらざること、また明らかなり。すなわち、自然に動き、自然に傾き、自然に回転するなり。その盛んに動くに当たりては、ことさらにこれをおさえんと欲するも、やむべからざるの勢いあり。ゆえにその原因は、決して人の有意作用に帰するの理なし。しからば、これを電気作用に帰せんか。曰く、「もし電気に帰すれば、その電気と装置との間にいかなる変化を起こして、あるいは動き、あるいは傾くの作用を示すかを説明せざるべからず。近ごろ世間に電気の語を濫用して、物理上説明し難きものあれば、みなこれを電気に帰するも、これ決して余がとらざるところなり。ゆえに、電気のいかにしてこの作用を起こすか、いまだつまびらかならざる以上は、その原因を説明したりと許すべからず」と。しからば、これを狐狸の所為に帰してやまんか。曰く、「狐狸もとよりかくのごとき作用を有すべき理なく、鬼神そのなにものたるいまだ知るべからざれば、これに帰するもまた、その原因を説明したりと称し難し」と。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-48441-50185"><seg source="#source-48441-48657">これ、余が狐狸、鬼神のほかにその原因を発見せんことを求むるゆえんなり。さらに疑いを起こしてこれを考うるに、その動くも、その傾くも、鬼神のこれに</seg><ruby type="furigana" rend="right" source="#source-48657-48669"><rb>憑</rb><rt>よ</rt></ruby><seg source="#source-48669-49653">りて生ずるところなりというも、知識、学問のあるものにはその験なく、無知、不学のものにはその験あり。別して婦女子のごとき信仰心の厚きものに効験著しきは、鬼神のなすところにあらずして、他に考うべき原因ある一証なり。また、その人の問いに応じて答えを与うるも、十は十ながらことごとく事実に合するにあらず、十中の八九は合することあるも、一、二は合せざることありという。これまた、他に考うべき原因ある一証なり。あるいはまた、これに向かって過去のことを問うときは、その応答、事実に適中すること多きも、未来のことは事実に適合せざること多しといい、簡短のことはその答えを得べきも、細密のことはその答えを得べからずという。これまた、他に原因ある一証なり。その他、鬼神の果たして</seg><ruby type="furigana" rend="right" source="#source-49653-49677"><rb>飯蓋</rb><rt>めしぶた</rt></ruby><seg source="#source-49677-50185">または茶盆に憑るべきものならば、必ずしも人の手のこれに触るるを要せざるべし。しかるに、これに触るるを要するは、また他に原因ある一証なり。かつ、その動揺、回転するは鬼神のなすところとするときは、三本竹のごとき、最も動揺、回転しやすきものを取るを要せざるの理なり。しかるに、その最も動揺、回転しやすきものを取るは、また他に原因ある一証なり。</seg></p>
+      </div>
+      <div type="layout" source="#source-50185-50262" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-50206-50260"><seg source="#source-50206-50218">第一九節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-50262-50366"><seg source="#source-50262-50366">今、余はこの原因を左の三種に定めて、いちいち説明せんと欲するなり。</seg></p>
+      </div>
+      <div type="layout" source="#source-50366-50836" style="padding-inline-start: 3em; text-indent: -1em">
+        <p source="#source-50431-50544"><seg source="#source-50431-50544">第一は外界のみによりて起こる原因、すなわちコックリの装置自体より生ずる原因</seg></p>
+        <p source="#source-50544-50696"><seg source="#source-50544-50696">第二は内外両界の中間に起こる原因、すなわち人の手とコックリの装置と相触れたるときの事情より生ずる原因</seg></p>
+        <p source="#source-50696-50800"><seg source="#source-50696-50800">第三は内界のみによりて起こる原因、すなわち人の精神作用より生ずる原因</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-50838-51157"><seg source="#source-50838-51157">そのうち、第三の原因を最も大切なるものとす。しかして、第一の原因は格別説明を要するほどのものにあらざれども、これより次第に説き及ぼして第三に至るは、その順序よろしきをもって、まずはじめに第一の原因を述ぶべし。</seg></p>
+      </div>
+      <div type="layout" source="#source-51157-51234" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-51178-51232"><seg source="#source-51178-51190">第二〇節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-51234-52003"><seg source="#source-51234-51306">第一の原因は、コックリの装置すなわち三本の竹と</seg><ruby type="furigana" rend="right" source="#source-51306-51330"><rb>飯櫃</rb><rt>めしびつ</rt></ruby><seg source="#source-51330-51333">の</seg><ruby type="furigana" rend="right" source="#source-51333-51348"><rb>蓋</rb><rt>ふた</rt></ruby><seg source="#source-51348-51717">の、すでに動揺、回転しやすき組み立てを有するをいう。けだし、三本足の組み立ては、左右に回転するにも、上下に動揺するにも、最も適したるものにして、別して細き竹に重き蓋を載するがごときは、自然の勢い動揺せざるを得ざる事情なり。その他、竹の長さを限り、</seg><ruby type="furigana" rend="right" source="#source-51717-51732"><rb>紐</rb><rt>ひも</rt></ruby><seg source="#source-51732-52003">の結び目を定むるがごときは、また自然に動揺すべき点をとるなり。これをもって、その装置は外より静かにこれに触るるも、ただちに動かんとするの勢いを有す。これ、その回転する一原因なり。</seg></p>
+      </div>
+      <div type="layout" source="#source-52003-52080" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-52024-52078"><seg source="#source-52024-52036">第二一節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-52080-53429"><seg source="#source-52080-53429">つぎに、第二の原因は内外両界の間に起こる原因にして、けだし、いかなるものも多少の時間、手を空中に浮かべて一物を支えんとするときは、必ず手に動揺を生ずるを見る。これ、活動物一般の常性にして、たといその一部分たりとも、永く静止して空中の一点に保つことあたわざるものなり。たといまた、衆人中一人ぐらいは手を静止することを得るも、衆人ことごとく同時に静止することあたわざるは必然なり。ゆえに、もしそのうちの一人、一寸手を動かせば、ただちにその動勢をコックリに伝え、二寸の動揺を示すべきは、装置の事情すでにしかるなり。これに他の人々の力の同時に加わることあるときは、またいくたの動揺を増すに至るべし。かくして、ひとたび回転したるものは、習慣性の規則に従って永く回転せんとするの勢いを生ず。別して衆人の力、再三重ねてこれに加わることあるときは、数回小回転ののち著しき大回転を見るに至るべし。そのはなはだしきに至りては、外よりこれを抑止せんと欲するも、ほとんど抑止すべからざるの勢いあるも、また自然の道理なり。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-53429-54028"><seg source="#source-53429-54028">かくして、手も身体もともに動揺するの習慣を生ずるに至れば、これを無意無心に任ずるも、知らず識らず動揺するを見る。そのすでに動揺するに当たりては、手の一端にわずかに微力を加うるも、ただちに回転し、またたやすくその足をあぐるに至るべし。別してその回転の盛んなるに当たりては、おのおのその手を放ちてこれをその自然の勢いに任ずるも、室中を横行して踏舞の状を呈するに至るは、これまた習慣性の永続によるなり。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-54028-55266"><seg source="#source-54028-55266">これを要するに、第一に、人をして数分間その手を蓋の上に浮かべしむるときは、必ず疲労を感じて動揺せんとするの事情あり。第二に、その装置すでに動揺しやすき組み立てを有するをもって、これに一寸の変動を与うるも、一尺の動揺を呈するの事情あり。第三に、一人これを動かせば、衆人これに響応して、ますます著しき動揺を生ずるの事情あり。第四に、数回重ねてこれに動揺を与うるときは、ますますその動勢を増進するの事情あり。第五に、数回回転の後は、手も身体もともに動揺するの習慣性を生じて、これを制止せんと欲するも、たやすく制止すべからざるの事情あり。第六に、その装置もまた習慣性を生じて、手をもってことさらにこれに触れざるも、自然の勢い回転を永続せんとするの事情あり。これらの諸事情あるによりて、コックリの回転を見、その回転はなはだしきに至れば、あるいは足をあげ、あるいは足を転じて踏舞の状をなし、室中を自在に横行するの勢いを示すに至るなり。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-55266-56755"><seg source="#source-55266-56755">余、かつてこれを試むるに、二、三人にてなすよりは、四、五人にてなす方、よろしきように覚えたり。これ、衆人の力相加わること多ければ、ますます著しき回転を示すべき道理あるによる。しかれども、衆人の与うるところの動揺の調子、互いに相応合するにあらざれば、かえってその動揺を妨ぐるの事情あるをもって、三、四人にてなす方、かえってよろしきことあり。もし、その回転の際、一人不意に笑いを発してその調子をくるわするときは、たちまちその動揺をとどむるに至るは、けだし、この道理あるによる。しかれども、この第一、第二の原因のみにては、いまだコックリの説明を与えたりと称すべからず。なんとなれば、コックリはなにびとこれを行うも、必ずその効験あるにあらずして、生来信仰心の厚きもの、知力に乏しきもの、または婦女子のごとき感動しやすき性質を有するものありて、これに加わるときは、たやすくその回転を見、知力に長じ信仰力弱きものは、なにほど試験を施すも、これをしてその回転を示さしむることあたわず。これによりてこれをみれば、第一、第二の原因のほかに、別に考うべき事情あるべし。これ、余が第三の原因を設くるゆえんなり。</seg></p>
+      </div>
+      <div type="layout" source="#source-56755-56832" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-56776-56830"><seg source="#source-56776-56788">第二二節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-56832-57250"><seg source="#source-56832-57250">第三の原因は、コックリの説明を与うるに最も必要なる原因にして、これ全く心性作用よりきたるものなり。今、余は便宜のため、この原因を内因と外情とに分かちて説明せんと欲す。内因とは、人の心性自体の性質より生ずるものをいい、外情とは、その心性作用を促すところの種々の事情をいうなり。</seg></p>
+      </div>
+      <div type="layout" source="#source-57250-57327" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-57271-57325"><seg source="#source-57271-57283">第二三節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-57327-58807"><seg source="#source-57327-58173">まず第一に内因を述ぶるに、その主たるものを不覚筋動と予期意向の二者とす。今この二者を知らんと欲せば、不覚作用について一言せざるべからず。不覚作用とは、人のその心に識覚することなくして、自然に発動する心性作用をいう。ゆえに、あるいはこれを自動作用と称す。また、これを反射作用と称することあり。反射作用とは、刺激に応じてただちに起こる無意不覚作用を総称する名目なり。例えば、消化作用、呼吸作用はもちろん、外物の目に触るるときは知らず識らず目を閉じ、手足に刺激を受くるときは知らず識らず手足を動かすがごとき、みな反射作用なり。かくのごとき反射作用は、神経組織中の延髄、</seg><ruby type="furigana" rend="right" source="#source-58173-58197"><rb>脊髄</rb><rt>せきずい</rt></ruby><seg source="#source-58197-58807">より生ずるものにして、大脳より生ずるものにあらず。大脳は感覚、知覚の中枢にして、精神、思想の本位なり。例えば、我人の外物のなんたるを知り、道理のなんたるを考え、動かんと欲して動き、とどまらんと欲してとどまるがごときは、みな大脳の作用にして、反射自動作用にあらず。ゆえに、大脳の作用は有意識覚の作用となす。しかれども、その作用中にまた無意不覚の反射作用あるを見る。これ、余がここに論ぜんと欲するところなり。</seg></p>
+      </div>
+      <div type="layout" source="#source-58807-58884" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-58828-58882"><seg source="#source-58828-58840">第二四節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-58884-59279"><seg source="#source-58884-59279">今、この大脳の不覚作用を論ずるに当たり、まず不覚の一般に起こる原因事情について一言せざるべからず。およそ不覚の起こるに六種の事情あり。第一は習慣より生じ、第二は意向より生じ、第三は疲労より生じ、第四は眠息より生じ、第五は激動より生じ、第六は錯雑より生ずるなり。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-59279-60301"><seg source="#source-59279-59981">まず第一の事情を述ぶるに、従来意力を用いてなしたることも、多年その一事をもって習慣となすときは、自らこれを識覚せずして自然に成るに至る。例えば詩歌を作るがごとし。そのはじめこれを稽古するに当たりては、いろいろ思慮工夫を用いてはじめて成りしも、多年勉強熟達したる後は、口を発すれば、その言おのずから詩となり歌となりて、ほとんど自らいかにしてその成りしを識覚せざることあり。これ、いわゆる習慣によりて、識覚有意作用の不覚無意作用に変じたる一例なり。また、人の書を読み経を</seg><ruby type="furigana" rend="right" source="#source-59981-59999"><rb>誦</rb><rt>しょう</rt></ruby><seg source="#source-59999-60301">するに当たり、そのはじめは心を用い意を注ぎてこれをなし、数回反復の後は口に任せて自然に読誦することを得るに至るも、この一例なり。その他、人の事業に習熟進歩することを得るは、みなこの規則の存するによる。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-60301-60645"><seg source="#source-60301-60645">つぎに第二は、意力を一方に会注するときは、他方に不覚を生ずるの事情をいう。例えば、意を凝らして一心に読書するときは、心の全力その読書の一方に集まるをもって、他の部分にいかなる刺激を受くるも、自ら感覚せざることあるの類これなり。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-60645-60773"><seg source="#source-60645-60773">第三は、心性の疲労したるときは、平常識覚せしことも識覚せざることあるの事情をいう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-60773-60964"><seg source="#source-60773-60964">第四は、人の眠息の間には、たとい夢中に工夫思慮することあるも、手足を動かし寝言を発することあるも、自ら識覚せざる事情をいう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-60964-61185"><seg source="#source-60964-61078">第五は、心性、思想の激動して感覚を失する事情にして、例えば火事のとき、また</seg><ruby type="furigana" rend="right" source="#source-61078-61102"><rb>酩酊</rb><rt>めいてい</rt></ruby><seg source="#source-61102-61185">のときは、自らなにをなしたるかを識覚せざるの類をいう。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-61185-61480"><seg source="#source-61185-61480">第六は、種々の思想の錯雑混同して起こるときは、また自らなにをなしたるかを識覚せざるの事情にして、例えば、種々の心配の一心に集まるときは思想の混雑をきたして、往々識覚を失することあるの類をいう。</seg></p>
+      </div>
+      <div type="layout" source="#source-61480-61557" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-61501-61555"><seg source="#source-61501-61513">第二五節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-61557-62831"><seg source="#source-61557-62831">以上の諸事情によりて人に不覚作用の起こること、すでに知るべしといえども、その事情の起こるはいかなる原因によるや、いまだ明らかならざるをもって、ここにその原因を論究する、また必要なりとす。およそこれを論究するに二種の法あり。一は生理上より論究し、一は心理上より論究するこれなり。生理上より論究するは、心理研究に欠くべからざる法なりといえども、脳髄内部の形情関係は、生理学の実験いまだつまびらかならざるをもって、いちいちこれをその実験に照らして証明することあたわず。ゆえに、その証明すべからざるものに至りては、心理上より想像推論することあるべし。今、神経の構造を考うるに、神経繊維と神経細胞との二種ありて、その一は中枢作用をつかさどり、その一は伝導作用をつかさどる。その伝導をつかさどる神経にまた二種ありて、一は求心性神経と称して、神経の末端より中枢に伝うる作用を有するものをいい、一は遠心性神経と称して、中枢より末端に伝うる作用を有するものをいう。</seg></p>
+        <p source="#source-62831-62907"><figure snh:figure-class="illustration" source="#source-62831-62905"><graphic url="fig49375_01.png" width="254px" height="276px"/><figDesc>神経組織の図１</figDesc></figure></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-62907-63737">今、仮に「伊」を中枢器とし、「呂」「波」を末端とし、「呂」より「伊」にわたる繊維を求心性神経と定め、「呂」より「波」にわたる繊維を遠心性神経と定めて論ずるに、「呂」点において受くるところの刺激は、次第に相伝えて「伊」に達し、「伊」点において起こるところの興奮は、次第に相伝えて「波」に達す。これを神経組織の一元素とす。しかれども、高等動物および人類の神経組織は、かくのごとき単純なるものにあらず。中枢にも、一部位の中枢と中央の中枢との数種あり、繊維にも、末端と中枢の間にわたるものと、中枢と中枢の間にわたるものとの数種ありて、極めて複雑なるものなり。</p>
+        <p source="#source-63737-63813"><figure snh:figure-class="illustration" source="#source-63737-63811"><graphic url="fig49375_02.png" width="242px" height="330px"/><figDesc>神経組織の図２</figDesc></figure></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-63813-64840">今、仮に「伊」を部位の中枢と定め、「仁」を中央の中枢と定めて論ずるに、「伊」および「イ」は<ruby type="furigana" rend="right" source="#source-63951-63975"><rb>脊髄</rb><rt>せきずい</rt></ruby>もしくは各部位の神経節にして、「仁」は脳髄なりと想定することを得べし。脳髄は感覚、知覚、思想、意志の存する所にして識覚作用の本位なるも、部位の神経節は不覚作用の中枢器なり。ゆえに、「呂」より入りきたるところの感覚、「伊」の中枢に達し、ただちに「波」に向かって流れ出ずるときは不覚となり、「伊」の中枢よりさかのぼりて「仁」に達し、「仁」の命令を「波」に伝うるときは識覚作用となるべきなり。例えば、人の眠りに就くに当たり、針をもってその人の足の一端を刺激するときは、必ずその足を外に転ずるも自ら識覚せざることあるは、「伊」の中枢に達して、いまだ「仁」の中枢に達せざるによるなり。</p>
+      </div>
+      <div type="layout" source="#source-64840-64917" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-64861-64915"><seg source="#source-64861-64873">第二六節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-64917-65510">さらに進みてこれを考うるに、「呂」より入りきたるところのもの、あるいは「伊」に達してただちに「波」に向かって出ずるものあり、あるいは「伊」よりさかのぼりて「仁」に達するものあるはいかんというに、これ習慣、遺伝の影響に帰するよりほかなし。さきに挙ぐるところの呼吸作用および消化作用のごときは、遺伝の影響によるものなり。足によりて自然に歩行し、手によりて自然に運動するは、習慣より生ずるものなり。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-65510-66720"><seg source="#source-65510-65750">今その例を示すに、最も簡便なるものは、俗に癖というものこれなり。人と互いに対座するの際、あるいは折々首をかくものあり、あるいは折々膝を擦するものあり、あるいは</seg><ruby type="furigana" rend="right" source="#source-65750-65765"><rb>髯</rb><rt>ひげ</rt></ruby><seg source="#source-65765-65810">をひねるもの、あるいはキセルを</seg><ruby type="furigana" rend="right" source="#source-65810-65825"><rb>弄</rb><rt>ろう</rt></ruby>するものあるは、平常の習慣の相積みて一種の癖を生じたるものなり。すでに一種の癖を生ずるときは、自らそのなすところを識覚せざるをもって、いわゆる不覚作用なり。その不覚作用の起こるは、「呂」点より伝うるところの感覚「伊」に達して、再三「波」に向かって出ずるときは、習慣の力その波道次第に習熟して、「呂」点より入りきたるところのもの、その余波を「仁」点に伝うるを待たず、ただちに「波」に向かって流出するに至るがゆえなり。これに反して、識覚作用の起こるは、「伊」点に達するところのもの、その余波を「仁」に伝えて、その中枢作用を催起するによる。これをもって、不覚作用の習慣によりて起こるゆえんを知るべし。</p>
+      </div>
+      <div type="layout" source="#source-66720-66797" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-66741-66795"><seg source="#source-66741-66753">第二七節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-66797-67666">しかるにまた、脳髄中の思想作用の、不覚作用に変ずることあるゆえんを考うるに、その不覚作用とは、「呂」より入りきたるところの動波「仁」に達して、なお自ら識覚せざることあるをいう。例えば、多年習練したるものの詩歌を作るときは、自らそのいかにして成るを識覚せずして自然に成るの類にして、これまた習慣より生ずること論をまたず。けだし、大脳中にも無数の神経細胞ありて、その細胞の間に連接する無数の神経繊維あり。その繊維と細胞との間に伝流する波道次第に熟習して、その出入の際、猶予の時を要せざるに至れば、大脳中の識覚作用も変じて不覚作用となるべし。これ、いわゆる習慣、経験によるものなり。</p>
+        <p source="#source-67666-67742"><figure snh:figure-class="illustration" source="#source-67666-67740"><graphic url="fig49375_03.png" width="279px" height="296px"/><figDesc>神経組織の図３</figDesc></figure></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-67742-69222">今、仮に「伊」「呂」「波」「仁」の四個の細胞、ならびにこれを連結する繊維、ともに大脳中にありて心性作用をつかさどるものと定めて論ずるに、「伊」の刺激を受くるときにはその興奮を「仁」に伝えて、「仁」のこれに伴って興奮すること数回に及べば、その間習慣性を養成して、「伊」の興奮するごとに、知らず識らず「仁」の興奮するを見る。これを心理上より論ずるときは、「伊」の思想起こるに伴って「仁」の思想の起こること数回に及ぶときは、その後「伊」の起こるごとに、自然に「仁」を<ruby type="furigana" rend="right" source="#source-68435-68459"><rb>惹起</rb><rt>じゃっき</rt></ruby>するの性を養成するに至るなり。これを心理学にては連想の規則とす。連想とは思想の連合を義として、一思想起これば、他の思想の自然にこれに伴って起こるをいう。けだし、夢中に種々の思想の自然に相接して起こるは、この連想の規則あるによる。これ、みな習慣より生ずるものなり。もしその習慣性に抗して、「伊」の起こるときに「呂」もしくは「波」を起こさんとするときは、意力の作用を要す。もし、これを無意不覚に任ずるときは、「伊」に伴って「仁」の起こるを見るのみ。これ、大脳中の不覚作用の、習慣連想の規則より生ずるゆえんなり。</p>
+      </div>
+      <div type="layout" source="#source-69222-69299" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-69243-69297"><seg source="#source-69243-69255">第二八節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-69299-70363"><seg source="#source-69299-69419">つぎに、意向によりて不覚作用の起こるゆえんを考うるに、意向は心力の一方に集合、</seg><ruby type="furigana" rend="right" source="#source-69419-69446"><rb>会注</rb><rt>かいちゅう</rt></ruby><seg source="#source-69446-70363">するより起こるをもって、仮に脳中の心力の全量を百と定めてこれを五分に分かつに、各部二十の力を有するを平常のときとす。しかれども、その時々刻々の事情に従って、全部平均を得ること難きをもって、自然に多量の力の一方に集合することあり、また、ことさらに多量の力を一方に会注することあり。これを意向または注意という。ゆえに、意向の作用によりて一方に数倍の力を増加し、他方にほとんど全くその力を欠くことあり。その力の欠けたる部分は、全く休止して作用を営まざるか、またはたといこれを営むも反射自動作用にとどまり、識覚有意作用を現ぜざるなり。ここにおいて不覚作用起こる。すなわち、この作用は意向によりて生ずるところの不覚なり。</seg></p>
+        <p source="#source-70363-70441"><figure snh:figure-class="illustration" source="#source-70363-70437"><graphic url="fig49375_04.png" width="225px" height="368px"/><figDesc>脳中の心力の図</figDesc></figure></p>
+      </div>
+      <div type="layout" source="#source-70441-70518" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-70462-70516"><seg source="#source-70462-70474">第二九節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-70518-71948"><seg source="#source-70518-71948">つぎに、疲労または眠息によりて不覚の起こるゆえんを考うるに、すべて活動物は一定の時間活動を営めば、必ず疲労するの規則を有す。身体を役すれば身体の上に疲労をきたし、心性を用うれば心性の上に疲労をきたすものなり。しかして、ひとたび疲労すれば、必ず一定の時間休息を取らざるべからず。ここにおいて眠息起こる。今、この疲労と眠息の間に起こる不覚作用を論ずるに、神経の全部疲労したるときは、その有するところの識覚力大いに衰うるをもって、たとい身体の一部分においていかなる作用を営むことあるも、自ら識覚せざることあり。また、神経の一部分疲労したるときは、他の部分は識覚するも、その部分は不覚となることあり。もし、その神経いったいに疲労して眠息を取るに至れば、全身の事情を識覚せざるは熟眠のときを見て知るべし。しかるに睡眠中といえども、往々夢を結びて種々の思想を起こし、あるいは夢中にありて種々工夫思慮して、新発明をなしたるの例少なからず。これ、いかなる理によるかをたずぬるに、睡眠中といえども、大脳中の一部分休息して、他の部分の識覚することあり。このとき夢を結ぶ。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-71948-73308"><seg source="#source-71948-72182">しかして、その夢中に種々の思想の連起するは、さきに示すところの連想の規則により、その平常想出し発見すべからざることをよく発見するは、一は脳の一小部分ひとり</seg><ruby type="furigana" rend="right" source="#source-72182-72206"><rb>醒覚</rb><rt>せいかく</rt></ruby><seg source="#source-72206-73308">して、他の部分ことごとく休息するをもって、その一部分に集まるところの心力の分量、これを他の部分に比するに、その割合ことに多きにより、一は一部分の思想ひとりその作用を営み、他の部分の思想のこれを妨ぐることなきによる。しかして、その想するところのもの、往々事実に合せざることあり、また自ら識覚せざることあるは、脳の全部醒覚せざるをもって、心性各部の作用の、その自他の間に存するところの関係を失するによる。第五の激動、または第六の錯雑は、脳中の全部に平等に分配せる心力の分量の不平均を生ずるによる。けだし、人の健全無事の日にありては、心力平等に全脳の各部にわたり、互いに相関係してその作用を営むも、一時非常の刺激または病患等の事情に接するときは、その序次権衡を失して、心力の不平均関係の錯乱を生ずるをもって、一部分の不覚を見るに至るなり。</seg></p>
+      </div>
+      <div type="layout" source="#source-73308-73385" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-73329-73383"><seg source="#source-73329-73341">第三〇節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-73385-74880"><seg source="#source-73385-74880">以上の諸事情によりて起こるところの不覚作用に、また数種あり。すなわち、思想作用を覚せざることあり、感覚作用を覚せざることあり、運動作用を覚せざることあり。例えば、夢中に工夫思慮して自ら識覚せざるがごときは、その第一種に属し、火事場に傷害を受けて自らその苦痛を覚せざるがごときは、その第二種に属し、歩行するの際、自らその歩行するを覚せざるは、その第三種に属す。しかしてまた、思想作用のその結果を筋肉の運動の上に生じて、自らその運動を識覚せざるもの、これをここに不覚筋動という。不覚筋動とは、筋肉の間に動作を現じて自らその動作を識覚せざるを義として、これをコックリ作用の主原因とするなり。例えば、人すでにその心にコックリの回転すべきを知るをもって、その自ら思うところのもの、知らず識らず筋肉の上に発現してその動作を営むをいう。他語もってこれをいえば、人おのおの自ら識覚せずして、自然にその手の運動をコックリの上に与うるによる。しかして、その運動を生ずる内因は予期意向なり。予期意向とは、あらかじめかくあるべしと自ら期して、その一方に意を注ぐをいう。これ、いわゆるさきの意向によりて生ずる不覚なり。</seg></p>
+      </div>
+      <div type="layout" source="#source-74880-74957" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-74901-74955"><seg source="#source-74901-74913">第三一節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-74957-75813"><seg source="#source-74957-75813">余がさきに略図をあげて示すごとく、神経には求心性、遠心性の二種ありて、外部に起こる刺激を大脳に伝えて感覚を生ずるは求心性の作用により、大脳の命令を外部に伝えて運動を示すは遠心性の作用による。しかしてその運動は、外部の刺激に応じて起こるものと、脳中の事情よりただちに発するものあり。その脳よりただちに発する運動に、識覚するものと識覚せざるものあり。その識覚せざるもの、これコックリの原因にして、余がいわゆる予期意向、不覚筋動の事情なり。ゆえに、もしこれを、さきに挙ぐるところの六種の不覚作用の原因に考うるときは、その第二の意向によりて生ずる不覚に属するものと知るべし。</seg></p>
+      </div>
+      <div type="layout" source="#source-75813-75890" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-75834-75888"><seg source="#source-75834-75846">第三二節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-75890-77370"><seg source="#source-75890-76481">今、さらに意向によりて不覚を生ずるゆえんを考うるに、人もし一方に心の全力を注ぐときは、他方に心力を現ぜざるに至り、あるいは一方の思想の発現して他方の運動を示すも、自ら識覚せざるに至るべし。例えば、子供がその目前に菓子あるを見て、一念にこれを味わわんと思うときは、知らず識らずその手を出だすに至り、また、人が音楽を聞きて一心にこれを聴かんとするときは、知らず識らずその方に耳を傾くるに至り、また</seg><ruby type="furigana" rend="right" source="#source-76481-76505"><rb>深淵</rb><rt>しんえん</rt></ruby><seg source="#source-76505-77102">に臨んで、心ひそかにそのまさに陥らんとするを恐るるときは、知らず識らずその足を退くるに至り、見せ物を見てその愉快を感ずるときは、自然にその足の前に進み、その頭の前に出ずるに至り、あるいはまた、ひとり幽室に間座して心に古人の詩を想するときは、自然にその句を口に発するに至り、あるいはまた、相撲好きが相撲の景況を想出し、芝居好きが芝居の形情を想出するときは、自然にその手足をうごかし、その身体を動かして</seg><ruby type="furigana" rend="right" source="#source-77102-77126"><rb>外貌</rb><rt>がいぼう</rt></ruby><seg source="#source-77126-77370">に示すに至る。これみな、心中にその意を注ぐところのもの、知らず識らず発して外部の運動を現ずるに至るものにして、余がいわゆる予期意向より不覚筋動を生ずる一種なり。</seg></p>
+      </div>
+      <div type="layout" source="#source-77370-77447" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-77391-77445"><seg source="#source-77391-77403">第三三節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-77447-78067">今、コックリの回転も、もとよりこの理に基づくものにして、これを試むる人は大抵みな、あらかじめコックリの回転するを知り、またその回転の、人の問いに応答するを知るをもって、その思想、知らず識らず発現して手の上に動作を起こし、ただにその回転の結果を見るのみならず、その回転のよく人の問いに答えて、事実を告ぐるの結果あるを見るに至るなり。今ここに、さきごろ『やまと新聞』に掲載せる一項を引きて、その一例を示さん。曰く、</p>
+      </div>
+      <div type="layout" source="#source-78067-78998" style="padding-inline-start: 2em">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-78102-78962"><seg source="#source-78102-78186">巣鴨におる勇公というもの、このほど王子に茶屋奉公して、</seg><ruby type="furigana" rend="right" source="#source-78186-78207"><rb>於辰</rb><rt>おたつ</rt></ruby><seg source="#source-78207-78267">という女を女房にもらいしが、この節流行の</seg><ruby type="furigana" rend="right" source="#source-78267-78294"><rb>狐狗狸</rb><rt>こっくり</rt></ruby>を始め、勇公が、「もし、狐狗狸様、於辰もこれまで、よい人がありましたろう。あったなら足を上げて下さい」というと、その足が上がったので、於辰も負けぬ気で、「勇さんには、今でもなにかありましょう。あるならこっちの足を」というと、またそのとおりにしたのがもとで喧嘩をしだしたに、母は見かねて、「今のはじょうだんにしたのだ。狐狗狸様、じょうだんに違いないなら右へ回って下さい」というと、またまたそのとおりしたので、三人一度に大笑いとなりてすんだという。</p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-79000-79094"><seg source="#source-79000-79094">これ、その心に思うところの意向に応じて筋動を生ぜしによる。</seg></p>
+      </div>
+      <div type="layout" source="#source-79094-79171" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-79115-79169"><seg source="#source-79115-79127">第三四節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-79171-80468"><seg source="#source-79171-80468">しかりしこうして、思想と運動との間に互いに連結するありて、甲の思想には甲の運動を現じ、乙の思想には乙の運動を現じて、甲乙相混ぜざるはいかなる理によるというに、これまた、さきに挙ぐるところの習慣連想の規則による。すなわち、音楽を聴かんと思えば自然に耳を傾くるは、その平常経験の際、音楽の思想と聴官の作用との間に連合を生じて、音楽を思えばただちにその作用を、聴官の上にきたすの関係を習成せしによる。ゆえに、菓子を取らんと欲すれば自然に手を出だし、歩行をいたさんと思えば自然に足を出だすに至り、菓子を取らんと欲して足を出だし、歩行をいたさんと思って手を出だすものなきなり。これみな、平時反復経験の際、習慣性の力によりてこの連合を生ずるものなり。今、コックリの回転するを知れば、自然に手の上にその動作を現じ、左右へ回転せんことを思えば左右にその力を加え、足の上下するを求むればその上下にその力を加えて、自然にその期するところの結果を示すに至るも、自ら全く知らざるなり。</seg></p>
+      </div>
+      <div type="layout" source="#source-80468-80545" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-80489-80543"><seg source="#source-80489-80501">第三五節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-80545-82548"><seg source="#source-80545-81226">その他、人の年齢をコックリに向かって問うにその答えあるは、これを問う人あらかじめその年齢を知るをもって、不覚筋動を生ずるに至るなり。しかるに、明らかにその年齢を知らざるもの、コックリにたずねてこれを知ることあるはいかんというに、これまた不覚筋動によるものなり。けだし、不覚筋動は必ずしもその明らかに知るところのものより生ずるにあらず、その想像するところ、その推察するところのものより生ずることまた多し。例えば、明らかにある人の年齢を知らざるも、その人の</seg><ruby type="furigana" rend="right" source="#source-81226-81250"><rb>外貌</rb><rt>がいぼう</rt></ruby><seg source="#source-81250-82339">、挙動について多少その年齢を察知することを得るをもって、その察知せしところのもの、自然に筋動を生ずるに至るなり。しかして、そのこれを察知するも連想力によりて自然に起こり、その筋動を生ずるもまたこの力によりて自然に起こり、さらにこれを識覚することなし。店に幾名の人あるを知らずして、コックリにたずねてその実を得、戸外に子供幾人あるを知らずして、コックリに問うてその数を知るがごときは、全く想像、推察によるものなり。すなわち、その心に自然に想像、推察するもの、知らず識らず筋動を生ずるに至るなり。しかして、その想像は経験連想の力によりて自然に生ずるをもって、必ずしも意力を用いてこれを想起するにあらず、また推理によりてこれを論定するにあらず、ただ自然の勢い、知らず識らずその想を現ずるなり。例えば、われわれが故人の名を思えば、その</seg><ruby type="furigana" rend="right" source="#source-82339-82363"><rb>容貌</rb><rt>ようぼう</rt></ruby><seg source="#source-82363-82548">自然にわれわれの想像中に現ずるがごとし。また、たとい一面識なき人も、その名を聞けば、おのずからその容貌を想出するがごとし。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-82548-83458"><seg source="#source-82548-82734">これをもって、明らかに知らざることも、コックリに問うて知ることを得るに至るなり。その他、コックリの回転するに当たり、獣類中</seg><ruby type="furigana" rend="right" source="#source-82734-82758"><rb>天狗</rb><rt>てんぐ</rt></ruby><seg source="#source-82758-83458">の来たるときはその力最も強く、弱小なる獣類の来たるときはその力また弱しというがごときも、連想の規則によりてしかるなり。すなわち、われわれが天狗について、その力の強きを知るときは、天狗と強力との間に思想の連合するありて、天狗の来たると思えば自ら強き力をこれに与うるをもって、コックリもこれに伴ってまた強き回転を示すに至るべし。これに反して、弱き獣類の来たると思えば弱き力を与うるをもって、弱き回転を見るに至るなり。これみな、連想より生ずる不覚作用といわざるべからず。</seg></p>
+      </div>
+      <div type="layout" source="#source-83458-83535" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-83479-83533"><seg source="#source-83479-83491">第三六節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-83535-84931"><seg source="#source-83535-83889">ここにまた、一時記憶に失して自ら識覚せざることの、不覚筋動となりて現ずることあり。例えば、一時失念したることの夢中に現じ寝言に発することあるも、自らそのいかにして発現するを識覚せざるがごとし。余がかつて経験するところによるに、ある人の</seg><ruby type="furigana" rend="right" source="#source-83889-83913"><rb>苗字</rb><rt>みょうじ</rt></ruby><seg source="#source-83913-84931">を知りて実名を忘れたることあり。そのとき、なにほどこれを考うるも想出することあたわざりしに、筆を取りてその苗字を書き終わりたれば、自然の筆勢によりてその実名を書き出だせしことあり。また、字に書かんと欲して忘れたるものを、口に発して想出することあり。これ、ややその性質を異にするところあるも、また一時の記憶に漏れたるものの不覚筋動となりて現ずるものなり。しかして、その一時の失念は種々の事情より生ずるも、余が案ずるところによるに、意向または心力の他の部分に会注して、その記憶の存する部分に不覚を生ぜしによるならん。これをもって、自ら記憶せざることを、コックリにたずねて知ることを得、あるいは自ら現に知るところのものと全く反対したるものを、コックリの答えによりて知ることあるなり。</seg></p>
+      </div>
+      <div type="layout" source="#source-84931-85008" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-84952-85006"><seg source="#source-84952-84964">第三七節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-85008-86578"><seg source="#source-85008-86031">もし、あるいはコックリに向かって未来のことをたずぬるときは、単に想像または推察によるよりほかなし。ゆえにその応答、事実に合せざることなからざるべからず。しかるに、人の試むるところによるに、コックリに向かって過去のこと、または自ら経験したることを問うときは、たいてい事実に適中するも、将来のこと、もしくはいまだ経験せざることを問うときは、適合せざるもの多しという。これ、もとよりその理なり。もし、果たしてコックリは鬼神の作用によるならば、未来のことも過去のことと同様に、確実なる応答を得ざるべからず。しかして、そのしからざるは、鬼神の作用にあらざる一証なり。およそ未来のことは、過去の経験に準じて多少察知すべきのみならず、また他にこれを知り得べき事情あり。例えば、明日の天気の良否を</seg><ruby type="furigana" rend="right" source="#source-86031-86046"><rb>卜</rb><rt>ぼく</rt></ruby><seg source="#source-86046-86578">するがごときは、その良なるか、不良なるか、その中間なるかの三答のほかに出ずることあたわず。ゆえに、われわれは無意偶然に判断を下すも、その判断の三分の一は、ぜひとも事実に適合すべき割合なり。これにそのときの種々の事情を参考するときは、十中の八九は事実に適合することを得べし。ゆえに、コックリのよく未来のことを判断することあるも、あえて驚くに足らざるなり。</seg></p>
+      </div>
+      <div type="layout" source="#source-86578-86655" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-86599-86653"><seg source="#source-86599-86611">第三八節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-86655-87772"><seg source="#source-86655-87772">ここにまた、コックリは人の思想に従って起こるゆえんを証する一事実あり。近ごろ洋学書生の内にては、コックリに向かって、英語またはドイツ語をもって問答することありという。すなわち、これを試むるもの英語を知れば、コックリもまた英語を知り、これを試むるものドイツ語を知れば、コックリもまたこれを知るの別あるは、その問答ともに、わが方になすところの不覚作用によるや明らかなり。また、コックリに向かって答えを得るは、極めて単純なることか、または一般に関することに限り、その複雑または細密のことに至りては、コックリの応答を得ること難し。例えば、コックリに向かって明日は雨か晴れかをたずぬるときは、その応答を得べきも、何時何分より雨降り、何時何分に風起こるかをたずぬるも、決してその応答を得べからず。これまた、コックリは鬼神のなすところにあらざる一証なり。</seg></p>
+      </div>
+      <div type="layout" source="#source-87772-87849" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-87793-87847"><seg source="#source-87793-87805">第三九節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-87849-89294"><seg source="#source-87849-89294">これによりてこれをみるに、コックリのわが意のごとく回転し、わが問いに応じて答えを与うるは、全く予期意向と不覚筋動とによること疑いをいれず。しかして、これを試むるもの、ことごとく不覚筋動を生ずるを要せず、その中の一人、この不覚筋動によりて回転の微力を与うるときは、他の人の力自然にこれに加わりて、次第に大運動を現ずるに至るは必然の勢いなり。余が経験するところによるに、コックリの仲間に婦人一名を加うれば速やかに回転すといい、信仰者一名を加うればたやすく動揺すというも、またこの理にほかならず。けだし、婦人はその性質いたって感じやすく信じやすきものなるをもって、予期意向のいたって強きものなり。また、信仰者はその一事に意を注ぐをもって、これまた不覚筋動を生じやすきものなり。一昨年、豆州下田港において、数名の巡査相集まりてこれを試みたるに、その回転を見ず。さらに他の信仰者一名これに加わりて試みたるに、たちまち回転の成績を得たりという。これ、そのとき巡査もすでに信仰心を起こしたるによる。信仰心とは、心のある一方に帰向することにて、余のいわゆる予期意向と同一なり。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-89294-90525"><seg source="#source-89294-89651">人に予期意向なきときは回転を生ずべき理なきはもちろん、その力弱きときはその運動もまた弱く、その力強きときはその運動もまた強きの関係あるをもって、回転の強弱は信仰心の厚薄に伴うゆえんを知るべし。これに反して、信仰心なき者は心の全力を一方に</seg><ruby type="furigana" rend="right" source="#source-89651-89678"><rb>会注</rb><rt>かいちゅう</rt></ruby><seg source="#source-89678-90525">せざるのみならず、その全身を支配するの知覚を失せざるをもって、不覚筋動を現ずるに至るべき理なし。これ、知力に富みたる者および虚心平気の者には、コックリの回転を見ることなきゆえんなり。婦人にても、これによくその回転すべき理なきを説き明かし、その場に臨んで目を閉じて、つとめてその心を虚静に保たしむるときは、たいてい回転せざるものなり。しかれども、前来数回経験してその回転を見たるものは、自然に前時の思想に支配せらるるをもって、その心を虚静に保つことはなはだ難しとす。ゆえに、もし婦人をして不覚筋動を生ぜざらしめんと欲せば、いまだ一回も経験せざるものにおいてすべし。</seg></p>
+      </div>
+      <div type="layout" source="#source-90525-90602" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-90546-90600"><seg source="#source-90546-90558">第四〇節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-90602-91246"><seg source="#source-90602-91246">また、上田某氏の報知によるに、老人たちにて試むるよりは、少年輩にて試むる方、効験ありという。これまた、その理あり。少年輩は心身ともに強壮なるをもって、予期意向と不覚筋動を生じやすきものなり。老人はこれに反して、意力、知覚ともに衰えたるをもって、その心をある一方に集合するの力はなはだ弱し。かつ、年齢の長じたるものは実際の経験に富むをもって、前後の事情を酌量して猶予思考するの傾向あり。これに従って不覚筋動を生ずること難きなり。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-91246-92015"><seg source="#source-91246-91255">世に</seg><ruby type="furigana" rend="right" source="#source-91255-91276"><rb>棒寄</rb><rt>ぼうよ</rt></ruby><seg source="#source-91276-92015">せと称する怪術あり。その法、人をして両手に五尺ばかりの棒をとり、その中央を握り、これを垂れて、その自然の勢いに任ずるときは、棒の前端互いに相寄りて、ついに相合するに至る。これ、コックリと同一の道理に基づき、予期意向より生ずるものなり。ゆえに、コックリの作用を試みんと欲せば、棒寄せについて実験を施すも不可なることなし。余、かつて数人に命じて棒寄せを試みたるに、やはり婦人、子供のごとき、信仰心を起こしやすきものにその結果を現じ、知力に長じ虚心平気のものには、その効験を示さざることを知れり。</seg></p>
+      </div>
+      <div type="layout" source="#source-92015-92092" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-92036-92090"><seg source="#source-92036-92048">第四一節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-92092-93659"><seg source="#source-92092-92317">さらに一例を挙げて予期意向の影響を示すに、例えば、かすかに一声を聞きてその声判然せざるとき、これを人語なりと予期して聞けば人語となりて聞こえ、これを</seg><ruby type="furigana" rend="right" source="#source-92317-92341"><rb>禽音</rb><rt>きんいん</rt></ruby><seg source="#source-92341-92491">なりと予期して聞けば禽音となりて聞こえ、これを水声なりと予期して聞けば水声となりて聞こゆるものなり。</seg><ruby type="furigana" rend="right" source="#source-92491-92524"><rb>鶯声</rb><rt>うぐいすのこえ</rt></ruby>を聞きて「<ruby type="furigana" rend="right" source="#source-92539-92569"><rb>法華経</rb><rt>ほけきょう</rt></ruby>となく」と思えば「法華経」となりて聞こえ、<ruby type="furigana" rend="right" source="#source-92632-92668"><rb>鵑声</rb><rt>ほととぎすのこえ</rt></ruby>を聞きて「<ruby type="furigana" rend="right" source="#source-92683-92719"><rb>不如帰去</rb><rt>ふじょききょ</rt></ruby>となく」と思えば「不如帰去」となりて聞こゆるものなり。また、夜中形色の判然せざるものに接すれば、あるいは人のごとく見え、あるいは鬼神のごとく、あるいは幽霊のごとく見えて、わが心に予期するところ異なれば、その形また異なるものなり。俗にいう「足の音に<ruby type="furigana" rend="right" source="#source-93088-93103"><rb>騙</rb><rt>だま</rt></ruby>される」「風の音に騙される」等は、みなこれと同一理なり。しかしてこの理また、コックリの説明を与うることを得るなり。今、これを試むるに当たり、その中に加わりたるもの、特にその実際の回転を予期するときは、そのいまだ判然たる運動を現ぜざるに、すでに多少の運動を現ずるがごとく見え、一寸回転すれば、一尺回転するがごとく見ゆるに至る。これ、大いにコックリの作用を助くるものなり。</p>
+      </div>
+      <div type="layout" source="#source-93659-93736" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-93680-93734"><seg source="#source-93680-93692">第四二節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-93736-94355"><seg source="#source-93736-94355">以上論ずるところ、これを要するに、コックリの主原因は意向信仰より生ずる不覚作用にして、すなわち予期意向と不覚筋動より生ずるものなり。他語もってこれをいえば、その心において、あらかじめかくあるべしと思うところのもの、知らず識らずその作用を筋肉の上に起こして、自ら要するところの結果を得るに至る。ゆえをもって、婦人および子供のごとき、予期意向を生じやすきものに最も効験ありて、学識あるものにその験なきに至るなり。</seg></p>
+      </div>
+      <div type="layout" source="#source-94355-94432" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-94376-94430"><seg source="#source-94376-94388">第四三節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-94432-95481"><seg source="#source-94432-94840">つぎに、第二の外情より生ずる影響を述ぶるに、これ予期意向を促すところの事情にして、すなわち人の信仰心を導くところの事情なり。種々の儀式を設け、種々の規則を定め、種々の装飾をなして、丁重、厳粛にこれを行うがごときは、みな人の信仰をむかうるものにほかならず。例えば、竹の中に</seg><ruby type="furigana" rend="right" source="#source-94840-94867"><rb>狐狗狸</rb><rt>こっくり</rt></ruby><seg source="#source-94867-94996">の札を入れ、あるいは縄の中に婦人の髪の毛を入れ、あるいは風呂敷をその上に加え、あるいは</seg><ruby type="furigana" rend="right" source="#source-94996-95011"><rb>蓋</rb><rt>ふた</rt></ruby><seg source="#source-95011-95101">を火に暖めなどするは、みな予期意向を導くものに過ぎず。別して</seg><ruby type="furigana" rend="right" source="#source-95101-95125"><rb>酒肴</rb><rt>しゅこう</rt></ruby><seg source="#source-95125-95128">、</seg><ruby type="furigana" rend="right" source="#source-95128-95149"><rb>供物</rb><rt>くもつ</rt></ruby>をそなえ、音曲、踏舞をなし、崇敬者一人その傍らに立ちて崇敬の状を呈し、その仲間の一人粛然として、「コックリ様、御移り下され」と祈願し、日を選び、家を選び、人を選ぶがごときは、みな人の精神作用を促すものなるは疑いをいれず。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-95481-96151"><seg source="#source-95481-95496">その他、</seg><ruby type="furigana" rend="right" source="#source-95496-95517"><rb>輿論</rb><rt>よろん</rt></ruby><seg source="#source-95517-95766">の影響、コックリの名称等、大いに関係するものなり。さきにすでに示すごとく、世間、コックリに配するに狐狗狸の語を用うるをもって、人その語を聞きてただちに狐狸の霊の来たり</seg><ruby type="furigana" rend="right" source="#source-95766-95778"><rb>憑</rb><rt>よ</rt></ruby><seg source="#source-95778-96151">るものと想定し、その名称すでに予期意向を促すの傾向あり。これに加うるに、世間一般にコックリとは、鬼神、狐狸のこれに憑りて吉凶禍福を告ぐるものといい伝え、コックリを称して妖怪を招く法なりと唱うるがごときは、また、大いに人の予期意向を助くるものなり。</seg></p>
+      </div>
+      <div type="layout" source="#source-96151-96228" style="padding-inline-start: 7em">
+        <div>
+          <head n="2" source="#source-96172-96226"><seg source="#source-96172-96184">第四四節</seg></head>
+        </div>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-96228-96800"><seg source="#source-96228-96800">前来論述するところのコックリの原因事情を総括するに、第一に、コックリの装置すでに動揺、回転しやすき組み立てを有するの事情あり。第二に、その回転しやすき装置の、また動揺しやすき手に接するをもって、二者相助けてますます動揺、回転せんとするの事情あり。第三に、意向および信仰の影響によりて、知らず識らずこれに回転運動を与うるの事情、およびこれを助くる他の事情あり。その表、左のごとし。</seg></p>
+      </div>
+      <div type="layout" source="#source-96800-97270" style="padding-inline-start: 2em">
+        <p style="text-indent: 4em" rend="first-line-indent(4)" source="#source-96835-96918"><seg source="#source-96835-96918">┌第一項（外界の事情、すなわちコックリの装置）</seg></p>
+        <p style="text-indent: 4em" rend="first-line-indent(4)" source="#source-96918-97031"><seg source="#source-96918-97031">│第二項（内外両界中間の事情、すなわち手と装置との間に起こる事情）</seg></p>
+        <p source="#source-97031-97081"><seg source="#source-97031-97081">原因事情┤　　　　　　┌予期意向</seg></p>
+        <p style="text-indent: 4em" rend="first-line-indent(4)" source="#source-97081-97119"><seg source="#source-97081-97119">│　　　┌内因┤</seg></p>
+        <p style="text-indent: 4em" rend="first-line-indent(4)" source="#source-97119-97169"><seg source="#source-97119-97169">└第三項┤　　└不覚筋動</seg></p>
+        <p style="text-indent: 8em" rend="first-line-indent(8)" source="#source-97169-97234"><seg source="#source-97169-97234">└外情（内因を助くる事情）</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-97272-97953"><seg source="#source-97272-97563">この種々の事情互いに相助けて、現にコックリの回転を見、また、その体の回転およびその足の上下によりて、吉凶禍福、過去未来のことを告ぐるに至るなり。しかれども、これあえて鬼神の所為にあらず、狐狸の</seg><ruby type="furigana" rend="right" source="#source-97563-97575"><rb>憑</rb><rt>よ</rt></ruby><seg source="#source-97575-97953">るにあらず、電気作用にもあらず、有意作用にもあらず、別に道理上証明すべき種々の事情ありて、無意自然に回転、上下するに至るなり。しかるに世人往々、コックリは妖怪の一種にして、道理をもって証明すべからざるものとなすがごときは、余があえてとらざるところなり。</seg></p>
+      </div>
+    </body>
+    <back>
+      <div type="source">
+        <note type="source-attribution" source="#source-97961-98225"><seg type="source-line">底本：「井上円了　妖怪学全集　第4巻」柏書房</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">2000（平成12）年3月20日第1刷発行</seg><lb/><seg type="source-line">底本の親本：「妖怪玄談」哲学書院</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1887（明治20）年5月2日初版</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1900（明治33）年10月15日再版</seg></note>
+        <note type="transcriber-note" source="#source-98225-98717"><seg type="source-line">※〔〕内の編集者による注記は省略しました。</seg><lb/><seg type="source-line">※複数行にかかる中括弧には、けい線素片をあてました。</seg><lb/><seg type="source-line">入力：門田裕志</seg><lb/><seg type="source-line">校正：仙酔ゑびす</seg><lb/><seg type="source-line">2010年8月10日作成</seg><lb/><seg type="source-line">2011年4月15日修正</seg><lb/><seg type="source-line">青空文庫作成ファイル：</seg><lb/><seg type="source-line">このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。</seg></note>
+        <note type="source-span" xml:id="source-10202-10229" n="76"/>
+        <note type="source-span" xml:id="source-10229-10499" n="76"/>
+        <note type="source-span" xml:id="source-10499-10523" n="76"/>
+        <note type="source-span" xml:id="source-10529-10571" n="76"/>
+        <note type="source-span" xml:id="source-10654-11954" n="77"/>
+        <note type="source-span" xml:id="source-10689-10689" n="78"/>
+        <note type="source-span" xml:id="source-10689-10722" n="78"/>
+        <note type="source-span" xml:id="source-10689-11918" n="78"/>
+        <note type="source-span" xml:id="source-10722-10734" n="78"/>
+        <note type="source-span" xml:id="source-11127-11139" n="78"/>
+        <note type="source-span" xml:id="source-1115-1133" n="19"/>
+        <note type="source-span" xml:id="source-11956-12386" n="80"/>
+        <note type="source-span" xml:id="source-12386-12457" n="82"/>
+        <note type="source-span" xml:id="source-12407-12416" n="82"/>
+        <note type="source-span" xml:id="source-12407-12455" n="82"/>
+        <note type="source-span" xml:id="source-12457-13194" n="83"/>
+        <note type="source-span" xml:id="source-13194-13215" n="84"/>
+        <note type="source-span" xml:id="source-13194-13219" n="84"/>
+        <note type="source-span" xml:id="source-13215-13219" n="84"/>
+        <note type="source-span" xml:id="source-13219-13358" n="86"/>
+        <note type="source-span" xml:id="source-13240-13282" n="86"/>
+        <note type="source-span" xml:id="source-13240-13354" n="86"/>
+        <note type="source-span" xml:id="source-13358-13429" n="88"/>
+        <note type="source-span" xml:id="source-13379-13388" n="88"/>
+        <note type="source-span" xml:id="source-13379-13427" n="88"/>
+        <note type="source-span" xml:id="source-13429-13663" n="89"/>
+        <note type="source-span" xml:id="source-13429-13776" n="89"/>
+        <note type="source-span" xml:id="source-13663-13681" n="89"/>
+        <note type="source-span" xml:id="source-13681-13776" n="89"/>
+        <note type="source-span" xml:id="source-13776-16791" n="90"/>
+        <note type="source-span" xml:id="source-13811-13811" n="91"/>
+        <note type="source-span" xml:id="source-13811-13844" n="91"/>
+        <note type="source-span" xml:id="source-13811-16381" n="91"/>
+        <note type="source-span" xml:id="source-13844-13865" n="91"/>
+        <note type="source-span" xml:id="source-13865-13937" n="91"/>
+        <note type="source-span" xml:id="source-13937-13964" n="91"/>
+        <note type="source-span" xml:id="source-13964-13970" n="91"/>
+        <note type="source-span" xml:id="source-13970-13994" n="91"/>
+        <note type="source-span" xml:id="source-13994-14102" n="91"/>
+        <note type="source-span" xml:id="source-14102-14114" n="91"/>
+        <note type="source-span" xml:id="source-14114-14141" n="91"/>
+        <note type="source-span" xml:id="source-14141-14156" n="91"/>
+        <note type="source-span" xml:id="source-14156-14183" n="91"/>
+        <note type="source-span" xml:id="source-14183-14207" n="91"/>
+        <note type="source-span" xml:id="source-14207-14210" n="91"/>
+        <note type="source-span" xml:id="source-14210-14225" n="91"/>
+        <note type="source-span" xml:id="source-15029-15053" n="91"/>
+        <note type="source-span" xml:id="source-15317-15338" n="91"/>
+        <note type="source-span" xml:id="source-15908-15923" n="91"/>
+        <note type="source-span" xml:id="source-15923-16381" n="91"/>
+        <note type="source-span" xml:id="source-16381-16755" n="92"/>
+        <note type="source-span" xml:id="source-16793-16795" n="94"/>
+        <note type="source-span" xml:id="source-16795-16866" n="95"/>
+        <note type="source-span" xml:id="source-16816-16825" n="95"/>
+        <note type="source-span" xml:id="source-16816-16864" n="95"/>
+        <note type="source-span" xml:id="source-16866-16943" n="96"/>
+        <note type="source-span" xml:id="source-16943-18510" n="97"/>
+        <note type="source-span" xml:id="source-16978-16978" n="98"/>
+        <note type="source-span" xml:id="source-16978-17074" n="98"/>
+        <note type="source-span" xml:id="source-16978-18474" n="98"/>
+        <note type="source-span" xml:id="source-17074-17089" n="98"/>
+        <note type="source-span" xml:id="source-17089-17191" n="98"/>
+        <note type="source-span" xml:id="source-17191-17215" n="98"/>
+        <note type="source-span" xml:id="source-1789-1985" n="20"/>
+        <note type="source-span" xml:id="source-1824-1824" n="21"/>
+        <note type="source-span" xml:id="source-1824-1844" n="21"/>
+        <note type="source-span" xml:id="source-1844-1879" n="22"/>
+        <note type="source-span" xml:id="source-18512-18595" n="100"/>
+        <note type="source-span" xml:id="source-18595-19466" n="101"/>
+        <note type="source-span" xml:id="source-18630-18630" n="102"/>
+        <note type="source-span" xml:id="source-18630-18813" n="102"/>
+        <note type="source-span" xml:id="source-18630-19430" n="102"/>
+        <note type="source-span" xml:id="source-1879-1914" n="23"/>
+        <note type="source-span" xml:id="source-18813-18837" n="102"/>
+        <note type="source-span" xml:id="source-18837-18840" n="102"/>
+        <note type="source-span" xml:id="source-18840-18855" n="102"/>
+        <note type="source-span" xml:id="source-18855-19401" n="102"/>
+        <note type="source-span" xml:id="source-1914-1949" n="24"/>
+        <note type="source-span" xml:id="source-19401-19425" n="102"/>
+        <note type="source-span" xml:id="source-19425-19430" n="102"/>
+        <note type="source-span" xml:id="source-19468-19470" n="104"/>
+        <note type="source-span" xml:id="source-19470-19541" n="105"/>
+        <note type="source-span" xml:id="source-19491-19500" n="105"/>
+        <note type="source-span" xml:id="source-19491-19539" n="105"/>
+        <note type="source-span" xml:id="source-19541-20563" n="106"/>
+        <note type="source-span" xml:id="source-19715-19736" n="106"/>
+        <note type="source-span" xml:id="source-19736-19751" n="106"/>
+        <note type="source-span" xml:id="source-19751-19775" n="106"/>
+        <note type="source-span" xml:id="source-1987-1989" n="26"/>
+        <note type="source-span" xml:id="source-1989-2019" n="27"/>
+        <note type="source-span" xml:id="source-1989-2060" n="27"/>
+        <note type="source-span" xml:id="source-19901-19916" n="106"/>
+        <note type="source-span" xml:id="source-19916-19937" n="106"/>
+        <note type="source-span" xml:id="source-19937-19949" n="106"/>
+        <note type="source-span" xml:id="source-2019-2060" n="27"/>
+        <note type="source-span" xml:id="source-20426-20444" n="106"/>
+        <note type="source-span" xml:id="source-20444-20563" n="106"/>
+        <note type="source-span" xml:id="source-2049-2060" n="27"/>
+        <note type="source-span" xml:id="source-20563-21896" n="107"/>
+        <note type="source-span" xml:id="source-20598-20598" n="108"/>
+        <note type="source-span" xml:id="source-20598-20610" n="108"/>
+        <note type="source-span" xml:id="source-20598-21860" n="108"/>
+        <note type="source-span" xml:id="source-2060-2081" n="28"/>
+        <note type="source-span" xml:id="source-2060-2085" n="28"/>
+        <note type="source-span" xml:id="source-20610-20631" n="108"/>
+        <note type="source-span" xml:id="source-20631-20655" n="108"/>
+        <note type="source-span" xml:id="source-20655-20685" n="108"/>
+        <note type="source-span" xml:id="source-20685-20790" n="108"/>
+        <note type="source-span" xml:id="source-20790-20811" n="108"/>
+        <note type="source-span" xml:id="source-2081-2085" n="28"/>
+        <note type="source-span" xml:id="source-20811-20907" n="108"/>
+        <note type="source-span" xml:id="source-2085-2176" n="30"/>
+        <note type="source-span" xml:id="source-20907-20919" n="108"/>
+        <note type="source-span" xml:id="source-2106-2124" n="30"/>
+        <note type="source-span" xml:id="source-2106-2172" n="30"/>
+        <note type="source-span" xml:id="source-2176-2247" n="32"/>
+        <note type="source-span" xml:id="source-21898-21916" n="110"/>
+        <note type="source-span" xml:id="source-21898-22167" n="110"/>
+        <note type="source-span" xml:id="source-21916-21937" n="110"/>
+        <note type="source-span" xml:id="source-21937-21940" n="110"/>
+        <note type="source-span" xml:id="source-21940-21973" n="110"/>
+        <note type="source-span" xml:id="source-2197-2206" n="32"/>
+        <note type="source-span" xml:id="source-2197-2245" n="32"/>
+        <note type="source-span" xml:id="source-21973-22167" n="110"/>
+        <note type="source-span" xml:id="source-22167-22516" n="111"/>
+        <note type="source-span" xml:id="source-22202-22202" n="112"/>
+        <note type="source-span" xml:id="source-22202-22480" n="112"/>
+        <note type="source-span" xml:id="source-22319-22337" n="112"/>
+        <note type="source-span" xml:id="source-22451-22475" n="112"/>
+        <note type="source-span" xml:id="source-2247-3053" n="33"/>
+        <note type="source-span" xml:id="source-22475-22480" n="112"/>
+        <note type="source-span" xml:id="source-22518-22520" n="114"/>
+        <note type="source-span" xml:id="source-22520-22591" n="115"/>
+        <note type="source-span" xml:id="source-22541-22550" n="115"/>
+        <note type="source-span" xml:id="source-22541-22589" n="115"/>
+        <note type="source-span" xml:id="source-22591-22615" n="116"/>
+        <note type="source-span" xml:id="source-22591-22866" n="116"/>
+        <note type="source-span" xml:id="source-22615-22636" n="116"/>
+        <note type="source-span" xml:id="source-22636-22866" n="116"/>
+        <note type="source-span" xml:id="source-22866-23713" n="117"/>
+        <note type="source-span" xml:id="source-22901-22901" n="118"/>
+        <note type="source-span" xml:id="source-22901-23021" n="118"/>
+        <note type="source-span" xml:id="source-22901-23677" n="118"/>
+        <note type="source-span" xml:id="source-23021-23036" n="118"/>
+        <note type="source-span" xml:id="source-23036-23072" n="118"/>
+        <note type="source-span" xml:id="source-23072-23090" n="118"/>
+        <note type="source-span" xml:id="source-23090-23093" n="118"/>
+        <note type="source-span" xml:id="source-23093-23114" n="118"/>
+        <note type="source-span" xml:id="source-23114-23117" n="118"/>
+        <note type="source-span" xml:id="source-23117-23135" n="118"/>
+        <note type="source-span" xml:id="source-23135-23444" n="118"/>
+        <note type="source-span" xml:id="source-23444-23459" n="118"/>
+        <note type="source-span" xml:id="source-23459-23612" n="118"/>
+        <note type="source-span" xml:id="source-23612-23624" n="118"/>
+        <note type="source-span" xml:id="source-23624-23677" n="118"/>
+        <note type="source-span" xml:id="source-23715-23820" n="120"/>
+        <note type="source-span" xml:id="source-23715-24352" n="120"/>
+        <note type="source-span" xml:id="source-23820-23844" n="120"/>
+        <note type="source-span" xml:id="source-23844-23847" n="120"/>
+        <note type="source-span" xml:id="source-23847-23862" n="120"/>
+        <note type="source-span" xml:id="source-24352-24429" n="122"/>
+        <note type="source-span" xml:id="source-24373-24385" n="122"/>
+        <note type="source-span" xml:id="source-24373-24427" n="122"/>
+        <note type="source-span" xml:id="source-24429-24698" n="123"/>
+        <note type="source-span" xml:id="source-24698-25374" n="124"/>
+        <note type="source-span" xml:id="source-24733-24733" n="125"/>
+        <note type="source-span" xml:id="source-24733-24874" n="125"/>
+        <note type="source-span" xml:id="source-24733-25338" n="125"/>
+        <note type="source-span" xml:id="source-24874-24889" n="125"/>
+        <note type="source-span" xml:id="source-24889-24934" n="125"/>
+        <note type="source-span" xml:id="source-24934-24949" n="125"/>
+        <note type="source-span" xml:id="source-24949-25066" n="125"/>
+        <note type="source-span" xml:id="source-25066-25084" n="125"/>
+        <note type="source-span" xml:id="source-25084-25087" n="125"/>
+        <note type="source-span" xml:id="source-25087-25105" n="125"/>
+        <note type="source-span" xml:id="source-25105-25108" n="125"/>
+        <note type="source-span" xml:id="source-25108-25129" n="125"/>
+        <note type="source-span" xml:id="source-25129-25309" n="125"/>
+        <note type="source-span" xml:id="source-25309-25333" n="125"/>
+        <note type="source-span" xml:id="source-25333-25338" n="125"/>
+        <note type="source-span" xml:id="source-25376-25554" n="127"/>
+        <note type="source-span" xml:id="source-25505-25526" n="127"/>
+        <note type="source-span" xml:id="source-25554-25631" n="129"/>
+        <note type="source-span" xml:id="source-25575-25587" n="129"/>
+        <note type="source-span" xml:id="source-25575-25629" n="129"/>
+        <note type="source-span" xml:id="source-25631-25790" n="130"/>
+        <note type="source-span" xml:id="source-25631-27130" n="130"/>
+        <note type="source-span" xml:id="source-25790-25814" n="130"/>
+        <note type="source-span" xml:id="source-25814-25829" n="130"/>
+        <note type="source-span" xml:id="source-25829-25850" n="130"/>
+        <note type="source-span" xml:id="source-27130-32674" n="131"/>
+        <note type="source-span" xml:id="source-27165-27165" n="132"/>
+        <note type="source-span" xml:id="source-27165-31817" n="132"/>
+        <note type="source-span" xml:id="source-27231-27258" n="132"/>
+        <note type="source-span" xml:id="source-27258-27279" n="132"/>
+        <note type="source-span" xml:id="source-27279-27297" n="132"/>
+        <note type="source-span" xml:id="source-29142-29160" n="132"/>
+        <note type="source-span" xml:id="source-29160-29163" n="132"/>
+        <note type="source-span" xml:id="source-29163-29184" n="132"/>
+        <note type="source-span" xml:id="source-29319-29334" n="132"/>
+        <note type="source-span" xml:id="source-29334-29349" n="132"/>
+        <note type="source-span" xml:id="source-29583-29604" n="132"/>
+        <note type="source-span" xml:id="source-3053-3138" n="34"/>
+        <note type="source-span" xml:id="source-3088-3088" n="35"/>
+        <note type="source-span" xml:id="source-3088-3138" n="35"/>
+        <note type="source-span" xml:id="source-31164-31200" n="132"/>
+        <note type="source-span" xml:id="source-31293-31317" n="132"/>
+        <note type="source-span" xml:id="source-3138-3277" n="36"/>
+        <note type="source-span" xml:id="source-3173-3173" n="37"/>
+        <note type="source-span" xml:id="source-3173-3182" n="37"/>
+        <note type="source-span" xml:id="source-3173-3277" n="37"/>
+        <note type="source-span" xml:id="source-31817-32216" n="133"/>
+        <note type="source-span" xml:id="source-31817-32638" n="133"/>
+        <note type="source-span" xml:id="source-3182-3200" n="37"/>
+        <note type="source-span" xml:id="source-3200-3203" n="37"/>
+        <note type="source-span" xml:id="source-3203-3224" n="37"/>
+        <note type="source-span" xml:id="source-32216-32231" n="133"/>
+        <note type="source-span" xml:id="source-32231-32609" n="133"/>
+        <note type="source-span" xml:id="source-3224-3236" n="37"/>
+        <note type="source-span" xml:id="source-3236-3254" n="37"/>
+        <note type="source-span" xml:id="source-3254-3277" n="37"/>
+        <note type="source-span" xml:id="source-32609-32633" n="133"/>
+        <note type="source-span" xml:id="source-32633-32638" n="133"/>
+        <note type="source-span" xml:id="source-32676-32678" n="135"/>
+        <note type="source-span" xml:id="source-32678-32755" n="136"/>
+        <note type="source-span" xml:id="source-32699-32711" n="136"/>
+        <note type="source-span" xml:id="source-32699-32753" n="136"/>
+        <note type="source-span" xml:id="source-32755-32905" n="137"/>
+        <note type="source-span" xml:id="source-32755-34693" n="137"/>
+        <note type="source-span" xml:id="source-3277-3377" n="38"/>
+        <note type="source-span" xml:id="source-32905-32932" n="137"/>
+        <note type="source-span" xml:id="source-3312-3312" n="39"/>
+        <note type="source-span" xml:id="source-3312-3377" n="39"/>
+        <note type="source-span" xml:id="source-3377-3588" n="40"/>
+        <note type="source-span" xml:id="source-34066-34090" n="137"/>
+        <note type="source-span" xml:id="source-34090-34093" n="137"/>
+        <note type="source-span" xml:id="source-34093-34117" n="137"/>
+        <note type="source-span" xml:id="source-3412-3412" n="41"/>
+        <note type="source-span" xml:id="source-3412-3433" n="41"/>
+        <note type="source-span" xml:id="source-3412-3588" n="41"/>
+        <note type="source-span" xml:id="source-3433-3463" n="41"/>
+        <note type="source-span" xml:id="source-3463-3487" n="41"/>
+        <note type="source-span" xml:id="source-34693-34770" n="140"/>
+        <note type="source-span" xml:id="source-34714-34726" n="140"/>
+        <note type="source-span" xml:id="source-34714-34768" n="140"/>
+        <note type="source-span" xml:id="source-34770-35451" n="141"/>
+        <note type="source-span" xml:id="source-34770-37025" n="141"/>
+        <note type="source-span" xml:id="source-3487-3490" n="41"/>
+        <note type="source-span" xml:id="source-3490-3514" n="41"/>
+        <note type="source-span" xml:id="source-3514-3526" n="41"/>
+        <note type="source-span" xml:id="source-3526-3547" n="41"/>
+        <note type="source-span" xml:id="source-35451-35466" n="141"/>
+        <note type="source-span" xml:id="source-35466-35652" n="141"/>
+        <note type="source-span" xml:id="source-3547-3588" n="41"/>
+        <note type="source-span" xml:id="source-35652-35676" n="141"/>
+        <note type="source-span" xml:id="source-3588-3688" n="42"/>
+        <note type="source-span" xml:id="source-36153-36177" n="141"/>
+        <note type="source-span" xml:id="source-3623-3623" n="43"/>
+        <note type="source-span" xml:id="source-3623-3688" n="43"/>
+        <note type="source-span" xml:id="source-3688-3881" n="44"/>
+        <note type="source-span" xml:id="source-36933-36948" n="141"/>
+        <note type="source-span" xml:id="source-36948-37025" n="141"/>
+        <note type="source-span" xml:id="source-37025-37046" n="142"/>
+        <note type="source-span" xml:id="source-37025-37050" n="142"/>
+        <note type="source-span" xml:id="source-37046-37050" n="142"/>
+        <note type="source-span" xml:id="source-37050-37189" n="144"/>
+        <note type="source-span" xml:id="source-37071-37113" n="144"/>
+        <note type="source-span" xml:id="source-37071-37185" n="144"/>
+        <note type="source-span" xml:id="source-37189-37266" n="146"/>
+        <note type="source-span" xml:id="source-37210-37222" n="146"/>
+        <note type="source-span" xml:id="source-37210-37264" n="146"/>
+        <note type="source-span" xml:id="source-3723-3723" n="45"/>
+        <note type="source-span" xml:id="source-3723-3747" n="45"/>
+        <note type="source-span" xml:id="source-3723-3845" n="45"/>
+        <note type="source-span" xml:id="source-37266-37737" n="147"/>
+        <note type="source-span" xml:id="source-37266-39676" n="147"/>
+        <note type="source-span" xml:id="source-3747-3771" n="45"/>
+        <note type="source-span" xml:id="source-3771-3792" n="45"/>
+        <note type="source-span" xml:id="source-37737-37752" n="147"/>
+        <note type="source-span" xml:id="source-37752-37755" n="147"/>
+        <note type="source-span" xml:id="source-37755-37767" n="147"/>
+        <note type="source-span" xml:id="source-37767-37770" n="147"/>
+        <note type="source-span" xml:id="source-37770-37785" n="147"/>
+        <note type="source-span" xml:id="source-37785-37788" n="147"/>
+        <note type="source-span" xml:id="source-37788-37803" n="147"/>
+        <note type="source-span" xml:id="source-37803-37806" n="147"/>
+        <note type="source-span" xml:id="source-37806-37818" n="147"/>
+        <note type="source-span" xml:id="source-37818-37821" n="147"/>
+        <note type="source-span" xml:id="source-37821-37836" n="147"/>
+        <note type="source-span" xml:id="source-37836-37917" n="147"/>
+        <note type="source-span" xml:id="source-37917-37941" n="147"/>
+        <note type="source-span" xml:id="source-3792-3819" n="45"/>
+        <note type="source-span" xml:id="source-37941-37953" n="147"/>
+        <note type="source-span" xml:id="source-37953-37968" n="147"/>
+        <note type="source-span" xml:id="source-37968-37971" n="147"/>
+        <note type="source-span" xml:id="source-37971-37986" n="147"/>
+        <note type="source-span" xml:id="source-37986-37989" n="147"/>
+        <note type="source-span" xml:id="source-37989-38007" n="147"/>
+        <note type="source-span" xml:id="source-38007-38010" n="147"/>
+        <note type="source-span" xml:id="source-38010-38022" n="147"/>
+        <note type="source-span" xml:id="source-38022-38025" n="147"/>
+        <note type="source-span" xml:id="source-38025-38037" n="147"/>
+        <note type="source-span" xml:id="source-38037-38040" n="147"/>
+        <note type="source-span" xml:id="source-38040-38055" n="147"/>
+        <note type="source-span" xml:id="source-38055-38070" n="147"/>
+        <note type="source-span" xml:id="source-38070-38091" n="147"/>
+        <note type="source-span" xml:id="source-38091-38118" n="147"/>
+        <note type="source-span" xml:id="source-38118-38133" n="147"/>
+        <note type="source-span" xml:id="source-38133-38646" n="147"/>
+        <note type="source-span" xml:id="source-3819-3845" n="45"/>
+        <note type="source-span" xml:id="source-38646-38661" n="147"/>
+        <note type="source-span" xml:id="source-38661-38748" n="147"/>
+        <note type="source-span" xml:id="source-38748-38772" n="147"/>
+        <note type="source-span" xml:id="source-38772-39676" n="147"/>
+        <note type="source-span" xml:id="source-3883-3951" n="47"/>
+        <note type="source-span" xml:id="source-3951-4186" n="48"/>
+        <note type="source-span" xml:id="source-39676-39753" n="149"/>
+        <note type="source-span" xml:id="source-39697-39709" n="149"/>
+        <note type="source-span" xml:id="source-39697-39751" n="149"/>
+        <note type="source-span" xml:id="source-39753-39912" n="150"/>
+        <note type="source-span" xml:id="source-39753-41029" n="150"/>
+        <note type="source-span" xml:id="source-3986-3986" n="49"/>
+        <note type="source-span" xml:id="source-3986-4027" n="49"/>
+        <note type="source-span" xml:id="source-39912-39924" n="150"/>
+        <note type="source-span" xml:id="source-39924-40113" n="150"/>
+        <note type="source-span" xml:id="source-40113-40137" n="150"/>
+        <note type="source-span" xml:id="source-40137-40293" n="150"/>
+        <note type="source-span" xml:id="source-4027-4083" n="50"/>
+        <note type="source-span" xml:id="source-40293-40314" n="150"/>
+        <note type="source-span" xml:id="source-40314-41029" n="150"/>
+        <note type="source-span" xml:id="source-4083-4103" n="51"/>
+        <note type="source-span" xml:id="source-41029-41106" n="152"/>
+        <note type="source-span" xml:id="source-4103-4150" n="52"/>
+        <note type="source-span" xml:id="source-41050-41062" n="152"/>
+        <note type="source-span" xml:id="source-41050-41104" n="152"/>
+        <note type="source-span" xml:id="source-41106-41706" n="153"/>
+        <note type="source-span" xml:id="source-41106-42521" n="153"/>
+        <note type="source-span" xml:id="source-41706-41721" n="153"/>
+        <note type="source-span" xml:id="source-41721-42521" n="153"/>
+        <note type="source-span" xml:id="source-4188-4525" n="54"/>
+        <note type="source-span" xml:id="source-42521-42854" n="154"/>
+        <note type="source-span" xml:id="source-42521-43845" n="154"/>
+        <note type="source-span" xml:id="source-42854-42869" n="154"/>
+        <note type="source-span" xml:id="source-43845-43922" n="156"/>
+        <note type="source-span" xml:id="source-43866-43878" n="156"/>
+        <note type="source-span" xml:id="source-43866-43920" n="156"/>
+        <note type="source-span" xml:id="source-43922-45310" n="157"/>
+        <note type="source-span" xml:id="source-45233-45257" n="157"/>
+        <note type="source-span" xml:id="source-4525-4596" n="56"/>
+        <note type="source-span" xml:id="source-45257-45260" n="157"/>
+        <note type="source-span" xml:id="source-45260-45275" n="157"/>
+        <note type="source-span" xml:id="source-45275-45310" n="157"/>
+        <note type="source-span" xml:id="source-45310-46029" n="158"/>
+        <note type="source-span" xml:id="source-4546-4555" n="56"/>
+        <note type="source-span" xml:id="source-4546-4594" n="56"/>
+        <note type="source-span" xml:id="source-4596-4965" n="57"/>
+        <note type="source-span" xml:id="source-4596-5426" n="57"/>
+        <note type="source-span" xml:id="source-46029-46050" n="159"/>
+        <note type="source-span" xml:id="source-46029-46054" n="159"/>
+        <note type="source-span" xml:id="source-46050-46054" n="159"/>
+        <note type="source-span" xml:id="source-46054-46193" n="161"/>
+        <note type="source-span" xml:id="source-46075-46117" n="161"/>
+        <note type="source-span" xml:id="source-46075-46189" n="161"/>
+        <note type="source-span" xml:id="source-46193-46270" n="163"/>
+        <note type="source-span" xml:id="source-46214-46226" n="163"/>
+        <note type="source-span" xml:id="source-46214-46268" n="163"/>
+        <note type="source-span" xml:id="source-46270-46489" n="164"/>
+        <note type="source-span" xml:id="source-46270-48441" n="164"/>
+        <note type="source-span" xml:id="source-46489-46507" n="164"/>
+        <note type="source-span" xml:id="source-46507-46510" n="164"/>
+        <note type="source-span" xml:id="source-46510-46528" n="164"/>
+        <note type="source-span" xml:id="source-46528-46642" n="164"/>
+        <note type="source-span" xml:id="source-46642-46660" n="164"/>
+        <note type="source-span" xml:id="source-48441-48657" n="165"/>
+        <note type="source-span" xml:id="source-48441-50185" n="165"/>
+        <note type="source-span" xml:id="source-48657-48669" n="165"/>
+        <note type="source-span" xml:id="source-48669-49653" n="165"/>
+        <note type="source-span" xml:id="source-4965-4977" n="57"/>
+        <note type="source-span" xml:id="source-49653-49677" n="165"/>
+        <note type="source-span" xml:id="source-49677-50185" n="165"/>
+        <note type="source-span" xml:id="source-4977-5426" n="57"/>
+        <note type="source-span" xml:id="source-50185-50262" n="167"/>
+        <note type="source-span" xml:id="source-50206-50218" n="167"/>
+        <note type="source-span" xml:id="source-50206-50260" n="167"/>
+        <note type="source-span" xml:id="source-50262-50366" n="168"/>
+        <note type="source-span" xml:id="source-50366-50836" n="169"/>
+        <note type="source-span" xml:id="source-50431-50431" n="170"/>
+        <note type="source-span" xml:id="source-50431-50544" n="170"/>
+        <note type="source-span" xml:id="source-50544-50696" n="171"/>
+        <note type="source-span" xml:id="source-50696-50800" n="172"/>
+        <note type="source-span" xml:id="source-50838-51157" n="174"/>
+        <note type="source-span" xml:id="source-51157-51234" n="176"/>
+        <note type="source-span" xml:id="source-51178-51190" n="176"/>
+        <note type="source-span" xml:id="source-51178-51232" n="176"/>
+        <note type="source-span" xml:id="source-51234-51306" n="177"/>
+        <note type="source-span" xml:id="source-51234-52003" n="177"/>
+        <note type="source-span" xml:id="source-51306-51330" n="177"/>
+        <note type="source-span" xml:id="source-51330-51333" n="177"/>
+        <note type="source-span" xml:id="source-51333-51348" n="177"/>
+        <note type="source-span" xml:id="source-51348-51717" n="177"/>
+        <note type="source-span" xml:id="source-514-575" n="17"/>
+        <note type="source-span" xml:id="source-51717-51732" n="177"/>
+        <note type="source-span" xml:id="source-51732-52003" n="177"/>
+        <note type="source-span" xml:id="source-52003-52080" n="179"/>
+        <note type="source-span" xml:id="source-52024-52036" n="179"/>
+        <note type="source-span" xml:id="source-52024-52078" n="179"/>
+        <note type="source-span" xml:id="source-52080-53429" n="180"/>
+        <note type="source-span" xml:id="source-53429-54028" n="181"/>
+        <note type="source-span" xml:id="source-535-538" n="17"/>
+        <note type="source-span" xml:id="source-535-571" n="17"/>
+        <note type="source-span" xml:id="source-54028-55266" n="182"/>
+        <note type="source-span" xml:id="source-5426-5740" n="58"/>
+        <note type="source-span" xml:id="source-55266-56755" n="183"/>
+        <note type="source-span" xml:id="source-56755-56832" n="185"/>
+        <note type="source-span" xml:id="source-56776-56788" n="185"/>
+        <note type="source-span" xml:id="source-56776-56830" n="185"/>
+        <note type="source-span" xml:id="source-56832-57250" n="186"/>
+        <note type="source-span" xml:id="source-57250-57327" n="188"/>
+        <note type="source-span" xml:id="source-57271-57283" n="188"/>
+        <note type="source-span" xml:id="source-57271-57325" n="188"/>
+        <note type="source-span" xml:id="source-57327-58173" n="189"/>
+        <note type="source-span" xml:id="source-57327-58807" n="189"/>
+        <note type="source-span" xml:id="source-5740-6045" n="59"/>
+        <note type="source-span" xml:id="source-575-1789" n="19"/>
+        <note type="source-span" xml:id="source-575-776" n="19"/>
+        <note type="source-span" xml:id="source-5775-5775" n="60"/>
+        <note type="source-span" xml:id="source-5775-5858" n="60"/>
+        <note type="source-span" xml:id="source-58173-58197" n="189"/>
+        <note type="source-span" xml:id="source-58197-58807" n="189"/>
+        <note type="source-span" xml:id="source-5858-5941" n="61"/>
+        <note type="source-span" xml:id="source-58807-58884" n="191"/>
+        <note type="source-span" xml:id="source-58828-58840" n="191"/>
+        <note type="source-span" xml:id="source-58828-58882" n="191"/>
+        <note type="source-span" xml:id="source-58884-59279" n="192"/>
+        <note type="source-span" xml:id="source-59279-59981" n="193"/>
+        <note type="source-span" xml:id="source-59279-60301" n="193"/>
+        <note type="source-span" xml:id="source-5941-6009" n="62"/>
+        <note type="source-span" xml:id="source-59981-59999" n="193"/>
+        <note type="source-span" xml:id="source-59999-60301" n="193"/>
+        <note type="source-span" xml:id="source-60301-60645" n="194"/>
+        <note type="source-span" xml:id="source-6047-6157" n="64"/>
+        <note type="source-span" xml:id="source-60645-60773" n="195"/>
+        <note type="source-span" xml:id="source-60773-60964" n="196"/>
+        <note type="source-span" xml:id="source-60964-61078" n="197"/>
+        <note type="source-span" xml:id="source-60964-61185" n="197"/>
+        <note type="source-span" xml:id="source-61078-61102" n="197"/>
+        <note type="source-span" xml:id="source-61102-61185" n="197"/>
+        <note type="source-span" xml:id="source-61185-61480" n="198"/>
+        <note type="source-span" xml:id="source-61480-61557" n="200"/>
+        <note type="source-span" xml:id="source-61501-61513" n="200"/>
+        <note type="source-span" xml:id="source-61501-61555" n="200"/>
+        <note type="source-span" xml:id="source-61557-62831" n="201"/>
+        <note type="source-span" xml:id="source-6157-6384" n="65"/>
+        <note type="source-span" xml:id="source-6192-6192" n="66"/>
+        <note type="source-span" xml:id="source-6192-6242" n="66"/>
+        <note type="source-span" xml:id="source-6242-6292" n="67"/>
+        <note type="source-span" xml:id="source-62831-62905" n="202"/>
+        <note type="source-span" xml:id="source-62831-62907" n="202"/>
+        <note type="source-span" xml:id="source-62905-62907" n="202"/>
+        <note type="source-span" xml:id="source-62907-63737" n="203"/>
+        <note type="source-span" xml:id="source-6292-6348" n="68"/>
+        <note type="source-span" xml:id="source-63737-63811" n="204"/>
+        <note type="source-span" xml:id="source-63737-63813" n="204"/>
+        <note type="source-span" xml:id="source-63811-63813" n="204"/>
+        <note type="source-span" xml:id="source-63813-64840" n="205"/>
+        <note type="source-span" xml:id="source-6386-6428" n="70"/>
+        <note type="source-span" xml:id="source-6386-7701" n="70"/>
+        <note type="source-span" xml:id="source-63951-63975" n="205"/>
+        <note type="source-span" xml:id="source-6428-6452" n="70"/>
+        <note type="source-span" xml:id="source-6452-6455" n="70"/>
+        <note type="source-span" xml:id="source-6455-6476" n="70"/>
+        <note type="source-span" xml:id="source-6476-6479" n="70"/>
+        <note type="source-span" xml:id="source-6479-6509" n="70"/>
+        <note type="source-span" xml:id="source-64840-64917" n="207"/>
+        <note type="source-span" xml:id="source-64861-64873" n="207"/>
+        <note type="source-span" xml:id="source-64861-64915" n="207"/>
+        <note type="source-span" xml:id="source-64917-65510" n="208"/>
+        <note type="source-span" xml:id="source-6509-6689" n="70"/>
+        <note type="source-span" xml:id="source-65510-65750" n="209"/>
+        <note type="source-span" xml:id="source-65510-66720" n="209"/>
+        <note type="source-span" xml:id="source-65750-65765" n="209"/>
+        <note type="source-span" xml:id="source-65765-65810" n="209"/>
+        <note type="source-span" xml:id="source-65810-65825" n="209"/>
+        <note type="source-span" xml:id="source-66720-66797" n="211"/>
+        <note type="source-span" xml:id="source-66741-66753" n="211"/>
+        <note type="source-span" xml:id="source-66741-66795" n="211"/>
+        <note type="source-span" xml:id="source-66797-67666" n="212"/>
+        <note type="source-span" xml:id="source-6689-6716" n="70"/>
+        <note type="source-span" xml:id="source-6716-6842" n="70"/>
+        <note type="source-span" xml:id="source-67666-67740" n="213"/>
+        <note type="source-span" xml:id="source-67666-67742" n="213"/>
+        <note type="source-span" xml:id="source-67740-67742" n="213"/>
+        <note type="source-span" xml:id="source-67742-69222" n="214"/>
+        <note type="source-span" xml:id="source-6842-6866" n="70"/>
+        <note type="source-span" xml:id="source-68435-68459" n="214"/>
+        <note type="source-span" xml:id="source-6866-6887" n="70"/>
+        <note type="source-span" xml:id="source-6887-6911" n="70"/>
+        <note type="source-span" xml:id="source-6911-7701" n="70"/>
+        <note type="source-span" xml:id="source-69222-69299" n="216"/>
+        <note type="source-span" xml:id="source-69243-69255" n="216"/>
+        <note type="source-span" xml:id="source-69243-69297" n="216"/>
+        <note type="source-span" xml:id="source-69299-69419" n="217"/>
+        <note type="source-span" xml:id="source-69299-70363" n="217"/>
+        <note type="source-span" xml:id="source-69419-69446" n="217"/>
+        <note type="source-span" xml:id="source-69446-70363" n="217"/>
+        <note type="source-span" xml:id="source-70363-70437" n="218"/>
+        <note type="source-span" xml:id="source-70363-70441" n="218"/>
+        <note type="source-span" xml:id="source-70437-70441" n="218"/>
+        <note type="source-span" xml:id="source-70441-70518" n="220"/>
+        <note type="source-span" xml:id="source-70462-70474" n="220"/>
+        <note type="source-span" xml:id="source-70462-70516" n="220"/>
+        <note type="source-span" xml:id="source-70518-71948" n="221"/>
+        <note type="source-span" xml:id="source-71948-72182" n="222"/>
+        <note type="source-span" xml:id="source-71948-73308" n="222"/>
+        <note type="source-span" xml:id="source-72182-72206" n="222"/>
+        <note type="source-span" xml:id="source-72206-73308" n="222"/>
+        <note type="source-span" xml:id="source-73308-73385" n="224"/>
+        <note type="source-span" xml:id="source-73329-73341" n="224"/>
+        <note type="source-span" xml:id="source-73329-73383" n="224"/>
+        <note type="source-span" xml:id="source-73385-74880" n="225"/>
+        <note type="source-span" xml:id="source-74880-74957" n="227"/>
+        <note type="source-span" xml:id="source-74901-74913" n="227"/>
+        <note type="source-span" xml:id="source-74901-74955" n="227"/>
+        <note type="source-span" xml:id="source-74957-75813" n="228"/>
+        <note type="source-span" xml:id="source-75813-75890" n="230"/>
+        <note type="source-span" xml:id="source-75834-75846" n="230"/>
+        <note type="source-span" xml:id="source-75834-75888" n="230"/>
+        <note type="source-span" xml:id="source-75890-76481" n="231"/>
+        <note type="source-span" xml:id="source-75890-77370" n="231"/>
+        <note type="source-span" xml:id="source-76481-76505" n="231"/>
+        <note type="source-span" xml:id="source-76505-77102" n="231"/>
+        <note type="source-span" xml:id="source-7701-7772" n="72"/>
+        <note type="source-span" xml:id="source-77102-77126" n="231"/>
+        <note type="source-span" xml:id="source-77126-77370" n="231"/>
+        <note type="source-span" xml:id="source-7722-7731" n="72"/>
+        <note type="source-span" xml:id="source-7722-7770" n="72"/>
+        <note type="source-span" xml:id="source-77370-77447" n="233"/>
+        <note type="source-span" xml:id="source-77391-77403" n="233"/>
+        <note type="source-span" xml:id="source-77391-77445" n="233"/>
+        <note type="source-span" xml:id="source-77447-78067" n="234"/>
+        <note type="source-span" xml:id="source-776-800" n="19"/>
+        <note type="source-span" xml:id="source-7772-7883" n="73"/>
+        <note type="source-span" xml:id="source-7772-9381" n="73"/>
+        <note type="source-span" xml:id="source-78067-78998" n="235"/>
+        <note type="source-span" xml:id="source-78102-78102" n="236"/>
+        <note type="source-span" xml:id="source-78102-78186" n="236"/>
+        <note type="source-span" xml:id="source-78102-78962" n="236"/>
+        <note type="source-span" xml:id="source-78186-78207" n="236"/>
+        <note type="source-span" xml:id="source-78207-78267" n="236"/>
+        <note type="source-span" xml:id="source-78267-78294" n="236"/>
+        <note type="source-span" xml:id="source-7883-7907" n="73"/>
+        <note type="source-span" xml:id="source-79000-79094" n="238"/>
+        <note type="source-span" xml:id="source-7907-8036" n="73"/>
+        <note type="source-span" xml:id="source-79094-79171" n="240"/>
+        <note type="source-span" xml:id="source-79115-79127" n="240"/>
+        <note type="source-span" xml:id="source-79115-79169" n="240"/>
+        <note type="source-span" xml:id="source-79171-80468" n="241"/>
+        <note type="source-span" xml:id="source-800-878" n="19"/>
+        <note type="source-span" xml:id="source-8036-8051" n="73"/>
+        <note type="source-span" xml:id="source-80468-80545" n="243"/>
+        <note type="source-span" xml:id="source-80489-80501" n="243"/>
+        <note type="source-span" xml:id="source-80489-80543" n="243"/>
+        <note type="source-span" xml:id="source-8051-8279" n="73"/>
+        <note type="source-span" xml:id="source-80545-81226" n="244"/>
+        <note type="source-span" xml:id="source-80545-82548" n="244"/>
+        <note type="source-span" xml:id="source-81226-81250" n="244"/>
+        <note type="source-span" xml:id="source-81250-82339" n="244"/>
+        <note type="source-span" xml:id="source-82339-82363" n="244"/>
+        <note type="source-span" xml:id="source-82363-82548" n="244"/>
+        <note type="source-span" xml:id="source-82548-82734" n="245"/>
+        <note type="source-span" xml:id="source-82548-83458" n="245"/>
+        <note type="source-span" xml:id="source-82734-82758" n="245"/>
+        <note type="source-span" xml:id="source-82758-83458" n="245"/>
+        <note type="source-span" xml:id="source-8279-8303" n="73"/>
+        <note type="source-span" xml:id="source-8303-9381" n="73"/>
+        <note type="source-span" xml:id="source-83458-83535" n="247"/>
+        <note type="source-span" xml:id="source-83479-83491" n="247"/>
+        <note type="source-span" xml:id="source-83479-83533" n="247"/>
+        <note type="source-span" xml:id="source-83535-83889" n="248"/>
+        <note type="source-span" xml:id="source-83535-84931" n="248"/>
+        <note type="source-span" xml:id="source-83889-83913" n="248"/>
+        <note type="source-span" xml:id="source-83913-84931" n="248"/>
+        <note type="source-span" xml:id="source-84931-85008" n="250"/>
+        <note type="source-span" xml:id="source-84952-84964" n="250"/>
+        <note type="source-span" xml:id="source-84952-85006" n="250"/>
+        <note type="source-span" xml:id="source-85008-86031" n="251"/>
+        <note type="source-span" xml:id="source-85008-86578" n="251"/>
+        <note type="source-span" xml:id="source-86031-86046" n="251"/>
+        <note type="source-span" xml:id="source-86046-86578" n="251"/>
+        <note type="source-span" xml:id="source-86578-86655" n="253"/>
+        <note type="source-span" xml:id="source-86599-86611" n="253"/>
+        <note type="source-span" xml:id="source-86599-86653" n="253"/>
+        <note type="source-span" xml:id="source-86655-87772" n="254"/>
+        <note type="source-span" xml:id="source-87772-87849" n="256"/>
+        <note type="source-span" xml:id="source-87793-87805" n="256"/>
+        <note type="source-span" xml:id="source-87793-87847" n="256"/>
+        <note type="source-span" xml:id="source-878-896" n="19"/>
+        <note type="source-span" xml:id="source-87849-89294" n="257"/>
+        <note type="source-span" xml:id="source-89294-89651" n="258"/>
+        <note type="source-span" xml:id="source-89294-90525" n="258"/>
+        <note type="source-span" xml:id="source-896-926" n="19"/>
+        <note type="source-span" xml:id="source-89651-89678" n="258"/>
+        <note type="source-span" xml:id="source-89678-90525" n="258"/>
+        <note type="source-span" xml:id="source-90525-90602" n="260"/>
+        <note type="source-span" xml:id="source-90546-90558" n="260"/>
+        <note type="source-span" xml:id="source-90546-90600" n="260"/>
+        <note type="source-span" xml:id="source-90602-91246" n="261"/>
+        <note type="source-span" xml:id="source-91246-91255" n="262"/>
+        <note type="source-span" xml:id="source-91246-92015" n="262"/>
+        <note type="source-span" xml:id="source-91255-91276" n="262"/>
+        <note type="source-span" xml:id="source-91276-92015" n="262"/>
+        <note type="source-span" xml:id="source-92015-92092" n="264"/>
+        <note type="source-span" xml:id="source-92036-92048" n="264"/>
+        <note type="source-span" xml:id="source-92036-92090" n="264"/>
+        <note type="source-span" xml:id="source-92092-92317" n="265"/>
+        <note type="source-span" xml:id="source-92092-93659" n="265"/>
+        <note type="source-span" xml:id="source-92317-92341" n="265"/>
+        <note type="source-span" xml:id="source-92341-92491" n="265"/>
+        <note type="source-span" xml:id="source-92491-92524" n="265"/>
+        <note type="source-span" xml:id="source-92539-92569" n="265"/>
+        <note type="source-span" xml:id="source-926-956" n="19"/>
+        <note type="source-span" xml:id="source-92632-92668" n="265"/>
+        <note type="source-span" xml:id="source-92683-92719" n="265"/>
+        <note type="source-span" xml:id="source-93088-93103" n="265"/>
+        <note type="source-span" xml:id="source-93659-93736" n="267"/>
+        <note type="source-span" xml:id="source-93680-93692" n="267"/>
+        <note type="source-span" xml:id="source-93680-93734" n="267"/>
+        <note type="source-span" xml:id="source-93736-94355" n="268"/>
+        <note type="source-span" xml:id="source-9381-9452" n="75"/>
+        <note type="source-span" xml:id="source-9402-9411" n="75"/>
+        <note type="source-span" xml:id="source-9402-9450" n="75"/>
+        <note type="source-span" xml:id="source-94355-94432" n="270"/>
+        <note type="source-span" xml:id="source-94376-94388" n="270"/>
+        <note type="source-span" xml:id="source-94376-94430" n="270"/>
+        <note type="source-span" xml:id="source-94432-94840" n="271"/>
+        <note type="source-span" xml:id="source-94432-95481" n="271"/>
+        <note type="source-span" xml:id="source-9452-10202" n="76"/>
+        <note type="source-span" xml:id="source-9452-10654" n="76"/>
+        <note type="source-span" xml:id="source-94840-94867" n="271"/>
+        <note type="source-span" xml:id="source-94867-94996" n="271"/>
+        <note type="source-span" xml:id="source-94996-95011" n="271"/>
+        <note type="source-span" xml:id="source-95011-95101" n="271"/>
+        <note type="source-span" xml:id="source-95101-95125" n="271"/>
+        <note type="source-span" xml:id="source-95125-95128" n="271"/>
+        <note type="source-span" xml:id="source-95128-95149" n="271"/>
+        <note type="source-span" xml:id="source-95481-95496" n="272"/>
+        <note type="source-span" xml:id="source-95481-96151" n="272"/>
+        <note type="source-span" xml:id="source-95496-95517" n="272"/>
+        <note type="source-span" xml:id="source-95517-95766" n="272"/>
+        <note type="source-span" xml:id="source-956-971" n="19"/>
+        <note type="source-span" xml:id="source-95766-95778" n="272"/>
+        <note type="source-span" xml:id="source-95778-96151" n="272"/>
+        <note type="source-span" xml:id="source-96151-96228" n="274"/>
+        <note type="source-span" xml:id="source-96172-96184" n="274"/>
+        <note type="source-span" xml:id="source-96172-96226" n="274"/>
+        <note type="source-span" xml:id="source-96228-96800" n="275"/>
+        <note type="source-span" xml:id="source-96800-97270" n="276"/>
+        <note type="source-span" xml:id="source-96835-96835" n="277"/>
+        <note type="source-span" xml:id="source-96835-96918" n="277"/>
+        <note type="source-span" xml:id="source-96918-97031" n="278"/>
+        <note type="source-span" xml:id="source-97031-97081" n="279"/>
+        <note type="source-span" xml:id="source-97081-97119" n="280"/>
+        <note type="source-span" xml:id="source-971-998" n="19"/>
+        <note type="source-span" xml:id="source-97119-97169" n="281"/>
+        <note type="source-span" xml:id="source-97169-97234" n="282"/>
+        <note type="source-span" xml:id="source-97272-97563" n="284"/>
+        <note type="source-span" xml:id="source-97272-97953" n="284"/>
+        <note type="source-span" xml:id="source-97563-97575" n="284"/>
+        <note type="source-span" xml:id="source-97575-97953" n="284"/>
+        <note type="source-span" xml:id="source-97961-98225" n="288"/>
+        <note type="source-span" xml:id="source-98225-98717" n="293"/>
+        <note type="source-span" xml:id="source-998-1115" n="19"/>
+      </div>
+      <note type="parser-completion" n="true">The n attribute is true when no parser diagnostic of error severity was raised for this source. What the converter could not interpret is recorded in the interpretation-problem and parser-diagnostic notes.</note>
+      <note type="source-decoding">windows-31j</note>
+    </back>
+  </text>
+</TEI>

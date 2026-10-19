@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:snh="https://w3id.org/soranoha/ns/tei" xmlns="http://www.tei-c.org/ns/1.0" snh:vocab-version="3">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ja">大久保湖州</title>
+        <title type="reading" xml:lang="ja-Hira">おおくぼこしゅう</title>
+        <author><persName xml:lang="ja"><surname>芥川</surname><forename>竜之介</forename><idno type="aozora-person-id">000879</idno></persName><persName xml:lang="ja-Hira"><surname>あくたがわ</surname><forename>りゅうのすけ</forename></persName><persName xml:lang="ja-Latn"><surname>Akutagawa</surname><forename>Ryunosuke</forename></persName></author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://w3id.org/soranoha/">Soranoha</publisher>
+        <idno type="soranoha-work-identifier">049328_000879</idno>
+        <idno type="aozora-work-id">049328</idno>
+        <idno type="aozora-card-url">https://www.aozora.gr.jp/cards/000879/card49328.html</idno>
+        <date when="2014-09-21">2014-09-21</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">The underlying work is in the public domain; Soranoha asserts no rights over it.</licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Soranoha's encoding of this work and the artifacts derived from it are dedicated to the public domain under CC0-1.0. Attribution is requested, not required. Full rights statement: <ptr target="https://w3id.org/soranoha/rights"/></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>芥川龍之介全集　第十一巻</title><publisher>岩波書店</publisher><date>1996（平成8）年9月9日</date><note type="input-edition">1996（平成8）年9月9日</note></bibl>
+        <bibl type="first-publication">（上）「女性改造　第三巻第五号」1924（大正13）年5月1日、（下）「女性改造　第三巻第六号」1924（大正13）年6月1日</bibl>
+        <bibl><idno type="source-content-hash">sha256:83c32e789fac204b3ddb6a691aaad59c65aad221882d4b22be25bdfa749988ee</idno></bibl>
+        <bibl><idno type="primary-text-hash">sha256:d6c7404368d41c0d18d57c81b2c79cf442d5d2a06bd99c16182c146d91fe2afe</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css"/>
+      <classDecl><taxonomy xml:id="ndc"><bibl>分類番号 as recorded by <title>青空文庫</title>, read as a class of 日本十進分類法 新訂9版. Category labels are from <title>NDC9 Linked Data</title> (日本図書館協会, CC BY); a category's IRI is <ref target="http://jla.or.jp/data/ndc9">http://jla.or.jp/data/ndc9</ref> followed by # and its n.</bibl><category xml:id="ndc289" n="289"><catDesc xml:lang="ja">個人伝記</catDesc><catDesc xml:lang="en">Individual biography</catDesc></category><category xml:id="ndc914" n="914"><catDesc xml:lang="ja">評論．エッセイ．随筆</catDesc><catDesc xml:lang="en">Essays.Prose</catDesc></category></taxonomy><taxonomy xml:id="aozora-orthography"><bibl><title>青空文庫</title> 文字遣い種別: the orthographic style Aozora Bunko records for the transcription.</bibl></taxonomy></classDecl>
+      <refsDecl xml:id="source-spans"><p>A note of type source-span has an xml:id of the form source-START-END, giving the extent in UTF-8 bytes of the decoded primary text identified in sourceDesc, after the emendations declared in editorialDecl/correction are applied; each emendation replaces its sic text by its corr text at its own extent. <ptr target="https://w3id.org/soranoha/ns/tei"/></p></refsDecl>
+      <charDecl>
+        <char xml:id="gaiji-3-2-88-74">
+          <mapping type="unicode">譃</mapping>
+          <localProp name="rawMarker" value="言＋墟のつくり"/>
+          <localProp name="sourceReference" value="第3水準2-88-74"/>
+          <snh:gaiji-reference original="第3水準2-88-74" kind="uninterpreted"/>
+        </char>
+        <char xml:id="gaiji-3-1-94-42">
+          <mapping type="unicode">鯁</mapping>
+          <localProp name="rawMarker" value="魚＋更"/>
+          <localProp name="sourceReference" value="第3水準1-94-42"/>
+          <snh:gaiji-reference original="第3水準1-94-42" cell="42" plane="1" kind="jis-code" row="94"/>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ja">日本語</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#ndc">289 914</classCode>
+        <catRef scheme="#ndc" target="#ndc289 #ndc914"/>
+        <classCode scheme="#aozora-orthography">新字旧仮名</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-849-1517">或秋の夜、僕は本郷の大学前の或古本屋を覗いて見た。すると店先の陳列台に古い菊判の本が一冊、「大久保湖州著、家康と<ruby type="furigana" rend="right" source="#source-1020-1044"><rb>直弼</rb><rt>なほすけ</rt></ruby>、引ナシ金五十銭」と云ふ貼り札の帯をかけたまま、雑書の上に抛り出してあつた。僕はこの本の挨を払ひ、ちよつと中をひろげて見た。中は本の名の示す通り、徳川家康と井伊直弼とに関する史論を集めたものらしかつた。が偶然開いた箇所は附録に添へてある雑文だつた。「人の一生」――僕はこの雑文の一つにかう云ふ名のあるのを発見した。</p>
+      <p style="text-indent: 6em" rend="first-line-indent(6)" source="#source-1517-1549"><seg source="#source-1517-1549">人の一生</seg></p>
+      <div type="layout" source="#source-1549-2204" style="column-count: 2">
+        <p style="text-indent: 2em" rend="first-line-indent(2)" source="#source-1581-1601"><seg source="#source-1581-1601">徳川家康</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-1601-1627"><seg source="#source-1601-1627">急ぐべからず。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-1627-1695"><seg source="#source-1627-1695">心に望おこらば困窮したる時を思ひ出すべし。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-1695-1736"><ruby type="furigana" rend="right" source="#source-1698-1716"><rb>怒</rb><rt>いかり</rt></ruby><seg source="#source-1716-1736">は敵と思へ。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-1736-1816"><seg source="#source-1736-1816">勝つ事ばかり知てまくる事をしらざれば害其身に至る。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-1816-1866"><seg source="#source-1816-1866">及ばざるは過ぎたるより勝れり。</seg></p>
+        <p source="#source-1866-1883"><cb source="#source-1866-1881"/></p>
+        <p style="text-indent: 2em" rend="first-line-indent(2)" source="#source-1883-1912"><seg source="#source-1883-1912">大久保余所五郎</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-1912-1950"><ruby type="furigana" rend="right" source="#source-1915-1930"><rb>後</rb><rt>おく</rt></ruby><seg source="#source-1930-1950">るべからず。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-1950-2018"><seg source="#source-1950-2018">心に望失なはば得意なりし時を思ひ出すべし。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2018-2047"><seg source="#source-2018-2047">卑屈は敵と思へ。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2047-2127"><seg source="#source-2047-2127">負くる事に安んじて勝つ事を知らざれば損其身に至る。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2127-2171"><seg source="#source-2127-2171">成すは成さざるより勝れり。</seg></p>
+      </div>
+      <div>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2206-2973"><seg source="#source-2206-2251">僕は思はず微笑した。この湖州</seg><ruby type="furigana" rend="right" source="#source-2251-2308"><rb>大久保余所五郎</rb><rt>おほくぼよそごらう</rt></ruby>なるものは征夷大将軍徳川家康と処世訓の長短を比べてゐる。しかも彼の処世訓は不思議にも坊間に行はれる教科書の臭気を帯びてゐない。何処か彼自身の面接した人生の息吹きを漂はせてゐる。「心に望失はば得意なりし時を思ひ出すべし。」――情熱に富んだ才人の面かげはかう云ふ一行にも見えるやうである。僕は漫然とその次の「鎌倉漫筆」へ目を移した。漫然と――しかし僕の好奇心は<ruby type="furigana" rend="right" source="#source-2842-2860"><rb>忽</rb><rt>たちま</rt></ruby><seg source="#source-2860-2973">ち近来にない刺戟を感じた。まづ僕を喜ばせたものは歴史家を評した数行である。</seg></p>
+        <p source="#source-2973-3305"><seg source="#source-2973-2976">「</seg><ruby type="furigana" rend="right" source="#source-2976-2988"><rb>若</rb><rt>も</rt></ruby><seg source="#source-2988-2991">し</seg><ruby type="furigana" rend="right" source="#source-2991-3012"><rb>徂徠</rb><rt>そらい</rt></ruby>にして白石の如く史を究めたらんには、其の史眼は必ず白石の上に出づべし。『<ruby type="furigana" rend="right" source="#source-3120-3150"><rb>南留別志</rb><rt>なるべし</rt></ruby>』を一読して知るべし。頼山陽を歴史家と念ふは非なり。日本政記の論文にも、取るに足らざる浅薄の見多し。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-3305-3382"><seg source="#source-3305-3382">次に興味を感じたのは半頁にも足りない史論である。</seg></p>
+        <p source="#source-3382-4536">「大日本史の主旨は勤王に在りといふ。水戸黄門この書を思ひ立ちしは、<ruby type="furigana" rend="right" source="#source-3481-3511"><rb>伯夷伝</rb><rt>はくいでん</rt></ruby><seg source="#source-3511-3931">を読みて感ずる所ありてなりといふ。周の武王は時の強者なり。伯夷は時の強者を制し、名分を正さんとして用ゐられざりし男なり。黄門何とてさる支那の一不平党に同感して、勤王の精神を現せる国史を編まんとはしけるぞ。幕府は時の強者なり。之を制して名分を正さんとしけるにや。されど徳川は正に其の</seg><ruby type="furigana" rend="right" source="#source-3931-3952"><rb>宗家</rb><rt>そうけ</rt></ruby><seg source="#source-3952-4039">なり。宗家の不利を顧みざりしにや。黄門は世に賢明の人なりと</seg><ruby type="furigana" rend="right" source="#source-4039-4063"><rb>嘖々</rb><rt>さくさく</rt></ruby><seg source="#source-4063-4252">す。さる人にして、いかで朝廷重くなれば徳川軽くなるの理見えずやあるべき。是に於て黄門の真意は甚だ疑ふべし。不平党に同意せし胸中</seg><ruby type="furigana" rend="right" source="#source-4252-4279"><rb>穿鑿</rb><rt>せんさく</rt></ruby><seg source="#source-4279-4536">を要する所なり。時の将軍綱吉と黄門の不快なりしは、亦世に伝ふる所なり。得意なりしならんには、大日本史を編みしや否や、我れ識らず。美はしき表口上より、裏の辺見まほしくこそ。</seg></p>
+        <p source="#source-4536-5369">「家康の朝廷に対する精神は、敬して遠ざくるに在りしなり。信長秀吉等は皆朝廷を担ぎて事を図りしかど、家康にはさる事なし。関ヶ原大坂の軍にも、朝旨を受けて、王師皇軍などいふ体を装はず。武家と武家との戦と<ruby type="furigana" rend="right" source="#source-4833-4845"><rb>做</rb><rt>な</rt></ruby><seg source="#source-4845-5103">して、朝廷の力を仮らず。是れ実に家康の深慮の存する所なり。徳川の末世に及びて、勤王を唱へし徒は、朝廷尊崇をもて東照宮の遺意なるが如く説きて、幕府を責めしかど、実を知らぬ者の</seg><ruby type="furigana" rend="right" source="#source-5103-5124"><rb>迂説</rb><rt>うせつ</rt></ruby><seg source="#source-5124-5226">なりけり。朝廷に権力を持たせて、将軍政治の行はるると思ふは笑ふべし。</seg><ruby type="furigana" rend="right" source="#source-5226-5247"><rb>流石</rb><rt>さすが</rt></ruby>に新井白石は此の間の消息を解せしが如し。家康また至て公卿風を嫌ひし男なりけり。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5369-5488"><seg source="#source-5369-5488">しかし最も愉快だつたのは鮮かに著者自身の性格を示したやはり数行の感想である。</seg></p>
+        <p source="#source-5488-5559">「人三十にして老人にも少年にも交はるを得べし。</p>
+        <p source="#source-5559-5645">「我れ酒を飲まざれど、人に酒を呑（原）せて語るは面白し。</p>
+        <p source="#source-5645-5899">「始めて人を訪へば、知らぬ顔して室内の模様を見届け置くべし。<ruby type="furigana" rend="right" source="#source-5735-5753"><rb>爾後</rb><rt>じご</rt></ruby><seg source="#source-5753-5825">訪ふ毎に室内の変化に注目せよ。やがて主人の口には</seg><ruby type="furigana" rend="right" source="#source-5825-5840"><rb>掩</rb><rt>おほ</rt></ruby><seg source="#source-5840-5899">ひける性癖のをかしきふしを看出すべし。</seg></p>
+        <p source="#source-5899-6246">「人物を知らんには、其の人の金のつかひやうと、妻に対する振舞との二つこそ<ruby type="furigana" rend="right" source="#source-6007-6025"><rb>尤</rb><rt>もつと</rt></ruby><seg source="#source-6025-6246">も見まほしけれ。若し世に細君の自ら筆を染めて、細かに良人が日常の振舞を書き取れる日記と、金銀出納帳とだにあらば、之れに優る伝記の材料はなかるべし。</seg></p>
+        <p source="#source-6246-6551">「世評に善くいはるる人も、実際はそれ程の大人物に非ず、悪くいはるる人も、亦それ程の悪人にあらず、古今皆<ruby type="furigana" rend="right" source="#source-6399-6417"><rb>然</rb><rt>しか</rt></ruby><seg source="#source-6417-6432">り。個人の</seg><ruby type="furigana" rend="right" source="#source-6432-6456"><rb>貫目</rb><rt>くわんめ</rt></ruby><seg source="#source-6456-6486">を量らんには、世評の</seg><ruby type="furigana" rend="right" source="#source-6486-6510"><rb>封袋</rb><rt>ふうたい</rt></ruby><seg source="#source-6510-6551">を除くことを忘るべからず。</seg></p>
+        <p source="#source-6551-6637">「智慧できて、気性の強くなりしものあり。弱りしものあり。</p>
+        <p source="#source-6637-6903">「成る可く労力を節約して成るべく多く成功するの工夫を<ruby type="furigana" rend="right" source="#source-6715-6730"><rb>運</rb><rt>めぐ</rt></ruby><seg source="#source-6730-6799">らすべし。さりとて相場師に為れと言ふには非ず。</seg><ruby type="furigana" rend="right" source="#source-6799-6814"><rb>但</rb><rt>ただ</rt></ruby><seg source="#source-6814-6874">し人事なべて多少投機の性質を帯ぶるものと</seg><ruby type="furigana" rend="right" source="#source-6874-6889"><rb>念</rb><rt>おも</rt></ruby><seg source="#source-6889-6903">ふべし。</seg></p>
+        <p source="#source-6903-7049">「愚人を相手に得々然たること能はざる政治家は、輿論政治の世に政治家たる資格なきものと知るべし。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-7049-7915"><seg source="#source-7049-7166">男女とも尻つ尾さへぶら下げてゐなければ、一人前の人間だと考へるのは三千年来の</seg><ruby type="furigana" rend="right" source="#source-7166-7187"><rb>誤謬</rb><rt>ごびう</rt></ruby><seg source="#source-7187-7301">である。一人前の人間となる為には、まづ脳髄と称へられる灰白色の塊にも一人前の</seg><ruby type="furigana" rend="right" source="#source-7301-7325"><rb>皺襞</rb><rt>すうへき</rt></ruby>を具へなければならぬ。この大久保湖州と云ふ書生は確かに孔雀や猿を脱した一人前の脳髄を所有してゐる。いや、一人前所ではないかも知れない。彼の文章は冷然とした中に不思議にも情熱を漲らせてゐる。天下にかう云ふ文章ほど、一人前以上の脳髄の所在を歴々と教へる指道標はない。のみならず――実価は五十銭である。僕は皺くちやになつた五十銭札を出し、青黒いクロオスの表紙のついた「家康と直弼」を買ふことにした。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-7915-8958"><seg source="#source-7915-7996">買つた後に開いて見ると、巻頭には近衛公の題字を始め、</seg><ruby type="furigana" rend="right" source="#source-7996-8035"><rb>重野成斎</rb><rt>しげのせいさい</rt></ruby><seg source="#source-8035-8053">、坪内逍遥、</seg><ruby type="furigana" rend="right" source="#source-8053-8092"><rb>島田沼南</rb><rt>しまだせうなん</rt></ruby><seg source="#source-8092-8110">、徳富蘇峰、</seg><ruby type="furigana" rend="right" source="#source-8110-8149"><rb>田口鼎軒</rb><rt>たぐちていけん</rt></ruby>等の序文だの、水谷不倒の「大久保湖州君小伝」だの、明治趣味の顋髯を生やした著者の写真だのもはひつてゐる。無名の書生だと思つた湖州は思ひの外知己に富んでゐたらしい。が、現代に生れた我々の湖州を知らぬことも<ruby type="furigana" rend="right" source="#source-8452-8467"><rb>亦</rb><rt>また</rt></ruby>事実である。すると諸名士の金玉の序文も「家康と直弼」を伝へることには失敗したと云はなければならぬ。これは読者たる僕の勇気を沮喪せしめるに足る発見である。才人だと思つた大久保湖州も或は大学の教授に多い、荘厳なる阿呆の一人だつたかも知れない。僕は夜長の電燈の下にかう云ふ疑惑を抱きながら、まづ彼の大作たる家康篇を読みはじめた。……</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-8958-10616"><seg source="#source-8958-9069">これはもう一昨年、――念の為に書いて置けば、大正十一年の秋のことである。</seg><ruby type="furigana" rend="right" source="#source-9069-9090"><rb>爾来</rb><rt>じらい</rt></ruby><seg source="#source-9090-9624">僕は何かの機会にこの忘れられた歴史家を紹介したいと思ひながら、とうとう今日に及んでしまつた。紹介したいと云ふ以上、湖州大久保余所五郎の才人だつたことは云ふを待たない。いや、湖州は明治の生んだ、必しも多からざる才人中、最も特色のある一人である。諸君は勿論かう云ふ讃辞に懐疑的な微笑を浮べるであらう。諸君の確信する所によれば、古今の才人は一人残らず諸君の愛顧を</seg><ruby type="furigana" rend="right" source="#source-9624-9648"><rb>辱</rb><rt>かたじけな</rt></ruby><seg source="#source-9648-9666">うしてゐる。</seg><ruby type="furigana" rend="right" source="#source-9666-9684"><rb>況</rb><rt>いはん</rt></ruby><seg source="#source-9684-10347">や最も特色のある才人などと云ふものの等閑に附せられてゐる筈はない。それは諸君の云ふ通りである。第一古今の才人は何も才人だつた故に諸君の御意にかなつたのではない。諸君の御意にかなつた故に才人になることも出来たのである。つまり才人を才人にするのは才人自身といふよりも諸君であると云はなければならぬ。諸君はまことにその点だけは神よりも全智全能である。如何なる才人も諸君の為に門前払ひを食はされたが最後、露命さへ繋げぬのに違ひない。この故に尾形乾山は</seg><ruby type="furigana" rend="right" source="#source-10347-10371"><rb>蕭条</rb><rt>せうでう</rt></ruby><seg source="#source-10371-10377">たる</seg><ruby type="furigana" rend="right" source="#source-10377-10401"><rb>陋巷</rb><rt>ろうかう</rt></ruby>に窮死した。この故に亦大久保湖州も明治三十四年出版、正価一円二十銭の著書を、――しかも彼の唯一の著書を「引ナシ五十銭」に売られてゐるのである。</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-10616-12886"><seg source="#source-10616-10691">僕は湖州を才人だと云つた。が、諸君の微笑の前には</seg><ruby type="furigana" rend="right" source="#source-10691-10715"><rb>少時</rb><rt>しばらく</rt></ruby><seg source="#source-10715-11264">この言葉を見合せても好い。その代りに僕は諸君の愛顧を辱うする光栄を得なかつた湖州の薄命を弔はなければならぬ。湖州もその後聞いた所によれば、少くとも識者の間には全然忘れられた次第ではない。しかし湖州の母校たる当年の早稲田専門学校――現在の早稲田大学は片上伸の如き、本間久雄の如き、或は又宮島新三郎の如き、有為の批評家を世に出してゐる。けれども大久保湖州の名は未だ彼等の</seg><ruby type="furigana" rend="right" source="#source-11264-11288"><rb>椽大</rb><rt>てんだい</rt></ruby><seg source="#source-11288-11312">の筆に一度たりと</seg><ruby type="furigana" rend="right" source="#source-11312-11330"><rb>雖</rb><rt>いへど</rt></ruby><seg source="#source-11330-11429">も上つたことはない。彼等は皆彼等の職に甚だ忠なる批評家である。或は</seg><ruby type="furigana" rend="right" source="#source-11429-11447"><rb>聊</rb><rt>いささ</rt></ruby><seg source="#source-11447-11477">か彼等の職に忠過ぎる</seg><ruby type="furigana" rend="right" source="#source-11477-11492"><rb>憾</rb><rt>うら</rt></ruby><seg source="#source-11492-11714">みさへあるかも知れない。しかも湖州を逸してゐるのは怠慢の罪と云ふよりも、やはり我々と同じやうに無知の罪と云はなければならぬ。彼等は万里の波濤を隔てた</seg><ruby type="furigana" rend="right" source="#source-11714-11741"><rb>仏蘭西</rb><rt>フランス</rt></ruby><seg source="#source-11741-11744">、</seg><ruby type="furigana" rend="right" source="#source-11744-11771"><rb>英吉利</rb><rt>イギリス</rt></ruby><seg source="#source-11771-11774">、</seg><ruby type="furigana" rend="right" source="#source-11774-11798"><rb>露西亜</rb><rt>ロシア</rt></ruby><seg source="#source-11798-11981">等の群小作家の名をも心得てゐる。が、彼等の先輩たる大才の名だけは心得てゐない。かう云ふ湖州を薄命と呼ぶのは必ずしも誇張とは</seg><ruby type="furigana" rend="right" source="#source-11981-11996"><rb>咎</rb><rt>とが</rt></ruby>め難いであらう。且又湖州は早稲田大学の前に銅像か何か建てられたとしても、依然たる薄命の歴史家である。成程「家康と直弼」は彼の面目を伝へるかも知れない。しかし彼の畢生の事業は「井伊直弼伝」の大成である。彼はこの事業の為に三十六年の心血を<ruby type="furigana" rend="right" source="#source-12347-12362"><rb>瀝</rb><rt>そそ</rt></ruby>いだ。が、死は彼の命と共に「井伊直弼伝」をも奪ひ去つてしまつた。「こころざしなかばもとげぬ我身だにつひに行くべき道にゆきにけり」――水谷不倒の湖州君小伝によれば、死に臨んだ彼は満腔の遺憾をかう云ふ一首に託したさうである。これをしも薄命と呼ばないとすれば、何ごとを薄命と呼ぶであらう？　僕は少くとも中道に<ruby type="furigana" rend="right" source="#source-12815-12830"><rb>仆</rb><rt>たふ</rt></ruby><seg source="#source-12830-12886">れた先達の薄命を弔はなければならぬ。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-12886-13908">大久保湖州の作品は第一に「徳川家康篇」である。第二に「井伊直弼篇」である。第三に「遺老の実歴談に就きて」である。第三の「遺老の実歴談に就きて」は「明治維新の前後に際会して国事に<ruby type="furigana" rend="right" source="#source-13153-13171"><rb>与</rb><rt>あづか</rt></ruby>りし遺老の実歴談多く世に出づる」に当り、その史料的価値を考へた三十頁ばかりの論文に過ぎない。第二の「井伊直弼篇」も「井伊大老は開国論者に非ずといふに就いて」、「<ruby type="furigana" rend="right" source="#source-13411-13456"><rb>岡本黄石</rb><rt>をかもとくわうせき</rt></ruby>」、「<ruby type="furigana" rend="right" source="#source-13465-13504"><rb>長野主膳</rb><rt>ながのしゆぜん</rt></ruby>」の三篇の論文を寄せ集めた、たとへば「井伊直弼伝」と云ふ計画中の都市の一部分である。しかし第一の「徳川家康篇」だけは幸ひにも未成品に<ruby type="furigana" rend="right" source="#source-13702-13717"><rb>畢</rb><rt>をは</rt></ruby><seg source="#source-13717-13789">つてゐない。いや僕の信ずる所によれば、寧ろ前人を</seg><ruby type="furigana" rend="right" source="#source-13789-13807"><rb>曠</rb><rt>むなし</rt></ruby><seg source="#source-13807-13819">うした、</seg><ruby type="furigana" rend="right" source="#source-13819-13843"><rb>戞々</rb><rt>かつかつ</rt></ruby><seg source="#source-13843-13849">たる</seg><ruby type="furigana" rend="right" source="#source-13849-13882"><rb>独造底</rb><rt>どくざうてい</rt></ruby><seg source="#source-13882-13908">の完成品である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-13908-14936">一部の「徳川家康篇」は年少の家康を論じた「徳川家康」、中年の家康を論じた「<ruby type="furigana" rend="right" source="#source-14022-14052"><rb>鬼作左</rb><rt>おにさくざ</rt></ruby>」、老年の家康を論じた「<ruby type="furigana" rend="right" source="#source-14088-14133"><rb>本多佐渡守</rb><rt>ほんださどのかみ</rt></ruby>」の三篇の論文から成り立つてゐる。（<ruby type="furigana" rend="right" source="#source-14187-14205"><rb>尤</rb><rt>もつと</rt></ruby>も湖州はかう云ふ順序に是等の論文を書いた訳ではない。「徳川家康」は明治三十一年、「鬼作左」は明治三十年、「本多佐渡守」は明治二十九年、――即ち作品の順序とは全然反対に筆を執つたのである。）是等の論文は必しも金玉の名文と云ふ訳ではない。同時に又格別新しい史料に立脚してゐると云ふ次第でもない。しかし是等の論文の中から我々の目の前に浮んで来る征夷大将軍徳川家康は所謂歴史上の家康よりも数等に家康らしい家康である。たとへば「徳川家康」の中に女人に対する家康を論じた下の一節を読んで見るがよい。</p>
+        <p source="#source-14936-16246">「家康の子、男女合はせて十六人、之れを生みし腹は十人、夫人の産みし二子を除きては、余は皆側妾の所出なり。（中略）其の最後にお勝が腹に末女を挙げさせしは、既に将軍職を伜に渡して、駿府に隠居せし身にて、老いても壮なる<hi rend="bouten 傍点 right" source="#source-15254-15302" corresp="#source-15266-15302"><seg source="#source-15254-15266">六十六歳</seg></hi>の時なりとぞ識られける。其の他この豪傑が戯に手折られながら、子を結ばで空しく散りにし花は亦一二に止まらざるべし。実に家康も英雄色を好むの古則に漏るる能はじ。秀吉は北条征伐の陣中より淀君が許に一書を寄せて、『二十日ごろに、かならず参候て、わかぎみ（鶴松）<hi rend="bouten 傍点 right" source="#source-15680-15716" corresp="#source-15686-15716"><seg source="#source-15680-15686">だき</seg></hi><seg source="#source-15716-15764">可申候。そのよさに、そもじをも、</seg><hi rend="bouten 傍点 right" source="#source-15764-15842" corresp="#source-15791-15842"><seg source="#source-15764-15791">そばにねさせ可申候</seg></hi><seg source="#source-15842-15860">。せつかく御</seg><hi rend="bouten 傍点 right" source="#source-15860-15896" corresp="#source-15866-15896"><seg source="#source-15860-15866">まち</seg></hi>候可候』とは言ひ越しき。天真爛漫といはばいへ、又痴情めきたる嫌なからずやは。家康には表面さる事見えざりしかど、所詮言ふと言はぬとの相違にて、実は両雄とも多情の男なりけん。<hi rend="bouten 傍点 right" source="#source-16151-16241" corresp="#source-16184-16241"><seg source="#source-16151-16184">深きは言はぬ方なるべし</seg></hi><seg source="#source-16241-16246">。</seg></p>
+        <p source="#source-16246-17079">「さはれ流石に思慮深き家康は、秀吉の如く<ruby type="furigana" rend="right" source="#source-16306-16330"><rb>閨門</rb><rt>けいもん</rt></ruby><seg source="#source-16330-16360">の裡に一家滅亡の種を</seg><ruby type="furigana" rend="right" source="#source-16360-16372"><rb>蒔</rb><rt>ま</rt></ruby><seg source="#source-16372-16408">かず、其が第一の禁物たる</seg><hi rend="bouten 傍点 right" source="#source-16408-16438" corresp="#source-16411-16438"><seg source="#source-16408-16411">奢</seg></hi><seg source="#source-16438-16459">は女中にも厳に</seg><ruby type="furigana" rend="right" source="#source-16459-16474"><rb>仮</rb><rt>ゆる</rt></ruby><seg source="#source-16474-16765">さで、奥向にも倹素の風行はれしは、彼の本多佐渡守が秀忠将軍の乳母なる大婆に一言咎められて、返す詞も無かりし一場の話に徴して知るべし。駿府にて女房等が大根の漬物の塩辛きに困じて、家康に歎きけるを、</seg><ruby type="furigana" rend="right" source="#source-16765-16783"><rb>厨</rb><rt>くりや</rt></ruby><seg source="#source-16783-16810">の事をば沙汰しける</seg><ruby type="furigana" rend="right" source="#source-16810-16855"><rb>松下常慶</rb><rt>まつしたじやうけい</rt></ruby><seg source="#source-16855-17079">を召して今少し塩加減よくすべしと諭ししかば、此の老人主が側に進み寄りて、何事をかささやきしに、主は言葉なくして唯笑ひけるを、彼れ其の儘退きしと云ふ。</seg></p>
+        <p source="#source-17079-17639">「老人ささやきしは、『今の如く塩辛く漬けさせ候てさへ、朝夕の用夥しきものを女房達の好みの如く、塩加減いたし候はば、何ほどの費用に及ぶべきも計りがたし。女房達の申す詞など聞し召さぬ様にて、わたらせ給ふこそ然るべけれ』とは曰ひしなりけり。常慶も塩辛き男なれば、家康が笑ひし<hi rend="bouten 傍点 right" source="#source-17481-17523" corresp="#source-17490-17523"><seg source="#source-17481-17490">腹加減</seg></hi><seg source="#source-17523-17639">も大に塩辛かりけり。天下を取りし後だに此くの如し。三河の事想ふべし。（中略）</seg></p>
+        <p source="#source-17639-19384">「『近年日課を六万遍唱へ候事、老人いらぬ<ruby type="furigana" rend="right" source="#source-17699-17723"><rb>過役</rb><rt>くわえき</rt></ruby><seg source="#source-17723-17936">にて候。遍数減らし候様に皆々申聞候。成程遍数をへらし候へば、楽に成り候得共、幼少より戦国に生れ、多くの人を殺し候得ば、せめて罪ほろぼしにもなり</seg><ruby type="furigana" rend="right" source="#source-17936-17963"><rb>候半</rb><rt>さふらはん</rt></ruby><seg source="#source-17963-17990">。且年若より一日も</seg><ruby type="furigana" rend="right" source="#source-17990-18005"><rb>隙</rb><rt>ひま</rt></ruby><seg source="#source-18005-18155">に暮したる事なき身故、何ぞの業を致度候得ども、それもいらぬ事故、念仏を日々の稽古事の様に致し候ゆへ、</seg><hi rend="bouten 傍点 right" source="#source-18155-18221" corresp="#source-18176-18221"><seg source="#source-18155-18176">毎日朝起いたし</seg></hi><seg source="#source-18221-18224">、</seg><hi rend="bouten 傍点 right" source="#source-18224-18302" corresp="#source-18251-18302"><seg source="#source-18224-18251">夜もはやくは休不申</seg></hi><seg source="#source-18302-18365">、おこたらぬやうにこころ懸候事。夫故食事の</seg><ruby type="furigana" rend="right" source="#source-18365-18380"><rb>中</rb><rt>あた</rt></ruby>りもなく健にて、念仏の影と存候。』と言へるを看ても、裏面の行跡に大に放縦の振舞なかりしは察すべし。但し彼の秀吉すら「女に心<ruby type="furigana" rend="right" source="#source-18563-18626"><rb><seg source="#source-18566-18569">不</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-18569-18581">レ</note><seg source="#source-18581-18584">可</seg><note type="kunten" subtype="return-mark" rend="subscript" source="#source-18584-18596">レ</note><seg source="#source-18596-18599">免</seg></rb><rt>ゆるすべからず</rt></ruby>」と戒めたれば、家康が清浄潔白の念仏談も、<ruby type="furigana" rend="right" source="#source-18689-18704"><rb>曾</rb><rt>かつ</rt></ruby><seg source="#source-18704-18827">て一時に数人の侍妾を設け置きし覚えある男の言と識るべし。人を殺しし罪ほろぼしの外に</seg><hi rend="bouten 傍点 right" source="#source-18827-18887" corresp="#source-18845-18887"><seg source="#source-18827-18845">言ひ難き懺悔</seg></hi><seg source="#source-18887-18926">の珠数をば繰らざりしにや。</seg><ruby type="furigana" rend="right" source="#source-18926-18944"><rb>徒士</rb><rt>かち</rt></ruby><seg source="#source-18944-19262">の者奥の女中に文を送りしとて、徒士頭松平若狭守改易の罪に処せられきと伝ふれば、奥向の規律の厳正なりしを窺ふべし。亦窮屈なる規則の内にても、主人には之を潜りて融通の道ありしを忘るべからず。三河に在りし頃は特に何事も</seg><hi rend="bouten 傍点 right" source="#source-19262-19298" corresp="#source-19268-19298"><seg source="#source-19262-19268">手軽</seg></hi><seg source="#source-19298-19384">なりしなるべし。家康年積みて処世の道に熟しては、（中略）</seg></p>
+        <p source="#source-19384-19956">「おのれ常に老臣共の衆評を聴きて、一人に権を占めさせじと努めし跡は、歴々として史上にも残りけるが、表の政治に用ゐし此筆法は、奥の女中を制御するにも応用して、一人の女に寵を<ruby type="furigana" rend="right" source="#source-19639-19660"><rb>専</rb><rt>もつぱら</rt></ruby><seg source="#source-19660-19831">にさせじと抑えしは疑あらず。十六人の子を挙げし十人の妻妾、二人より多くを産みし者なかりしは、深き仔細ありぬるにや。</seg><ruby type="furigana" rend="right" source="#source-19831-19849"><rb>強</rb><rt>あなが</rt></ruby>ち偶然の事のみにあらざるべし。」（胡麻点は原文のを保存したのである。）</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-19956-21659">この徳川家康は女色を愛する老爺たるばかりか、産児制限をも行ふ政治家である。これは明かに三百年来、我我の見慣れた家康ではない。我我の見慣れた家康よりもはるかに人間らしい家康である。はるかに人間らしい、――諸君は或は僕の言葉の平凡過ぎるのに微笑するであらう。「人間らしい」と云ふ言葉は勿論非凡でも何でもない。あらゆる新刊の小説や戯曲は必ずその広告の中に「人間らしい苦しみ」とか「人間らしい生活」とか、人間らしい万事を売りものにしてゐる。が、それらの小説や戯曲は果してどの位広告通り、人間らしい何ものかを捉へてゐるのであらうか？　殊に英雄の伝記の作者は無邪気なる英雄崇拝者でなければ、古色蒼然たるモオラリストである。成程彼等の或者は人間らしさを説いてゐるかも知れない。しかし彼等の人間らしさも実際彼等の吹聴するやうに人間らしいかどうかは疑問である。彼等はいつも厳然とかう諸君に云ふであらう。――「英雄も勿論凡人ではない。が、神には生れない以上、やはり凡人たる半面をも具へてゐたことは確かである。すると我我の目の前に何の某と云ふ人物を立たせ、その何の某の英雄たることを認めさせる為には、凡人たらざる半面を指摘すると同時に凡人たる半面をも指摘してなければならぬ。在来の伝記の英雄に人間らしさの欠けてゐるのはかう云ふ用意の足りぬ為である。……」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-21659-24444">けれどもこれだけの用意さへすれば、果して彼等の云ふやうに、人間らしい英雄を示し得るであらうか？　たとへば諸君の軽蔑する「<ruby type="furigana" rend="right" source="#source-21842-21881"><rb>漢楚軍談</rb><rt>かんそぐんだん</rt></ruby>」を<ruby type="furigana" rend="right" source="#source-21887-21902"><rb>披</rb><rt>ひら</rt></ruby>いて見るが好い。「漢楚軍談」の漢の高祖は秦の始皇の夢に入つたり、白帝の子たる大蛇を斬つたり、凡人ならざる半面を大いに示してゐるかと思へば、女楽を好んだり、士に<ruby type="furigana" rend="right" source="#source-22139-22154"><rb>傲</rb><rt>おご</rt></ruby>つたり、凡人に劣らぬ半面をもやはり大いに示してゐる。しかし「漢楚軍談」の漢の高祖に王者の<ruby type="furigana" rend="right" source="#source-22286-22319"><rb>真面目</rb><rt>しんめんもく</rt></ruby><seg source="#source-22319-22412">を発見するものは三尺の童子ばかりと云はなければならぬ。もう一つ</seg><ruby type="furigana" rend="right" source="#source-22412-22433"><rb>次手</rb><rt>ついで</rt></ruby>に例を挙げれば、諸君の「漢楚軍談」よりも常に一層信用せぬ歴史、――新聞の記事を読んで見るが好い。新聞の記事の大臣も民意を体したり、憲政を擁護したり、凡人たらざる半面を大いに示してゐるかと思へば、<g ref="#gaiji-3-2-88-74" source="#source-22724-22783">譃</g><seg source="#source-22783-22822">をついたり、金を盗んだり、</seg><ruby type="furigana" rend="right" source="#source-22822-22852"><rb>大凡下</rb><rt>だいぼんげ</rt></ruby><seg source="#source-22852-24199">たる半面さへやはり大に示してゐる。が、新聞の記事の大臣に英雄の真面目は少時問はず、凡人の真面目さへ発見するものは三尺の童子――ではないにもしろ、六尺の童子ばかりと云はなければならぬ。すると彼等の云ふやうに、凡人たらざる半面と共に凡人たる半面をも指摘することは少しも英雄の英雄たる所以を明らかにしない道理である。彼等はこの道理にも頓着せず、神経衰弱に罹つたエホバのやうに彼等の所謂人間らしい英雄なるものを創造した。その結果はどうだつたか？　山積する彼等の伝記の中から我我の目の前に浮んで来るものは丁度両頭の蛇のやうに凡人たらざる半面と凡人たる半面とを左右へ出した、滑稽なる精神的怪物である。英雄崇拝者の英雄は英雄よりも寧ろ神であらう。モオラリストの英雄も余りに善玉でないとすれば、余りに悪玉であるかも知れない。しかし彼等の英雄は或統一を保つてゐる限り、人間らしいとは云ひ難いにもしろ、人形らしい可愛らしさを示してゐる。けれども一部の伝記の作者の所謂人間らしい英雄はかう云ふ可愛らしささへ示してゐない。</seg><ruby type="furigana" rend="right" source="#source-24199-24226"><rb>就中</rb><rt>なかんづく</rt></ruby><seg source="#source-24226-24373">彼等の創造した征夷大将軍徳川家康は最も不快なる怪物である。聖アントニウスを誘惑した、如何なる地獄の</seg><ruby type="furigana" rend="right" source="#source-24373-24397"><rb>眷属</rb><rt>けんぞく</rt></ruby><seg source="#source-24397-24444">よりも一層不快なる怪物である。</seg></p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-24444-25817"><seg source="#source-24444-24945">湖州の徳川家康は是等の怪物に比べずとも、おのづから人間らしい英雄である。この相違は何処から来たか？　湖州は家康を論ずるのに、凡人たらざる半面と共に凡人たる半面をも指摘したのではない。唯凡人たる半面と凡人たらざる半面との融合する一点を指摘した、――と云ふよりも寧ろ英雄の中に黙々と生を営んでゐる人間全体を指摘したのである。これは言葉の</seg><ruby type="furigana" rend="right" source="#source-24945-24969"><rb>穿鑿</rb><rt>せんさく</rt></ruby><seg source="#source-24969-25062">だけすれば、凡人たらざる半面と共に凡人たる半面をも指摘するのと</seg><ruby type="furigana" rend="right" source="#source-25062-25083"><rb>毫釐</rb><rt>がうり</rt></ruby><seg source="#source-25083-25344">の相違に過ぎないかも知れない。が、事実は千里の山河を隔絶したにもひとしい相違である。凡人たらざる半面と共に凡人たる半面をも指摘するのは凡庸なる作者にも成し得るであらう。しかし</seg><ruby type="furigana" rend="right" source="#source-25344-25386"><rb>神采奕々</rb><rt>しんさいえきえき</rt></ruby><seg source="#source-25386-25491">たる人間全体を指摘するのは一代の才人を待たなければならぬ。湖州の前人を</seg><ruby type="furigana" rend="right" source="#source-25491-25515"><rb>凌駕</rb><rt>りようが</rt></ruby>する所以はこの人間全体を指摘した烱眼に存してゐる。湖州自身も史上の人物に人間全体を発見することは絶えず工夫を凝らしたものらしい。たとへば明治二十七八年頃の「随感録」と題する随筆は次の一節を録してゐる。</p>
+        <p source="#source-25817-26089">「書を読て、心緒<ruby type="furigana" rend="right" source="#source-25841-25868"><rb>忽然</rb><rt>こつぜん</rt></ruby><seg source="#source-25868-25970">として古人に触れ、静夜月を仰ぎて、感慨湧然として古人に及ぶ。同情の念</seg><ruby type="furigana" rend="right" source="#source-25970-25997"><rb>沸々</rb><rt>ふつふつ</rt></ruby>として起る。是等を観察し、彼を沈思す。大抵誤まらざるを得。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-26089-26223"><seg source="#source-26089-26098">更に</seg><ruby type="furigana" rend="right" source="#source-26098-26116"><rb>略々</rb><rt>ほぼ</rt></ruby>同時代に成つた「伝記私言数則」は<ruby type="furigana" rend="right" source="#source-26164-26188"><rb>悉</rb><rt>ことごとく</rt></ruby><seg source="#source-26188-26223">このことに及んでゐる。</seg></p>
+        <p source="#source-26223-26516">「事実に依りて心術を悟り、心術を悟りて更に事実を解す。然れども其間往々矛盾するものあり。人は外界の事情に制せられて、己れの意志を<ruby type="furigana" rend="right" source="#source-26415-26427"><rb>枉</rb><rt>ま</rt></ruby><seg source="#source-26427-26516">げて心ならざる事を行ふ。此隠秘の関繋を説明するを至要とす。</seg></p>
+        <p source="#source-26516-26821">「人は短所と長所との縫合物なり。一の長所あれば、必ず之れに短所伴ふ。短所を視れば、<ruby type="furigana" rend="right" source="#source-26639-26657"><rb>乃</rb><rt>すなは</rt></ruby><seg source="#source-26657-26821">ち其長所を知るべし。君子は其過を見て其仁を知る、亦此の意なり。能と不能とを明識するもの、始めて人を談ずべし。</seg></p>
+        <p source="#source-26821-27171">「人の世に立つ、各自皆一個の位地を占む。之を見るもの同等の地位に立ちて見るを要す。決して上より見るべからず。下より見るべからず。一郷の人は一郷の眼を以て見るべく、一国の人は一国の眼を以て見るべく、天下の人は天下の眼を以て見るべし。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-27171-29723">是等の言葉は湖州によれば、いづれも史上の人物に対する観照の態度を述べたものである。けれども湖州は古人にばかり、かう云ふ観照を加へたのであらうか？　いや、徳川家康をも冷眼に眺めた大久保湖州に唯史上の人物にばかり、かう云ふ観照を加へろと云ふのは出来ない相談ではないであらうか？　水谷不倒の湖州君小伝によれば「君、（中略）人に接するや寛容にして能く客を遇す。故に君の門を叩くもの日に絶えず、而して客の種類を問へば、概ね未来に属する政治家、文学者、詩人、美術家、史家、哲学者、事業家等あり。」だつたさうである。未来に属する政治家、文学者、詩人、美術家、史家、哲学者、事業家などと云ふものは勿論書生だつたのに違ひない。湖州は必ず是等の人々に独特の烱眼を注いだのであらう。同時に又是等の人々の中に、貪慾なる、<ruby type="furigana" rend="right" source="#source-28218-28242"><rb>奸譎</rb><rt>かんけつ</rt></ruby>なる、野卑なる、愚昧なる、放漫なる、が、常に同情を感ずる人間全体を見出したのであらう。僕の信ずる所によれば、湖州たる所以は徳川家康と云ふ英雄の中に人間全体を発見する前に、この所謂未来に属する政治家、文学者、詩人、美術家、史家、哲学者、事業家などの一群の中に人間全体を発見したことである。大いなる支那の賢人は「古きを<ruby type="furigana" rend="right" source="#source-28713-28728"><rb>温</rb><rt>たづ</rt></ruby>ね、新らしきを知る」と云つた。成程神功皇后の古きを温ね奉ることは勇敢なる婦人参政権論者の新らしきを知ることになるかも知れない。しかし又逆に新らしきを温ね、古きを知ることも確である。のみならず新らしきも知らない癖に、古きばかり温ねるのは新古ともに茫々たる魔境に墜ちることも確かである。不幸にも当世の伝記の作者は大抵この魔境に安住した。彼等は史上の人物を知つてゐると信じてゐる。が、彼等自身をはじめ、彼等の父母妻子の人間たることさへ一度も真に知らずに来た彼等に、糢糊たる史上の人物はどの位心臓を窺はせるであらうか？　湖州はかう云ふ出発点から、既に彼等とは反対の道へ精進の歩みを運んでゐる。湖州の徳川家康の人間らしい英雄となり得たのも偶然ではないと云はなければならぬ。</p>
+        <p source="#source-29723-30673">「家康（中略）、おのが庶子<ruby type="furigana" rend="right" source="#source-29762-29792"><rb>於義丸</rb><rt>おぎまる</rt></ruby><seg source="#source-29792-30137">を遣し、石川数正が子の勝千代と、作左衛門が子の仙千代とを附添へて都に登しぬ。（僕曰、小牧山の戦後、都にゐる秀吉に事実上の人質を出した時である。）於義丸は即ち黄門秀康の幼称にして、家婢お万の生む所、家康之を愛して孕みしかば、嫉妬深き</seg><ruby type="furigana" rend="right" source="#source-30137-30176"><rb>築山夫人</rb><rt>つきやまふじん</rt></ruby><seg source="#source-30176-30673">の怨を避けて、本多豊後守広孝が家老本多半左衛門が許に忍びしを、作左衛門密かに家康に訴へて之を営救せしなりとぞ。（中略）生まれし児は作左またおのが子として之れを養ひ、三歳のとき、兄信康この愛弟を連れて家康に見え、始めて実の父の膝に抱かれぬ。之れを尤も喜びしは、父よりも兄よりも、将た其の幼児よりも実は他人の作左衛門なるべし。（中略）</seg></p>
+        <p source="#source-30673-32030"><seg source="#source-30673-30676">「</seg><ruby type="furigana" rend="right" source="#source-30676-30697"><rb>許多</rb><rt>あまた</rt></ruby><seg source="#source-30697-30925">の武士味方の大家に遣はすめでたき養子と喜ばで、一時和したる敵国に遣はす質子なりと思ひ做しし中にも、作左衛門特に此念強かるべく、許さぬ仇敵の詐術と見ては、</seg><ruby type="furigana" rend="right" source="#source-30925-30940"><rb>縦</rb><rt>たと</rt></ruby><seg source="#source-30940-31033">ひ戦国の世の習ひながらも、豪鋭の性いかで一冷笑に附し去るべき。</seg><ruby type="furigana" rend="right" source="#source-31033-31045"><rb>而</rb><rt>し</rt></ruby><seg source="#source-31045-31216">かも今は此の作左が身に、己れ多年養ひ進らせし公子をば、そが犠牲に供せざるべからざる難題、直接に降り懸りぬ。（中略）</seg><ruby type="furigana" rend="right" source="#source-31216-31284"><rb><g ref="#gaiji-3-1-94-42" source="#source-31216-31263">鯁</g><seg source="#source-31263-31266">諤</seg></rb><rt>かうがく</rt></ruby><seg source="#source-31284-31449">の作左を首肯せしめしには、家康必ず若干の苦労ありしなるべく、作左も亦己れを抑えて、もだし難き君命を奉ぜしには、</seg><ruby type="furigana" rend="right" source="#source-31449-31473"><rb>千鈞</rb><rt>せんきん</rt></ruby><seg source="#source-31473-31770">の力をもて勇断せしなるべし。而して僅に十一歳の幼者をば、識らぬ人に託して遣るに忍びで、遂におのが一人の愛児をもさし出だして、其の行を共にせしむるに至りき、奉公の衷心、亦何ぞ美なるや。離別の際、作左が</seg><hi rend="bouten 傍点 right" source="#source-31770-31824" corresp="#source-31785-31824"><seg source="#source-31770-31785">武骨の哀情</seg></hi><seg source="#source-31824-32030">眼前に髣髴たり。是より作左が心は常に上方に馳せて、二人の身の上に到ると共に、秀吉が振舞を注目することも一層厳刻となりしなるべし。（中略）</seg></p>
+        <p source="#source-32030-34969">「さる程に（中略）徳川の家中にては、<hi rend="bouten 傍点 right" source="#source-32084-32156" corresp="#source-32108-32156"><seg source="#source-32084-32108">弥増す敵意と猜念</seg></hi>とをもて、上方の空を眺めつつ、変心測られぬ秀吉、いつ攻め来んも知り難しと、衆情枕をさへ安んぜざりし折柄、とりどりの流言伝はり、中にも秀吉於義丸等を殺すべしとの風聞は、痛く一家の人心をぞ刺しにける。（中略）家康は流石に忍刻の人、冷然として言へらく、『秀康今は我子にあらで、秀吉が子なり。之を殺すは秀吉の不義なり。殺さば殺せ』と。想ふに秀吉往々威喝を用ゐて人を屈するを慣術とすれども、亦敢て<ruby type="furigana" rend="right" source="#source-32735-32756"><rb>籠裡</rb><rt>ろうり</rt></ruby><seg source="#source-32756-32903">の小禽をば無益に殺生せん暴人にはあらじ。家康の智いかで之れを識らざることのあるべき。其の自若として</seg><ruby type="furigana" rend="right" source="#source-32903-32924"><rb>無慙</rb><rt>むざん</rt></ruby><seg source="#source-32924-32927">の</seg><ruby type="furigana" rend="right" source="#source-32927-32948"><rb>蜚説</rb><rt>ひせつ</rt></ruby><seg source="#source-32948-33116">に意を留めざるは、恐らくは此の辺の観察もあるに依るなるべし。されど作左はまた斯くの如く冷酷に看過する能はずして、</seg><ruby type="furigana" rend="right" source="#source-33116-33134"><rb>以為</rb><rt>おも</rt></ruby>へらく『いや<choice source="#source-33152-33158"><orig>／＼</orig><reg>〱</reg></choice><seg source="#source-33158-33188">仙千代丸都におきて、</seg><hi rend="bouten 傍点 right" source="#source-33188-33248" corresp="#source-33206-33248"><seg source="#source-33188-33206">人の疑うけん</seg></hi>事も詮なし。ただひとりある子、うしなはんも不便なり』と。直に母の大病に<ruby type="furigana" rend="right" source="#source-33353-33368"><rb>言</rb><rt>こと</rt></ruby><seg source="#source-33368-33380">よせて、</seg><ruby type="furigana" rend="right" source="#source-33380-33404"><rb>永訣</rb><rt>えいけつ</rt></ruby><seg source="#source-33404-33440">のためにとて呼び還しぬ。</seg><ruby type="furigana" rend="right" source="#source-33440-33455"><rb>蓋</rb><rt>けだ</rt></ruby><seg source="#source-33455-34127">し作左我が子の愛情もさることながら、おのが多年育て上げし公子が身危しと聴きては、其の痛傷の感いかで仙千代を念ふにも劣るべき。既に秀吉に与へし上は、今更これを取返さんやうも無けれど、其の儘都に置きては、不安の想ひに得堪へで、仙千代が身に先だちて、必ず家康に公子が事を訴へしなるべく、座上無道の秀吉を罵りし憤慨の豪気も察せられたり。家康も於義丸は兎も角、仙千代招還せんことは作左が老情を酌みて、喜びて許ししなるべく、母が大病とは円滑に聞こえて、否み難き</seg><ruby type="furigana" rend="right" source="#source-34127-34157"><rb>好辞柄</rb><rt>かうじへい</rt></ruby><seg source="#source-34157-34310">なりけり。猛き作左も子さへ還らばと、斯くは穏便に言ひ做ししなるべし。腹黒き主人の注意もありなん乎。且つ</seg><ruby type="furigana" rend="right" source="#source-34310-34322"><rb>夫</rb><rt>そ</rt></ruby><seg source="#source-34322-34472">れ仙千代と共に随ひ行きし勝千代が父は、彼の秀吉が覚よき石川伯耆守にして、徳川の家中には、兼ねてより、</seg><ruby type="furigana" rend="right" source="#source-34472-34490"><rb>窃</rb><rt>ひそか</rt></ruby><seg source="#source-34490-34562">に其の二心を疑へる者さへありければ、作左は素より</seg><ruby type="furigana" rend="right" source="#source-34562-34586"><rb>忠侃</rb><rt>ちうかん</rt></ruby><seg source="#source-34586-34754">一辺の男なれど、当時雑説紛々の折柄、伯耆守と共に子思ひの作左が心底も動かずやと、家中の噂にも上りしことあるべく、</seg><ruby type="furigana" rend="right" source="#source-34754-34769"><rb>疚</rb><rt>やま</rt></ruby><seg source="#source-34769-34787">しからぬ腹を</seg><ruby type="furigana" rend="right" source="#source-34787-34805"><rb>揣摩</rb><rt>しま</rt></ruby>せられて、潔白を傷けんも口惜しと、さてこそ思へば待てぬ作左衛門、急に疑の種をば引き戻すに至りしなるべけれ。」</p>
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-34969-36592">これは本多作左衛門と共に秀吉に雌伏する家康を論じた「鬼作左」の中の一節である。諸君は今もなほ大久保湖州を明治の才人の一人に数へる僕の蒙を笑殺するであらうか？　笑殺するとしないとは勿論諸君の随意である。唯僕は前に挙げた「伝記私言数則」の中に、「天<ruby type="furigana" rend="right" source="#source-35338-35359"><rb>自</rb><rt>みづか</rt></ruby><seg source="#source-35359-35470">ら言はず、人をして言はしむ、されど人の声は、必ずしも天の声と一致せず、人の</seg><ruby type="furigana" rend="right" source="#source-35470-35506"><rb>褒貶毀誉</rb><rt>ほうへんきよ</rt></ruby><seg source="#source-35506-35512">は、</seg><ruby type="furigana" rend="right" source="#source-35512-35536"><rb>数々</rb><rt>しばしば</rt></ruby><seg source="#source-35536-35551">天の公裁と</seg><ruby type="furigana" rend="right" source="#source-35551-35569"><rb>齟齬</rb><rt>そご</rt></ruby><seg source="#source-35569-35668">す。人世尤も憐むべきは、生前天の声を聞かずして死に入るものと為す。</seg><ruby type="furigana" rend="right" source="#source-35668-35692"><rb>後人</rb><rt>こうじん</rt></ruby>は彼が為めに、天に代り死後の知己たらざるべからず」の語を読んだ時、我々の忘れてゐた湖州の為に愴然の感を深うした。僕の文章は何であるにしろ、厳粛なる天の声などを代弁しないことは確かである。いや、得々と諸君の前に僕の発見を誇らうとする人の声に外ならぬかも知れない。しかし僕の文章を機会に、正真正銘の天の声の「家康と直弼」を讃美することは必しもないとは云ひ難いであらう。して見れば僕の文章は中道に倒れた先達の為にも多少の回向にはなる筈である。云はば僕は孤墳の所在を出来るだけ叮嚀に指し示した。この寂しい孤墳の前に、人々の礼するのはいつのことであらう？　更に又無数の花束の手向けられるのはいつのことであらう？</p>
+      </div>
+    </body>
+    <back>
+      <div type="source">
+        <note type="source-attribution" source="#source-36600-37018"><seg type="source-line">底本：「芥川龍之介全集　第十一巻」岩波書店</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1996（平成8）年9月9日発行</seg><lb/><seg type="source-line">底本の親本：「梅・馬・鶯」新潮社</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1926（大正15）年12月25日発行</seg><lb/><seg type="source-line">初出：（上）「女性改造　第三巻第五号」</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1924（大正13）年5月1日発行</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">（下）「女性改造　第三巻第六号」</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1924（大正13）年6月1日発行</seg></note>
+        <note type="transcriber-note" source="#source-37018-37577"><seg type="source-line">※「女性改造」連載の文芸講話「僻見」の第三章として掲載された。</seg><lb/><seg type="source-line">※底本は、物を数える際や地名などに用いる「ヶ」（区点番号5-86）を、大振りにつくっています。</seg><lb/><seg type="source-line">入力：もりみつじゅんじ</seg><lb/><seg type="source-line">校正：土屋隆</seg><lb/><seg type="source-line">2008年12月3日作成</seg><lb/><seg type="source-line">青空文庫作成ファイル：</seg><lb/><seg type="source-line">このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。</seg></note>
+        <note type="source-span" xml:id="source-1020-1044" n="24"/>
+        <note type="source-span" xml:id="source-10347-10371" n="57"/>
+        <note type="source-span" xml:id="source-10371-10377" n="57"/>
+        <note type="source-span" xml:id="source-10377-10401" n="57"/>
+        <note type="source-span" xml:id="source-10616-10691" n="58"/>
+        <note type="source-span" xml:id="source-10616-12886" n="58"/>
+        <note type="source-span" xml:id="source-10691-10715" n="58"/>
+        <note type="source-span" xml:id="source-10715-11264" n="58"/>
+        <note type="source-span" xml:id="source-11264-11288" n="58"/>
+        <note type="source-span" xml:id="source-11288-11312" n="58"/>
+        <note type="source-span" xml:id="source-11312-11330" n="58"/>
+        <note type="source-span" xml:id="source-11330-11429" n="58"/>
+        <note type="source-span" xml:id="source-11429-11447" n="58"/>
+        <note type="source-span" xml:id="source-11447-11477" n="58"/>
+        <note type="source-span" xml:id="source-11477-11492" n="58"/>
+        <note type="source-span" xml:id="source-11492-11714" n="58"/>
+        <note type="source-span" xml:id="source-11714-11741" n="58"/>
+        <note type="source-span" xml:id="source-11741-11744" n="58"/>
+        <note type="source-span" xml:id="source-11744-11771" n="58"/>
+        <note type="source-span" xml:id="source-11771-11774" n="58"/>
+        <note type="source-span" xml:id="source-11774-11798" n="58"/>
+        <note type="source-span" xml:id="source-11798-11981" n="58"/>
+        <note type="source-span" xml:id="source-11981-11996" n="58"/>
+        <note type="source-span" xml:id="source-12347-12362" n="58"/>
+        <note type="source-span" xml:id="source-12815-12830" n="58"/>
+        <note type="source-span" xml:id="source-12830-12886" n="58"/>
+        <note type="source-span" xml:id="source-12886-13908" n="59"/>
+        <note type="source-span" xml:id="source-13153-13171" n="59"/>
+        <note type="source-span" xml:id="source-13411-13456" n="59"/>
+        <note type="source-span" xml:id="source-13465-13504" n="59"/>
+        <note type="source-span" xml:id="source-13702-13717" n="59"/>
+        <note type="source-span" xml:id="source-13717-13789" n="59"/>
+        <note type="source-span" xml:id="source-13789-13807" n="59"/>
+        <note type="source-span" xml:id="source-13807-13819" n="59"/>
+        <note type="source-span" xml:id="source-13819-13843" n="59"/>
+        <note type="source-span" xml:id="source-13843-13849" n="59"/>
+        <note type="source-span" xml:id="source-13849-13882" n="59"/>
+        <note type="source-span" xml:id="source-13882-13908" n="59"/>
+        <note type="source-span" xml:id="source-13908-14936" n="60"/>
+        <note type="source-span" xml:id="source-14022-14052" n="60"/>
+        <note type="source-span" xml:id="source-14088-14133" n="60"/>
+        <note type="source-span" xml:id="source-14187-14205" n="60"/>
+        <note type="source-span" xml:id="source-14936-16246" n="61"/>
+        <note type="source-span" xml:id="source-1517-1549" n="25"/>
+        <note type="source-span" xml:id="source-15254-15266" n="61"/>
+        <note type="source-span" xml:id="source-15254-15302" n="61"/>
+        <note type="source-span" xml:id="source-15266-15302" n="61"/>
+        <note type="source-span" xml:id="source-1549-2204" n="26"/>
+        <note type="source-span" xml:id="source-15680-15686" n="61"/>
+        <note type="source-span" xml:id="source-15680-15716" n="61"/>
+        <note type="source-span" xml:id="source-15686-15716" n="61"/>
+        <note type="source-span" xml:id="source-15716-15764" n="61"/>
+        <note type="source-span" xml:id="source-15764-15791" n="61"/>
+        <note type="source-span" xml:id="source-15764-15842" n="61"/>
+        <note type="source-span" xml:id="source-15791-15842" n="61"/>
+        <note type="source-span" xml:id="source-1581-1581" n="27"/>
+        <note type="source-span" xml:id="source-1581-1601" n="27"/>
+        <note type="source-span" xml:id="source-15842-15860" n="61"/>
+        <note type="source-span" xml:id="source-15860-15866" n="61"/>
+        <note type="source-span" xml:id="source-15860-15896" n="61"/>
+        <note type="source-span" xml:id="source-15866-15896" n="61"/>
+        <note type="source-span" xml:id="source-1601-1627" n="28"/>
+        <note type="source-span" xml:id="source-16151-16184" n="61"/>
+        <note type="source-span" xml:id="source-16151-16241" n="61"/>
+        <note type="source-span" xml:id="source-16184-16241" n="61"/>
+        <note type="source-span" xml:id="source-16241-16246" n="61"/>
+        <note type="source-span" xml:id="source-16246-17079" n="62"/>
+        <note type="source-span" xml:id="source-1627-1695" n="29"/>
+        <note type="source-span" xml:id="source-16306-16330" n="62"/>
+        <note type="source-span" xml:id="source-16330-16360" n="62"/>
+        <note type="source-span" xml:id="source-16360-16372" n="62"/>
+        <note type="source-span" xml:id="source-16372-16408" n="62"/>
+        <note type="source-span" xml:id="source-16408-16411" n="62"/>
+        <note type="source-span" xml:id="source-16408-16438" n="62"/>
+        <note type="source-span" xml:id="source-16411-16438" n="62"/>
+        <note type="source-span" xml:id="source-16438-16459" n="62"/>
+        <note type="source-span" xml:id="source-16459-16474" n="62"/>
+        <note type="source-span" xml:id="source-16474-16765" n="62"/>
+        <note type="source-span" xml:id="source-16765-16783" n="62"/>
+        <note type="source-span" xml:id="source-16783-16810" n="62"/>
+        <note type="source-span" xml:id="source-16810-16855" n="62"/>
+        <note type="source-span" xml:id="source-16855-17079" n="62"/>
+        <note type="source-span" xml:id="source-1695-1698" n="30"/>
+        <note type="source-span" xml:id="source-1695-1736" n="30"/>
+        <note type="source-span" xml:id="source-1698-1716" n="30"/>
+        <note type="source-span" xml:id="source-17079-17639" n="63"/>
+        <note type="source-span" xml:id="source-1716-1736" n="30"/>
+        <note type="source-span" xml:id="source-1736-1816" n="31"/>
+        <note type="source-span" xml:id="source-17481-17490" n="63"/>
+        <note type="source-span" xml:id="source-17481-17523" n="63"/>
+        <note type="source-span" xml:id="source-17490-17523" n="63"/>
+        <note type="source-span" xml:id="source-17523-17639" n="63"/>
+        <note type="source-span" xml:id="source-17639-19384" n="64"/>
+        <note type="source-span" xml:id="source-17699-17723" n="64"/>
+        <note type="source-span" xml:id="source-17723-17936" n="64"/>
+        <note type="source-span" xml:id="source-17936-17963" n="64"/>
+        <note type="source-span" xml:id="source-17963-17990" n="64"/>
+        <note type="source-span" xml:id="source-17990-18005" n="64"/>
+        <note type="source-span" xml:id="source-18005-18155" n="64"/>
+        <note type="source-span" xml:id="source-18155-18176" n="64"/>
+        <note type="source-span" xml:id="source-18155-18221" n="64"/>
+        <note type="source-span" xml:id="source-1816-1866" n="32"/>
+        <note type="source-span" xml:id="source-18176-18221" n="64"/>
+        <note type="source-span" xml:id="source-18221-18224" n="64"/>
+        <note type="source-span" xml:id="source-18224-18251" n="64"/>
+        <note type="source-span" xml:id="source-18224-18302" n="64"/>
+        <note type="source-span" xml:id="source-18251-18302" n="64"/>
+        <note type="source-span" xml:id="source-18302-18365" n="64"/>
+        <note type="source-span" xml:id="source-18365-18380" n="64"/>
+        <note type="source-span" xml:id="source-18563-18626" n="64"/>
+        <note type="source-span" xml:id="source-18566-18569" n="64"/>
+        <note type="source-span" xml:id="source-18569-18581" n="64"/>
+        <note type="source-span" xml:id="source-18581-18584" n="64"/>
+        <note type="source-span" xml:id="source-18584-18596" n="64"/>
+        <note type="source-span" xml:id="source-18596-18599" n="64"/>
+        <note type="source-span" xml:id="source-1866-1881" n="33"/>
+        <note type="source-span" xml:id="source-1866-1883" n="33"/>
+        <note type="source-span" xml:id="source-18689-18704" n="64"/>
+        <note type="source-span" xml:id="source-18704-18827" n="64"/>
+        <note type="source-span" xml:id="source-1881-1883" n="33"/>
+        <note type="source-span" xml:id="source-18827-18845" n="64"/>
+        <note type="source-span" xml:id="source-18827-18887" n="64"/>
+        <note type="source-span" xml:id="source-1883-1912" n="34"/>
+        <note type="source-span" xml:id="source-18845-18887" n="64"/>
+        <note type="source-span" xml:id="source-18887-18926" n="64"/>
+        <note type="source-span" xml:id="source-18926-18944" n="64"/>
+        <note type="source-span" xml:id="source-18944-19262" n="64"/>
+        <note type="source-span" xml:id="source-1912-1915" n="35"/>
+        <note type="source-span" xml:id="source-1912-1950" n="35"/>
+        <note type="source-span" xml:id="source-1915-1930" n="35"/>
+        <note type="source-span" xml:id="source-19262-19268" n="64"/>
+        <note type="source-span" xml:id="source-19262-19298" n="64"/>
+        <note type="source-span" xml:id="source-19268-19298" n="64"/>
+        <note type="source-span" xml:id="source-19298-19384" n="64"/>
+        <note type="source-span" xml:id="source-1930-1950" n="35"/>
+        <note type="source-span" xml:id="source-19384-19956" n="65"/>
+        <note type="source-span" xml:id="source-1950-2018" n="36"/>
+        <note type="source-span" xml:id="source-19639-19660" n="65"/>
+        <note type="source-span" xml:id="source-19660-19831" n="65"/>
+        <note type="source-span" xml:id="source-19831-19849" n="65"/>
+        <note type="source-span" xml:id="source-19956-21659" n="66"/>
+        <note type="source-span" xml:id="source-2018-2047" n="37"/>
+        <note type="source-span" xml:id="source-2047-2127" n="38"/>
+        <note type="source-span" xml:id="source-2127-2171" n="39"/>
+        <note type="source-span" xml:id="source-21659-24444" n="67"/>
+        <note type="source-span" xml:id="source-21842-21881" n="67"/>
+        <note type="source-span" xml:id="source-21887-21902" n="67"/>
+        <note type="source-span" xml:id="source-2206-2251" n="41"/>
+        <note type="source-span" xml:id="source-2206-2973" n="41"/>
+        <note type="source-span" xml:id="source-22139-22154" n="67"/>
+        <note type="source-span" xml:id="source-22286-22319" n="67"/>
+        <note type="source-span" xml:id="source-22319-22412" n="67"/>
+        <note type="source-span" xml:id="source-22412-22433" n="67"/>
+        <note type="source-span" xml:id="source-2251-2308" n="41"/>
+        <note type="source-span" xml:id="source-22724-22783" n="67"/>
+        <note type="source-span" xml:id="source-22783-22822" n="67"/>
+        <note type="source-span" xml:id="source-22822-22852" n="67"/>
+        <note type="source-span" xml:id="source-22852-24199" n="67"/>
+        <note type="source-span" xml:id="source-24199-24226" n="67"/>
+        <note type="source-span" xml:id="source-24226-24373" n="67"/>
+        <note type="source-span" xml:id="source-24373-24397" n="67"/>
+        <note type="source-span" xml:id="source-24397-24444" n="67"/>
+        <note type="source-span" xml:id="source-24444-24945" n="68"/>
+        <note type="source-span" xml:id="source-24444-25817" n="68"/>
+        <note type="source-span" xml:id="source-24945-24969" n="68"/>
+        <note type="source-span" xml:id="source-24969-25062" n="68"/>
+        <note type="source-span" xml:id="source-25062-25083" n="68"/>
+        <note type="source-span" xml:id="source-25083-25344" n="68"/>
+        <note type="source-span" xml:id="source-25344-25386" n="68"/>
+        <note type="source-span" xml:id="source-25386-25491" n="68"/>
+        <note type="source-span" xml:id="source-25491-25515" n="68"/>
+        <note type="source-span" xml:id="source-25817-26089" n="69"/>
+        <note type="source-span" xml:id="source-25841-25868" n="69"/>
+        <note type="source-span" xml:id="source-25868-25970" n="69"/>
+        <note type="source-span" xml:id="source-25970-25997" n="69"/>
+        <note type="source-span" xml:id="source-26089-26098" n="70"/>
+        <note type="source-span" xml:id="source-26089-26223" n="70"/>
+        <note type="source-span" xml:id="source-26098-26116" n="70"/>
+        <note type="source-span" xml:id="source-26164-26188" n="70"/>
+        <note type="source-span" xml:id="source-26188-26223" n="70"/>
+        <note type="source-span" xml:id="source-26223-26516" n="71"/>
+        <note type="source-span" xml:id="source-26415-26427" n="71"/>
+        <note type="source-span" xml:id="source-26427-26516" n="71"/>
+        <note type="source-span" xml:id="source-26516-26821" n="72"/>
+        <note type="source-span" xml:id="source-26639-26657" n="72"/>
+        <note type="source-span" xml:id="source-26657-26821" n="72"/>
+        <note type="source-span" xml:id="source-26821-27171" n="73"/>
+        <note type="source-span" xml:id="source-27171-29723" n="74"/>
+        <note type="source-span" xml:id="source-28218-28242" n="74"/>
+        <note type="source-span" xml:id="source-2842-2860" n="41"/>
+        <note type="source-span" xml:id="source-2860-2973" n="41"/>
+        <note type="source-span" xml:id="source-28713-28728" n="74"/>
+        <note type="source-span" xml:id="source-29723-30673" n="75"/>
+        <note type="source-span" xml:id="source-2973-2976" n="42"/>
+        <note type="source-span" xml:id="source-2973-3305" n="42"/>
+        <note type="source-span" xml:id="source-2976-2988" n="42"/>
+        <note type="source-span" xml:id="source-29762-29792" n="75"/>
+        <note type="source-span" xml:id="source-29792-30137" n="75"/>
+        <note type="source-span" xml:id="source-2988-2991" n="42"/>
+        <note type="source-span" xml:id="source-2991-3012" n="42"/>
+        <note type="source-span" xml:id="source-30137-30176" n="75"/>
+        <note type="source-span" xml:id="source-30176-30673" n="75"/>
+        <note type="source-span" xml:id="source-30673-30676" n="76"/>
+        <note type="source-span" xml:id="source-30673-32030" n="76"/>
+        <note type="source-span" xml:id="source-30676-30697" n="76"/>
+        <note type="source-span" xml:id="source-30697-30925" n="76"/>
+        <note type="source-span" xml:id="source-30925-30940" n="76"/>
+        <note type="source-span" xml:id="source-30940-31033" n="76"/>
+        <note type="source-span" xml:id="source-31033-31045" n="76"/>
+        <note type="source-span" xml:id="source-31045-31216" n="76"/>
+        <note type="source-span" xml:id="source-3120-3150" n="42"/>
+        <note type="source-span" xml:id="source-31216-31263" n="76"/>
+        <note type="source-span" xml:id="source-31216-31284" n="76"/>
+        <note type="source-span" xml:id="source-31263-31266" n="76"/>
+        <note type="source-span" xml:id="source-31284-31449" n="76"/>
+        <note type="source-span" xml:id="source-31449-31473" n="76"/>
+        <note type="source-span" xml:id="source-31473-31770" n="76"/>
+        <note type="source-span" xml:id="source-31770-31785" n="76"/>
+        <note type="source-span" xml:id="source-31770-31824" n="76"/>
+        <note type="source-span" xml:id="source-31785-31824" n="76"/>
+        <note type="source-span" xml:id="source-31824-32030" n="76"/>
+        <note type="source-span" xml:id="source-32030-34969" n="77"/>
+        <note type="source-span" xml:id="source-32084-32108" n="77"/>
+        <note type="source-span" xml:id="source-32084-32156" n="77"/>
+        <note type="source-span" xml:id="source-32108-32156" n="77"/>
+        <note type="source-span" xml:id="source-32735-32756" n="77"/>
+        <note type="source-span" xml:id="source-32756-32903" n="77"/>
+        <note type="source-span" xml:id="source-32903-32924" n="77"/>
+        <note type="source-span" xml:id="source-32924-32927" n="77"/>
+        <note type="source-span" xml:id="source-32927-32948" n="77"/>
+        <note type="source-span" xml:id="source-32948-33116" n="77"/>
+        <note type="source-span" xml:id="source-3305-3382" n="43"/>
+        <note type="source-span" xml:id="source-33116-33134" n="77"/>
+        <note type="source-span" xml:id="source-33152-33158" n="77"/>
+        <note type="source-span" xml:id="source-33158-33188" n="77"/>
+        <note type="source-span" xml:id="source-33188-33206" n="77"/>
+        <note type="source-span" xml:id="source-33188-33248" n="77"/>
+        <note type="source-span" xml:id="source-33206-33248" n="77"/>
+        <note type="source-span" xml:id="source-33353-33368" n="77"/>
+        <note type="source-span" xml:id="source-33368-33380" n="77"/>
+        <note type="source-span" xml:id="source-33380-33404" n="77"/>
+        <note type="source-span" xml:id="source-33404-33440" n="77"/>
+        <note type="source-span" xml:id="source-33440-33455" n="77"/>
+        <note type="source-span" xml:id="source-33455-34127" n="77"/>
+        <note type="source-span" xml:id="source-3382-4536" n="44"/>
+        <note type="source-span" xml:id="source-34127-34157" n="77"/>
+        <note type="source-span" xml:id="source-34157-34310" n="77"/>
+        <note type="source-span" xml:id="source-34310-34322" n="77"/>
+        <note type="source-span" xml:id="source-34322-34472" n="77"/>
+        <note type="source-span" xml:id="source-34472-34490" n="77"/>
+        <note type="source-span" xml:id="source-34490-34562" n="77"/>
+        <note type="source-span" xml:id="source-34562-34586" n="77"/>
+        <note type="source-span" xml:id="source-34586-34754" n="77"/>
+        <note type="source-span" xml:id="source-34754-34769" n="77"/>
+        <note type="source-span" xml:id="source-34769-34787" n="77"/>
+        <note type="source-span" xml:id="source-34787-34805" n="77"/>
+        <note type="source-span" xml:id="source-3481-3511" n="44"/>
+        <note type="source-span" xml:id="source-34969-36592" n="78"/>
+        <note type="source-span" xml:id="source-3511-3931" n="44"/>
+        <note type="source-span" xml:id="source-35338-35359" n="78"/>
+        <note type="source-span" xml:id="source-35359-35470" n="78"/>
+        <note type="source-span" xml:id="source-35470-35506" n="78"/>
+        <note type="source-span" xml:id="source-35506-35512" n="78"/>
+        <note type="source-span" xml:id="source-35512-35536" n="78"/>
+        <note type="source-span" xml:id="source-35536-35551" n="78"/>
+        <note type="source-span" xml:id="source-35551-35569" n="78"/>
+        <note type="source-span" xml:id="source-35569-35668" n="78"/>
+        <note type="source-span" xml:id="source-35668-35692" n="78"/>
+        <note type="source-span" xml:id="source-36600-37018" n="82"/>
+        <note type="source-span" xml:id="source-37018-37577" n="90"/>
+        <note type="source-span" xml:id="source-3931-3952" n="44"/>
+        <note type="source-span" xml:id="source-3952-4039" n="44"/>
+        <note type="source-span" xml:id="source-4039-4063" n="44"/>
+        <note type="source-span" xml:id="source-4063-4252" n="44"/>
+        <note type="source-span" xml:id="source-4252-4279" n="44"/>
+        <note type="source-span" xml:id="source-4279-4536" n="44"/>
+        <note type="source-span" xml:id="source-4536-5369" n="45"/>
+        <note type="source-span" xml:id="source-4833-4845" n="45"/>
+        <note type="source-span" xml:id="source-4845-5103" n="45"/>
+        <note type="source-span" xml:id="source-5103-5124" n="45"/>
+        <note type="source-span" xml:id="source-5124-5226" n="45"/>
+        <note type="source-span" xml:id="source-5226-5247" n="45"/>
+        <note type="source-span" xml:id="source-5369-5488" n="46"/>
+        <note type="source-span" xml:id="source-5488-5559" n="47"/>
+        <note type="source-span" xml:id="source-5559-5645" n="48"/>
+        <note type="source-span" xml:id="source-5645-5899" n="49"/>
+        <note type="source-span" xml:id="source-5735-5753" n="49"/>
+        <note type="source-span" xml:id="source-5753-5825" n="49"/>
+        <note type="source-span" xml:id="source-5825-5840" n="49"/>
+        <note type="source-span" xml:id="source-5840-5899" n="49"/>
+        <note type="source-span" xml:id="source-5899-6246" n="50"/>
+        <note type="source-span" xml:id="source-6007-6025" n="50"/>
+        <note type="source-span" xml:id="source-6025-6246" n="50"/>
+        <note type="source-span" xml:id="source-6246-6551" n="51"/>
+        <note type="source-span" xml:id="source-6399-6417" n="51"/>
+        <note type="source-span" xml:id="source-6417-6432" n="51"/>
+        <note type="source-span" xml:id="source-6432-6456" n="51"/>
+        <note type="source-span" xml:id="source-6456-6486" n="51"/>
+        <note type="source-span" xml:id="source-6486-6510" n="51"/>
+        <note type="source-span" xml:id="source-6510-6551" n="51"/>
+        <note type="source-span" xml:id="source-6551-6637" n="52"/>
+        <note type="source-span" xml:id="source-6637-6903" n="53"/>
+        <note type="source-span" xml:id="source-6715-6730" n="53"/>
+        <note type="source-span" xml:id="source-6730-6799" n="53"/>
+        <note type="source-span" xml:id="source-6799-6814" n="53"/>
+        <note type="source-span" xml:id="source-6814-6874" n="53"/>
+        <note type="source-span" xml:id="source-6874-6889" n="53"/>
+        <note type="source-span" xml:id="source-6889-6903" n="53"/>
+        <note type="source-span" xml:id="source-6903-7049" n="54"/>
+        <note type="source-span" xml:id="source-7049-7166" n="55"/>
+        <note type="source-span" xml:id="source-7049-7915" n="55"/>
+        <note type="source-span" xml:id="source-7166-7187" n="55"/>
+        <note type="source-span" xml:id="source-7187-7301" n="55"/>
+        <note type="source-span" xml:id="source-7301-7325" n="55"/>
+        <note type="source-span" xml:id="source-7915-7996" n="56"/>
+        <note type="source-span" xml:id="source-7915-8958" n="56"/>
+        <note type="source-span" xml:id="source-7996-8035" n="56"/>
+        <note type="source-span" xml:id="source-8035-8053" n="56"/>
+        <note type="source-span" xml:id="source-8053-8092" n="56"/>
+        <note type="source-span" xml:id="source-8092-8110" n="56"/>
+        <note type="source-span" xml:id="source-8110-8149" n="56"/>
+        <note type="source-span" xml:id="source-8452-8467" n="56"/>
+        <note type="source-span" xml:id="source-849-1517" n="24"/>
+        <note type="source-span" xml:id="source-8958-10616" n="57"/>
+        <note type="source-span" xml:id="source-8958-9069" n="57"/>
+        <note type="source-span" xml:id="source-9069-9090" n="57"/>
+        <note type="source-span" xml:id="source-9090-9624" n="57"/>
+        <note type="source-span" xml:id="source-9624-9648" n="57"/>
+        <note type="source-span" xml:id="source-9648-9666" n="57"/>
+        <note type="source-span" xml:id="source-9666-9684" n="57"/>
+        <note type="source-span" xml:id="source-9684-10347" n="57"/>
+      </div>
+      <note type="parser-completion" n="true">The n attribute is true when no parser diagnostic of error severity was raised for this source. What the converter could not interpret is recorded in the interpretation-problem and parser-diagnostic notes.</note>
+      <note type="source-decoding">windows-31j</note>
+      <note type="source-span" xml:id="parser-source-0">{
+  "coordinate_system": "decoded_utf8",
+  "end": 30676,
+  "end_line": 76,
+  "line": 76,
+  "start": 30673
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="unclosed-bracket" source="#parser-source-0">unclosed_bracket</note>
+      <note type="source-span" xml:id="parser-source-1">{
+  "coordinate_system": "decoded_utf8",
+  "end": 29726,
+  "end_line": 75,
+  "line": 75,
+  "start": 29723
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="unclosed-bracket" source="#parser-source-1">unclosed_bracket</note>
+      <note type="source-span" xml:id="parser-source-2">{
+  "coordinate_system": "decoded_utf8",
+  "end": 26519,
+  "end_line": 72,
+  "line": 72,
+  "start": 26516
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="unclosed-bracket" source="#parser-source-2">unclosed_bracket</note>
+      <note type="source-span" xml:id="parser-source-3">{
+  "coordinate_system": "decoded_utf8",
+  "end": 26226,
+  "end_line": 71,
+  "line": 71,
+  "start": 26223
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="unclosed-bracket" source="#parser-source-3">unclosed_bracket</note>
+      <note type="source-span" xml:id="parser-source-4">{
+  "coordinate_system": "decoded_utf8",
+  "end": 17642,
+  "end_line": 64,
+  "line": 64,
+  "start": 17639
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="unclosed-bracket" source="#parser-source-4">unclosed_bracket</note>
+      <note type="source-span" xml:id="parser-source-5">{
+  "coordinate_system": "decoded_utf8",
+  "end": 17082,
+  "end_line": 63,
+  "line": 63,
+  "start": 17079
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="unclosed-bracket" source="#parser-source-5">unclosed_bracket</note>
+      <note type="source-span" xml:id="parser-source-6">{
+  "coordinate_system": "decoded_utf8",
+  "end": 16249,
+  "end_line": 62,
+  "line": 62,
+  "start": 16246
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="unclosed-bracket" source="#parser-source-6">unclosed_bracket</note>
+      <note type="source-span" xml:id="parser-source-7">{
+  "coordinate_system": "decoded_utf8",
+  "end": 14939,
+  "end_line": 61,
+  "line": 61,
+  "start": 14936
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="unclosed-bracket" source="#parser-source-7">unclosed_bracket</note>
+      <note type="source-span" xml:id="parser-source-8">{
+  "coordinate_system": "decoded_utf8",
+  "end": 6640,
+  "end_line": 53,
+  "line": 53,
+  "start": 6637
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="unclosed-bracket" source="#parser-source-8">unclosed_bracket</note>
+      <note type="source-span" xml:id="parser-source-9">{
+  "coordinate_system": "decoded_utf8",
+  "end": 6554,
+  "end_line": 52,
+  "line": 52,
+  "start": 6551
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="unclosed-bracket" source="#parser-source-9">unclosed_bracket</note>
+      <note type="source-span" xml:id="parser-source-10">{
+  "coordinate_system": "decoded_utf8",
+  "end": 6249,
+  "end_line": 51,
+  "line": 51,
+  "start": 6246
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="unclosed-bracket" source="#parser-source-10">unclosed_bracket</note>
+      <note type="source-span" xml:id="parser-source-11">{
+  "coordinate_system": "decoded_utf8",
+  "end": 5902,
+  "end_line": 50,
+  "line": 50,
+  "start": 5899
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="unclosed-bracket" source="#parser-source-11">unclosed_bracket</note>
+      <note type="source-span" xml:id="parser-source-12">{
+  "coordinate_system": "decoded_utf8",
+  "end": 5648,
+  "end_line": 49,
+  "line": 49,
+  "start": 5645
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="unclosed-bracket" source="#parser-source-12">unclosed_bracket</note>
+      <note type="source-span" xml:id="parser-source-13">{
+  "coordinate_system": "decoded_utf8",
+  "end": 5562,
+  "end_line": 48,
+  "line": 48,
+  "start": 5559
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="unclosed-bracket" source="#parser-source-13">unclosed_bracket</note>
+      <note type="source-span" xml:id="parser-source-14">{
+  "coordinate_system": "decoded_utf8",
+  "end": 5491,
+  "end_line": 47,
+  "line": 47,
+  "start": 5488
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="unclosed-bracket" source="#parser-source-14">unclosed_bracket</note>
+      <note type="source-span" xml:id="parser-source-15">{
+  "coordinate_system": "decoded_utf8",
+  "end": 3385,
+  "end_line": 44,
+  "line": 44,
+  "start": 3382
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="unclosed-bracket" source="#parser-source-15">unclosed_bracket</note>
+    </back>
+  </text>
+</TEI>

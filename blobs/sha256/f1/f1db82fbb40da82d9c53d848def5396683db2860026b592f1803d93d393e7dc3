@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:snh="https://w3id.org/soranoha/ns/tei" xmlns="http://www.tei-c.org/ns/1.0" snh:vocab-version="3">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ja">浦島太郎</title>
+        <title type="reading" xml:lang="ja-Hira">うらしまたろう</title>
+        <author><persName xml:lang="ja"><surname>楠山</surname><forename>正雄</forename><idno type="aozora-person-id">000329</idno></persName><persName xml:lang="ja-Hira"><surname>くすやま</surname><forename>まさお</forename></persName><persName xml:lang="ja-Latn"><surname>Kusuyama</surname><forename>Masao</forename></persName></author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://w3id.org/soranoha/">Soranoha</publisher>
+        <idno type="soranoha-work-identifier">003390_000329</idno>
+        <idno type="aozora-work-id">003390</idno>
+        <idno type="aozora-card-url">https://www.aozora.gr.jp/cards/000329/card3390.html</idno>
+        <date when="2014-09-17">2014-09-17</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">The underlying work is in the public domain; Soranoha asserts no rights over it.</licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Soranoha's encoding of this work and the artifacts derived from it are dedicated to the public domain under CC0-1.0. Attribution is requested, not required. Full rights statement: <ptr target="https://w3id.org/soranoha/rights"/></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>むかし むかし あるところに</title><publisher>童話屋</publisher><date>1996（平成8）年6月24日</date><note type="input-edition">1996（平成8）年7月10日第2刷</note></bibl>
+        <bibl><title>日本童話宝玉集（上中下版）</title><publisher>童話春秋社</publisher><date>1948（昭和23）～1949（昭和24）年発行</date></bibl>
+        <bibl><idno type="source-content-hash">sha256:6abea5288ef314250a53f58ebf71734a10a668c4435d53688fd322b688ec40da</idno></bibl>
+        <bibl><idno type="primary-text-hash">sha256:88770382d1c2202eb57da7998938b0d4791df1021ecd73b8a7d191fab2f558ba</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css"/>
+      <classDecl><taxonomy xml:id="ndc"><bibl>分類番号 as recorded by <title>青空文庫</title>, read as a class of 日本十進分類法 新訂9版. Category labels are from <title>NDC9 Linked Data</title> (日本図書館協会, CC BY); a category's IRI is <ref target="http://jla.or.jp/data/ndc9">http://jla.or.jp/data/ndc9</ref> followed by # and its n.</bibl><category xml:id="ndc913" n="913"><catDesc xml:lang="ja">小説．物語</catDesc><catDesc xml:lang="en">Fiction.Romance.Novel</catDesc></category></taxonomy><taxonomy xml:id="aozora-shelf"><bibl>分類番号 as recorded by <title>青空文庫</title>: the prefix K (児童図書記号) is placed before the NDC code for children's books.</bibl><category xml:id="shelf-k" n="K"><catDesc xml:lang="ja">児童書</catDesc><catDesc xml:lang="en">Children's material</catDesc></category></taxonomy><taxonomy xml:id="aozora-orthography"><bibl><title>青空文庫</title> 文字遣い種別: the orthographic style Aozora Bunko records for the transcription.</bibl></taxonomy></classDecl>
+      <refsDecl xml:id="source-spans"><p>A note of type source-span has an xml:id of the form source-START-END, giving the extent in UTF-8 bytes of the decoded primary text identified in sourceDesc, after the emendations declared in editorialDecl/correction are applied; each emendation replaces its sic text by its corr text at its own extent. <ptr target="https://w3id.org/soranoha/ns/tei"/></p></refsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ja">日本語</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#ndc">K913</classCode>
+        <catRef scheme="#ndc" target="#ndc913"/>
+        <catRef scheme="#aozora-shelf" target="#shelf-k"/>
+        <classCode scheme="#aozora-orthography">新字新仮名</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p style="text-indent: 5em" rend="first-line-indent(5)" source="#source-517-539"><seg source="#source-517-539">一</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-539-706"><seg source="#source-539-566">むかし、むかし、</seg><ruby type="furigana" rend="right" source="#source-566-587"><rb>丹後</rb><rt>たんご</rt></ruby><seg source="#source-587-593">の国</seg><ruby type="furigana" rend="right" source="#source-593-611"><rb>水</rb><rt>みず</rt></ruby><seg source="#source-611-614">の</seg><ruby type="furigana" rend="right" source="#source-614-626"><rb>江</rb><rt>え</rt></ruby><seg source="#source-626-629">の</seg><ruby type="furigana" rend="right" source="#source-629-644"><rb>浦</rb><rt>うら</rt></ruby><seg source="#source-644-706">に、浦島太郎というりょうしがありました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-706-969"><seg source="#source-706-784">浦島太郎は、毎日つりざおをかついでは海へ出かけて、</seg><hi rend="bouten 傍点 right" source="#source-784-820" corresp="#source-790-820"><seg source="#source-784-790">たい</seg></hi><seg source="#source-820-826">や、</seg><hi rend="bouten 傍点 right" source="#source-826-868" corresp="#source-835-868"><seg source="#source-826-835">かつお</seg></hi><seg source="#source-868-969">などのおさかなをつって、おとうさんおかあさんをやしなっていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-969-1469"><seg source="#source-969-1086">ある日、浦島はいつものとおり海へ出て、一日おさかなをつって、帰ってきました。</seg><ruby type="furigana" rend="right" source="#source-1086-1110"><rb>途中</rb><rt>とちゅう</rt></ruby><seg source="#source-1110-1137">、子どもが五、六人</seg><ruby type="furigana" rend="right" source="#source-1137-1164"><rb>往来</rb><rt>おうらい</rt></ruby><seg source="#source-1164-1221">にあつまって、がやがやいっていました。</seg><ruby type="furigana" rend="right" source="#source-1221-1236"><rb>何</rb><rt>なに</rt></ruby><seg source="#source-1236-1338">かとおもって浦島がのぞいてみると、小さいかめの子を一ぴきつかまえて、</seg><ruby type="furigana" rend="right" source="#source-1338-1353"><rb>棒</rb><rt>ぼう</rt></ruby><seg source="#source-1353-1469">でつついたり、石でたたいたり、さんざんにいじめているのです。浦島は見かねて、</seg></p>
+      <p source="#source-1469-1567">「まあ、そんなかわいそうなことをするものではない。いい子だから」</p>
+      <p source="#source-1567-1653"><seg source="#source-1567-1653">と、とめましたが、子どもたちはきき入れようともしないで、</seg></p>
+      <p source="#source-1653-1712">「なんだい。なんだい、かまうもんかい」</p>
+      <p source="#source-1712-1933"><seg source="#source-1712-1820">といいながら、またかめの子を、あおむけにひっくりかえして、足でけったり、</seg><ruby type="furigana" rend="right" source="#source-1820-1835"><rb>砂</rb><rt>すな</rt></ruby><seg source="#source-1835-1933">のなかにうずめたりしました。浦島はますますかわいそうにおもって、</seg></p>
+      <p source="#source-1933-2070">「じゃあ、おじさんが<hi rend="bouten 傍点 right" source="#source-1963-2005" corresp="#source-1972-2005"><seg source="#source-1963-1972">おあし</seg></hi>をあげるから、そのかめの子を売っておくれ」</p>
+      <p source="#source-2070-2114"><seg source="#source-2070-2114">といいますと、こどもたちは、</seg></p>
+      <p source="#source-2114-2215">「うんうん、<hi rend="bouten 傍点 right" source="#source-2132-2174" corresp="#source-2141-2174"><seg source="#source-2132-2141">おあし</seg></hi>をくれるならやってもいい」</p>
+      <p source="#source-2215-2370"><seg source="#source-2215-2272">といって、手を出しました。そこで浦島は</seg><hi rend="bouten 傍点 right" source="#source-2272-2314" corresp="#source-2281-2314"><seg source="#source-2272-2281">おあし</seg></hi><seg source="#source-2314-2370">をやってかめの子をもらいうけました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2370-2396"><seg source="#source-2370-2396">子どもたちは、</seg></p>
+      <p source="#source-2396-2464">「おじさん、ありがとう。また買っておくれよ」</p>
+      <p source="#source-2464-2532"><seg source="#source-2464-2532">と、わいわいいいながら、行ってしまいました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2532-2690"><seg source="#source-2532-2562">そのあとで浦島は、</seg><hi rend="bouten 傍点 right" source="#source-2562-2604" corresp="#source-2571-2604"><seg source="#source-2562-2571">こうら</seg></hi><seg source="#source-2604-2637">からそっと出したかめの</seg><ruby type="furigana" rend="right" source="#source-2637-2652"><rb>首</rb><rt>くび</rt></ruby><seg source="#source-2652-2690">をやさしくなでてやって、</seg></p>
+      <p source="#source-2690-2776">「やれやれ、あぶないところだった。さあもうお帰りお帰り」</p>
+      <p source="#source-2776-3066"><seg source="#source-2776-3066">といって、わざわざ、かめを海ばたまで持って行ってはなしてやりました。かめはさもうれしそうに、首や手足をうごかして、やがて、ぶくぶくあわをたてながら、水のなかにふかくしずんで行ってしまいました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-3066-3335"><seg source="#source-3066-3177">それから二、三日たって、浦島はまた舟にのって海へつりに出かけました。遠い</seg><ruby type="furigana" rend="right" source="#source-3177-3192"><rb>沖</rb><rt>おき</rt></ruby><seg source="#source-3192-3228">のほうまでもこぎ出して、</seg><ruby type="furigana" rend="right" source="#source-3228-3255"><rb>一生</rb><rt>いっしょう</rt></ruby><seg source="#source-3255-3335">けんめいおさかなをつっていますと、ふとうしろのほうで</seg></p>
+      <p source="#source-3335-3370">「浦島さん、浦島さん」</p>
+      <p source="#source-3370-3606"><seg source="#source-3370-3502">とよぶ声がしました。おやとおもってふりかえってみますと、だれも人のかげは見えません。その</seg><ruby type="furigana" rend="right" source="#source-3502-3517"><rb>代</rb><rt>かわ</rt></ruby><seg source="#source-3517-3606">り、いつのまにか、一ぴきのかめが、舟のそばにきていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-3606-3662"><seg source="#source-3606-3662">浦島がふしぎそうな顔をしていると、</seg></p>
+      <p source="#source-3662-3829">「わたくしは、先日<ruby type="furigana" rend="right" source="#source-3689-3707"><rb>助</rb><rt>たす</rt></ruby><seg source="#source-3707-3788">けていただいたかめでございます。きょうはちょっとそのお</seg><ruby type="furigana" rend="right" source="#source-3788-3803"><rb>礼</rb><rt>れい</rt></ruby>にまいりました」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-3829-3903"><seg source="#source-3829-3903">かめがこういったので、浦島はびっくりしました。</seg></p>
+      <p source="#source-3903-4001">「まあ、そうかい。わざわざ礼なんぞいいにくるにはおよばないのに」</p>
+      <p source="#source-4001-4213">「でも、ほんとうにありがとうございました。ときに、浦島さん、あなたは<hi rend="bouten 傍点 right" source="#source-4103-4145" corresp="#source-4112-4145"><seg source="#source-4103-4112">りゅう</seg></hi><ruby type="furigana" rend="right" source="#source-4145-4160"><rb>宮</rb><rt>ぐう</rt></ruby>をごらんになったことがありますか」</p>
+      <p source="#source-4213-4290">「いや、話にはきいているが、まだ見たことはないよ」</p>
+      <p source="#source-4290-4463">「ではほんのお礼のしるしに、わたくしが<hi rend="bouten 傍点 right" source="#source-4347-4389" corresp="#source-4356-4389"><seg source="#source-4347-4356">りゅう</seg></hi>宮を見せて上げたいとおもいますがいかがでしょう」</p>
+      <p source="#source-4463-4714">「へえ、それはおもしろいね。ぜひ行ってみたいが、それはなんでも海の底にあるということではないか。どうして行くつもりだね。わたしにはとてもそこまでおよいでは行けないよ」</p>
+      <p source="#source-4714-4821">「なに、わけはございません。わたくしの<ruby type="furigana" rend="right" source="#source-4771-4792"><rb>背中</rb><rt>せなか</rt></ruby>におのりください」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4821-4991"><seg source="#source-4821-4991">かめはこういって、背中を出しました。浦島は半分きみわるくおもいながら、いわれるままに、かめの背中にのりました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4991-5596"><seg source="#source-4991-5018">かめはすぐに白い</seg><ruby type="furigana" rend="right" source="#source-5018-5033"><rb>波</rb><rt>なみ</rt></ruby><seg source="#source-5033-5132">を切って、ずんずんおよいで行きました。ざあざあいう波の音がだんだん</seg><ruby type="furigana" rend="right" source="#source-5132-5147"><rb>遠</rb><rt>とお</rt></ruby><seg source="#source-5147-5201">くなって、青い青い水の底へ、ただもう</seg><ruby type="furigana" rend="right" source="#source-5201-5216"><rb>夢</rb><rt>ゆめ</rt></ruby><seg source="#source-5216-5315">のようにはこばれて行きますと、ふと、そこらがかっとあかるくなって、</seg><ruby type="furigana" rend="right" source="#source-5315-5339"><rb>白玉</rb><rt>しらたま</rt></ruby><seg source="#source-5339-5363">のようにきれいな</seg><ruby type="furigana" rend="right" source="#source-5363-5378"><rb>砂</rb><rt>すな</rt></ruby><seg source="#source-5378-5381">の</seg><ruby type="furigana" rend="right" source="#source-5381-5396"><rb>道</rb><rt>みち</rt></ruby><seg source="#source-5396-5468">がつづいて、むこうにりっぱな門が見えました。その</seg><ruby type="furigana" rend="right" source="#source-5468-5483"><rb>奥</rb><rt>おく</rt></ruby><seg source="#source-5483-5596">にきらきら光って、目のくらむような金銀のいらかが、たかくそびえていました。</seg></p>
+      <p source="#source-5596-5691">「さあ、<hi rend="bouten 傍点 right" source="#source-5608-5650" corresp="#source-5617-5650"><seg source="#source-5608-5617">りゅう</seg></hi><ruby type="furigana" rend="right" source="#source-5650-5665"><rb>宮</rb><rt>ぐう</rt></ruby>へまいりました」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5691-5774"><seg source="#source-5691-5730">かめはこういって、浦島を</seg><ruby type="furigana" rend="right" source="#source-5730-5751"><rb>背中</rb><rt>せなか</rt></ruby><seg source="#source-5751-5774">からおろして、</seg></p>
+      <p source="#source-5774-5815">「しばらくお待ちください」</p>
+      <p source="#source-5815-5887"><seg source="#source-5815-5887">といったまま、門のなかへはいって行きました。</seg></p>
+      <p style="text-indent: 5em" rend="first-line-indent(5)" source="#source-5887-5909"><seg source="#source-5887-5909">二</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5909-5959"><seg source="#source-5909-5959">まもなく、かめはまた出てきて、</seg></p>
+      <p source="#source-5959-5988">「さあ、こちらへ」</p>
+      <p source="#source-5988-7001"><seg source="#source-5988-6003">と、浦島を</seg><ruby type="furigana" rend="right" source="#source-6003-6024"><rb>御殿</rb><rt>ごてん</rt></ruby><seg source="#source-6024-6036">のなかへ</seg><ruby type="furigana" rend="right" source="#source-6036-6060"><rb>案内</rb><rt>あんない</rt></ruby><seg source="#source-6060-6075">しました。</seg><hi rend="bouten 傍点 right" source="#source-6075-6111" corresp="#source-6081-6111"><seg source="#source-6075-6081">たい</seg></hi><seg source="#source-6111-6117">や、</seg><hi rend="bouten 傍点 right" source="#source-6117-6159" corresp="#source-6126-6159"><seg source="#source-6117-6126">ひらめ</seg></hi><seg source="#source-6159-6162">や</seg><hi rend="bouten 傍点 right" source="#source-6162-6204" corresp="#source-6171-6204"><seg source="#source-6162-6171">かれい</seg></hi><seg source="#source-6204-6342">や、いろいろのおさかなが、ものめずらしそうな目で見ているなかをとおって、はいって行きますと、</seg><ruby type="furigana" rend="right" source="#source-6342-6366"><rb>乙姫</rb><rt>おとひめ</rt></ruby><seg source="#source-6366-6390">さまがおおぜいの</seg><ruby type="furigana" rend="right" source="#source-6390-6414"><rb>腰元</rb><rt>こしもと</rt></ruby><seg source="#source-6414-6432">をつれて、お</seg><ruby type="furigana" rend="right" source="#source-6432-6447"><rb>迎</rb><rt>むか</rt></ruby><seg source="#source-6447-6483">えに出てきました。やがて</seg><ruby type="furigana" rend="right" source="#source-6483-6507"><rb>乙姫</rb><rt>おとひめ</rt></ruby><seg source="#source-6507-6549">さまについて、浦島はずんずん</seg><ruby type="furigana" rend="right" source="#source-6549-6564"><rb>奥</rb><rt>おく</rt></ruby><seg source="#source-6564-6597">へとおって行きました。</seg><hi rend="bouten 傍点 right" source="#source-6597-6639" corresp="#source-6606-6639"><seg source="#source-6597-6606">めのう</seg></hi><seg source="#source-6639-6642">の</seg><ruby type="furigana" rend="right" source="#source-6642-6669"><rb>天井</rb><rt>てんじょう</rt></ruby><seg source="#source-6669-6672">に</seg><hi rend="bouten 傍点 right" source="#source-6672-6714" corresp="#source-6681-6714"><seg source="#source-6672-6681">さんご</seg></hi><seg source="#source-6714-6723">の柱、</seg><ruby type="furigana" rend="right" source="#source-6723-6744"><rb>廊下</rb><rt>ろうか</rt></ruby><seg source="#source-6744-6750">には</seg><hi rend="bouten 傍点 right" source="#source-6750-6786" corresp="#source-6756-6786"><seg source="#source-6750-6756">るり</seg></hi><seg source="#source-6786-6939">がしきつめてありました。こわごわその上をあるいて行きますと、どこからともなくいいにおいがして、たのしい</seg><ruby type="furigana" rend="right" source="#source-6939-6954"><rb>楽</rb><rt>がく</rt></ruby><seg source="#source-6954-6957">の</seg><ruby type="furigana" rend="right" source="#source-6957-6969"><rb>音</rb><rt>ね</rt></ruby><seg source="#source-6969-7001">がきこえてきました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-7001-7180"><seg source="#source-7001-7016">やがて、</seg><ruby type="furigana" rend="right" source="#source-7016-7043"><rb>水晶</rb><rt>すいしょう</rt></ruby><seg source="#source-7043-7046">の</seg><ruby type="furigana" rend="right" source="#source-7046-7061"><rb>壁</rb><rt>かべ</rt></ruby><seg source="#source-7061-7082">に、いろいろの</seg><ruby type="furigana" rend="right" source="#source-7082-7106"><rb>宝石</rb><rt>ほうせき</rt></ruby><seg source="#source-7106-7124">をちりばめた</seg><ruby type="furigana" rend="right" source="#source-7124-7154"><rb>大広間</rb><rt>おおひろま</rt></ruby><seg source="#source-7154-7180">にとおりますと、</seg></p>
+      <p source="#source-7180-7473">「浦島さん、ようこそおいでくださいました。先日はかめのいのちをお<ruby type="furigana" rend="right" source="#source-7276-7291"><rb>助</rb><rt>たす</rt></ruby>けくださいまして、まことにありがとうございます。なんにもおもてなしはございませんが、どうぞゆっくりおあそびくださいまし」</p>
+      <p source="#source-7473-8168"><seg source="#source-7473-7557">と、乙姫さまはいって、ていねいにおじぎしました。やがて、</seg><hi rend="bouten 傍点 right" source="#source-7557-7593" corresp="#source-7563-7593"><seg source="#source-7557-7563">たい</seg></hi><seg source="#source-7593-7611">をかしらに、</seg><hi rend="bouten 傍点 right" source="#source-7611-7653" corresp="#source-7620-7653"><seg source="#source-7611-7620">かつお</seg></hi><seg source="#source-7653-7662">だの、</seg><hi rend="bouten 傍点 right" source="#source-7662-7698" corresp="#source-7668-7698"><seg source="#source-7662-7668">ふぐ</seg></hi><seg source="#source-7698-7707">だの、</seg><hi rend="bouten 傍点 right" source="#source-7707-7743" corresp="#source-7713-7743"><seg source="#source-7707-7713">えび</seg></hi><seg source="#source-7743-7752">だの、</seg><hi rend="bouten 傍点 right" source="#source-7752-7788" corresp="#source-7758-7788"><seg source="#source-7752-7758">たこ</seg></hi><seg source="#source-7788-7911">だの、大小いろいろのおさかなが、めずらしいごちそうを山とはこんできて、にぎやかなお</seg><ruby type="furigana" rend="right" source="#source-7911-7935"><rb>酒盛</rb><rt>さかもり</rt></ruby><seg source="#source-7935-7974">がはじまりました。きれいな</seg><ruby type="furigana" rend="right" source="#source-7974-7998"><rb>腰元</rb><rt>こしもと</rt></ruby><seg source="#source-7998-8031">たちは、歌をうたったり</seg><ruby type="furigana" rend="right" source="#source-8031-8046"><rb>踊</rb><rt>おど</rt></ruby><seg source="#source-8046-8103">りをおどったりしました。浦島はただもう</seg><ruby type="furigana" rend="right" source="#source-8103-8118"><rb>夢</rb><rt>ゆめ</rt></ruby><seg source="#source-8118-8168">のなかで夢を見ているようでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-8168-8599"><seg source="#source-8168-8228">ごちそうがすむと、浦島はまた乙姫さまの</seg><ruby type="furigana" rend="right" source="#source-8228-8252"><rb>案内</rb><rt>あんない</rt></ruby><seg source="#source-8252-8258">で、</seg><ruby type="furigana" rend="right" source="#source-8258-8279"><rb>御殿</rb><rt>ごてん</rt></ruby><seg source="#source-8279-8561">のなかをのこらず見せてもらいました。どのおへやも、どのおへやも、めずらしい宝石でかざり立ててありますからそのうつくしさは、とても口やことばではいえないくらいでした。ひととおり見てしまうと、</seg><ruby type="furigana" rend="right" source="#source-8561-8585"><rb>乙姫</rb><rt>おとひめ</rt></ruby><seg source="#source-8585-8599">さまは、</seg></p>
+      <p source="#source-8599-8667">「こんどは四季のけしきをお目にかけましょう」</p>
+      <p source="#source-8667-9095"><seg source="#source-8667-8871">といって、まず、東の戸をおあけになりました。そこは春のけしきで、いちめん、ぼうっとかすんだなかに、さくらの花が、うつくしい絵のように咲き</seg><ruby type="furigana" rend="right" source="#source-8871-8886"><rb>乱</rb><rt>みだ</rt></ruby><seg source="#source-8886-8907">れていました。</seg><ruby type="furigana" rend="right" source="#source-8907-8931"><rb>青青</rb><rt>あおあお</rt></ruby><seg source="#source-8931-8952">としたやなぎの</seg><ruby type="furigana" rend="right" source="#source-8952-8967"><rb>枝</rb><rt>えだ</rt></ruby><seg source="#source-8967-9051">が風になびいて、そのなかで小鳥がないたり、ちょうちょうが</seg><ruby type="furigana" rend="right" source="#source-9051-9063"><rb>舞</rb><rt>ま</rt></ruby><seg source="#source-9063-9095">ったりしていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-9095-9769"><seg source="#source-9095-9179">次に、南の戸をおあけになりました。そこは夏のけしきで、</seg><ruby type="furigana" rend="right" source="#source-9179-9200"><rb>垣根</rb><rt>かきね</rt></ruby><seg source="#source-9200-9212">には白い</seg><hi rend="bouten 傍点 right" source="#source-9212-9242" corresp="#source-9215-9242"><seg source="#source-9212-9215">う</seg></hi><seg source="#source-9242-9278">の花が咲いて、お庭の木の</seg><ruby type="furigana" rend="right" source="#source-9278-9299"><rb>青葉</rb><rt>あおば</rt></ruby><seg source="#source-9299-9326">のなかでは、せみや</seg><hi rend="bouten 傍点 right" source="#source-9326-9374" corresp="#source-9338-9374"><seg source="#source-9326-9338">ひぐらし</seg></hi><seg source="#source-9374-9476">がないていました。お池には赤と白のはすの花が咲いて、その葉の上には、</seg><ruby type="furigana" rend="right" source="#source-9476-9503"><rb>水晶</rb><rt>すいしょう</rt></ruby><seg source="#source-9503-9506">の</seg><ruby type="furigana" rend="right" source="#source-9506-9521"><rb>珠</rb><rt>たま</rt></ruby><seg source="#source-9521-9533">のように</seg><ruby type="furigana" rend="right" source="#source-9533-9548"><rb>露</rb><rt>つゆ</rt></ruby><seg source="#source-9548-9620">がたまっていました。お池のふちには、きれいなさざ</seg><ruby type="furigana" rend="right" source="#source-9620-9635"><rb>波</rb><rt>なみ</rt></ruby><seg source="#source-9635-9650">が立って、</seg><hi rend="bouten 傍点 right" source="#source-9650-9698" corresp="#source-9662-9698"><seg source="#source-9650-9662">おしどり</seg></hi><seg source="#source-9698-9701">や</seg><hi rend="bouten 傍点 right" source="#source-9701-9737" corresp="#source-9707-9737"><seg source="#source-9701-9707">かも</seg></hi><seg source="#source-9737-9769">がうかんでいました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-9769-10182"><seg source="#source-9769-9847">次に西の戸をおあけになりました。そこは秋のけしきで</seg><ruby type="furigana" rend="right" source="#source-9847-9868"><rb>花壇</rb><rt>かだん</rt></ruby><seg source="#source-9868-9898">のなかには、黄ぎく、</seg><ruby type="furigana" rend="right" source="#source-9898-9913"><rb>白</rb><rt>しら</rt></ruby><seg source="#source-9913-10057">ぎくが咲き乱れて、ぷんといいかおりを立てました。むこうを見ると、かっともえ立つようなもみじの林の</seg><ruby type="furigana" rend="right" source="#source-10057-10072"><rb>奥</rb><rt>おく</rt></ruby><seg source="#source-10072-10084">に、白い</seg><ruby type="furigana" rend="right" source="#source-10084-10099"><rb>霧</rb><rt>きり</rt></ruby><seg source="#source-10099-10182">がたちこめていて、しかのなく声がかなしくきこえました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-10182-10577"><seg source="#source-10182-10296">いちばんおしまいに、北の戸をおあけになりました。そこは冬のけしきで、野には</seg><ruby type="furigana" rend="right" source="#source-10296-10308"><rb>散</rb><rt>ち</rt></ruby><seg source="#source-10308-10323">りのこった</seg><ruby type="furigana" rend="right" source="#source-10323-10344"><rb>枯葉</rb><rt>かれは</rt></ruby><seg source="#source-10344-10356">の上に、</seg><ruby type="furigana" rend="right" source="#source-10356-10371"><rb>霜</rb><rt>しも</rt></ruby><seg source="#source-10371-10461">がきらきら光っていました。山から谷にかけて、雪がまっ白に降り</seg><ruby type="furigana" rend="right" source="#source-10461-10476"><rb>埋</rb><rt>うず</rt></ruby><seg source="#source-10476-10497">んだなかから、</seg><ruby type="furigana" rend="right" source="#source-10497-10512"><rb>柴</rb><rt>しば</rt></ruby><seg source="#source-10512-10577">をたくけむりがほそぼそとあがっていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-10577-10829"><seg source="#source-10577-10733">浦島は何を見ても、おどろきあきれて、目ばかり見はっていました。そのうちだんだんぼうっとしてきて、お酒に</seg><ruby type="furigana" rend="right" source="#source-10733-10745"><rb>酔</rb><rt>よ</rt></ruby><seg source="#source-10745-10829">った人のようになって、何もかもわすれてしまいました。</seg></p>
+      <p style="text-indent: 5em" rend="first-line-indent(5)" source="#source-10829-10851"><seg source="#source-10829-10851">三</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-10851-11141"><seg source="#source-10851-10950">毎日おもしろい、めずらしいことが、それからそれとつづいて、あまり</seg><hi rend="bouten 傍点 right" source="#source-10950-10992" corresp="#source-10959-10992"><seg source="#source-10950-10959">りゅう</seg></hi><seg source="#source-10992-11141">宮がたのしいので、なんということもおもわずに、うかうかあそんでくらすうち、三年の月日がたちました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-11141-11623"><seg source="#source-11141-11249">三年めの春になったとき、浦島はときどき、ひさしくわすれていたふるさとの</seg><ruby type="furigana" rend="right" source="#source-11249-11264"><rb>夢</rb><rt>ゆめ</rt></ruby><seg source="#source-11264-11342">を見るようになりました。春の日のぽかぽかあたっている</seg><ruby type="furigana" rend="right" source="#source-11342-11357"><rb>水</rb><rt>みず</rt></ruby><seg source="#source-11357-11360">の</seg><ruby type="furigana" rend="right" source="#source-11360-11372"><rb>江</rb><rt>え</rt></ruby><seg source="#source-11372-11456">の浜べで、りょうしたちがげんきよく舟うたをうたいながら、</seg><ruby type="furigana" rend="right" source="#source-11456-11471"><rb>網</rb><rt>あみ</rt></ruby><seg source="#source-11471-11623">をひいたり舟をこいだりしているところを、まざまざと夢に見るようになりました。浦島はいまさらのように、</seg></p>
+      <p source="#source-11623-11724">「おとうさんや、おかあさんは、いまごろどうしておいでになるだろう」</p>
+      <p source="#source-11724-12101"><seg source="#source-11724-11988">と、こうおもい出すと、もう、いても立ってもいられなくなるような気がしました。なんでも早くうちへ帰りたいとばかりおもうようになりました。ですから、もうこのごろでは、歌をきいても、</seg><ruby type="furigana" rend="right" source="#source-11988-12003"><rb>踊</rb><rt>おど</rt></ruby><seg source="#source-12003-12101">りを見ても、おもしろくない顔をして、ふさぎこんでばかりいました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-12101-12214"><seg source="#source-12101-12110">その</seg><ruby type="furigana" rend="right" source="#source-12110-12131"><rb>様子</rb><rt>ようす</rt></ruby><seg source="#source-12131-12146">を見ると、</seg><ruby type="furigana" rend="right" source="#source-12146-12170"><rb>乙姫</rb><rt>おとひめ</rt></ruby><seg source="#source-12170-12179">さまは</seg><ruby type="furigana" rend="right" source="#source-12179-12203"><rb>心配</rb><rt>しんぱい</rt></ruby><seg source="#source-12203-12214">して、</seg></p>
+      <p source="#source-12214-12276">「浦島さん、ご気分でもおわるいのですか」</p>
+      <p source="#source-12276-12347"><seg source="#source-12276-12347">とおききになりました。浦島はもじもじしながら、</seg></p>
+      <p source="#source-12347-12454">「いいえ、そうではありません。じつはうちへ帰りたくなったものですから」</p>
+      <p source="#source-12454-12567"><seg source="#source-12454-12567">といいますと、乙姫さまはきゅうに、たいそうがっかりした様子をなさいました。</seg></p>
+      <p source="#source-12567-12854">「まあ、それはざんねんでございますこと。でもあなたのお顔をはいけんいたしますと、この上おひきとめ申しても、むだのようにおもわれます。ではいたし<ruby type="furigana" rend="right" source="#source-12780-12795"><rb>方</rb><rt>かた</rt></ruby>ございません、行っていらっしゃいまし」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-12854-13036"><seg source="#source-12854-12911">こうかなしそうにいって、乙姫さまは、</seg><ruby type="furigana" rend="right" source="#source-12911-12926"><rb>奥</rb><rt>おく</rt></ruby><seg source="#source-12926-12944">からきれいな</seg><ruby type="furigana" rend="right" source="#source-12944-12968"><rb>宝石</rb><rt>ほうせき</rt></ruby><seg source="#source-12968-12983">でかざった</seg><ruby type="furigana" rend="right" source="#source-12983-12998"><rb>箱</rb><rt>はこ</rt></ruby><seg source="#source-12998-13036">を持っておいでになって、</seg></p>
+      <p source="#source-13036-13536">「これは<ruby type="furigana" rend="right" source="#source-13048-13078"><rb>玉手箱</rb><rt>たまてばこ</rt></ruby><seg source="#source-13078-13321">といって、なかには、人間のいちばんだいじなたからがこめてございます。これをおわかれのしるしにさし上げますから、お持ちかえりくださいまし。ですが、あなたがもういちど</seg><hi rend="bouten 傍点 right" source="#source-13321-13363" corresp="#source-13330-13363"><seg source="#source-13321-13330">りゅう</seg></hi><ruby type="furigana" rend="right" source="#source-13363-13378"><rb>宮</rb><rt>ぐう</rt></ruby>へ帰ってきたいとおぼしめすなら、どんなことがあっても、けっしてこの箱をあけてごらんになってはいけません」</p>
+      <p source="#source-13536-13658"><seg source="#source-13536-13578">と、くれぐれもねんをおして、</seg><ruby type="furigana" rend="right" source="#source-13578-13608"><rb>玉手箱</rb><rt>たまてばこ</rt></ruby><seg source="#source-13608-13658">をおわたしになりました。浦島は、</seg></p>
+      <p source="#source-13658-13711">「ええ、ええ、けっしてあけません」</p>
+      <p source="#source-13711-14001"><seg source="#source-13711-13771">といって、玉手箱をこわきにかかえたまま、</seg><hi rend="bouten 傍点 right" source="#source-13771-13813" corresp="#source-13780-13813"><seg source="#source-13771-13780">りゅう</seg></hi><ruby type="furigana" rend="right" source="#source-13813-13828"><rb>宮</rb><rt>ぐう</rt></ruby><seg source="#source-13828-13852">の門を出ますと、</seg><ruby type="furigana" rend="right" source="#source-13852-13876"><rb>乙姫</rb><rt>おとひめ</rt></ruby><seg source="#source-13876-13909">さまは、またおおぜいの</seg><ruby type="furigana" rend="right" source="#source-13909-13933"><rb>腰元</rb><rt>こしもと</rt></ruby><seg source="#source-13933-14001">をつれて、門のそとまでお見送りになりました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-14001-14075"><seg source="#source-14001-14075">もうそこには、れいのかめがきて待っていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-14075-14362"><seg source="#source-14075-14129">浦島はうれしいのとかなしいのとで、</seg><ruby type="furigana" rend="right" source="#source-14129-14144"><rb>胸</rb><rt>むね</rt></ruby><seg source="#source-14144-14204">がいっぱいになっていました。そしてかめの</seg><ruby type="furigana" rend="right" source="#source-14204-14225"><rb>背中</rb><rt>せなか</rt></ruby><seg source="#source-14225-14261">にのりますと、かめはすぐ</seg><ruby type="furigana" rend="right" source="#source-14261-14276"><rb>波</rb><rt>なみ</rt></ruby><seg source="#source-14276-14362">を切って上がって行って、まもなくもとの浜べにつきました。</seg></p>
+      <p source="#source-14362-14418">「では浦島さん、ごきげんよろしゅう」</p>
+      <p source="#source-14418-14583"><seg source="#source-14418-14529">と、かめはいって、また水のなかにもぐって行きました。浦島はしばらく、かめの</seg><ruby type="furigana" rend="right" source="#source-14529-14541"><rb>行</rb><rt>ゆ</rt></ruby><seg source="#source-14541-14583">くえを見送っていました。</seg></p>
+      <p style="text-indent: 5em" rend="first-line-indent(5)" source="#source-14583-14605"><seg source="#source-14583-14605">四</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-14605-15312"><seg source="#source-14605-14860">浦島は海ばたに立ったまま、しばらくそこらを見まわしました。春の日がぽかぽかあたって、いちめんにかすんだ海の上に、どこからともなく、にぎやかな舟うたがきこえました。それは</seg><ruby type="furigana" rend="right" source="#source-14860-14875"><rb>夢</rb><rt>ゆめ</rt></ruby><seg source="#source-14875-14917">のなかで見たふるさとの浜べの</seg><ruby type="furigana" rend="right" source="#source-14917-14938"><rb>景色</rb><rt>けしき</rt></ruby><seg source="#source-14938-15043">とちっともちがったところはありませんでした。けれどよく見ると、そこらの</seg><ruby type="furigana" rend="right" source="#source-15043-15064"><rb>様子</rb><rt>ようす</rt></ruby><seg source="#source-15064-15312">がなんとなくかわっていて、あう人もあう人も、いっこうに見知らない顔ばかりで、むこうでもみょうな顔をして、じろじろ見ながら、ことばもかけずにすまして行ってしまいます。</seg></p>
+      <p source="#source-15312-15503">「おかしなこともあるものだ。たった三年のあいだに、みんなどこかへ行ってしまうはずはない。まあ、なんでも早くうちへ行ってみよう」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-15503-15997"><seg source="#source-15503-15575">こうひとりごとをいいながら、浦島はじぶんの家の</seg><ruby type="furigana" rend="right" source="#source-15575-15599"><rb>方角</rb><rt>ほうがく</rt></ruby><seg source="#source-15599-15683">へあるき出しました。ところが、そことおもうあたりには草や</seg><hi rend="bouten 傍点 right" source="#source-15683-15719" corresp="#source-15689-15719"><seg source="#source-15683-15689">あし</seg></hi><seg source="#source-15719-15997">がぼうぼうとしげって、家なぞはかげもかたちもありません。むかし家の立っていたらしいあとさえものこってはいませんでした。いったい、おとうさんやおかあさんはどうなったのでしょうか。浦島は、</seg></p>
+      <p source="#source-15997-16032">「ふしぎだ。ふしぎだ」</p>
+      <p source="#source-16032-16148"><seg source="#source-16032-16148">とくり返しながら、きつねにつままれたような、きょとんとした顔をしていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-16148-16288"><seg source="#source-16148-16288">するとそこへ、よぼよぼのおばあさんがひとり、つえにすがってやってきました。浦島はさっそく、</seg></p>
+      <p source="#source-16288-16371">「もしもし、おばあさん、浦島太郎のうちはどこでしょう」</p>
+      <p source="#source-16371-16511"><seg source="#source-16371-16511">と、声をかけますと、おばあさんはけげんそうに、しょぼしょぼした目で、浦島の顔をながめながら、</seg></p>
+      <p source="#source-16511-16594">「へえ、浦島太郎。そんな人はきいたことがありませんよ」</p>
+      <p source="#source-16594-16650"><seg source="#source-16594-16650">といいました。浦島はやっきとなって、</seg></p>
+      <p source="#source-16650-16745">「そんなはずはありません。たしかにこのへんに住んでいたのです」</p>
+      <p source="#source-16745-16768"><seg source="#source-16745-16768">といいました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-16768-16815"><seg source="#source-16768-16815">そういわれて、おばあさんは、</seg></p>
+      <p source="#source-16815-16997">「はてね」と、<ruby type="furigana" rend="right" source="#source-16836-16851"><rb>首</rb><rt>くび</rt></ruby><seg source="#source-16851-16997">をかしげながら、つえでせいのびしてしばらくかんがえこんでいましたが、やがてぽんとひざをたたいて、</seg></p>
+      <p source="#source-16997-17551">「ああ、そうそう、浦島太郎さんというと、あれはもう三百年も前の人ですよ。なんでも、わたしが子どものじぶんきいた話に、むかし、むかし、この<ruby type="furigana" rend="right" source="#source-17201-17216"><rb>水</rb><rt>みず</rt></ruby><seg source="#source-17216-17219">の</seg><ruby type="furigana" rend="right" source="#source-17219-17231"><rb>江</rb><rt>え</rt></ruby><seg source="#source-17231-17378">の浜に、浦島太郎という人があって、ある日、舟にのってつりに出たまま、帰ってこなくなりました。たぶん</seg><hi rend="bouten 傍点 right" source="#source-17378-17420" corresp="#source-17387-17420"><seg source="#source-17378-17387">りゅう</seg></hi><ruby type="furigana" rend="right" source="#source-17420-17435"><rb>宮</rb><rt>ぐう</rt></ruby><seg source="#source-17435-17501">へでも行ったのだろうということです。なにしろ</seg><ruby type="furigana" rend="right" source="#source-17501-17528"><rb>大昔</rb><rt>おおむかし</rt></ruby>の話だからね」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-17551-17667"><seg source="#source-17551-17578">こういって、また</seg><ruby type="furigana" rend="right" source="#source-17578-17593"><rb>腰</rb><rt>こし</rt></ruby><seg source="#source-17593-17667">をかがめて、よぼよぼあるいて行ってしまいました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-17667-17720"><seg source="#source-17667-17720">浦島はびっくりしてしまいました。</seg></p>
+      <p source="#source-17720-18163">「はて、三百年、おかしなこともあるものだ。たった三年<hi rend="bouten 傍点 right" source="#source-17798-17840" corresp="#source-17807-17840"><seg source="#source-17798-17807">りゅう</seg></hi><seg source="#source-17840-17909">宮にいたつもりなのに、それが三百年とは。すると</seg><hi rend="bouten 傍点 right" source="#source-17909-17951" corresp="#source-17918-17951"><seg source="#source-17909-17918">りゅう</seg></hi><ruby type="furigana" rend="right" source="#source-17951-17966"><rb>宮</rb><rt>ぐう</rt></ruby>の三年は、人間の三百年にあたるのかしらん。それでは家もなくなるはずだし、おとうさんやおかあさんがいらっしゃらないのもふしぎはない」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18163-18405"><seg source="#source-18163-18307">こうおもうと、浦島はきゅうにかなしくなって、さびしくなって、目の前がくらくなりました。いまさら</seg><hi rend="bouten 傍点 right" source="#source-18307-18349" corresp="#source-18316-18349"><seg source="#source-18307-18316">りゅう</seg></hi><seg source="#source-18349-18405">宮がこいしくてたまらなくなりました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18405-18704"><seg source="#source-18405-18603">しおしおとまた浜べへ出てみましたが、海の水はまんまんとたたえていて、どこがはてともしれません。もうかめも出てきませんから、どうして</seg><hi rend="bouten 傍点 right" source="#source-18603-18645" corresp="#source-18612-18645"><seg source="#source-18603-18612">りゅう</seg></hi><seg source="#source-18645-18704">宮へわたろう手だてもありませんでした。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18704-18817"><seg source="#source-18704-18758">そのとき、浦島はふと、かかえていた</seg><ruby type="furigana" rend="right" source="#source-18758-18788"><rb>玉手箱</rb><rt>たまてばこ</rt></ruby><seg source="#source-18788-18817">に気がつきました。</seg></p>
+      <p source="#source-18817-18912">「そうだ。この<ruby type="furigana" rend="right" source="#source-18838-18853"><rb>箱</rb><rt>はこ</rt></ruby>をあけてみたらば、わかるかもしれない」</p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18912-19628"><seg source="#source-18912-18981">こうおもうとうれしくなって、浦島は、うっかり</seg><ruby type="furigana" rend="right" source="#source-18981-19005"><rb>乙姫</rb><rt>おとひめ</rt></ruby><seg source="#source-19005-19314">さまにいわれたことはわすれて、箱のふたをとりました。するとむらさき色の雲が、なかからむくむく立ちのぼって、それが顔にかかったかとおもうと、すうっと消えて行って箱のなかにはなんにものこっていませんでした。その</seg><ruby type="furigana" rend="right" source="#source-19314-19329"><rb>代</rb><rt>かわ</rt></ruby><seg source="#source-19329-19431">り、いつのまにか顔じゅうしわになって、手も足もちぢかまって、きれいな</seg><hi rend="bouten 傍点 right" source="#source-19431-19473" corresp="#source-19440-19473"><seg source="#source-19431-19440">みぎわ</seg></hi><seg source="#source-19473-19494">の水にうつった</seg><ruby type="furigana" rend="right" source="#source-19494-19509"><rb>影</rb><rt>かげ</rt></ruby><seg source="#source-19509-19524">を見ると、</seg><ruby type="furigana" rend="right" source="#source-19524-19539"><rb>髪</rb><rt>かみ</rt></ruby><seg source="#source-19539-19628">もひげも、まっしろな、かわいいおじいさんになっていました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-19628-19702"><seg source="#source-19628-19658">浦島はからになった</seg><ruby type="furigana" rend="right" source="#source-19658-19673"><rb>箱</rb><rt>はこ</rt></ruby><seg source="#source-19673-19702">のなかをのぞいて、</seg></p>
+      <p source="#source-19702-19908">「なるほど、<ruby type="furigana" rend="right" source="#source-19720-19744"><rb>乙姫</rb><rt>おとひめ</rt></ruby><seg source="#source-19744-19858">さまが、人間のいちばんだいじなたからを入れておくとおっしゃったあれは、人間の</seg><ruby type="furigana" rend="right" source="#source-19858-19885"><rb>寿命</rb><rt>じゅみょう</rt></ruby>だったのだな」</p>
+      <p source="#source-19908-19961"><seg source="#source-19908-19961">と、ざんねんそうにつぶやきました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-19961-20128"><seg source="#source-19961-19991">春の海はどこまでも</seg><ruby type="furigana" rend="right" source="#source-19991-20006"><rb>遠</rb><rt>とお</rt></ruby><seg source="#source-20006-20128">くかすんでいました。どこからかいい声で舟うたをうたうのが、またきこえてきました。</seg></p>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-20128-20212"><seg source="#source-20128-20212">浦島は、ぼんやりとむかしのことをおもい出していました。</seg></p>
+    </body>
+    <back>
+      <div type="source">
+        <note type="source-attribution" source="#source-20220-20528"><seg type="source-line">底本：「むかし むかし あるところに」童話屋</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1996（平成8）年6月24日初版発行</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1996（平成8）年7月10日第2刷発行</seg><lb/><seg type="source-line">底本の親本：「日本童話宝玉集（上中下版）」童話春秋社</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1948（昭和23）～1949（昭和24）年発行</seg></note>
+        <note type="transcriber-note" source="#source-20528-20874"><seg type="source-line">入力：鈴木厚司</seg><lb/><seg type="source-line">校正：林　幸雄</seg><lb/><seg type="source-line">2001年12月19日公開</seg><lb/><seg type="source-line">2008年10月10日修正</seg><lb/><seg type="source-line">青空文庫作成ファイル：</seg><lb/><seg type="source-line">このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。</seg></note>
+        <note type="source-span" xml:id="source-10057-10072" n="68"/>
+        <note type="source-span" xml:id="source-10072-10084" n="68"/>
+        <note type="source-span" xml:id="source-10084-10099" n="68"/>
+        <note type="source-span" xml:id="source-10099-10182" n="68"/>
+        <note type="source-span" xml:id="source-10182-10296" n="69"/>
+        <note type="source-span" xml:id="source-10182-10577" n="69"/>
+        <note type="source-span" xml:id="source-10296-10308" n="69"/>
+        <note type="source-span" xml:id="source-10308-10323" n="69"/>
+        <note type="source-span" xml:id="source-10323-10344" n="69"/>
+        <note type="source-span" xml:id="source-10344-10356" n="69"/>
+        <note type="source-span" xml:id="source-10356-10371" n="69"/>
+        <note type="source-span" xml:id="source-10371-10461" n="69"/>
+        <note type="source-span" xml:id="source-10461-10476" n="69"/>
+        <note type="source-span" xml:id="source-10476-10497" n="69"/>
+        <note type="source-span" xml:id="source-10497-10512" n="69"/>
+        <note type="source-span" xml:id="source-10512-10577" n="69"/>
+        <note type="source-span" xml:id="source-10577-10733" n="70"/>
+        <note type="source-span" xml:id="source-10577-10829" n="70"/>
+        <note type="source-span" xml:id="source-10733-10745" n="70"/>
+        <note type="source-span" xml:id="source-10745-10829" n="70"/>
+        <note type="source-span" xml:id="source-10829-10851" n="73"/>
+        <note type="source-span" xml:id="source-10851-10950" n="75"/>
+        <note type="source-span" xml:id="source-10851-11141" n="75"/>
+        <note type="source-span" xml:id="source-1086-1110" n="21"/>
+        <note type="source-span" xml:id="source-10950-10959" n="75"/>
+        <note type="source-span" xml:id="source-10950-10992" n="75"/>
+        <note type="source-span" xml:id="source-10959-10992" n="75"/>
+        <note type="source-span" xml:id="source-10992-11141" n="75"/>
+        <note type="source-span" xml:id="source-1110-1137" n="21"/>
+        <note type="source-span" xml:id="source-11141-11249" n="76"/>
+        <note type="source-span" xml:id="source-11141-11623" n="76"/>
+        <note type="source-span" xml:id="source-11249-11264" n="76"/>
+        <note type="source-span" xml:id="source-11264-11342" n="76"/>
+        <note type="source-span" xml:id="source-11342-11357" n="76"/>
+        <note type="source-span" xml:id="source-11357-11360" n="76"/>
+        <note type="source-span" xml:id="source-11360-11372" n="76"/>
+        <note type="source-span" xml:id="source-1137-1164" n="21"/>
+        <note type="source-span" xml:id="source-11372-11456" n="76"/>
+        <note type="source-span" xml:id="source-11456-11471" n="76"/>
+        <note type="source-span" xml:id="source-11471-11623" n="76"/>
+        <note type="source-span" xml:id="source-11623-11724" n="77"/>
+        <note type="source-span" xml:id="source-1164-1221" n="21"/>
+        <note type="source-span" xml:id="source-11724-11988" n="78"/>
+        <note type="source-span" xml:id="source-11724-12101" n="78"/>
+        <note type="source-span" xml:id="source-11988-12003" n="78"/>
+        <note type="source-span" xml:id="source-12003-12101" n="78"/>
+        <note type="source-span" xml:id="source-12101-12110" n="79"/>
+        <note type="source-span" xml:id="source-12101-12214" n="79"/>
+        <note type="source-span" xml:id="source-12110-12131" n="79"/>
+        <note type="source-span" xml:id="source-12131-12146" n="79"/>
+        <note type="source-span" xml:id="source-12146-12170" n="79"/>
+        <note type="source-span" xml:id="source-12170-12179" n="79"/>
+        <note type="source-span" xml:id="source-12179-12203" n="79"/>
+        <note type="source-span" xml:id="source-12203-12214" n="79"/>
+        <note type="source-span" xml:id="source-1221-1236" n="21"/>
+        <note type="source-span" xml:id="source-12214-12276" n="80"/>
+        <note type="source-span" xml:id="source-12276-12347" n="81"/>
+        <note type="source-span" xml:id="source-12347-12454" n="82"/>
+        <note type="source-span" xml:id="source-1236-1338" n="21"/>
+        <note type="source-span" xml:id="source-12454-12567" n="83"/>
+        <note type="source-span" xml:id="source-12567-12854" n="84"/>
+        <note type="source-span" xml:id="source-12780-12795" n="84"/>
+        <note type="source-span" xml:id="source-12854-12911" n="85"/>
+        <note type="source-span" xml:id="source-12854-13036" n="85"/>
+        <note type="source-span" xml:id="source-12911-12926" n="85"/>
+        <note type="source-span" xml:id="source-12926-12944" n="85"/>
+        <note type="source-span" xml:id="source-12944-12968" n="85"/>
+        <note type="source-span" xml:id="source-12968-12983" n="85"/>
+        <note type="source-span" xml:id="source-12983-12998" n="85"/>
+        <note type="source-span" xml:id="source-12998-13036" n="85"/>
+        <note type="source-span" xml:id="source-13036-13536" n="86"/>
+        <note type="source-span" xml:id="source-13048-13078" n="86"/>
+        <note type="source-span" xml:id="source-13078-13321" n="86"/>
+        <note type="source-span" xml:id="source-13321-13330" n="86"/>
+        <note type="source-span" xml:id="source-13321-13363" n="86"/>
+        <note type="source-span" xml:id="source-13330-13363" n="86"/>
+        <note type="source-span" xml:id="source-13363-13378" n="86"/>
+        <note type="source-span" xml:id="source-1338-1353" n="21"/>
+        <note type="source-span" xml:id="source-1353-1469" n="21"/>
+        <note type="source-span" xml:id="source-13536-13578" n="87"/>
+        <note type="source-span" xml:id="source-13536-13658" n="87"/>
+        <note type="source-span" xml:id="source-13578-13608" n="87"/>
+        <note type="source-span" xml:id="source-13608-13658" n="87"/>
+        <note type="source-span" xml:id="source-13658-13711" n="88"/>
+        <note type="source-span" xml:id="source-13711-13771" n="89"/>
+        <note type="source-span" xml:id="source-13711-14001" n="89"/>
+        <note type="source-span" xml:id="source-13771-13780" n="89"/>
+        <note type="source-span" xml:id="source-13771-13813" n="89"/>
+        <note type="source-span" xml:id="source-13780-13813" n="89"/>
+        <note type="source-span" xml:id="source-13813-13828" n="89"/>
+        <note type="source-span" xml:id="source-13828-13852" n="89"/>
+        <note type="source-span" xml:id="source-13852-13876" n="89"/>
+        <note type="source-span" xml:id="source-13876-13909" n="89"/>
+        <note type="source-span" xml:id="source-13909-13933" n="89"/>
+        <note type="source-span" xml:id="source-13933-14001" n="89"/>
+        <note type="source-span" xml:id="source-14001-14075" n="90"/>
+        <note type="source-span" xml:id="source-14075-14129" n="91"/>
+        <note type="source-span" xml:id="source-14075-14362" n="91"/>
+        <note type="source-span" xml:id="source-14129-14144" n="91"/>
+        <note type="source-span" xml:id="source-14144-14204" n="91"/>
+        <note type="source-span" xml:id="source-14204-14225" n="91"/>
+        <note type="source-span" xml:id="source-14225-14261" n="91"/>
+        <note type="source-span" xml:id="source-14261-14276" n="91"/>
+        <note type="source-span" xml:id="source-14276-14362" n="91"/>
+        <note type="source-span" xml:id="source-14362-14418" n="92"/>
+        <note type="source-span" xml:id="source-14418-14529" n="93"/>
+        <note type="source-span" xml:id="source-14418-14583" n="93"/>
+        <note type="source-span" xml:id="source-14529-14541" n="93"/>
+        <note type="source-span" xml:id="source-14541-14583" n="93"/>
+        <note type="source-span" xml:id="source-14583-14605" n="96"/>
+        <note type="source-span" xml:id="source-14605-14860" n="98"/>
+        <note type="source-span" xml:id="source-14605-15312" n="98"/>
+        <note type="source-span" xml:id="source-1469-1567" n="22"/>
+        <note type="source-span" xml:id="source-14860-14875" n="98"/>
+        <note type="source-span" xml:id="source-14875-14917" n="98"/>
+        <note type="source-span" xml:id="source-14917-14938" n="98"/>
+        <note type="source-span" xml:id="source-14938-15043" n="98"/>
+        <note type="source-span" xml:id="source-15043-15064" n="98"/>
+        <note type="source-span" xml:id="source-15064-15312" n="98"/>
+        <note type="source-span" xml:id="source-15312-15503" n="99"/>
+        <note type="source-span" xml:id="source-15503-15575" n="100"/>
+        <note type="source-span" xml:id="source-15503-15997" n="100"/>
+        <note type="source-span" xml:id="source-15575-15599" n="100"/>
+        <note type="source-span" xml:id="source-15599-15683" n="100"/>
+        <note type="source-span" xml:id="source-1567-1653" n="23"/>
+        <note type="source-span" xml:id="source-15683-15689" n="100"/>
+        <note type="source-span" xml:id="source-15683-15719" n="100"/>
+        <note type="source-span" xml:id="source-15689-15719" n="100"/>
+        <note type="source-span" xml:id="source-15719-15997" n="100"/>
+        <note type="source-span" xml:id="source-15997-16032" n="101"/>
+        <note type="source-span" xml:id="source-16032-16148" n="102"/>
+        <note type="source-span" xml:id="source-16148-16288" n="103"/>
+        <note type="source-span" xml:id="source-16288-16371" n="104"/>
+        <note type="source-span" xml:id="source-16371-16511" n="105"/>
+        <note type="source-span" xml:id="source-16511-16594" n="106"/>
+        <note type="source-span" xml:id="source-1653-1712" n="24"/>
+        <note type="source-span" xml:id="source-16594-16650" n="107"/>
+        <note type="source-span" xml:id="source-16650-16745" n="108"/>
+        <note type="source-span" xml:id="source-16745-16768" n="109"/>
+        <note type="source-span" xml:id="source-16768-16815" n="110"/>
+        <note type="source-span" xml:id="source-16815-16997" n="111"/>
+        <note type="source-span" xml:id="source-16836-16851" n="111"/>
+        <note type="source-span" xml:id="source-16851-16997" n="111"/>
+        <note type="source-span" xml:id="source-16997-17551" n="112"/>
+        <note type="source-span" xml:id="source-1712-1820" n="25"/>
+        <note type="source-span" xml:id="source-1712-1933" n="25"/>
+        <note type="source-span" xml:id="source-17201-17216" n="112"/>
+        <note type="source-span" xml:id="source-17216-17219" n="112"/>
+        <note type="source-span" xml:id="source-17219-17231" n="112"/>
+        <note type="source-span" xml:id="source-17231-17378" n="112"/>
+        <note type="source-span" xml:id="source-17378-17387" n="112"/>
+        <note type="source-span" xml:id="source-17378-17420" n="112"/>
+        <note type="source-span" xml:id="source-17387-17420" n="112"/>
+        <note type="source-span" xml:id="source-17420-17435" n="112"/>
+        <note type="source-span" xml:id="source-17435-17501" n="112"/>
+        <note type="source-span" xml:id="source-17501-17528" n="112"/>
+        <note type="source-span" xml:id="source-17551-17578" n="113"/>
+        <note type="source-span" xml:id="source-17551-17667" n="113"/>
+        <note type="source-span" xml:id="source-17578-17593" n="113"/>
+        <note type="source-span" xml:id="source-17593-17667" n="113"/>
+        <note type="source-span" xml:id="source-17667-17720" n="114"/>
+        <note type="source-span" xml:id="source-17720-18163" n="115"/>
+        <note type="source-span" xml:id="source-17798-17807" n="115"/>
+        <note type="source-span" xml:id="source-17798-17840" n="115"/>
+        <note type="source-span" xml:id="source-17807-17840" n="115"/>
+        <note type="source-span" xml:id="source-17840-17909" n="115"/>
+        <note type="source-span" xml:id="source-17909-17918" n="115"/>
+        <note type="source-span" xml:id="source-17909-17951" n="115"/>
+        <note type="source-span" xml:id="source-17918-17951" n="115"/>
+        <note type="source-span" xml:id="source-17951-17966" n="115"/>
+        <note type="source-span" xml:id="source-18163-18307" n="116"/>
+        <note type="source-span" xml:id="source-18163-18405" n="116"/>
+        <note type="source-span" xml:id="source-1820-1835" n="25"/>
+        <note type="source-span" xml:id="source-18307-18316" n="116"/>
+        <note type="source-span" xml:id="source-18307-18349" n="116"/>
+        <note type="source-span" xml:id="source-18316-18349" n="116"/>
+        <note type="source-span" xml:id="source-18349-18405" n="116"/>
+        <note type="source-span" xml:id="source-1835-1933" n="25"/>
+        <note type="source-span" xml:id="source-18405-18603" n="117"/>
+        <note type="source-span" xml:id="source-18405-18704" n="117"/>
+        <note type="source-span" xml:id="source-18603-18612" n="117"/>
+        <note type="source-span" xml:id="source-18603-18645" n="117"/>
+        <note type="source-span" xml:id="source-18612-18645" n="117"/>
+        <note type="source-span" xml:id="source-18645-18704" n="117"/>
+        <note type="source-span" xml:id="source-18704-18758" n="118"/>
+        <note type="source-span" xml:id="source-18704-18817" n="118"/>
+        <note type="source-span" xml:id="source-18758-18788" n="118"/>
+        <note type="source-span" xml:id="source-18788-18817" n="118"/>
+        <note type="source-span" xml:id="source-18817-18912" n="119"/>
+        <note type="source-span" xml:id="source-18838-18853" n="119"/>
+        <note type="source-span" xml:id="source-18912-18981" n="120"/>
+        <note type="source-span" xml:id="source-18912-19628" n="120"/>
+        <note type="source-span" xml:id="source-18981-19005" n="120"/>
+        <note type="source-span" xml:id="source-19005-19314" n="120"/>
+        <note type="source-span" xml:id="source-19314-19329" n="120"/>
+        <note type="source-span" xml:id="source-19329-19431" n="120"/>
+        <note type="source-span" xml:id="source-1933-2070" n="26"/>
+        <note type="source-span" xml:id="source-19431-19440" n="120"/>
+        <note type="source-span" xml:id="source-19431-19473" n="120"/>
+        <note type="source-span" xml:id="source-19440-19473" n="120"/>
+        <note type="source-span" xml:id="source-19473-19494" n="120"/>
+        <note type="source-span" xml:id="source-19494-19509" n="120"/>
+        <note type="source-span" xml:id="source-19509-19524" n="120"/>
+        <note type="source-span" xml:id="source-19524-19539" n="120"/>
+        <note type="source-span" xml:id="source-19539-19628" n="120"/>
+        <note type="source-span" xml:id="source-19628-19658" n="121"/>
+        <note type="source-span" xml:id="source-19628-19702" n="121"/>
+        <note type="source-span" xml:id="source-1963-1972" n="26"/>
+        <note type="source-span" xml:id="source-1963-2005" n="26"/>
+        <note type="source-span" xml:id="source-19658-19673" n="121"/>
+        <note type="source-span" xml:id="source-19673-19702" n="121"/>
+        <note type="source-span" xml:id="source-19702-19908" n="122"/>
+        <note type="source-span" xml:id="source-1972-2005" n="26"/>
+        <note type="source-span" xml:id="source-19720-19744" n="122"/>
+        <note type="source-span" xml:id="source-19744-19858" n="122"/>
+        <note type="source-span" xml:id="source-19858-19885" n="122"/>
+        <note type="source-span" xml:id="source-19908-19961" n="123"/>
+        <note type="source-span" xml:id="source-19961-19991" n="124"/>
+        <note type="source-span" xml:id="source-19961-20128" n="124"/>
+        <note type="source-span" xml:id="source-19991-20006" n="124"/>
+        <note type="source-span" xml:id="source-20006-20128" n="124"/>
+        <note type="source-span" xml:id="source-20128-20212" n="125"/>
+        <note type="source-span" xml:id="source-20220-20528" n="129"/>
+        <note type="source-span" xml:id="source-20528-20874" n="134"/>
+        <note type="source-span" xml:id="source-2070-2114" n="27"/>
+        <note type="source-span" xml:id="source-2114-2215" n="28"/>
+        <note type="source-span" xml:id="source-2132-2141" n="28"/>
+        <note type="source-span" xml:id="source-2132-2174" n="28"/>
+        <note type="source-span" xml:id="source-2141-2174" n="28"/>
+        <note type="source-span" xml:id="source-2215-2272" n="29"/>
+        <note type="source-span" xml:id="source-2215-2370" n="29"/>
+        <note type="source-span" xml:id="source-2272-2281" n="29"/>
+        <note type="source-span" xml:id="source-2272-2314" n="29"/>
+        <note type="source-span" xml:id="source-2281-2314" n="29"/>
+        <note type="source-span" xml:id="source-2314-2370" n="29"/>
+        <note type="source-span" xml:id="source-2370-2396" n="30"/>
+        <note type="source-span" xml:id="source-2396-2464" n="31"/>
+        <note type="source-span" xml:id="source-2464-2532" n="32"/>
+        <note type="source-span" xml:id="source-2532-2562" n="33"/>
+        <note type="source-span" xml:id="source-2532-2690" n="33"/>
+        <note type="source-span" xml:id="source-2562-2571" n="33"/>
+        <note type="source-span" xml:id="source-2562-2604" n="33"/>
+        <note type="source-span" xml:id="source-2571-2604" n="33"/>
+        <note type="source-span" xml:id="source-2604-2637" n="33"/>
+        <note type="source-span" xml:id="source-2637-2652" n="33"/>
+        <note type="source-span" xml:id="source-2652-2690" n="33"/>
+        <note type="source-span" xml:id="source-2690-2776" n="34"/>
+        <note type="source-span" xml:id="source-2776-3066" n="35"/>
+        <note type="source-span" xml:id="source-3066-3177" n="36"/>
+        <note type="source-span" xml:id="source-3066-3335" n="36"/>
+        <note type="source-span" xml:id="source-3177-3192" n="36"/>
+        <note type="source-span" xml:id="source-3192-3228" n="36"/>
+        <note type="source-span" xml:id="source-3228-3255" n="36"/>
+        <note type="source-span" xml:id="source-3255-3335" n="36"/>
+        <note type="source-span" xml:id="source-3335-3370" n="37"/>
+        <note type="source-span" xml:id="source-3370-3502" n="38"/>
+        <note type="source-span" xml:id="source-3370-3606" n="38"/>
+        <note type="source-span" xml:id="source-3502-3517" n="38"/>
+        <note type="source-span" xml:id="source-3517-3606" n="38"/>
+        <note type="source-span" xml:id="source-3606-3662" n="39"/>
+        <note type="source-span" xml:id="source-3662-3829" n="40"/>
+        <note type="source-span" xml:id="source-3689-3707" n="40"/>
+        <note type="source-span" xml:id="source-3707-3788" n="40"/>
+        <note type="source-span" xml:id="source-3788-3803" n="40"/>
+        <note type="source-span" xml:id="source-3829-3903" n="41"/>
+        <note type="source-span" xml:id="source-3903-4001" n="42"/>
+        <note type="source-span" xml:id="source-4001-4213" n="43"/>
+        <note type="source-span" xml:id="source-4103-4112" n="43"/>
+        <note type="source-span" xml:id="source-4103-4145" n="43"/>
+        <note type="source-span" xml:id="source-4112-4145" n="43"/>
+        <note type="source-span" xml:id="source-4145-4160" n="43"/>
+        <note type="source-span" xml:id="source-4213-4290" n="44"/>
+        <note type="source-span" xml:id="source-4290-4463" n="45"/>
+        <note type="source-span" xml:id="source-4347-4356" n="45"/>
+        <note type="source-span" xml:id="source-4347-4389" n="45"/>
+        <note type="source-span" xml:id="source-4356-4389" n="45"/>
+        <note type="source-span" xml:id="source-4463-4714" n="46"/>
+        <note type="source-span" xml:id="source-4714-4821" n="47"/>
+        <note type="source-span" xml:id="source-4771-4792" n="47"/>
+        <note type="source-span" xml:id="source-4821-4991" n="48"/>
+        <note type="source-span" xml:id="source-4991-5018" n="49"/>
+        <note type="source-span" xml:id="source-4991-5596" n="49"/>
+        <note type="source-span" xml:id="source-5018-5033" n="49"/>
+        <note type="source-span" xml:id="source-5033-5132" n="49"/>
+        <note type="source-span" xml:id="source-5132-5147" n="49"/>
+        <note type="source-span" xml:id="source-5147-5201" n="49"/>
+        <note type="source-span" xml:id="source-517-539" n="17"/>
+        <note type="source-span" xml:id="source-5201-5216" n="49"/>
+        <note type="source-span" xml:id="source-5216-5315" n="49"/>
+        <note type="source-span" xml:id="source-5315-5339" n="49"/>
+        <note type="source-span" xml:id="source-5339-5363" n="49"/>
+        <note type="source-span" xml:id="source-5363-5378" n="49"/>
+        <note type="source-span" xml:id="source-5378-5381" n="49"/>
+        <note type="source-span" xml:id="source-5381-5396" n="49"/>
+        <note type="source-span" xml:id="source-539-566" n="19"/>
+        <note type="source-span" xml:id="source-539-706" n="19"/>
+        <note type="source-span" xml:id="source-5396-5468" n="49"/>
+        <note type="source-span" xml:id="source-5468-5483" n="49"/>
+        <note type="source-span" xml:id="source-5483-5596" n="49"/>
+        <note type="source-span" xml:id="source-5596-5691" n="50"/>
+        <note type="source-span" xml:id="source-5608-5617" n="50"/>
+        <note type="source-span" xml:id="source-5608-5650" n="50"/>
+        <note type="source-span" xml:id="source-5617-5650" n="50"/>
+        <note type="source-span" xml:id="source-5650-5665" n="50"/>
+        <note type="source-span" xml:id="source-566-587" n="19"/>
+        <note type="source-span" xml:id="source-5691-5730" n="51"/>
+        <note type="source-span" xml:id="source-5691-5774" n="51"/>
+        <note type="source-span" xml:id="source-5730-5751" n="51"/>
+        <note type="source-span" xml:id="source-5751-5774" n="51"/>
+        <note type="source-span" xml:id="source-5774-5815" n="52"/>
+        <note type="source-span" xml:id="source-5815-5887" n="53"/>
+        <note type="source-span" xml:id="source-587-593" n="19"/>
+        <note type="source-span" xml:id="source-5887-5909" n="56"/>
+        <note type="source-span" xml:id="source-5909-5959" n="58"/>
+        <note type="source-span" xml:id="source-593-611" n="19"/>
+        <note type="source-span" xml:id="source-5959-5988" n="59"/>
+        <note type="source-span" xml:id="source-5988-6003" n="60"/>
+        <note type="source-span" xml:id="source-5988-7001" n="60"/>
+        <note type="source-span" xml:id="source-6003-6024" n="60"/>
+        <note type="source-span" xml:id="source-6024-6036" n="60"/>
+        <note type="source-span" xml:id="source-6036-6060" n="60"/>
+        <note type="source-span" xml:id="source-6060-6075" n="60"/>
+        <note type="source-span" xml:id="source-6075-6081" n="60"/>
+        <note type="source-span" xml:id="source-6075-6111" n="60"/>
+        <note type="source-span" xml:id="source-6081-6111" n="60"/>
+        <note type="source-span" xml:id="source-611-614" n="19"/>
+        <note type="source-span" xml:id="source-6111-6117" n="60"/>
+        <note type="source-span" xml:id="source-6117-6126" n="60"/>
+        <note type="source-span" xml:id="source-6117-6159" n="60"/>
+        <note type="source-span" xml:id="source-6126-6159" n="60"/>
+        <note type="source-span" xml:id="source-614-626" n="19"/>
+        <note type="source-span" xml:id="source-6159-6162" n="60"/>
+        <note type="source-span" xml:id="source-6162-6171" n="60"/>
+        <note type="source-span" xml:id="source-6162-6204" n="60"/>
+        <note type="source-span" xml:id="source-6171-6204" n="60"/>
+        <note type="source-span" xml:id="source-6204-6342" n="60"/>
+        <note type="source-span" xml:id="source-626-629" n="19"/>
+        <note type="source-span" xml:id="source-629-644" n="19"/>
+        <note type="source-span" xml:id="source-6342-6366" n="60"/>
+        <note type="source-span" xml:id="source-6366-6390" n="60"/>
+        <note type="source-span" xml:id="source-6390-6414" n="60"/>
+        <note type="source-span" xml:id="source-6414-6432" n="60"/>
+        <note type="source-span" xml:id="source-6432-6447" n="60"/>
+        <note type="source-span" xml:id="source-644-706" n="19"/>
+        <note type="source-span" xml:id="source-6447-6483" n="60"/>
+        <note type="source-span" xml:id="source-6483-6507" n="60"/>
+        <note type="source-span" xml:id="source-6507-6549" n="60"/>
+        <note type="source-span" xml:id="source-6549-6564" n="60"/>
+        <note type="source-span" xml:id="source-6564-6597" n="60"/>
+        <note type="source-span" xml:id="source-6597-6606" n="60"/>
+        <note type="source-span" xml:id="source-6597-6639" n="60"/>
+        <note type="source-span" xml:id="source-6606-6639" n="60"/>
+        <note type="source-span" xml:id="source-6639-6642" n="60"/>
+        <note type="source-span" xml:id="source-6642-6669" n="60"/>
+        <note type="source-span" xml:id="source-6669-6672" n="60"/>
+        <note type="source-span" xml:id="source-6672-6681" n="60"/>
+        <note type="source-span" xml:id="source-6672-6714" n="60"/>
+        <note type="source-span" xml:id="source-6681-6714" n="60"/>
+        <note type="source-span" xml:id="source-6714-6723" n="60"/>
+        <note type="source-span" xml:id="source-6723-6744" n="60"/>
+        <note type="source-span" xml:id="source-6744-6750" n="60"/>
+        <note type="source-span" xml:id="source-6750-6756" n="60"/>
+        <note type="source-span" xml:id="source-6750-6786" n="60"/>
+        <note type="source-span" xml:id="source-6756-6786" n="60"/>
+        <note type="source-span" xml:id="source-6786-6939" n="60"/>
+        <note type="source-span" xml:id="source-6939-6954" n="60"/>
+        <note type="source-span" xml:id="source-6954-6957" n="60"/>
+        <note type="source-span" xml:id="source-6957-6969" n="60"/>
+        <note type="source-span" xml:id="source-6969-7001" n="60"/>
+        <note type="source-span" xml:id="source-7001-7016" n="61"/>
+        <note type="source-span" xml:id="source-7001-7180" n="61"/>
+        <note type="source-span" xml:id="source-7016-7043" n="61"/>
+        <note type="source-span" xml:id="source-7043-7046" n="61"/>
+        <note type="source-span" xml:id="source-7046-7061" n="61"/>
+        <note type="source-span" xml:id="source-706-784" n="20"/>
+        <note type="source-span" xml:id="source-706-969" n="20"/>
+        <note type="source-span" xml:id="source-7061-7082" n="61"/>
+        <note type="source-span" xml:id="source-7082-7106" n="61"/>
+        <note type="source-span" xml:id="source-7106-7124" n="61"/>
+        <note type="source-span" xml:id="source-7124-7154" n="61"/>
+        <note type="source-span" xml:id="source-7154-7180" n="61"/>
+        <note type="source-span" xml:id="source-7180-7473" n="62"/>
+        <note type="source-span" xml:id="source-7276-7291" n="62"/>
+        <note type="source-span" xml:id="source-7473-7557" n="63"/>
+        <note type="source-span" xml:id="source-7473-8168" n="63"/>
+        <note type="source-span" xml:id="source-7557-7563" n="63"/>
+        <note type="source-span" xml:id="source-7557-7593" n="63"/>
+        <note type="source-span" xml:id="source-7563-7593" n="63"/>
+        <note type="source-span" xml:id="source-7593-7611" n="63"/>
+        <note type="source-span" xml:id="source-7611-7620" n="63"/>
+        <note type="source-span" xml:id="source-7611-7653" n="63"/>
+        <note type="source-span" xml:id="source-7620-7653" n="63"/>
+        <note type="source-span" xml:id="source-7653-7662" n="63"/>
+        <note type="source-span" xml:id="source-7662-7668" n="63"/>
+        <note type="source-span" xml:id="source-7662-7698" n="63"/>
+        <note type="source-span" xml:id="source-7668-7698" n="63"/>
+        <note type="source-span" xml:id="source-7698-7707" n="63"/>
+        <note type="source-span" xml:id="source-7707-7713" n="63"/>
+        <note type="source-span" xml:id="source-7707-7743" n="63"/>
+        <note type="source-span" xml:id="source-7713-7743" n="63"/>
+        <note type="source-span" xml:id="source-7743-7752" n="63"/>
+        <note type="source-span" xml:id="source-7752-7758" n="63"/>
+        <note type="source-span" xml:id="source-7752-7788" n="63"/>
+        <note type="source-span" xml:id="source-7758-7788" n="63"/>
+        <note type="source-span" xml:id="source-7788-7911" n="63"/>
+        <note type="source-span" xml:id="source-784-790" n="20"/>
+        <note type="source-span" xml:id="source-784-820" n="20"/>
+        <note type="source-span" xml:id="source-790-820" n="20"/>
+        <note type="source-span" xml:id="source-7911-7935" n="63"/>
+        <note type="source-span" xml:id="source-7935-7974" n="63"/>
+        <note type="source-span" xml:id="source-7974-7998" n="63"/>
+        <note type="source-span" xml:id="source-7998-8031" n="63"/>
+        <note type="source-span" xml:id="source-8031-8046" n="63"/>
+        <note type="source-span" xml:id="source-8046-8103" n="63"/>
+        <note type="source-span" xml:id="source-8103-8118" n="63"/>
+        <note type="source-span" xml:id="source-8118-8168" n="63"/>
+        <note type="source-span" xml:id="source-8168-8228" n="64"/>
+        <note type="source-span" xml:id="source-8168-8599" n="64"/>
+        <note type="source-span" xml:id="source-820-826" n="20"/>
+        <note type="source-span" xml:id="source-8228-8252" n="64"/>
+        <note type="source-span" xml:id="source-8252-8258" n="64"/>
+        <note type="source-span" xml:id="source-8258-8279" n="64"/>
+        <note type="source-span" xml:id="source-826-835" n="20"/>
+        <note type="source-span" xml:id="source-826-868" n="20"/>
+        <note type="source-span" xml:id="source-8279-8561" n="64"/>
+        <note type="source-span" xml:id="source-835-868" n="20"/>
+        <note type="source-span" xml:id="source-8561-8585" n="64"/>
+        <note type="source-span" xml:id="source-8585-8599" n="64"/>
+        <note type="source-span" xml:id="source-8599-8667" n="65"/>
+        <note type="source-span" xml:id="source-8667-8871" n="66"/>
+        <note type="source-span" xml:id="source-8667-9095" n="66"/>
+        <note type="source-span" xml:id="source-868-969" n="20"/>
+        <note type="source-span" xml:id="source-8871-8886" n="66"/>
+        <note type="source-span" xml:id="source-8886-8907" n="66"/>
+        <note type="source-span" xml:id="source-8907-8931" n="66"/>
+        <note type="source-span" xml:id="source-8931-8952" n="66"/>
+        <note type="source-span" xml:id="source-8952-8967" n="66"/>
+        <note type="source-span" xml:id="source-8967-9051" n="66"/>
+        <note type="source-span" xml:id="source-9051-9063" n="66"/>
+        <note type="source-span" xml:id="source-9063-9095" n="66"/>
+        <note type="source-span" xml:id="source-9095-9179" n="67"/>
+        <note type="source-span" xml:id="source-9095-9769" n="67"/>
+        <note type="source-span" xml:id="source-9179-9200" n="67"/>
+        <note type="source-span" xml:id="source-9200-9212" n="67"/>
+        <note type="source-span" xml:id="source-9212-9215" n="67"/>
+        <note type="source-span" xml:id="source-9212-9242" n="67"/>
+        <note type="source-span" xml:id="source-9215-9242" n="67"/>
+        <note type="source-span" xml:id="source-9242-9278" n="67"/>
+        <note type="source-span" xml:id="source-9278-9299" n="67"/>
+        <note type="source-span" xml:id="source-9299-9326" n="67"/>
+        <note type="source-span" xml:id="source-9326-9338" n="67"/>
+        <note type="source-span" xml:id="source-9326-9374" n="67"/>
+        <note type="source-span" xml:id="source-9338-9374" n="67"/>
+        <note type="source-span" xml:id="source-9374-9476" n="67"/>
+        <note type="source-span" xml:id="source-9476-9503" n="67"/>
+        <note type="source-span" xml:id="source-9503-9506" n="67"/>
+        <note type="source-span" xml:id="source-9506-9521" n="67"/>
+        <note type="source-span" xml:id="source-9521-9533" n="67"/>
+        <note type="source-span" xml:id="source-9533-9548" n="67"/>
+        <note type="source-span" xml:id="source-9548-9620" n="67"/>
+        <note type="source-span" xml:id="source-9620-9635" n="67"/>
+        <note type="source-span" xml:id="source-9635-9650" n="67"/>
+        <note type="source-span" xml:id="source-9650-9662" n="67"/>
+        <note type="source-span" xml:id="source-9650-9698" n="67"/>
+        <note type="source-span" xml:id="source-9662-9698" n="67"/>
+        <note type="source-span" xml:id="source-969-1086" n="21"/>
+        <note type="source-span" xml:id="source-969-1469" n="21"/>
+        <note type="source-span" xml:id="source-9698-9701" n="67"/>
+        <note type="source-span" xml:id="source-9701-9707" n="67"/>
+        <note type="source-span" xml:id="source-9701-9737" n="67"/>
+        <note type="source-span" xml:id="source-9707-9737" n="67"/>
+        <note type="source-span" xml:id="source-9737-9769" n="67"/>
+        <note type="source-span" xml:id="source-9769-10182" n="68"/>
+        <note type="source-span" xml:id="source-9769-9847" n="68"/>
+        <note type="source-span" xml:id="source-9847-9868" n="68"/>
+        <note type="source-span" xml:id="source-9868-9898" n="68"/>
+        <note type="source-span" xml:id="source-9898-9913" n="68"/>
+        <note type="source-span" xml:id="source-9913-10057" n="68"/>
+      </div>
+      <note type="parser-completion" n="true">The n attribute is true when no parser diagnostic of error severity was raised for this source. What the converter could not interpret is recorded in the interpretation-problem and parser-diagnostic notes.</note>
+      <note type="source-decoding">windows-31j</note>
+    </back>
+  </text>
+</TEI>

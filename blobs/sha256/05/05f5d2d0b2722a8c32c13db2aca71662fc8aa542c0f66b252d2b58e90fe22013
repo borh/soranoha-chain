@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?><TEI xmlns:snh="https://w3id.org/soranoha/ns/tei" xmlns="http://www.tei-c.org/ns/1.0" snh:vocab-version="3">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main" xml:lang="ja">東西伊呂波短歌評釈</title>
+        <title type="reading" xml:lang="ja-Hira">とうざいいろはたんかひょうしゃく</title>
+        <author><persName xml:lang="ja"><surname>幸田</surname><forename>露伴</forename><idno type="aozora-person-id">000051</idno></persName><persName xml:lang="ja-Hira"><surname>こうだ</surname><forename>ろはん</forename></persName><persName xml:lang="ja-Latn"><surname>Koda</surname><forename>Rohan</forename></persName></author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ref="https://w3id.org/soranoha/">Soranoha</publisher>
+        <idno type="soranoha-work-identifier">004620_000051</idno>
+        <idno type="aozora-work-id">004620</idno>
+        <idno type="aozora-card-url">https://www.aozora.gr.jp/cards/000051/card4620.html</idno>
+        <date when="2014-09-17">2014-09-17</date>
+        <availability status="free">
+          <licence target="https://creativecommons.org/publicdomain/mark/1.0/">The underlying work is in the public domain; Soranoha asserts no rights over it.</licence>
+          <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Soranoha's encoding of this work and the artifacts derived from it are dedicated to the public domain under CC0-1.0. Attribution is requested, not required. Full rights statement: <ptr target="https://w3id.org/soranoha/rights"/></licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl><title>日本の名随筆70　語</title><publisher>作品社</publisher><date>1988（昭和63）年8月25日</date><note type="input-edition">1992（平成4）年4月10日 第7刷</note></bibl>
+        <bibl><idno type="source-content-hash">sha256:8f631efe142363bedade5cb1dde57c88593377142dbd28f95b72b3fbe342494d</idno></bibl>
+        <bibl><idno type="primary-text-hash">sha256:f136cd768aa7fd233f278cbfb6017420a79b9a8b68efa32eead9d4725cd2614d</idno></bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <styleDefDecl scheme="css"/>
+      <classDecl><taxonomy xml:id="ndc"><bibl>分類番号 as recorded by <title>青空文庫</title>, read as a class of 日本十進分類法 新訂9版. Category labels are from <title>NDC9 Linked Data</title> (日本図書館協会, CC BY); a category's IRI is <ref target="http://jla.or.jp/data/ndc9">http://jla.or.jp/data/ndc9</ref> followed by # and its n.</bibl><category xml:id="ndc798" n="798"><catDesc xml:lang="ja">室内娯楽</catDesc><catDesc xml:lang="en">Indoor games</catDesc></category><category xml:id="ndc914" n="914"><catDesc xml:lang="ja">評論．エッセイ．随筆</catDesc><catDesc xml:lang="en">Essays.Prose</catDesc></category></taxonomy><taxonomy xml:id="aozora-orthography"><bibl><title>青空文庫</title> 文字遣い種別: the orthographic style Aozora Bunko records for the transcription.</bibl></taxonomy></classDecl>
+      <refsDecl xml:id="source-spans"><p>A note of type source-span has an xml:id of the form source-START-END, giving the extent in UTF-8 bytes of the decoded primary text identified in sourceDesc, after the emendations declared in editorialDecl/correction are applied; each emendation replaces its sic text by its corr text at its own extent. <ptr target="https://w3id.org/soranoha/ns/tei"/></p></refsDecl>
+      <charDecl>
+        <char xml:id="gaiji-1-2-22">
+          <mapping type="unicode">〻</mapping>
+          <localProp name="rawMarker" value="二の字点"/>
+          <localProp name="sourceReference" value="1-2-22"/>
+          <snh:gaiji-reference original="1-2-22" cell="22" plane="1" kind="jis-code" row="2"/>
+        </char>
+        <char xml:id="gaiji-3-1-15-24">
+          <mapping type="unicode">噱</mapping>
+          <localProp name="rawMarker" value="口＋劇のへん"/>
+          <localProp name="sourceReference" value="読みは「きょ」、第3水準1-15-24"/>
+          <snh:gaiji-reference original="読みは「きょ」" text="きょ" kind="reading"/>
+          <snh:gaiji-reference original="第3水準1-15-24" cell="24" plane="1" kind="jis-code" row="15"/>
+        </char>
+        <char xml:id="gaiji-3-1-93-39">
+          <mapping type="unicode">鏽</mapping>
+          <localProp name="rawMarker" value="金＋肅"/>
+          <localProp name="sourceReference" value="読みは「しゅう」、第3水準1-93-39"/>
+          <snh:gaiji-reference original="読みは「しゅう」" text="しゅう" kind="reading"/>
+          <snh:gaiji-reference original="第3水準1-93-39" cell="39" plane="1" kind="jis-code" row="93"/>
+        </char>
+        <char xml:id="gaiji-164-17">
+          <localProp name="rawMarker" value="「還」の「しんにゅう」に代えて「けものへん」、読みは「けん」"/>
+          <localProp name="sourceReference" value="164-17"/>
+          <localProp name="unresolvedReason" value="unresolved"/>
+          <snh:gaiji-reference original="164-17" line="17" kind="source-location" page="164"/>
+        </char>
+        <char xml:id="gaiji-164-17-at-21991">
+          <localProp name="rawMarker" value="「遍」の「しんにゅう」に代えて「あしへん」、読みは「へん」"/>
+          <localProp name="sourceReference" value="164-17"/>
+          <localProp name="unresolvedReason" value="unresolved"/>
+          <snh:gaiji-reference original="164-17" line="17" kind="source-location" page="164"/>
+        </char>
+        <char xml:id="gaiji-164-17-at-22099">
+          <localProp name="rawMarker" value="「遷」の「しんにゅう」に代えて「あしへん」、読みは「せん」"/>
+          <localProp name="sourceReference" value="164-17"/>
+          <localProp name="unresolvedReason" value="unresolved"/>
+          <snh:gaiji-reference original="164-17" line="17" kind="source-location" page="164"/>
+        </char>
+      </charDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="ja">日本語</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="#ndc">798 914</classCode>
+        <catRef scheme="#ndc" target="#ndc798 #ndc914"/>
+        <classCode scheme="#aozora-orthography">新字旧仮名</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-771-1379"><seg source="#source-771-852">東京と西京とは、飲食住居より言語風俗に至るまで、今猶</seg><ruby type="furigana" rend="right" source="#source-852-873"><rb>頗</rb><rt>すこぶ</rt></ruby><seg source="#source-873-1071">る相異なるものあり。それも、やがては同じきに帰す可けれど、こゝしばらくは互に移らざらむ歟。そは兎まれ角まれ、小児の年の初に用ゐて遊ぶ</seg><ruby type="furigana" rend="right" source="#source-1071-1095"><rb>骨牌子</rb><rt>かるた</rt></ruby><seg source="#source-1095-1379">に記されたる伊呂波短歌などいふも、東京のと西京のとは、いたく異なりて、其の同じきものは四十八枚中わづかに二三枚に過ぎざるぞおもしろき。今試に東西に行はるゝところのものを取りて之を比較せん。</seg></p>
+      <p source="#source-1379-1429"><seg source="#source-1379-1385">東　</seg><ruby type="furigana" rend="right" source="#source-1385-1400"><rb>狗</rb><rt>いぬ</rt></ruby><seg source="#source-1400-1429">も歩けば棒にあたる</seg></p>
+      <p source="#source-1429-1455"><seg source="#source-1429-1441">西　いや</seg><choice source="#source-1441-1447"><orig>／＼</orig><reg>〱</reg></choice><seg source="#source-1447-1455">三盃</seg></p>
+      <div type="layout" source="#source-1455-2293" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-1508-2227"><seg source="#source-1508-1802">東のは、事を為すものは思はぬ災を受くることありといふ意、又は其の反対に、才無き者も能く勤むれば幸を得ること有りといふの意にして、西のは、其の語の用ゐらるゝ場合不明なれども、既に人の客たれば、いや</seg><choice source="#source-1802-1808"><orig>／＼</orig><reg>〱</reg></choice><seg source="#source-1808-1868">ながらも三盃を斟むべし、といふ意か、いや</seg><choice source="#source-1868-1874"><orig>／＼</orig><reg>〱</reg></choice><seg source="#source-1874-1931">三盃又三杯とつゞけてもいふことあれば、</seg><ruby type="furigana" rend="right" source="#source-1931-1985"><rb><seg source="#source-1931-1934">薄</seg><g ref="#gaiji-1-2-22" source="#source-1934-1967">〻</g></rb><rt><seg source="#source-1970-1976">はく</seg><choice source="#source-1976-1982"><orig>／＼</orig><reg>〱</reg></choice></rt></ruby><seg source="#source-1985-2012">の酒を酌むに、いや</seg><choice source="#source-2012-2018"><orig>／＼</orig><reg>〱</reg></choice><seg source="#source-2018-2168">ながらも杯を重ぬれば、其の中にはおのづから酔ひて之を楽むに至るといふことを云へるか、或は又虚礼謙譲の</seg><ruby type="furigana" rend="right" source="#source-2168-2183"><rb>陋</rb><rt>いや</rt></ruby><seg source="#source-2183-2227">しきを笑へる意の諺なるべし。</seg></p>
+      </div>
+      <div>
+        <p source="#source-2295-2318"><seg source="#source-2295-2318">東　論より証拠</seg></p>
+        <p source="#source-2318-2356"><seg source="#source-2318-2356">西　論語読みの論語知らず</seg></p>
+      </div>
+      <div type="layout" source="#source-2356-2558" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2409-2492"><seg source="#source-2409-2492">東のは寸鉄人を殺すの語、西のは冷罵骨に入るの句なり。</seg></p>
+      </div>
+      <div>
+        <p source="#source-2560-2583"><seg source="#source-2560-2583">東　花より団子</seg></p>
+        <p source="#source-2583-2609"><seg source="#source-2583-2609">西　針の孔から天</seg></p>
+      </div>
+      <div type="layout" source="#source-2609-3045" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-2662-2979"><seg source="#source-2662-2674">東のは</seg><ruby type="furigana" rend="right" source="#source-2674-2692"><rb>徒美</rb><rt>とび</rt></ruby>の益なく、実効の尊ぶべきを云ひ、西のは小を以て大を尽す可からざることを云へるにて、東京の、よの字の短語「よしの髄より天」といへると其の意おなじ。古は西のは、「八十の手習」といへるなりしとか。</p>
+      </div>
+      <div>
+        <p source="#source-3047-3091"><seg source="#source-3047-3091">東　にくまれ子は世にはびこる</seg></p>
+        <p source="#source-3091-3108"><seg source="#source-3091-3108">西　おなじ</seg></p>
+      </div>
+      <div type="layout" source="#source-3108-3505" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-3161-3439"><ruby type="furigana" rend="right" source="#source-3164-3185"><rb>舐犢</rb><rt>しとく</rt></ruby><seg source="#source-3185-3233">の愛を受けて長ずるものを貶して、</seg><ruby type="furigana" rend="right" source="#source-3233-3254"><rb>祖母</rb><rt>ばゞあ</rt></ruby><seg source="#source-3254-3269">育ちは三百</seg><ruby type="furigana" rend="right" source="#source-3269-3287"><rb>廉</rb><rt>やす</rt></ruby><seg source="#source-3287-3439">いといへる諺に引かへ、憎まれ子の世に立ちて名を成し群を抜くことを云へる、東西共に同じきもおもしろし。</seg></p>
+      </div>
+      <div>
+        <p source="#source-3507-3551"><seg source="#source-3507-3551">東　ほね折り損のくたびれ儲け</seg></p>
+        <p source="#source-3551-3583"><seg source="#source-3551-3583">西　ほとけの顔も三度</seg></p>
+      </div>
+      <div type="layout" source="#source-3583-3896" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-3636-3830"><seg source="#source-3636-3741">徒労の身を疲らす有るのみなるを嘆じたるは東の語、慈顔も之を冒すこと数</seg><g ref="#gaiji-1-2-22" source="#source-3741-3774">〻</g><seg source="#source-3774-3830">すれば怒ることを云へるは西の語なり。</seg></p>
+      </div>
+      <div>
+        <p source="#source-3898-3942"><seg source="#source-3898-3910">東　屁を</seg><ruby type="furigana" rend="right" source="#source-3910-3922"><rb>放</rb><rt>ひ</rt></ruby><seg source="#source-3922-3942">つて尻すぼめ</seg></p>
+        <p source="#source-3942-3968"><seg source="#source-3942-3968">西　下手な長談義</seg></p>
+      </div>
+      <div type="layout" source="#source-3968-4179" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4021-4113"><seg source="#source-4021-4113">東は後悔のはかなきを笑ひ、西は拙者の人を苦むるを嘲りたり。</seg></p>
+      </div>
+      <div>
+        <p source="#source-4181-4204"><seg source="#source-4181-4204">東　年寄の冷水</seg></p>
+        <p source="#source-4204-4242"><seg source="#source-4204-4219">西　豆腐に</seg><ruby type="furigana" rend="right" source="#source-4219-4240"><rb>鎹</rb><rt>かすがひ</rt></ruby></p>
+      </div>
+      <div type="layout" source="#source-4242-4525" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4295-4459"><seg source="#source-4295-4459">老人のなまじひに壮者を学ぶを危めるは東の諺、鉄釘至剛なるも至軟の物を如何ともする能はざるを歎ぜるは西の語。</seg></p>
+      </div>
+      <div>
+        <p source="#source-4527-4550"><seg source="#source-4527-4550">東　塵積つて山</seg></p>
+        <p source="#source-4550-4579"><seg source="#source-4550-4579">西　地獄の沙汰も金</seg></p>
+      </div>
+      <div type="layout" source="#source-4579-4853" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-4632-4787"><seg source="#source-4632-4662">東は小善小悪も之を</seg><ruby type="furigana" rend="right" source="#source-4662-4680"><rb>易</rb><rt>あなど</rt></ruby><seg source="#source-4680-4787">り之を軽んず可からざるを云ひ、西は黄金の力の広大無辺なるを云へるなり。</seg></p>
+      </div>
+      <div>
+        <p source="#source-4855-4905"><seg source="#source-4855-4861">東　</seg><ruby type="furigana" rend="right" source="#source-4861-4891"><rb>律義者</rb><rt>りちぎもの</rt></ruby><seg source="#source-4891-4905">の子沢山</seg></p>
+        <p source="#source-4905-4949"><seg source="#source-4905-4911">西　</seg><ruby type="furigana" rend="right" source="#source-4911-4935"><rb>綸言</rb><rt>りんげん</rt></ruby><seg source="#source-4935-4949">汗の如し</seg></p>
+      </div>
+      <div type="layout" source="#source-4949-5265" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5002-5199"><seg source="#source-5002-5020">東は花柳に</seg><ruby type="furigana" rend="right" source="#source-5020-5044"><rb>沈湎</rb><rt>ちんめん</rt></ruby><seg source="#source-5044-5152">せざるもののおのづからにして真福多く天佑有るを云ひ、西は帝王の言の出でゝ</seg><ruby type="furigana" rend="right" source="#source-5152-5167"><rb>反</rb><rt>かへ</rt></ruby><seg source="#source-5167-5199">らざることを云へり。</seg></p>
+      </div>
+      <div>
+        <p source="#source-5267-5293"><seg source="#source-5267-5293">東　ぬす人の昼寐</seg></p>
+        <p source="#source-5293-5313"><seg source="#source-5293-5313">西　ぬかに釘</seg></p>
+      </div>
+      <div type="layout" source="#source-5313-5614" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5366-5548"><seg source="#source-5366-5548">守る者は足らず、攻むるものは余りあるを云へるは東の語也、抵抗せず又随順せざる者の如何ともしがたきを云へるは西の語なり。</seg></p>
+      </div>
+      <div>
+        <p source="#source-5616-5657"><seg source="#source-5616-5657">東　るりもはりも照せば光る</seg></p>
+        <p source="#source-5657-5683"><seg source="#source-5657-5683">西　類を以て聚る</seg></p>
+      </div>
+      <div type="layout" source="#source-5683-6023" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-5736-5957"><seg source="#source-5736-5763">美玉日に遇へば各</seg><g ref="#gaiji-1-2-22" source="#source-5763-5796">〻</g><seg source="#source-5796-5957">其の光を発するを云へるは東、類を以て聚まり群を以て分れて吉凶の生ずるを説ける繋辞伝の語を挙げ用ゐたるは西。</seg></p>
+      </div>
+      <div>
+        <p source="#source-6025-6057"><seg source="#source-6025-6057">東　老いては子に従ふ</seg></p>
+        <p source="#source-6057-6092"><seg source="#source-6057-6092">西　負ふた子に教へられ</seg></p>
+      </div>
+      <div type="layout" source="#source-6092-6498" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-6145-6432"><seg source="#source-6145-6292">共に仮名違ひながら其は云はでも有らなむ。一は老者の自ら主とせざるを可とするを云ひ、一は幼者の智も</seg><ruby type="furigana" rend="right" source="#source-6292-6307"><rb>亦</rb><rt>また</rt></ruby><seg source="#source-6307-6367">師とす可きあるを云へる、彼此共に其の意の</seg><ruby type="furigana" rend="right" source="#source-6367-6385"><rb>聊</rb><rt>いささ</rt></ruby><seg source="#source-6385-6432">か似通へるところあるもをかし。</seg></p>
+      </div>
+      <div>
+        <p source="#source-6500-6526"><seg source="#source-6500-6526">東　われ鍋に綴蓋</seg></p>
+        <p source="#source-6526-6549"><seg source="#source-6526-6549">西　笑ふ門には</seg></p>
+      </div>
+      <div type="layout" source="#source-6549-7078" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-6602-7012"><seg source="#source-6602-6626">此は、如何なる</seg><ruby type="furigana" rend="right" source="#source-6626-6650"><rb>賤陋</rb><rt>せんろう</rt></ruby><seg source="#source-6650-6704">のものにも、世おのづからこれと相従ひ</seg><ruby type="furigana" rend="right" source="#source-6704-6719"><rb>相</rb><rt>あひ</rt></ruby><ruby type="furigana" rend="right" source="#source-6719-6734"><rb>幇</rb><rt>たす</rt></ruby><seg source="#source-6734-6980">けて功を共にし楽を分つものあるを云ひ、彼は、先づ自ら楽みて笑ひ、又能く笑ひて人を楽ましむるものは、おのづからに和を致して而して福を来すに及ぶを道破せる、共に愉快なる</seg><ruby type="furigana" rend="right" source="#source-6980-7001"><rb>佳諺</rb><rt>かげん</rt></ruby><seg source="#source-7001-7012">なり。</seg></p>
+      </div>
+      <div>
+        <p source="#source-7080-7127"><seg source="#source-7080-7101">東　かつたいの</seg><ruby type="furigana" rend="right" source="#source-7101-7116"><rb>痂</rb><rt>かさ</rt></ruby><seg source="#source-7116-7127">うらみ</seg></p>
+        <p source="#source-7127-7150"><seg source="#source-7127-7150">西　蛙の面に水</seg></p>
+      </div>
+      <div type="layout" source="#source-7150-7496" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-7203-7430"><seg source="#source-7203-7239">東は悪因を有するものの</seg><ruby type="furigana" rend="right" source="#source-7239-7260"><rb>徒</rb><rt>いたづら</rt></ruby><seg source="#source-7260-7308">に悪果を恨み歎ずるを笑ひ、西は冷</seg><g ref="#gaiji-1-2-22" source="#source-7308-7341">〻</g><seg source="#source-7341-7430">然として平らかなるものの如何ともす可からざるを憎めるなり。</seg></p>
+      </div>
+      <div>
+        <p source="#source-7498-7539"><seg source="#source-7498-7539">東　よしのずゐから天を覗く</seg></p>
+        <p source="#source-7539-7562"><seg source="#source-7539-7562">西　よめとほめ</seg></p>
+      </div>
+      <div type="layout" source="#source-7562-7905" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-7615-7839"><ruby type="furigana" rend="right" source="#source-7618-7642"><rb>葭管</rb><rt>かくわん</rt></ruby><seg source="#source-7642-7839">より天を窺ふは、管小に過ぎ天大に過ぎて尽す可きにあらず、夜眼遠眼、凡を過つて美となすことあり信ず可からず、二者意相似て聊か異なり。</seg></p>
+      </div>
+      <div>
+        <p source="#source-7907-7933"><seg source="#source-7907-7933">東　たびは道づれ</seg></p>
+        <p source="#source-7933-7959"><seg source="#source-7933-7959">西　たていたに水</seg></p>
+      </div>
+      <div type="layout" source="#source-7959-8215" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-8012-8149"><seg source="#source-8012-8149">東は同伴者の尊ぶべきを云ひ、西は単に弁舌の快なるを云へり。東の諺の方、意に於て優りたり。</seg></p>
+      </div>
+      <div>
+        <p source="#source-8217-8249"><seg source="#source-8217-8249">東　れうやく口に苦し</seg></p>
+        <p source="#source-8249-8278"><seg source="#source-8249-8278">西　れんぎで腹切る</seg></p>
+      </div>
+      <div type="layout" source="#source-8278-8630" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-8331-8564"><seg source="#source-8331-8564">腹は擂木を以て切るべきにあらず、能はざる事をば滑稽に云ひ取れるなり。良薬は口に苦けれど病をば癒すべし。これも東の諺の方宜しけれど、仮名違なるは是非なし。</seg></p>
+      </div>
+      <div>
+        <p source="#source-8632-8655"><seg source="#source-8632-8655">東　惣領の甚六</seg></p>
+        <p source="#source-8655-8687"><seg source="#source-8655-8687">西　袖のふりあはせも</seg></p>
+      </div>
+      <div type="layout" source="#source-8687-9078" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-8740-9012"><seg source="#source-8740-8848">東は長子の愚多きを云ひ、（或は曰く自然に禄を伝へ受くるをいふと）西は瑣</seg><g ref="#gaiji-1-2-22" source="#source-8848-8881">〻</g><seg source="#source-8881-8935">の因縁も由つて来ること遠きを云へり。</seg><ruby type="furigana" rend="right" source="#source-8935-8968"><rb>明眼論</rb><rt>めいがんろん</rt></ruby><seg source="#source-8968-9012">に本づける西の諺おもしろし。</seg></p>
+      </div>
+      <div>
+        <p source="#source-9080-9115"><seg source="#source-9080-9115">東　月夜に釜をぬかれる</seg></p>
+        <p source="#source-9115-9138"><seg source="#source-9115-9138">西　東におなじ</seg></p>
+      </div>
+      <div type="layout" source="#source-9138-9462" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-9191-9396"><seg source="#source-9191-9302">闇夜には物を奪はれず、躓くは坦途に於てする習ひ、東西異なる無しと見ゆ。一</seg><g ref="#gaiji-3-1-15-24" source="#source-9302-9382">噱</g><seg source="#source-9382-9396">す可し。</seg></p>
+      </div>
+      <div>
+        <p source="#source-9464-9496"><seg source="#source-9464-9496">東　念には念を入れよ</seg></p>
+        <p source="#source-9496-9516"><seg source="#source-9496-9516">西　猫に小判</seg></p>
+      </div>
+      <div type="layout" source="#source-9516-9880" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-9569-9814"><seg source="#source-9569-9605">東は事に処し物に接する</seg><ruby type="furigana" rend="right" source="#source-9605-9623"><rb>須</rb><rt>すべか</rt></ruby><seg source="#source-9623-9814">らく精確詳密にすべきを云ひ、西は機に投じ縁に応ぜざれば金珠も土礫に等しきを云へるなるが、東の方の諺は詩趣無く、西のは佳意無し。</seg></p>
+      </div>
+      <div>
+        <p source="#source-9882-9908"><seg source="#source-9882-9908">東　なきつらに蜂</seg></p>
+        <p source="#source-9908-9937"><seg source="#source-9908-9937">西　なす時の閻魔顔</seg></p>
+      </div>
+      <div type="layout" source="#source-9937-10313" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-9990-10247"><seg source="#source-9990-9999">禍は</seg><ruby type="furigana" rend="right" source="#source-9999-10014"><rb>単</rb><rt>ひと</rt></ruby><seg source="#source-10014-10065">り到らず、悲を破るの勇気無きものは</seg><ruby type="furigana" rend="right" source="#source-10065-10080"><rb>復</rb><rt>また</rt></ruby><seg source="#source-10080-10247">新に悲を得るを云へるは東、人情嶮峻にして金を借る時は仏顔をなし、返す時は閻魔顔をなすの陋態を罵れるは西のなり。</seg></p>
+      </div>
+      <div>
+        <p source="#source-10315-10344"><seg source="#source-10315-10344">東　楽あれば苦あり</seg></p>
+        <p source="#source-10344-10385"><seg source="#source-10344-10385">西　来年の事云へば鬼が笑ふ</seg></p>
+      </div>
+      <div type="layout" source="#source-10385-10749" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-10438-10683"><seg source="#source-10438-10447">近を</seg><ruby type="furigana" rend="right" source="#source-10447-10459"><rb>釈</rb><rt>お</rt></ruby><seg source="#source-10459-10683">きて遠を謀るは愚人の常態にして、陋なること笑ふべければ、西の諺の方は甚だ佳趣あり。楽あれば即ち苦あるは免る能はざるの数ながら、語に奇味あること無し。</seg></p>
+      </div>
+      <div>
+        <p source="#source-10751-10795"><seg source="#source-10751-10795">東　無理がとほれば道理引込む</seg></p>
+        <p source="#source-10795-10821"><seg source="#source-10795-10821">西　むまの耳に風</seg></p>
+      </div>
+      <div type="layout" source="#source-10821-11101" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-10874-11035"><seg source="#source-10874-11035">東は理もまた時ありて屈伸することを云ひて、世情の頼む可からざるを憤り、西は馬耳東風何の饗応無きを云へり。</seg></p>
+      </div>
+      <div>
+        <p source="#source-11103-11132"><seg source="#source-11103-11132">東　うそから出た真</seg></p>
+        <p source="#source-11132-11155"><seg source="#source-11132-11155">西　氏より育ち</seg></p>
+      </div>
+      <div type="layout" source="#source-11155-11468" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-11208-11402"><seg source="#source-11208-11292">仮を弄して真を成す、世おのづから其の事多く、橘を植ゑて</seg><ruby type="furigana" rend="right" source="#source-11292-11313"><rb>枳</rb><rt>からたち</rt></ruby><seg source="#source-11313-11402">に変ずる、土之をして然らしむるなり。二語共に佳、悦ぶ可し。</seg></p>
+      </div>
+      <div>
+        <p source="#source-11470-11511"><seg source="#source-11470-11511">東　芋の煮えたも御存知ない</seg></p>
+        <p source="#source-11511-11543"><seg source="#source-11511-11543">西　鰯の頭も信心がら</seg></p>
+      </div>
+      <div type="layout" source="#source-11543-11814" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-11596-11748"><seg source="#source-11596-11620">東のは迂闊漢を</seg><ruby type="furigana" rend="right" source="#source-11620-11635"><rb>刺</rb><rt>そし</rt></ruby><seg source="#source-11635-11748">りて骨に入り、西のは一切世界唯心所造の理を片言に道破せり。共におもしろし。</seg></p>
+      </div>
+      <div>
+        <p source="#source-11816-11875"><seg source="#source-11816-11822">東　</seg><ruby type="furigana" rend="right" source="#source-11822-11846"><rb>咽頭</rb><rt>のどもと</rt></ruby><seg source="#source-11846-11875">過ぐれば熱さ忘るゝ</seg></p>
+        <p source="#source-11875-11901"><seg source="#source-11875-11901">西　鑿といへば鎚</seg></p>
+      </div>
+      <div type="layout" source="#source-11901-12493" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-11954-12427"><seg source="#source-11954-12053">東のは懲りて復これを忘るゝものを云ひ、西のは人須らく智を運し功を</seg><ruby type="furigana" rend="right" source="#source-12053-12068"><rb>速</rb><rt>すみ</rt></ruby><seg source="#source-12068-12427">やかにすべきを云へり。西のは東の方にては云はぬ諺なるが、鑿は鉄鎚を待つて其の功を遂ぐるものなれば、鑿をと云はば鎚をも添へて与ふるやうにせよとなり。東のは失敗の径路を指摘して戒め、西のは成功の用意の如何にすべきかを教ふ。西のの方おもしろし。</seg></p>
+      </div>
+      <div>
+        <p source="#source-12495-12533"><seg source="#source-12495-12507">東　鬼に</seg><ruby type="furigana" rend="right" source="#source-12507-12531"><rb>鉄棒</rb><rt>かなぼう</rt></ruby></p>
+        <p source="#source-12533-12553"><seg source="#source-12533-12553">西　鬼も一八</seg></p>
+      </div>
+      <div type="layout" source="#source-12553-12932" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-12606-12866"><seg source="#source-12606-12759">既に強力なり、加ふるに利器を以てす、人誰か之に当るを得ん。東のは之を説けり。物皆時あり、至醜のものと</seg><ruby type="furigana" rend="right" source="#source-12759-12777"><rb>雖</rb><rt>いへど</rt></ruby><seg source="#source-12777-12866">も小美の時無くばあらず。西のは之を談ぜるなり。両諺共に佳。</seg></p>
+      </div>
+      <div>
+        <p source="#source-12934-12966"><seg source="#source-12934-12966">東　くさいものには蓋</seg></p>
+        <p source="#source-12966-12995"><seg source="#source-12966-12995">西　くさいものに蝿</seg></p>
+      </div>
+      <div type="layout" source="#source-12995-13491" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-13048-13425">東のは臭腐のもの須らく之を掩ふべきを云ひ、西のは穢は又おのづから穢を引きて、臭物の蒼蝿を致すことを云へり。古は西の短語「くさいものに蝿」と無くして「くさつても鯛」とありし由、今のかるたにも、画には鯛を描けり。腐つても鯛と云へる諺は余り好ましからず。</p>
+      </div>
+      <div>
+        <p source="#source-13493-13528"><seg source="#source-13493-13528">東　やす物買ひの銭失ひ</seg></p>
+        <p source="#source-13528-13551"><seg source="#source-13528-13551">西　やみに鉄砲</seg></p>
+      </div>
+      <div type="layout" source="#source-13551-13879" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-13604-13813"><seg source="#source-13604-13631">低価の貨物を買ふ</seg><ruby type="furigana" rend="right" source="#source-13631-13646"><rb>勿</rb><rt>なか</rt></ruby><seg source="#source-13646-13813">れとは江戸の人の気象をあらはし、闇夜に鉄砲を放つがごときことを為すを嘲るも亦、京坂地方の人の気象をあらはせり。</seg></p>
+      </div>
+      <div>
+        <p source="#source-13881-13904"><seg source="#source-13881-13904">東　負けるは勝</seg></p>
+        <p source="#source-13904-13951"><seg source="#source-13904-13919">西　まかぬ</seg><ruby type="furigana" rend="right" source="#source-13919-13937"><rb>種子</rb><rt>たね</rt></ruby><seg source="#source-13937-13951">は生えぬ</seg></p>
+      </div>
+      <div type="layout" source="#source-13951-14315" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-14004-14249"><seg source="#source-14004-14249">気を負ひて忍びざる東に、負けるは勝の諺の用ゐらるゝもおもしろく、理智に長けたる人多き西に、播かぬ種子は生えぬといへる諺の用ゐられあるは当に然るべきやうに思はる。</seg></p>
+      </div>
+      <div>
+        <p source="#source-14317-14346"><seg source="#source-14317-14346">東　芸は身を助ける</seg></p>
+        <p source="#source-14346-14372"><seg source="#source-14346-14372">西　下駄に焼味噌</seg></p>
+      </div>
+      <div type="layout" source="#source-14372-14625" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-14425-14559"><seg source="#source-14425-14559">東のは意明らかなり、西のは汚潔混淆の愚を斥けたるにや、其の意不明にして確解すべからず。</seg></p>
+      </div>
+      <div>
+        <p source="#source-14627-14677"><seg source="#source-14627-14677">東　ふみはやりたし書く手は持たず</seg></p>
+        <p source="#source-14677-14712"><seg source="#source-14677-14712">西　ふくろうの宵だくみ</seg></p>
+      </div>
+      <div type="layout" source="#source-14712-15040" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-14765-14974">東のは幼にして学ばざりしを悲み、西のは思ふこと多くして做すこと少き痴を笑へるにや。西のは、もとは「武士は喰はねど高楊子」とありし由なり。</p>
+      </div>
+      <div>
+        <p source="#source-15042-15071"><seg source="#source-15042-15071">東　子は三界の首枷</seg></p>
+        <p source="#source-15071-15106"><seg source="#source-15071-15106">西　これにこりよ道西坊</seg></p>
+      </div>
+      <div type="layout" source="#source-15106-15662" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-15159-15596"><seg source="#source-15159-15596">欲界より色界無色界に至りても、親子は恩深ければ、枷鎖相纏はりて脱せずといへるは東のなり。西のは其の意明らかならねども、秘事は四知を免れず、拙為は独歎を発するに足れり。凡庸の徒おほむね先見無し、一蹉躓一顛倒して後自ら懲戒するも、数の免る能はざるところなり。唯よく自ら懲り自ら戒めよとならん。</seg></p>
+      </div>
+      <div>
+        <p source="#source-15664-15693"><seg source="#source-15664-15693">東　えてに帆を上げ</seg></p>
+        <p source="#source-15693-15716"><seg source="#source-15693-15716">西　えんと月日</seg></p>
+      </div>
+      <div type="layout" source="#source-15716-16113" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-15769-16047">東は意を得て勢に乗ずるを云ひ、西は因縁の到来と日月の経過とを待ち得ば、苦去り甘来らんと云へるなり。むかしは、「縁と月日」と云ふ語ならずして、「栄曜に餅の皮むく」と云へる語なりし由也。</p>
+      </div>
+      <div>
+        <p source="#source-16115-16153"><seg source="#source-16115-16153">東　亭主の好きな赤烏帽子</seg></p>
+        <p source="#source-16153-16176"><seg source="#source-16153-16176">西　寺から里へ</seg></p>
+      </div>
+      <div type="layout" source="#source-16176-17023" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-16229-16957">松浦肥前守、赤き烏帽子を戴きしといふ奇解の塩尻に出でしより、人皆之に従ひて怪まず、多くの画にも、人の赤き烏帽子冠れるさまを描きたれど、土地によりては、赤烏帽子と云はずして、「亭主の好きな赤鰯」といふもあるなり。赤鰯は鰯の塩蔵<ruby type="furigana" rend="right" source="#source-16568-16586"><rb>若</rb><rt>もし</rt></ruby><seg source="#source-16586-16763">くは乾蔵せるものにして、其の味の美ならざること言ふまでも無し。語の意は、赤鰯珍とするに足らず、されど亭主之を好まば又数</seg><g ref="#gaiji-1-2-22" source="#source-16763-16796">〻</g><seg source="#source-16796-16957">用ゐられんのみ、人之を如何ともする無し、といふに在り。寺から里へとは、物の顛倒せるを云ふ。二諺共に妙無し。</seg></p>
+      </div>
+      <div>
+        <p source="#source-17025-17066"><seg source="#source-17025-17066">東　あたま隠して尻かくさず</seg></p>
+        <p source="#source-17066-17098"><seg source="#source-17066-17098">西　あきなひは牛の涎</seg></p>
+      </div>
+      <div type="layout" source="#source-17098-17375" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-17151-17309"><seg source="#source-17151-17309">東のは蔵頭露尾の醜を笑ひ、西のは商估の道、気を伏せ心を寛うすべきを云へるなり。西の諺教へ得て甚だ好し。</seg></p>
+      </div>
+      <div>
+        <p source="#source-17377-17415"><seg source="#source-17377-17415">東　三遍回つて煙草にしよ</seg></p>
+        <p source="#source-17415-17447"><seg source="#source-17415-17447">西　猿も木から墜ちる</seg></p>
+      </div>
+      <div type="layout" source="#source-17447-17742" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-17500-17676"><seg source="#source-17500-17676">能く勤めて而して後休む可しと云ふは東のなり。既に慣るゝも猶且つ過つ有らんと云ふは西のなり。共に嘉言にして佳趣あり。</seg></p>
+      </div>
+      <div>
+        <p source="#source-17744-17779"><seg source="#source-17744-17779">東　聞いて極楽見て地獄</seg></p>
+        <p source="#source-17779-17805"><seg source="#source-17779-17805">西　義理と犢鼻褌</seg></p>
+      </div>
+      <div type="layout" source="#source-17805-18112" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-17858-18046"><seg source="#source-17858-18046">東のは、耳聞と目撃との甚だ異なるを云ひ、西のは、欠く能はざるものの畢竟欠くべきにあらざるを云へるなり。東の方の諺佳趣あり。</seg></p>
+      </div>
+      <div>
+        <p source="#source-18114-18137"><seg source="#source-18114-18137">東　ゆだん大敵</seg></p>
+        <p source="#source-18137-18166"><seg source="#source-18137-18166">西　ゆうれいの浜風</seg></p>
+      </div>
+      <div type="layout" source="#source-18166-18518" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18219-18452"><seg source="#source-18219-18354">東のは意義顕露なり。西のは情趣晦昧なり。幽魂の海風に吹き散ぜらるゝが如く、力無きものの、</seg><ruby type="furigana" rend="right" source="#source-18354-18369"><rb>終</rb><rt>つひ</rt></ruby><seg source="#source-18369-18452">に自ら保つ能はざるを云へるか。西の諺、東には行はれず。</seg></p>
+      </div>
+      <div>
+        <p source="#source-18520-18549"><seg source="#source-18520-18549">東　めの上のたん瘤</seg></p>
+        <p source="#source-18549-18584"><seg source="#source-18549-18584">西　めくらのかきのぞき</seg></p>
+      </div>
+      <div type="layout" source="#source-18584-18831" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18637-18765"><seg source="#source-18637-18765">眼上の肉瘤、甚だ厭ふ可く、盲者の目を張る、又何の益あらんとなり。二諺共に佳趣無し。</seg></p>
+      </div>
+      <div>
+        <p source="#source-18833-18859"><seg source="#source-18833-18859">東　身から出た錆</seg></p>
+        <p source="#source-18859-18888"><seg source="#source-18859-18888">西　身は身でとほる</seg></p>
+      </div>
+      <div type="layout" source="#source-18888-19344" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-18941-19278"><seg source="#source-18941-18953">東のは</seg><g ref="#gaiji-3-1-93-39" source="#source-18953-19027">鏽</g><seg source="#source-19027-19278">花外より到るにあらず、災星多くは自ら招くを云ひ、西のは、口あれば食はざること無く、肩あれば衣ざること無く、憂ふる勿れ身あれば即ち活くに足るとなり。東西共におもしろし。</seg></p>
+      </div>
+      <div>
+        <p source="#source-19346-19369"><seg source="#source-19346-19369">東　知らぬが仏</seg></p>
+        <p source="#source-19369-19416"><seg source="#source-19369-19396">西　しわんぼの柿の</seg><ruby type="furigana" rend="right" source="#source-19396-19414"><rb>核子</rb><rt>たね</rt></ruby></p>
+      </div>
+      <div type="layout" source="#source-19416-19807" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-19469-19741"><seg source="#source-19469-19571">無悩又無憂、知らざるもの即ち是れ仏なり。吝嗇の徒柿の核子にもまた依</seg><g ref="#gaiji-1-2-22" source="#source-19571-19604">〻</g><seg source="#source-19604-19607">恋</seg><g ref="#gaiji-1-2-22" source="#source-19607-19640">〻</g><seg source="#source-19640-19741">として之を棄つる能はざる、悲む可く笑ふ可きなり。東の方おもしろし。</seg></p>
+      </div>
+      <div>
+        <p source="#source-19809-19835"><seg source="#source-19809-19835">東　縁は異なもの</seg></p>
+        <p source="#source-19835-19858"><seg source="#source-19835-19858">西　縁の下の舞</seg></p>
+      </div>
+      <div type="layout" source="#source-19858-20288" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-19911-20222">東のは赤縄紅糸の相牽連するは、人意を以て測る可からざるものあるを云ひ、西のは縁の下の舞の舞ひ得て妙なるも、堂上の眼に入らざることを云へるなり。東の方にて「縁の下の力持」と云ふよりも舞といへるはおもしろし。</p>
+      </div>
+      <div>
+        <p source="#source-20290-20316"><seg source="#source-20290-20316">東　びん乏暇無し</seg></p>
+        <p source="#source-20316-20336"><seg source="#source-20316-20336">西　瓢箪に鯰</seg></p>
+      </div>
+      <div type="layout" source="#source-20336-20649" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-20389-20583">貧者余閑無しといへる、瓢箪は鯰を捉ふ可からずといへる、二語共に妙無し。西の諺、むかしは「膝がしらの江戸行」といへるなりしよし。</p>
+      </div>
+      <div>
+        <p source="#source-20651-20701"><seg source="#source-20651-20701">東　もんぜんの小僧習はぬ経を読む</seg></p>
+        <p source="#source-20701-20724"><seg source="#source-20701-20724">西　餅屋は餅屋</seg></p>
+      </div>
+      <div type="layout" source="#source-20724-20989" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-20777-20923"><seg source="#source-20777-20923">東のは薫染の力の大なるをいひ、西のは当業の技の優れたるを云へる、意は異なれど、勝劣無きに近し。</seg></p>
+      </div>
+      <div>
+        <p source="#source-20991-21026"><seg source="#source-20991-21026">東　せに腹はかへられぬ</seg></p>
+        <p source="#source-21026-21049"><seg source="#source-21026-21049">西　雪隠で饅頭</seg></p>
+      </div>
+      <div type="layout" source="#source-21049-21461" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-21102-21395"><seg source="#source-21102-21330">東のは、親は疎に代ふる能はざるを云ひ、西のは自利の念の甚しきや陋醜唾棄すべきの事を敢てするに至るを嘲れるなり。西のの諺、痛刻ならざるにあらず、たゞ其の</seg><ruby type="furigana" rend="right" source="#source-21330-21354"><rb>狠毒</rb><rt>こんどく</rt></ruby><seg source="#source-21354-21395">の極汚穢を諱まざるを病む。</seg></p>
+      </div>
+      <div>
+        <p source="#source-21463-21489"><seg source="#source-21463-21489">東　粋が身をくふ</seg></p>
+        <p source="#source-21489-21524"><seg source="#source-21489-21524">西　雀百まで躍りやまず</seg></p>
+      </div>
+      <div type="layout" source="#source-21524-22335" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-21577-22269"><seg source="#source-21577-21604">才有り行無くして</seg><ruby type="furigana" rend="right" source="#source-21604-21622"><rb>路花</rb><rt>ろか</rt></ruby><ruby type="furigana" rend="right" source="#source-21622-21649"><rb>墻柳</rb><rt>しやうりう</rt></ruby><seg source="#source-21649-21757">の間に嬉笑するもの、多くは自ら悦び自ら損ずるを悲めるは東の方の諺にして、</seg><ruby type="furigana" rend="right" source="#source-21757-21889"><rb><g ref="#gaiji-164-17" source="#source-21757-21868"/><seg source="#source-21868-21871">薄</seg></rb><rt>けんはく</rt></ruby><ruby type="furigana" rend="right" source="#source-21889-21916"><rb>乖巧</rb><rt>くわいかう</rt></ruby><seg source="#source-21916-21991">の人の其性改まらずして、老に至つて猶紅灯緑酒の間に</seg><g ref="#gaiji-164-17-at-21991" source="#source-21991-22099"/><g ref="#gaiji-164-17-at-22099" source="#source-22099-22207"/><seg source="#source-22207-22269">するものを歎ぜるは西の言なり。二語皆佳。</seg></p>
+      </div>
+      <div>
+        <p source="#source-22337-22366"><seg source="#source-22337-22366">東　京の夢大阪の夢</seg></p>
+        <p source="#source-22366-22392"><seg source="#source-22366-22392">西　京に田舎あり</seg></p>
+      </div>
+      <div type="layout" source="#source-22392-22933" style="padding-inline-start: 2em" rend="font-size qualitative(smaller)">
+        <p style="text-indent: 1em" rend="first-line-indent(1)" source="#source-22445-22867"><seg source="#source-22445-22867">京の夢大阪の夢といへる諺、古より明解無し。無境漂蕩定まり無きを云ふ歟、或は曰く、京に在つて夢みる時は却て大阪を夢むといふの意にして、夢魂多くは異境に飛び旧時に還るを云へるなりと。京に田舎有りといへるは、物必らずしも全美全雅なる能はざるを云へるなり。西の諺、意明らかにして趣有り。</seg></p>
+      </div>
+    </body>
+    <back>
+      <div type="source">
+        <note type="source-attribution" source="#source-22941-23199"><seg type="source-line">底本：「日本の名随筆70　語」作品社</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1988（昭和63）年8月25日第1刷発行</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1992（平成4）年4月10日 第7刷発行</seg><lb/><seg type="source-line">底本の親本：「露伴随筆　第二冊」岩波書店</seg><lb/><seg type="source-line" style="padding-inline-start: 3em">1983（昭和58）年4月</seg></note>
+        <note type="transcriber-note" source="#source-23199-23863"><seg type="source-line">※本作品中には、身体的・精神的資質、職業、地域、階層、民族などに関する不適切な表現が見られます。しかし、作品の時代背景と価値、加えて、作者の抱えた限界を読者自身が認識することの意義を考慮し、底本のままとしました。（青空文庫）</seg><lb/><seg type="source-line">入力：渡邉　つよし</seg><lb/><seg type="source-line">校正：門田裕志</seg><lb/><seg type="source-line">2002年12月4日作成</seg><lb/><seg type="source-line">青空文庫作成ファイル：</seg><lb/><seg type="source-line">このファイルは、インターネットの図書館、青空文庫（http://www.aozora.gr.jp/）で作られました。入力、校正、制作にあたったのは、ボランティアの皆さんです。</seg></note>
+        <note type="source-span" xml:id="source-10014-10065" n="125"/>
+        <note type="source-span" xml:id="source-10065-10080" n="125"/>
+        <note type="source-span" xml:id="source-10080-10247" n="125"/>
+        <note type="source-span" xml:id="source-10315-10344" n="127"/>
+        <note type="source-span" xml:id="source-10344-10385" n="128"/>
+        <note type="source-span" xml:id="source-10385-10749" n="129"/>
+        <note type="source-span" xml:id="source-10438-10438" n="130"/>
+        <note type="source-span" xml:id="source-10438-10447" n="130"/>
+        <note type="source-span" xml:id="source-10438-10683" n="130"/>
+        <note type="source-span" xml:id="source-10447-10459" n="130"/>
+        <note type="source-span" xml:id="source-10459-10683" n="130"/>
+        <note type="source-span" xml:id="source-1071-1095" n="21"/>
+        <note type="source-span" xml:id="source-10751-10795" n="132"/>
+        <note type="source-span" xml:id="source-10795-10821" n="133"/>
+        <note type="source-span" xml:id="source-10821-11101" n="134"/>
+        <note type="source-span" xml:id="source-10874-10874" n="135"/>
+        <note type="source-span" xml:id="source-10874-11035" n="135"/>
+        <note type="source-span" xml:id="source-1095-1379" n="21"/>
+        <note type="source-span" xml:id="source-11103-11132" n="137"/>
+        <note type="source-span" xml:id="source-11132-11155" n="138"/>
+        <note type="source-span" xml:id="source-11155-11468" n="139"/>
+        <note type="source-span" xml:id="source-11208-11208" n="140"/>
+        <note type="source-span" xml:id="source-11208-11292" n="140"/>
+        <note type="source-span" xml:id="source-11208-11402" n="140"/>
+        <note type="source-span" xml:id="source-11292-11313" n="140"/>
+        <note type="source-span" xml:id="source-11313-11402" n="140"/>
+        <note type="source-span" xml:id="source-11470-11511" n="142"/>
+        <note type="source-span" xml:id="source-11511-11543" n="143"/>
+        <note type="source-span" xml:id="source-11543-11814" n="144"/>
+        <note type="source-span" xml:id="source-11596-11596" n="145"/>
+        <note type="source-span" xml:id="source-11596-11620" n="145"/>
+        <note type="source-span" xml:id="source-11596-11748" n="145"/>
+        <note type="source-span" xml:id="source-11620-11635" n="145"/>
+        <note type="source-span" xml:id="source-11635-11748" n="145"/>
+        <note type="source-span" xml:id="source-11816-11822" n="147"/>
+        <note type="source-span" xml:id="source-11816-11875" n="147"/>
+        <note type="source-span" xml:id="source-11822-11846" n="147"/>
+        <note type="source-span" xml:id="source-11846-11875" n="147"/>
+        <note type="source-span" xml:id="source-11875-11901" n="148"/>
+        <note type="source-span" xml:id="source-11901-12493" n="149"/>
+        <note type="source-span" xml:id="source-11954-11954" n="150"/>
+        <note type="source-span" xml:id="source-11954-12053" n="150"/>
+        <note type="source-span" xml:id="source-11954-12427" n="150"/>
+        <note type="source-span" xml:id="source-12053-12068" n="150"/>
+        <note type="source-span" xml:id="source-12068-12427" n="150"/>
+        <note type="source-span" xml:id="source-12495-12507" n="152"/>
+        <note type="source-span" xml:id="source-12495-12533" n="152"/>
+        <note type="source-span" xml:id="source-12507-12531" n="152"/>
+        <note type="source-span" xml:id="source-12531-12533" n="152"/>
+        <note type="source-span" xml:id="source-12533-12553" n="153"/>
+        <note type="source-span" xml:id="source-12553-12932" n="154"/>
+        <note type="source-span" xml:id="source-12606-12606" n="155"/>
+        <note type="source-span" xml:id="source-12606-12759" n="155"/>
+        <note type="source-span" xml:id="source-12606-12866" n="155"/>
+        <note type="source-span" xml:id="source-12759-12777" n="155"/>
+        <note type="source-span" xml:id="source-12777-12866" n="155"/>
+        <note type="source-span" xml:id="source-12934-12966" n="157"/>
+        <note type="source-span" xml:id="source-12966-12995" n="158"/>
+        <note type="source-span" xml:id="source-12995-13491" n="159"/>
+        <note type="source-span" xml:id="source-13048-13048" n="160"/>
+        <note type="source-span" xml:id="source-13048-13425" n="160"/>
+        <note type="source-span" xml:id="source-13493-13528" n="162"/>
+        <note type="source-span" xml:id="source-13528-13551" n="163"/>
+        <note type="source-span" xml:id="source-13551-13879" n="164"/>
+        <note type="source-span" xml:id="source-13604-13604" n="165"/>
+        <note type="source-span" xml:id="source-13604-13631" n="165"/>
+        <note type="source-span" xml:id="source-13604-13813" n="165"/>
+        <note type="source-span" xml:id="source-13631-13646" n="165"/>
+        <note type="source-span" xml:id="source-13646-13813" n="165"/>
+        <note type="source-span" xml:id="source-1379-1385" n="22"/>
+        <note type="source-span" xml:id="source-1379-1429" n="22"/>
+        <note type="source-span" xml:id="source-1385-1400" n="22"/>
+        <note type="source-span" xml:id="source-13881-13904" n="167"/>
+        <note type="source-span" xml:id="source-13904-13919" n="168"/>
+        <note type="source-span" xml:id="source-13904-13951" n="168"/>
+        <note type="source-span" xml:id="source-13919-13937" n="168"/>
+        <note type="source-span" xml:id="source-13937-13951" n="168"/>
+        <note type="source-span" xml:id="source-13951-14315" n="169"/>
+        <note type="source-span" xml:id="source-1400-1429" n="22"/>
+        <note type="source-span" xml:id="source-14004-14004" n="170"/>
+        <note type="source-span" xml:id="source-14004-14249" n="170"/>
+        <note type="source-span" xml:id="source-1429-1441" n="23"/>
+        <note type="source-span" xml:id="source-1429-1455" n="23"/>
+        <note type="source-span" xml:id="source-14317-14346" n="172"/>
+        <note type="source-span" xml:id="source-14346-14372" n="173"/>
+        <note type="source-span" xml:id="source-14372-14625" n="174"/>
+        <note type="source-span" xml:id="source-1441-1447" n="23"/>
+        <note type="source-span" xml:id="source-14425-14425" n="175"/>
+        <note type="source-span" xml:id="source-14425-14559" n="175"/>
+        <note type="source-span" xml:id="source-1447-1455" n="23"/>
+        <note type="source-span" xml:id="source-1455-2293" n="24"/>
+        <note type="source-span" xml:id="source-14627-14677" n="177"/>
+        <note type="source-span" xml:id="source-14677-14712" n="178"/>
+        <note type="source-span" xml:id="source-14712-15040" n="179"/>
+        <note type="source-span" xml:id="source-14765-14765" n="180"/>
+        <note type="source-span" xml:id="source-14765-14974" n="180"/>
+        <note type="source-span" xml:id="source-15042-15071" n="182"/>
+        <note type="source-span" xml:id="source-15071-15106" n="183"/>
+        <note type="source-span" xml:id="source-1508-1508" n="25"/>
+        <note type="source-span" xml:id="source-1508-1802" n="25"/>
+        <note type="source-span" xml:id="source-1508-2227" n="25"/>
+        <note type="source-span" xml:id="source-15106-15662" n="184"/>
+        <note type="source-span" xml:id="source-15159-15159" n="185"/>
+        <note type="source-span" xml:id="source-15159-15596" n="185"/>
+        <note type="source-span" xml:id="source-15664-15693" n="187"/>
+        <note type="source-span" xml:id="source-15693-15716" n="188"/>
+        <note type="source-span" xml:id="source-15716-16113" n="189"/>
+        <note type="source-span" xml:id="source-15769-15769" n="190"/>
+        <note type="source-span" xml:id="source-15769-16047" n="190"/>
+        <note type="source-span" xml:id="source-16115-16153" n="192"/>
+        <note type="source-span" xml:id="source-16153-16176" n="193"/>
+        <note type="source-span" xml:id="source-16176-17023" n="194"/>
+        <note type="source-span" xml:id="source-16229-16229" n="195"/>
+        <note type="source-span" xml:id="source-16229-16957" n="195"/>
+        <note type="source-span" xml:id="source-16568-16586" n="195"/>
+        <note type="source-span" xml:id="source-16586-16763" n="195"/>
+        <note type="source-span" xml:id="source-16763-16796" n="195"/>
+        <note type="source-span" xml:id="source-16796-16957" n="195"/>
+        <note type="source-span" xml:id="source-17025-17066" n="197"/>
+        <note type="source-span" xml:id="source-17066-17098" n="198"/>
+        <note type="source-span" xml:id="source-17098-17375" n="199"/>
+        <note type="source-span" xml:id="source-17151-17151" n="200"/>
+        <note type="source-span" xml:id="source-17151-17309" n="200"/>
+        <note type="source-span" xml:id="source-17377-17415" n="202"/>
+        <note type="source-span" xml:id="source-17415-17447" n="203"/>
+        <note type="source-span" xml:id="source-17447-17742" n="204"/>
+        <note type="source-span" xml:id="source-17500-17500" n="205"/>
+        <note type="source-span" xml:id="source-17500-17676" n="205"/>
+        <note type="source-span" xml:id="source-17744-17779" n="207"/>
+        <note type="source-span" xml:id="source-17779-17805" n="208"/>
+        <note type="source-span" xml:id="source-17805-18112" n="209"/>
+        <note type="source-span" xml:id="source-17858-17858" n="210"/>
+        <note type="source-span" xml:id="source-17858-18046" n="210"/>
+        <note type="source-span" xml:id="source-1802-1808" n="25"/>
+        <note type="source-span" xml:id="source-1808-1868" n="25"/>
+        <note type="source-span" xml:id="source-18114-18137" n="212"/>
+        <note type="source-span" xml:id="source-18137-18166" n="213"/>
+        <note type="source-span" xml:id="source-18166-18518" n="214"/>
+        <note type="source-span" xml:id="source-18219-18219" n="215"/>
+        <note type="source-span" xml:id="source-18219-18354" n="215"/>
+        <note type="source-span" xml:id="source-18219-18452" n="215"/>
+        <note type="source-span" xml:id="source-18354-18369" n="215"/>
+        <note type="source-span" xml:id="source-18369-18452" n="215"/>
+        <note type="source-span" xml:id="source-18520-18549" n="217"/>
+        <note type="source-span" xml:id="source-18549-18584" n="218"/>
+        <note type="source-span" xml:id="source-18584-18831" n="219"/>
+        <note type="source-span" xml:id="source-18637-18637" n="220"/>
+        <note type="source-span" xml:id="source-18637-18765" n="220"/>
+        <note type="source-span" xml:id="source-1868-1874" n="25"/>
+        <note type="source-span" xml:id="source-1874-1931" n="25"/>
+        <note type="source-span" xml:id="source-18833-18859" n="222"/>
+        <note type="source-span" xml:id="source-18859-18888" n="223"/>
+        <note type="source-span" xml:id="source-18888-19344" n="224"/>
+        <note type="source-span" xml:id="source-18941-18941" n="225"/>
+        <note type="source-span" xml:id="source-18941-18953" n="225"/>
+        <note type="source-span" xml:id="source-18941-19278" n="225"/>
+        <note type="source-span" xml:id="source-18953-19027" n="225"/>
+        <note type="source-span" xml:id="source-19027-19278" n="225"/>
+        <note type="source-span" xml:id="source-1931-1934" n="25"/>
+        <note type="source-span" xml:id="source-1931-1985" n="25"/>
+        <note type="source-span" xml:id="source-1934-1967" n="25"/>
+        <note type="source-span" xml:id="source-19346-19369" n="227"/>
+        <note type="source-span" xml:id="source-19369-19396" n="228"/>
+        <note type="source-span" xml:id="source-19369-19416" n="228"/>
+        <note type="source-span" xml:id="source-19396-19414" n="228"/>
+        <note type="source-span" xml:id="source-19414-19416" n="228"/>
+        <note type="source-span" xml:id="source-19416-19807" n="229"/>
+        <note type="source-span" xml:id="source-19469-19469" n="230"/>
+        <note type="source-span" xml:id="source-19469-19571" n="230"/>
+        <note type="source-span" xml:id="source-19469-19741" n="230"/>
+        <note type="source-span" xml:id="source-19571-19604" n="230"/>
+        <note type="source-span" xml:id="source-19604-19607" n="230"/>
+        <note type="source-span" xml:id="source-19607-19640" n="230"/>
+        <note type="source-span" xml:id="source-19640-19741" n="230"/>
+        <note type="source-span" xml:id="source-1970-1976" n="25"/>
+        <note type="source-span" xml:id="source-1976-1982" n="25"/>
+        <note type="source-span" xml:id="source-19809-19835" n="232"/>
+        <note type="source-span" xml:id="source-19835-19858" n="233"/>
+        <note type="source-span" xml:id="source-1985-2012" n="25"/>
+        <note type="source-span" xml:id="source-19858-20288" n="234"/>
+        <note type="source-span" xml:id="source-19911-19911" n="235"/>
+        <note type="source-span" xml:id="source-19911-20222" n="235"/>
+        <note type="source-span" xml:id="source-2012-2018" n="25"/>
+        <note type="source-span" xml:id="source-2018-2168" n="25"/>
+        <note type="source-span" xml:id="source-20290-20316" n="237"/>
+        <note type="source-span" xml:id="source-20316-20336" n="238"/>
+        <note type="source-span" xml:id="source-20336-20649" n="239"/>
+        <note type="source-span" xml:id="source-20389-20389" n="240"/>
+        <note type="source-span" xml:id="source-20389-20583" n="240"/>
+        <note type="source-span" xml:id="source-20651-20701" n="242"/>
+        <note type="source-span" xml:id="source-20701-20724" n="243"/>
+        <note type="source-span" xml:id="source-20724-20989" n="244"/>
+        <note type="source-span" xml:id="source-20777-20777" n="245"/>
+        <note type="source-span" xml:id="source-20777-20923" n="245"/>
+        <note type="source-span" xml:id="source-20991-21026" n="247"/>
+        <note type="source-span" xml:id="source-21026-21049" n="248"/>
+        <note type="source-span" xml:id="source-21049-21461" n="249"/>
+        <note type="source-span" xml:id="source-21102-21102" n="250"/>
+        <note type="source-span" xml:id="source-21102-21330" n="250"/>
+        <note type="source-span" xml:id="source-21102-21395" n="250"/>
+        <note type="source-span" xml:id="source-21330-21354" n="250"/>
+        <note type="source-span" xml:id="source-21354-21395" n="250"/>
+        <note type="source-span" xml:id="source-21463-21489" n="252"/>
+        <note type="source-span" xml:id="source-21489-21524" n="253"/>
+        <note type="source-span" xml:id="source-21524-22335" n="254"/>
+        <note type="source-span" xml:id="source-21577-21577" n="255"/>
+        <note type="source-span" xml:id="source-21577-21604" n="255"/>
+        <note type="source-span" xml:id="source-21577-22269" n="255"/>
+        <note type="source-span" xml:id="source-21604-21622" n="255"/>
+        <note type="source-span" xml:id="source-21622-21649" n="255"/>
+        <note type="source-span" xml:id="source-21649-21757" n="255"/>
+        <note type="source-span" xml:id="source-2168-2183" n="25"/>
+        <note type="source-span" xml:id="source-21757-21868" n="255"/>
+        <note type="source-span" xml:id="source-21757-21889" n="255"/>
+        <note type="source-span" xml:id="source-2183-2227" n="25"/>
+        <note type="source-span" xml:id="source-21868-21871" n="255"/>
+        <note type="source-span" xml:id="source-21889-21916" n="255"/>
+        <note type="source-span" xml:id="source-21916-21991" n="255"/>
+        <note type="source-span" xml:id="source-21991-22099" n="255"/>
+        <note type="source-span" xml:id="source-22099-22207" n="255"/>
+        <note type="source-span" xml:id="source-22207-22269" n="255"/>
+        <note type="source-span" xml:id="source-22337-22366" n="257"/>
+        <note type="source-span" xml:id="source-22366-22392" n="258"/>
+        <note type="source-span" xml:id="source-22392-22933" n="259"/>
+        <note type="source-span" xml:id="source-22445-22445" n="260"/>
+        <note type="source-span" xml:id="source-22445-22867" n="260"/>
+        <note type="source-span" xml:id="source-22941-23199" n="265"/>
+        <note type="source-span" xml:id="source-2295-2318" n="27"/>
+        <note type="source-span" xml:id="source-2318-2356" n="28"/>
+        <note type="source-span" xml:id="source-23199-23863" n="270"/>
+        <note type="source-span" xml:id="source-2356-2558" n="29"/>
+        <note type="source-span" xml:id="source-2409-2409" n="30"/>
+        <note type="source-span" xml:id="source-2409-2492" n="30"/>
+        <note type="source-span" xml:id="source-2560-2583" n="32"/>
+        <note type="source-span" xml:id="source-2583-2609" n="33"/>
+        <note type="source-span" xml:id="source-2609-3045" n="34"/>
+        <note type="source-span" xml:id="source-2662-2662" n="35"/>
+        <note type="source-span" xml:id="source-2662-2674" n="35"/>
+        <note type="source-span" xml:id="source-2662-2979" n="35"/>
+        <note type="source-span" xml:id="source-2674-2692" n="35"/>
+        <note type="source-span" xml:id="source-3047-3091" n="37"/>
+        <note type="source-span" xml:id="source-3091-3108" n="38"/>
+        <note type="source-span" xml:id="source-3108-3505" n="39"/>
+        <note type="source-span" xml:id="source-3161-3161" n="40"/>
+        <note type="source-span" xml:id="source-3161-3164" n="40"/>
+        <note type="source-span" xml:id="source-3161-3439" n="40"/>
+        <note type="source-span" xml:id="source-3164-3185" n="40"/>
+        <note type="source-span" xml:id="source-3185-3233" n="40"/>
+        <note type="source-span" xml:id="source-3233-3254" n="40"/>
+        <note type="source-span" xml:id="source-3254-3269" n="40"/>
+        <note type="source-span" xml:id="source-3269-3287" n="40"/>
+        <note type="source-span" xml:id="source-3287-3439" n="40"/>
+        <note type="source-span" xml:id="source-3507-3551" n="42"/>
+        <note type="source-span" xml:id="source-3551-3583" n="43"/>
+        <note type="source-span" xml:id="source-3583-3896" n="44"/>
+        <note type="source-span" xml:id="source-3636-3636" n="45"/>
+        <note type="source-span" xml:id="source-3636-3741" n="45"/>
+        <note type="source-span" xml:id="source-3636-3830" n="45"/>
+        <note type="source-span" xml:id="source-3741-3774" n="45"/>
+        <note type="source-span" xml:id="source-3774-3830" n="45"/>
+        <note type="source-span" xml:id="source-3898-3910" n="47"/>
+        <note type="source-span" xml:id="source-3898-3942" n="47"/>
+        <note type="source-span" xml:id="source-3910-3922" n="47"/>
+        <note type="source-span" xml:id="source-3922-3942" n="47"/>
+        <note type="source-span" xml:id="source-3942-3968" n="48"/>
+        <note type="source-span" xml:id="source-3968-4179" n="49"/>
+        <note type="source-span" xml:id="source-4021-4021" n="50"/>
+        <note type="source-span" xml:id="source-4021-4113" n="50"/>
+        <note type="source-span" xml:id="source-4181-4204" n="52"/>
+        <note type="source-span" xml:id="source-4204-4219" n="53"/>
+        <note type="source-span" xml:id="source-4204-4242" n="53"/>
+        <note type="source-span" xml:id="source-4219-4240" n="53"/>
+        <note type="source-span" xml:id="source-4240-4242" n="53"/>
+        <note type="source-span" xml:id="source-4242-4525" n="54"/>
+        <note type="source-span" xml:id="source-4295-4295" n="55"/>
+        <note type="source-span" xml:id="source-4295-4459" n="55"/>
+        <note type="source-span" xml:id="source-4527-4550" n="57"/>
+        <note type="source-span" xml:id="source-4550-4579" n="58"/>
+        <note type="source-span" xml:id="source-4579-4853" n="59"/>
+        <note type="source-span" xml:id="source-4632-4632" n="60"/>
+        <note type="source-span" xml:id="source-4632-4662" n="60"/>
+        <note type="source-span" xml:id="source-4632-4787" n="60"/>
+        <note type="source-span" xml:id="source-4662-4680" n="60"/>
+        <note type="source-span" xml:id="source-4680-4787" n="60"/>
+        <note type="source-span" xml:id="source-4855-4861" n="62"/>
+        <note type="source-span" xml:id="source-4855-4905" n="62"/>
+        <note type="source-span" xml:id="source-4861-4891" n="62"/>
+        <note type="source-span" xml:id="source-4891-4905" n="62"/>
+        <note type="source-span" xml:id="source-4905-4911" n="63"/>
+        <note type="source-span" xml:id="source-4905-4949" n="63"/>
+        <note type="source-span" xml:id="source-4911-4935" n="63"/>
+        <note type="source-span" xml:id="source-4935-4949" n="63"/>
+        <note type="source-span" xml:id="source-4949-5265" n="64"/>
+        <note type="source-span" xml:id="source-5002-5002" n="65"/>
+        <note type="source-span" xml:id="source-5002-5020" n="65"/>
+        <note type="source-span" xml:id="source-5002-5199" n="65"/>
+        <note type="source-span" xml:id="source-5020-5044" n="65"/>
+        <note type="source-span" xml:id="source-5044-5152" n="65"/>
+        <note type="source-span" xml:id="source-5152-5167" n="65"/>
+        <note type="source-span" xml:id="source-5167-5199" n="65"/>
+        <note type="source-span" xml:id="source-5267-5293" n="67"/>
+        <note type="source-span" xml:id="source-5293-5313" n="68"/>
+        <note type="source-span" xml:id="source-5313-5614" n="69"/>
+        <note type="source-span" xml:id="source-5366-5366" n="70"/>
+        <note type="source-span" xml:id="source-5366-5548" n="70"/>
+        <note type="source-span" xml:id="source-5616-5657" n="72"/>
+        <note type="source-span" xml:id="source-5657-5683" n="73"/>
+        <note type="source-span" xml:id="source-5683-6023" n="74"/>
+        <note type="source-span" xml:id="source-5736-5736" n="75"/>
+        <note type="source-span" xml:id="source-5736-5763" n="75"/>
+        <note type="source-span" xml:id="source-5736-5957" n="75"/>
+        <note type="source-span" xml:id="source-5763-5796" n="75"/>
+        <note type="source-span" xml:id="source-5796-5957" n="75"/>
+        <note type="source-span" xml:id="source-6025-6057" n="77"/>
+        <note type="source-span" xml:id="source-6057-6092" n="78"/>
+        <note type="source-span" xml:id="source-6092-6498" n="79"/>
+        <note type="source-span" xml:id="source-6145-6145" n="80"/>
+        <note type="source-span" xml:id="source-6145-6292" n="80"/>
+        <note type="source-span" xml:id="source-6145-6432" n="80"/>
+        <note type="source-span" xml:id="source-6292-6307" n="80"/>
+        <note type="source-span" xml:id="source-6307-6367" n="80"/>
+        <note type="source-span" xml:id="source-6367-6385" n="80"/>
+        <note type="source-span" xml:id="source-6385-6432" n="80"/>
+        <note type="source-span" xml:id="source-6500-6526" n="82"/>
+        <note type="source-span" xml:id="source-6526-6549" n="83"/>
+        <note type="source-span" xml:id="source-6549-7078" n="84"/>
+        <note type="source-span" xml:id="source-6602-6602" n="85"/>
+        <note type="source-span" xml:id="source-6602-6626" n="85"/>
+        <note type="source-span" xml:id="source-6602-7012" n="85"/>
+        <note type="source-span" xml:id="source-6626-6650" n="85"/>
+        <note type="source-span" xml:id="source-6650-6704" n="85"/>
+        <note type="source-span" xml:id="source-6704-6719" n="85"/>
+        <note type="source-span" xml:id="source-6719-6734" n="85"/>
+        <note type="source-span" xml:id="source-6734-6980" n="85"/>
+        <note type="source-span" xml:id="source-6980-7001" n="85"/>
+        <note type="source-span" xml:id="source-7001-7012" n="85"/>
+        <note type="source-span" xml:id="source-7080-7101" n="87"/>
+        <note type="source-span" xml:id="source-7080-7127" n="87"/>
+        <note type="source-span" xml:id="source-7101-7116" n="87"/>
+        <note type="source-span" xml:id="source-7116-7127" n="87"/>
+        <note type="source-span" xml:id="source-7127-7150" n="88"/>
+        <note type="source-span" xml:id="source-7150-7496" n="89"/>
+        <note type="source-span" xml:id="source-7203-7203" n="90"/>
+        <note type="source-span" xml:id="source-7203-7239" n="90"/>
+        <note type="source-span" xml:id="source-7203-7430" n="90"/>
+        <note type="source-span" xml:id="source-7239-7260" n="90"/>
+        <note type="source-span" xml:id="source-7260-7308" n="90"/>
+        <note type="source-span" xml:id="source-7308-7341" n="90"/>
+        <note type="source-span" xml:id="source-7341-7430" n="90"/>
+        <note type="source-span" xml:id="source-7498-7539" n="92"/>
+        <note type="source-span" xml:id="source-7539-7562" n="93"/>
+        <note type="source-span" xml:id="source-7562-7905" n="94"/>
+        <note type="source-span" xml:id="source-7615-7615" n="95"/>
+        <note type="source-span" xml:id="source-7615-7618" n="95"/>
+        <note type="source-span" xml:id="source-7615-7839" n="95"/>
+        <note type="source-span" xml:id="source-7618-7642" n="95"/>
+        <note type="source-span" xml:id="source-7642-7839" n="95"/>
+        <note type="source-span" xml:id="source-771-1379" n="21"/>
+        <note type="source-span" xml:id="source-771-852" n="21"/>
+        <note type="source-span" xml:id="source-7907-7933" n="97"/>
+        <note type="source-span" xml:id="source-7933-7959" n="98"/>
+        <note type="source-span" xml:id="source-7959-8215" n="99"/>
+        <note type="source-span" xml:id="source-8012-8012" n="100"/>
+        <note type="source-span" xml:id="source-8012-8149" n="100"/>
+        <note type="source-span" xml:id="source-8217-8249" n="102"/>
+        <note type="source-span" xml:id="source-8249-8278" n="103"/>
+        <note type="source-span" xml:id="source-8278-8630" n="104"/>
+        <note type="source-span" xml:id="source-8331-8331" n="105"/>
+        <note type="source-span" xml:id="source-8331-8564" n="105"/>
+        <note type="source-span" xml:id="source-852-873" n="21"/>
+        <note type="source-span" xml:id="source-8632-8655" n="107"/>
+        <note type="source-span" xml:id="source-8655-8687" n="108"/>
+        <note type="source-span" xml:id="source-8687-9078" n="109"/>
+        <note type="source-span" xml:id="source-873-1071" n="21"/>
+        <note type="source-span" xml:id="source-8740-8740" n="110"/>
+        <note type="source-span" xml:id="source-8740-8848" n="110"/>
+        <note type="source-span" xml:id="source-8740-9012" n="110"/>
+        <note type="source-span" xml:id="source-8848-8881" n="110"/>
+        <note type="source-span" xml:id="source-8881-8935" n="110"/>
+        <note type="source-span" xml:id="source-8935-8968" n="110"/>
+        <note type="source-span" xml:id="source-8968-9012" n="110"/>
+        <note type="source-span" xml:id="source-9080-9115" n="112"/>
+        <note type="source-span" xml:id="source-9115-9138" n="113"/>
+        <note type="source-span" xml:id="source-9138-9462" n="114"/>
+        <note type="source-span" xml:id="source-9191-9191" n="115"/>
+        <note type="source-span" xml:id="source-9191-9302" n="115"/>
+        <note type="source-span" xml:id="source-9191-9396" n="115"/>
+        <note type="source-span" xml:id="source-9302-9382" n="115"/>
+        <note type="source-span" xml:id="source-9382-9396" n="115"/>
+        <note type="source-span" xml:id="source-9464-9496" n="117"/>
+        <note type="source-span" xml:id="source-9496-9516" n="118"/>
+        <note type="source-span" xml:id="source-9516-9880" n="119"/>
+        <note type="source-span" xml:id="source-9569-9569" n="120"/>
+        <note type="source-span" xml:id="source-9569-9605" n="120"/>
+        <note type="source-span" xml:id="source-9569-9814" n="120"/>
+        <note type="source-span" xml:id="source-9605-9623" n="120"/>
+        <note type="source-span" xml:id="source-9623-9814" n="120"/>
+        <note type="source-span" xml:id="source-9882-9908" n="122"/>
+        <note type="source-span" xml:id="source-9908-9937" n="123"/>
+        <note type="source-span" xml:id="source-9937-10313" n="124"/>
+        <note type="source-span" xml:id="source-9990-10247" n="125"/>
+        <note type="source-span" xml:id="source-9990-9990" n="125"/>
+        <note type="source-span" xml:id="source-9990-9999" n="125"/>
+        <note type="source-span" xml:id="source-9999-10014" n="125"/>
+      </div>
+      <note type="parser-completion" n="true">The n attribute is true when no parser diagnostic of error severity was raised for this source. What the converter could not interpret is recorded in the interpretation-problem and parser-diagnostic notes.</note>
+      <note type="source-decoding">windows-31j</note>
+      <note type="source-span" xml:id="parser-source-0">{
+  "coordinate_system": "decoded_utf8",
+  "end": 21868,
+  "end_line": 255,
+  "line": 255,
+  "start": 21757
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="unresolved-gaiji" source="#parser-source-0">unresolved_gaiji</note>
+      <note type="source-span" xml:id="parser-source-1">{
+  "coordinate_system": "decoded_utf8",
+  "end": 22099,
+  "end_line": 255,
+  "line": 255,
+  "start": 21991
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="unresolved-gaiji" source="#parser-source-1">unresolved_gaiji</note>
+      <note type="source-span" xml:id="parser-source-2">{
+  "coordinate_system": "decoded_utf8",
+  "end": 22207,
+  "end_line": 255,
+  "line": 255,
+  "start": 22099
+}</note>
+      <note type="parser-diagnostic" subtype="warning" n="unresolved-gaiji" source="#parser-source-2">unresolved_gaiji</note>
+    </back>
+  </text>
+</TEI>
